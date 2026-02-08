@@ -6,8 +6,15 @@ import (
 	"html/template"
 	"net/http"
 	"sort"
+	"sync"
 	"time"
 )
+
+type fetchResult struct {
+	results []DisplayTeeTime
+	err     error
+	name    string
+}
 
 func handleTeeTimes(w http.ResponseWriter, r *http.Request) {
 	var date string = r.URL.Query().Get("date")
@@ -15,53 +22,72 @@ func handleTeeTimes(w http.ResponseWriter, r *http.Request) {
 		date = time.Now().Format("2006-01-02")
 	}
 
-	var allResults []DisplayTeeTime
-	var err error
+	var ch chan fetchResult = make(chan fetchResult)
+	var wg sync.WaitGroup
 
-	// Fetch all MemberSports courses
+	// Launch all MemberSports fetches
 	for name, config := range MemberSportsCourses {
-		var results []DisplayTeeTime
-		results, err = fetchMemberSports(config, date)
-		if err != nil {
-			fmt.Println("Error fetching", name, ":", err)
-		} else {
-			allResults = append(allResults, results...)
-		}
+		wg.Add(1)
+		go func(n string, c MemberSportsCourseConfig) {
+			defer wg.Done()
+			var results []DisplayTeeTime
+			var err error
+			results, err = fetchMemberSports(c, date)
+			ch <- fetchResult{results: results, err: err, name: n}
+		}(name, config)
 	}
 
-	// Fetch all Chronogolf courses
+	// Launch all Chronogolf fetches
 	for name, config := range ChronogolfCourses {
-		var results []DisplayTeeTime
-		results, err = fetchChronogolf(config, date)
-		if err != nil {
-			fmt.Println("Error fetching", name, ":", err)
-		} else {
-			allResults = append(allResults, results...)
-		}
+		wg.Add(1)
+		go func(n string, c ChronogolfCourseConfig) {
+			defer wg.Done()
+			var results []DisplayTeeTime
+			var err error
+			results, err = fetchChronogolf(c, date)
+			ch <- fetchResult{results: results, err: err, name: n}
+		}(name, config)
 	}
 
-	// Fetch all CPS Golf courses
+	// Launch all CPS Golf fetches
 	for name, config := range CPSGolfCourses {
-		var results []DisplayTeeTime
-		results, err = fetchCPSGolf(config, date)
-		if err != nil {
-			fmt.Println("Error fetching", name, ":", err)
-		} else {
-			allResults = append(allResults, results...)
-		}
+		wg.Add(1)
+		go func(n string, c CPSGolfCourseConfig) {
+			defer wg.Done()
+			var results []DisplayTeeTime
+			var err error
+			results, err = fetchCPSGolf(c, date)
+			ch <- fetchResult{results: results, err: err, name: n}
+		}(name, config)
 	}
 
-	// Fetch all GolfNow courses
+	// Launch all GolfNow fetches
 	for name, config := range GolfNowCourses {
-		var results []DisplayTeeTime
-		results, err = fetchGolfNow(config, date)
-		if err != nil {
-			fmt.Println("Error fetching", name, ":", err)
-		} else {
-			allResults = append(allResults, results...)
-		}
+		wg.Add(1)
+		go func(n string, c GolfNowCourseConfig) {
+			defer wg.Done()
+			var results []DisplayTeeTime
+			var err error
+			results, err = fetchGolfNow(c, date)
+			ch <- fetchResult{results: results, err: err, name: n}
+		}(name, config)
 	}
 
+	// Close channel when all goroutines finish
+	go func() {
+		wg.Wait()
+		close(ch)
+	}()
+
+	// Collect results
+	var allResults []DisplayTeeTime
+	for result := range ch {
+		if result.err != nil {
+			fmt.Println("Error fetching", result.name, ":", result.err)
+		} else {
+			allResults = append(allResults, result.results...)
+		}
+	}
 
 	// Sort by time
 	sort.Slice(allResults, func(i int, j int) bool {

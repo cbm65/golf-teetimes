@@ -4,6 +4,8 @@ function getBaseCourse(name) {
     if (name.indexOf("Kennedy") === 0) return "Kennedy"
     if (name.indexOf("Fox Hollow") === 0) return "Fox Hollow"
     if (name.indexOf("Homestead") === 0) return "Homestead"
+    if (name.indexOf("Harvard Gulch") === 0) return "Harvard Gulch"
+    if (name.indexOf("South Suburban") === 0) return "South Suburban"
     return name.replace(" Back Nine", "")
 }
 
@@ -88,7 +90,10 @@ function displayTimes() {
             html += "<td class='openings-cell " + openClass + "'>" + t.openings + " / 4</td>"
             html += "<td><span class='" + holesClass + "'>" + t.holes + " holes</span></td>"
             html += "<td class='price-cell'>$" + t.price + "</td>"
-            html += "<td><a href='" + t.bookingUrl + "' target='_blank' class='book-link'>Book</a></td>"
+            var bookLabel = "Book"
+            if (t.bookingUrl.indexOf("golfnow.com") !== -1) bookLabel = "Book via GolfNow"
+
+            html += "<td><a href='" + t.bookingUrl + "' target='_blank' class='book-link'>" + bookLabel + "</a></td>"
             html += "</tr>"
         }
 

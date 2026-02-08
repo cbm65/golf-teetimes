@@ -190,6 +190,12 @@ func getBaseCourse(name string) string {
 	if strings.HasPrefix(name, "Homestead") {
 		return "Homestead"
 	}
+	if strings.HasPrefix(name, "Harvard Gulch") {
+		return "Harvard Gulch"
+	}
+	if strings.HasPrefix(name, "South Suburban") {
+		return "South Suburban"
+	}
 	return strings.Replace(name, " Back Nine", "", 1)
 }
 

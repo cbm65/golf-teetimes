@@ -41,12 +41,12 @@ type CPSGolfResponse struct {
 }
 
 type CPSGolfSlot struct {
-	StartTime   string           `json:"startTime"`
-	CourseName  string           `json:"courseName"`
-	Holes       int              `json:"holes"`
-	Participants int             `json:"participants"`
-	BookingList []interface{}    `json:"bookingList"`
-	ShItemPrices []CPSGolfPrice  `json:"shItemPrices"`
+	StartTime              string           `json:"startTime"`
+	CourseName             string           `json:"courseName"`
+	Holes                  int              `json:"holes"`
+	Participants           int              `json:"participants"`
+	MaxPlayer              int              `json:"maxPlayer"`
+	ShItemPrices           []CPSGolfPrice   `json:"shItemPrices"`
 }
 
 type CPSGolfPrice struct {
@@ -159,10 +159,7 @@ func fetchCPSGolf(config CPSGolfCourseConfig, date string) ([]DisplayTeeTime, er
 		}
 		var timeStr string = t.Format("3:04 PM")
 
-		var openings int = slot.Participants - len(slot.BookingList)
-		if openings < 0 {
-			openings = 0
-		}
+		var openings int = slot.MaxPlayer
 
 		var price float64 = 0
 		if len(slot.ShItemPrices) > 0 {

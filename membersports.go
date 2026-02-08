@@ -27,7 +27,7 @@ var MemberSportsCourses = map[string]MemberSportsCourseConfig{
 		GroupID:    1,
 		ConfigType: 1,
 		BookingURL: "https://app.membersports.com/tee-times/3629/20573/1/1/0",
-		KnownCourses: []string{"City Park", "Kennedy", "Wellshire", "Willis Case", "Overland Park", "Harvard Gulch Par 3", "Kennedy Par 3 or Footgolf"},
+		KnownCourses: []string{"City Park", "Kennedy", "Wellshire", "Willis Case", "Overland Park", "Harvard Gulch", "Kennedy Par 3 or Footgolf"},
 	},
 	"foxhollow": {
 		ClubID:     3703,
