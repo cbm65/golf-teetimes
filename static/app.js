@@ -1,5 +1,4 @@
 var allTimes = []
-var bookingURL = "https://app.membersports.com/tee-times/3629/20573/1/1/0"
 
 function getBaseCourse(name) {
     if (name.indexOf("Kennedy") === 0) return "Kennedy"
@@ -86,7 +85,7 @@ function displayTimes() {
             html += "<td class='openings-cell " + openClass + "'>" + t.openings + " / 4</td>"
             html += "<td><span class='" + holesClass + "'>" + t.holes + " holes</span></td>"
             html += "<td class='price-cell'>$" + t.price + "</td>"
-            html += "<td><a href='" + bookingURL + "' target='_blank' class='book-link'>Book</a></td>"
+            html += "<td><a href='" + t.bookingUrl + "' target='_blank' class='book-link'>Book</a></td>"
             html += "</tr>"
         }
 

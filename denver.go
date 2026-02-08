@@ -12,6 +12,7 @@ const DenverAPIKey = "A9814038-9E19-4683-B171-5A06B39147FC"
 const DenverAPIURL = "https://api.membersports.com/api/v1/golfclubs/onlineBookingTeeTimes"
 const DenverClubID = 3629
 const DenverCourseID = 20573
+const DenverBookingURL = "https://app.membersports.com/tee-times/3629/20573/1/1/0"
 
 type DenverRequest struct {
 	ConfigurationTypeId int    `json:"configurationTypeId"`
@@ -109,11 +110,12 @@ func fetchDenver(date string) ([]DisplayTeeTime, error) {
 			}
 
 			results = append(results, DisplayTeeTime{
-				Time:     timeStr,
-				Course:   item.Name,
-				Openings: openings,
-				Holes:    holes,
-				Price:    item.Price,
+				Time:       timeStr,
+				Course:     item.Name,
+				Openings:   openings,
+				Holes:      holes,
+				Price:      item.Price,
+				BookingURL: DenverBookingURL,
 			})
 		}
 	}

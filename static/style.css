@@ -159,6 +159,19 @@ input[type="date"]:focus, input[type="tel"]:focus, select:focus {
     margin-bottom: 24px;
 }
 
+.alert-form-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+    align-items: flex-end;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+}
+
 .alert-consent {
     margin-top: 20px;
     font-size: 12px;
@@ -504,6 +517,7 @@ tr:hover td {
     .header-top { flex-direction: column; }
     .nav { margin-top: 16px; }
     .filters { flex-direction: column; }
+    .alert-form-row { flex-direction: column; }
     .alert-form-grid { grid-template-columns: 1fr; }
     input[type="date"], input[type="tel"], select { min-width: 100%; }
     td, th { padding: 12px 14px; font-size: 14px; }

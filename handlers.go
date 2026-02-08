@@ -2,8 +2,10 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"html/template"
 	"net/http"
+	"sort"
 	"time"
 )
 
@@ -13,16 +15,38 @@ func handleTeeTimes(w http.ResponseWriter, r *http.Request) {
 		date = time.Now().Format("2006-01-02")
 	}
 
-	var results []DisplayTeeTime
+	var allResults []DisplayTeeTime
+
+	// Fetch Denver
+	var denverResults []DisplayTeeTime
 	var err error
-	results, err = fetchDenver(date)
+	denverResults, err = fetchDenver(date)
 	if err != nil {
-		http.Error(w, err.Error(), 500)
-		return
+		fmt.Println("Error fetching Denver:", err)
+	} else {
+		allResults = append(allResults, denverResults...)
 	}
 
+	// Fetch all Chronogolf courses
+	for name, config := range ChronogolfCourses {
+		var results []DisplayTeeTime
+		results, err = fetchChronogolf(config, date)
+		if err != nil {
+			fmt.Println("Error fetching", name, ":", err)
+		} else {
+			allResults = append(allResults, results...)
+		}
+	}
+
+	// Sort by time
+	sort.Slice(allResults, func(i int, j int) bool {
+		var iMins int = parseTimeToMinutes(allResults[i].Time)
+		var jMins int = parseTimeToMinutes(allResults[j].Time)
+		return iMins < jMins
+	})
+
 	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(results)
+	json.NewEncoder(w).Encode(allResults)
 }
 
 func handleHome(w http.ResponseWriter, r *http.Request) {

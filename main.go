@@ -19,5 +19,8 @@ func main() {
 	go startAlertChecker()
 
 	fmt.Println("Server running at http://localhost:8080")
-	http.ListenAndServe(":8080", nil)
+	var err error = http.ListenAndServe(":8080", nil)
+	if err != nil {
+		fmt.Println("Server failed:", err)
+	}
 }

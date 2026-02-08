@@ -10,7 +10,37 @@ import (
 )
 
 const AlertsFile = "data/alerts.json"
-const DenverBookingURL = "https://app.membersports.com/tee-times/3629/20573/1/1/0"
+
+func findChronogolfConfig(course string) (ChronogolfCourseConfig, bool) {
+	for _, config := range ChronogolfCourses {
+		for _, displayName := range config.Names {
+			if displayName == course {
+				return config, true
+			}
+		}
+	}
+	return ChronogolfCourseConfig{}, false
+}
+
+func fetchForCourse(course string, date string) ([]DisplayTeeTime, error) {
+	var config ChronogolfCourseConfig
+	var found bool
+	config, found = findChronogolfConfig(course)
+	if found {
+		return fetchChronogolf(config, date)
+	}
+	return fetchDenver(date)
+}
+
+func bookingURLForCourse(course string) string {
+	var config ChronogolfCourseConfig
+	var found bool
+	config, found = findChronogolfConfig(course)
+	if found {
+		return config.BookingURL
+	}
+	return DenverBookingURL
+}
 
 func parseTimeToMinutes(timeStr string) int {
 	var parts []string = strings.Split(timeStr, " ")
@@ -74,6 +104,13 @@ func saveAlerts(alerts []Alert) error {
 	return os.WriteFile(AlertsFile, data, 0644)
 }
 
+func getBaseCourse(name string) string {
+	if strings.HasPrefix(name, "Kennedy") {
+		return "Kennedy"
+	}
+	return strings.Replace(name, " Back Nine", "", 1)
+}
+
 func addAlert(phone string, course string, date string, startTime string, endTime string) (Alert, error) {
 	// Validate start time is before end time
 	var startMins int = parseTimeToMinutes(startTime)
@@ -98,14 +135,10 @@ func addAlert(phone string, course string, date string, startTime string, endTim
 
 	// Check if a tee time already exists in this window
 	var teeTimes []DisplayTeeTime
-	teeTimes, err = fetchDenver(date)
+	teeTimes, err = fetchForCourse(course, date)
 	if err == nil {
 		for _, tt := range teeTimes {
-			var baseCourse string = tt.Course
-			if strings.HasPrefix(baseCourse, "Kennedy") {
-				baseCourse = "Kennedy"
-			}
-			baseCourse = strings.Replace(baseCourse, " Back Nine", "", 1)
+			var baseCourse string = getBaseCourse(tt.Course)
 
 			if baseCourse == course && tt.Openings > 0 {
 				var ttMins int = parseTimeToMinutes(tt.Time)
@@ -162,13 +195,14 @@ type MatchedTeeTime struct {
 }
 
 func buildAlertMessage(course string, date string, matches []MatchedTeeTime) string {
+	var bookURL string = bookingURLForCourse(course)
 	var msg string = "⛳ Tee time alert! " + course + " on " + date + ":\n"
 
 	for _, m := range matches {
 		msg += fmt.Sprintf("%s (%d openings) - $%.0f\n", m.Time, m.Openings, m.Price)
 	}
 
-	msg += "\nBook now: " + DenverBookingURL
+	msg += "\nBook now: " + bookURL
 	msg += "\nReply STOP to unsubscribe"
 
 	return msg
@@ -215,7 +249,7 @@ func startAlertChecker() {
 			fmt.Println("  Checking:", alert.Course, "|", alert.Date, "|", alert.StartTime, "–", alert.EndTime, "|", alert.Phone)
 
 			var teeTimes []DisplayTeeTime
-			teeTimes, err = fetchDenver(alert.Date)
+			teeTimes, err = fetchForCourse(alert.Course, alert.Date)
 			if err != nil {
 				fmt.Println("    [ERROR] Fetching tee times:", err)
 				continue
@@ -228,11 +262,7 @@ func startAlertChecker() {
 			var matches []MatchedTeeTime
 
 			for _, tt := range teeTimes {
-				var baseCourse string = tt.Course
-				if strings.HasPrefix(baseCourse, "Kennedy") {
-					baseCourse = "Kennedy"
-				}
-				baseCourse = strings.Replace(baseCourse, " Back Nine", "", 1)
+				var baseCourse string = getBaseCourse(tt.Course)
 
 				if baseCourse != alert.Course {
 					continue
