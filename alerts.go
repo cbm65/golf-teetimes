@@ -33,6 +33,26 @@ func findMemberSportsConfig(course string) (MemberSportsCourseConfig, bool) {
 	return MemberSportsCourseConfig{}, false
 }
 
+func findCPSGolfConfig(course string) (CPSGolfCourseConfig, bool) {
+	for _, config := range CPSGolfCourses {
+		for _, displayName := range config.Names {
+			if displayName == course {
+				return config, true
+			}
+		}
+	}
+	return CPSGolfCourseConfig{}, false
+}
+
+func findGolfNowConfig(course string) (GolfNowCourseConfig, bool) {
+	for _, config := range GolfNowCourses {
+		if config.DisplayName == course {
+			return config, true
+		}
+	}
+	return GolfNowCourseConfig{}, false
+}
+
 func fetchForCourse(course string, date string) ([]DisplayTeeTime, error) {
 	var cgConfig ChronogolfCourseConfig
 	var cgFound bool
@@ -46,6 +66,20 @@ func fetchForCourse(course string, date string) ([]DisplayTeeTime, error) {
 	msConfig, msFound = findMemberSportsConfig(course)
 	if msFound {
 		return fetchMemberSports(msConfig, date)
+	}
+
+	var cpsConfig CPSGolfCourseConfig
+	var cpsFound bool
+	cpsConfig, cpsFound = findCPSGolfConfig(course)
+	if cpsFound {
+		return fetchCPSGolf(cpsConfig, date)
+	}
+
+	var gnConfig GolfNowCourseConfig
+	var gnFound bool
+	gnConfig, gnFound = findGolfNowConfig(course)
+	if gnFound {
+		return fetchGolfNow(gnConfig, date)
 	}
 
 	// Default to Denver
@@ -65,6 +99,20 @@ func bookingURLForCourse(course string) string {
 	msConfig, msFound = findMemberSportsConfig(course)
 	if msFound {
 		return msConfig.BookingURL
+	}
+
+	var cpsConfig CPSGolfCourseConfig
+	var cpsFound bool
+	cpsConfig, cpsFound = findCPSGolfConfig(course)
+	if cpsFound {
+		return cpsConfig.BookingURL
+	}
+
+	var gnConfig GolfNowCourseConfig
+	var gnFound bool
+	gnConfig, gnFound = findGolfNowConfig(course)
+	if gnFound {
+		return gnConfig.BookingURL
 	}
 
 	return MemberSportsCourses["denver"].BookingURL

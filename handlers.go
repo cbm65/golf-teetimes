@@ -40,6 +40,29 @@ func handleTeeTimes(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
+	// Fetch all CPS Golf courses
+	for name, config := range CPSGolfCourses {
+		var results []DisplayTeeTime
+		results, err = fetchCPSGolf(config, date)
+		if err != nil {
+			fmt.Println("Error fetching", name, ":", err)
+		} else {
+			allResults = append(allResults, results...)
+		}
+	}
+
+	// Fetch all GolfNow courses
+	for name, config := range GolfNowCourses {
+		var results []DisplayTeeTime
+		results, err = fetchGolfNow(config, date)
+		if err != nil {
+			fmt.Println("Error fetching", name, ":", err)
+		} else {
+			allResults = append(allResults, results...)
+		}
+	}
+
+
 	// Sort by time
 	sort.Slice(allResults, func(i int, j int) bool {
 		var iMins int = parseTimeToMinutes(allResults[i].Time)
