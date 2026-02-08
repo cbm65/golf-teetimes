@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Denver Golf Tee Times</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-inner">
+            <div class="header-top">
+                <div>
+                    <h1>Denver Golf Tee Times</h1>
+                    <p>City of Denver Municipal Courses</p>
+                </div>
+                <nav class="nav">
+                    <a href="/" class="nav-link nav-active">Tee Times</a>
+                    <a href="/alerts" class="nav-link">My Alerts</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="filters">
+            <div class="filter-group">
+                <label>Date</label>
+                <input type="date" id="date" value="{{.}}">
+            </div>
+            <div class="filter-group">
+                <label>Course</label>
+                <select id="course">
+                    <option value="">All Courses</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="card">
+            <div id="results">
+                <div class="loading"><span class="loading-spinner"></span>Loading tee times...</div>
+            </div>
+        </div>
+        <p class="count" id="count"></p>
+
+        <div class="card form-card alert-section" id="alertSection" style="display: none;">
+            <h2 class="card-title">🔔 Set an Alert</h2>
+            <p class="card-subtitle" id="alertContext"></p>
+
+            <div class="alert-form-row">
+                <div class="filter-group">
+                    <label>Phone Number</label>
+                    <input type="tel" id="phone" placeholder="(303) 555-1234">
+                </div>
+                <div class="filter-group">
+                    <label>Between</label>
+                    <select id="startTime">
+                        <option value="6:00 AM">6:00 AM</option>
+                        <option value="7:00 AM">7:00 AM</option>
+                        <option value="8:00 AM">8:00 AM</option>
+                        <option value="9:00 AM">9:00 AM</option>
+                        <option value="10:00 AM" selected>10:00 AM</option>
+                        <option value="11:00 AM">11:00 AM</option>
+                        <option value="12:00 PM">12:00 PM</option>
+                        <option value="1:00 PM">1:00 PM</option>
+                        <option value="2:00 PM">2:00 PM</option>
+                        <option value="3:00 PM">3:00 PM</option>
+                        <option value="4:00 PM">4:00 PM</option>
+                        <option value="5:00 PM">5:00 PM</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>And</label>
+                    <select id="endTime">
+                        <option value="6:00 AM">6:00 AM</option>
+                        <option value="7:00 AM">7:00 AM</option>
+                        <option value="8:00 AM">8:00 AM</option>
+                        <option value="9:00 AM">9:00 AM</option>
+                        <option value="10:00 AM">10:00 AM</option>
+                        <option value="11:00 AM">11:00 AM</option>
+                        <option value="12:00 PM">12:00 PM</option>
+                        <option value="1:00 PM">1:00 PM</option>
+                        <option value="2:00 PM">2:00 PM</option>
+                        <option value="3:00 PM">3:00 PM</option>
+                        <option value="4:00 PM">4:00 PM</option>
+                        <option value="5:00 PM" selected>5:00 PM</option>
+                    </select>
+                </div>
+                <div class="filter-group btn-group">
+                    <label>&nbsp;</label>
+                    <button class="btn" id="createBtn">Create Alert</button>
+                </div>
+            </div>
+            <p class="form-message" id="message"></p>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

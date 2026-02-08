@@ -1,0 +1,172 @@
+var allTimes = []
+
+function getBaseCourse(name) {
+    if (name.indexOf("Kennedy") === 0) return "Kennedy"
+    return name.replace(" Back Nine", "")
+}
+
+async function fetchTimes() {
+    var date = document.getElementById("date").value
+    document.getElementById("results").innerHTML = '<div class="loading"><span class="loading-spinner"></span>Loading tee times...</div>'
+    document.getElementById("count").textContent = ""
+
+    try {
+        var response = await fetch("/teetimes?date=" + date)
+        if (!response.ok) {
+            throw new Error("Server error: " + response.status)
+        }
+        allTimes = await response.json()
+        if (!allTimes) allTimes = []
+    } catch (err) {
+        document.getElementById("results").innerHTML = '<div class="empty"><div class="empty-icon">⚠️</div>Failed to load tee times. Please try again.</div>'
+        document.getElementById("count").textContent = ""
+        return
+    }
+
+    updateCourseFilter()
+    displayTimes()
+}
+
+function updateCourseFilter() {
+    var courseSelect = document.getElementById("course")
+    var currentValue = courseSelect.value
+    var courses = []
+
+    for (var i = 0; i < allTimes.length; i++) {
+        var base = getBaseCourse(allTimes[i].course)
+        if (courses.indexOf(base) === -1) {
+            courses.push(base)
+        }
+    }
+    courses.sort()
+
+    courseSelect.innerHTML = '<option value="">All Courses</option>'
+    for (var i = 0; i < courses.length; i++) {
+        var option = document.createElement("option")
+        option.value = courses[i]
+        option.textContent = courses[i]
+        if (courses[i] === currentValue) {
+            option.selected = true
+        }
+        courseSelect.appendChild(option)
+    }
+}
+
+function displayTimes() {
+    var courseFilter = document.getElementById("course").value
+    var filtered = []
+
+    for (var i = 0; i < allTimes.length; i++) {
+        var base = getBaseCourse(allTimes[i].course)
+        if (courseFilter === "" || base === courseFilter) {
+            filtered.push(allTimes[i])
+        }
+    }
+
+    if (filtered.length === 0) {
+        document.getElementById("results").innerHTML = '<div class="empty"><div class="empty-icon">⛳</div>No tee times available for this date.</div>'
+        document.getElementById("count").textContent = ""
+    } else {
+        var html = "<table>"
+        html += "<tr><th>Time</th><th>Course</th><th>Openings</th><th>Holes</th><th>Price</th></tr>"
+
+        for (var i = 0; i < filtered.length; i++) {
+            var t = filtered[i]
+
+            var openClass = "openings-full"
+            if (t.openings === 0) openClass = "openings-none"
+            else if (t.openings <= 1) openClass = "openings-low"
+
+            var holesClass = t.holes === 9 ? "holes-cell holes-9" : "holes-cell"
+
+            html += "<tr>"
+            html += "<td class='time-cell'>" + t.time + "</td>"
+            html += "<td class='course-cell'>" + t.course + "</td>"
+            html += "<td class='openings-cell " + openClass + "'>" + t.openings + " / 4</td>"
+            html += "<td><span class='" + holesClass + "'>" + t.holes + " holes</span></td>"
+            html += "<td class='price-cell'>$" + t.price + "</td>"
+            html += "</tr>"
+        }
+
+        html += "</table>"
+        document.getElementById("results").innerHTML = html
+        document.getElementById("count").textContent = filtered.length + " tee times available"
+    }
+
+    updateAlertSection()
+}
+
+function updateAlertSection() {
+    var courseFilter = document.getElementById("course").value
+    var date = document.getElementById("date").value
+    var alertSection = document.getElementById("alertSection")
+    var alertContext = document.getElementById("alertContext")
+
+    if (courseFilter === "") {
+        alertSection.style.display = "none"
+        return
+    }
+
+    alertSection.style.display = "block"
+    alertContext.textContent = "Get a text when a tee time opens at " + courseFilter + " on " + date + "."
+
+    // Clear any previous messages when switching courses/dates
+    document.getElementById("message").textContent = ""
+    document.getElementById("message").className = "form-message"
+}
+
+async function createAlert() {
+    var phone = document.getElementById("phone").value
+    var course = document.getElementById("course").value
+    var date = document.getElementById("date").value
+    var startTime = document.getElementById("startTime").value
+    var endTime = document.getElementById("endTime").value
+    var message = document.getElementById("message")
+
+    if (!phone) {
+        message.textContent = "Please enter your phone number."
+        message.className = "form-message form-error"
+        return
+    }
+
+    var btn = document.getElementById("createBtn")
+    btn.disabled = true
+    btn.textContent = "Creating..."
+
+    try {
+        var response = await fetch("/api/alerts/create", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                phone: phone,
+                course: course,
+                date: date,
+                startTime: startTime,
+                endTime: endTime
+            })
+        })
+
+        var data = await response.json()
+
+        if (!response.ok) {
+            message.textContent = data.error || "Failed to create alert."
+            message.className = "form-message form-error"
+        } else {
+            message.textContent = "✓ Alert created! We'll text you when a tee time opens up."
+            message.className = "form-message form-success"
+            document.getElementById("phone").value = ""
+        }
+    } catch (err) {
+        message.textContent = "Failed to create alert. Please try again."
+        message.className = "form-message form-error"
+    }
+
+    btn.disabled = false
+    btn.textContent = "Create Alert"
+}
+
+document.getElementById("date").addEventListener("change", fetchTimes)
+document.getElementById("course").addEventListener("change", displayTimes)
+document.getElementById("createBtn").addEventListener("click", createAlert)
+
+fetchTimes()

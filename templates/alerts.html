@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Alerts - Denver Golf Tee Times</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-inner">
+            <div class="header-top">
+                <div>
+                    <h1>My Alerts</h1>
+                    <p>Manage your tee time notifications</p>
+                </div>
+                <nav class="nav">
+                    <a href="/" class="nav-link">Tee Times</a>
+                    <a href="/alerts" class="nav-link nav-active">My Alerts</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card form-card" id="lookupCard">
+            <h2 class="card-title">Find Your Alerts</h2>
+            <p class="card-subtitle">Enter the phone number you used to create your alerts.</p>
+            <div class="alert-form-row">
+                <div class="filter-group">
+                    <label>Phone Number</label>
+                    <input type="tel" id="phone" placeholder="(303) 555-1234">
+                </div>
+                <div class="filter-group btn-group">
+                    <label>&nbsp;</label>
+                    <button class="btn" id="lookupBtn">Look Up</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="alertsList" style="display: none;">
+            <div id="alertsContent"></div>
+        </div>
+    </div>
+
+    <script src="/static/alerts.js"></script>
+</body>
+</html>
