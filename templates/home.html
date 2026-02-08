@@ -42,55 +42,71 @@
         </div>
         <p class="count" id="count"></p>
 
-        <div class="card form-card alert-section" id="alertSection" style="display: none;">
-            <h2 class="card-title">🔔 Set an Alert</h2>
-            <p class="card-subtitle" id="alertContext"></p>
+        <div class="card form-card alert-section" id="alertSection">
+            <h2 class="card-title">🔔 Tee Time Alerts</h2>
 
-            <div class="alert-form-row">
-                <div class="filter-group">
-                    <label>Phone Number</label>
-                    <input type="tel" id="phone" placeholder="(303) 555-1234">
-                </div>
-                <div class="filter-group">
-                    <label>Between</label>
-                    <select id="startTime">
-                        <option value="6:00 AM">6:00 AM</option>
-                        <option value="7:00 AM">7:00 AM</option>
-                        <option value="8:00 AM">8:00 AM</option>
-                        <option value="9:00 AM">9:00 AM</option>
-                        <option value="10:00 AM" selected>10:00 AM</option>
-                        <option value="11:00 AM">11:00 AM</option>
-                        <option value="12:00 PM">12:00 PM</option>
-                        <option value="1:00 PM">1:00 PM</option>
-                        <option value="2:00 PM">2:00 PM</option>
-                        <option value="3:00 PM">3:00 PM</option>
-                        <option value="4:00 PM">4:00 PM</option>
-                        <option value="5:00 PM">5:00 PM</option>
-                    </select>
-                </div>
-                <div class="filter-group">
-                    <label>And</label>
-                    <select id="endTime">
-                        <option value="6:00 AM">6:00 AM</option>
-                        <option value="7:00 AM">7:00 AM</option>
-                        <option value="8:00 AM">8:00 AM</option>
-                        <option value="9:00 AM">9:00 AM</option>
-                        <option value="10:00 AM">10:00 AM</option>
-                        <option value="11:00 AM">11:00 AM</option>
-                        <option value="12:00 PM">12:00 PM</option>
-                        <option value="1:00 PM">1:00 PM</option>
-                        <option value="2:00 PM">2:00 PM</option>
-                        <option value="3:00 PM">3:00 PM</option>
-                        <option value="4:00 PM">4:00 PM</option>
-                        <option value="5:00 PM" selected>5:00 PM</option>
-                    </select>
-                </div>
-                <div class="filter-group btn-group">
-                    <label>&nbsp;</label>
-                    <button class="btn" id="createBtn">Create Alert</button>
-                </div>
+            <div id="alertPrompt">
+                <p class="card-subtitle">Select a course above to set up a text alert when a tee time becomes available.</p>
             </div>
-            <p class="form-message" id="message"></p>
+
+            <div id="alertForm" style="display: none;">
+                <p class="card-subtitle" id="alertContext"></p>
+
+                <div class="alert-form-row">
+                    <div class="filter-group">
+                        <label>Phone Number</label>
+                        <input type="tel" id="phone" placeholder="(303) 555-1234">
+                    </div>
+                    <div class="filter-group">
+                        <label>Between</label>
+                        <select id="startTime">
+                            <option value="6:00 AM">6:00 AM</option>
+                            <option value="7:00 AM">7:00 AM</option>
+                            <option value="8:00 AM">8:00 AM</option>
+                            <option value="9:00 AM">9:00 AM</option>
+                            <option value="10:00 AM" selected>10:00 AM</option>
+                            <option value="11:00 AM">11:00 AM</option>
+                            <option value="12:00 PM">12:00 PM</option>
+                            <option value="1:00 PM">1:00 PM</option>
+                            <option value="2:00 PM">2:00 PM</option>
+                            <option value="3:00 PM">3:00 PM</option>
+                            <option value="4:00 PM">4:00 PM</option>
+                            <option value="5:00 PM">5:00 PM</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>And</label>
+                        <select id="endTime">
+                            <option value="6:00 AM">6:00 AM</option>
+                            <option value="7:00 AM">7:00 AM</option>
+                            <option value="8:00 AM">8:00 AM</option>
+                            <option value="9:00 AM">9:00 AM</option>
+                            <option value="10:00 AM">10:00 AM</option>
+                            <option value="11:00 AM">11:00 AM</option>
+                            <option value="12:00 PM">12:00 PM</option>
+                            <option value="1:00 PM">1:00 PM</option>
+                            <option value="2:00 PM">2:00 PM</option>
+                            <option value="3:00 PM">3:00 PM</option>
+                            <option value="4:00 PM">4:00 PM</option>
+                            <option value="5:00 PM" selected>5:00 PM</option>
+                        </select>
+                    </div>
+                    <div class="filter-group btn-group">
+                        <label>&nbsp;</label>
+                        <button class="btn" id="createBtn">Create Alert</button>
+                    </div>
+                </div>
+                <p class="form-message" id="message"></p>
+            </div>
+
+            <p class="alert-consent">By creating an alert, you consent to receive SMS notifications at the phone number you provide. Message and data rates may apply. Message frequency depends on tee time availability. Reply STOP to unsubscribe at any time. See our <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms of Service</a>.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-inner">
+            <a href="/privacy">Privacy Policy</a>
+            <a href="/terms">Terms of Service</a>
         </div>
     </div>
 

@@ -51,6 +51,28 @@ func handleAlertsPage(w http.ResponseWriter, r *http.Request) {
 	tmpl.Execute(w, today)
 }
 
+func handlePrivacy(w http.ResponseWriter, r *http.Request) {
+	var tmpl *template.Template
+	var err error
+	tmpl, err = template.ParseFiles("templates/privacy.html")
+	if err != nil {
+		http.Error(w, err.Error(), 500)
+		return
+	}
+	tmpl.Execute(w, nil)
+}
+
+func handleTerms(w http.ResponseWriter, r *http.Request) {
+	var tmpl *template.Template
+	var err error
+	tmpl, err = template.ParseFiles("templates/terms.html")
+	if err != nil {
+		http.Error(w, err.Error(), 500)
+		return
+	}
+	tmpl.Execute(w, nil)
+}
+
 func handleGetAlerts(w http.ResponseWriter, r *http.Request) {
 	var alerts []Alert
 	var err error

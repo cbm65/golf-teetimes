@@ -10,6 +10,7 @@ import (
 )
 
 const AlertsFile = "data/alerts.json"
+const DenverBookingURL = "https://app.membersports.com/tee-times/3629/20573/1/1/0"
 
 func parseTimeToMinutes(timeStr string) int {
 	var parts []string = strings.Split(timeStr, " ")
@@ -154,6 +155,25 @@ func deleteAlert(id string) error {
 	return saveAlerts(updated)
 }
 
+type MatchedTeeTime struct {
+	Time     string
+	Openings int
+	Price    float64
+}
+
+func buildAlertMessage(course string, date string, matches []MatchedTeeTime) string {
+	var msg string = "⛳ Tee time alert! " + course + " on " + date + ":\n"
+
+	for _, m := range matches {
+		msg += fmt.Sprintf("%s (%d openings) - $%.0f\n", m.Time, m.Openings, m.Price)
+	}
+
+	msg += "\nBook now: " + DenverBookingURL
+	msg += "\nReply STOP to unsubscribe"
+
+	return msg
+}
+
 func startAlertChecker() {
 	fmt.Println("Alert checker started — checking every 1 minute")
 
@@ -205,7 +225,7 @@ func startAlertChecker() {
 
 			var startMins int = parseTimeToMinutes(alert.StartTime)
 			var endMins int = parseTimeToMinutes(alert.EndTime)
-			var matchCount int = 0
+			var matches []MatchedTeeTime
 
 			for _, tt := range teeTimes {
 				var baseCourse string = tt.Course
@@ -229,15 +249,24 @@ func startAlertChecker() {
 					continue
 				}
 
-				matchCount++
 				fmt.Println("    ✓ MATCH!", tt.Time, tt.Course, "—", tt.Openings, "openings, $", tt.Price)
-				// TODO: send SMS here
+				matches = append(matches, MatchedTeeTime{
+					Time:     tt.Time,
+					Openings: tt.Openings,
+					Price:    tt.Price,
+				})
 			}
 
-			if matchCount == 0 {
+			if len(matches) == 0 {
 				fmt.Println("    No matches found")
 			} else {
-				fmt.Println("   ", matchCount, "match(es) found!")
+				var msg string = buildAlertMessage(alert.Course, alert.Date, matches)
+				fmt.Println("   ", len(matches), "match(es) found!")
+				fmt.Println("    SMS would be:")
+				fmt.Println("    ────────────")
+				fmt.Println("   ", msg)
+				fmt.Println("    ────────────")
+				// TODO: send SMS via Twilio here
 			}
 		}
 

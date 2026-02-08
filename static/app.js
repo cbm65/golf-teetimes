@@ -1,4 +1,5 @@
 var allTimes = []
+var bookingURL = "https://app.membersports.com/tee-times/3629/20573/1/1/0"
 
 function getBaseCourse(name) {
     if (name.indexOf("Kennedy") === 0) return "Kennedy"
@@ -68,7 +69,7 @@ function displayTimes() {
         document.getElementById("count").textContent = ""
     } else {
         var html = "<table>"
-        html += "<tr><th>Time</th><th>Course</th><th>Openings</th><th>Holes</th><th>Price</th></tr>"
+        html += "<tr><th>Time</th><th>Course</th><th>Openings</th><th>Holes</th><th>Price</th><th></th></tr>"
 
         for (var i = 0; i < filtered.length; i++) {
             var t = filtered[i]
@@ -85,6 +86,7 @@ function displayTimes() {
             html += "<td class='openings-cell " + openClass + "'>" + t.openings + " / 4</td>"
             html += "<td><span class='" + holesClass + "'>" + t.holes + " holes</span></td>"
             html += "<td class='price-cell'>$" + t.price + "</td>"
+            html += "<td><a href='" + bookingURL + "' target='_blank' class='book-link'>Book</a></td>"
             html += "</tr>"
         }
 
@@ -99,20 +101,21 @@ function displayTimes() {
 function updateAlertSection() {
     var courseFilter = document.getElementById("course").value
     var date = document.getElementById("date").value
-    var alertSection = document.getElementById("alertSection")
+    var alertPrompt = document.getElementById("alertPrompt")
+    var alertForm = document.getElementById("alertForm")
     var alertContext = document.getElementById("alertContext")
+    var message = document.getElementById("message")
 
     if (courseFilter === "") {
-        alertSection.style.display = "none"
-        return
+        alertPrompt.style.display = "block"
+        alertForm.style.display = "none"
+    } else {
+        alertPrompt.style.display = "none"
+        alertForm.style.display = "block"
+        alertContext.textContent = "Get a text when a tee time opens at " + courseFilter + " on " + date + "."
+        message.textContent = ""
+        message.className = "form-message"
     }
-
-    alertSection.style.display = "block"
-    alertContext.textContent = "Get a text when a tee time opens at " + courseFilter + " on " + date + "."
-
-    // Clear any previous messages when switching courses/dates
-    document.getElementById("message").textContent = ""
-    document.getElementById("message").className = "form-message"
 }
 
 async function createAlert() {

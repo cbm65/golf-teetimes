@@ -9,6 +9,8 @@ func main() {
 	http.HandleFunc("/", handleHome)
 	http.HandleFunc("/teetimes", handleTeeTimes)
 	http.HandleFunc("/alerts", handleAlertsPage)
+	http.HandleFunc("/privacy", handlePrivacy)
+	http.HandleFunc("/terms", handleTerms)
 	http.HandleFunc("/api/alerts", handleGetAlerts)
 	http.HandleFunc("/api/alerts/create", handleCreateAlert)
 	http.HandleFunc("/api/alerts/delete", handleDeleteAlert)
