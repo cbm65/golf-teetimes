@@ -22,24 +22,52 @@ func findChronogolfConfig(course string) (ChronogolfCourseConfig, bool) {
 	return ChronogolfCourseConfig{}, false
 }
 
-func fetchForCourse(course string, date string) ([]DisplayTeeTime, error) {
-	var config ChronogolfCourseConfig
-	var found bool
-	config, found = findChronogolfConfig(course)
-	if found {
-		return fetchChronogolf(config, date)
+func findMemberSportsConfig(course string) (MemberSportsCourseConfig, bool) {
+	for _, config := range MemberSportsCourses {
+		for _, known := range config.KnownCourses {
+			if known == course {
+				return config, true
+			}
+		}
 	}
-	return fetchDenver(date)
+	return MemberSportsCourseConfig{}, false
+}
+
+func fetchForCourse(course string, date string) ([]DisplayTeeTime, error) {
+	var cgConfig ChronogolfCourseConfig
+	var cgFound bool
+	cgConfig, cgFound = findChronogolfConfig(course)
+	if cgFound {
+		return fetchChronogolf(cgConfig, date)
+	}
+
+	var msConfig MemberSportsCourseConfig
+	var msFound bool
+	msConfig, msFound = findMemberSportsConfig(course)
+	if msFound {
+		return fetchMemberSports(msConfig, date)
+	}
+
+	// Default to Denver
+	return fetchMemberSports(MemberSportsCourses["denver"], date)
 }
 
 func bookingURLForCourse(course string) string {
-	var config ChronogolfCourseConfig
-	var found bool
-	config, found = findChronogolfConfig(course)
-	if found {
-		return config.BookingURL
+	var cgConfig ChronogolfCourseConfig
+	var cgFound bool
+	cgConfig, cgFound = findChronogolfConfig(course)
+	if cgFound {
+		return cgConfig.BookingURL
 	}
-	return DenverBookingURL
+
+	var msConfig MemberSportsCourseConfig
+	var msFound bool
+	msConfig, msFound = findMemberSportsConfig(course)
+	if msFound {
+		return msConfig.BookingURL
+	}
+
+	return MemberSportsCourses["denver"].BookingURL
 }
 
 func parseTimeToMinutes(timeStr string) int {
@@ -107,6 +135,12 @@ func saveAlerts(alerts []Alert) error {
 func getBaseCourse(name string) string {
 	if strings.HasPrefix(name, "Kennedy") {
 		return "Kennedy"
+	}
+	if strings.HasPrefix(name, "Fox Hollow") {
+		return "Fox Hollow"
+	}
+	if strings.HasPrefix(name, "Homestead") {
+		return "Homestead"
 	}
 	return strings.Replace(name, " Back Nine", "", 1)
 }

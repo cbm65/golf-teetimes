@@ -2,6 +2,8 @@ var allTimes = []
 
 function getBaseCourse(name) {
     if (name.indexOf("Kennedy") === 0) return "Kennedy"
+    if (name.indexOf("Fox Hollow") === 0) return "Fox Hollow"
+    if (name.indexOf("Homestead") === 0) return "Homestead"
     return name.replace(" Back Nine", "")
 }
 

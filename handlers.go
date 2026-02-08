@@ -16,15 +16,17 @@ func handleTeeTimes(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var allResults []DisplayTeeTime
-
-	// Fetch Denver
-	var denverResults []DisplayTeeTime
 	var err error
-	denverResults, err = fetchDenver(date)
-	if err != nil {
-		fmt.Println("Error fetching Denver:", err)
-	} else {
-		allResults = append(allResults, denverResults...)
+
+	// Fetch all MemberSports courses
+	for name, config := range MemberSportsCourses {
+		var results []DisplayTeeTime
+		results, err = fetchMemberSports(config, date)
+		if err != nil {
+			fmt.Println("Error fetching", name, ":", err)
+		} else {
+			allResults = append(allResults, results...)
+		}
 	}
 
 	// Fetch all Chronogolf courses
