@@ -514,13 +514,34 @@ tr:hover td {
 /* Mobile */
 
 @media (max-width: 640px) {
+    .header { padding: 24px 0 20px; margin-bottom: 24px; }
     .header-top { flex-direction: column; }
+    .header h1 { font-size: 24px; }
     .nav { margin-top: 16px; }
+    .nav-link { font-size: 15px; padding: 10px 16px; }
     .filters { flex-direction: column; }
+    input[type="date"], input[type="tel"], select {
+        min-width: 100%;
+        padding: 14px 16px;
+        font-size: 16px;
+    }
+    .filter-group label { font-size: 12px; }
+    .card { border-radius: 8px; }
+    .form-card { padding: 20px; }
+    .card-title { font-size: 20px; }
+
+    /* Scrollable table */
+    .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    th { padding: 12px 14px; font-size: 11px; white-space: nowrap; }
+    td { padding: 14px; font-size: 14px; white-space: nowrap; }
+    .book-link { padding: 8px 14px; font-size: 13px; }
+
+    /* Alert form */
     .alert-form-row { flex-direction: column; }
     .alert-form-grid { grid-template-columns: 1fr; }
-    input[type="date"], input[type="tel"], select { min-width: 100%; }
-    td, th { padding: 12px 14px; font-size: 14px; }
-    .header h1 { font-size: 26px; }
+    .btn { padding: 14px 28px; font-size: 16px; width: 100%; }
+
+    /* Alert items */
     .alert-item { flex-direction: column; align-items: flex-start; gap: 12px; }
+    .btn-delete { padding: 10px 18px; font-size: 14px; }
 }

@@ -71,7 +71,7 @@ function displayTimes() {
         document.getElementById("results").innerHTML = '<div class="empty"><div class="empty-icon">⛳</div>No tee times available for this date.</div>'
         document.getElementById("count").textContent = ""
     } else {
-        var html = "<table>"
+        var html = "<div class='table-wrap'><table>"
         html += "<tr><th>Time</th><th>Course</th><th>Openings</th><th>Holes</th><th>Price</th><th></th></tr>"
 
         for (var i = 0; i < filtered.length; i++) {
@@ -97,7 +97,7 @@ function displayTimes() {
             html += "</tr>"
         }
 
-        html += "</table>"
+        html += "</table></div>"
         document.getElementById("results").innerHTML = html
         document.getElementById("count").textContent = filtered.length + " tee times available"
     }
