@@ -104,9 +104,9 @@ func fetchDenver(date string) ([]DisplayTeeTime, error) {
 			if openings < 0 {
 				openings = 0
 			}
-			var holes int = 9
+			var holes string = "9"
 			if item.HolesRequirementTypeId == 2 {
-				holes = 18
+				holes = "18"
 			}
 
 			results = append(results, DisplayTeeTime{

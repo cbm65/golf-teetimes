@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"strconv"
+	"strings"
 )
 
 type ChronogolfCourseConfig struct {
@@ -29,6 +31,20 @@ var ChronogolfCourses = map[string]ChronogolfCourseConfig{
 			"LTH 18 Hole Course": "Lone Tree",
 		},
 	},
+	"littleton": {
+		CourseIDs:  "6a1ad175-7c4f-4692-a58f-7879e72ed9e9,c98df576-e507-44d7-9ece-7d59154fd143",
+		BookingURL: "https://www.chronogolf.com/club/littleton-golf-tennis-club",
+		Names: map[string]string{
+			"LGT 18 Hole Course": "Littleton",
+		},
+	},
+	"familysports": {
+		CourseIDs:  "34b44f75-a475-4ec1-b5d3-e3089b66cf86",
+		BookingURL: "https://www.chronogolf.com/club/family-sports-golf-course",
+		Names: map[string]string{
+			"FSC 9 Hole Course": "Family Sports",
+		},
+	},
 }
 
 type ChronogolfResponse struct {
@@ -44,12 +60,20 @@ type ChronogolfSlot struct {
 }
 
 type ChronogolfCourseAPI struct {
-	Name string `json:"name"`
+	Name          string `json:"name"`
+	BookableHoles []int  `json:"bookable_holes"`
 }
 
 type ChronogolfPrice struct {
-	GreenFee      float64 `json:"green_fee"`
-	BookableHoles int     `json:"bookable_holes"`
+	GreenFee float64 `json:"green_fee"`
+}
+
+func formatHoles(holes []int) string {
+	var parts []string
+	for _, h := range holes {
+		parts = append(parts, strconv.Itoa(h))
+	}
+	return strings.Join(parts, ", ")
 }
 
 func fetchChronogolf(config ChronogolfCourseConfig, date string) ([]DisplayTeeTime, error) {
@@ -128,11 +152,13 @@ func fetchChronogolf(config ChronogolfCourseConfig, date string) ([]DisplayTeeTi
 			courseName = displayName
 		}
 
+		var holesStr string = formatHoles(slot.Course.BookableHoles)
+
 		results = append(results, DisplayTeeTime{
 			Time:       timeStr,
 			Course:     courseName,
 			Openings:   slot.MaxPlayerSize,
-			Holes:      slot.DefaultPrice.BookableHoles,
+			Holes:      holesStr,
 			Price:      slot.DefaultPrice.GreenFee,
 			BookingURL: config.BookingURL,
 		})

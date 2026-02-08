@@ -77,7 +77,8 @@ function displayTimes() {
             if (t.openings === 0) openClass = "openings-none"
             else if (t.openings <= 1) openClass = "openings-low"
 
-            var holesClass = t.holes === 9 ? "holes-cell holes-9" : "holes-cell"
+            var holesClass = "holes-cell"
+            if (t.holes === "9") holesClass = "holes-cell holes-9"
 
             html += "<tr>"
             html += "<td class='time-cell'>" + t.time + "</td>"
