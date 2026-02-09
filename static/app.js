@@ -60,15 +60,71 @@ function updateCourseFilter() {
     }
 }
 
+function parseTimeToHours(timeStr) {
+    var parts = timeStr.match(/(\d+):(\d+)\s*(AM|PM)/i)
+    if (!parts) return 0
+    var h = parseInt(parts[1])
+    var m = parseInt(parts[2])
+    var ampm = parts[3].toUpperCase()
+    if (ampm === "PM" && h !== 12) h += 12
+    if (ampm === "AM" && h === 12) h = 0
+    return h + m / 60
+}
+
+function formatSliderHour(h) {
+    if (h === 0 || h === 12) {
+        return (h === 0 ? 12 : 12) + ":00 " + (h < 12 ? "AM" : "PM")
+    }
+    return (h > 12 ? h - 12 : h) + ":00 " + (h < 12 ? "AM" : "PM")
+}
+
+function updateSlider() {
+    var fromEl = document.getElementById("timeFrom")
+    var toEl = document.getElementById("timeTo")
+    var fromVal = parseInt(fromEl.value)
+    var toVal = parseInt(toEl.value)
+
+    if (fromVal > toVal) {
+        var tmp = fromVal
+        fromVal = toVal
+        toVal = tmp
+        fromEl.value = fromVal
+        toEl.value = toVal
+    }
+
+    document.getElementById("timeDisplay").textContent = formatSliderHour(fromVal) + " – " + formatSliderHour(toVal)
+
+    var min = parseInt(fromEl.min)
+    var max = parseInt(fromEl.max)
+    var pctFrom = ((fromVal - min) / (max - min)) * 100
+    var pctTo = ((toVal - min) / (max - min)) * 100
+    document.getElementById("sliderRange").style.left = pctFrom + "%"
+    document.getElementById("sliderRange").style.right = (100 - pctTo) + "%"
+
+    displayTimes()
+}
+
 function displayTimes() {
     var courseFilter = document.getElementById("course").value
+    var fromVal = parseInt(document.getElementById("timeFrom").value)
+    var toVal = parseInt(document.getElementById("timeTo").value)
+    if (fromVal > toVal) { var tmp = fromVal; fromVal = toVal; toVal = tmp }
+    var openingsFilter = document.getElementById("openings").value
+    var holesFilter = document.getElementById("holes").value
     var filtered = []
 
     for (var i = 0; i < allTimes.length; i++) {
-        var base = getBaseCourse(allTimes[i].course)
-        if (courseFilter === "" || base === courseFilter) {
-            filtered.push(allTimes[i])
-        }
+        var t = allTimes[i]
+        var base = getBaseCourse(t.course)
+        if (courseFilter !== "" && base !== courseFilter) continue
+
+        var h = parseTimeToHours(t.time)
+        if (h < fromVal || h >= toVal) continue
+
+        if (openingsFilter !== "" && t.openings < parseInt(openingsFilter)) continue
+        if (holesFilter !== "" && t.holes !== holesFilter) continue
+
+        filtered.push(t)
     }
 
     if (filtered.length === 0) {
@@ -93,7 +149,7 @@ function displayTimes() {
             html += "<td class='course-cell'>" + t.course + "</td>"
             html += "<td class='openings-cell " + openClass + "'><svg class='openings-icon' viewBox='0 0 24 24' fill='currentColor'><circle cx='12' cy='7' r='4'/><path d='M12 13c-4.42 0-8 1.79-8 4v2h16v-2c0-2.21-3.58-4-8-4z'/></svg>" + t.openings + " / 4</td>"
             html += "<td><span class='" + holesClass + "'>" + t.holes + " holes</span></td>"
-            html += "<td class='price-cell'>$" + t.price + "</td>"
+            html += "<td class='price-cell'>$" + Math.round(t.price) + "</td>"
             html += "<td><a href='" + t.bookingUrl + "' target='_blank' class='book-link'>Book</a></td>"
             html += "</tr>"
         }
@@ -123,7 +179,7 @@ function displayTimes() {
             html += "</div>"
             html += "</div>"
             html += "<div class='mobile-tt-right'>"
-            html += "<div class='mobile-tt-price'>$" + t.price + "</div>"
+            html += "<div class='mobile-tt-price'>$" + Math.round(t.price) + "</div>"
             html += "<a href='" + t.bookingUrl + "' target='_blank' class='mobile-tt-book'>Book</a>"
             html += "</div>"
             html += "</div>"
@@ -208,6 +264,11 @@ async function createAlert() {
 
 document.getElementById("date").addEventListener("change", fetchTimes)
 document.getElementById("course").addEventListener("change", displayTimes)
+document.getElementById("timeFrom").addEventListener("input", updateSlider)
+document.getElementById("timeTo").addEventListener("input", updateSlider)
+document.getElementById("openings").addEventListener("change", displayTimes)
+document.getElementById("holes").addEventListener("change", displayTimes)
 document.getElementById("createBtn").addEventListener("click", createAlert)
 
+updateSlider()
 fetchTimes()

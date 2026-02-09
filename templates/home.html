@@ -24,15 +24,48 @@
 
     <div class="container">
         <div class="filters">
-            <div class="filter-group">
-                <label>Date</label>
-                <input type="date" id="date" value="{{.}}">
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label>Date</label>
+                    <input type="date" id="date" value="{{.}}">
+                </div>
+                <div class="filter-group">
+                    <label>Course</label>
+                    <select id="course">
+                        <option value="">All Courses</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Openings</label>
+                    <select id="openings">
+                        <option value="">Any</option>
+                        <option value="1">1+</option>
+                        <option value="2">2+</option>
+                        <option value="3">3+</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Holes</label>
+                    <select id="holes">
+                        <option value="">Any</option>
+                        <option value="9">9</option>
+                        <option value="18">18</option>
+                    </select>
+                </div>
             </div>
-            <div class="filter-group">
-                <label>Course</label>
-                <select id="course">
-                    <option value="">All Courses</option>
-                </select>
+            <div class="time-slider-wrap">
+                <label class="time-slider-label">Time</label>
+                <div class="time-slider-display" id="timeDisplay">5:00 AM – 8:00 PM</div>
+                <div class="time-slider-container">
+                    <span class="time-slider-bound">5 AM</span>
+                    <div class="time-slider-track" id="sliderTrack">
+                        <div class="time-slider-range" id="sliderRange"></div>
+                        <input type="range" class="time-slider-input" id="timeFrom" min="5" max="20" value="5" step="1">
+                        <input type="range" class="time-slider-input" id="timeTo" min="5" max="20" value="20" step="1">
+                    </div>
+                    <span class="time-slider-bound">8 PM</span>
+                </div>
             </div>
         </div>
 
