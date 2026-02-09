@@ -87,17 +87,44 @@ function displayTimes() {
             html += "<tr>"
             html += "<td class='time-cell'>" + t.time + "</td>"
             html += "<td class='course-cell'>" + t.course + "</td>"
-            html += "<td class='openings-cell " + openClass + "'>" + t.openings + " / 4</td>"
+            html += "<td class='openings-cell " + openClass + "'><svg class='openings-icon' viewBox='0 0 24 24' fill='currentColor'><circle cx='12' cy='7' r='4'/><path d='M12 13c-4.42 0-8 1.79-8 4v2h16v-2c0-2.21-3.58-4-8-4z'/></svg>" + t.openings + " / 4</td>"
             html += "<td><span class='" + holesClass + "'>" + t.holes + " holes</span></td>"
             html += "<td class='price-cell'>$" + t.price + "</td>"
-            var bookLabel = "Book"
-            if (t.bookingUrl.indexOf("golfnow.com") !== -1) bookLabel = "Book via GolfNow"
-
-            html += "<td><a href='" + t.bookingUrl + "' target='_blank' class='book-link'>" + bookLabel + "</a></td>"
+            html += "<td><a href='" + t.bookingUrl + "' target='_blank' class='book-link'>Book</a></td>"
             html += "</tr>"
         }
 
         html += "</table></div>"
+
+        // Mobile card layout
+        html += "<div class='mobile-cards'>"
+        for (var i = 0; i < filtered.length; i++) {
+            var t = filtered[i]
+
+            var mOpenClass = "openings-full"
+            if (t.openings === 0) mOpenClass = "openings-none"
+            else if (t.openings <= 1) mOpenClass = "openings-low"
+
+            var mHolesClass = "holes-cell"
+            if (t.holes === "9") mHolesClass = "holes-cell holes-9"
+
+            html += "<div class='mobile-tt'>"
+            html += "<div class='mobile-tt-left'>"
+            html += "<div class='mobile-tt-time'>" + t.time + "</div>"
+            html += "<div class='mobile-tt-course'>" + t.course + "</div>"
+            html += "<div class='mobile-tt-meta'>"
+            html += "<span class='" + mOpenClass + "'><svg class='openings-icon' viewBox='0 0 24 24' fill='currentColor'><circle cx='12' cy='7' r='4'/><path d='M12 13c-4.42 0-8 1.79-8 4v2h16v-2c0-2.21-3.58-4-8-4z'/></svg>" + t.openings + "/4</span>"
+            html += " · "
+            html += "<span class='" + mHolesClass + "'>" + t.holes + "h</span>"
+            html += "</div>"
+            html += "</div>"
+            html += "<div class='mobile-tt-right'>"
+            html += "<div class='mobile-tt-price'>$" + t.price + "</div>"
+            html += "<a href='" + t.bookingUrl + "' target='_blank' class='mobile-tt-book'>Book</a>"
+            html += "</div>"
+            html += "</div>"
+        }
+        html += "</div>"
         document.getElementById("results").innerHTML = html
         document.getElementById("count").textContent = filtered.length + " tee times available"
     }

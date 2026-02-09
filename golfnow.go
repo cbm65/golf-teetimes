@@ -12,6 +12,7 @@ import (
 
 type GolfNowCourseConfig struct {
 	FacilityID  int
+	SearchURL   string
 	BookingURL  string
 	DisplayName string
 }
@@ -19,27 +20,32 @@ type GolfNowCourseConfig struct {
 var GolfNowCourses = map[string]GolfNowCourseConfig{
 	"murphycreek": {
 		FacilityID:  17879,
-		BookingURL:  "https://www.golfnow.com/tee-times/facility/17879-murphy-creek-golf-course/search",
+		SearchURL:   "https://www.golfnow.com/tee-times/facility/17879-murphy-creek-golf-course/search",
+		BookingURL:  "https://www.auroragov.org/things_to_do/golf/book_a_tee_time",
 		DisplayName: "Murphy Creek",
 	},
 	"springhill": {
 		FacilityID:  17876,
-		BookingURL:  "https://www.golfnow.com/tee-times/facility/17876-springhill-golf-course/search",
+		SearchURL:   "https://www.golfnow.com/tee-times/facility/17876-springhill-golf-course/search",
+		BookingURL:  "https://www.auroragov.org/things_to_do/golf/book_a_tee_time",
 		DisplayName: "Springhill",
 	},
 	"meadowhills": {
 		FacilityID:  17880,
-		BookingURL:  "https://www.golfnow.com/tee-times/facility/17880-meadow-hills-golf-course/search",
+		SearchURL:   "https://www.golfnow.com/tee-times/facility/17880-meadow-hills-golf-course/search",
+		BookingURL:  "https://www.auroragov.org/things_to_do/golf/book_a_tee_time",
 		DisplayName: "Meadow Hills",
 	},
 	"aurorahills": {
 		FacilityID:  17878,
-		BookingURL:  "https://www.golfnow.com/tee-times/facility/17878-aurora-hills-golf-course/search",
+		SearchURL:   "https://www.golfnow.com/tee-times/facility/17878-aurora-hills-golf-course/search",
+		BookingURL:  "https://www.auroragov.org/things_to_do/golf/book_a_tee_time",
 		DisplayName: "Aurora Hills",
 	},
 	"saddlerock": {
 		FacilityID:  17877,
-		BookingURL:  "https://www.golfnow.com/tee-times/facility/17877-saddle-rock-golf-course/search",
+		SearchURL:   "https://www.golfnow.com/tee-times/facility/17877-saddle-rock-golf-course/search",
+		BookingURL:  "https://www.auroragov.org/things_to_do/golf/book_a_tee_time",
 		DisplayName: "Saddle Rock",
 	},
 }
@@ -167,7 +173,7 @@ func fetchGolfNow(config GolfNowCourseConfig, date string) ([]DisplayTeeTime, er
 	// Step 1: Get verification token
 	var token string
 	var err error
-	token, err = getVerificationToken(config.BookingURL)
+	token, err = getVerificationToken(config.SearchURL)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get token: %v", err)
 	}
@@ -217,7 +223,7 @@ func fetchGolfNow(config GolfNowCourseConfig, date string) ([]DisplayTeeTime, er
 	req.Header.Set("Content-Type", "application/json; charset=UTF-8")
 	req.Header.Set("Accept", "application/json, text/javascript, */*; q=0.01")
 	req.Header.Set("Origin", "https://www.golfnow.com")
-	req.Header.Set("Referer", config.BookingURL)
+	req.Header.Set("Referer", config.SearchURL)
 	req.Header.Set("X-Requested-With", "XMLHttpRequest")
 	req.Header.Set("__requestverificationtoken", token)
 	req.Header.Set("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36")

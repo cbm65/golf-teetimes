@@ -360,6 +360,14 @@ tr:hover td {
     font-variant-numeric: tabular-nums;
 }
 
+.openings-icon {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    margin-right: 4px;
+    margin-top: -2px;
+}
+
 .openings-full {
     color: #4a8c3f;
 }
@@ -511,6 +519,78 @@ tr:hover td {
     color: #1a3a1a;
 }
 
+/* Mobile tee time cards */
+
+.mobile-cards {
+    display: none;
+}
+
+.mobile-tt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    border-bottom: 1px solid #f0ede6;
+}
+
+.mobile-tt:last-child {
+    border-bottom: none;
+}
+
+.mobile-tt-left {
+    flex: 1;
+    min-width: 0;
+}
+
+.mobile-tt-time {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.mobile-tt-course {
+    color: #1a3a1a;
+    font-weight: 500;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mobile-tt-meta {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 4px;
+    font-size: 13px;
+    color: #888;
+}
+
+.mobile-tt-right {
+    text-align: right;
+    margin-left: 12px;
+    flex-shrink: 0;
+}
+
+.mobile-tt-price {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.mobile-tt-book {
+    display: inline-block;
+    padding: 7px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+    color: #1a3a1a;
+    border: 1.5px solid #1a3a1a;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+}
+
 /* Mobile */
 
 @media (max-width: 640px) {
@@ -530,11 +610,9 @@ tr:hover td {
     .form-card { padding: 20px; }
     .card-title { font-size: 20px; }
 
-    /* Scrollable table */
-    .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-    th { padding: 12px 14px; font-size: 11px; white-space: nowrap; }
-    td { padding: 14px; font-size: 14px; white-space: nowrap; }
-    .book-link { padding: 8px 14px; font-size: 13px; }
+    /* Hide table, show mobile cards */
+    .table-wrap { display: none; }
+    .mobile-cards { display: block; }
 
     /* Alert form */
     .alert-form-row { flex-direction: column; }

@@ -35,9 +35,9 @@ var CPSGolfCourses = map[string]CPSGolfCourseConfig{
 }
 
 type CPSGolfResponse struct {
-	TransactionID string        `json:"transactionId"`
-	IsSuccess     bool          `json:"isSuccess"`
-	Content       []CPSGolfSlot `json:"content"`
+	TransactionID string          `json:"transactionId"`
+	IsSuccess     bool            `json:"isSuccess"`
+	Content       json.RawMessage `json:"content"`
 }
 
 type CPSGolfSlot struct {
@@ -149,8 +149,15 @@ func fetchCPSGolf(config CPSGolfCourseConfig, date string) ([]DisplayTeeTime, er
 		return nil, err
 	}
 
+	var slots []CPSGolfSlot
+	err = json.Unmarshal(data.Content, &slots)
+	if err != nil {
+		// Content is an object (e.g. "no tee times" message) — return empty
+		return nil, nil
+	}
+
 	var results []DisplayTeeTime
-	for _, slot := range data.Content {
+	for _, slot := range slots {
 		// Parse time from "2026-02-08T12:00:00"
 		var t time.Time
 		t, err = time.Parse("2006-01-02T15:04:05", slot.StartTime)
