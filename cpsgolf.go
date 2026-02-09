@@ -18,6 +18,8 @@ type CPSGolfCourseConfig struct {
 	CourseIDs  string
 	BookingURL string
 	Names      map[string]string
+	City       string
+	State      string
 }
 
 var CPSGolfCourses = map[string]CPSGolfCourseConfig{
@@ -31,6 +33,7 @@ var CPSGolfCourses = map[string]CPSGolfCourseConfig{
 		Names: map[string]string{
 			"Green Valley Ranch": "Green Valley Ranch",
 		},
+		City: "Denver", State: "CO",
 	},
 	"indiantree": {
 		BaseURL:    "https://indiantree.cps.golf",
@@ -42,6 +45,7 @@ var CPSGolfCourses = map[string]CPSGolfCourseConfig{
 		Names: map[string]string{
 			"Regulation 18": "Indian Tree",
 		},
+		City: "Arvada", State: "CO",
 	},
 	"emeraldgreens": {
 		BaseURL:    "https://emeraldgreens.cps.golf",
@@ -53,6 +57,7 @@ var CPSGolfCourses = map[string]CPSGolfCourseConfig{
 		Names: map[string]string{
 			"Emerald Greens Golf Club": "Emerald Greens",
 		},
+		City: "Denver", State: "CO",
 	},
 	"fossiltrace": {
 		BaseURL:    "https://fossiltrace.cps.golf",
@@ -66,6 +71,7 @@ var CPSGolfCourses = map[string]CPSGolfCourseConfig{
 			"9 Holes":  "Fossil Trace 9",
 			"Twilight": "Fossil Trace Twilight",
 		},
+		City: "Golden", State: "CO",
 	},
 	"westminster": {
 		BaseURL:    "https://cityofwestminster.cps.golf",
@@ -78,6 +84,7 @@ var CPSGolfCourses = map[string]CPSGolfCourseConfig{
 			"Legacy Ridge": "Legacy Ridge",
 			"Walnut Creek": "Walnut Creek",
 		},
+		City: "Westminster", State: "CO",
 	},
 }
 
@@ -231,6 +238,8 @@ func fetchCPSGolf(config CPSGolfCourseConfig, date string) ([]DisplayTeeTime, er
 		results = append(results, DisplayTeeTime{
 			Time:       timeStr,
 			Course:     courseName,
+			City:       config.City,
+			State:      config.State,
 			Openings:   openings,
 			Holes:      holes,
 			Price:      price,

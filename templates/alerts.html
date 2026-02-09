@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Alerts - Denver Golf Tee Times</title>
+    <title>My Alerts - {{.Metro.Name}} Golf Tee Times</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/style.css">
@@ -11,16 +11,19 @@
         <div class="header-inner">
             <div class="header-top">
                 <div>
+                    <a href="/" class="header-brand">TeeTimes</a>
                     <h1>My Alerts</h1>
                     <p>Manage your tee time notifications</p>
                 </div>
                 <nav class="nav">
-                    <a href="/" class="nav-link">Tee Times</a>
-                    <a href="/alerts" class="nav-link nav-active">My Alerts</a>
+                    <a href="/{{.Metro.Slug}}" class="nav-link">Tee Times</a>
+                    <a href="/{{.Metro.Slug}}/alerts" class="nav-link nav-active">My Alerts</a>
                 </nav>
             </div>
         </div>
     </div>
+
+    <script>var METRO = "{{.Metro.Slug}}";</script>
 
     <div class="container">
         <div class="card form-card" id="lookupCard">

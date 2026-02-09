@@ -20,6 +20,8 @@ type MemberSportsCourseConfig struct {
 	BookingURL   string
 	NamePrefix   string   // prepended to API course names if set
 	KnownCourses []string // base course names this config serves
+	City         string
+	State        string
 }
 
 var MemberSportsCourses = map[string]MemberSportsCourseConfig{
@@ -30,6 +32,7 @@ var MemberSportsCourses = map[string]MemberSportsCourseConfig{
 		ConfigType: 1,
 		BookingURL: "https://app.membersports.com/tee-times/3629/20573/1/1/0",
 		KnownCourses: []string{"City Park", "Kennedy", "Wellshire", "Willis Case", "Overland Park", "Harvard Gulch", "Kennedy Par 3 or Footgolf"},
+		City: "Denver", State: "CO",
 	},
 	"foxhollow": {
 		ClubID:     3703,
@@ -38,6 +41,7 @@ var MemberSportsCourses = map[string]MemberSportsCourseConfig{
 		ConfigType: 0,
 		BookingURL: "https://app.membersports.com/tee-times/3703/20589/0/7/0",
 		KnownCourses: []string{"Fox Hollow", "Homestead"},
+		City: "Lakewood", State: "CO",
 	},
 	"foothills": {
 		ClubID:     3697,
@@ -46,6 +50,7 @@ var MemberSportsCourses = map[string]MemberSportsCourseConfig{
 		ConfigType: 0,
 		BookingURL: "https://app.membersports.com/tee-times/3697/4758/0/3/0",
 		KnownCourses: []string{"Foothills 18", "Foothills Executive 9", "Foothills Par 3", "Meadows"},
+		City: "Lakewood", State: "CO",
 	},
 	"brokentee": {
 		ClubID:     3689,
@@ -55,6 +60,7 @@ var MemberSportsCourses = map[string]MemberSportsCourseConfig{
 		BookingURL: "https://app.membersports.com/tee-times/3689/4748/0/0/0",
 		NamePrefix: "Broken Tee",
 		KnownCourses: []string{"Broken Tee"},
+		City: "Englewood", State: "CO",
 	},
 }
 
@@ -166,6 +172,8 @@ func fetchMemberSports(config MemberSportsCourseConfig, date string) ([]DisplayT
 			results = append(results, DisplayTeeTime{
 				Time:       timeStr,
 				Course:     courseName,
+				City:       config.City,
+				State:      config.State,
 				Openings:   openings,
 				Holes:      holes,
 				Price:      item.Price,

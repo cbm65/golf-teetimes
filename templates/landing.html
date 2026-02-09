@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TeeTimes — Find Golf Tee Times Near You</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="landing-hero">
+        <div class="landing-hero-inner">
+            <p class="landing-eyebrow">⛳ One search. Every public course.</p>
+            <h1 class="landing-title">Find Your Tee Time</h1>
+            <p class="landing-subtitle">We search every municipal and public course booking system so you don't have to. Pick your metro, pick your date, and see every available tee time in one place.</p>
+        </div>
+    </div>
+
+    <div class="landing-how">
+        <div class="landing-how-inner">
+            <div class="landing-step">
+                <div class="landing-step-num">1</div>
+                <div class="landing-step-title">Choose your area</div>
+                <div class="landing-step-desc">Select a metro region below to see all courses in that area.</div>
+            </div>
+            <div class="landing-step-arrow">→</div>
+            <div class="landing-step">
+                <div class="landing-step-num">2</div>
+                <div class="landing-step-title">Filter &amp; find</div>
+                <div class="landing-step-desc">Pick a date, adjust time, openings, and holes to find exactly what you need.</div>
+            </div>
+            <div class="landing-step-arrow">→</div>
+            <div class="landing-step">
+                <div class="landing-step-num">3</div>
+                <div class="landing-step-title">Book directly</div>
+                <div class="landing-step-desc">Click through to book directly with the course — no middleman, no markup.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="landing-alerts">
+        <div class="landing-alerts-inner">
+            <div class="landing-alerts-content">
+                <h2 class="landing-alerts-title">Never Miss a Tee Time</h2>
+                <p class="landing-alerts-desc">Can't find the time you want? Set an alert and we'll text you the moment one opens up. Pick a course, choose your date and time window, enter your phone number — that's it.</p>
+                <div class="landing-alerts-steps">
+                    <div class="landing-alerts-step">
+                        <span class="landing-alerts-icon">🔔</span>
+                        <div>
+                            <strong>Set an alert</strong>
+                            <p>Choose a course, date, and time range on the tee times page. Enter your phone number and we'll watch for openings.</p>
+                        </div>
+                    </div>
+                    <div class="landing-alerts-step">
+                        <span class="landing-alerts-icon">📱</span>
+                        <div>
+                            <strong>Get a text</strong>
+                            <p>When a tee time opens up that matches your alert, you'll get an SMS with the details and a link to book.</p>
+                        </div>
+                    </div>
+                    <div class="landing-alerts-step">
+                        <span class="landing-alerts-icon">📋</span>
+                        <div>
+                            <strong>Manage anytime</strong>
+                            <p>Check or delete your alerts anytime from the My Alerts page — just enter your phone number to look them up.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="landing-alerts-sidebar">
+                <div class="landing-alerts-badge">No account needed</div>
+                <p class="landing-alerts-privacy">We don't require a login, an account, or an email address. Your phone number is only used to send you the alerts you create — nothing else. No data collection, no marketing, no spam.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="landing-metros">
+        <h2 class="landing-section-title">Available Regions</h2>
+        <div class="landing-metro-grid">
+            {{range .}}
+            <a href="/{{.Slug}}" class="landing-metro-card">
+                <div class="landing-metro-top">
+                    <h3 class="landing-metro-name">{{.Name}}</h3>
+                    <span class="landing-metro-state">{{.State}}</span>
+                </div>
+                <p class="landing-metro-tagline">{{.Tagline}}</p>
+                <div class="landing-metro-stats">
+                    <span>{{.CourseCount}} courses</span>
+                    <span>·</span>
+                    <span>{{.CityCount}} cities</span>
+                </div>
+                <div class="landing-metro-cta">Browse Tee Times →</div>
+            </a>
+            {{end}}
+
+            <div class="landing-metro-card landing-metro-coming">
+                <div class="landing-metro-top">
+                    <h3 class="landing-metro-name">More coming soon</h3>
+                </div>
+                <p class="landing-metro-tagline">We're expanding to new metro areas. Have a request?</p>
+                <div class="landing-metro-cta landing-metro-cta-muted">Let us know →</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-inner">
+            <p class="footer-about">We aggregate tee times from every public and municipal course booking system so you can find your round in one place. No accounts, no fees, no data collection — just tee times.</p>
+            <div class="footer-links">
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Denver Golf Tee Times</title>
+    <title>{{.Metro.Name}} Golf Tee Times</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/style.css">
@@ -11,28 +11,37 @@
         <div class="header-inner">
             <div class="header-top">
                 <div>
-                    <h1>Denver Area Golf Tee Times</h1>
-                    <p>Municipal &amp; Public Courses</p>
+                    <a href="/" class="header-brand">TeeTimes</a>
+                    <h1>{{.Metro.Name}} Area Golf Tee Times</h1>
+                    <p>{{.Metro.Tagline}}</p>
                 </div>
                 <nav class="nav">
-                    <a href="/" class="nav-link nav-active">Tee Times</a>
-                    <a href="/alerts" class="nav-link">My Alerts</a>
+                    <a href="/{{.Metro.Slug}}" class="nav-link nav-active">Tee Times</a>
+                    <a href="/{{.Metro.Slug}}/alerts" class="nav-link">My Alerts</a>
                 </nav>
             </div>
         </div>
     </div>
+
+    <script>var METRO = "{{.Metro.Slug}}";</script>
 
     <div class="container">
         <div class="filters">
             <div class="filter-row">
                 <div class="filter-group">
                     <label>Date</label>
-                    <input type="date" id="date" value="{{.}}">
+                    <input type="date" id="date" value="{{.Date}}">
                 </div>
                 <div class="filter-group">
                     <label>Course</label>
                     <select id="course">
                         <option value="">All Courses</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>City</label>
+                    <select id="city">
+                        <option value="">All Cities</option>
                     </select>
                 </div>
                 <div class="filter-group">
@@ -141,8 +150,10 @@
 
     <div class="footer">
         <div class="footer-inner">
-            <a href="/privacy">Privacy Policy</a>
-            <a href="/terms">Terms of Service</a>
+            <div class="footer-links">
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Service</a>
+            </div>
         </div>
     </div>
 

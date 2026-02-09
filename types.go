@@ -3,6 +3,8 @@ package main
 type DisplayTeeTime struct {
 	Time       string  `json:"time"`
 	Course     string  `json:"course"`
+	City       string  `json:"city"`
+	State      string  `json:"state"`
 	Openings   int     `json:"openings"`
 	Holes      string  `json:"holes"`
 	Price      float64 `json:"price"`

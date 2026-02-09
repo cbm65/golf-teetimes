@@ -13,6 +13,8 @@ type TeeItUpCourseConfig struct {
 	FacilityID  string
 	BookingURL  string
 	DisplayName string
+	City        string
+	State       string
 }
 
 var TeeItUpCourses = map[string]TeeItUpCourseConfig{
@@ -21,24 +23,28 @@ var TeeItUpCourses = map[string]TeeItUpCourseConfig{
 		FacilityID:  "9201",
 		BookingURL:  "https://hyland-hills-park-recreation-district.book.teeitup.com/teetimes",
 		DisplayName: "Hyland Hills",
+		City: "Westminster", State: "CO",
 	},
 	"stoneycreek": {
 		Alias:       "stoney-creek-golf-course",
 		FacilityID:  "13099",
 		BookingURL:  "https://stoney-creek-golf-course.book.teeitup.golf/teetimes",
 		DisplayName: "Stoney Creek",
+		City: "Arvada", State: "CO",
 	},
 	"commonground": {
 		Alias:       "commonground-golf-course",
 		FacilityID:  "5275",
 		BookingURL:  "https://commonground-golf-course.book.teeitup.com/teetimes",
 		DisplayName: "CommonGround",
+		City: "Aurora", State: "CO",
 	},
 	"buffalorun": {
 		Alias:       "buffalo-run-golf-course",
 		FacilityID:  "513",
 		BookingURL:  "https://buffalo-run-golf-course.book.teeitup.golf/teetimes",
 		DisplayName: "Buffalo Run",
+		City: "Commerce City", State: "CO",
 	},
 }
 
@@ -144,6 +150,8 @@ func fetchTeeItUp(config TeeItUpCourseConfig, date string) ([]DisplayTeeTime, er
 		results = append(results, DisplayTeeTime{
 			Time:       timeStr,
 			Course:     config.DisplayName,
+			City:       config.City,
+			State:      config.State,
 			Openings:   openings,
 			Holes:      holesStr,
 			Price:      price,

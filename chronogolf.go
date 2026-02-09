@@ -12,6 +12,8 @@ type ChronogolfCourseConfig struct {
 	CourseIDs  string
 	BookingURL string
 	Names      map[string]string // map API name to display name
+	City       string
+	State      string
 }
 
 var ChronogolfCourses = map[string]ChronogolfCourseConfig{
@@ -22,6 +24,7 @@ var ChronogolfCourses = map[string]ChronogolfCourseConfig{
 			"SSG 18 Hole Course":      "South Suburban",
 			"SSG 9 Hole Par 3 Course": "South Suburban Par 3",
 		},
+		City: "Centennial", State: "CO",
 	},
 	"lonetree": {
 		CourseIDs:  "001a7f2d-2c20-4bd9-8f91-3df9d051f737",
@@ -29,6 +32,7 @@ var ChronogolfCourses = map[string]ChronogolfCourseConfig{
 		Names: map[string]string{
 			"LTH 18 Hole Course": "Lone Tree",
 		},
+		City: "Lone Tree", State: "CO",
 	},
 	"littleton": {
 		CourseIDs:  "6a1ad175-7c4f-4692-a58f-7879e72ed9e9,c98df576-e507-44d7-9ece-7d59154fd143",
@@ -36,6 +40,7 @@ var ChronogolfCourses = map[string]ChronogolfCourseConfig{
 		Names: map[string]string{
 			"LGT 18 Hole Course": "Littleton",
 		},
+		City: "Littleton", State: "CO",
 	},
 	"familysports": {
 		CourseIDs:  "34b44f75-a475-4ec1-b5d3-e3089b66cf86",
@@ -43,6 +48,7 @@ var ChronogolfCourses = map[string]ChronogolfCourseConfig{
 		Names: map[string]string{
 			"FSC 9 Hole Course": "Family Sports",
 		},
+		City: "Centennial", State: "CO",
 	},
 }
 
@@ -161,6 +167,8 @@ func fetchChronogolf(config ChronogolfCourseConfig, date string) ([]DisplayTeeTi
 		results = append(results, DisplayTeeTime{
 			Time:       timeStr,
 			Course:     courseName,
+			City:       config.City,
+			State:      config.State,
 			Openings:   slot.MaxPlayerSize,
 			Holes:      holesStr,
 			Price:      slot.DefaultPrice.GreenFee,

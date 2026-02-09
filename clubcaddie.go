@@ -17,6 +17,8 @@ type ClubCaddieCourseConfig struct {
 	CourseID    string
 	BookingURL  string
 	DisplayName string
+	City        string
+	State       string
 }
 
 var ClubCaddieCourses = map[string]ClubCaddieCourseConfig{
@@ -26,6 +28,7 @@ var ClubCaddieCourses = map[string]ClubCaddieCourseConfig{
 		CourseID:    "103418",
 		BookingURL:  "https://apimanager-cc11.clubcaddie.com/webapi/view/hbfdabab/slots",
 		DisplayName: "Applewood",
+		City: "Golden", State: "CO",
 	},
 	"thelinks": {
 		BaseURL:     "https://apimanager-cc37.clubcaddie.com",
@@ -33,6 +36,7 @@ var ClubCaddieCourses = map[string]ClubCaddieCourseConfig{
 		CourseID:    "103491",
 		BookingURL:  "https://apimanager-cc37.clubcaddie.com/webapi/view/ajfdabab/slots",
 		DisplayName: "The Links",
+		City: "Highlands Ranch", State: "CO",
 	},
 }
 
@@ -174,6 +178,8 @@ func fetchClubCaddie(config ClubCaddieCourseConfig, date string) ([]DisplayTeeTi
 		results = append(results, DisplayTeeTime{
 			Time:       timeStr,
 			Course:     config.DisplayName,
+			City:       config.City,
+			State:      config.State,
 			Openings:   slot.PlayersAvailable,
 			Holes:      holes,
 			Price:      price,

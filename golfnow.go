@@ -15,6 +15,8 @@ type GolfNowCourseConfig struct {
 	SearchURL   string
 	BookingURL  string
 	DisplayName string
+	City        string
+	State       string
 }
 
 var GolfNowCourses = map[string]GolfNowCourseConfig{
@@ -23,42 +25,49 @@ var GolfNowCourses = map[string]GolfNowCourseConfig{
 		SearchURL:   "https://www.golfnow.com/tee-times/facility/17879-murphy-creek-golf-course/search",
 		BookingURL:  "https://www.auroragov.org/things_to_do/golf/book_a_tee_time",
 		DisplayName: "Murphy Creek",
+		City: "Aurora", State: "CO",
 	},
 	"springhill": {
 		FacilityID:  17876,
 		SearchURL:   "https://www.golfnow.com/tee-times/facility/17876-springhill-golf-course/search",
 		BookingURL:  "https://www.auroragov.org/things_to_do/golf/book_a_tee_time",
 		DisplayName: "Springhill",
+		City: "Aurora", State: "CO",
 	},
 	"meadowhills": {
 		FacilityID:  17880,
 		SearchURL:   "https://www.golfnow.com/tee-times/facility/17880-meadow-hills-golf-course/search",
 		BookingURL:  "https://www.auroragov.org/things_to_do/golf/book_a_tee_time",
 		DisplayName: "Meadow Hills",
+		City: "Aurora", State: "CO",
 	},
 	"aurorahills": {
 		FacilityID:  17878,
 		SearchURL:   "https://www.golfnow.com/tee-times/facility/17878-aurora-hills-golf-course/search",
 		BookingURL:  "https://www.auroragov.org/things_to_do/golf/book_a_tee_time",
 		DisplayName: "Aurora Hills",
+		City: "Aurora", State: "CO",
 	},
 	"saddlerock": {
 		FacilityID:  17877,
 		SearchURL:   "https://www.golfnow.com/tee-times/facility/17877-saddle-rock-golf-course/search",
 		BookingURL:  "https://www.auroragov.org/things_to_do/golf/book_a_tee_time",
 		DisplayName: "Saddle Rock",
+		City: "Aurora", State: "CO",
 	},
 	"raccooncreek": {
 		FacilityID:  515,
 		SearchURL:   "https://www.golfnow.com/tee-times/facility/515-raccoon-creek-golf-course/search",
 		BookingURL:  "https://raccooncreek.ezlinksgolf.com/index.html#/search",
 		DisplayName: "Raccoon Creek",
+		City: "Littleton", State: "CO",
 	},
 	"arrowhead": {
 		FacilityID:  453,
 		SearchURL:   "https://www.golfnow.com/tee-times/facility/453-arrowhead-golf-club/search",
 		BookingURL:  "https://arrowheadpp.ezlinksgolf.com/index.html#/search",
 		DisplayName: "Arrowhead",
+		City: "Littleton", State: "CO",
 	},
 }
 
@@ -283,6 +292,8 @@ func fetchGolfNow(config GolfNowCourseConfig, date string) ([]DisplayTeeTime, er
 		results = append(results, DisplayTeeTime{
 			Time:       timeStr,
 			Course:     config.DisplayName,
+			City:       config.City,
+			State:      config.State,
 			Openings:   openings,
 			Holes:      holes,
 			Price:      tt.DisplayRate,

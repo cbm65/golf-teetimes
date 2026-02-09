@@ -16,7 +16,36 @@ type fetchResult struct {
 	name    string
 }
 
-func handleTeeTimes(w http.ResponseWriter, r *http.Request) {
+type MetroPageData struct {
+	Date  string
+	Metro Metro
+}
+
+func handleLanding(w http.ResponseWriter, r *http.Request) {
+	var tmpl *template.Template
+	var err error
+	tmpl, err = template.ParseFiles("templates/landing.html")
+	if err != nil {
+		http.Error(w, err.Error(), 500)
+		return
+	}
+	tmpl.Execute(w, GetMetroList())
+}
+
+func handleMetroHome(w http.ResponseWriter, r *http.Request, metro Metro) {
+	var tmpl *template.Template
+	var err error
+	tmpl, err = template.ParseFiles("templates/home.html")
+	if err != nil {
+		http.Error(w, err.Error(), 500)
+		return
+	}
+
+	var today string = time.Now().Format("2006-01-02")
+	tmpl.Execute(w, MetroPageData{Date: today, Metro: metro})
+}
+
+func handleMetroTeeTimes(w http.ResponseWriter, r *http.Request, metro Metro) {
 	var date string = r.URL.Query().Get("date")
 	if date == "" {
 		date = time.Now().Format("2006-01-02")
@@ -25,8 +54,14 @@ func handleTeeTimes(w http.ResponseWriter, r *http.Request) {
 	var ch chan fetchResult = make(chan fetchResult)
 	var wg sync.WaitGroup
 
-	// Launch all MemberSports fetches
-	for name, config := range MemberSportsCourses {
+	// Launch MemberSports fetches for this metro
+	for _, key := range metro.MemberSportsKeys {
+		var config MemberSportsCourseConfig
+		var exists bool
+		config, exists = MemberSportsCourses[key]
+		if !exists {
+			continue
+		}
 		wg.Add(1)
 		go func(n string, c MemberSportsCourseConfig) {
 			defer wg.Done()
@@ -34,11 +69,17 @@ func handleTeeTimes(w http.ResponseWriter, r *http.Request) {
 			var err error
 			results, err = fetchMemberSports(c, date)
 			ch <- fetchResult{results: results, err: err, name: n}
-		}(name, config)
+		}(key, config)
 	}
 
-	// Launch all Chronogolf fetches
-	for name, config := range ChronogolfCourses {
+	// Launch Chronogolf fetches for this metro
+	for _, key := range metro.ChronogolfKeys {
+		var config ChronogolfCourseConfig
+		var exists bool
+		config, exists = ChronogolfCourses[key]
+		if !exists {
+			continue
+		}
 		wg.Add(1)
 		go func(n string, c ChronogolfCourseConfig) {
 			defer wg.Done()
@@ -46,11 +87,17 @@ func handleTeeTimes(w http.ResponseWriter, r *http.Request) {
 			var err error
 			results, err = fetchChronogolf(c, date)
 			ch <- fetchResult{results: results, err: err, name: n}
-		}(name, config)
+		}(key, config)
 	}
 
-	// Launch all CPS Golf fetches
-	for name, config := range CPSGolfCourses {
+	// Launch CPS Golf fetches for this metro
+	for _, key := range metro.CPSGolfKeys {
+		var config CPSGolfCourseConfig
+		var exists bool
+		config, exists = CPSGolfCourses[key]
+		if !exists {
+			continue
+		}
 		wg.Add(1)
 		go func(n string, c CPSGolfCourseConfig) {
 			defer wg.Done()
@@ -58,11 +105,17 @@ func handleTeeTimes(w http.ResponseWriter, r *http.Request) {
 			var err error
 			results, err = fetchCPSGolf(c, date)
 			ch <- fetchResult{results: results, err: err, name: n}
-		}(name, config)
+		}(key, config)
 	}
 
-	// Launch all GolfNow fetches
-	for name, config := range GolfNowCourses {
+	// Launch GolfNow fetches for this metro
+	for _, key := range metro.GolfNowKeys {
+		var config GolfNowCourseConfig
+		var exists bool
+		config, exists = GolfNowCourses[key]
+		if !exists {
+			continue
+		}
 		wg.Add(1)
 		go func(n string, c GolfNowCourseConfig) {
 			defer wg.Done()
@@ -70,11 +123,17 @@ func handleTeeTimes(w http.ResponseWriter, r *http.Request) {
 			var err error
 			results, err = fetchGolfNow(c, date)
 			ch <- fetchResult{results: results, err: err, name: n}
-		}(name, config)
+		}(key, config)
 	}
 
-	// Launch all TeeItUp fetches
-	for name, config := range TeeItUpCourses {
+	// Launch TeeItUp fetches for this metro
+	for _, key := range metro.TeeItUpKeys {
+		var config TeeItUpCourseConfig
+		var exists bool
+		config, exists = TeeItUpCourses[key]
+		if !exists {
+			continue
+		}
 		wg.Add(1)
 		go func(n string, c TeeItUpCourseConfig) {
 			defer wg.Done()
@@ -82,11 +141,17 @@ func handleTeeTimes(w http.ResponseWriter, r *http.Request) {
 			var err error
 			results, err = fetchTeeItUp(c, date)
 			ch <- fetchResult{results: results, err: err, name: n}
-		}(name, config)
+		}(key, config)
 	}
 
-	// Launch all ClubCaddie fetches
-	for name, config := range ClubCaddieCourses {
+	// Launch ClubCaddie fetches for this metro
+	for _, key := range metro.ClubCaddieKeys {
+		var config ClubCaddieCourseConfig
+		var exists bool
+		config, exists = ClubCaddieCourses[key]
+		if !exists {
+			continue
+		}
 		wg.Add(1)
 		go func(n string, c ClubCaddieCourseConfig) {
 			defer wg.Done()
@@ -94,7 +159,7 @@ func handleTeeTimes(w http.ResponseWriter, r *http.Request) {
 			var err error
 			results, err = fetchClubCaddie(c, date)
 			ch <- fetchResult{results: results, err: err, name: n}
-		}(name, config)
+		}(key, config)
 	}
 
 	// Close channel when all goroutines finish
@@ -124,20 +189,7 @@ func handleTeeTimes(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(allResults)
 }
 
-func handleHome(w http.ResponseWriter, r *http.Request) {
-	var tmpl *template.Template
-	var err error
-	tmpl, err = template.ParseFiles("templates/home.html")
-	if err != nil {
-		http.Error(w, err.Error(), 500)
-		return
-	}
-
-	var today string = time.Now().Format("2006-01-02")
-	tmpl.Execute(w, today)
-}
-
-func handleAlertsPage(w http.ResponseWriter, r *http.Request) {
+func handleMetroAlerts(w http.ResponseWriter, r *http.Request, metro Metro) {
 	var tmpl *template.Template
 	var err error
 	tmpl, err = template.ParseFiles("templates/alerts.html")
@@ -146,8 +198,7 @@ func handleAlertsPage(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	var today string = time.Now().Format("2006-01-02")
-	tmpl.Execute(w, today)
+	tmpl.Execute(w, MetroPageData{Metro: metro})
 }
 
 func handlePrivacy(w http.ResponseWriter, r *http.Request) {

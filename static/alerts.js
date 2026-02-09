@@ -22,7 +22,7 @@ async function loadAlerts() {
         alertsList.style.display = "block"
 
         if (alerts.length === 0) {
-            content.innerHTML = '<div class="empty"><div class="empty-icon">🔔</div>No alerts found for this number.<br><a href="/" class="back-link">Browse tee times</a> and select a course to create one.</div>'
+            content.innerHTML = '<div class="empty"><div class="empty-icon">🔔</div>No alerts found for this number.<br><a href="/' + METRO + '" class="back-link">Browse tee times</a> and select a course to create one.</div>'
             return
         }
 

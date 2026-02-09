@@ -19,7 +19,7 @@ async function fetchTimes() {
     document.getElementById("count").textContent = ""
 
     try {
-        var response = await fetch("/teetimes?date=" + date)
+        var response = await fetch("/" + METRO + "/teetimes?date=" + date)
         if (!response.ok) {
             throw new Error("Server error: " + response.status)
         }
@@ -57,6 +57,32 @@ function updateCourseFilter() {
             option.selected = true
         }
         courseSelect.appendChild(option)
+    }
+
+    updateCityFilter()
+}
+
+function updateCityFilter() {
+    var citySelect = document.getElementById("city")
+    var currentValue = citySelect.value
+    var cities = []
+
+    for (var i = 0; i < allTimes.length; i++) {
+        if (allTimes[i].city && cities.indexOf(allTimes[i].city) === -1) {
+            cities.push(allTimes[i].city)
+        }
+    }
+    cities.sort()
+
+    citySelect.innerHTML = '<option value="">All Cities</option>'
+    for (var i = 0; i < cities.length; i++) {
+        var option = document.createElement("option")
+        option.value = cities[i]
+        option.textContent = cities[i]
+        if (cities[i] === currentValue) {
+            option.selected = true
+        }
+        citySelect.appendChild(option)
     }
 }
 
@@ -106,6 +132,7 @@ function updateSlider() {
 
 function displayTimes() {
     var courseFilter = document.getElementById("course").value
+    var cityFilter = document.getElementById("city").value
     var fromVal = parseInt(document.getElementById("timeFrom").value)
     var toVal = parseInt(document.getElementById("timeTo").value)
     if (fromVal > toVal) { var tmp = fromVal; fromVal = toVal; toVal = tmp }
@@ -117,6 +144,7 @@ function displayTimes() {
         var t = allTimes[i]
         var base = getBaseCourse(t.course)
         if (courseFilter !== "" && base !== courseFilter) continue
+        if (cityFilter !== "" && t.city !== cityFilter) continue
 
         var h = parseTimeToHours(t.time)
         if (h < fromVal || h >= toVal) continue
@@ -146,7 +174,7 @@ function displayTimes() {
 
             html += "<tr>"
             html += "<td class='time-cell'>" + t.time + "</td>"
-            html += "<td class='course-cell'>" + t.course + "</td>"
+            html += "<td class='course-cell'>" + t.course + "<span class='course-city'>" + (t.city || "") + "</span></td>"
             html += "<td class='openings-cell " + openClass + "'><svg class='openings-icon' viewBox='0 0 24 24' fill='currentColor'><circle cx='12' cy='7' r='4'/><path d='M12 13c-4.42 0-8 1.79-8 4v2h16v-2c0-2.21-3.58-4-8-4z'/></svg>" + t.openings + " / 4</td>"
             html += "<td><span class='" + holesClass + "'>" + t.holes + " holes</span></td>"
             html += "<td class='price-cell'>$" + Math.round(t.price) + "</td>"
@@ -171,7 +199,7 @@ function displayTimes() {
             html += "<div class='mobile-tt'>"
             html += "<div class='mobile-tt-left'>"
             html += "<div class='mobile-tt-time'>" + t.time + "</div>"
-            html += "<div class='mobile-tt-course'>" + t.course + "</div>"
+            html += "<div class='mobile-tt-course'>" + t.course + "<span class='course-city'>" + (t.city || "") + "</span></div>"
             html += "<div class='mobile-tt-meta'>"
             html += "<span class='" + mOpenClass + "'><svg class='openings-icon' viewBox='0 0 24 24' fill='currentColor'><circle cx='12' cy='7' r='4'/><path d='M12 13c-4.42 0-8 1.79-8 4v2h16v-2c0-2.21-3.58-4-8-4z'/></svg>" + t.openings + "/4</span>"
             html += " · "
@@ -264,6 +292,7 @@ async function createAlert() {
 
 document.getElementById("date").addEventListener("change", fetchTimes)
 document.getElementById("course").addEventListener("change", displayTimes)
+document.getElementById("city").addEventListener("change", displayTimes)
 document.getElementById("timeFrom").addEventListener("input", updateSlider)
 document.getElementById("timeTo").addEventListener("input", updateSlider)
 document.getElementById("openings").addEventListener("change", displayTimes)
