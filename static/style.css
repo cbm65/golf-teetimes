@@ -702,16 +702,13 @@ tr:hover td {
     .header { padding: 24px 0 20px; margin-bottom: 24px; }
     .header-top { flex-direction: column; }
     .header h1 { font-size: 24px; }
-    .nav { margin-top: 16px; }
+    .nav { margin-top: 16px; justify-content: center; }
     .nav-link { font-size: 15px; padding: 10px 16px; }
     .filter-row {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 12px;
         width: 100%;
-    }
-    .filter-row .filter-group:nth-child(2) {
-        grid-column: 1 / -1;
     }
     input[type="date"], input[type="tel"], select {
         min-width: 0;
