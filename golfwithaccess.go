@@ -34,6 +34,22 @@ var GolfWithAccessCourses = map[string]GolfWithAccessCourseConfig{
 		City:        "Maricopa",
 		State:       "AZ",
 	},
+	"troonnorthpinnacle": {
+		CourseID:    "4bf6e82f-697f-46d1-8fad-2de5a6083477",
+		Slug:        "troon-north-golf-club-pinnacle-course",
+		BookingURL:  "https://golfwithaccess.com/course/troon-north-golf-club/reserve-tee-time",
+		DisplayName: "Troon North Pinnacle",
+		City:        "Scottsdale",
+		State:       "AZ",
+	},
+	"troonnorthmonument": {
+		CourseID:    "f800515d-41dd-4ae7-a853-57e8092284aa",
+		Slug:        "troon-north-golf-club-monument-course",
+		BookingURL:  "https://golfwithaccess.com/course/troon-north-golf-club/reserve-tee-time",
+		DisplayName: "Troon North Monument",
+		City:        "Scottsdale",
+		State:       "AZ",
+	},
 }
 
 type GolfWithAccessResponse struct {

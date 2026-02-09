@@ -139,6 +139,27 @@ var GolfNowCourses = map[string]GolfNowCourseConfig{
 		DisplayName: "Ocotillo Golf Club",
 		City: "Chandler", State: "AZ",
 	},
+	"dovevalleyranch": {
+		FacilityID:  115,
+		SearchURL:   "https://www.golfnow.com/tee-times/facility/115-dove-valley-ranch-golf-club/search",
+		BookingURL:  "https://dovevalley.ezlinksgolf.com/index.html#/search",
+		DisplayName: "Dove Valley Ranch",
+		City: "Cave Creek", State: "AZ",
+	},
+	"mccormickranchpine": {
+		FacilityID:  7078,
+		SearchURL:   "https://www.golfnow.com/tee-times/facility/7078-mccormick-ranch-golf-club-pine-course/search",
+		BookingURL:  "https://mccormickranch.ezlinksgolf.com/index.html#/search",
+		DisplayName: "McCormick Ranch Pine",
+		City: "Scottsdale", State: "AZ",
+	},
+	"mccormickranchpalm": {
+		FacilityID:  1356,
+		SearchURL:   "https://www.golfnow.com/tee-times/facility/1356-mccormick-ranch-golf-club-palm-course/search",
+		BookingURL:  "https://mccormickranch.ezlinksgolf.com/index.html#/search",
+		DisplayName: "McCormick Ranch Palm",
+		City: "Scottsdale", State: "AZ",
+	},
 }
 
 type GolfNowSearchRequest struct {

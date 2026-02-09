@@ -130,6 +130,27 @@ var TeeItUpCourses = map[string]TeeItUpCourseConfig{
 		DisplayName: "Granite Falls South",
 		City: "Surprise", State: "AZ",
 	},
+	"silverado": {
+		Alias:       "silverado-golf-club",
+		FacilityID:  "59",
+		BookingURL:  "https://silverado-golf-club.book.teeitup.golf/teetimes",
+		DisplayName: "Silverado Golf Club",
+		City: "Scottsdale", State: "AZ",
+	},
+	"paradisevalley": {
+		Alias:       "paradise-valley-golf",
+		FacilityID:  "6749",
+		BookingURL:  "https://paradise-valley-golf.book.teeitup.golf/teetimes",
+		DisplayName: "Paradise Valley Golf",
+		City: "Phoenix", State: "AZ",
+	},
+	"legacygolfclub": {
+		Alias:       "the-legacy-golf-club",
+		FacilityID:  "57",
+		BookingURL:  "https://the-legacy-golf-club.book.teeitup.golf/teetimes",
+		DisplayName: "The Legacy Golf Club",
+		City: "Phoenix", State: "AZ",
+	},
 }
 
 type TeeItUpResponse struct {

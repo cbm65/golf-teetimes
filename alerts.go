@@ -326,6 +326,39 @@ func getBaseCourse(name string) string {
 	if strings.HasPrefix(name, "Fossil Trace") {
 		return "Fossil Trace"
 	}
+	if strings.HasPrefix(name, "McCormick Ranch") {
+		return "McCormick Ranch"
+	}
+	if strings.HasPrefix(name, "TPC Scottsdale") {
+		return "TPC Scottsdale"
+	}
+	if strings.HasPrefix(name, "Verrado") {
+		return "Verrado"
+	}
+	if strings.HasPrefix(name, "Grayhawk") {
+		return "Grayhawk"
+	}
+	if strings.HasPrefix(name, "Coyote Lakes") {
+		return "Coyote Lakes"
+	}
+	if strings.HasPrefix(name, "Granite Falls") {
+		return "Granite Falls"
+	}
+	if strings.HasPrefix(name, "Wigwam") {
+		return "Wigwam"
+	}
+	if strings.HasPrefix(name, "Troon North") {
+		return "Troon North"
+	}
+	if strings.HasPrefix(name, "Aguila") {
+		return "Aguila"
+	}
+	if strings.HasPrefix(name, "Encanto") {
+		return "Encanto"
+	}
+	if strings.HasPrefix(name, "AZ Biltmore") {
+		return "AZ Biltmore"
+	}
 	return strings.Replace(name, " Back Nine", "", 1)
 }
 

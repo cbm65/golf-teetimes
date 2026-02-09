@@ -10,6 +10,17 @@ function getBaseCourse(name) {
     if (name.indexOf("Meadows") === 0) return "Meadows"
     if (name.indexOf("Broken Tee") === 0) return "Broken Tee"
     if (name.indexOf("Fossil Trace") === 0) return "Fossil Trace"
+    if (name.indexOf("McCormick Ranch") === 0) return "McCormick Ranch"
+    if (name.indexOf("TPC Scottsdale") === 0) return "TPC Scottsdale"
+    if (name.indexOf("Verrado") === 0) return "Verrado"
+    if (name.indexOf("Grayhawk") === 0) return "Grayhawk"
+    if (name.indexOf("Coyote Lakes") === 0) return "Coyote Lakes"
+    if (name.indexOf("Granite Falls") === 0) return "Granite Falls"
+    if (name.indexOf("Wigwam") === 0) return "Wigwam"
+    if (name.indexOf("Troon North") === 0) return "Troon North"
+    if (name.indexOf("Aguila") === 0) return "Aguila"
+    if (name.indexOf("Encanto") === 0) return "Encanto"
+    if (name.indexOf("AZ Biltmore") === 0) return "AZ Biltmore"
     return name.replace(" Back Nine", "")
 }
 

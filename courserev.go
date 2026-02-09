@@ -43,6 +43,22 @@ var CourseRevCourses = map[string]CourseRevCourseConfig{
 		City:        "Litchfield Park",
 		State:       "AZ",
 	},
+	"biltmoreestates": {
+		SubDomain:   "arizonabiltmoregolfclub",
+		CourseID:    135,
+		BookingURL:  "https://arizonabiltmoregolfclub.bookings.courserev.ai/tee-times?courseId=135",
+		DisplayName: "AZ Biltmore Estates",
+		City:        "Phoenix",
+		State:       "AZ",
+	},
+	"biltmorelinks": {
+		SubDomain:   "arizonabiltmoregolfclub",
+		CourseID:    136,
+		BookingURL:  "https://arizonabiltmoregolfclub.bookings.courserev.ai/tee-times?courseId=136",
+		DisplayName: "AZ Biltmore Links",
+		City:        "Phoenix",
+		State:       "AZ",
+	},
 }
 
 type CourseRevRequest struct {

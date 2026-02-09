@@ -11,6 +11,7 @@ import (
 
 type Quick18CourseConfig struct {
 	Subdomain   string
+	Domain      string // "quick18.com" or "play18.com", defaults to quick18.com
 	BookingURL  string
 	DisplayName string
 	NamePrefix  string // if set, prepend to course name from HTML
@@ -52,6 +53,23 @@ var Quick18Courses = map[string]Quick18CourseConfig{
 		City:        "Surprise",
 		State:       "AZ",
 	},
+	"sunridgecanyon": {
+		Subdomain:   "sunridgecanyon",
+		Domain:      "play18.com",
+		BookingURL:  "https://sunridgecanyon.play18.com/teetimes/searchmatrix",
+		DisplayName: "SunRidge Canyon",
+		Holes:       "18",
+		City:        "Fountain Hills",
+		State:       "AZ",
+	},
+	"orangetree": {
+		Subdomain:   "orangetree",
+		BookingURL:  "https://orangetree.quick18.com/teetimes/searchmatrix",
+		DisplayName: "Orange Tree Golf Course",
+		Holes:       "18",
+		City:        "Scottsdale",
+		State:       "AZ",
+	},
 }
 
 var quick18TimeRegex *regexp.Regexp = regexp.MustCompile(`mtrxTeeTimes">\s*(\d+:\d+)<div class="be_tee_time_ampm">(AM|PM)</div>`)
@@ -81,7 +99,11 @@ func fetchQuick18(config Quick18CourseConfig, date string) ([]DisplayTeeTime, er
 	// Convert date from 2026-01-15 to 20260115
 	var dateClean string = strings.ReplaceAll(date, "-", "")
 
-	var url string = fmt.Sprintf("https://%s.quick18.com/teetimes/searchmatrix?teedate=%s", config.Subdomain, dateClean)
+	var domain string = "quick18.com"
+	if config.Domain != "" {
+		domain = config.Domain
+	}
+	var url string = fmt.Sprintf("https://%s.%s/teetimes/searchmatrix?teedate=%s", config.Subdomain, domain, dateClean)
 
 	var req *http.Request
 	var err error
