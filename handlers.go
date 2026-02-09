@@ -162,6 +162,60 @@ func handleMetroTeeTimes(w http.ResponseWriter, r *http.Request, metro Metro) {
 		}(key, config)
 	}
 
+	// Launch Quick18 fetches for this metro
+	for _, key := range metro.Quick18Keys {
+		var config Quick18CourseConfig
+		var exists bool
+		config, exists = Quick18Courses[key]
+		if !exists {
+			continue
+		}
+		wg.Add(1)
+		go func(n string, c Quick18CourseConfig) {
+			defer wg.Done()
+			var results []DisplayTeeTime
+			var err error
+			results, err = fetchQuick18(c, date)
+			ch <- fetchResult{results: results, err: err, name: n}
+		}(key, config)
+	}
+
+	// Launch GolfWithAccess fetches for this metro
+	for _, key := range metro.GolfWithAccessKeys {
+		var config GolfWithAccessCourseConfig
+		var exists bool
+		config, exists = GolfWithAccessCourses[key]
+		if !exists {
+			continue
+		}
+		wg.Add(1)
+		go func(n string, c GolfWithAccessCourseConfig) {
+			defer wg.Done()
+			var results []DisplayTeeTime
+			var err error
+			results, err = fetchGolfWithAccess(c, date)
+			ch <- fetchResult{results: results, err: err, name: n}
+		}(key, config)
+	}
+
+	// Launch CourseRev fetches for this metro
+	for _, key := range metro.CourseRevKeys {
+		var config CourseRevCourseConfig
+		var exists bool
+		config, exists = CourseRevCourses[key]
+		if !exists {
+			continue
+		}
+		wg.Add(1)
+		go func(n string, c CourseRevCourseConfig) {
+			defer wg.Done()
+			var results []DisplayTeeTime
+			var err error
+			results, err = fetchCourseRev(c, date)
+			ch <- fetchResult{results: results, err: err, name: n}
+		}(key, config)
+	}
+
 	// Close channel when all goroutines finish
 	go func() {
 		wg.Wait()

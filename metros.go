@@ -13,6 +13,9 @@ type Metro struct {
 	GolfNowKeys      []string
 	TeeItUpKeys      []string
 	ClubCaddieKeys   []string
+	Quick18Keys      []string
+	GolfWithAccessKeys []string
+	CourseRevKeys      []string
 }
 
 var Metros = map[string]Metro{
@@ -29,6 +32,19 @@ var Metros = map[string]Metro{
 		GolfNowKeys:      []string{"murphycreek", "springhill", "meadowhills", "aurorahills", "saddlerock", "raccooncreek", "arrowhead"},
 		TeeItUpKeys:      []string{"hylandhills", "stoneycreek", "commonground", "buffalorun"},
 		ClubCaddieKeys:   []string{"applewood", "thelinks"},
+	},
+	"phoenix": {
+		Name:        "Phoenix",
+		Slug:        "phoenix",
+		State:       "AZ",
+		Tagline:     "Valley of the Sun Public Courses",
+		CourseCount: 33,
+		CityCount:   9,
+		GolfNowKeys: []string{"tpcscottsdale", "tpcscottsdalestadium", "ravengolfclub", "stonecreek", "verrado", "verradofounders", "quintero", "longbow", "superstitionsprings", "ocotillo"},
+		TeeItUpKeys: []string{"dobsonranch", "aguila", "aguila9", "cavecreek", "encanto", "encanto9", "paloverde", "arizonagrand", "cimarron", "granitefallsnorth", "desertsprings", "granitefallssouth"},
+		Quick18Keys: []string{"papago", "grayhawk", "trilogyvistancia", "coyotelakes"},
+		GolfWithAccessKeys: []string{"lookoutmountain", "akchinsoutherndunes"},
+		CourseRevKeys: []string{"wigwamgold", "wigwamblue", "wigwamred"},
 	},
 }
 

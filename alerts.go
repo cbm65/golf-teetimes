@@ -71,6 +71,36 @@ func findGolfNowConfig(course string) (GolfNowCourseConfig, bool) {
 	return GolfNowCourseConfig{}, false
 }
 
+func findQuick18Config(course string) (Quick18CourseConfig, bool) {
+	for _, config := range Quick18Courses {
+		if config.DisplayName == course {
+			return config, true
+		}
+		if config.NamePrefix != "" && strings.HasPrefix(course, config.NamePrefix) {
+			return config, true
+		}
+	}
+	return Quick18CourseConfig{}, false
+}
+
+func findGolfWithAccessConfig(course string) (GolfWithAccessCourseConfig, bool) {
+	for _, config := range GolfWithAccessCourses {
+		if config.DisplayName == course {
+			return config, true
+		}
+	}
+	return GolfWithAccessCourseConfig{}, false
+}
+
+func findCourseRevConfig(course string) (CourseRevCourseConfig, bool) {
+	for _, config := range CourseRevCourses {
+		if config.DisplayName == course {
+			return config, true
+		}
+	}
+	return CourseRevCourseConfig{}, false
+}
+
 func fetchForCourse(course string, date string) ([]DisplayTeeTime, error) {
 	var cgConfig ChronogolfCourseConfig
 	var cgFound bool
@@ -112,6 +142,27 @@ func fetchForCourse(course string, date string) ([]DisplayTeeTime, error) {
 	ccConfig, ccFound = findClubCaddieConfig(course)
 	if ccFound {
 		return fetchClubCaddie(ccConfig, date)
+	}
+
+	var q18Config Quick18CourseConfig
+	var q18Found bool
+	q18Config, q18Found = findQuick18Config(course)
+	if q18Found {
+		return fetchQuick18(q18Config, date)
+	}
+
+	var gwaConfig GolfWithAccessCourseConfig
+	var gwaFound bool
+	gwaConfig, gwaFound = findGolfWithAccessConfig(course)
+	if gwaFound {
+		return fetchGolfWithAccess(gwaConfig, date)
+	}
+
+	var crConfig CourseRevCourseConfig
+	var crFound bool
+	crConfig, crFound = findCourseRevConfig(course)
+	if crFound {
+		return fetchCourseRev(crConfig, date)
 	}
 
 	// Default to Denver
@@ -159,6 +210,27 @@ func bookingURLForCourse(course string) string {
 	ccConfig, ccFound = findClubCaddieConfig(course)
 	if ccFound {
 		return ccConfig.BookingURL
+	}
+
+	var q18Config Quick18CourseConfig
+	var q18Found bool
+	q18Config, q18Found = findQuick18Config(course)
+	if q18Found {
+		return q18Config.BookingURL
+	}
+
+	var gwaConfig GolfWithAccessCourseConfig
+	var gwaFound bool
+	gwaConfig, gwaFound = findGolfWithAccessConfig(course)
+	if gwaFound {
+		return gwaConfig.BookingURL
+	}
+
+	var crConfig CourseRevCourseConfig
+	var crFound bool
+	crConfig, crFound = findCourseRevConfig(course)
+	if crFound {
+		return crConfig.BookingURL
 	}
 
 	return MemberSportsCourses["denver"].BookingURL

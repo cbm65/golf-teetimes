@@ -46,6 +46,90 @@ var TeeItUpCourses = map[string]TeeItUpCourseConfig{
 		DisplayName: "Buffalo Run",
 		City: "Commerce City", State: "CO",
 	},
+	"dobsonranch": {
+		Alias:       "dobson-ranch",
+		FacilityID:  "6501",
+		BookingURL:  "https://dobson-ranch.book.teeitup.golf/teetimes",
+		DisplayName: "Dobson Ranch",
+		City: "Mesa", State: "AZ",
+	},
+	"aguila": {
+		Alias:       "city-of-phoenix-golf-courses",
+		FacilityID:  "287",
+		BookingURL:  "https://city-of-phoenix-golf-courses.book.teeitup.golf/teetimes",
+		DisplayName: "Aguila Golf Course",
+		City: "Phoenix", State: "AZ",
+	},
+	"aguila9": {
+		Alias:       "city-of-phoenix-golf-courses",
+		FacilityID:  "4322",
+		BookingURL:  "https://city-of-phoenix-golf-courses.book.teeitup.golf/teetimes",
+		DisplayName: "Aguila Golf Course 9",
+		City: "Phoenix", State: "AZ",
+	},
+	"cavecreek": {
+		Alias:       "city-of-phoenix-golf-courses",
+		FacilityID:  "288",
+		BookingURL:  "https://city-of-phoenix-golf-courses.book.teeitup.golf/teetimes",
+		DisplayName: "Cave Creek Golf Course",
+		City: "Phoenix", State: "AZ",
+	},
+	"encanto": {
+		Alias:       "city-of-phoenix-golf-courses",
+		FacilityID:  "289",
+		BookingURL:  "https://city-of-phoenix-golf-courses.book.teeitup.golf/teetimes",
+		DisplayName: "Encanto Golf Course",
+		City: "Phoenix", State: "AZ",
+	},
+	"encanto9": {
+		Alias:       "city-of-phoenix-golf-courses",
+		FacilityID:  "4323",
+		BookingURL:  "https://city-of-phoenix-golf-courses.book.teeitup.golf/teetimes",
+		DisplayName: "Encanto Golf Course 9",
+		City: "Phoenix", State: "AZ",
+	},
+	"paloverde": {
+		Alias:       "city-of-phoenix-golf-courses",
+		FacilityID:  "3209",
+		BookingURL:  "https://city-of-phoenix-golf-courses.book.teeitup.golf/teetimes",
+		DisplayName: "Palo Verde",
+		City: "Phoenix", State: "AZ",
+	},
+	"arizonagrand": {
+		Alias:       "arizona-grand-golf-course",
+		FacilityID:  "12",
+		BookingURL:  "https://arizona-grand-golf-course.book.teeitup.golf/teetimes",
+		DisplayName: "Arizona Grand",
+		City: "Phoenix", State: "AZ",
+	},
+	"cimarron": {
+		Alias:       "cimarron-golf-course",
+		FacilityID:  "5216",
+		BookingURL:  "https://cimarron-golf-course.book.teeitup.golf/teetimes",
+		DisplayName: "Cimarron Golf Course",
+		City: "Surprise", State: "AZ",
+	},
+	"granitefallsnorth": {
+		Alias:       "granite-falls-golf-course-north",
+		FacilityID:  "167",
+		BookingURL:  "https://granite-falls-golf-course-north.book.teeitup.golf/teetimes",
+		DisplayName: "Granite Falls North",
+		City: "Surprise", State: "AZ",
+	},
+	"desertsprings": {
+		Alias:       "desert-springs-golf-course",
+		FacilityID:  "164",
+		BookingURL:  "https://desert-springs-golf-course.book.teeitup.golf/teetimes",
+		DisplayName: "Desert Springs",
+		City: "Surprise", State: "AZ",
+	},
+	"granitefallssouth": {
+		Alias:       "granite-falls-golf-course-south",
+		FacilityID:  "11485",
+		BookingURL:  "https://granite-falls-golf-course-south.book.teeitup.golf/teetimes",
+		DisplayName: "Granite Falls South",
+		City: "Surprise", State: "AZ",
+	},
 }
 
 type TeeItUpResponse struct {
@@ -79,8 +163,8 @@ func init() {
 
 func fetchTeeItUp(config TeeItUpCourseConfig, date string) ([]DisplayTeeTime, error) {
 	var url string = fmt.Sprintf(
-		"https://phx-api-be-east-1b.kenna.io/v2/tee-times?date=%s&facilityIds=%s",
-		date, config.FacilityID,
+		"https://phx-api-be-east-1b.kenna.io/v2/tee-times?date=%s&facilityIds=%s&dateMax=%s",
+		date, config.FacilityID, date,
 	)
 
 	var req *http.Request
@@ -131,18 +215,27 @@ func fetchTeeItUp(config TeeItUpCourseConfig, date string) ([]DisplayTeeTime, er
 
 		var openings int = tt.MaxPlayers
 
-		// Get price and holes from first rate
+		// Get price and holes from cheapest rate
 		var price float64 = 0
 		var holes int = 18
 		if len(tt.Rates) > 0 {
-			var rate TeeItUpRate = tt.Rates[0]
-			holes = rate.Holes
-			// Price is in cents
-			if rate.GreenFeeCart > 0 {
-				price = rate.GreenFeeCart / 100
-			} else if rate.GreenFeeWalking > 0 {
-				price = rate.GreenFeeWalking / 100
+			holes = tt.Rates[0].Holes
+			var bestPrice float64 = 0
+			for _, rate := range tt.Rates {
+				var ratePrice float64 = 0
+				if rate.GreenFeeCart > 0 {
+					ratePrice = rate.GreenFeeCart / 100
+				} else if rate.GreenFeeWalking > 0 {
+					ratePrice = rate.GreenFeeWalking / 100
+				}
+				if ratePrice > 0 && (bestPrice == 0 || ratePrice < bestPrice) {
+					bestPrice = ratePrice
+				}
+				if rate.Holes > 0 {
+					holes = rate.Holes
+				}
 			}
+			price = bestPrice
 		}
 
 		var holesStr string = fmt.Sprintf("%d", holes)
