@@ -16,6 +16,9 @@ type Metro struct {
 	Quick18Keys      []string
 	GolfWithAccessKeys []string
 	CourseRevKeys      []string
+	RGuestKeys         []string
+	CourseCoKeys       []string
+	TeeSnapKeys        []string
 }
 
 var Metros = map[string]Metro{
@@ -38,13 +41,16 @@ var Metros = map[string]Metro{
 		Slug:        "phoenix",
 		State:       "AZ",
 		Tagline:     "Valley of the Sun Public Courses",
-		CourseCount: 45,
-		CityCount:   11,
-		GolfNowKeys: []string{"tpcscottsdale", "tpcscottsdalestadium", "ravengolfclub", "stonecreek", "verrado", "verradofounders", "quintero", "longbow", "superstitionsprings", "ocotillo", "dovevalleyranch", "mccormickranchpine", "mccormickranchpalm"},
+		CourseCount: 61,
+		CityCount:   14,
+		GolfNowKeys: []string{"tpcscottsdale", "tpcscottsdalestadium", "ravengolfclub", "stonecreek", "verrado", "verradofounders", "quintero", "longbow", "superstitionsprings", "ocotillo", "dovevalleyranch", "mccormickranchpine", "mccormickranchpalm", "talkingstickoodham", "talkingstickpiipaash", "whirlwinddevilsclaw", "whirlwindcattail", "westernskies", "kokopelli"},
 		TeeItUpKeys: []string{"dobsonranch", "aguila", "aguila9", "cavecreek", "encanto", "encanto9", "paloverde", "arizonagrand", "cimarron", "granitefallsnorth", "desertsprings", "granitefallssouth", "silverado", "paradisevalley", "legacygolfclub"},
 		Quick18Keys: []string{"papago", "grayhawk", "trilogyvistancia", "coyotelakes", "sunridgecanyon", "orangetree"},
-		GolfWithAccessKeys: []string{"lookoutmountain", "akchinsoutherndunes", "troonnorthpinnacle", "troonnorthmonument"},
+		GolfWithAccessKeys: []string{"lookoutmountain", "akchinsoutherndunes", "troonnorthpinnacle", "troonnorthmonument", "kierland", "eaglemountain"},
 		CourseRevKeys: []string{"wigwamgold", "wigwamblue", "wigwamred", "biltmoreestates", "biltmorelinks"},
+		RGuestKeys:    []string{"wekopacholla", "wekopasaguaro", "wildfirefaldo", "wildfirepalmer", "camelbackambiente", "camelbackpadre"},
+		CourseCoKeys:  []string{"kenmcdonald"},
+		TeeSnapKeys:   []string{"sundance"},
 	},
 }
 

@@ -160,6 +160,48 @@ var GolfNowCourses = map[string]GolfNowCourseConfig{
 		DisplayName: "McCormick Ranch Palm",
 		City: "Scottsdale", State: "AZ",
 	},
+	"talkingstickoodham": {
+		FacilityID:  12968,
+		SearchURL:   "https://www.golfnow.com/tee-times/facility/12968-talking-stick-golf-club-oodham-north/search",
+		BookingURL:  "https://talkingstickdailyfee.ezlinksgolf.com/index.html#/search",
+		DisplayName: "Talking Stick O'odham",
+		City: "Scottsdale", State: "AZ",
+	},
+	"talkingstickpiipaash": {
+		FacilityID:  814,
+		SearchURL:   "https://www.golfnow.com/tee-times/facility/814-talking-stick-golf-club-piipaash-south/search",
+		BookingURL:  "https://talkingstickdailyfee.ezlinksgolf.com/index.html#/search",
+		DisplayName: "Talking Stick Piipaash",
+		City: "Scottsdale", State: "AZ",
+	},
+	"whirlwinddevilsclaw": {
+		FacilityID:  110,
+		SearchURL:   "https://www.golfnow.com/tee-times/facility/110-whirlwind-golf-club-devils-claw/search",
+		BookingURL:  "https://whirlwindbest.ezlinksgolf.com/index.html#/search",
+		DisplayName: "Whirlwind Devil's Claw",
+		City: "Chandler", State: "AZ",
+	},
+	"whirlwindcattail": {
+		FacilityID:  13192,
+		SearchURL:   "https://www.golfnow.com/tee-times/facility/13192-whirlwind-golf-club-cattail/search",
+		BookingURL:  "https://whirlwindbest.ezlinksgolf.com/index.html#/search",
+		DisplayName: "Whirlwind Cattail",
+		City: "Chandler", State: "AZ",
+	},
+	"westernskies": {
+		FacilityID:  123,
+		SearchURL:   "https://www.golfnow.com/tee-times/facility/123-western-skies-golf-club/search",
+		BookingURL:  "https://westernskies.ezlinksgolf.com/index.html#/search",
+		DisplayName: "Western Skies Golf Club",
+		City: "Gilbert", State: "AZ",
+	},
+	"kokopelli": {
+		FacilityID:  121,
+		SearchURL:   "https://www.golfnow.com/tee-times/facility/121-kokopelli-golf-club/search",
+		BookingURL:  "https://kokopellipp.ezlinksgolf.com/index.html#/search",
+		DisplayName: "Kokopelli Golf Club",
+		City: "Gilbert", State: "AZ",
+	},
 }
 
 type GolfNowSearchRequest struct {

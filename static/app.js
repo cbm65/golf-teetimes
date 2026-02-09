@@ -21,6 +21,11 @@ function getBaseCourse(name) {
     if (name.indexOf("Aguila") === 0) return "Aguila"
     if (name.indexOf("Encanto") === 0) return "Encanto"
     if (name.indexOf("AZ Biltmore") === 0) return "AZ Biltmore"
+    if (name.indexOf("We-Ko-Pa") === 0) return "We-Ko-Pa"
+    if (name.indexOf("Talking Stick") === 0) return "Talking Stick"
+    if (name.indexOf("Whirlwind") === 0) return "Whirlwind"
+    if (name.indexOf("Wildfire") === 0) return "Wildfire"
+    if (name.indexOf("Camelback") === 0) return "Camelback"
     return name.replace(" Back Nine", "")
 }
 

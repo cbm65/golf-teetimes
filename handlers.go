@@ -216,6 +216,60 @@ func handleMetroTeeTimes(w http.ResponseWriter, r *http.Request, metro Metro) {
 		}(key, config)
 	}
 
+	// Launch RGuest fetches for this metro
+	for _, key := range metro.RGuestKeys {
+		var config RGuestCourseConfig
+		var exists bool
+		config, exists = RGuestCourses[key]
+		if !exists {
+			continue
+		}
+		wg.Add(1)
+		go func(n string, c RGuestCourseConfig) {
+			defer wg.Done()
+			var results []DisplayTeeTime
+			var err error
+			results, err = fetchRGuest(c, date)
+			ch <- fetchResult{results: results, err: err, name: n}
+		}(key, config)
+	}
+
+	// Launch CourseCo fetches for this metro
+	for _, key := range metro.CourseCoKeys {
+		var config CourseCoCourseConfig
+		var exists bool
+		config, exists = CourseCoCourses[key]
+		if !exists {
+			continue
+		}
+		wg.Add(1)
+		go func(n string, c CourseCoCourseConfig) {
+			defer wg.Done()
+			var results []DisplayTeeTime
+			var err error
+			results, err = fetchCourseCo(c, date)
+			ch <- fetchResult{results: results, err: err, name: n}
+		}(key, config)
+	}
+
+	// Launch TeeSnap fetches for this metro
+	for _, key := range metro.TeeSnapKeys {
+		var config TeeSnapCourseConfig
+		var exists bool
+		config, exists = TeeSnapCourses[key]
+		if !exists {
+			continue
+		}
+		wg.Add(1)
+		go func(n string, c TeeSnapCourseConfig) {
+			defer wg.Done()
+			var results []DisplayTeeTime
+			var err error
+			results, err = fetchTeeSnap(c, date)
+			ch <- fetchResult{results: results, err: err, name: n}
+		}(key, config)
+	}
+
 	// Close channel when all goroutines finish
 	go func() {
 		wg.Wait()

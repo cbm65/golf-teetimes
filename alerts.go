@@ -101,6 +101,33 @@ func findCourseRevConfig(course string) (CourseRevCourseConfig, bool) {
 	return CourseRevCourseConfig{}, false
 }
 
+func findRGuestConfig(course string) (RGuestCourseConfig, bool) {
+	for _, config := range RGuestCourses {
+		if config.DisplayName == course {
+			return config, true
+		}
+	}
+	return RGuestCourseConfig{}, false
+}
+
+func findCourseCoConfig(course string) (CourseCoCourseConfig, bool) {
+	for _, config := range CourseCoCourses {
+		if config.DisplayName == course {
+			return config, true
+		}
+	}
+	return CourseCoCourseConfig{}, false
+}
+
+func findTeeSnapConfig(course string) (TeeSnapCourseConfig, bool) {
+	for _, config := range TeeSnapCourses {
+		if config.DisplayName == course {
+			return config, true
+		}
+	}
+	return TeeSnapCourseConfig{}, false
+}
+
 func fetchForCourse(course string, date string) ([]DisplayTeeTime, error) {
 	var cgConfig ChronogolfCourseConfig
 	var cgFound bool
@@ -163,6 +190,27 @@ func fetchForCourse(course string, date string) ([]DisplayTeeTime, error) {
 	crConfig, crFound = findCourseRevConfig(course)
 	if crFound {
 		return fetchCourseRev(crConfig, date)
+	}
+
+	var rgConfig RGuestCourseConfig
+	var rgFound bool
+	rgConfig, rgFound = findRGuestConfig(course)
+	if rgFound {
+		return fetchRGuest(rgConfig, date)
+	}
+
+	var coConfig CourseCoCourseConfig
+	var coFound bool
+	coConfig, coFound = findCourseCoConfig(course)
+	if coFound {
+		return fetchCourseCo(coConfig, date)
+	}
+
+	var tsConfig TeeSnapCourseConfig
+	var tsFound bool
+	tsConfig, tsFound = findTeeSnapConfig(course)
+	if tsFound {
+		return fetchTeeSnap(tsConfig, date)
 	}
 
 	// Default to Denver
@@ -231,6 +279,27 @@ func bookingURLForCourse(course string) string {
 	crConfig, crFound = findCourseRevConfig(course)
 	if crFound {
 		return crConfig.BookingURL
+	}
+
+	var rgConfig RGuestCourseConfig
+	var rgFound bool
+	rgConfig, rgFound = findRGuestConfig(course)
+	if rgFound {
+		return rgConfig.BookingURL
+	}
+
+	var coConfig CourseCoCourseConfig
+	var coFound bool
+	coConfig, coFound = findCourseCoConfig(course)
+	if coFound {
+		return coConfig.BookingURL
+	}
+
+	var tsConfig TeeSnapCourseConfig
+	var tsFound bool
+	tsConfig, tsFound = findTeeSnapConfig(course)
+	if tsFound {
+		return tsConfig.BookingURL
 	}
 
 	return MemberSportsCourses["denver"].BookingURL
@@ -358,6 +427,21 @@ func getBaseCourse(name string) string {
 	}
 	if strings.HasPrefix(name, "AZ Biltmore") {
 		return "AZ Biltmore"
+	}
+	if strings.HasPrefix(name, "We-Ko-Pa") {
+		return "We-Ko-Pa"
+	}
+	if strings.HasPrefix(name, "Talking Stick") {
+		return "Talking Stick"
+	}
+	if strings.HasPrefix(name, "Whirlwind") {
+		return "Whirlwind"
+	}
+	if strings.HasPrefix(name, "Wildfire") {
+		return "Wildfire"
+	}
+	if strings.HasPrefix(name, "Camelback") {
+		return "Camelback"
 	}
 	return strings.Replace(name, " Back Nine", "", 1)
 }

@@ -6,10 +6,11 @@ import (
 	"io"
 	"net/http"
 	"strconv"
+	"strings"
 )
 
 type GolfWithAccessCourseConfig struct {
-	CourseID    string
+	CourseIDs   []string
 	Slug        string
 	BookingURL  string
 	DisplayName string
@@ -19,7 +20,7 @@ type GolfWithAccessCourseConfig struct {
 
 var GolfWithAccessCourses = map[string]GolfWithAccessCourseConfig{
 	"lookoutmountain": {
-		CourseID:    "fd506bf4-ae6a-4a92-ae3f-7f847f098fb2",
+		CourseIDs:   []string{"fd506bf4-ae6a-4a92-ae3f-7f847f098fb2"},
 		Slug:        "lookout-mountain-golf-club",
 		BookingURL:  "https://golfwithaccess.com/course/lookout-mountain-golf-club/reserve-tee-time",
 		DisplayName: "Lookout Mountain Golf Club",
@@ -27,7 +28,7 @@ var GolfWithAccessCourses = map[string]GolfWithAccessCourseConfig{
 		State:       "AZ",
 	},
 	"akchinsoutherndunes": {
-		CourseID:    "2598416d-4e75-44d3-bbe7-811969e14a95",
+		CourseIDs:   []string{"2598416d-4e75-44d3-bbe7-811969e14a95"},
 		Slug:        "ak-chin-southern-dunes-golf-club",
 		BookingURL:  "https://golfwithaccess.com/course/ak-chin-southern-dunes-golf-club/reserve-tee-time",
 		DisplayName: "Ak-Chin Southern Dunes",
@@ -35,7 +36,7 @@ var GolfWithAccessCourses = map[string]GolfWithAccessCourseConfig{
 		State:       "AZ",
 	},
 	"troonnorthpinnacle": {
-		CourseID:    "4bf6e82f-697f-46d1-8fad-2de5a6083477",
+		CourseIDs:   []string{"4bf6e82f-697f-46d1-8fad-2de5a6083477"},
 		Slug:        "troon-north-golf-club-pinnacle-course",
 		BookingURL:  "https://golfwithaccess.com/course/troon-north-golf-club/reserve-tee-time",
 		DisplayName: "Troon North Pinnacle",
@@ -43,11 +44,27 @@ var GolfWithAccessCourses = map[string]GolfWithAccessCourseConfig{
 		State:       "AZ",
 	},
 	"troonnorthmonument": {
-		CourseID:    "f800515d-41dd-4ae7-a853-57e8092284aa",
+		CourseIDs:   []string{"f800515d-41dd-4ae7-a853-57e8092284aa"},
 		Slug:        "troon-north-golf-club-monument-course",
 		BookingURL:  "https://golfwithaccess.com/course/troon-north-golf-club/reserve-tee-time",
 		DisplayName: "Troon North Monument",
 		City:        "Scottsdale",
+		State:       "AZ",
+	},
+	"kierland": {
+		CourseIDs:   []string{"ab5ad653-b217-4119-bcb7-80dd0aecffaa", "6a9798ab-617e-43aa-9ab3-28229a6a83cf", "b0e5b8a6-fe88-4cb8-8500-56cbba88e531"},
+		Slug:        "the-westin-kierland-golf-club",
+		BookingURL:  "https://golfwithaccess.com/course/the-westin-kierland-golf-club/reserve-tee-time",
+		DisplayName: "Kierland Golf Club",
+		City:        "Scottsdale",
+		State:       "AZ",
+	},
+	"eaglemountain": {
+		CourseIDs:   []string{"698b68b9-908e-416e-8368-a043e2a90072"},
+		Slug:        "eagle-mountain-golf-club",
+		BookingURL:  "https://golfwithaccess.com/course/eagle-mountain-golf-club/reserve-tee-time",
+		DisplayName: "Eagle Mountain Golf Club",
+		City:        "Fountain Hills",
 		State:       "AZ",
 	},
 }
@@ -91,9 +108,13 @@ type GolfWithAccessDollars struct {
 }
 
 func fetchGolfWithAccess(config GolfWithAccessCourseConfig, date string) ([]DisplayTeeTime, error) {
+	var courseParams []string
+	for _, id := range config.CourseIDs {
+		courseParams = append(courseParams, "courseIds="+id)
+	}
 	var url string = fmt.Sprintf(
-		"https://golfwithaccess.com/api/v1/tee-times?courseIds=%s&players=1&startAt=00%%3A00%%3A00&endAt=23%%3A59%%3A59&day=%s",
-		config.CourseID, date,
+		"https://golfwithaccess.com/api/v1/tee-times?%s&players=1&startAt=00%%3A00%%3A00&endAt=23%%3A59%%3A59&day=%s",
+		strings.Join(courseParams, "&"), date,
 	)
 
 	var req *http.Request
