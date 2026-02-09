@@ -54,6 +54,12 @@ var GolfNowCourses = map[string]GolfNowCourseConfig{
 		BookingURL:  "https://raccooncreek.ezlinksgolf.com/index.html#/search",
 		DisplayName: "Raccoon Creek",
 	},
+	"arrowhead": {
+		FacilityID:  453,
+		SearchURL:   "https://www.golfnow.com/tee-times/facility/453-arrowhead-golf-club/search",
+		BookingURL:  "https://arrowheadpp.ezlinksgolf.com/index.html#/search",
+		DisplayName: "Arrowhead",
+	},
 }
 
 type GolfNowSearchRequest struct {

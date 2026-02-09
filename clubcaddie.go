@@ -27,6 +27,13 @@ var ClubCaddieCourses = map[string]ClubCaddieCourseConfig{
 		BookingURL:  "https://apimanager-cc11.clubcaddie.com/webapi/view/hbfdabab/slots",
 		DisplayName: "Applewood",
 	},
+	"thelinks": {
+		BaseURL:     "https://apimanager-cc37.clubcaddie.com",
+		APIKey:      "ajfdabab",
+		CourseID:    "103491",
+		BookingURL:  "https://apimanager-cc37.clubcaddie.com/webapi/view/ajfdabab/slots",
+		DisplayName: "The Links",
+	},
 }
 
 type ClubCaddieSlot struct {

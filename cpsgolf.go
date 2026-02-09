@@ -67,6 +67,18 @@ var CPSGolfCourses = map[string]CPSGolfCourseConfig{
 			"Twilight": "Fossil Trace Twilight",
 		},
 	},
+	"westminster": {
+		BaseURL:    "https://cityofwestminster.cps.golf",
+		APIKey:     "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+		WebsiteID:  "be7f2728-0758-4a72-fe80-08d97849167d",
+		SiteID:     "2",
+		CourseIDs:  "1,4,2",
+		BookingURL: "https://cityofwestminster.cps.golf/onlineresweb/search-teetime",
+		Names: map[string]string{
+			"Legacy Ridge": "Legacy Ridge",
+			"Walnut Creek": "Walnut Creek",
+		},
+	},
 }
 
 type CPSGolfResponse struct {

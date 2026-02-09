@@ -22,6 +22,24 @@ var TeeItUpCourses = map[string]TeeItUpCourseConfig{
 		BookingURL:  "https://hyland-hills-park-recreation-district.book.teeitup.com/teetimes",
 		DisplayName: "Hyland Hills",
 	},
+	"stoneycreek": {
+		Alias:       "stoney-creek-golf-course",
+		FacilityID:  "13099",
+		BookingURL:  "https://stoney-creek-golf-course.book.teeitup.golf/teetimes",
+		DisplayName: "Stoney Creek",
+	},
+	"commonground": {
+		Alias:       "commonground-golf-course",
+		FacilityID:  "5275",
+		BookingURL:  "https://commonground-golf-course.book.teeitup.com/teetimes",
+		DisplayName: "CommonGround",
+	},
+	"buffalorun": {
+		Alias:       "buffalo-run-golf-course",
+		FacilityID:  "513",
+		BookingURL:  "https://buffalo-run-golf-course.book.teeitup.golf/teetimes",
+		DisplayName: "Buffalo Run",
+	},
 }
 
 type TeeItUpResponse struct {
