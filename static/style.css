@@ -710,9 +710,6 @@ tr:hover td {
         gap: 12px;
         width: 100%;
     }
-    .filter-row .filter-group:first-child {
-        grid-column: 1 / -1;
-    }
     .filter-row .filter-group:nth-child(2) {
         grid-column: 1 / -1;
     }
