@@ -6,7 +6,6 @@ import (
 	"io"
 	"net/http"
 	"strconv"
-	"strings"
 )
 
 type ChronogolfCourseConfig struct {
@@ -69,11 +68,16 @@ type ChronogolfPrice struct {
 }
 
 func formatHoles(holes []int) string {
-	var parts []string
-	for _, h := range holes {
-		parts = append(parts, strconv.Itoa(h))
+	if len(holes) == 0 {
+		return "18"
 	}
-	return strings.Join(parts, ", ")
+	var max int = holes[0]
+	for _, h := range holes {
+		if h > max {
+			max = h
+		}
+	}
+	return strconv.Itoa(max)
 }
 
 func fetchChronogolf(config ChronogolfCourseConfig, date string) ([]DisplayTeeTime, error) {
