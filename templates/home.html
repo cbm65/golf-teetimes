@@ -87,13 +87,14 @@
                 <p class="card-subtitle" id="alertContext"></p>
 
                 <div class="alert-form-row">
-                    <div class="filter-group">
+                    <div class="filter-group alert-phone-group">
                         <label>Phone Number</label>
                         <input type="tel" id="phone" placeholder="(303) 555-1234">
                     </div>
-                    <div class="filter-group">
-                        <label>Between</label>
-                        <select id="startTime">
+                    <div class="alert-time-row">
+                        <div class="filter-group">
+                            <label>Between</label>
+                            <select id="startTime">
                             <option value="6:00 AM">6:00 AM</option>
                             <option value="7:00 AM">7:00 AM</option>
                             <option value="8:00 AM">8:00 AM</option>
@@ -124,6 +125,7 @@
                             <option value="4:00 PM">4:00 PM</option>
                             <option value="5:00 PM" selected>5:00 PM</option>
                         </select>
+                    </div>
                     </div>
                     <div class="filter-group btn-group">
                         <label>&nbsp;</label>

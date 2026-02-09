@@ -272,6 +272,12 @@ input[type="date"]:focus, input[type="tel"]:focus, select:focus {
     align-items: flex-end;
 }
 
+.alert-time-row {
+    display: flex;
+    gap: 12px;
+    align-items: flex-end;
+}
+
 .btn-group {
     display: flex;
     flex-direction: column;
@@ -710,6 +716,12 @@ tr:hover td {
         gap: 12px;
         width: 100%;
     }
+    .filter-row .filter-group:first-child {
+        grid-column: 1 / -1;
+    }
+    .filter-row .filter-group:nth-child(2) {
+        grid-column: 1 / -1;
+    }
     input[type="date"], input[type="tel"], select {
         min-width: 0;
         width: 100%;
@@ -726,9 +738,29 @@ tr:hover td {
     .mobile-cards { display: block; }
 
     /* Alert form */
-    .alert-form-row { flex-direction: column; }
+    .alert-form-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .alert-phone-group {
+        width: 100%;
+        max-width: 300px;
+    }
+    .alert-time-row {
+        display: flex;
+        gap: 12px;
+        width: 100%;
+        max-width: 300px;
+    }
+    .alert-time-row .filter-group {
+        flex: 1;
+    }
     .alert-form-grid { grid-template-columns: 1fr; }
-    .btn { padding: 14px 28px; font-size: 16px; width: 100%; }
+    .btn { padding: 14px 28px; font-size: 16px; width: 100%; max-width: 300px; }
+    .btn-group { width: 100%; max-width: 300px; align-items: center; }
+    .btn-group label { display: none; }
+    .card-subtitle { text-align: center; }
+    .alert-consent { text-align: center; }
 
     /* Alert items */
     .alert-item { flex-direction: column; align-items: flex-start; gap: 12px; }
