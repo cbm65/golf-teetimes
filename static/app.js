@@ -26,6 +26,9 @@ function getBaseCourse(name) {
     if (name.indexOf("Whirlwind") === 0) return "Whirlwind"
     if (name.indexOf("Wildfire") === 0) return "Wildfire"
     if (name.indexOf("Camelback") === 0) return "Camelback"
+    if (name.indexOf("Gold Canyon") === 0) return "Gold Canyon"
+    if (name.indexOf("Bear Creek") === 0) return "Bear Creek"
+    if (name.indexOf("Riverdale") === 0) return "Riverdale"
     return name.replace(" Back Nine", "")
 }
 

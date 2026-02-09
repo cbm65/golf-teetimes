@@ -70,6 +70,31 @@ var Quick18Courses = map[string]Quick18CourseConfig{
 		City:        "Scottsdale",
 		State:       "AZ",
 	},
+	"goldcanyon": {
+		Subdomain:   "goldcanyon",
+		BookingURL:  "https://goldcanyon.quick18.com/teetimes/searchmatrix",
+		NamePrefix:  "Gold Canyon",
+		Holes:       "18",
+		City:        "Gold Canyon",
+		State:       "AZ",
+	},
+	"redmountainranch": {
+		Subdomain:   "redmountain",
+		Domain:      "play18.com",
+		BookingURL:  "https://redmountain.play18.com/teetimes/searchmatrix",
+		DisplayName: "Red Mountain Ranch Country Club",
+		Holes:       "18",
+		City:        "Mesa",
+		State:       "AZ",
+	},
+	"thorncreek": {
+		Subdomain:   "thorncreek",
+		BookingURL:  "https://thorncreek.quick18.com/teetimes/searchmatrix",
+		DisplayName: "Thorncreek Golf Club",
+		Holes:       "18",
+		City:        "Thornton",
+		State:       "CO",
+	},
 }
 
 var quick18TimeRegex *regexp.Regexp = regexp.MustCompile(`mtrxTeeTimes">\s*(\d+:\d+)<div class="be_tee_time_ampm">(AM|PM)</div>`)

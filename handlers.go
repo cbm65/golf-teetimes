@@ -270,6 +270,24 @@ func handleMetroTeeTimes(w http.ResponseWriter, r *http.Request, metro Metro) {
 		}(key, config)
 	}
 
+	// Launch ForeUp fetches for this metro
+	for _, key := range metro.ForeUpKeys {
+		var config ForeUpCourseConfig
+		var exists bool
+		config, exists = ForeUpCourses[key]
+		if !exists {
+			continue
+		}
+		wg.Add(1)
+		go func(n string, c ForeUpCourseConfig) {
+			defer wg.Done()
+			var results []DisplayTeeTime
+			var err error
+			results, err = fetchForeUp(c, date)
+			ch <- fetchResult{results: results, err: err, name: n}
+		}(key, config)
+	}
+
 	// Close channel when all goroutines finish
 	go func() {
 		wg.Wait()

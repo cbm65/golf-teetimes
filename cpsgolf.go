@@ -86,6 +86,31 @@ var CPSGolfCourses = map[string]CPSGolfCourseConfig{
 		},
 		City: "Westminster", State: "CO",
 	},
+	"flatirons": {
+		BaseURL:    "https://flatironsgolf.cps.golf",
+		APIKey:     "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+		WebsiteID:  "d0c1d3f9-28c7-4f79-8ee1-08d926a72623",
+		SiteID:     "2",
+		CourseIDs:  "1",
+		BookingURL: "https://flatironsgolf.cps.golf/onlineresweb/search-teetime",
+		Names: map[string]string{
+			"FLATIRONS ": "Flatirons Golf Course",
+		},
+		City: "Boulder", State: "CO",
+	},
+	"indianpeaks": {
+		BaseURL:    "https://indianpeaks.cps.golf",
+		APIKey:     "",
+		WebsiteID:  "f04abbc1-368f-40f4-096d-08d89aea9574",
+		SiteID:     "1",
+		CourseIDs:  "10,11",
+		BookingURL: "https://indianpeaks.cps.golf/onlineresweb/search-teetime",
+		Names: map[string]string{
+			"Indian Peaks Golf Course": "Indian Peaks",
+			"IP 9-Holes":              "Indian Peaks 9-Holes",
+		},
+		City: "Lafayette", State: "CO",
+	},
 }
 
 type CPSGolfResponse struct {
@@ -129,7 +154,9 @@ func formatCPSDate(date string) string {
 
 func setCPSHeaders(req *http.Request, config CPSGolfCourseConfig) {
 	req.Header.Set("Accept", "application/json, text/plain, */*")
-	req.Header.Set("x-apikey", config.APIKey)
+	if config.APIKey != "" {
+		req.Header.Set("x-apikey", config.APIKey)
+	}
 	req.Header.Set("x-websiteid", config.WebsiteID)
 	req.Header.Set("x-siteid", config.SiteID)
 	req.Header.Set("x-componentid", "1")

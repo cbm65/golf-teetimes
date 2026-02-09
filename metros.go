@@ -19,6 +19,7 @@ type Metro struct {
 	RGuestKeys         []string
 	CourseCoKeys       []string
 	TeeSnapKeys        []string
+	ForeUpKeys         []string
 }
 
 var Metros = map[string]Metro{
@@ -27,30 +28,33 @@ var Metros = map[string]Metro{
 		Slug:        "denver",
 		State:       "CO",
 		Tagline:     "Municipal & Public Courses",
-		CourseCount: 34,
-		CityCount:   12,
-		MemberSportsKeys: []string{"denver", "foxhollow", "foothills", "brokentee"},
-		ChronogolfKeys:   []string{"southsuburban", "lonetree", "littleton", "familysports"},
-		CPSGolfKeys:      []string{"greenvalleyranch", "indiantree", "emeraldgreens", "fossiltrace", "westminster"},
-		GolfNowKeys:      []string{"murphycreek", "springhill", "meadowhills", "aurorahills", "saddlerock", "raccooncreek", "arrowhead"},
-		TeeItUpKeys:      []string{"hylandhills", "stoneycreek", "commonground", "buffalorun"},
+		CourseCount: 51,
+		CityCount:   23,
+		MemberSportsKeys: []string{"denver", "foxhollow", "foothills", "brokentee", "coalcreek"},
+		ChronogolfKeys:   []string{"southsuburban", "lonetree", "littleton", "familysports", "highlandmeadows", "broadlands"},
+		CPSGolfKeys:      []string{"greenvalleyranch", "indiantree", "emeraldgreens", "fossiltrace", "westminster", "flatirons", "indianpeaks"},
+		GolfNowKeys:      []string{"murphycreek", "springhill", "meadowhills", "aurorahills", "saddlerock", "raccooncreek", "arrowhead", "beardance", "ridgecastlepines", "heatherridge", "heritageeaglebend"},
+		TeeItUpKeys:      []string{"hylandhills", "stoneycreek", "commonground", "buffalorun", "riverdaledunes", "riverdaleknolls", "coloradonational", "plumcreek", "omniinterlocken"},
 		ClubCaddieKeys:   []string{"applewood", "thelinks"},
+		ForeUpKeys:       []string{"toddcreek"},
+		Quick18Keys:      []string{"thorncreek"},
 	},
 	"phoenix": {
 		Name:        "Phoenix",
 		Slug:        "phoenix",
 		State:       "AZ",
 		Tagline:     "Valley of the Sun Public Courses",
-		CourseCount: 61,
-		CityCount:   14,
-		GolfNowKeys: []string{"tpcscottsdale", "tpcscottsdalestadium", "ravengolfclub", "stonecreek", "verrado", "verradofounders", "quintero", "longbow", "superstitionsprings", "ocotillo", "dovevalleyranch", "mccormickranchpine", "mccormickranchpalm", "talkingstickoodham", "talkingstickpiipaash", "whirlwinddevilsclaw", "whirlwindcattail", "westernskies", "kokopelli"},
-		TeeItUpKeys: []string{"dobsonranch", "aguila", "aguila9", "cavecreek", "encanto", "encanto9", "paloverde", "arizonagrand", "cimarron", "granitefallsnorth", "desertsprings", "granitefallssouth", "silverado", "paradisevalley", "legacygolfclub"},
-		Quick18Keys: []string{"papago", "grayhawk", "trilogyvistancia", "coyotelakes", "sunridgecanyon", "orangetree"},
-		GolfWithAccessKeys: []string{"lookoutmountain", "akchinsoutherndunes", "troonnorthpinnacle", "troonnorthmonument", "kierland", "eaglemountain"},
+		CourseCount: 88,
+		CityCount:   21,
+		GolfNowKeys: []string{"tpcscottsdale", "tpcscottsdalestadium", "ravengolfclub", "stonecreek", "verrado", "verradofounders", "quintero", "longbow", "superstitionsprings", "ocotillo", "dovevalleyranch", "mccormickranchpine", "mccormickranchpalm", "talkingstickoodham", "talkingstickpiipaash", "whirlwinddevilsclaw", "whirlwindcattail", "westernskies", "kokopelli", "boulders", "continental", "rollinghills", "tokasticks", "sanmarcos", "palmvalley", "bearcreekbear", "bearcreekcub"},
+		TeeItUpKeys: []string{"dobsonranch", "aguila", "aguila9", "cavecreek", "encanto", "encanto9", "paloverde", "arizonagrand", "cimarron", "granitefallsnorth", "desertsprings", "granitefallssouth", "silverado", "paradisevalley", "legacygolfclub", "lassendas", "starfire", "coldwater", "greenfieldlakes", "coronado", "bellair", "santanhighlands", "royalpalms", "viewpoint", "ranchomanana"},
+		Quick18Keys: []string{"papago", "grayhawk", "trilogyvistancia", "coyotelakes", "sunridgecanyon", "orangetree", "goldcanyon", "redmountainranch"},
+		GolfWithAccessKeys: []string{"lookoutmountain", "akchinsoutherndunes", "troonnorthpinnacle", "troonnorthmonument", "kierland", "eaglemountain", "lascolinas", "phoenician", "estrella"},
 		CourseRevKeys: []string{"wigwamgold", "wigwamblue", "wigwamred", "biltmoreestates", "biltmorelinks"},
 		RGuestKeys:    []string{"wekopacholla", "wekopasaguaro", "wildfirefaldo", "wildfirepalmer", "camelbackambiente", "camelbackpadre"},
 		CourseCoKeys:  []string{"kenmcdonald"},
 		TeeSnapKeys:   []string{"sundance"},
+		ForeUpKeys:    []string{"legendtrail", "paintedmountain", "lonetree"},
 	},
 }
 

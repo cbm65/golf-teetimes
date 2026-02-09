@@ -128,6 +128,15 @@ func findTeeSnapConfig(course string) (TeeSnapCourseConfig, bool) {
 	return TeeSnapCourseConfig{}, false
 }
 
+func findForeUpConfig(course string) (ForeUpCourseConfig, bool) {
+	for _, config := range ForeUpCourses {
+		if config.DisplayName == course {
+			return config, true
+		}
+	}
+	return ForeUpCourseConfig{}, false
+}
+
 func fetchForCourse(course string, date string) ([]DisplayTeeTime, error) {
 	var cgConfig ChronogolfCourseConfig
 	var cgFound bool
@@ -211,6 +220,13 @@ func fetchForCourse(course string, date string) ([]DisplayTeeTime, error) {
 	tsConfig, tsFound = findTeeSnapConfig(course)
 	if tsFound {
 		return fetchTeeSnap(tsConfig, date)
+	}
+
+	var fuConfig ForeUpCourseConfig
+	var fuFound bool
+	fuConfig, fuFound = findForeUpConfig(course)
+	if fuFound {
+		return fetchForeUp(fuConfig, date)
 	}
 
 	// Default to Denver
@@ -300,6 +316,13 @@ func bookingURLForCourse(course string) string {
 	tsConfig, tsFound = findTeeSnapConfig(course)
 	if tsFound {
 		return tsConfig.BookingURL
+	}
+
+	var fuConfig ForeUpCourseConfig
+	var fuFound bool
+	fuConfig, fuFound = findForeUpConfig(course)
+	if fuFound {
+		return fuConfig.BookingURL
 	}
 
 	return MemberSportsCourses["denver"].BookingURL
@@ -442,6 +465,15 @@ func getBaseCourse(name string) string {
 	}
 	if strings.HasPrefix(name, "Camelback") {
 		return "Camelback"
+	}
+	if strings.HasPrefix(name, "Gold Canyon") {
+		return "Gold Canyon"
+	}
+	if strings.HasPrefix(name, "Bear Creek") {
+		return "Bear Creek"
+	}
+	if strings.HasPrefix(name, "Riverdale") {
+		return "Riverdale"
 	}
 	return strings.Replace(name, " Back Nine", "", 1)
 }

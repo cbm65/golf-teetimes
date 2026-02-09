@@ -9,11 +9,14 @@ import (
 )
 
 type ChronogolfCourseConfig struct {
-	CourseIDs  string
-	BookingURL string
-	Names      map[string]string // map API name to display name
-	City       string
-	State      string
+	CourseIDs         string
+	ClubID            string // for club-level API (alternative to CourseIDs/v2)
+	NumericCourseID   string
+	AffiliationTypeID string
+	BookingURL        string
+	Names             map[string]string // map API name to display name
+	City              string
+	State             string
 }
 
 var ChronogolfCourses = map[string]ChronogolfCourseConfig{
@@ -50,6 +53,22 @@ var ChronogolfCourses = map[string]ChronogolfCourseConfig{
 		},
 		City: "Centennial", State: "CO",
 	},
+	"highlandmeadows": {
+		CourseIDs:  "438c425c-961a-4768-9ccd-c164e8bd8fb4",
+		BookingURL: "https://www.chronogolf.com/club/highland-meadows-golf-club-colorado",
+		Names: map[string]string{
+			"Highland Meadows": "Highland Meadows",
+		},
+		City: "Windsor", State: "CO",
+	},
+	"broadlands": {
+		CourseIDs:  "1af93d4a-dba3-481b-9980-487e5e516146",
+		BookingURL: "https://www.chronogolf.com/club/broadlands-golf-course",
+		Names: map[string]string{
+			"Broadlands": "Broadlands",
+		},
+		City: "Broomfield", State: "CO",
+	},
 }
 
 type ChronogolfResponse struct {
@@ -73,6 +92,16 @@ type ChronogolfPrice struct {
 	GreenFee float64 `json:"green_fee"`
 }
 
+type ChronogolfClubSlot struct {
+	StartTime     string                   `json:"start_time"`
+	OutOfCapacity bool                     `json:"out_of_capacity"`
+	GreenFees     []ChronogolfClubGreenFee `json:"green_fees"`
+}
+
+type ChronogolfClubGreenFee struct {
+	GreenFee float64 `json:"green_fee"`
+}
+
 func formatHoles(holes []int) string {
 	if len(holes) == 0 {
 		return "18"
@@ -87,6 +116,9 @@ func formatHoles(holes []int) string {
 }
 
 func fetchChronogolf(config ChronogolfCourseConfig, date string) ([]DisplayTeeTime, error) {
+	if config.ClubID != "" {
+		return fetchChronogolfClub(config, date)
+	}
 	var allSlots []ChronogolfSlot
 	var page int = 1
 
@@ -172,6 +204,89 @@ func fetchChronogolf(config ChronogolfCourseConfig, date string) ([]DisplayTeeTi
 			Openings:   slot.MaxPlayerSize,
 			Holes:      holesStr,
 			Price:      slot.DefaultPrice.GreenFee,
+			BookingURL: config.BookingURL,
+		})
+	}
+
+	return results, nil
+}
+
+func fetchChronogolfClub(config ChronogolfCourseConfig, date string) ([]DisplayTeeTime, error) {
+	var url string = fmt.Sprintf(
+		"https://www.chronogolf.com/marketplace/clubs/%s/teetimes?date=%s&course_id=%s&affiliation_type_ids%%5B%%5D=%s&nb_holes=18",
+		config.ClubID, date, config.NumericCourseID, config.AffiliationTypeID,
+	)
+
+	var req *http.Request
+	var err error
+	req, err = http.NewRequest("GET", url, nil)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Set("Accept", "application/json")
+
+	var client http.Client
+	var resp *http.Response
+	resp, err = client.Do(req)
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+
+	var body []byte
+	body, err = io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, err
+	}
+
+	var slots []ChronogolfClubSlot
+	err = json.Unmarshal(body, &slots)
+	if err != nil {
+		return nil, err
+	}
+
+	var displayName string
+	for _, v := range config.Names {
+		displayName = v
+		break
+	}
+
+	var results []DisplayTeeTime
+	for _, slot := range slots {
+		if slot.OutOfCapacity {
+			continue
+		}
+
+		var hours int
+		var mins int
+		fmt.Sscanf(slot.StartTime, "%d:%d", &hours, &mins)
+
+		var period string = "AM"
+		if hours >= 12 {
+			period = "PM"
+		}
+		if hours > 12 {
+			hours = hours - 12
+		}
+		if hours == 0 {
+			hours = 12
+		}
+		var timeStr string = fmt.Sprintf("%d:%02d %s", hours, mins, period)
+
+		var price float64
+		if len(slot.GreenFees) > 0 {
+			price = slot.GreenFees[0].GreenFee
+		}
+
+		results = append(results, DisplayTeeTime{
+			Time:       timeStr,
+			Course:     displayName,
+			City:       config.City,
+			State:      config.State,
+			Openings:   len(slot.GreenFees),
+			Holes:      "18",
+			Price:      price,
 			BookingURL: config.BookingURL,
 		})
 	}

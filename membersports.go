@@ -62,6 +62,15 @@ var MemberSportsCourses = map[string]MemberSportsCourseConfig{
 		KnownCourses: []string{"Broken Tee"},
 		City: "Englewood", State: "CO",
 	},
+	"coalcreek": {
+		ClubID:     3663,
+		CourseID:   4714,
+		GroupID:    0,
+		ConfigType: 0,
+		BookingURL: "https://app.membersports.com/tee-times/3663/4714/0/0/0",
+		KnownCourses: []string{"Coal Creek"},
+		City: "Louisville", State: "CO",
+	},
 }
 
 type MemberSportsRequest struct {

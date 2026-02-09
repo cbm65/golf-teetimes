@@ -67,6 +67,30 @@ var GolfWithAccessCourses = map[string]GolfWithAccessCourseConfig{
 		City:        "Fountain Hills",
 		State:       "AZ",
 	},
+	"lascolinas": {
+		CourseIDs:   []string{"b6a25387-b6b4-42a5-a118-58664df8836a"},
+		Slug:        "las-colinas-golf-club",
+		BookingURL:  "https://golfwithaccess.com/course/las-colinas-golf-club/reserve-tee-time",
+		DisplayName: "Las Colinas Golf Club",
+		City:        "Queen Creek",
+		State:       "AZ",
+	},
+	"phoenician": {
+		CourseIDs:   []string{"b40cfca0-6caf-422e-8459-ebaf9da89c3e"},
+		Slug:        "the-phoenician",
+		BookingURL:  "https://golfwithaccess.com/course/the-phoenician/reserve-tee-time",
+		DisplayName: "The Phoenician Golf Club",
+		City:        "Scottsdale",
+		State:       "AZ",
+	},
+	"estrella": {
+		CourseIDs:   []string{"5e7260b2-d5b3-45ba-9030-b0d1d3dcdf17"},
+		Slug:        "golf-club-of-estrella",
+		BookingURL:  "https://golfwithaccess.com/course/golf-club-of-estrella/reserve-tee-time",
+		DisplayName: "Golf Club of Estrella",
+		City:        "Goodyear",
+		State:       "AZ",
+	},
 }
 
 type GolfWithAccessResponse struct {
