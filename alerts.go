@@ -44,6 +44,24 @@ func findCPSGolfConfig(course string) (CPSGolfCourseConfig, bool) {
 	return CPSGolfCourseConfig{}, false
 }
 
+func findClubCaddieConfig(course string) (ClubCaddieCourseConfig, bool) {
+	for _, config := range ClubCaddieCourses {
+		if config.DisplayName == course {
+			return config, true
+		}
+	}
+	return ClubCaddieCourseConfig{}, false
+}
+
+func findTeeItUpConfig(course string) (TeeItUpCourseConfig, bool) {
+	for _, config := range TeeItUpCourses {
+		if config.DisplayName == course {
+			return config, true
+		}
+	}
+	return TeeItUpCourseConfig{}, false
+}
+
 func findGolfNowConfig(course string) (GolfNowCourseConfig, bool) {
 	for _, config := range GolfNowCourses {
 		if config.DisplayName == course {
@@ -82,6 +100,20 @@ func fetchForCourse(course string, date string) ([]DisplayTeeTime, error) {
 		return fetchGolfNow(gnConfig, date)
 	}
 
+	var tiuConfig TeeItUpCourseConfig
+	var tiuFound bool
+	tiuConfig, tiuFound = findTeeItUpConfig(course)
+	if tiuFound {
+		return fetchTeeItUp(tiuConfig, date)
+	}
+
+	var ccConfig ClubCaddieCourseConfig
+	var ccFound bool
+	ccConfig, ccFound = findClubCaddieConfig(course)
+	if ccFound {
+		return fetchClubCaddie(ccConfig, date)
+	}
+
 	// Default to Denver
 	return fetchMemberSports(MemberSportsCourses["denver"], date)
 }
@@ -113,6 +145,20 @@ func bookingURLForCourse(course string) string {
 	gnConfig, gnFound = findGolfNowConfig(course)
 	if gnFound {
 		return gnConfig.BookingURL
+	}
+
+	var tiuConfig TeeItUpCourseConfig
+	var tiuFound bool
+	tiuConfig, tiuFound = findTeeItUpConfig(course)
+	if tiuFound {
+		return tiuConfig.BookingURL
+	}
+
+	var ccConfig ClubCaddieCourseConfig
+	var ccFound bool
+	ccConfig, ccFound = findClubCaddieConfig(course)
+	if ccFound {
+		return ccConfig.BookingURL
 	}
 
 	return MemberSportsCourses["denver"].BookingURL
@@ -195,6 +241,12 @@ func getBaseCourse(name string) string {
 	}
 	if strings.HasPrefix(name, "South Suburban") {
 		return "South Suburban"
+	}
+	if strings.HasPrefix(name, "Foothills") {
+		return "Foothills"
+	}
+	if strings.HasPrefix(name, "Meadows") {
+		return "Meadows"
 	}
 	return strings.Replace(name, " Back Nine", "", 1)
 }

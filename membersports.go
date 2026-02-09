@@ -37,6 +37,14 @@ var MemberSportsCourses = map[string]MemberSportsCourseConfig{
 		BookingURL: "https://app.membersports.com/tee-times/3703/20589/0/7/0",
 		KnownCourses: []string{"Fox Hollow", "Homestead"},
 	},
+	"foothills": {
+		ClubID:     3697,
+		CourseID:   4758,
+		GroupID:    3,
+		ConfigType: 0,
+		BookingURL: "https://app.membersports.com/tee-times/3697/4758/0/3/0",
+		KnownCourses: []string{"Foothills 18", "Foothills Executive 9", "Foothills Par 3", "Meadows"},
+	},
 }
 
 type MemberSportsRequest struct {

@@ -6,6 +6,8 @@ function getBaseCourse(name) {
     if (name.indexOf("Homestead") === 0) return "Homestead"
     if (name.indexOf("Harvard Gulch") === 0) return "Harvard Gulch"
     if (name.indexOf("South Suburban") === 0) return "South Suburban"
+    if (name.indexOf("Foothills") === 0) return "Foothills"
+    if (name.indexOf("Meadows") === 0) return "Meadows"
     return name.replace(" Back Nine", "")
 }
 

@@ -73,6 +73,30 @@ func handleTeeTimes(w http.ResponseWriter, r *http.Request) {
 		}(name, config)
 	}
 
+	// Launch all TeeItUp fetches
+	for name, config := range TeeItUpCourses {
+		wg.Add(1)
+		go func(n string, c TeeItUpCourseConfig) {
+			defer wg.Done()
+			var results []DisplayTeeTime
+			var err error
+			results, err = fetchTeeItUp(c, date)
+			ch <- fetchResult{results: results, err: err, name: n}
+		}(name, config)
+	}
+
+	// Launch all ClubCaddie fetches
+	for name, config := range ClubCaddieCourses {
+		wg.Add(1)
+		go func(n string, c ClubCaddieCourseConfig) {
+			defer wg.Done()
+			var results []DisplayTeeTime
+			var err error
+			results, err = fetchClubCaddie(c, date)
+			ch <- fetchResult{results: results, err: err, name: n}
+		}(name, config)
+	}
+
 	// Close channel when all goroutines finish
 	go func() {
 		wg.Wait()
