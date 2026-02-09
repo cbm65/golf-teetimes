@@ -248,6 +248,12 @@ func getBaseCourse(name string) string {
 	if strings.HasPrefix(name, "Meadows") {
 		return "Meadows"
 	}
+	if strings.HasPrefix(name, "Broken Tee") {
+		return "Broken Tee"
+	}
+	if strings.HasPrefix(name, "Fossil Trace") {
+		return "Fossil Trace"
+	}
 	return strings.Replace(name, " Back Nine", "", 1)
 }
 

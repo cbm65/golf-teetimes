@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"strings"
 )
 
 const MemberSportsAPIKey = "A9814038-9E19-4683-B171-5A06B39147FC"
@@ -17,6 +18,7 @@ type MemberSportsCourseConfig struct {
 	GroupID      int
 	ConfigType   int
 	BookingURL   string
+	NamePrefix   string   // prepended to API course names if set
 	KnownCourses []string // base course names this config serves
 }
 
@@ -45,6 +47,15 @@ var MemberSportsCourses = map[string]MemberSportsCourseConfig{
 		BookingURL: "https://app.membersports.com/tee-times/3697/4758/0/3/0",
 		KnownCourses: []string{"Foothills 18", "Foothills Executive 9", "Foothills Par 3", "Meadows"},
 	},
+	"brokentee": {
+		ClubID:     3689,
+		CourseID:   4748,
+		GroupID:    0,
+		ConfigType: 0,
+		BookingURL: "https://app.membersports.com/tee-times/3689/4748/0/0/0",
+		NamePrefix: "Broken Tee",
+		KnownCourses: []string{"Broken Tee"},
+	},
 }
 
 type MemberSportsRequest struct {
@@ -57,10 +68,11 @@ type MemberSportsRequest struct {
 }
 
 type MemberSportsItem struct {
-	Name                   string  `json:"name"`
-	Price                  float64 `json:"price"`
-	PlayerCount            int     `json:"playerCount"`
-	HolesRequirementTypeId int     `json:"holesRequirementTypeId"`
+	Name                     string  `json:"name"`
+	Price                    float64 `json:"price"`
+	PlayerCount              int     `json:"playerCount"`
+	HolesRequirementTypeId   int     `json:"holesRequirementTypeId"`
+	GolfCourseNumberOfHoles  int     `json:"golfCourseNumberOfHoles"`
 }
 
 type MemberSportsSlot struct {
@@ -142,9 +154,18 @@ func fetchMemberSports(config MemberSportsCourseConfig, date string) ([]DisplayT
 				holes = "18"
 			}
 
+			var courseName string = strings.TrimSpace(item.Name)
+			if config.NamePrefix != "" {
+				if courseName == "Championship" || courseName == "" {
+					courseName = config.NamePrefix
+				} else {
+					courseName = config.NamePrefix + " " + courseName
+				}
+			}
+
 			results = append(results, DisplayTeeTime{
 				Time:       timeStr,
-				Course:     item.Name,
+				Course:     courseName,
 				Openings:   openings,
 				Holes:      holes,
 				Price:      item.Price,

@@ -48,6 +48,12 @@ var GolfNowCourses = map[string]GolfNowCourseConfig{
 		BookingURL:  "https://www.auroragov.org/things_to_do/golf/book_a_tee_time",
 		DisplayName: "Saddle Rock",
 	},
+	"raccooncreek": {
+		FacilityID:  515,
+		SearchURL:   "https://www.golfnow.com/tee-times/facility/515-raccoon-creek-golf-course/search",
+		BookingURL:  "https://raccooncreek.ezlinksgolf.com/index.html#/search",
+		DisplayName: "Raccoon Creek",
+	},
 }
 
 type GolfNowSearchRequest struct {

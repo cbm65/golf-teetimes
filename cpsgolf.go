@@ -32,6 +32,41 @@ var CPSGolfCourses = map[string]CPSGolfCourseConfig{
 			"Green Valley Ranch": "Green Valley Ranch",
 		},
 	},
+	"indiantree": {
+		BaseURL:    "https://indiantree.cps.golf",
+		APIKey:     "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+		WebsiteID:  "e6d9cd59-8d46-4334-8601-08dad3012d25",
+		SiteID:     "1",
+		CourseIDs:  "1",
+		BookingURL: "https://indiantree.cps.golf/onlineresweb/search-teetime",
+		Names: map[string]string{
+			"Regulation 18": "Indian Tree",
+		},
+	},
+	"emeraldgreens": {
+		BaseURL:    "https://emeraldgreens.cps.golf",
+		APIKey:     "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+		WebsiteID:  "b81ba1ee-d9d0-4f1c-8325-08db37856ea4",
+		SiteID:     "1",
+		CourseIDs:  "1",
+		BookingURL: "https://emeraldgreens.cps.golf/onlineresweb/search-teetime",
+		Names: map[string]string{
+			"Emerald Greens Golf Club": "Emerald Greens",
+		},
+	},
+	"fossiltrace": {
+		BaseURL:    "https://fossiltrace.cps.golf",
+		APIKey:     "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+		WebsiteID:  "b6c22f3a-944a-46e9-020e-08da90168fb2",
+		SiteID:     "1",
+		CourseIDs:  "1,3,2",
+		BookingURL: "https://fossiltrace.cps.golf/onlineresweb/search-teetime",
+		Names: map[string]string{
+			"18 Holes": "Fossil Trace",
+			"9 Holes":  "Fossil Trace 9",
+			"Twilight": "Fossil Trace Twilight",
+		},
+	},
 }
 
 type CPSGolfResponse struct {
@@ -118,7 +153,7 @@ func fetchCPSGolf(config CPSGolfCourseConfig, date string) ([]DisplayTeeTime, er
 	var searchDate string = formatCPSDate(date)
 	var encodedDate string = url.QueryEscape(searchDate)
 	var teeURL string = fmt.Sprintf(
-		"%s/onlineres/onlineapi/api/v1/onlinereservation/TeeTimes?searchDate=%s&holes=18&numberOfPlayer=0&courseIds=%s&searchTimeType=0&transactionId=%s&teeOffTimeMin=0&teeOffTimeMax=23&isChangeTeeOffTime=true&teeSheetSearchView=5&classCode=R&defaultOnlineRate=N&isUseCapacityPricing=false&memberStoreId=1&searchType=1",
+		"%s/onlineres/onlineapi/api/v1/onlinereservation/TeeTimes?searchDate=%s&holes=0&numberOfPlayer=0&courseIds=%s&searchTimeType=0&transactionId=%s&teeOffTimeMin=0&teeOffTimeMax=23&isChangeTeeOffTime=true&teeSheetSearchView=5&classCode=R&defaultOnlineRate=N&isUseCapacityPricing=false&memberStoreId=1&searchType=1",
 		config.BaseURL, encodedDate, config.CourseIDs, txnID,
 	)
 

@@ -8,6 +8,8 @@ function getBaseCourse(name) {
     if (name.indexOf("South Suburban") === 0) return "South Suburban"
     if (name.indexOf("Foothills") === 0) return "Foothills"
     if (name.indexOf("Meadows") === 0) return "Meadows"
+    if (name.indexOf("Broken Tee") === 0) return "Broken Tee"
+    if (name.indexOf("Fossil Trace") === 0) return "Fossil Trace"
     return name.replace(" Back Nine", "")
 }
 
