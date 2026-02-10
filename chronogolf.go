@@ -69,6 +69,14 @@ var ChronogolfCourses = map[string]ChronogolfCourseConfig{
 		},
 		City: "Broomfield", State: "CO",
 	},
+	"clubatsunrise": {
+		CourseIDs:  "5b099aff-aa7c-4e50-8413-39da67a133e0",
+		BookingURL: "https://www.chronogolf.com/club/the-club-at-sunrise",
+		Names: map[string]string{
+			"The Club at Sunrise": "Club at Sunrise",
+		},
+		City: "Las Vegas", State: "NV",
+	},
 }
 
 type ChronogolfResponse struct {

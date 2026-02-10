@@ -56,6 +56,19 @@ var Metros = map[string]Metro{
 		TeeSnapKeys:   []string{"sundance"},
 		ForeUpKeys:    []string{"legendtrail", "paintedmountain", "lonetree"},
 	},
+	"lasvegas": {
+		Name:        "Las Vegas",
+		Slug:        "lasvegas",
+		State:       "NV",
+		Tagline:     "Desert Golf Year-Round",
+		CourseCount: 38,
+		CityCount:   7,
+		GolfNowKeys: []string{"lasvegasgolfclub", "lasvegasnational", "aliante", "rhodesranch", "angelparkmountain", "angelparkpalm", "angelparkcloudnine", "legacylv", "arroyoredrock", "losprados", "tpclasvegas", "desertwillow", "wildhorse", "bouldercity", "bouldercreek", "reverelexington", "revereconcord", "reflectionbay", "palmvalleylv", "highlandfalls", "eaglecrestlv", "bearsbest", "chimera", "siena", "painteddesert", "desertpines", "balihai", "stallionmountain", "royallinks", "paiutesun", "paiutesnow", "paiutewolf", "coyotesprings"},
+		CPSGolfKeys:        []string{"serket", "cascata"},
+		ChronogolfKeys:     []string{"clubatsunrise"},
+		TeeItUpKeys:        []string{"durangohills"},
+		GolfWithAccessKeys: []string{"mountainfalls"},
+	},
 }
 
 func GetMetroList() []Metro {

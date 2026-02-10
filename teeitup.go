@@ -256,6 +256,13 @@ var TeeItUpCourses = map[string]TeeItUpCourseConfig{
 		DisplayName: "Viewpoint Golf Resort",
 		City: "Mesa", State: "AZ",
 	},
+	"durangohills": {
+		Alias:       "durango-hills-golf-club-non-resident",
+		FacilityID:  "9934",
+		BookingURL:  "https://durango-hills-golf-club-non-resident.book.teeitup.com/teetimes",
+		DisplayName: "Durango Hills",
+		City: "Las Vegas", State: "NV",
+	},
 }
 
 type TeeItUpResponse struct {
@@ -321,7 +328,8 @@ func fetchTeeItUp(config TeeItUpCourseConfig, date string) ([]DisplayTeeTime, er
 	var data []TeeItUpResponse
 	err = json.Unmarshal(body, &data)
 	if err != nil {
-		return nil, err
+		// API sometimes returns an error object instead of array — treat as no results
+		return nil, nil
 	}
 
 	if len(data) == 0 {

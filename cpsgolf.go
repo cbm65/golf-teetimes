@@ -20,6 +20,7 @@ type CPSGolfCourseConfig struct {
 	Names      map[string]string
 	City       string
 	State      string
+	Timezone   string // e.g. "America/Los_Angeles", defaults to "America/Denver"
 }
 
 var CPSGolfCourses = map[string]CPSGolfCourseConfig{
@@ -111,6 +112,32 @@ var CPSGolfCourses = map[string]CPSGolfCourseConfig{
 		},
 		City: "Lafayette", State: "CO",
 	},
+	"serket": {
+		BaseURL:    "https://serketpublic.cps.golf",
+		APIKey:     "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+		WebsiteID:  "9042115d-9c91-4475-bed5-452b72cca140",
+		SiteID:     "1",
+		CourseIDs:  "5",
+		BookingURL: "https://serketpublic.cps.golf/onlineresweb/search-teetime",
+		Names: map[string]string{
+			"Serket": "Serket",
+		},
+		City: "Henderson", State: "NV",
+		Timezone: "America/Los_Angeles",
+	},
+	"cascata": {
+		BaseURL:    "https://serketpublic.cps.golf",
+		APIKey:     "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+		WebsiteID:  "9042115d-9c91-4475-bed5-452b72cca140",
+		SiteID:     "1",
+		CourseIDs:  "4",
+		BookingURL: "https://serketpublic.cps.golf/onlineresweb/search-teetime",
+		Names: map[string]string{
+			"Cascata": "Cascata",
+		},
+		City: "Boulder City", State: "NV",
+		Timezone: "America/Los_Angeles",
+	},
 }
 
 type CPSGolfResponse struct {
@@ -164,9 +191,24 @@ func setCPSHeaders(req *http.Request, config CPSGolfCourseConfig) {
 	req.Header.Set("x-productid", "1")
 	req.Header.Set("x-terminalid", "3")
 	req.Header.Set("x-timezone-offset", "420")
-	req.Header.Set("x-timezoneid", "America/Denver")
+	tz := config.Timezone
+	if tz == "" {
+		tz = "America/Denver"
+	}
+	req.Header.Set("x-timezoneid", tz)
 	req.Header.Set("x-ismobile", "false")
 	req.Header.Set("client-id", "onlineresweb")
+	req.Header.Set("Referer", config.BaseURL+"/onlineresweb/search-teetime")
+	req.Header.Set("Origin", config.BaseURL)
+	req.Header.Set("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36")
+	req.Header.Set("Cache-Control", "no-cache, no-store, must-revalidate")
+	req.Header.Set("Pragma", "no-cache")
+	req.Header.Set("Expires", "Sat, 01 Jan 2000 00:00:00 GMT")
+	req.Header.Set("If-Modified-Since", "0")
+	req.Header.Set("sec-fetch-dest", "empty")
+	req.Header.Set("sec-fetch-mode", "cors")
+	req.Header.Set("sec-fetch-site", "same-origin")
+	req.Header.Set("Accept-Language", "en-US,en;q=0.9")
 }
 
 func fetchCPSGolf(config CPSGolfCourseConfig, date string) ([]DisplayTeeTime, error) {
@@ -197,7 +239,7 @@ func fetchCPSGolf(config CPSGolfCourseConfig, date string) ([]DisplayTeeTime, er
 
 	// Step 2: Fetch tee times
 	var searchDate string = formatCPSDate(date)
-	var encodedDate string = url.QueryEscape(searchDate)
+	var encodedDate string = url.PathEscape(searchDate)
 	var teeURL string = fmt.Sprintf(
 		"%s/onlineres/onlineapi/api/v1/onlinereservation/TeeTimes?searchDate=%s&holes=0&numberOfPlayer=0&courseIds=%s&searchTimeType=0&transactionId=%s&teeOffTimeMin=0&teeOffTimeMax=23&isChangeTeeOffTime=true&teeSheetSearchView=5&classCode=R&defaultOnlineRate=N&isUseCapacityPricing=false&memberStoreId=1&searchType=1",
 		config.BaseURL, encodedDate, config.CourseIDs, txnID,
@@ -227,13 +269,12 @@ func fetchCPSGolf(config CPSGolfCourseConfig, date string) ([]DisplayTeeTime, er
 	var data CPSGolfResponse
 	err = json.Unmarshal(body, &data)
 	if err != nil {
-		return nil, err
+		return nil, nil
 	}
 
 	var slots []CPSGolfSlot
 	err = json.Unmarshal(data.Content, &slots)
 	if err != nil {
-		// Content is an object (e.g. "no tee times" message) — return empty
 		return nil, nil
 	}
 

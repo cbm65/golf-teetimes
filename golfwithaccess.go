@@ -91,6 +91,14 @@ var GolfWithAccessCourses = map[string]GolfWithAccessCourseConfig{
 		City:        "Goodyear",
 		State:       "AZ",
 	},
+	"mountainfalls": {
+		CourseIDs:   []string{"b2ff3f68-2ac9-41b1-8924-e79a9040c4a7"},
+		Slug:        "mountain-falls-golf-club",
+		BookingURL:  "https://golfwithaccess.com/course/mountain-falls-golf-club/reserve-tee-time",
+		DisplayName: "Mountain Falls",
+		City:        "Pahrump",
+		State:       "NV",
+	},
 }
 
 type GolfWithAccessResponse struct {
