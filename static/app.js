@@ -50,16 +50,18 @@ async function fetchTimes() {
         return
     }
 
-    updateCourseFilter()
+    updateFilters()
     displayTimes()
 }
 
 function updateCourseFilter() {
     var courseSelect = document.getElementById("course")
     var currentValue = courseSelect.value
+    var cityFilter = document.getElementById("city").value
     var courses = []
 
     for (var i = 0; i < allTimes.length; i++) {
+        if (cityFilter !== "" && allTimes[i].city !== cityFilter) continue
         var base = getBaseCourse(allTimes[i].course)
         if (courses.indexOf(base) === -1) {
             courses.push(base)
@@ -68,25 +70,28 @@ function updateCourseFilter() {
     courses.sort()
 
     courseSelect.innerHTML = '<option value="">All Courses</option>'
+    var found = false
     for (var i = 0; i < courses.length; i++) {
         var option = document.createElement("option")
         option.value = courses[i]
         option.textContent = courses[i]
         if (courses[i] === currentValue) {
             option.selected = true
+            found = true
         }
         courseSelect.appendChild(option)
     }
-
-    updateCityFilter()
+    if (!found) courseSelect.value = ""
 }
 
 function updateCityFilter() {
     var citySelect = document.getElementById("city")
     var currentValue = citySelect.value
+    var courseFilter = document.getElementById("course").value
     var cities = []
 
     for (var i = 0; i < allTimes.length; i++) {
+        if (courseFilter !== "" && getBaseCourse(allTimes[i].course) !== courseFilter) continue
         if (allTimes[i].city && cities.indexOf(allTimes[i].city) === -1) {
             cities.push(allTimes[i].city)
         }
@@ -94,15 +99,23 @@ function updateCityFilter() {
     cities.sort()
 
     citySelect.innerHTML = '<option value="">All Cities</option>'
+    var found = false
     for (var i = 0; i < cities.length; i++) {
         var option = document.createElement("option")
         option.value = cities[i]
         option.textContent = cities[i]
         if (cities[i] === currentValue) {
             option.selected = true
+            found = true
         }
         citySelect.appendChild(option)
     }
+    if (!found) citySelect.value = ""
+}
+
+function updateFilters() {
+    updateCourseFilter()
+    updateCityFilter()
 }
 
 function parseTimeToHours(timeStr) {
@@ -310,8 +323,8 @@ async function createAlert() {
 }
 
 document.getElementById("date").addEventListener("change", fetchTimes)
-document.getElementById("course").addEventListener("change", displayTimes)
-document.getElementById("city").addEventListener("change", displayTimes)
+document.getElementById("course").addEventListener("change", function() { updateCityFilter(); displayTimes() })
+document.getElementById("city").addEventListener("change", function() { updateCourseFilter(); displayTimes() })
 document.getElementById("timeFrom").addEventListener("input", updateSlider)
 document.getElementById("timeTo").addEventListener("input", updateSlider)
 document.getElementById("openings").addEventListener("change", displayTimes)
