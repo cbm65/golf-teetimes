@@ -290,6 +290,23 @@ input[type="date"]:focus, input[type="tel"]:focus, select:focus {
     line-height: 1.5;
 }
 
+.consent-checkbox {
+    margin-top: 12px;
+    font-size: 13px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.consent-checkbox input[type="checkbox"] {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.consent-checkbox a {
+    color: #1a3a1a;
+    text-decoration: underline;
+}
+
 .alert-consent a {
     color: #1a3a1a;
     text-decoration: underline;

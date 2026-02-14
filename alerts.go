@@ -563,6 +563,7 @@ func addAlert(phone string, course string, date string, startTime string, endTim
 		EndTime:   endTime,
 		Active:    true,
 		CreatedAt: time.Now().Format("2006-01-02 3:04 PM"),
+		ConsentAt: time.Now().Format("2006-01-02 3:04:05 PM MST"),
 	}
 
 	alerts = append(alerts, alert)

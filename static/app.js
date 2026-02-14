@@ -260,6 +260,12 @@ async function createAlert() {
         return
     }
 
+    if (!document.getElementById("consentCheck").checked) {
+        message.textContent = "Please agree to receive SMS alerts."
+        message.className = "form-message form-error"
+        return
+    }
+
     var btn = document.getElementById("createBtn")
     btn.disabled = true
     btn.textContent = "Creating..."

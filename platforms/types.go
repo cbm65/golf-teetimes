@@ -20,4 +20,5 @@ type Alert struct {
 	EndTime   string `json:"endTime"`
 	Active    bool   `json:"active"`
 	CreatedAt string `json:"createdAt"`
+	ConsentAt string `json:"consentAt"`
 }
