@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"net/http/cookiejar"
 	"net/url"
 	"time"
 )
@@ -99,11 +100,81 @@ func setCPSHeaders(req *http.Request, config CPSGolfCourseConfig) {
 }
 
 func FetchCPSGolf(config CPSGolfCourseConfig, date string) ([]DisplayTeeTime, error) {
-	// Step 1: Register a transaction ID
+	jar, _ := cookiejar.New(nil)
+	client := http.Client{Jar: jar}
+
+	// Step 1: Fetch Configuration to get apiKey dynamically
+	configReq, err := http.NewRequest("GET", config.BaseURL+"/onlineresweb/Home/Configuration", nil)
+	if err != nil {
+		return nil, err
+	}
+	configReq.Header.Set("Accept", "application/json, text/plain, */*")
+	configReq.Header.Set("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36")
+	configResp, err := client.Do(configReq)
+	if err != nil {
+		return nil, fmt.Errorf("CPS Golf %s: config fetch error: %w", config.Key, err)
+	}
+	configBody, _ := io.ReadAll(configResp.Body)
+	configResp.Body.Close()
+
+	var siteConfig struct {
+		APIKey string `json:"apiKey"`
+	}
+	json.Unmarshal(configBody, &siteConfig)
+	if siteConfig.APIKey != "" {
+		config.APIKey = siteConfig.APIKey
+	}
+
+	// If no apiKey, get a short-lived Bearer token
+	var bearerToken string
+	if config.APIKey == "" {
+		form := url.Values{"client_id": {"onlinereswebshortlived"}}
+		tokenResp, err := client.PostForm(config.BaseURL+"/identityapi/myconnect/token/short", form)
+		if err != nil {
+			return nil, fmt.Errorf("CPS Golf %s: token error: %w", config.Key, err)
+		}
+		tokenBody, _ := io.ReadAll(tokenResp.Body)
+		tokenResp.Body.Close()
+		var tok struct {
+			AccessToken string `json:"access_token"`
+		}
+		json.Unmarshal(tokenBody, &tok)
+		bearerToken = tok.AccessToken
+	}
+
+	// Step 2: Fetch OnlineCourses to get courseIds dynamically
+	if config.CourseIDs == "" {
+		coursesReq, err := http.NewRequest("GET", config.BaseURL+"/onlineres/onlineapi/api/v1/onlinereservation/OnlineCourses", nil)
+		if err != nil {
+			return nil, err
+		}
+		setCPSHeaders(coursesReq, config)
+		if bearerToken != "" {
+			coursesReq.Header.Set("Authorization", "Bearer "+bearerToken)
+		}
+		coursesResp, err := client.Do(coursesReq)
+		if err != nil {
+			return nil, fmt.Errorf("CPS Golf %s: courses fetch error: %w", config.Key, err)
+		}
+		coursesBody, _ := io.ReadAll(coursesResp.Body)
+		coursesResp.Body.Close()
+
+		var courses []struct {
+			CourseID int `json:"courseId"`
+		}
+		json.Unmarshal(coursesBody, &courses)
+		var ids []string
+		for _, c := range courses {
+			ids = append(ids, fmt.Sprintf("%d", c.CourseID))
+		}
+		if len(ids) > 0 {
+			config.CourseIDs = ids[0]
+		}
+	}
+
+	// Step 3: Register a transaction ID
 	var txnID string = generateUUID()
-	var txnBody []byte
-	var err error
-	txnBody, err = json.Marshal(map[string]string{"transactionId": txnID})
+	txnBody, err := json.Marshal(map[string]string{"transactionId": txnID})
 	if err != nil {
 		return nil, err
 	}
@@ -115,16 +186,18 @@ func FetchCPSGolf(config CPSGolfCourseConfig, date string) ([]DisplayTeeTime, er
 	}
 	txnReq.Header.Set("Content-Type", "application/json")
 	setCPSHeaders(txnReq, config)
+	if bearerToken != "" {
+		txnReq.Header.Set("Authorization", "Bearer "+bearerToken)
+	}
 
-	var client http.Client
 	var txnResp *http.Response
 	txnResp, err = client.Do(txnReq)
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("CPS Golf %s: txn register error: %w", config.Key, err)
 	}
 	txnResp.Body.Close()
 
-	// Step 2: Fetch tee times
+	// Step 4: Fetch tee times
 	var searchDate string = formatCPSDate(date)
 	var encodedDate string = url.PathEscape(searchDate)
 	var teeURL string = fmt.Sprintf(
@@ -138,14 +211,21 @@ func FetchCPSGolf(config CPSGolfCourseConfig, date string) ([]DisplayTeeTime, er
 		return nil, err
 	}
 	setCPSHeaders(req, config)
+	if bearerToken != "" {
+		req.Header.Set("Authorization", "Bearer "+bearerToken)
+	}
 	req.Header.Set("x-requestid", generateUUID())
 
 	var resp *http.Response
 	resp, err = client.Do(req)
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("CPS Golf %s: HTTP error: %w", config.Key, err)
 	}
 	defer resp.Body.Close()
+
+	if resp.StatusCode != 200 {
+		return nil, nil
+	}
 
 	var body []byte
 	body, err = io.ReadAll(resp.Body)
@@ -198,7 +278,7 @@ func FetchCPSGolf(config CPSGolfCourseConfig, date string) ([]DisplayTeeTime, er
 			Openings:   openings,
 			Holes:      holes,
 			Price:      price,
-			BookingURL: config.BookingURL,
+			BookingURL: config.BookingURL + "?Date=" + date,
 		})
 	}
 

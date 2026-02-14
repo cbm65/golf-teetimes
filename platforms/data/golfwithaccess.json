@@ -34,5 +34,29 @@
     "displayName": "Westin Kierland Golf Club",
     "city": "Scottsdale",
     "state": "AZ"
+  },
+  {
+    "key": "coyote-springs",
+    "metro": "lasvegas",
+    "courseIds": [
+      "abfc1efc-67d7-4396-b4e5-62f2b81c6732"
+    ],
+    "slug": "coyote-springs-golf-club",
+    "bookingUrl": "https://golfwithaccess.com/course/coyote-springs-golf-club/reserve-tee-time",
+    "displayName": "Coyote Springs Golf Club",
+    "city": "Coyote Springs",
+    "state": "NV"
+  },
+  {
+    "key": "tpc-las-vegas",
+    "metro": "lasvegas",
+    "courseIds": [
+      "ba6b567b-1db5-4de7-9097-fb0f03d2d654"
+    ],
+    "slug": "tpc-las-vegas",
+    "bookingUrl": "https://golfwithaccess.com/course/tpc-las-vegas/reserve-tee-time",
+    "displayName": "TPC Las Vegas",
+    "city": "Las Vegas",
+    "state": "NV"
   }
 ]

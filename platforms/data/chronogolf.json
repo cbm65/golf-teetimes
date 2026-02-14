@@ -86,5 +86,19 @@
     },
     "city": "Lone Tree",
     "state": "CO"
+  },
+  {
+    "key": "club-at-sunrise",
+    "metro": "lasvegas",
+    "courseIds": "5b099aff-aa7c-4e50-8413-39da67a133e0",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "112064",
+    "bookingUrl": "https://www.chronogolf.com/club/the-club-at-sunrise",
+    "names": {
+      "The Club at Sunrise": "The Club at Sunrise"
+    },
+    "city": "Las Vegas",
+    "state": "NV"
   }
 ]

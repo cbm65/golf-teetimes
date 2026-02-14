@@ -1,0 +1,517 @@
+{
+  "confirmed": 0,
+  "elapsed": "10.499997416s",
+  "listedOnly": 0,
+  "missed": 42,
+  "platform": "courseco",
+  "results": [
+    {
+      "input": "Angel Park Golf Club - Mountain",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "angelparkgolfclubmountain",
+        "angelparkgolfclubmountaingolf",
+        "angelparkgolfclubmountaingolfclub",
+        "angelparkgolfclubmountaingolfcourse",
+        "angelparkgolfclubmountaincc"
+      ]
+    },
+    {
+      "input": "Angel Park Golf Club - Palm",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "angelparkgolfclubpalm",
+        "angelparkgolfclubpalmgolf",
+        "angelparkgolfclubpalmgolfclub",
+        "angelparkgolfclubpalmgolfcourse",
+        "angelparkgolfclubpalmcc"
+      ]
+    },
+    {
+      "input": "Angel Park Golf Club - Cloud Nine",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "angelparkgolfclubcloudnine",
+        "angelparkgolfclubcloudninegolf",
+        "angelparkgolfclubcloudninegolfclub",
+        "angelparkgolfclubcloudninegolfcourse",
+        "angelparkgolfclubcloudninecc"
+      ]
+    },
+    {
+      "input": "Bear's Best Golf Club",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "bearsbest",
+        "bearsbestgolfclub",
+        "bearsbestgolf",
+        "bearsbestgolfcourse",
+        "bearsbestcc"
+      ]
+    },
+    {
+      "input": "Desert Pines Golf Club",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "desertpines",
+        "desertpinesgolfclub",
+        "desertpinesgolf",
+        "desertpinesgolfcourse",
+        "desertpinescc"
+      ]
+    },
+    {
+      "input": "Durango Hills Golf Club",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "durangohills",
+        "durangohillsgolfclub",
+        "durangohillsgolf",
+        "durangohillsgolfcourse",
+        "durangohillscc"
+      ]
+    },
+    {
+      "input": "Eagle Crest Golf Course",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "eaglecrest",
+        "eaglecrestgolfcourse",
+        "eaglecrestgolf",
+        "eaglecrestgolfclub",
+        "eaglecrestcc"
+      ]
+    },
+    {
+      "input": "Highland Falls Golf Course",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "highlandfalls",
+        "highlandfallsgolfcourse",
+        "highlandfallsgolf",
+        "highlandfallsgolfclub",
+        "highlandfallscc"
+      ]
+    },
+    {
+      "input": "Las Vegas Golf Club",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "lasvegas",
+        "lasvegasgolfclub",
+        "lasvegasgolf",
+        "lasvegasgolfcourse",
+        "lasvegascc"
+      ]
+    },
+    {
+      "input": "Las Vegas National Golf Club",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "lasvegasnational",
+        "lasvegasnationalgolfclub",
+        "lasvegasnationalgolf",
+        "lasvegasnationalgolfcourse",
+        "lasvegasnationalcc"
+      ]
+    },
+    {
+      "input": "Los Prados Golf Course",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "losprados",
+        "lospradosgolfcourse",
+        "lospradosgolf",
+        "lospradosgolfclub",
+        "lospradoscc"
+      ]
+    },
+    {
+      "input": "Painted Desert Golf Club",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "painteddesert",
+        "painteddesertgolfclub",
+        "painteddesertgolf",
+        "painteddesertgolfcourse",
+        "painteddesertcc"
+      ]
+    },
+    {
+      "input": "Palm Valley Golf Course",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "palmvalley",
+        "palmvalleygolfcourse",
+        "palmvalleygolf",
+        "palmvalleygolfclub",
+        "palmvalleycc"
+      ]
+    },
+    {
+      "input": "Red Rock Arroyo Golf Club",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "redrockarroyo",
+        "redrockarroyogolfclub",
+        "redrockarroyogolf",
+        "redrockarroyogolfcourse",
+        "redrockarroyocc"
+      ]
+    },
+    {
+      "input": "Rhodes Ranch Golf Club",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "rhodesranch",
+        "rhodesranchgolfclub",
+        "rhodesranchgolf",
+        "rhodesranchgolfcourse",
+        "rhodesranchcc"
+      ]
+    },
+    {
+      "input": "Royal Links Golf Club",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "royallinks",
+        "royallinksgolfclub",
+        "royallinksgolf",
+        "royallinksgolfcourse",
+        "royallinkscc"
+      ]
+    },
+    {
+      "input": "Siena Golf Club",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "siena",
+        "sienagolfclub",
+        "sienagolf",
+        "sienagolfcourse",
+        "sienacc"
+      ]
+    },
+    {
+      "input": "TPC Las Vegas",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "tpclasvegas",
+        "tpclasvegasgolf",
+        "tpclasvegasgolfclub",
+        "tpclasvegasgolfcourse",
+        "tpclasvegascc"
+      ]
+    },
+    {
+      "input": "Wynn Golf Club",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "wynn",
+        "wynngolfclub",
+        "wynngolf",
+        "wynngolfcourse",
+        "wynncc"
+      ]
+    },
+    {
+      "input": "Cascata Golf Club",
+      "city": "Henderson",
+      "status": "miss",
+      "slugsTried": [
+        "cascata",
+        "cascatagolfclub",
+        "cascatagolf",
+        "cascatagolfcourse",
+        "cascatacc"
+      ]
+    },
+    {
+      "input": "Chimera Golf Club",
+      "city": "Henderson",
+      "status": "miss",
+      "slugsTried": [
+        "chimera",
+        "chimeragolfclub",
+        "chimeragolf",
+        "chimeragolfcourse",
+        "chimeracc"
+      ]
+    },
+    {
+      "input": "Desert Willow Golf Course",
+      "city": "Henderson",
+      "status": "miss",
+      "slugsTried": [
+        "desertwillow",
+        "desertwillowgolfcourse",
+        "desertwillowgolf",
+        "desertwillowgolfclub",
+        "desertwillowcc"
+      ]
+    },
+    {
+      "input": "Legacy Golf Club",
+      "city": "Henderson",
+      "status": "miss",
+      "slugsTried": [
+        "legacy",
+        "legacygolfclub",
+        "legacygolf",
+        "legacygolfcourse",
+        "legacycc"
+      ]
+    },
+    {
+      "input": "Reflection Bay Golf Club",
+      "city": "Henderson",
+      "status": "miss",
+      "slugsTried": [
+        "reflectionbay",
+        "reflectionbaygolfclub",
+        "reflectionbaygolf",
+        "reflectionbaygolfcourse",
+        "reflectionbaycc"
+      ]
+    },
+    {
+      "input": "Revere Golf Club - Concord",
+      "city": "Henderson",
+      "status": "miss",
+      "slugsTried": [
+        "reveregolfclubconcord",
+        "reveregolfclubconcordgolf",
+        "reveregolfclubconcordgolfclub",
+        "reveregolfclubconcordgolfcourse",
+        "reveregolfclubconcordcc"
+      ]
+    },
+    {
+      "input": "Revere Golf Club - Lexington",
+      "city": "Henderson",
+      "status": "miss",
+      "slugsTried": [
+        "reveregolfclublexington",
+        "reveregolfclublexingtongolf",
+        "reveregolfclublexingtongolfclub",
+        "reveregolfclublexingtongolfcourse",
+        "reveregolfclublexingtoncc"
+      ]
+    },
+    {
+      "input": "Serket Golf Club",
+      "city": "Henderson",
+      "status": "miss",
+      "slugsTried": [
+        "serket",
+        "serketgolfclub",
+        "serketgolf",
+        "serketgolfcourse",
+        "serketcc"
+      ]
+    },
+    {
+      "input": "Wildhorse Golf Club",
+      "city": "Henderson",
+      "status": "miss",
+      "slugsTried": [
+        "wildhorse",
+        "wildhorsegolfclub",
+        "wildhorsegolf",
+        "wildhorsegolfcourse",
+        "wildhorsecc"
+      ]
+    },
+    {
+      "input": "Aliante Golf Club",
+      "city": "North Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "aliante",
+        "aliantegolfclub",
+        "aliantegolf",
+        "aliantegolfcourse",
+        "aliantecc"
+      ]
+    },
+    {
+      "input": "Shadow Creek Golf Course",
+      "city": "North Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "shadowcreek",
+        "shadowcreekgolfcourse",
+        "shadowcreekgolf",
+        "shadowcreekgolfclub",
+        "shadowcreekcc"
+      ]
+    },
+    {
+      "input": "Paiute Golf Resort - Snow Mountain",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "paiutegolfresortsnowmountain",
+        "paiutegolfresortsnowmountaingolf",
+        "paiutegolfresortsnowmountaingolfclub",
+        "paiutegolfresortsnowmountaingolfcourse",
+        "paiutegolfresortsnowmountaincc"
+      ]
+    },
+    {
+      "input": "Paiute Golf Resort - Sun Mountain",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "paiutegolfresortsunmountain",
+        "paiutegolfresortsunmountaingolf",
+        "paiutegolfresortsunmountaingolfclub",
+        "paiutegolfresortsunmountaingolfcourse",
+        "paiutegolfresortsunmountaincc"
+      ]
+    },
+    {
+      "input": "Paiute Golf Resort - Wolf",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "paiutegolfresortwolf",
+        "paiutegolfresortwolfgolf",
+        "paiutegolfresortwolfgolfclub",
+        "paiutegolfresortwolfgolfcourse",
+        "paiutegolfresortwolfcc"
+      ]
+    },
+    {
+      "input": "Bali Hai Golf Club",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "balihai",
+        "balihaigolfclub",
+        "balihaigolf",
+        "balihaigolfcourse",
+        "balihaicc"
+      ]
+    },
+    {
+      "input": "Stallion Mountain Golf Club",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "stallionmountain",
+        "stallionmountaingolfclub",
+        "stallionmountaingolf",
+        "stallionmountaingolfcourse",
+        "stallionmountaincc"
+      ]
+    },
+    {
+      "input": "Boulder City Golf Course",
+      "city": "Boulder City",
+      "status": "miss",
+      "slugsTried": [
+        "bouldercity",
+        "bouldercitygolfcourse",
+        "bouldercitygolf",
+        "bouldercitygolfclub",
+        "bouldercitycc"
+      ]
+    },
+    {
+      "input": "Boulder Creek Golf Club",
+      "city": "Boulder City",
+      "status": "miss",
+      "slugsTried": [
+        "bouldercreek",
+        "bouldercreekgolfclub",
+        "bouldercreekgolf",
+        "bouldercreekgolfcourse",
+        "bouldercreekcc"
+      ]
+    },
+    {
+      "input": "Primm Valley Golf Club - Desert",
+      "city": "Primm",
+      "status": "miss",
+      "slugsTried": [
+        "primmvalleygolfclubdesert",
+        "primmvalleygolfclubdesertgolf",
+        "primmvalleygolfclubdesertgolfclub",
+        "primmvalleygolfclubdesertgolfcourse",
+        "primmvalleygolfclubdesertcc"
+      ]
+    },
+    {
+      "input": "Primm Valley Golf Club - Lakes",
+      "city": "Primm",
+      "status": "miss",
+      "slugsTried": [
+        "primmvalleygolfclublakes",
+        "primmvalleygolfclublakesgolf",
+        "primmvalleygolfclublakesgolfclub",
+        "primmvalleygolfclublakesgolfcourse",
+        "primmvalleygolfclublakescc"
+      ]
+    },
+    {
+      "input": "Coyote Springs Golf Club",
+      "city": "Coyote Springs",
+      "status": "miss",
+      "slugsTried": [
+        "coyotesprings",
+        "coyotespringsgolfclub",
+        "coyotespringsgolf",
+        "coyotespringsgolfcourse",
+        "coyotespringscc"
+      ]
+    },
+    {
+      "input": "North Las Vegas Par 3 Golf Course",
+      "city": "North Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "northlasvegaspar3",
+        "northlasvegaspar3golfcourse",
+        "northlasvegaspar3golf",
+        "northlasvegaspar3golfclub",
+        "northlasvegaspar3cc"
+      ]
+    },
+    {
+      "input": "The Club at Sunrise",
+      "city": "Las Vegas",
+      "status": "miss",
+      "slugsTried": [
+        "clubatsunrise",
+        "theclubatsunrise",
+        "clubatsunrisegolf",
+        "clubatsunrisegolfclub",
+        "clubatsunrisegolfcourse",
+        "clubatsunrisecc"
+      ]
+    }
+  ],
+  "state": "NV",
+  "timestamp": "2026-02-14T14:11:55-07:00",
+  "total": 42
+}

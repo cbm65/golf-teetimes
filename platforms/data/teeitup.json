@@ -506,5 +506,141 @@
     "displayName": "Riverdale Knolls Golf Course",
     "city": "Brighton",
     "state": "CO"
+  },
+  {
+    "key": "aliante",
+    "metro": "lasvegas",
+    "alias": "aliante-golf-club",
+    "facilityId": "377",
+    "displayName": "Aliante Golf Club",
+    "city": "North Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "bali-hai",
+    "metro": "lasvegas",
+    "alias": "bali-hai",
+    "facilityId": "5359",
+    "displayName": "Bali Hai Golf Club",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "boulder-creek",
+    "metro": "lasvegas",
+    "alias": "boulder-creek-golf-club",
+    "facilityId": "157",
+    "displayName": "Boulder Creek Golf Club",
+    "city": "Boulder City",
+    "state": "NV"
+  },
+  {
+    "key": "chimera",
+    "metro": "lasvegas",
+    "alias": "chimera-golf-club",
+    "facilityId": "761",
+    "displayName": "Chimera Golf Club",
+    "city": "Henderson",
+    "state": "NV"
+  },
+  {
+    "key": "desert-pines",
+    "metro": "lasvegas",
+    "alias": "desert-pines-gc",
+    "facilityId": "5380",
+    "displayName": "Desert Pines Golf Club",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "desert-willow",
+    "metro": "lasvegas",
+    "alias": "desert-willow-golf-course",
+    "facilityId": "1336",
+    "displayName": "Desert Willow Golf Course",
+    "city": "Henderson",
+    "state": "NV"
+  },
+  {
+    "key": "durango-hills",
+    "metro": "lasvegas",
+    "alias": "durango-hills-golf-club",
+    "facilityId": "9934",
+    "displayName": "Durango Hills Golf Club",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "highland-falls",
+    "metro": "lasvegas",
+    "alias": "highland-falls",
+    "facilityId": "1972",
+    "displayName": "Highland Falls Golf Course",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "los-prados",
+    "metro": "lasvegas",
+    "alias": "los-prados-golf-course",
+    "facilityId": "1920",
+    "displayName": "Los Prados Golf Course",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "reflection-bay",
+    "metro": "lasvegas",
+    "alias": "reflection-bay",
+    "facilityId": "881",
+    "displayName": "Reflection Bay Golf Club",
+    "city": "Henderson",
+    "state": "NV"
+  },
+  {
+    "key": "rhodes-ranch",
+    "metro": "lasvegas",
+    "alias": "rhodes-ranch-golf-club",
+    "facilityId": "762",
+    "displayName": "Rhodes Ranch Golf Club",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "siena",
+    "metro": "lasvegas",
+    "alias": "siena-golf-club",
+    "facilityId": "370",
+    "displayName": "Siena Golf Club",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "stallion-mountain",
+    "metro": "lasvegas",
+    "alias": "stallion-mountain-golf-club",
+    "facilityId": "5",
+    "displayName": "Stallion Mountain Golf Club",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "wildhorse",
+    "metro": "lasvegas",
+    "alias": "wildhorse",
+    "facilityId": "1111",
+    "displayName": "Wildhorse Golf Club",
+    "city": "Henderson",
+    "state": "NV"
+  },
+  {
+    "key": "boulder-city",
+    "metro": "lasvegas",
+    "subdomain": "boulder-city-golf-course",
+    "facilityId": "463",
+    "bookingUrl": "https://boulder-city-golf-course.book.teeitup.com",
+    "displayName": "Boulder City Golf Course",
+    "city": "Boulder City",
+    "state": "NV"
   }
 ]

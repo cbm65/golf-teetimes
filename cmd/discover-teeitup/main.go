@@ -60,6 +60,7 @@ type Result struct {
 	Status       string    `json:"status"`      // "confirmed", "listed_only", "miss", "error"
 	Facility     *Facility `json:"facility,omitempty"`
 	Error        string    `json:"error,omitempty"`
+	ExactStatus  int       `json:"exactStatus,omitempty"` // HTTP status from exact-slug probe (for diagnosing misses)
 	DatesChecked []string  `json:"datesChecked,omitempty"`
 	TeeTimes     []int     `json:"teeTimes,omitempty"`
 }
@@ -524,6 +525,7 @@ func main() {
 		log("[%d/%d] %q (city: %q) — %d alias candidates", i+1, len(inputs), input.Name, input.City, len(candidates))
 
 		found := false
+		exactStatus := 0
 		for _, c := range candidates {
 			if deadAliases[c.alias] {
 				continue
@@ -542,6 +544,10 @@ func main() {
 				}
 				if statusCode != 200 || len(facilities) == 0 {
 					deadAliases[c.alias] = true
+					if c.source == "exact" {
+						exactStatus = statusCode
+						log("  %s (%s): MISS (status %d)", c.alias, c.source, statusCode)
+					}
 					time.Sleep(100 * time.Millisecond)
 					continue
 				}
@@ -594,7 +600,7 @@ func main() {
 
 		if !found && !discoveredByName[strings.ToLower(input.Name)] {
 			log("  MISS — no alias matched")
-			results = append(results, Result{Input: input.Name, City: input.City, Alias: slugify(input.Name), Status: "miss"})
+			results = append(results, Result{Input: input.Name, City: input.City, Alias: slugify(input.Name), Status: "miss", ExactStatus: exactStatus})
 			missCount++
 		}
 

@@ -79,5 +79,15 @@
     "displayName": "Thorncreek Golf Course",
     "city": "Thornton",
     "state": "CO"
+  },
+  {
+    "key": "angel-park",
+    "metro": "lasvegas",
+    "subdomain": "angelpark",
+    "bookingUrl": "https://angelpark.quick18.com",
+    "displayName": "Angel Park Golf Club",
+    "namePrefix": "Angel Park Golf Club -",
+    "city": "Las Vegas",
+    "state": "NV"
   }
 ]

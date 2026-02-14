@@ -209,6 +209,18 @@ func buildSubdomains(name string) []string {
 		add(coreWithoutThe)
 	}
 
+	// Multi-course facilities: "Angel Park Golf Club - Mountain" → try "Angel Park Golf Club" slugs
+	// The subdomain is often just the facility name without the course variant.
+	if idx := strings.Index(name, " - "); idx > 0 {
+		baseName := strings.TrimSpace(name[:idx])
+		baseCore := joinAlpha(coreName(baseName))
+		baseFull := joinAlpha(baseName)
+		add(baseCore)
+		add(baseFull)
+		add(baseCore + "golf")
+		add(baseCore + "golfclub")
+	}
+
 	return slugs
 }
 

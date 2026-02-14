@@ -1,0 +1,840 @@
+{
+  "confirmed": 15,
+  "elapsed": "1m55.1393255s",
+  "errors": 0,
+  "listedOnly": 7,
+  "misses": 20,
+  "platform": "teeitup",
+  "results": [
+    {
+      "input": "Angel Park Golf Club - Mountain",
+      "city": "Las Vegas",
+      "alias": "angel-park-golf-club-mountain",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Angel Park Golf Club - Palm",
+      "city": "Las Vegas",
+      "alias": "angel-park-golf-club-palm",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Angel Park Golf Club - Cloud Nine",
+      "city": "Las Vegas",
+      "alias": "angel-park-golf-club-cloud-nine",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 9960,
+        "courseId": "54f14f2d0c8ad60378b05fea",
+        "name": "Angel Park Golf Club - Cloud Nine",
+        "address": "100 S Rampart Blvd, Las Vegas, NV 89145 US",
+        "locality": "Las Vegas",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -118.276797,
+          34.069476
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Bear's Best Golf Club",
+      "city": "Las Vegas",
+      "alias": "bears-best-las-vegas",
+      "aliasSource": "core+city",
+      "status": "listed_only",
+      "facility": {
+        "id": 4995,
+        "courseId": "54f14d200c8ad60378b0354e",
+        "name": "Bear's Best Las Vegas",
+        "address": "11111 West Flamingo Road, Las Vegas, NV 89135 US",
+        "locality": "Las Vegas",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -115.335087,
+          36.120772
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Desert Pines Golf Club",
+      "city": "Las Vegas",
+      "alias": "desert-pines-gc",
+      "aliasSource": "swap-gc",
+      "status": "confirmed",
+      "facility": {
+        "id": 5380,
+        "courseId": "54f14d4b0c8ad60378b03931",
+        "name": "Desert Pines Golf Club",
+        "address": "3415 E Bonanza Rd, Las Vegas, NV 89101, US",
+        "locality": "Las Vegas",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -115.10008,
+          36.173729
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Durango Hills Golf Club",
+      "city": "Las Vegas",
+      "alias": "durango-hills-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 9934,
+        "courseId": "54f14f2b0c8ad60378b05fa7",
+        "name": "Durango Hills Golf Club",
+        "address": "3501 N Durango Dr, Las Vegas, NV 89129, US",
+        "locality": "Las Vegas",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -115.2906,
+          36.2336
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        34,
+        10,
+        10
+      ]
+    },
+    {
+      "input": "Eagle Crest Golf Course",
+      "city": "Las Vegas",
+      "alias": "eagle-crest-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Highland Falls Golf Course",
+      "city": "Las Vegas",
+      "alias": "highland-falls",
+      "aliasSource": "base-only",
+      "status": "confirmed",
+      "facility": {
+        "id": 1972,
+        "courseId": "54f14c060c8ad60378b01c21",
+        "name": "Highland Falls at Golf Summerlin",
+        "address": "10201 Sun City Blvd, Las Vegas, NV 89134, US",
+        "locality": "Las Vegas",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -115.319194,
+          36.212112
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "input": "Las Vegas Golf Club",
+      "city": "Las Vegas",
+      "alias": "las-vegas-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Las Vegas National Golf Club",
+      "city": "Las Vegas",
+      "alias": "las-vegas-national",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 763,
+        "courseId": "54f14b930c8ad60378b011eb",
+        "name": "Las Vegas National",
+        "address": "1911 E. Desert Inn Rd, Las Vegas, NV 89169 US",
+        "locality": "Las Vegas",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -115.1258,
+          36.129859
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Los Prados Golf Course",
+      "city": "Las Vegas",
+      "alias": "los-prados-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1920,
+        "courseId": "54f14c000c8ad60378b01b9e",
+        "name": "Los Prados Golf Course",
+        "address": "5150 Los Prados Circle, Las Vegas, NV 89130, US",
+        "locality": "Las Vegas",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -115.218,
+          36.252718
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        34,
+        12,
+        26
+      ]
+    },
+    {
+      "input": "Painted Desert Golf Club",
+      "city": "Las Vegas",
+      "alias": "painted-desert-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 764,
+        "courseId": "54f14b930c8ad60378b011ee",
+        "name": "Painted Desert Golf Club",
+        "address": "5555 Painted Mirage Drive, Las Vegas, NV 89149, US",
+        "locality": "Las Vegas",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -115.256512,
+          36.262117
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Palm Valley Golf Course",
+      "city": "Las Vegas",
+      "alias": "palm-valley-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Red Rock Arroyo Golf Club",
+      "city": "Las Vegas",
+      "alias": "red-rock-arroyo-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Rhodes Ranch Golf Club",
+      "city": "Las Vegas",
+      "alias": "rhodes-ranch-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 762,
+        "courseId": "54f14b930c8ad60378b011e9",
+        "name": "Rhodes Ranch Golf Club",
+        "address": "20 Rhodes Ranch Parkway, Las Vegas, NV 89148 US",
+        "locality": "Las Vegas",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -115.28778,
+          36.043824
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        43,
+        11,
+        22
+      ]
+    },
+    {
+      "input": "Royal Links Golf Club",
+      "city": "Las Vegas",
+      "alias": "royal-links-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 5383,
+        "courseId": "54f14d4c0c8ad60378b03938",
+        "name": "Royal Links Golf Club",
+        "address": "5995 Vegas Valley Dr, Las Vegas, NV 89142 US",
+        "locality": "Las Vegas",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -115.047852,
+          36.135865
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Siena Golf Club",
+      "city": "Las Vegas",
+      "alias": "siena-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 370,
+        "courseId": "54f14b5c0c8ad60378b00eac",
+        "name": "Siena Golf Club",
+        "address": "10575 Siena Monte Ave., Las Vegas, NV 89135 US",
+        "locality": "Las Vegas",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -115.322532,
+          36.109381
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        70,
+        25,
+        48
+      ]
+    },
+    {
+      "input": "TPC Las Vegas",
+      "city": "Las Vegas",
+      "alias": "tpc-las-vegas",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Wynn Golf Club",
+      "city": "Las Vegas",
+      "alias": "wynn-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 10764,
+        "courseId": "54f14f780c8ad60378b06735",
+        "name": "Wynn Golf Club",
+        "address": "3131 Las Vegas Blvd S, Las Vegas, NV 89109 US",
+        "locality": "Las Vegas",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -115.168575,
+          36.126323
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Cascata Golf Club",
+      "city": "Henderson",
+      "alias": "cascata-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Chimera Golf Club",
+      "city": "Henderson",
+      "alias": "chimera-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 761,
+        "courseId": "54f14b930c8ad60378b011e5",
+        "name": "Chimera Golf Club",
+        "address": "901 Olivia Parkway, Henderson, NV 89011, US",
+        "locality": "Henderson",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -114.9665651,
+          36.0794171
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        41,
+        22,
+        42
+      ]
+    },
+    {
+      "input": "Desert Willow Golf Course",
+      "city": "Henderson",
+      "alias": "desert-willow-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1336,
+        "courseId": "54f14bc90c8ad60378b0169e",
+        "name": "Desert Willow Golf Course",
+        "address": "2020 W Horizon Ridge Pkwy, Henderson, NV 89012, US",
+        "locality": "Henderson",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -115.072583,
+          36.005262
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        21,
+        2,
+        6
+      ]
+    },
+    {
+      "input": "Legacy Golf Club",
+      "city": "Henderson",
+      "alias": "legacy-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 247,
+        "courseId": "54f14b4b0c8ad60378b00d9b",
+        "name": "The Legacy Golf Club",
+        "address": "130 Par Excellence Dr, Henderson, NV 89074, US",
+        "locality": "Henderson",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -115.083235,
+          36.034396
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Reflection Bay Golf Club",
+      "city": "Henderson",
+      "alias": "reflection-bay",
+      "aliasSource": "base-only",
+      "status": "confirmed",
+      "facility": {
+        "id": 881,
+        "courseId": "54f14ba00c8ad60378b0130c",
+        "name": "Reflection Bay",
+        "address": "75 Montelago Boulevard, Henderson, NV 89011, US",
+        "locality": "Henderson",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -114.9250808,
+          36.1098363
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        21,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Revere Golf Club - Concord",
+      "city": "Henderson",
+      "alias": "revere-golf-club-concord",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Revere Golf Club - Lexington",
+      "city": "Henderson",
+      "alias": "revere-golf-club-lexington",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Serket Golf Club",
+      "city": "Henderson",
+      "alias": "serket-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Wildhorse Golf Club",
+      "city": "Henderson",
+      "alias": "wildhorse",
+      "aliasSource": "base-only",
+      "status": "confirmed",
+      "facility": {
+        "id": 1111,
+        "courseId": "54f14bb20c8ad60378b014a1",
+        "name": "Wildhorse Golf Course",
+        "address": "2100 Warm Springs Rd., Henderson, NV 89014 US",
+        "locality": "Henderson",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -115.078267,
+          36.05644
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        28,
+        10,
+        26
+      ]
+    },
+    {
+      "input": "Aliante Golf Club",
+      "city": "North Las Vegas",
+      "alias": "aliante-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 377,
+        "courseId": "54f14b5d0c8ad60378b00ebd",
+        "name": "Aliante Golf Club",
+        "address": "3100 West Elkhorn, North Las Vegas, NV 89084 US",
+        "locality": "North Las Vegas",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -115.182295,
+          36.294945
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        64,
+        27,
+        46
+      ]
+    },
+    {
+      "input": "Shadow Creek Golf Course",
+      "city": "North Las Vegas",
+      "alias": "shadow-creek-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Paiute Golf Resort - Snow Mountain",
+      "city": "Las Vegas",
+      "alias": "paiute-golf-resort-snow-mountain",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Paiute Golf Resort - Sun Mountain",
+      "city": "Las Vegas",
+      "alias": "paiute-golf-resort-sun-mountain",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Paiute Golf Resort - Wolf",
+      "city": "Las Vegas",
+      "alias": "paiute-golf-resort-wolf",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Bali Hai Golf Club",
+      "city": "Las Vegas",
+      "alias": "bali-hai",
+      "aliasSource": "base-only",
+      "status": "confirmed",
+      "facility": {
+        "id": 5359,
+        "courseId": "54f14d4a0c8ad60378b03913",
+        "name": "Bali Hai Golf Club",
+        "address": "5160 Las Vegas Blvd S, Las Vegas, NV 89119, US",
+        "locality": "Las Vegas",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -115.175385,
+          36.084032
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        36,
+        10,
+        24
+      ]
+    },
+    {
+      "input": "Stallion Mountain Golf Club",
+      "city": "Las Vegas",
+      "alias": "stallion-mountain-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 5,
+        "courseId": "54f1469c7bb759125cba20f7",
+        "name": "Stallion Mountain Golf Club",
+        "address": "5500 E. Flamingo Road, Las Vegas, NV 89122 US",
+        "locality": "Las Vegas",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -115.055737,
+          36.115309
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        52,
+        11,
+        39
+      ]
+    },
+    {
+      "input": "Boulder City Golf Course",
+      "city": "Boulder City",
+      "alias": "boulder-city-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Boulder Creek Golf Club",
+      "city": "Boulder City",
+      "alias": "boulder-creek-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 157,
+        "courseId": "54f14b400c8ad60378b00cb1",
+        "name": "Boulder Creek Golf Club",
+        "address": "1501 Veterans Memorial Drive, Boulder City, NV 89005, US",
+        "locality": "Boulder City",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -114.860601,
+          35.960535
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        6,
+        0,
+        4
+      ]
+    },
+    {
+      "input": "Primm Valley Golf Club - Desert",
+      "city": "Primm",
+      "alias": "primm-valley-golf-club-desert",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Primm Valley Golf Club - Lakes",
+      "city": "Primm",
+      "alias": "primm-valley-golf-club-lakes",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Coyote Springs Golf Club",
+      "city": "Coyote Springs",
+      "alias": "coyote-springs-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "North Las Vegas Par 3 Golf Course",
+      "city": "North Las Vegas",
+      "alias": "north-las-vegas-par-3-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "The Club at Sunrise",
+      "city": "Las Vegas",
+      "alias": "the-club-at-sunrise",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 3381,
+        "courseId": "54f14c780c8ad60378b02646",
+        "name": "The Club at Sunrise",
+        "address": "5483 Club House Dr, Las Vegas, NV 89142 US",
+        "locality": "Las Vegas",
+        "region": "NV",
+        "country": "US",
+        "location": [
+          -115.05519,
+          36.144
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        2,
+        0,
+        1
+      ]
+    }
+  ],
+  "state": "NV",
+  "timestamp": "2026-02-14T13:58:12-07:00",
+  "totalInput": 42,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-14",
+    "2026-02-21"
+  ]
+}

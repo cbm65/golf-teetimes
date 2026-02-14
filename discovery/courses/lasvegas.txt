@@ -1,0 +1,71 @@
+# Las Vegas Metro — Public Golf Courses
+# Format: Course Name | City
+# Lines starting with # are ignored.
+#
+# Excludes private-only clubs: TPC Summerlin, Southern Highlands, DragonRidge CC,
+# Anthem CC, Canyon Gate CC, Spanish Trail CC, Las Vegas CC, The Summit Club, SouthShore CC
+# Excludes permanently closed: Badlands, Silverstone
+
+# --- City of Las Vegas / Summerlin ---
+Angel Park Golf Club - Mountain | Las Vegas
+Angel Park Golf Club - Palm | Las Vegas
+Angel Park Golf Club - Cloud Nine | Las Vegas
+Bear's Best Golf Club | Las Vegas
+Desert Pines Golf Club | Las Vegas
+Durango Hills Golf Club | Las Vegas
+Eagle Crest Golf Course | Las Vegas
+Highland Falls Golf Course | Las Vegas
+Las Vegas Golf Club | Las Vegas
+Las Vegas National Golf Club | Las Vegas
+Los Prados Golf Course | Las Vegas
+Painted Desert Golf Club | Las Vegas
+Palm Valley Golf Course | Las Vegas
+Red Rock Arroyo Golf Club | Las Vegas
+Rhodes Ranch Golf Club | Las Vegas
+Royal Links Golf Club | Las Vegas
+Siena Golf Club | Las Vegas
+TPC Las Vegas | Las Vegas
+Wynn Golf Club | Las Vegas
+
+# --- Henderson ---
+Cascata Golf Club | Henderson
+Chimera Golf Club | Henderson
+Desert Willow Golf Course | Henderson
+Legacy Golf Club | Henderson
+Reflection Bay Golf Club | Henderson
+Revere Golf Club - Concord | Henderson
+Revere Golf Club - Lexington | Henderson
+Serket Golf Club | Henderson
+Wildhorse Golf Club | Henderson
+
+# --- North Las Vegas ---
+Aliante Golf Club | North Las Vegas
+Shadow Creek Golf Course | North Las Vegas
+
+# --- Las Vegas Paiute Resort (northwest of city) ---
+Paiute Golf Resort - Snow Mountain | Las Vegas
+Paiute Golf Resort - Sun Mountain | Las Vegas
+Paiute Golf Resort - Wolf | Las Vegas
+
+# --- Bali Hai (on the Strip) ---
+Bali Hai Golf Club | Las Vegas
+
+# --- Stallion Mountain (east Las Vegas) ---
+Stallion Mountain Golf Club | Las Vegas
+
+# --- Boulder City ---
+Boulder City Golf Course | Boulder City
+Boulder Creek Golf Club | Boulder City
+
+# --- Primm (south, NV/CA border) ---
+Primm Valley Golf Club - Desert | Primm
+Primm Valley Golf Club - Lakes | Primm
+
+# --- Coyote Springs (~50 min north) ---
+Coyote Springs Golf Club | Coyote Springs
+
+# --- North Las Vegas Par 3 ---
+North Las Vegas Par 3 Golf Course | North Las Vegas
+
+# --- The Club at Sunrise (Clark County muni) ---
+The Club at Sunrise | Las Vegas

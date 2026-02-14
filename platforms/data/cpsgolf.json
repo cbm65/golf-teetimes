@@ -48,5 +48,37 @@
     "city": "Golden",
     "state": "CO",
     "timezone": "America/Denver"
+  },
+  {
+    "key": "cascata",
+    "metro": "lasvegas",
+    "baseUrl": "https://caspublic.cps.golf",
+    "apiKey": "",
+    "websiteId": "79e6c87d-aaf1-4971-cb88-08dd66fe59db",
+    "siteId": "1",
+    "courseIds": "4",
+    "bookingUrl": "https://caspublic.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Cascata": "Cascata Golf Club"
+    },
+    "city": "Boulder City",
+    "state": "NV",
+    "timezone": "America/Denver"
+  },
+  {
+    "key": "serket",
+    "metro": "lasvegas",
+    "baseUrl": "https://caspublic.cps.golf",
+    "apiKey": "",
+    "websiteId": "79e6c87d-aaf1-4971-cb88-08dd66fe59db",
+    "siteId": "1",
+    "courseIds": "5",
+    "bookingUrl": "https://caspublic.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Serket": "Serket Golf Club"
+    },
+    "city": "Henderson",
+    "state": "NV",
+    "timezone": "America/Denver"
   }
 ]
