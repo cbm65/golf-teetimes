@@ -367,5 +367,144 @@
     "displayName": "Scottsdale Silverado Golf Club",
     "city": "Scottsdale",
     "state": "AZ"
+  },
+  {
+    "key": "stoney-creek",
+    "metro": "denver",
+    "alias": "stoney-creek-golf-course",
+    "facilityId": "13099",
+    "displayName": "Stoney Creek Golf Course",
+    "city": "Arvada",
+    "state": "CO"
+  },
+  {
+    "key": "aurora-hills",
+    "metro": "denver",
+    "alias": "aurora-hills-golf-course",
+    "facilityId": "17878",
+    "displayName": "Aurora Hills Golf Course",
+    "city": "Aurora",
+    "state": "CO"
+  },
+  {
+    "key": "commonground",
+    "metro": "denver",
+    "alias": "commonground-golf-course",
+    "facilityId": "5275",
+    "displayName": "CommonGround Golf Course",
+    "city": "Aurora",
+    "state": "CO"
+  },
+  {
+    "key": "meadow-hills",
+    "metro": "denver",
+    "alias": "meadow-hills-golf-course",
+    "facilityId": "17880",
+    "displayName": "Meadow Hills Golf Course",
+    "city": "Aurora",
+    "state": "CO"
+  },
+  {
+    "key": "murphy-creek",
+    "metro": "denver",
+    "alias": "murphy-creek-golf-course",
+    "facilityId": "17879",
+    "displayName": "Murphy Creek Golf Course",
+    "city": "Aurora",
+    "state": "CO"
+  },
+  {
+    "key": "saddle-rock",
+    "metro": "denver",
+    "alias": "saddle-rock-golf-course",
+    "facilityId": "17877",
+    "displayName": "Saddle Rock Golf Course",
+    "city": "Aurora",
+    "state": "CO"
+  },
+  {
+    "key": "buffalo-run",
+    "metro": "denver",
+    "alias": "buffalo-run-golf-course",
+    "facilityId": "513",
+    "displayName": "Buffalo Run Golf Course",
+    "city": "Commerce City",
+    "state": "CO"
+  },
+  {
+    "key": "todd-creek",
+    "metro": "denver",
+    "alias": "todd-creek-golf-club",
+    "facilityId": "9130",
+    "displayName": "Todd Creek Golf Club",
+    "city": "Thornton",
+    "state": "CO"
+  },
+  {
+    "key": "arrowhead",
+    "metro": "denver",
+    "alias": "arrowhead-golf-club",
+    "facilityId": "453",
+    "displayName": "Arrowhead Golf Club",
+    "city": "Littleton",
+    "state": "CO"
+  },
+  {
+    "key": "raccoon-creek",
+    "metro": "denver",
+    "alias": "raccoon-creek-golf-course",
+    "facilityId": "515",
+    "displayName": "Raccoon Creek Golf Course",
+    "city": "Littleton",
+    "state": "CO"
+  },
+  {
+    "key": "colorado-national",
+    "metro": "denver",
+    "alias": "colorado-national-golf-club",
+    "facilityId": "1719",
+    "displayName": "Colorado National Golf Club",
+    "city": "Erie",
+    "state": "CO"
+  },
+  {
+    "key": "omni-interlocken",
+    "metro": "denver",
+    "facilityId": "594",
+    "alias": "omni-interlocken-resort-golf-club",
+    "bookingUrl": "https://omni-interlocken-resort-golf-club.book.teeitup.com",
+    "displayName": "Omni Interlocken Resort Golf Club",
+    "city": "Broomfield",
+    "state": "CO"
+  },
+  {
+    "key": "plum-creek",
+    "metro": "denver",
+    "facilityId": "4137",
+    "alias": "plum-creek-golf-club-3",
+    "bookingUrl": "https://plum-creek-golf-club-3.book.teeitup.com",
+    "displayName": "Plum Creek Golf Club",
+    "city": "Castle Rock",
+    "state": "CO"
+  },
+  {
+    "key": "riverdale-dunes",
+    "metro": "denver",
+    "facilityId": "1016",
+    "alias": "riverdale",
+    "bookingUrl": "https://riverdale.book.teeitup.com",
+    "displayName": "Riverdale Dunes Golf Course",
+    "city": "Brighton",
+    "state": "CO"
+  },
+  {
+    "key": "riverdale-knolls",
+    "metro": "denver",
+    "facilityId": "1017",
+    "alias": "riverdale",
+    "bookingUrl": "https://riverdale.book.teeitup.com",
+    "displayName": "Riverdale Knolls Golf Course",
+    "city": "Brighton",
+    "state": "CO"
   }
 ]

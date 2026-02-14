@@ -203,6 +203,16 @@ func buildSlugs(name, stateFull, city string) []struct{ slug, source string } {
 		add(core+" "+stateFull+" "+city, "core+state+city")
 	}
 
+	// 9. Strip "and" from name (e.g. "Littleton Golf and Tennis Club" → "littleton-golf-tennis-club")
+	noAnd := strings.ReplaceAll(name, " and ", " ")
+	if noAnd != name {
+		if city != "" {
+			add(noAnd+" "+stateFull+" "+city, "no-and+state+city")
+		}
+		add(noAnd+" "+stateFull, "no-and+state")
+		add(noAnd, "no-and")
+	}
+
 	return slugs
 }
 
@@ -393,7 +403,10 @@ func main() {
 		log("[%d/%d] %q (city: %q) — %d slug candidates", i+1, len(inputs), input.Name, input.City, len(slugs))
 
 		var club *ClubData
-		var matchedSlug, matchedSource string
+		var matchedSource string
+
+		var wrongStateClub *ClubData
+		var wrongStateSlug, wrongStateSource string
 
 		for _, s := range slugs {
 			if deadSlugs[s.slug] {
@@ -406,10 +419,35 @@ func main() {
 				time.Sleep(100 * time.Millisecond)
 				continue
 			}
-			matchedSlug = s.slug
-			matchedSource = s.source
 			log("  %s (%s): HIT — %q (%s, %s)", s.slug, s.source, club.Name, club.City, club.Province)
+
+			// State check inside loop — if wrong state, save it but keep trying
+			clubState := strings.ToLower(club.Province)
+			if clubState != stateFull && clubState != strings.ToLower(state) {
+				log("  WRONG STATE — got %q, wanted %q — continuing", club.Province, stateFull)
+				if wrongStateClub == nil {
+					wrongStateClub = club
+					wrongStateSlug = s.slug
+					wrongStateSource = s.source
+				}
+				club = nil
+				time.Sleep(100 * time.Millisecond)
+				continue
+			}
+
+			matchedSource = s.source
 			break
+		}
+
+		if club == nil && wrongStateClub != nil {
+			log("  WRONG STATE (final) — no correct-state slug found")
+			results = append(results, Result{
+				Input: input.Name, City: input.City, Slug: wrongStateSlug, SlugSource: wrongStateSource,
+				Status: "wrong_state", Club: wrongStateClub,
+			})
+			wrongStateCount++
+			log("")
+			continue
 		}
 
 		if club == nil {
@@ -423,19 +461,6 @@ func main() {
 		// Dedup by club ID
 		if discoveredByClubID[club.ID] {
 			log("  SKIPPED — club ID %d already discovered", club.ID)
-			log("")
-			continue
-		}
-
-		// State validation
-		clubState := strings.ToLower(club.Province)
-		if clubState != stateFull && clubState != strings.ToLower(state) {
-			log("  WRONG STATE — got %q, wanted %q", club.Province, stateFull)
-			results = append(results, Result{
-				Input: input.Name, City: input.City, Slug: matchedSlug, SlugSource: matchedSource,
-				Status: "wrong_state", Club: club,
-			})
-			wrongStateCount++
 			log("")
 			continue
 		}

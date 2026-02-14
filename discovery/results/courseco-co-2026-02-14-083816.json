@@ -1,0 +1,668 @@
+{
+  "confirmed": 0,
+  "elapsed": "13.380400458s",
+  "listedOnly": 0,
+  "missed": 54,
+  "platform": "courseco",
+  "results": [
+    {
+      "input": "Indian Tree Golf Club",
+      "city": "Arvada",
+      "status": "miss",
+      "slugsTried": [
+        "indiantree",
+        "indiantreegolfclub",
+        "indiantreegolf",
+        "indiantreegolfcourse",
+        "indiantreecc"
+      ]
+    },
+    {
+      "input": "West Woods Golf Club",
+      "city": "Arvada",
+      "status": "miss",
+      "slugsTried": [
+        "westwoods",
+        "westwoodsgolfclub",
+        "westwoodsgolf",
+        "westwoodsgolfcourse",
+        "westwoodscc"
+      ]
+    },
+    {
+      "input": "Lake Arbor Golf Club",
+      "city": "Arvada",
+      "status": "miss",
+      "slugsTried": [
+        "lakearbor",
+        "lakearborgolfclub",
+        "lakearborgolf",
+        "lakearborgolfcourse",
+        "lakearborcc"
+      ]
+    },
+    {
+      "input": "Stoney Creek Golf Course",
+      "city": "Arvada",
+      "status": "miss",
+      "slugsTried": [
+        "stoneycreek",
+        "stoneycreekgolfcourse",
+        "stoneycreekgolf",
+        "stoneycreekgolfclub",
+        "stoneycreekcc"
+      ]
+    },
+    {
+      "input": "Aurora Hills Golf Course",
+      "city": "Aurora",
+      "status": "miss",
+      "slugsTried": [
+        "aurorahills",
+        "aurorahillsgolfcourse",
+        "aurorahillsgolf",
+        "aurorahillsgolfclub",
+        "aurorahillscc"
+      ]
+    },
+    {
+      "input": "CommonGround Golf Course",
+      "city": "Aurora",
+      "status": "miss",
+      "slugsTried": [
+        "commonground",
+        "commongroundgolfcourse",
+        "commongroundgolf",
+        "commongroundgolfclub",
+        "commongroundcc"
+      ]
+    },
+    {
+      "input": "Heather Ridge Golf Course",
+      "city": "Aurora",
+      "status": "miss",
+      "slugsTried": [
+        "heatherridge",
+        "heatherridgegolfcourse",
+        "heatherridgegolf",
+        "heatherridgegolfclub",
+        "heatherridgecc"
+      ]
+    },
+    {
+      "input": "Heritage Eagle Bend Golf Club",
+      "city": "Aurora",
+      "status": "miss",
+      "slugsTried": [
+        "heritageeaglebend",
+        "heritageeaglebendgolfclub",
+        "heritageeaglebendgolf",
+        "heritageeaglebendgolfcourse",
+        "heritageeaglebendcc"
+      ]
+    },
+    {
+      "input": "Meadow Hills Golf Course",
+      "city": "Aurora",
+      "status": "miss",
+      "slugsTried": [
+        "meadowhills",
+        "meadowhillsgolfcourse",
+        "meadowhillsgolf",
+        "meadowhillsgolfclub",
+        "meadowhillscc"
+      ]
+    },
+    {
+      "input": "Murphy Creek Golf Course",
+      "city": "Aurora",
+      "status": "miss",
+      "slugsTried": [
+        "murphycreek",
+        "murphycreekgolfcourse",
+        "murphycreekgolf",
+        "murphycreekgolfclub",
+        "murphycreekcc"
+      ]
+    },
+    {
+      "input": "Saddle Rock Golf Course",
+      "city": "Aurora",
+      "status": "miss",
+      "slugsTried": [
+        "saddlerock",
+        "saddlerockgolfcourse",
+        "saddlerockgolf",
+        "saddlerockgolfclub",
+        "saddlerockcc"
+      ]
+    },
+    {
+      "input": "Springhill Golf Course",
+      "city": "Aurora",
+      "status": "miss",
+      "slugsTried": [
+        "springhill",
+        "springhillgolfcourse",
+        "springhillgolf",
+        "springhillgolfclub",
+        "springhillcc"
+      ]
+    },
+    {
+      "input": "Broadlands Golf Course",
+      "city": "Broomfield",
+      "status": "miss",
+      "slugsTried": [
+        "broadlands",
+        "broadlandsgolfcourse",
+        "broadlandsgolf",
+        "broadlandsgolfclub",
+        "broadlandscc"
+      ]
+    },
+    {
+      "input": "Eagle Trace Golf Course",
+      "city": "Broomfield",
+      "status": "miss",
+      "slugsTried": [
+        "eagletrace",
+        "eagletracegolfcourse",
+        "eagletracegolf",
+        "eagletracegolfclub",
+        "eagletracecc"
+      ]
+    },
+    {
+      "input": "Omni Interlocken Golf Club",
+      "city": "Broomfield",
+      "status": "miss",
+      "slugsTried": [
+        "omniinterlocken",
+        "omniinterlockengolfclub",
+        "omniinterlockengolf",
+        "omniinterlockengolfcourse",
+        "omniinterlockencc"
+      ]
+    },
+    {
+      "input": "Golf Club at Bear Dance",
+      "city": "Larkspur",
+      "status": "miss",
+      "slugsTried": [
+        "beardance",
+        "golfclubatbeardance",
+        "beardancegolf",
+        "beardancegolfclub",
+        "beardancegolfcourse",
+        "beardancecc"
+      ]
+    },
+    {
+      "input": "Plum Creek Golf Club",
+      "city": "Castle Rock",
+      "status": "miss",
+      "slugsTried": [
+        "plumcreek",
+        "plumcreekgolfclub",
+        "plumcreekgolf",
+        "plumcreekgolfcourse",
+        "plumcreekcc"
+      ]
+    },
+    {
+      "input": "Red Hawk Ridge Golf Course",
+      "city": "Castle Rock",
+      "status": "miss",
+      "slugsTried": [
+        "redhawkridge",
+        "redhawkridgegolfcourse",
+        "redhawkridgegolf",
+        "redhawkridgegolfclub",
+        "redhawkridgecc"
+      ]
+    },
+    {
+      "input": "The Ridge at Castle Pines North",
+      "city": "Castle Rock",
+      "status": "miss",
+      "slugsTried": [
+        "ridgeatcastlepinesnorth",
+        "theridgeatcastlepinesnorth",
+        "ridgeatcastlepinesnorthgolf",
+        "ridgeatcastlepinesnorthgolfclub",
+        "ridgeatcastlepinesnorthgolfcourse",
+        "ridgeatcastlepinesnorthcc"
+      ]
+    },
+    {
+      "input": "Buffalo Run Golf Course",
+      "city": "Commerce City",
+      "status": "miss",
+      "slugsTried": [
+        "buffalorun",
+        "buffalorungolfcourse",
+        "buffalorungolf",
+        "buffalorungolfclub",
+        "buffaloruncc"
+      ]
+    },
+    {
+      "input": "Riverdale Golf Courses",
+      "city": "Brighton",
+      "status": "miss",
+      "slugsTried": [
+        "riverdalegolfcourses",
+        "riverdalegolfcoursesgolf",
+        "riverdalegolfcoursesgolfclub",
+        "riverdalegolfcoursesgolfcourse",
+        "riverdalegolfcoursescc"
+      ]
+    },
+    {
+      "input": "Todd Creek Golf Club",
+      "city": "Thornton",
+      "status": "miss",
+      "slugsTried": [
+        "toddcreek",
+        "toddcreekgolfclub",
+        "toddcreekgolf",
+        "toddcreekgolfcourse",
+        "toddcreekcc"
+      ]
+    },
+    {
+      "input": "Thorncreek Golf Course",
+      "city": "Thornton",
+      "status": "miss",
+      "slugsTried": [
+        "thorncreek",
+        "thorncreekgolfcourse",
+        "thorncreekgolf",
+        "thorncreekgolfclub",
+        "thorncreekcc"
+      ]
+    },
+    {
+      "input": "City Park Golf Course",
+      "city": "Denver",
+      "status": "miss",
+      "slugsTried": [
+        "citypark",
+        "cityparkgolfcourse",
+        "cityparkgolf",
+        "cityparkgolfclub",
+        "cityparkcc"
+      ]
+    },
+    {
+      "input": "Evergreen Golf Course",
+      "city": "Evergreen",
+      "status": "miss",
+      "slugsTried": [
+        "evergreen",
+        "evergreengolfcourse",
+        "evergreengolf",
+        "evergreengolfclub",
+        "evergreencc"
+      ]
+    },
+    {
+      "input": "Kennedy Golf Course",
+      "city": "Denver",
+      "status": "miss",
+      "slugsTried": [
+        "kennedy",
+        "kennedygolfcourse",
+        "kennedygolf",
+        "kennedygolfclub",
+        "kennedycc"
+      ]
+    },
+    {
+      "input": "Overland Park Golf Course",
+      "city": "Denver",
+      "status": "miss",
+      "slugsTried": [
+        "overlandpark",
+        "overlandparkgolfcourse",
+        "overlandparkgolf",
+        "overlandparkgolfclub",
+        "overlandparkcc"
+      ]
+    },
+    {
+      "input": "Wellshire Golf Course",
+      "city": "Denver",
+      "status": "miss",
+      "slugsTried": [
+        "wellshire",
+        "wellshiregolfcourse",
+        "wellshiregolf",
+        "wellshiregolfclub",
+        "wellshirecc"
+      ]
+    },
+    {
+      "input": "Willis Case Golf Course",
+      "city": "Denver",
+      "status": "miss",
+      "slugsTried": [
+        "williscase",
+        "williscasegolfcourse",
+        "williscasegolf",
+        "williscasegolfclub",
+        "williscasecc"
+      ]
+    },
+    {
+      "input": "Green Valley Ranch Golf Club",
+      "city": "Denver",
+      "status": "miss",
+      "slugsTried": [
+        "greenvalleyranch",
+        "greenvalleyranchgolfclub",
+        "greenvalleyranchgolf",
+        "greenvalleyranchgolfcourse",
+        "greenvalleyranchcc"
+      ]
+    },
+    {
+      "input": "Broken Tee Golf Course",
+      "city": "Englewood",
+      "status": "miss",
+      "slugsTried": [
+        "brokentee",
+        "brokenteegolfcourse",
+        "brokenteegolf",
+        "brokenteegolfclub",
+        "brokenteecc"
+      ]
+    },
+    {
+      "input": "South Suburban Golf Course",
+      "city": "Centennial",
+      "status": "miss",
+      "slugsTried": [
+        "southsuburban",
+        "southsuburbangolfcourse",
+        "southsuburbangolf",
+        "southsuburbangolfclub",
+        "southsuburbancc"
+      ]
+    },
+    {
+      "input": "Meridian Golf Club",
+      "city": "Englewood",
+      "status": "miss",
+      "slugsTried": [
+        "meridian",
+        "meridiangolfclub",
+        "meridiangolf",
+        "meridiangolfcourse",
+        "meridiancc"
+      ]
+    },
+    {
+      "input": "Inverness Golf Club",
+      "city": "Englewood",
+      "status": "miss",
+      "slugsTried": [
+        "inverness",
+        "invernessgolfclub",
+        "invernessgolf",
+        "invernessgolfcourse",
+        "invernesscc"
+      ]
+    },
+    {
+      "input": "Fossil Trace Golf Club",
+      "city": "Golden",
+      "status": "miss",
+      "slugsTried": [
+        "fossiltrace",
+        "fossiltracegolfclub",
+        "fossiltracegolf",
+        "fossiltracegolfcourse",
+        "fossiltracecc"
+      ]
+    },
+    {
+      "input": "Applewood Golf Course",
+      "city": "Golden",
+      "status": "miss",
+      "slugsTried": [
+        "applewood",
+        "applewoodgolfcourse",
+        "applewoodgolf",
+        "applewoodgolfclub",
+        "applewoodcc"
+      ]
+    },
+    {
+      "input": "The Links Golf Course",
+      "city": "Highlands Ranch",
+      "status": "miss",
+      "slugsTried": [
+        "links",
+        "thelinksgolfcourse",
+        "linksgolf",
+        "linksgolfclub",
+        "linksgolfcourse",
+        "linkscc",
+        "linksgolfcoursegolf"
+      ]
+    },
+    {
+      "input": "Lone Tree Golf Club",
+      "city": "Lone Tree",
+      "status": "miss",
+      "slugsTried": [
+        "lonetree",
+        "lonetreegolfclub",
+        "lonetreegolf",
+        "lonetreegolfcourse",
+        "lonetreecc"
+      ]
+    },
+    {
+      "input": "University of Denver Golf Club",
+      "city": "Highlands Ranch",
+      "status": "miss",
+      "slugsTried": [
+        "universityofdenver",
+        "universityofdenvergolfclub",
+        "universityofdenvergolf",
+        "universityofdenvergolfcourse",
+        "universityofdenvercc"
+      ]
+    },
+    {
+      "input": "Fox Hollow Golf Course",
+      "city": "Lakewood",
+      "status": "miss",
+      "slugsTried": [
+        "foxhollow",
+        "foxhollowgolfcourse",
+        "foxhollowgolf",
+        "foxhollowgolfclub",
+        "foxhollowcc"
+      ]
+    },
+    {
+      "input": "Homestead Golf Course",
+      "city": "Lakewood",
+      "status": "miss",
+      "slugsTried": [
+        "homestead",
+        "homesteadgolfcourse",
+        "homesteadgolf",
+        "homesteadgolfclub",
+        "homesteadcc"
+      ]
+    },
+    {
+      "input": "Foothills Golf Course",
+      "city": "Lakewood",
+      "status": "miss",
+      "slugsTried": [
+        "foothills",
+        "foothillsgolfcourse",
+        "foothillsgolf",
+        "foothillsgolfclub",
+        "foothillscc"
+      ]
+    },
+    {
+      "input": "Bear Creek Golf Club",
+      "city": "Lakewood",
+      "status": "miss",
+      "slugsTried": [
+        "bearcreek",
+        "bearcreekgolfclub",
+        "bearcreekgolf",
+        "bearcreekgolfcourse",
+        "bearcreekcc"
+      ]
+    },
+    {
+      "input": "Arrowhead Golf Club",
+      "city": "Littleton",
+      "status": "miss",
+      "slugsTried": [
+        "arrowhead",
+        "arrowheadgolfclub",
+        "arrowheadgolf",
+        "arrowheadgolfcourse",
+        "arrowheadcc"
+      ]
+    },
+    {
+      "input": "Raccoon Creek Golf Course",
+      "city": "Littleton",
+      "status": "miss",
+      "slugsTried": [
+        "raccooncreek",
+        "raccooncreekgolfcourse",
+        "raccooncreekgolf",
+        "raccooncreekgolfclub",
+        "raccooncreekcc"
+      ]
+    },
+    {
+      "input": "Deer Creek Golf Club",
+      "city": "Littleton",
+      "status": "miss",
+      "slugsTried": [
+        "deercreek",
+        "deercreekgolfclub",
+        "deercreekgolf",
+        "deercreekgolfcourse",
+        "deercreekcc"
+      ]
+    },
+    {
+      "input": "Littleton Golf and Tennis Club",
+      "city": "Littleton",
+      "status": "miss",
+      "slugsTried": [
+        "littletongolfandtennisclub",
+        "littletongolfandtennisclubgolf",
+        "littletongolfandtennisclubgolfclub",
+        "littletongolfandtennisclubgolfcourse",
+        "littletongolfandtennisclubcc"
+      ]
+    },
+    {
+      "input": "Legacy Ridge Golf Course",
+      "city": "Westminster",
+      "status": "miss",
+      "slugsTried": [
+        "legacyridge",
+        "legacyridgegolfcourse",
+        "legacyridgegolf",
+        "legacyridgegolfclub",
+        "legacyridgecc"
+      ]
+    },
+    {
+      "input": "Walnut Creek Golf Preserve",
+      "city": "Westminster",
+      "status": "miss",
+      "slugsTried": [
+        "walnutcreekgolfpreserve",
+        "walnutcreekgolfpreservegolf",
+        "walnutcreekgolfpreservegolfclub",
+        "walnutcreekgolfpreservegolfcourse",
+        "walnutcreekgolfpreservecc"
+      ]
+    },
+    {
+      "input": "Hyland Hills Golf Course",
+      "city": "Westminster",
+      "status": "miss",
+      "slugsTried": [
+        "hylandhills",
+        "hylandhillsgolfcourse",
+        "hylandhillsgolf",
+        "hylandhillsgolfclub",
+        "hylandhillscc"
+      ]
+    },
+    {
+      "input": "The Heritage Golf Course",
+      "city": "Westminster",
+      "status": "miss",
+      "slugsTried": [
+        "heritage",
+        "theheritagegolfcourse",
+        "heritagegolf",
+        "heritagegolfclub",
+        "heritagegolfcourse",
+        "heritagecc",
+        "heritagegolfcoursegolf"
+      ]
+    },
+    {
+      "input": "Indian Peaks Golf Course",
+      "city": "Lafayette",
+      "status": "miss",
+      "slugsTried": [
+        "indianpeaks",
+        "indianpeaksgolfcourse",
+        "indianpeaksgolf",
+        "indianpeaksgolfclub",
+        "indianpeakscc"
+      ]
+    },
+    {
+      "input": "Colorado National Golf Club",
+      "city": "Erie",
+      "status": "miss",
+      "slugsTried": [
+        "coloradonational",
+        "coloradonationalgolfclub",
+        "coloradonationalgolf",
+        "coloradonationalgolfcourse",
+        "coloradonationalcc"
+      ]
+    },
+    {
+      "input": "The Meadows Golf Club",
+      "city": "Littleton",
+      "status": "miss",
+      "slugsTried": [
+        "meadows",
+        "themeadowsgolfclub",
+        "meadowsgolf",
+        "meadowsgolfclub",
+        "meadowsgolfcourse",
+        "meadowscc",
+        "meadowsgolfclubgolf"
+      ]
+    }
+  ],
+  "state": "CO",
+  "timestamp": "2026-02-14T08:38:16-07:00",
+  "total": 54
+}

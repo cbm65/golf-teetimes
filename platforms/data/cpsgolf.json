@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "key": "indian-tree",
+    "metro": "denver",
+    "baseUrl": "https://indiantree.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "e6d9cd59-8d46-4334-8601-08dad3012d25",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://indiantree.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Regulation 18": "Indian Tree Golf Club"
+    },
+    "city": "Arvada",
+    "state": "CO",
+    "timezone": "America/Denver"
+  },
+  {
+    "key": "green-valley-ranch",
+    "metro": "denver",
+    "baseUrl": "https://greenvalleyranch.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "e6b92812-d6c4-4f86-7eea-08d9fadf154d",
+    "siteId": "2",
+    "courseIds": "",
+    "bookingUrl": "https://greenvalleyranch.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "GVR 18 Hole Course": "Green Valley Ranch Golf Club"
+    },
+    "city": "Denver",
+    "state": "CO",
+    "timezone": "America/Denver"
+  },
+  {
+    "key": "fossil-trace",
+    "metro": "denver",
+    "baseUrl": "https://fossiltrace.cps.golf",
+    "apiKey": "",
+    "websiteId": "b6c22f3a-944a-46e9-020e-08da90168fb2",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://fossiltrace.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "18 Holes": "Fossil Trace Golf Club",
+      "9 Holes": "Fossil Trace Golf Club - 9 Holes",
+      "Twilight": "Fossil Trace Golf Club - Twilight"
+    },
+    "city": "Golden",
+    "state": "CO",
+    "timezone": "America/Denver"
+  }
+]

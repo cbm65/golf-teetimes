@@ -1,0 +1,1236 @@
+{
+  "confirmed": 11,
+  "elapsed": "2m7.433651083s",
+  "errors": 0,
+  "listedOnly": 24,
+  "misses": 19,
+  "platform": "teeitup",
+  "results": [
+    {
+      "input": "Indian Tree Golf Club",
+      "city": "Arvada",
+      "alias": "indian-tree-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "West Woods Golf Club",
+      "city": "Arvada",
+      "alias": "west-woods-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 2609,
+        "courseId": "54f14c3c0c8ad60378b02108",
+        "name": "West Woods Golf Club",
+        "address": "6655 Quaker St, Arvada, CO 80007-7529 US",
+        "locality": "Arvada",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -105.186367,
+          39.820996
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Lake Arbor Golf Club",
+      "city": "Arvada",
+      "alias": "lake-arbor-golf-course",
+      "aliasSource": "swap-golf-course",
+      "status": "listed_only",
+      "facility": {
+        "id": 1592,
+        "courseId": "54f14be20c8ad60378b018d7",
+        "name": "Lake Arbor Golf Course",
+        "address": "8600 Wadsworth Blvd, Arvada, CO 80003 US",
+        "locality": "Arvada",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -105.075388,
+          39.852632
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Stoney Creek Golf Course",
+      "city": "Arvada",
+      "alias": "stoney-creek-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 13099,
+        "courseId": "55281adf8c94990300da206b",
+        "name": "Stoney Creek Golf Course",
+        "address": "13939 W 96th Ave , Arvada, CO 80005, US",
+        "locality": "Arvada",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -105.116138,
+          39.841702
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        27,
+        3,
+        33
+      ]
+    },
+    {
+      "input": "Aurora Hills Golf Course",
+      "city": "Aurora",
+      "alias": "aurora-hills-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 17878,
+        "courseId": "621911e13798ffb22e290dfd",
+        "name": "Aurora Hills Golf Course",
+        "address": "Aurora, CO 80012, US",
+        "locality": "Aurora",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -104.841859,
+          39.71596
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        12,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "CommonGround Golf Course",
+      "city": "Aurora",
+      "alias": "commonground-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 5275,
+        "courseId": "54f14d400c8ad60378b0382c",
+        "name": "CommonGround Golf Course",
+        "address": "10300 East Golfers Way, Aurora, CO 80010, US",
+        "locality": "Aurora",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -104.881231,
+          39.72274
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        14,
+        0,
+        12
+      ]
+    },
+    {
+      "input": "Heather Ridge Golf Course",
+      "city": "Aurora",
+      "alias": "heather-ridge-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Heritage Eagle Bend Golf Club",
+      "city": "Aurora",
+      "alias": "heritage-eagle-bend",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 1019,
+        "courseId": "54f14bac0c8ad60378b01419",
+        "name": "Heritage Eagle Bend Golf Club",
+        "address": "23155 E. Heritage Parkway, Aurora, CO 80016, US",
+        "locality": "Aurora",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -104.717369,
+          39.569504
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Meadow Hills Golf Course",
+      "city": "Aurora",
+      "alias": "meadow-hills-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 17880,
+        "courseId": "621913857160021cf2590584",
+        "name": "Meadow Hills Golf Course",
+        "address": "Aurora, CO 80014, US",
+        "locality": "Aurora",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -104.819725,
+          39.650652
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        10,
+        0
+      ]
+    },
+    {
+      "input": "Murphy Creek Golf Course",
+      "city": "Aurora",
+      "alias": "murphy-creek-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 17879,
+        "courseId": "62191295e295615285792e18",
+        "name": "Murphy Creek Golf Course",
+        "address": "Aurora, CO 80018, US",
+        "locality": "Aurora",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -104.707646,
+          39.685491
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        11,
+        12,
+        0
+      ]
+    },
+    {
+      "input": "Saddle Rock Golf Course",
+      "city": "Aurora",
+      "alias": "saddle-rock-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 17877,
+        "courseId": "621910f1e2956182eb792d64",
+        "name": "Saddle Rock Golf Course",
+        "address": "Aurora, CO 80016, US",
+        "locality": "Aurora",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -104.736196,
+          39.595849
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        9,
+        0
+      ]
+    },
+    {
+      "input": "Springhill Golf Course",
+      "city": "Aurora",
+      "alias": "springhill-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 17876,
+        "courseId": "6219103d475e08fee1e35b3c",
+        "name": "Springhill Golf Course",
+        "address": "Aurora, CO 80011, US",
+        "locality": "Aurora",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -104.779933,
+          39.730585
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Broadlands Golf Course",
+      "city": "Broomfield",
+      "alias": "broadlands-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1413,
+        "courseId": "54f14bd20c8ad60378b0174f",
+        "name": "Broadlands Golf Course",
+        "address": "4380 W 144th Ave, Broomfield, CO 80020 US",
+        "locality": "Broomfield",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -105.074272,
+          39.964885
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Eagle Trace Golf Course",
+      "city": "Broomfield",
+      "alias": "eagle-trace-golf-club",
+      "aliasSource": "swap-golf-club",
+      "status": "listed_only",
+      "facility": {
+        "id": 2610,
+        "courseId": "54f14c3c0c8ad60378b0210b",
+        "name": "Eagle Trace Golf Club",
+        "address": "1200 Clubhouse Dr, Broomfield, CO 80020 US",
+        "locality": "Broomfield",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -105.067878,
+          39.934141
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Omni Interlocken Golf Club",
+      "city": "Broomfield",
+      "alias": "omni-interlocken-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Golf Club at Bear Dance",
+      "city": "Larkspur",
+      "alias": "the-golf-club-at-bear-dance",
+      "aliasSource": "add-the",
+      "status": "listed_only",
+      "facility": {
+        "id": 516,
+        "courseId": "54f14b700c8ad60378b01004",
+        "name": "The Golf Club at Bear Dance",
+        "address": "6630 Bear Dance Road, Larkspur, CO 80118, US",
+        "locality": "Larkspur",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -104.899504,
+          39.267579
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Plum Creek Golf Club",
+      "city": "Castle Rock",
+      "alias": "plum-creek-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Red Hawk Ridge Golf Course",
+      "city": "Castle Rock",
+      "alias": "red-hawk-ridge-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 3470,
+        "courseId": "54f14c800c8ad60378b02705",
+        "name": "Red Hawk Ridge Golf Course",
+        "address": "2156 Red Hawk Ridge Drive, Castle Rock, CO 80109 US",
+        "locality": "Castle Rock",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -104.886496,
+          39.388481
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Ridge at Castle Pines North",
+      "city": "Castle Rock",
+      "alias": "the-ridge-at-castle-pines-north",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1411,
+        "courseId": "54f14bd10c8ad60378b01748",
+        "name": "The Ridge at Castle Pines North",
+        "address": "1414 Castle Pines Pkwy, Castle Rock, CO 80108-8228, US",
+        "locality": "Castle Rock",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -104.907483,
+          39.470104
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Buffalo Run Golf Course",
+      "city": "Commerce City",
+      "alias": "buffalo-run-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 513,
+        "courseId": "54f14b6f0c8ad60378b00ffc",
+        "name": "Buffalo Run Golf Course",
+        "address": "15700 E. 112th Avenue, Commerce City, CO 80022 US",
+        "locality": "Commerce City",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -104.807339,
+          39.899993
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        38,
+        16,
+        39
+      ]
+    },
+    {
+      "input": "Riverdale Golf Courses",
+      "city": "Brighton",
+      "alias": "riverdale-golf-courses",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Todd Creek Golf Club",
+      "city": "Thornton",
+      "alias": "todd-creek-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 9130,
+        "courseId": "54f14edc0c8ad60378b0583e",
+        "name": "Todd Creek Golf Club",
+        "address": "8455 Heritage Drive, Thornton, CO 80602, US",
+        "locality": "Thornton",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -104.90949,
+          39.9604
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        24,
+        12,
+        22
+      ]
+    },
+    {
+      "input": "Thorncreek Golf Course",
+      "city": "Thornton",
+      "alias": "thorncreek-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 452,
+        "courseId": "54f14b670c8ad60378b00f68",
+        "name": "Thorncreek Golf Course",
+        "address": "13555 N. Washington Street, Thornton, CO 80241 US",
+        "locality": "Thornton",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -104.978013,
+          39.942473
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "City Park Golf Course",
+      "city": "Denver",
+      "alias": "city-park-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1946,
+        "courseId": "54f14c030c8ad60378b01be3",
+        "name": "City Park Golf Course",
+        "address": "2500 York St, Denver, CO 80205 US",
+        "locality": "Denver",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -104.970068,
+          39.759665
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Evergreen Golf Course",
+      "city": "Evergreen",
+      "alias": "evergreen-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Kennedy Golf Course",
+      "city": "Denver",
+      "alias": "kennedy-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1942,
+        "courseId": "54f14c030c8ad60378b01bd9",
+        "name": "Kennedy Golf Course",
+        "address": "10500 E. Hampden Ave. , Aurora, CO 80014 US",
+        "locality": "Aurora",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -104.865103,
+          39.646015
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Overland Park Golf Course",
+      "city": "Denver",
+      "alias": "overland-park-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Wellshire Golf Course",
+      "city": "Denver",
+      "alias": "wellshire-golf-club",
+      "aliasSource": "swap-golf-club",
+      "status": "listed_only",
+      "facility": {
+        "id": 1790,
+        "courseId": "54f14bf40c8ad60378b01a70",
+        "name": "Wellshire Golf Club",
+        "address": "3333 S Colorado Blvd, Denver, CO 80222 US",
+        "locality": "Denver",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -104.939775,
+          39.656522
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Willis Case Golf Course",
+      "city": "Denver",
+      "alias": "willis-case",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 1944,
+        "courseId": "54f14c030c8ad60378b01bdf",
+        "name": "Willis Case",
+        "address": "4999 Vrain St, Denver, CO 80212 US",
+        "locality": "Denver",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -105.049137,
+          39.772643
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Green Valley Ranch Golf Club",
+      "city": "Denver",
+      "alias": "green-valley-ranch",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 517,
+        "courseId": "54f14b700c8ad60378b01009",
+        "name": "Green Valley Ranch",
+        "address": "4900 Himalaya Road, Denver, CO 80249 US",
+        "locality": "Denver",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -104.756345,
+          39.783812
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Broken Tee Golf Course",
+      "city": "Englewood",
+      "alias": "broken-tee-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 13340,
+        "courseId": "557c7d096a2462030098e212",
+        "name": "Broken Tee Golf Course",
+        "address": "2101 W Oxford Ave, Englewood, CO 80110, US",
+        "locality": "Englewood",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -104.98086,
+          39.64896
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "South Suburban Golf Course",
+      "city": "Centennial",
+      "alias": "south-suburban-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 5525,
+        "courseId": "54f14d5c0c8ad60378b03ab7",
+        "name": "South Suburban Golf Course",
+        "address": "7900 S. Colorado Blvd., Centennial, CO 80122 US",
+        "locality": "Centennial",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -104.941658,
+          39.573612
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Meridian Golf Club",
+      "city": "Englewood",
+      "alias": "meridian-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Inverness Golf Club",
+      "city": "Englewood",
+      "alias": "inverness-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Fossil Trace Golf Club",
+      "city": "Golden",
+      "alias": "fossil-trace-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1433,
+        "courseId": "54f14bd30c8ad60378b0177c",
+        "name": "Fossil Trace Golf Club",
+        "address": "3050 Illinois St, Golden, CO 80401 US",
+        "locality": "Golden",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -105.2321,
+          39.7131
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Applewood Golf Course",
+      "city": "Golden",
+      "alias": "applewood-gc",
+      "aliasSource": "swap-gc",
+      "status": "listed_only",
+      "facility": {
+        "id": 451,
+        "courseId": "54f14b670c8ad60378b00f63",
+        "name": "Applewood Golf Club",
+        "address": "14001 West 32nd Ave., Golden, CO 80401 US",
+        "locality": "Golden",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -105.156606,
+          39.761802
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Links Golf Course",
+      "city": "Highlands Ranch",
+      "alias": "the-links-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Lone Tree Golf Club",
+      "city": "Lone Tree",
+      "alias": "lone-tree-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "University of Denver Golf Club",
+      "city": "Highlands Ranch",
+      "alias": "university-of-denver-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Fox Hollow Golf Course",
+      "city": "Lakewood",
+      "alias": "fox-hollow-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Homestead Golf Course",
+      "city": "Lakewood",
+      "alias": "homestead-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Foothills Golf Course",
+      "city": "Lakewood",
+      "alias": "foothills-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Bear Creek Golf Club",
+      "city": "Lakewood",
+      "alias": "bear-creek-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Arrowhead Golf Club",
+      "city": "Littleton",
+      "alias": "arrowhead-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 453,
+        "courseId": "54f14b670c8ad60378b00f6a",
+        "name": "Arrowhead Golf Club",
+        "address": "10850 W Sundown Trail, Littleton, CO 80125, US",
+        "locality": "Littleton",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -105.07798,
+          39.453421
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "input": "Raccoon Creek Golf Course",
+      "city": "Littleton",
+      "alias": "raccoon-creek-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 515,
+        "courseId": "54f14b6f0c8ad60378b01001",
+        "name": "Raccoon Creek Golf Course",
+        "address": "7301 W Bowles Av., Littleton, CO 80123 US",
+        "locality": "Littleton",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -105.079438,
+          39.609831
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        5,
+        1,
+        8
+      ]
+    },
+    {
+      "input": "Deer Creek Golf Club",
+      "city": "Littleton",
+      "alias": "deer-creek-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1409,
+        "courseId": "54f14bd10c8ad60378b01743",
+        "name": "Deer Creek Golf Club",
+        "address": "8135 Shaffer Pkwy, Littleton, CO 80127-4100 US",
+        "locality": "Littleton",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -105.131177,
+          39.57288
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Littleton Golf and Tennis Club",
+      "city": "Littleton",
+      "alias": "littleton-golf-and-tennis-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Legacy Ridge Golf Course",
+      "city": "Westminster",
+      "alias": "legacy-ridge-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1921,
+        "courseId": "54f14c010c8ad60378b01ba2",
+        "name": "Legacy Ridge Golf Course",
+        "address": "10801 Legacy Ridge Pkwy, Westminster, CO 80031 US",
+        "locality": "Westminster",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -105.03923,
+          39.86178
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Walnut Creek Golf Preserve",
+      "city": "Westminster",
+      "alias": "walnut-creek-golf-preserve",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Hyland Hills Golf Course",
+      "city": "Westminster",
+      "alias": "hyland-hills-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1412,
+        "courseId": "54f14bd10c8ad60378b0174a",
+        "name": "Hyland Hills Golf Course(inactive)",
+        "address": "9650 Sheridan Blvd, Westminster, CO 80031-2507 US",
+        "locality": "Westminster",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -105.03923,
+          39.86178
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Heritage Golf Course",
+      "city": "Westminster",
+      "alias": "the-heritage-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Indian Peaks Golf Course",
+      "city": "Lafayette",
+      "alias": "indian-peaks-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 2485,
+        "courseId": "54f14c330c8ad60378b02021",
+        "name": "Indian Peaks Golf Course",
+        "address": "2300 Indian Peaks Trail, Lafayette, CO 80026 US",
+        "locality": "Lafayette",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -105.123163,
+          40.002438
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Colorado National Golf Club",
+      "city": "Erie",
+      "alias": "colorado-national-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1719,
+        "courseId": "54f14bee0c8ad60378b019e3",
+        "name": "Colorado National Golf Club",
+        "address": "2700 Vista Parkway, Erie, CO 80516, US",
+        "locality": "Erie",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -105.025886,
+          40.003617
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        44,
+        32,
+        45
+      ]
+    },
+    {
+      "input": "The Meadows Golf Club",
+      "city": "Littleton",
+      "alias": "the-meadows-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1793,
+        "courseId": "54f14bf50c8ad60378b01a7c",
+        "name": "The Meadows Golf Club",
+        "address": "7007 Meadows Golf Club Drive, Littleton, CO 80127, US",
+        "locality": "Littleton",
+        "region": "CO",
+        "country": "US",
+        "location": [
+          -105.13081599999998,
+          39.59120600000001
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "state": "CO",
+  "timestamp": "2026-02-14T07:42:13-07:00",
+  "totalInput": 54,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-14",
+    "2026-02-21"
+  ]
+}

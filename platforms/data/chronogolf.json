@@ -27,5 +27,64 @@
     },
     "city": "Queen Valley",
     "state": "AZ"
+  },
+  {
+    "key": "broadlands",
+    "metro": "denver",
+    "courseIds": "1af93d4a-dba3-481b-9980-487e5e516146",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "13866",
+    "bookingUrl": "https://www.chronogolf.com/club/broadlands-golf-course",
+    "names": {
+      "Broadlands": "Broadlands Golf Course"
+    },
+    "city": "Broomfield",
+    "state": "CO"
+  },
+  {
+    "key": "south-suburban",
+    "metro": "denver",
+    "courseIds": "d75de2f0-634d-4dc5-b426-20d406a6f7cd,482fb33a-fa4a-48fb-85e1-e0492fe39d1a,68c1a9d5-f402-4d54-a1c5-991363899bc8",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "14486",
+    "bookingUrl": "https://www.chronogolf.com/club/south-suburban-golf-club",
+    "names": {
+      "SSG BACK 9 COURSE": "South Suburban Golf Course - Back 9",
+      "SSG 18 Hole Course": "South Suburban Golf Course - 18 Hole",
+      "SSG 9 Hole Par 3 Course": "South Suburban Golf Course - Par 3"
+    },
+    "city": "Centennial",
+    "state": "CO"
+  },
+  {
+    "key": "littleton-golf-and-tennis",
+    "metro": "denver",
+    "courseIds": "6a1ad175-7c4f-4692-a58f-7879e72ed9e9,c98df576-e507-44d7-9ece-7d59154fd143",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "14278",
+    "bookingUrl": "https://www.chronogolf.com/club/littleton-golf-tennis-club",
+    "names": {
+      "LGT 18 Hole Course": "Littleton Golf & Tennis Club - 18 Hole",
+      "LGT 9 Hole Course": "Littleton Golf & Tennis Club - 9 Hole"
+    },
+    "city": "Littleton",
+    "state": "CO"
+  },
+  {
+    "key": "lone-tree",
+    "metro": "denver",
+    "courseIds": "001a7f2d-2c20-4bd9-8f91-3df9d051f737",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "",
+    "bookingUrl": "https://www.chronogolf.com/club/lone-tree-golf-club-hotel",
+    "names": {
+      "LTH 18 Hole Course": "Lone Tree Golf Club"
+    },
+    "city": "Lone Tree",
+    "state": "CO"
   }
 ]

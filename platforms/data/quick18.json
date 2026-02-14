@@ -70,5 +70,14 @@
     "displayName": "SunRidge Canyon Golf Club",
     "city": "Fountain Hills",
     "state": "AZ"
+  },
+  {
+    "key": "thorncreek",
+    "metro": "denver",
+    "subdomain": "thorncreek",
+    "bookingUrl": "https://thorncreek.quick18.com",
+    "displayName": "Thorncreek Golf Course",
+    "city": "Thornton",
+    "state": "CO"
   }
 ]

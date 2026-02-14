@@ -1,0 +1,1871 @@
+{
+  "confirmed": 3,
+  "elapsed": "2m33.76299075s",
+  "listedOnly": 29,
+  "misses": 11,
+  "platform": "chronogolf",
+  "results": [
+    {
+      "input": "Indian Tree Golf Club",
+      "city": "Arvada",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "West Woods Golf Club",
+      "city": "Arvada",
+      "slug": "west-woods-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "da5fb3e0-8e5c-45cf-a6cc-2753ae6a27bc",
+        "id": 3461,
+        "name": "West Woods Golf Club ",
+        "slug": "west-woods-golf-club",
+        "city": "Arvada",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "6655 Quaker St",
+        "phone": "(303)424-3334",
+        "website": "http://www.westwoodsgolf.com",
+        "postcode": "80007",
+        "defaultAffiliationTypeId": 14666,
+        "location": {
+          "lat": 39.816755,
+          "lon": -105.183935
+        },
+        "courses": [
+          {
+            "id": 3921,
+            "name": "Silo/Sleeping Indian ",
+            "holes": 18,
+            "uuid": "5bc21692-d98a-4e9d-9c19-4dea5c6cb4c9"
+          },
+          {
+            "id": 3922,
+            "name": "Cottonwood/Silo ",
+            "holes": 18,
+            "uuid": "b0eba19f-7fc8-498c-85de-fd083191faa5"
+          },
+          {
+            "id": 3923,
+            "name": "Sleeping Indian/ Cottonwood ",
+            "holes": 18,
+            "uuid": "6573fca0-0ff9-44f8-9748-6821bb05e247"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Lake Arbor Golf Club",
+      "city": "Arvada",
+      "slug": "lake-arbor-golf-course",
+      "slugSource": "swap-golf-course",
+      "status": "listed_only",
+      "club": {
+        "uuid": "71ef3a19-a2f8-44e8-9ddc-e0759e4ee6eb",
+        "id": 3355,
+        "name": "Lake Arbor Golf Course",
+        "slug": "lake-arbor-golf-course",
+        "city": "Arvada",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "8600 Wadsworth Blvd",
+        "phone": "(720) 898-7360",
+        "website": "http://www.lakearborgolf.com",
+        "postcode": "80003",
+        "defaultAffiliationTypeId": 14242,
+        "location": {
+          "lat": 39.853213,
+          "lon": -105.081705
+        },
+        "courses": [
+          {
+            "id": 3798,
+            "name": "Lake Arbor",
+            "holes": 18,
+            "uuid": "334934e9-55cc-4147-aab5-59731a70ce42"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Stoney Creek Golf Course",
+      "city": "Arvada",
+      "slug": "stoney-creek-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "4c908ea1-a2da-4c68-b265-8a24babd2a25",
+        "id": 9400,
+        "name": "Stoney Creek Golf Club",
+        "slug": "stoney-creek-golf-club",
+        "city": "Stoney Creek",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "911 Golf House Rd E",
+        "phone": "(336) 449-5688",
+        "website": "http://www.stoneycreekgolf.com",
+        "postcode": "27377",
+        "defaultAffiliationTypeId": 38422,
+        "location": {
+          "lat": 36.065973,
+          "lon": -79.600497
+        },
+        "courses": [
+          {
+            "id": 10816,
+            "name": "Stoney Creek",
+            "holes": 18,
+            "uuid": "816eeedf-ca51-4f40-a9f2-58413426d8e2"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Aurora Hills Golf Course",
+      "city": "Aurora",
+      "slug": "aurora-hills-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "bb6f42c1-4b13-402d-9761-7ce2a536748b",
+        "id": 3249,
+        "name": "Aurora Hills Golf Course",
+        "slug": "aurora-hills-golf-course",
+        "city": "Aurora",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "50 S Peoria St",
+        "phone": "(303) 364-6111",
+        "website": "http://www.golfaurora.com",
+        "postcode": "80012",
+        "defaultAffiliationTypeId": 13818,
+        "location": {
+          "lat": 39.715806,
+          "lon": -104.847253
+        },
+        "courses": [
+          {
+            "id": 3675,
+            "name": "Aurora Hills",
+            "holes": 18,
+            "uuid": "f32cafe6-3e3e-4fee-8905-9a1cd5e6c9d3"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "CommonGround Golf Course",
+      "city": "Aurora",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Heather Ridge Golf Course",
+      "city": "Aurora",
+      "slug": "heather-ridge-country-club",
+      "slugSource": "swap-country-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "e1dd2283-677f-468a-a86b-195759afc7af",
+        "id": 3339,
+        "name": "Heather Ridge Country Club",
+        "slug": "heather-ridge-country-club",
+        "city": "Aurora",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "13521 East Iliff Ave",
+        "phone": "(303) 755-3550",
+        "website": "http://www.golfclubatheatherridge.com",
+        "postcode": "80014",
+        "defaultAffiliationTypeId": 14178,
+        "location": {
+          "lat": 39.7340739,
+          "lon": -104.7871004
+        },
+        "courses": [
+          {
+            "id": 3782,
+            "name": "Heather Ridge",
+            "holes": 18,
+            "uuid": "51b6364f-30ef-48aa-b325-f052a72fd039"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Heritage Eagle Bend Golf Club",
+      "city": "Aurora",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Meadow Hills Golf Course",
+      "city": "Aurora",
+      "slug": "meadow-hills-golf-course-colorado",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "784682f1-a0c0-481f-9874-b8d5855e29f1",
+        "id": 3370,
+        "name": "Meadow Hills Golf Course",
+        "slug": "meadow-hills-golf-course-colorado",
+        "city": "Aurora",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "3609 S Dawson St",
+        "phone": "(303) 690-2500",
+        "website": "http://www.golfaurora.com",
+        "postcode": "80014",
+        "defaultAffiliationTypeId": 14302,
+        "location": {
+          "lat": 39.651354,
+          "lon": -104.819077
+        },
+        "courses": [
+          {
+            "id": 3814,
+            "name": "Meadow Hills",
+            "holes": 18,
+            "uuid": "8c37b2d8-776e-4cd4-8e79-823b4675d7e4"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Murphy Creek Golf Course",
+      "city": "Aurora",
+      "slug": "murphy-creek-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "3b9b7041-7495-4f66-ae9a-a8cf19ff3694",
+        "id": 3379,
+        "name": "Murphy Creek Golf Course",
+        "slug": "murphy-creek-golf-course",
+        "city": "Aurora",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "1700 S Old Tom Morris Rd",
+        "phone": "(303) 361-7300",
+        "website": "http://www.golfaurora.com/murphy.htm",
+        "postcode": "80018",
+        "defaultAffiliationTypeId": 14338,
+        "location": {
+          "lat": 39.684588,
+          "lon": -104.711109
+        },
+        "courses": [
+          {
+            "id": 3823,
+            "name": "Murphy Creek",
+            "holes": 18,
+            "uuid": "9777274f-1685-4522-a248-b22c906fd68e"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Saddle Rock Golf Course",
+      "city": "Aurora",
+      "slug": "saddle-rock-golf-course-colorado",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "e96279ab-387e-4f20-a5bc-81c0f4e6e918",
+        "id": 3407,
+        "name": "Saddle Rock Golf Course",
+        "slug": "saddle-rock-golf-course-colorado",
+        "city": "Aurora",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "21705 E Arapahoe Rd",
+        "phone": "(303) 699-3939",
+        "website": "http://www.golfaurora.com/saddle.htm",
+        "postcode": "80016",
+        "defaultAffiliationTypeId": 14450,
+        "location": {
+          "lat": 39.594927,
+          "lon": -104.737371
+        },
+        "courses": [
+          {
+            "id": 3861,
+            "name": "Saddle Rock",
+            "holes": 18,
+            "uuid": "84519f34-b4c0-4757-945a-7084f27c85a1"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Springhill Golf Course",
+      "city": "Aurora",
+      "slug": "springhill-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "602cc5cb-f6f9-4eb8-b5df-a7db6f701494",
+        "id": 3420,
+        "name": "Springhill Golf Course",
+        "slug": "springhill-golf-course",
+        "city": "Aurora",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "800 Telluride Rd",
+        "phone": "(303) 739-6854",
+        "website": "http://www.golfaurora.com",
+        "postcode": "80011",
+        "defaultAffiliationTypeId": 14502,
+        "location": {
+          "lat": 39.729321,
+          "lon": -104.78181
+        },
+        "courses": [
+          {
+            "id": 3874,
+            "name": "Springhill",
+            "holes": 18,
+            "uuid": "c0a8b10d-9aca-41e6-b58c-7c9659493c49"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Broadlands Golf Course",
+      "city": "Broomfield",
+      "slug": "broadlands-golf-course",
+      "slugSource": "name+state",
+      "status": "confirmed",
+      "club": {
+        "uuid": "501e42c2-edf8-4052-b4c1-35dde82401e9",
+        "id": 3261,
+        "name": "Broadlands Golf Course",
+        "slug": "broadlands-golf-course",
+        "city": "Broomfield",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "4380 W 144th Ave",
+        "phone": "(303) 466-8285",
+        "website": "http://www.thebroadlandsgc.com",
+        "postcode": "80020",
+        "defaultAffiliationTypeId": 13866,
+        "location": {
+          "lat": 39.957764,
+          "lon": -105.043341
+        },
+        "courses": [
+          {
+            "id": 3689,
+            "name": "Broadlands",
+            "holes": 18,
+            "uuid": "1af93d4a-dba3-481b-9980-487e5e516146"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        15,
+        4,
+        18
+      ]
+    },
+    {
+      "input": "Eagle Trace Golf Course",
+      "city": "Broomfield",
+      "slug": "eagle-trace-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "2f23b403-befa-469c-815a-25b94aca6f6c",
+        "id": 3303,
+        "name": "Eagle Trace Golf Club",
+        "slug": "eagle-trace-golf-club",
+        "city": "Broomfield",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "1200 Clubhouse Drive",
+        "phone": "(303) 466-3322",
+        "website": "http://www.eagletracegolfclub.com",
+        "postcode": "80020",
+        "defaultAffiliationTypeId": 110237,
+        "location": {
+          "lat": 39.934534,
+          "lon": -105.066473
+        },
+        "courses": []
+      }
+    },
+    {
+      "input": "Omni Interlocken Golf Club",
+      "city": "Broomfield",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Golf Club at Bear Dance",
+      "city": "Larkspur",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Plum Creek Golf Club",
+      "city": "Castle Rock",
+      "slug": "plum-creek-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "92ebbbeb-2f81-4e9b-8532-7bfd3dd94c85",
+        "id": 13886,
+        "name": "Plum Creek Golf Club",
+        "slug": "plum-creek-golf-club",
+        "city": "Kyle",
+        "province": "Texas",
+        "country": "United States",
+        "address": "750 Kohlers Crossing Rd",
+        "phone": "(512) 262-5555",
+        "website": "http://www.plumcreekgolf.com",
+        "postcode": "78640",
+        "defaultAffiliationTypeId": 56366,
+        "location": {
+          "lat": 30.028012,
+          "lon": -97.882502
+        },
+        "courses": [
+          {
+            "id": 15923,
+            "name": "18 Hole",
+            "holes": 18,
+            "uuid": "e80df908-08d0-44db-8177-d35801cb929d"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Red Hawk Ridge Golf Course",
+      "city": "Castle Rock",
+      "slug": "red-hawk-ridge-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "38d6d201-4ac7-4bb9-b20d-149c81676266",
+        "id": 3396,
+        "name": "Red Hawk Ridge Golf Club",
+        "slug": "red-hawk-ridge-golf-club",
+        "city": "Castle Rock",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "2156 Red Hawk Ridge Dr",
+        "phone": "(303) 663-7150",
+        "website": "http://www.redhawkridge.com",
+        "postcode": "80104",
+        "defaultAffiliationTypeId": 14406,
+        "location": {
+          "lat": 39.387772,
+          "lon": -104.886045
+        },
+        "courses": [
+          {
+            "id": 3848,
+            "name": "Red Hawk Ridge",
+            "holes": 18,
+            "uuid": "4bab0402-2b98-4077-acec-aa74af733b06"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Ridge at Castle Pines North",
+      "city": "Castle Rock",
+      "slug": "the-ridge-at-castle-pines-north",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "28f3c1be-e6a9-4740-837f-0f3185d52c41",
+        "id": 3445,
+        "name": "The Ridge at Castle Pines North",
+        "slug": "the-ridge-at-castle-pines-north",
+        "city": "Castle Rock",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "1414 Castle Pines Pkwy",
+        "phone": "(303) 688-0100",
+        "website": "http://www.troongolf.com",
+        "postcode": "80104",
+        "defaultAffiliationTypeId": 14602,
+        "location": {
+          "lat": 39.470312,
+          "lon": -104.908965
+        },
+        "courses": [
+          {
+            "id": 3905,
+            "name": "The Ridge at Castle Pines North",
+            "holes": 18,
+            "uuid": "a10e024d-40ac-4105-a6e1-9d3a43427009"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Buffalo Run Golf Course",
+      "city": "Commerce City",
+      "slug": "buffalo-run-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "98e54ffd-5118-4ef1-852c-6daca1c55f15",
+        "id": 3263,
+        "name": "Buffalo Run Golf Course",
+        "slug": "buffalo-run-golf-course",
+        "city": "Commerce City",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "112th Ave \u0026 Chambers Rd",
+        "phone": "(303) 289-1500",
+        "website": "http://www.buffalorungolfcourse.com",
+        "postcode": "80022",
+        "defaultAffiliationTypeId": 13874,
+        "location": {
+          "lat": 39.900012,
+          "lon": -104.80923
+        },
+        "courses": [
+          {
+            "id": 3693,
+            "name": "Buffalo Run",
+            "holes": 18,
+            "uuid": "7528f255-8a48-41dc-aa02-df0cd685f03e"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Riverdale Golf Courses",
+      "city": "Brighton",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Todd Creek Golf Club",
+      "city": "Thornton",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Thorncreek Golf Course",
+      "city": "Thornton",
+      "slug": "thorncreek-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "c6ea2e30-55df-46da-977d-1fd7b90ab48b",
+        "id": 3449,
+        "name": "Thorncreek Golf Club",
+        "slug": "thorncreek-golf-club",
+        "city": "Thornton",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "13555 N Washington St",
+        "phone": "(303) 450-7055",
+        "website": "http://www.thorncreekgc.com",
+        "postcode": "80241",
+        "defaultAffiliationTypeId": 14618,
+        "location": {
+          "lat": 39.941074,
+          "lon": -104.978244
+        },
+        "courses": [
+          {
+            "id": 3909,
+            "name": "Thorncreek",
+            "holes": 18,
+            "uuid": "ffd445c1-6f3f-41e8-bab9-2b0d4d9c4b6d"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "City Park Golf Course",
+      "city": "Denver",
+      "slug": "city-park-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "fd65f486-0d78-4c93-8fad-5884783fb9fd",
+        "id": 3276,
+        "name": "City Park Golf Course",
+        "slug": "city-park-golf-course",
+        "city": "Denver",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "2500 York St",
+        "phone": "(303) 295-2095",
+        "website": "http://www.denvergov.org",
+        "postcode": "80205",
+        "defaultAffiliationTypeId": 13926,
+        "location": {
+          "lat": 39.753209,
+          "lon": -104.959769
+        },
+        "courses": [
+          {
+            "id": 3707,
+            "name": "City Park",
+            "holes": 18,
+            "uuid": "6c612164-f1b9-4800-8d90-c2f593932d1a"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Evergreen Golf Course",
+      "city": "Evergreen",
+      "slug": "evergreen-golf-course-colorado",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "9ee3efcc-ea97-4a65-8fd2-5ebca32067bb",
+        "id": 3310,
+        "name": "Evergreen Golf Course",
+        "slug": "evergreen-golf-course-colorado",
+        "city": "Evergreen",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "29614 Upper Bear Creek Rd",
+        "phone": "(303) 674-6351",
+        "website": "http://www.denvergov.org",
+        "postcode": "80439",
+        "defaultAffiliationTypeId": 14062,
+        "location": {
+          "lat": 39.633776,
+          "lon": -105.334808
+        },
+        "courses": [
+          {
+            "id": 3747,
+            "name": "Evergreen",
+            "holes": 18,
+            "uuid": "57ec49a7-4e0d-4d5c-8c2c-066c7844fe05"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Kennedy Golf Course",
+      "city": "Denver",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Overland Park Golf Course",
+      "city": "Denver",
+      "slug": "overland-park-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "da21afdb-6a12-414a-bf31-29ca99cf0d2e",
+        "id": 6714,
+        "name": "Overland Park Golf Club",
+        "slug": "overland-park-golf-club",
+        "city": "Overland Park",
+        "province": "Arkansas",
+        "country": "United States",
+        "address": "12501 Quivira Rd",
+        "phone": "(913) 897-3809",
+        "website": "http://www.opkansas.org",
+        "postcode": "66213",
+        "defaultAffiliationTypeId": 27678,
+        "location": {
+          "lat": 38.901762,
+          "lon": -94.72372
+        },
+        "courses": [
+          {
+            "id": 7725,
+            "name": "West/North",
+            "holes": 18,
+            "uuid": "ded559e7-7950-4435-b4da-e53816333b37"
+          },
+          {
+            "id": 7726,
+            "name": "Par 3",
+            "holes": 9,
+            "uuid": "84bc9a1a-30f0-4017-b9d7-a682d77e8e8c"
+          },
+          {
+            "id": 7727,
+            "name": "South/West",
+            "holes": 18,
+            "uuid": "0c3cc5b7-df14-4962-8f46-a1fbfe1d80b1"
+          },
+          {
+            "id": 7724,
+            "name": "North/South",
+            "holes": 18,
+            "uuid": "6b5d2cc7-f2ba-4a71-938a-199946bb4493"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Wellshire Golf Course",
+      "city": "Denver",
+      "slug": "wellshire-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "d0084229-ea44-4a19-843c-3a101d261d5a",
+        "id": 3460,
+        "name": "Wellshire Golf Course",
+        "slug": "wellshire-golf-course",
+        "city": "Denver",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "3333 S Colorado Blvd",
+        "phone": "(303) 757-1352",
+        "website": "http://www.denvergolf.com",
+        "postcode": "80222",
+        "defaultAffiliationTypeId": 14662,
+        "location": {
+          "lat": 39.658811,
+          "lon": -104.94056
+        },
+        "courses": [
+          {
+            "id": 3920,
+            "name": "Wellshire",
+            "holes": 18,
+            "uuid": "db027b44-0f1f-4a48-b466-e0356eec1991"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Willis Case Golf Course",
+      "city": "Denver",
+      "slug": "willis-case-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "4b2b270f-a46b-433f-8d7b-9046ae0a0ad1",
+        "id": 3462,
+        "name": "Willis Case Golf Course",
+        "slug": "willis-case-golf-course",
+        "city": "Denver",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "4999 Vrain St",
+        "phone": "(303) 455-9801",
+        "website": "http://www.cityofdenvergolf.com",
+        "postcode": "80212",
+        "defaultAffiliationTypeId": 14670,
+        "location": {
+          "lat": 39.787433,
+          "lon": -105.046236
+        },
+        "courses": [
+          {
+            "id": 3924,
+            "name": "Willis Case",
+            "holes": 18,
+            "uuid": "95205cfa-7f37-4791-a19b-a2c7f1910ace"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Green Valley Ranch Golf Club",
+      "city": "Denver",
+      "slug": "green-valley-ranch-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "e459588c-636e-42f0-a1c2-cb25542fd5ac",
+        "id": 3333,
+        "name": "Green Valley Ranch Golf Club",
+        "slug": "green-valley-ranch-golf-club",
+        "city": "Denver",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "4900 Himalaya Rd",
+        "phone": "(303) 371-3131",
+        "website": "http://www.gvrgolf.com",
+        "postcode": "80249",
+        "defaultAffiliationTypeId": 14154,
+        "location": {
+          "lat": 39.784519,
+          "lon": -104.754526
+        },
+        "courses": [
+          {
+            "id": 3776,
+            "name": "Green Valley Ranch",
+            "holes": 18,
+            "uuid": "0d52730a-2ba2-4069-9fd9-52f1aeb9799f"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Broken Tee Golf Course",
+      "city": "Englewood",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "South Suburban Golf Course",
+      "city": "Centennial",
+      "slug": "south-suburban-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "confirmed",
+      "club": {
+        "uuid": "6e83268e-dc0e-4546-8b90-7adae64cca12",
+        "id": 3416,
+        "name": "South Suburban Golf Course",
+        "slug": "south-suburban-golf-club",
+        "city": "Centennial",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "7900 S Colorado Blvd",
+        "phone": "(303)770-5500",
+        "website": "https://golf.ssprd.org/South-Suburban-Golf-Course",
+        "postcode": "80122",
+        "defaultAffiliationTypeId": 14486,
+        "location": {
+          "lat": 39.57427,
+          "lon": -104.93661
+        },
+        "courses": [
+          {
+            "id": 23677,
+            "name": "SSG BACK 9 COURSE",
+            "holes": 9,
+            "uuid": "d75de2f0-634d-4dc5-b426-20d406a6f7cd"
+          },
+          {
+            "id": 3870,
+            "name": "SSG 18 Hole Course",
+            "holes": 18,
+            "uuid": "482fb33a-fa4a-48fb-85e1-e0492fe39d1a"
+          },
+          {
+            "id": 23646,
+            "name": "SSG 9 Hole Par 3 Course",
+            "holes": 9,
+            "uuid": "68c1a9d5-f402-4d54-a1c5-991363899bc8"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "input": "Meridian Golf Club",
+      "city": "Englewood",
+      "slug": "meridian-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "a1d9a0f2-4f62-4747-8596-4ca6cc3a2e80",
+        "id": 3372,
+        "name": "Meridian Golf Club",
+        "slug": "meridian-golf-club",
+        "city": "Englewood",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "9742 S Meridian Blvd",
+        "phone": "(303) 799-4043",
+        "website": "http://www.meridangolfclub.com",
+        "postcode": "80112",
+        "defaultAffiliationTypeId": 14310,
+        "location": {
+          "lat": 39.547195,
+          "lon": -104.862828
+        },
+        "courses": [
+          {
+            "id": 3816,
+            "name": "Meridian",
+            "holes": 18,
+            "uuid": "04ddbe50-7c44-4cb4-a55c-a42ba39124f2"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Inverness Golf Club",
+      "city": "Englewood",
+      "slug": "inverness-golf-course",
+      "slugSource": "swap-golf-course",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "77f9bdaa-39c3-485b-b9e4-ee34dd348430",
+        "id": 5783,
+        "name": "Inverness Golf Course",
+        "slug": "inverness-golf-course",
+        "city": "Palatine",
+        "province": "Illinois",
+        "country": "United States",
+        "address": "102 N Roselle Rd",
+        "phone": "(847) 359-0244",
+        "website": "http://invernessgolfclub.org",
+        "postcode": "60067",
+        "defaultAffiliationTypeId": 23954,
+        "location": {
+          "lat": 42.110496,
+          "lon": -88.077854
+        },
+        "courses": [
+          {
+            "id": 6724,
+            "name": "Inverness",
+            "holes": 18,
+            "uuid": "5648b4a4-b3e0-4eba-a849-04a895cc1c3a"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Fossil Trace Golf Club",
+      "city": "Golden",
+      "slug": "fossil-trace-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "5bbc1b5d-4133-418e-a1b7-b60a7f68a7df",
+        "id": 3319,
+        "name": "Fossil Trace Golf Club",
+        "slug": "fossil-trace-golf-club",
+        "city": "Golden",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "3050 Illinois St",
+        "phone": "(303) 277-8750",
+        "website": "http://www.fossiltrace.com",
+        "postcode": "80401",
+        "defaultAffiliationTypeId": 14098,
+        "location": {
+          "lat": 39.671085,
+          "lon": -105.346221
+        },
+        "courses": [
+          {
+            "id": 3757,
+            "name": "Fossil Trace",
+            "holes": 18,
+            "uuid": "0de62e6a-8a73-49b7-b973-04220308bac9"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Applewood Golf Course",
+      "city": "Golden",
+      "slug": "applewood-golf-course-colorado",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "83b7309f-d290-43fd-9082-96ddfcf16b0b",
+        "id": 3246,
+        "name": "Applewood Golf Course",
+        "slug": "applewood-golf-course-colorado",
+        "city": "Golden",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "14001 W 32nd Ave",
+        "phone": "(303) 279-3003",
+        "website": "http://www.applewoodgc.com",
+        "postcode": "80401",
+        "defaultAffiliationTypeId": 13806,
+        "location": {
+          "lat": 39.761775,
+          "lon": -105.156594
+        },
+        "courses": [
+          {
+            "id": 3672,
+            "name": "Applewood",
+            "holes": 18,
+            "uuid": "fee9028e-20cb-4de2-966b-ffe1c1d83fb7"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Links Golf Course",
+      "city": "Highlands Ranch",
+      "slug": "the-links-golf-course",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "98d1df4f-c5ee-46b0-81cc-45bd1b7b50f3",
+        "id": 6516,
+        "name": "The Links Golf Course",
+        "slug": "the-links-golf-course-indiana",
+        "city": "Orleans",
+        "province": "Indiana",
+        "country": "United States",
+        "address": "Route 3 51A-1",
+        "phone": "(812) 849-4653",
+        "website": "",
+        "postcode": "47452",
+        "defaultAffiliationTypeId": 26886,
+        "location": {
+          "lat": 38.66054,
+          "lon": -86.455486
+        },
+        "courses": [
+          {
+            "id": 7519,
+            "name": "The",
+            "holes": 18,
+            "uuid": "110815d0-0791-4c56-ad77-888cdca55404"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Lone Tree Golf Club",
+      "city": "Lone Tree",
+      "slug": "lone-tree-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "e6c2f445-ef48-4420-bbaa-28b31964b21f",
+        "id": 2282,
+        "name": "Lone Tree Golf Club",
+        "slug": "lone-tree-golf-club",
+        "city": "Chandler",
+        "province": "Arizona",
+        "country": "United States",
+        "address": "6262 S Mountain Blvd",
+        "phone": "(480) 219-0830",
+        "website": "http://www.lonetreegolf18.com",
+        "postcode": "85249",
+        "defaultAffiliationTypeId": 9950,
+        "location": {
+          "lat": 33.216367,
+          "lon": -111.783495
+        },
+        "courses": [
+          {
+            "id": 2627,
+            "name": "Lone Tree",
+            "holes": 18,
+            "uuid": "de321f0a-1ff2-400e-bc88-75d7d9d2ed3a"
+          }
+        ]
+      }
+    },
+    {
+      "input": "University of Denver Golf Club",
+      "city": "Highlands Ranch",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Fox Hollow Golf Course",
+      "city": "Lakewood",
+      "slug": "fox-hollow-golf-course",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "30faf2a9-4fec-4089-833e-584a3d59900c",
+        "id": 14181,
+        "name": "Fox Hollow Golf Course",
+        "slug": "fox-hollow-golf-course-utah",
+        "city": "American Fork",
+        "province": "Utah",
+        "country": "United States",
+        "address": "1400 N 200 E",
+        "phone": "(801) 756-3594",
+        "website": "http://www.foxhollowutah.com",
+        "postcode": "84003",
+        "defaultAffiliationTypeId": 57546,
+        "location": {
+          "lat": 40.404703,
+          "lon": -111.790307
+        },
+        "courses": [
+          {
+            "id": 16264,
+            "name": "Fox Hollow",
+            "holes": 18,
+            "uuid": "34b8137c-8878-458f-838b-f436cddf8fd1"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Homestead Golf Course",
+      "city": "Lakewood",
+      "slug": "homestead-golf-course",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "2a5c3392-703f-4852-a571-aff1c0e8a562",
+        "id": 11286,
+        "name": "Homestead Golf Course",
+        "slug": "homestead-golf-course",
+        "city": "Tipp City",
+        "province": "Ohio",
+        "country": "United States",
+        "address": "5327 Worley Rd",
+        "phone": "(937) 698-4876",
+        "website": "http://www.homesteadgolfcourse.com",
+        "postcode": "45371",
+        "defaultAffiliationTypeId": 45966,
+        "location": {
+          "lat": 39.954126,
+          "lon": -84.256538
+        },
+        "courses": [
+          {
+            "id": 12946,
+            "name": "Homestead",
+            "holes": 18,
+            "uuid": "0ce8b44a-07b8-41a5-a077-f14580cbec41"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Foothills Golf Course",
+      "city": "Lakewood",
+      "slug": "foothills-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "0a987e6b-b3b2-49b5-9bea-2383b08b4630",
+        "id": 3316,
+        "name": "Foothills Golf Club ",
+        "slug": "foothills-golf-club",
+        "city": "Denver",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "3901 S Carr St",
+        "phone": "(303)989-3901",
+        "website": "http://www.foothills.org",
+        "postcode": "80235",
+        "defaultAffiliationTypeId": 14086,
+        "location": {
+          "lat": 39.648813,
+          "lon": -105.090792
+        },
+        "courses": [
+          {
+            "id": 3754,
+            "name": "Regulation",
+            "holes": 18,
+            "uuid": "a7c167c0-4775-4f4d-9967-7c0a45a5422c"
+          },
+          {
+            "id": 3753,
+            "name": "Executive",
+            "holes": 9,
+            "uuid": "6902c8d3-badf-4322-afed-3f89954b0058"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Bear Creek Golf Club",
+      "city": "Lakewood",
+      "slug": "bear-creek-golf-club-colorado",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "3c03324f-a9ea-470c-90f5-d64c097dfb3b",
+        "id": 3252,
+        "name": "Bear Creek Golf Club",
+        "slug": "bear-creek-golf-club-colorado",
+        "city": "Denver",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "12201 Morrison Rd",
+        "phone": "(303) 980-8700",
+        "website": "http://www.bearcreekgolfclub.net",
+        "postcode": "80228",
+        "defaultAffiliationTypeId": 13830,
+        "location": {
+          "lat": 39.667438,
+          "lon": -105.136832
+        },
+        "courses": [
+          {
+            "id": 3678,
+            "name": "Bear Creek",
+            "holes": 18,
+            "uuid": "0fda96c6-2f6c-413e-9600-f644ce93953b"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Arrowhead Golf Club",
+      "city": "Littleton",
+      "slug": "arrowhead-golf-club-colorado",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "1ad4bee9-c6ba-4182-8ba1-98e79701e486",
+        "id": 3247,
+        "name": "Arrowhead Golf Club",
+        "slug": "arrowhead-golf-club-colorado",
+        "city": "Littleton",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "10850 W Sundown Trl",
+        "phone": "(303) 973-9614",
+        "website": "http://www.arrowheadcolorado.com",
+        "postcode": "80125",
+        "defaultAffiliationTypeId": 13810,
+        "location": {
+          "lat": 39.453376,
+          "lon": -105.078031
+        },
+        "courses": [
+          {
+            "id": 3673,
+            "name": "Arrowhead",
+            "holes": 18,
+            "uuid": "c40f3a5d-508f-4799-855e-c70e2067c4e8"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Raccoon Creek Golf Course",
+      "city": "Littleton",
+      "slug": "raccoon-creek-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "b222abfe-b065-455b-820f-5b5de842da81",
+        "id": 3395,
+        "name": "Raccoon Creek Golf Course",
+        "slug": "raccoon-creek-golf-course",
+        "city": "Littleton",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "7301 W Bowles Ave",
+        "phone": "(303) 973-9684",
+        "website": "",
+        "postcode": "80123",
+        "defaultAffiliationTypeId": 14402,
+        "location": {
+          "lat": 39.60972,
+          "lon": -105.07737
+        },
+        "courses": [
+          {
+            "id": 3847,
+            "name": "Raccoon Creek",
+            "holes": 18,
+            "uuid": "9fef33cc-c9ef-40fd-9c9f-a655e5f5de29"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Deer Creek Golf Club",
+      "city": "Littleton",
+      "slug": "deer-creek-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "32d6a49a-a6d3-4282-8f50-3f2ddec9cd18",
+        "id": 5154,
+        "name": "Deer Creek Golf Club",
+        "slug": "deer-creek-golf-club-iowa",
+        "city": "Humboldt",
+        "province": "Iowa",
+        "country": "United States",
+        "address": "2044 130th St",
+        "phone": "(515) 546-6312",
+        "website": "",
+        "postcode": "50548",
+        "defaultAffiliationTypeId": 21438,
+        "location": {
+          "lat": 42.601489,
+          "lon": -94.231746
+        },
+        "courses": [
+          {
+            "id": 6061,
+            "name": "Deer Creek",
+            "holes": 9,
+            "uuid": "1083a82d-ff80-477a-9937-ef3125cac6f2"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Littleton Golf and Tennis Club",
+      "city": "Littleton",
+      "slug": "littleton-golf-tennis-club",
+      "slugSource": "no-and+state",
+      "status": "confirmed",
+      "club": {
+        "uuid": "8137d00e-175a-4b65-9c8a-816f55bd4e87",
+        "id": 3364,
+        "name": "Littleton Golf \u0026 Tennis Club",
+        "slug": "littleton-golf-tennis-club",
+        "city": "Littleton",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "5800 S Federal Blvd",
+        "phone": "303.794.5838",
+        "website": "https://golf.ssprd.org/Littleton-Golf-and-Tennis-Club",
+        "postcode": "80123",
+        "defaultAffiliationTypeId": 14278,
+        "location": {
+          "lat": 39.61382,
+          "lon": -105.02656
+        },
+        "courses": [
+          {
+            "id": 3808,
+            "name": "LGT 18 Hole Course",
+            "holes": 18,
+            "uuid": "6a1ad175-7c4f-4692-a58f-7879e72ed9e9"
+          },
+          {
+            "id": 23733,
+            "name": "LGT 9 Hole Course",
+            "holes": 9,
+            "uuid": "c98df576-e507-44d7-9ece-7d59154fd143"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        24,
+        13,
+        24
+      ]
+    },
+    {
+      "input": "Legacy Ridge Golf Course",
+      "city": "Westminster",
+      "slug": "legacy-ridge-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "db226075-f4fc-433b-a112-9d08284dd20f",
+        "id": 13742,
+        "name": "Legacy Ridge Golf Club",
+        "slug": "legacy-ridge-golf-club",
+        "city": "Bonham",
+        "province": "Texas",
+        "country": "United States",
+        "address": "2201 Country Club Rd",
+        "phone": "(903) 640-4800",
+        "website": "http://www.legacyridge.com",
+        "postcode": "75418",
+        "defaultAffiliationTypeId": 55790,
+        "location": {
+          "lat": 32.0035526,
+          "lon": -102.0999364
+        },
+        "courses": [
+          {
+            "id": 15753,
+            "name": "Legacy Ridge",
+            "holes": 18,
+            "uuid": "eeb31c21-8ebc-4d3d-9af2-fd40a3c91b81"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Walnut Creek Golf Preserve",
+      "city": "Westminster",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Hyland Hills Golf Course",
+      "city": "Westminster",
+      "slug": "hyland-hills-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "b00a1f2b-1190-4eb2-8539-b4797e0ae5c1",
+        "id": 3347,
+        "name": "Hyland Hills Golf Course",
+        "slug": "hyland-hills-golf-course",
+        "city": "Greeley",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "2200 Clubhouse Dr",
+        "phone": "(970) 330-7327",
+        "website": "http://www.greeleygov.vom",
+        "postcode": "80634",
+        "defaultAffiliationTypeId": 14210,
+        "location": {
+          "lat": 40.40479,
+          "lon": -104.768303
+        },
+        "courses": [
+          {
+            "id": 3790,
+            "name": "Hyland Hills",
+            "holes": 18,
+            "uuid": "84363b6f-4ac4-4100-adda-b83283154ce8"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Heritage Golf Course",
+      "city": "Westminster",
+      "slug": "heritage-golf",
+      "slugSource": "core+golf",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "188f54f3-045f-43fa-a5e9-c143090e143c",
+        "id": 1874,
+        "name": "Heritage Golf ",
+        "slug": "heritage-golf",
+        "city": "Oneonta",
+        "province": "Alabama",
+        "country": "United States",
+        "address": "1364 Heritage Rd",
+        "phone": "(205) 625-6325",
+        "website": "http://heritagegolftwinoaks.com/",
+        "postcode": "35121",
+        "defaultAffiliationTypeId": 8318,
+        "location": {
+          "lat": 33.985024,
+          "lon": -86.451582
+        },
+        "courses": [
+          {
+            "id": 2154,
+            "name": "Heritage",
+            "holes": 18,
+            "uuid": "9fb9d8bb-a40d-49b1-95e9-9cceb92db309"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Indian Peaks Golf Course",
+      "city": "Lafayette",
+      "slug": "indian-peaks-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "20dcfef5-4de3-46b1-962b-a49e09c39e03",
+        "id": 3349,
+        "name": "Indian Peaks Golf Club",
+        "slug": "indian-peaks-golf-club",
+        "city": "Lafayette",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "2300 Indian Peaks Trl",
+        "phone": "(303) 666-4706",
+        "website": "http://www.indianpeaksgolf.com",
+        "postcode": "80026",
+        "defaultAffiliationTypeId": 14218,
+        "location": {
+          "lat": 40.001405,
+          "lon": -105.121639
+        },
+        "courses": [
+          {
+            "id": 3792,
+            "name": "Indian Peaks",
+            "holes": 18,
+            "uuid": "01a33608-ac14-4f99-9c4b-2eb8e4bf55c1"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Colorado National Golf Club",
+      "city": "Erie",
+      "slug": "colorado-national-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "551ef7b2-72a3-4493-a33d-2c8cc49531e5",
+        "id": 3283,
+        "name": "Colorado National Golf Club ",
+        "slug": "colorado-national-golf-club",
+        "city": "Erie",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "2700 Vista Pkwy",
+        "phone": "(303) 665-9590",
+        "website": "http://www.coloradonationalgolfclub.com",
+        "postcode": "80516",
+        "defaultAffiliationTypeId": 13954,
+        "location": {
+          "lat": 40.004821,
+          "lon": -105.025735
+        },
+        "courses": [
+          {
+            "id": 3715,
+            "name": "Troon",
+            "holes": 18,
+            "uuid": "8869355b-ca1c-4a37-840a-94dc7cbc5b2c"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Meadows Golf Club",
+      "city": "Littleton",
+      "slug": "the-meadows-golf-club-colorado",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "8be51668-f68a-4dce-9f4d-9fd27ac79bbc",
+        "id": 3440,
+        "name": "The Meadows Golf Club",
+        "slug": "the-meadows-golf-club-colorado",
+        "city": "Littleton",
+        "province": "Colorado",
+        "country": "United States",
+        "address": "6937 S Simms St",
+        "phone": "(303) 972-8831",
+        "website": "http://www.ifoothills.org",
+        "postcode": "80127",
+        "defaultAffiliationTypeId": 14582,
+        "location": {
+          "lat": 39.589409,
+          "lon": -105.126497
+        },
+        "courses": [
+          {
+            "id": 3898,
+            "name": "The Meadows",
+            "holes": 18,
+            "uuid": "33a4d6a8-a091-46c5-8b37-6950e84a4a4c"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "state": "CO",
+  "timestamp": "2026-02-14T07:58:37-07:00",
+  "totalInput": 54,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-14",
+    "2026-02-21"
+  ],
+  "wrongState": 11
+}

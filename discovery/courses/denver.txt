@@ -1,0 +1,83 @@
+# Denver Metro Public Golf Courses
+# Source: golfmilehigh.com, visitdenver.com, cherryhillsvillage.com, golfpass.com
+# Format: Course Name | City
+
+# === Arvada ===
+Indian Tree Golf Club | Arvada
+West Woods Golf Club | Arvada
+Lake Arbor Golf Club | Arvada
+Stoney Creek Golf Course | Arvada
+
+# === Aurora ===
+Aurora Hills Golf Course | Aurora
+CommonGround Golf Course | Aurora
+Heather Ridge Golf Course | Aurora
+Heritage Eagle Bend Golf Club | Aurora
+Meadow Hills Golf Course | Aurora
+Murphy Creek Golf Course | Aurora
+Saddle Rock Golf Course | Aurora
+Springhill Golf Course | Aurora
+
+# === Broomfield ===
+Broadlands Golf Course | Broomfield
+Eagle Trace Golf Course | Broomfield
+Omni Interlocken Golf Club | Broomfield
+
+# === Castle Rock / Larkspur ===
+Golf Club at Bear Dance | Larkspur
+Plum Creek Golf Club | Castle Rock
+Red Hawk Ridge Golf Course | Castle Rock
+The Ridge at Castle Pines North | Castle Rock
+
+# === Commerce City / Brighton / Thornton ===
+Buffalo Run Golf Course | Commerce City
+Riverdale Golf Courses | Brighton
+Todd Creek Golf Club | Thornton
+Thorncreek Golf Course | Thornton
+
+# === Denver ===
+City Park Golf Course | Denver
+Evergreen Golf Course | Evergreen
+Kennedy Golf Course | Denver
+Overland Park Golf Course | Denver
+Wellshire Golf Course | Denver
+Willis Case Golf Course | Denver
+Green Valley Ranch Golf Club | Denver
+
+# === Englewood / Centennial / Greenwood Village ===
+Broken Tee Golf Course | Englewood
+South Suburban Golf Course | Centennial
+Meridian Golf Club | Englewood
+Inverness Golf Club | Englewood
+
+# === Golden ===
+Fossil Trace Golf Club | Golden
+Applewood Golf Course | Golden
+
+# === Highlands Ranch / Lone Tree ===
+The Links Golf Course | Highlands Ranch
+Lone Tree Golf Club | Lone Tree
+University of Denver Golf Club | Highlands Ranch
+
+# === Lakewood ===
+Fox Hollow Golf Course | Lakewood
+Homestead Golf Course | Lakewood
+Foothills Golf Course | Lakewood
+Bear Creek Golf Club | Lakewood
+
+# === Littleton ===
+Arrowhead Golf Club | Littleton
+Raccoon Creek Golf Course | Littleton
+Deer Creek Golf Club | Littleton
+Littleton Golf and Tennis Club | Littleton
+
+# === Westminster ===
+Legacy Ridge Golf Course | Westminster
+Walnut Creek Golf Preserve | Westminster
+Hyland Hills Golf Course | Westminster
+The Heritage Golf Course | Westminster
+
+# === Other Metro ===
+Indian Peaks Golf Course | Lafayette
+Colorado National Golf Club | Erie
+The Meadows Golf Club | Littleton

@@ -9,19 +9,19 @@ import (
 	"strings"
 )
 
-const MemberSportsAPIKey = "A9814038-9E19-4683-B171-5A06B39147FC"
-const MemberSportsAPIURL = "https://api.membersports.com/api/v1/golfclubs/onlineBookingTeeTimes"
-
 type MemberSportsCourseConfig struct {
 	Key          string   `json:"key"`
 	Metro        string   `json:"metro"`
+	APIKey       string   `json:"apiKey"`
+	APIURL       string   `json:"apiUrl"`
 	ClubID       int      `json:"clubId"`
 	CourseID     int      `json:"courseId"`
 	GroupID      int      `json:"groupId"`
 	ConfigType   int      `json:"configType"`
 	BookingURL   string   `json:"bookingUrl"`
-	NamePrefix   string   `json:"namePrefix"`
-	KnownCourses []string `json:"knownCourses"`
+	NamePrefix   string            `json:"namePrefix"`
+	Names        map[string]string `json:"names"`
+	KnownCourses []string          `json:"knownCourses"`
 	City         string   `json:"city"`
 	State        string   `json:"state"`
 }
@@ -68,14 +68,14 @@ func FetchMemberSports(config MemberSportsCourseConfig, date string) ([]DisplayT
 	}
 
 	var req *http.Request
-	req, err = http.NewRequest("POST", MemberSportsAPIURL, bytes.NewBuffer(jsonData))
+	req, err = http.NewRequest("POST", config.APIURL, bytes.NewBuffer(jsonData))
 	if err != nil {
 		return nil, err
 	}
 
 	req.Header.Set("Content-Type", "application/json; charset=UTF-8")
 	req.Header.Set("Accept", "application/json")
-	req.Header.Set("x-api-key", MemberSportsAPIKey)
+	req.Header.Set("x-api-key", config.APIKey)
 
 	var client http.Client
 	var resp *http.Response
@@ -125,11 +125,29 @@ func FetchMemberSports(config MemberSportsCourseConfig, date string) ([]DisplayT
 			}
 
 			var courseName string = strings.TrimSpace(item.Name)
-			if config.NamePrefix != "" {
-				if courseName == "Championship" || courseName == "" {
-					courseName = config.NamePrefix
-				} else {
-					courseName = config.NamePrefix + " " + courseName
+			// Check names map first (like Chronogolf)
+			if mapped, ok := config.Names[courseName]; ok {
+				courseName = mapped
+			} else {
+				if config.NamePrefix != "" {
+					if courseName == "Championship" || courseName == "" {
+						courseName = config.NamePrefix
+					} else {
+						courseName = config.NamePrefix + " - " + courseName
+					}
+				}
+
+				// Normalize variants to use " - " separator so the frontend
+				// getBaseCourse() groups them under one dropdown entry.
+				// "City Park Back Nine" → "City Park - Back Nine"
+				// "Kennedy (Babe Lind / West)" → "Kennedy - Babe Lind / West"
+				if strings.HasSuffix(courseName, " Back Nine") {
+					courseName = strings.TrimSuffix(courseName, " Back Nine") + " - Back Nine"
+				}
+				if idx := strings.Index(courseName, " ("); idx > 0 && strings.HasSuffix(courseName, ")") {
+					base := courseName[:idx]
+					variant := courseName[idx+2 : len(courseName)-1]
+					courseName = base + " - " + variant
 				}
 			}
 

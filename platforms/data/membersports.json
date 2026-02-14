@@ -1,1 +1,101 @@
-[]
+[
+  {
+    "key": "denver-muni",
+    "metro": "denver",
+    "apiKey": "A9814038-9E19-4683-B171-5A06B39147FC",
+    "apiUrl": "https://api.membersports.com/api/v1/golfclubs/onlineBookingTeeTimes",
+    "clubId": 3629,
+    "courseId": 20573,
+    "groupId": 1,
+    "configType": 1,
+    "bookingUrl": "https://app.membersports.com/tee-times/3629/20573/1/1/0",
+    "namePrefix": "",
+    "knownCourses": [
+      "City Park",
+      "Evergreen",
+      "Harvard Gulch Par 3",
+      "Kennedy",
+      "Overland Park",
+      "Wellshire",
+      "Willis Case"
+    ],
+    "city": "Denver",
+    "state": "CO",
+    "names": {
+      "Kennedy Par 3 or Footgolf": "Kennedy - Par 3 or Footgolf"
+    }
+  },
+  {
+    "key": "broken-tee",
+    "metro": "denver",
+    "apiKey": "A9814038-9E19-4683-B171-5A06B39147FC",
+    "apiUrl": "https://api.membersports.com/api/v1/golfclubs/onlineBookingTeeTimes",
+    "clubId": 3689,
+    "courseId": 4748,
+    "groupId": 0,
+    "configType": 0,
+    "bookingUrl": "https://app.membersports.com/tee-times/3689/4748/0/0/0",
+    "namePrefix": "Broken Tee Golf Course",
+    "knownCourses": [
+      "Championship",
+      "Par 3"
+    ],
+    "city": "Englewood",
+    "state": "CO",
+    "names": {}
+  },
+  {
+    "key": "golf-lakewood",
+    "metro": "denver",
+    "apiKey": "A9814038-9E19-4683-B171-5A06B39147FC",
+    "apiUrl": "https://api.membersports.com/api/v1/golfclubs/onlineBookingTeeTimes",
+    "clubId": 3703,
+    "courseId": 20589,
+    "groupId": 7,
+    "configType": 0,
+    "bookingUrl": "https://app.membersports.com/tee-times/3703/20589/0/7/0",
+    "namePrefix": "",
+    "knownCourses": [
+      "Fox Hollow",
+      "Homestead Golf Course"
+    ],
+    "city": "Lakewood",
+    "state": "CO",
+    "names": {
+      "Fox Hollow (Canyon)": "Fox Hollow Golf Course - Canyon",
+      "Fox Hollow (Links / Canyon)": "Fox Hollow Golf Course - Links / Canyon",
+      "Fox Hollow (Links)": "Fox Hollow Golf Course - Links",
+      "Fox Hollow (Meadow)": "Fox Hollow Golf Course - Meadow",
+      "Homestead Golf Course": "Homestead Golf Course",
+      "Homestead Golf Course Back Nine": "Homestead Golf Course - Back Nine"
+    }
+  },
+  {
+    "key": "foothills-park-rec",
+    "metro": "denver",
+    "apiKey": "A9814038-9E19-4683-B171-5A06B39147FC",
+    "apiUrl": "https://api.membersports.com/api/v1/golfclubs/onlineBookingTeeTimes",
+    "clubId": 3697,
+    "courseId": 4758,
+    "groupId": 3,
+    "configType": 0,
+    "bookingUrl": "https://app.membersports.com/tee-times/3697/4758/0/3/0",
+    "namePrefix": "",
+    "knownCourses": [
+      "Foothills 18",
+      "Foothills Executive 9",
+      "Foothills Par 3",
+      "Meadows"
+    ],
+    "city": "Lakewood",
+    "state": "CO",
+    "names": {
+      "Foothills 18": "Foothills Golf Course",
+      "Foothills 18 Back Nine": "Foothills Golf Course - Back Nine",
+      "Foothills Executive 9": "Foothills Golf Course - Executive 9",
+      "Foothills Par 3": "Foothills Golf Course - Par 3",
+      "Meadows": "Meadows Golf Club",
+      "Meadows Back Nine": "Meadows Golf Club - Back Nine"
+    }
+  }
+]

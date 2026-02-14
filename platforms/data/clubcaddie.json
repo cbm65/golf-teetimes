@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "key": "applewood",
+    "metro": "denver",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "hbfdabab",
+    "courseId": "103418",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/hbfdabab/slots",
+    "displayName": "Applewood Golf Course",
+    "city": "Golden",
+    "state": "CO"
+  }
+]
