@@ -1,9 +1,12 @@
 package main
 
 import (
+	"bytes"
 	"encoding/json"
 	"errors"
 	"fmt"
+	"io"
+	"net/http"
 	"os"
 	"strings"
 	"time"
@@ -11,6 +14,40 @@ import (
 )
 
 const AlertsFile = "alerts.json"
+
+func sendSMS(to string, message string) error {
+	apiKey := os.Getenv("TELNYX_API_KEY")
+	fromNumber := os.Getenv("TELNYX_FROM_NUMBER")
+	if apiKey == "" || fromNumber == "" {
+		return fmt.Errorf("TELNYX_API_KEY or TELNYX_FROM_NUMBER not set")
+	}
+
+	payload, _ := json.Marshal(map[string]string{
+		"from": fromNumber,
+		"to":   to,
+		"text": message,
+	})
+
+	req, err := http.NewRequest("POST", "https://api.telnyx.com/v2/messages", bytes.NewBuffer(payload))
+	if err != nil {
+		return err
+	}
+	req.Header.Set("Content-Type", "application/json")
+	req.Header.Set("Authorization", "Bearer "+apiKey)
+
+	resp, err := http.DefaultClient.Do(req)
+	if err != nil {
+		return err
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode >= 300 {
+		body, _ := io.ReadAll(resp.Body)
+		return fmt.Errorf("telnyx API error %d: %s", resp.StatusCode, string(body))
+	}
+
+	return nil
+}
 
 func findChronogolfConfig(course string) (platforms.ChronogolfCourseConfig, bool) {
 	for _, config := range platforms.ChronogolfCourses {
@@ -608,7 +645,7 @@ func startAlertChecker() {
 			continue
 		}
 
-		for _, alert := range alerts {
+		for i, alert := range alerts {
 			if !alert.Active {
 				continue
 			}
@@ -660,11 +697,17 @@ func startAlertChecker() {
 			} else {
 				var msg string = buildAlertMessage(alert.Course, alert.Date, matches)
 				fmt.Println("   ", len(matches), "match(es) found!")
-				fmt.Println("    SMS would be:")
-				fmt.Println("    ────────────")
-				fmt.Println("   ", msg)
-				fmt.Println("    ────────────")
-				// TODO: send SMS via Twilio here
+				fmt.Println("    Sending SMS to", alert.Phone)
+				var smsErr error = sendSMS(alert.Phone, msg)
+				if smsErr != nil {
+					fmt.Println("    [ERROR] SMS failed:", smsErr)
+				} else {
+					fmt.Println("    ✓ SMS sent successfully")
+					// Deactivate alert so we don't send again
+					alert.Active = false
+					alerts[i] = alert
+					saveAlerts(alerts)
+				}
 			}
 		}
 
