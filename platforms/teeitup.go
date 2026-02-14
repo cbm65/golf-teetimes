@@ -109,7 +109,7 @@ func FetchTeeItUp(config TeeItUpCourseConfig, date string) ([]DisplayTeeTime, er
 	}
 
 	var loc *time.Location = TeeItUpTimezone(config.State)
-	var bookingURL string = "https://" + config.Alias + ".book.teeitup.com/teetimes"
+	var bookingURL string = fmt.Sprintf("https://%s.book.teeitup.com/teetimes?course=%s&date=%s", config.Alias, config.FacilityID, date)
 
 	var results []DisplayTeeTime
 	for _, tt := range data[0].Teetimes {
@@ -124,11 +124,10 @@ func FetchTeeItUp(config TeeItUpCourseConfig, date string) ([]DisplayTeeTime, er
 
 		var openings int = tt.MaxPlayers
 
-		// Get price and holes from cheapest rate
+		// Get price and holes from rates
 		var price float64 = 0
-		var holes int = 18
+		var holesMap = map[int]bool{}
 		if len(tt.Rates) > 0 {
-			holes = tt.Rates[0].Holes
 			var bestPrice float64 = 0
 			for _, rate := range tt.Rates {
 				var ratePrice float64 = 0
@@ -141,13 +140,22 @@ func FetchTeeItUp(config TeeItUpCourseConfig, date string) ([]DisplayTeeTime, er
 					bestPrice = ratePrice
 				}
 				if rate.Holes > 0 {
-					holes = rate.Holes
+					holesMap[rate.Holes] = true
 				}
 			}
 			price = bestPrice
 		}
 
-		var holesStr string = fmt.Sprintf("%d", holes)
+		var holesStr string
+		if holesMap[9] && holesMap[18] {
+			holesStr = "9-18"
+		} else if holesMap[18] {
+			holesStr = "18"
+		} else if holesMap[9] {
+			holesStr = "9"
+		} else {
+			holesStr = "18"
+		}
 
 		results = append(results, DisplayTeeTime{
 			Time:       timeStr,

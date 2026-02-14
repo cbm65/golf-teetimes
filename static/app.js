@@ -1,35 +1,9 @@
 var allTimes = []
 
 function getBaseCourse(name) {
-    if (name.indexOf("Kennedy") === 0) return "Kennedy"
-    if (name.indexOf("Fox Hollow") === 0) return "Fox Hollow"
-    if (name.indexOf("Homestead") === 0) return "Homestead"
-    if (name.indexOf("Harvard Gulch") === 0) return "Harvard Gulch"
-    if (name.indexOf("South Suburban") === 0) return "South Suburban"
-    if (name.indexOf("Foothills") === 0) return "Foothills"
-    if (name.indexOf("Meadows") === 0) return "Meadows"
-    if (name.indexOf("Broken Tee") === 0) return "Broken Tee"
-    if (name.indexOf("Fossil Trace") === 0) return "Fossil Trace"
-    if (name.indexOf("McCormick Ranch") === 0) return "McCormick Ranch"
-    if (name.indexOf("TPC Scottsdale") === 0) return "TPC Scottsdale"
-    if (name.indexOf("Verrado") === 0) return "Verrado"
-    if (name.indexOf("Grayhawk") === 0) return "Grayhawk"
-    if (name.indexOf("Coyote Lakes") === 0) return "Coyote Lakes"
-    if (name.indexOf("Granite Falls") === 0) return "Granite Falls"
-    if (name.indexOf("Wigwam") === 0) return "Wigwam"
-    if (name.indexOf("Troon North") === 0) return "Troon North"
-    if (name.indexOf("Aguila") === 0) return "Aguila"
-    if (name.indexOf("Encanto") === 0) return "Encanto"
-    if (name.indexOf("AZ Biltmore") === 0) return "AZ Biltmore"
-    if (name.indexOf("We-Ko-Pa") === 0) return "We-Ko-Pa"
-    if (name.indexOf("Talking Stick") === 0) return "Talking Stick"
-    if (name.indexOf("Whirlwind") === 0) return "Whirlwind"
-    if (name.indexOf("Wildfire") === 0) return "Wildfire"
-    if (name.indexOf("Camelback") === 0) return "Camelback"
-    if (name.indexOf("Gold Canyon") === 0) return "Gold Canyon"
-    if (name.indexOf("Bear Creek") === 0) return "Bear Creek"
-    if (name.indexOf("Riverdale") === 0) return "Riverdale"
-    return name.replace(" Back Nine", "")
+    var idx = name.indexOf(" - ")
+    if (idx > 0) return name.substring(0, idx)
+    return name
 }
 
 async function fetchTimes() {
@@ -182,7 +156,7 @@ function displayTimes() {
         if (h < fromVal || h >= toVal) continue
 
         if (openingsFilter !== "" && t.openings < parseInt(openingsFilter)) continue
-        if (holesFilter !== "" && t.holes !== holesFilter) continue
+        if (holesFilter !== "" && !t.holes.includes(holesFilter)) continue
 
         filtered.push(t)
     }

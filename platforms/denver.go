@@ -6,7 +6,23 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"strings"
 )
+
+var denverClubPrefixes = []string{
+	"Kennedy", "Fox Hollow", "Broken Tee", "South Suburban",
+	"Riverdale", "Foothills", "Homestead",
+}
+
+func normalizeDenverName(name string) string {
+	for _, prefix := range denverClubPrefixes {
+		if strings.HasPrefix(name, prefix+" ") {
+			sub := strings.TrimPrefix(name, prefix+" ")
+			return prefix + " - " + sub
+		}
+	}
+	return name
+}
 
 const DenverAPIKey = "A9814038-9E19-4683-B171-5A06B39147FC"
 const DenverAPIURL = "https://api.membersports.com/api/v1/golfclubs/onlineBookingTeeTimes"
@@ -111,7 +127,7 @@ func FetchDenver(date string) ([]DisplayTeeTime, error) {
 
 			results = append(results, DisplayTeeTime{
 				Time:       timeStr,
-				Course:     item.Name,
+				Course:     normalizeDenverName(item.Name),
 				Openings:   openings,
 				Holes:      holes,
 				Price:      item.Price,

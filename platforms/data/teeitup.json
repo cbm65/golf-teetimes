@@ -1,236 +1,38 @@
 [
   {
-    "key": "hylandhills",
-    "metro": "denver",
-    "alias": "hyland-hills-park-recreation-district",
-    "facilityId": "9201",
-    "displayName": "Hyland Hills",
-    "city": "Westminster",
-    "state": "CO"
-  },
-  {
-    "key": "stoneycreek",
-    "metro": "denver",
-    "alias": "stoney-creek-golf-course",
-    "facilityId": "13099",
-    "displayName": "Stoney Creek",
-    "city": "Arvada",
-    "state": "CO"
-  },
-  {
-    "key": "commonground",
-    "metro": "denver",
-    "alias": "commonground-golf-course",
-    "facilityId": "5275",
-    "displayName": "CommonGround",
-    "city": "Aurora",
-    "state": "CO"
-  },
-  {
-    "key": "buffalorun",
-    "metro": "denver",
-    "alias": "buffalo-run-golf-course",
-    "facilityId": "513",
-    "displayName": "Buffalo Run",
-    "city": "Commerce City",
-    "state": "CO"
-  },
-  {
-    "key": "riverdaledunes",
-    "metro": "denver",
-    "alias": "riverdale",
-    "facilityId": "1016",
-    "displayName": "Riverdale Dunes",
-    "city": "Brighton",
-    "state": "CO"
-  },
-  {
-    "key": "riverdaleknolls",
-    "metro": "denver",
-    "alias": "riverdale",
-    "facilityId": "1017",
-    "displayName": "Riverdale Knolls",
-    "city": "Brighton",
-    "state": "CO"
-  },
-  {
-    "key": "coloradonational",
-    "metro": "denver",
-    "alias": "colorado-national-golf-club",
-    "facilityId": "1719",
-    "displayName": "Colorado National",
-    "city": "Erie",
-    "state": "CO"
-  },
-  {
-    "key": "plumcreek",
-    "metro": "denver",
-    "alias": "plum-creek-golf-club-3",
-    "facilityId": "4137",
-    "displayName": "Plum Creek",
-    "city": "Castle Rock",
-    "state": "CO"
-  },
-  {
-    "key": "omniinterlocken",
-    "metro": "denver",
-    "alias": "omni-interlocken-resort-golf-club",
-    "facilityId": "594",
-    "displayName": "Omni Interlocken",
-    "city": "Broomfield",
-    "state": "CO"
-  },
-  {
-    "key": "dobsonranch",
-    "metro": "phoenix",
-    "alias": "dobson-ranch",
-    "facilityId": "6501",
-    "displayName": "Dobson Ranch",
-    "city": "Mesa",
-    "state": "AZ"
-  },
-  {
     "key": "aguila",
     "metro": "phoenix",
-    "alias": "city-of-phoenix-golf-courses",
+    "alias": "aguila-golf-course",
     "facilityId": "287",
     "displayName": "Aguila Golf Course",
-    "city": "Phoenix",
+    "city": "Laveen",
     "state": "AZ"
   },
   {
-    "key": "aguila9",
+    "key": "akchin-southern-dunes",
     "metro": "phoenix",
-    "alias": "city-of-phoenix-golf-courses",
-    "facilityId": "4322",
-    "displayName": "Aguila Golf Course 9",
-    "city": "Phoenix",
+    "alias": "ak-chin-southern-dunes-golf-club",
+    "facilityId": "3608",
+    "displayName": "Ak-Chin Southern Dunes Golf Club",
+    "city": "Maricopa",
     "state": "AZ"
   },
   {
-    "key": "cavecreek",
-    "metro": "phoenix",
-    "alias": "city-of-phoenix-golf-courses",
-    "facilityId": "288",
-    "displayName": "Cave Creek Golf Course",
-    "city": "Phoenix",
-    "state": "AZ"
-  },
-  {
-    "key": "encanto",
-    "metro": "phoenix",
-    "alias": "city-of-phoenix-golf-courses",
-    "facilityId": "289",
-    "displayName": "Encanto Golf Course",
-    "city": "Phoenix",
-    "state": "AZ"
-  },
-  {
-    "key": "encanto9",
-    "metro": "phoenix",
-    "alias": "city-of-phoenix-golf-courses",
-    "facilityId": "4323",
-    "displayName": "Encanto Golf Course 9",
-    "city": "Phoenix",
-    "state": "AZ"
-  },
-  {
-    "key": "paloverde",
-    "metro": "phoenix",
-    "alias": "city-of-phoenix-golf-courses",
-    "facilityId": "3209",
-    "displayName": "Palo Verde",
-    "city": "Phoenix",
-    "state": "AZ"
-  },
-  {
-    "key": "arizonagrand",
+    "key": "arizona-grand",
     "metro": "phoenix",
     "alias": "arizona-grand-golf-course",
     "facilityId": "12",
-    "displayName": "Arizona Grand",
+    "displayName": "Arizona Grand Golf Course",
     "city": "Phoenix",
     "state": "AZ"
   },
   {
-    "key": "cimarron",
+    "key": "cave-creek",
     "metro": "phoenix",
-    "alias": "cimarron-golf-course",
-    "facilityId": "5216",
-    "displayName": "Cimarron Golf Course",
-    "city": "Surprise",
-    "state": "AZ"
-  },
-  {
-    "key": "granitefallsnorth",
-    "metro": "phoenix",
-    "alias": "granite-falls-golf-course-north",
-    "facilityId": "167",
-    "displayName": "Granite Falls North",
-    "city": "Surprise",
-    "state": "AZ"
-  },
-  {
-    "key": "desertsprings",
-    "metro": "phoenix",
-    "alias": "desert-springs-golf-course",
-    "facilityId": "164",
-    "displayName": "Desert Springs",
-    "city": "Surprise",
-    "state": "AZ"
-  },
-  {
-    "key": "granitefallssouth",
-    "metro": "phoenix",
-    "alias": "granite-falls-golf-course-south",
-    "facilityId": "11485",
-    "displayName": "Granite Falls South",
-    "city": "Surprise",
-    "state": "AZ"
-  },
-  {
-    "key": "silverado",
-    "metro": "phoenix",
-    "alias": "silverado-golf-club",
-    "facilityId": "59",
-    "displayName": "Silverado Golf Club",
-    "city": "Scottsdale",
-    "state": "AZ"
-  },
-  {
-    "key": "paradisevalley",
-    "metro": "phoenix",
-    "alias": "paradise-valley-golf",
-    "facilityId": "6749",
-    "displayName": "Paradise Valley Golf",
+    "alias": "cave-creek-golf-course",
+    "facilityId": "288",
+    "displayName": "Cave Creek Golf Course",
     "city": "Phoenix",
-    "state": "AZ"
-  },
-  {
-    "key": "legacygolfclub",
-    "metro": "phoenix",
-    "alias": "the-legacy-golf-club",
-    "facilityId": "57",
-    "displayName": "Legacy Golf Club",
-    "city": "Phoenix",
-    "state": "AZ"
-  },
-  {
-    "key": "lassendas",
-    "metro": "phoenix",
-    "alias": "las-sendas-golf-club",
-    "facilityId": "21",
-    "displayName": "Las Sendas Golf Club",
-    "city": "Mesa",
-    "state": "AZ"
-  },
-  {
-    "key": "starfire",
-    "metro": "phoenix",
-    "alias": "starfire-golf-club-scottsdale",
-    "facilityId": "6",
-    "displayName": "Starfire Golf Club",
-    "city": "Scottsdale",
     "state": "AZ"
   },
   {
@@ -243,7 +45,52 @@
     "state": "AZ"
   },
   {
-    "key": "greenfieldlakes",
+    "key": "coronado",
+    "metro": "phoenix",
+    "alias": "coronado-golf-course",
+    "facilityId": "5042",
+    "displayName": "Coronado Golf Course",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "encanto",
+    "metro": "phoenix",
+    "alias": "encanto-golf-course",
+    "facilityId": "289",
+    "displayName": "Encanto Golf Course",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "foothills",
+    "metro": "phoenix",
+    "alias": "foothills-golf-club",
+    "facilityId": "430",
+    "displayName": "Foothills Golf Club",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "of-estrella",
+    "metro": "phoenix",
+    "alias": "golf-club-of-estrella",
+    "facilityId": "51",
+    "displayName": "Golf Club of Estrella",
+    "city": "Goodyear",
+    "state": "AZ"
+  },
+  {
+    "key": "grand-canyon-university",
+    "metro": "phoenix",
+    "alias": "grand-canyon-university-golf-course",
+    "facilityId": "290",
+    "displayName": "Grand Canyon University Golf Course",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "greenfield-lakes",
     "metro": "phoenix",
     "alias": "greenfield-lakes-golf-course",
     "facilityId": "4481",
@@ -252,34 +99,88 @@
     "state": "AZ"
   },
   {
-    "key": "coronado",
+    "key": "kokopelli",
     "metro": "phoenix",
-    "alias": "coronado-gc-3-14-be",
-    "facilityId": "10985",
-    "displayName": "Coronado Golf Course",
+    "alias": "kokopelli-golf-club",
+    "facilityId": "121",
+    "displayName": "Kokopelli Golf Club",
+    "city": "Gilbert",
+    "state": "AZ"
+  },
+  {
+    "key": "las-colinas",
+    "metro": "phoenix",
+    "alias": "las-colinas-golf-club",
+    "facilityId": "1381",
+    "displayName": "Las Colinas Golf Club",
+    "city": "Queen Creek",
+    "state": "AZ"
+  },
+  {
+    "key": "las-sendas",
+    "metro": "phoenix",
+    "alias": "las-sendas-golf-club",
+    "facilityId": "21",
+    "displayName": "Las Sendas Golf Club",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "legend-trail",
+    "metro": "phoenix",
+    "alias": "legend-trail-golf-club",
+    "facilityId": "111",
+    "displayName": "Legend Trail Golf Club",
     "city": "Scottsdale",
     "state": "AZ"
   },
   {
-    "key": "bellair",
+    "key": "little-oasis-club",
     "metro": "phoenix",
-    "alias": "bellair-golf-park",
-    "facilityId": "4505",
-    "displayName": "Bellair Golf Park",
-    "city": "Glendale",
+    "alias": "royal-palms-golf-course",
+    "facilityId": "10907",
+    "displayName": "Little Oasis Club",
+    "city": "Mesa",
     "state": "AZ"
   },
   {
-    "key": "santanhighlands",
+    "key": "lone-tree",
     "metro": "phoenix",
-    "alias": "san-tan-highlands",
-    "facilityId": "58",
-    "displayName": "San Tan Highlands",
-    "city": "San Tan Valley",
+    "alias": "lone-tree-golf-club",
+    "facilityId": "1349",
+    "displayName": "Lone Tree Golf Club",
+    "city": "Chandler",
     "state": "AZ"
   },
   {
-    "key": "ranchomanana",
+    "key": "longbow",
+    "metro": "phoenix",
+    "alias": "longbow-golf-club",
+    "facilityId": "3021",
+    "displayName": "Longbow Golf Club",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "mountain-brook",
+    "metro": "phoenix",
+    "alias": "mountain-brook-golf-club",
+    "facilityId": "3173",
+    "displayName": "Mountain Brook Golf Club",
+    "city": "Gold Canyon",
+    "state": "AZ"
+  },
+  {
+    "key": "pueblo-el-mirage",
+    "metro": "phoenix",
+    "alias": "pueblo-el-mirage-golf-course",
+    "facilityId": "6914",
+    "displayName": "Pueblo El Mirage Golf Course",
+    "city": "El Mirage",
+    "state": "AZ"
+  },
+  {
+    "key": "rancho-manana",
     "metro": "phoenix",
     "alias": "rancho-manana-golf-club",
     "facilityId": "2914",
@@ -288,30 +189,102 @@
     "state": "AZ"
   },
   {
-    "key": "royalpalms",
+    "key": "raven-phoenix",
     "metro": "phoenix",
-    "alias": "royal-palms-golf-course",
-    "facilityId": "10907",
-    "displayName": "Royal Palms Golf Course",
+    "alias": "raven-golf-club-phoenix",
+    "facilityId": "1446",
+    "displayName": "Raven Golf Club Phoenix",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "red-mountain-ranch",
+    "metro": "phoenix",
+    "alias": "red-mountain-ranch-country-club",
+    "facilityId": "4678",
+    "displayName": "Red Mountain Ranch Country Club",
     "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "san-tan-highlands",
+    "metro": "phoenix",
+    "alias": "golf-club-at-johnson-ranch",
+    "facilityId": "58",
+    "displayName": "San Tan Highlands",
+    "city": "San Tan Valley",
+    "state": "AZ"
+  },
+  {
+    "key": "starfire",
+    "metro": "phoenix",
+    "alias": "starfire-golf-club",
+    "facilityId": "6",
+    "displayName": "Starfire Golf Club",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "stonecreek",
+    "metro": "phoenix",
+    "alias": "stonecreek-golf-club",
+    "facilityId": "122",
+    "displayName": "Stonecreek Golf Club",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "superstition-springs",
+    "metro": "phoenix",
+    "alias": "superstition-springs-golf-club",
+    "facilityId": "120",
+    "displayName": "Superstition Springs Golf Club",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "talking-stick",
+    "metro": "phoenix",
+    "alias": "talking-stick-golf-club",
+    "facilityId": "814",
+    "displayName": "Talking Stick Golf Club",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "trilogy-at-vistancia",
+    "metro": "phoenix",
+    "alias": "trilogy-golf-club-at-vistancia",
+    "facilityId": "1327",
+    "displayName": "Trilogy Golf Club at Vistancia",
+    "city": "Peoria",
+    "state": "AZ"
+  },
+  {
+    "key": "troon-north",
+    "metro": "phoenix",
+    "alias": "troon-north-golf-club",
+    "facilityId": "813",
+    "displayName": "Troon North Golf Club",
+    "city": "Scottsdale",
     "state": "AZ"
   },
   {
     "key": "viewpoint",
     "metro": "phoenix",
-    "alias": "viewpoint-golf-resort-non-residents",
+    "alias": "viewpoint-golf-resort",
     "facilityId": "169",
     "displayName": "Viewpoint Golf Resort",
     "city": "Mesa",
     "state": "AZ"
   },
   {
-    "key": "durangohills",
-    "metro": "lasvegas",
-    "alias": "durango-hills-golf-club-non-resident",
-    "facilityId": "9934",
-    "displayName": "Durango Hills",
-    "city": "Las Vegas",
-    "state": "NV"
+    "key": "wickenburg",
+    "metro": "phoenix",
+    "alias": "wickenburg-country-club",
+    "facilityId": "9766",
+    "displayName": "Wickenburg Country Club",
+    "city": "Wickenburg",
+    "state": "AZ"
   }
 ]

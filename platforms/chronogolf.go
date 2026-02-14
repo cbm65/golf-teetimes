@@ -6,6 +6,7 @@ import (
 	"io"
 	"net/http"
 	"strconv"
+	"strings"
 )
 
 type ChronogolfCourseConfig struct {
@@ -41,7 +42,7 @@ type ChronogolfCourseAPI struct {
 }
 
 type ChronogolfPrice struct {
-	GreenFee float64 `json:"green_fee"`
+	GreenFee json.Number `json:"green_fee"`
 }
 
 type ChronogolfClubSlot struct {
@@ -51,7 +52,7 @@ type ChronogolfClubSlot struct {
 }
 
 type ChronogolfClubGreenFee struct {
-	GreenFee float64 `json:"green_fee"`
+	GreenFee json.Number `json:"green_fee"`
 }
 
 func formatHoles(holes []int) string {
@@ -65,6 +66,11 @@ func formatHoles(holes []int) string {
 		}
 	}
 	return strconv.Itoa(max)
+}
+
+func toFloat(n json.Number) float64 {
+	f, _ := n.Float64()
+	return f
 }
 
 func FetchChronogolf(config ChronogolfCourseConfig, date string) ([]DisplayTeeTime, error) {
@@ -142,6 +148,15 @@ func FetchChronogolf(config ChronogolfCourseConfig, date string) ([]DisplayTeeTi
 
 		var courseName string = slot.Course.Name
 		var displayName string = config.Names[courseName]
+		if displayName == "" {
+			trimmed := strings.TrimSpace(courseName)
+			for k, v := range config.Names {
+				if strings.EqualFold(strings.TrimSpace(k), trimmed) {
+					displayName = v
+					break
+				}
+			}
+		}
 		if displayName != "" {
 			courseName = displayName
 		}
@@ -155,8 +170,8 @@ func FetchChronogolf(config ChronogolfCourseConfig, date string) ([]DisplayTeeTi
 			State:      config.State,
 			Openings:   slot.MaxPlayerSize,
 			Holes:      holesStr,
-			Price:      slot.DefaultPrice.GreenFee,
-			BookingURL: config.BookingURL,
+			Price:      toFloat(slot.DefaultPrice.GreenFee),
+			BookingURL: config.BookingURL + "?date=" + date + "&step=teetimes",
 		})
 	}
 
@@ -228,7 +243,7 @@ func FetchChronogolfClub(config ChronogolfCourseConfig, date string) ([]DisplayT
 
 		var price float64
 		if len(slot.GreenFees) > 0 {
-			price = slot.GreenFees[0].GreenFee
+			price = toFloat(slot.GreenFees[0].GreenFee)
 		}
 
 		results = append(results, DisplayTeeTime{
@@ -239,7 +254,7 @@ func FetchChronogolfClub(config ChronogolfCourseConfig, date string) ([]DisplayT
 			Openings:   len(slot.GreenFees),
 			Holes:      "18",
 			Price:      price,
-			BookingURL: config.BookingURL,
+			BookingURL: config.BookingURL + "?date=" + date + "&step=teetimes",
 		})
 	}
 
