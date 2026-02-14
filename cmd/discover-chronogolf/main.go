@@ -14,16 +14,21 @@ import (
 
 // Chronogolf Discovery Tool
 //
-// Probes courses by constructing URL slugs from name + state + city and
-// fetching the club page. The embedded __NEXT_DATA__ contains club_id,
-// course UUIDs, affiliation_type_id — everything needed for tee time queries.
+// Probes courses by constructing URL slugs and fetching the club page at
+// https://www.chronogolf.com/club/{slug}. The embedded __NEXT_DATA__ contains
+// club_id, course UUIDs, affiliation_type_id — everything needed for tee time queries.
 //
 // Usage: go run cmd/discover-chronogolf/main.go <state> -f <file>
+//    or: go run cmd/discover-chronogolf/main.go <state> "Course Name"
 //
 // The file should have lines like: Course Name | City
 //
-// Example:
-//   go run cmd/discover-chronogolf/main.go AZ -f discovery/courses/phoenix.txt
+// Slug patterns tried (in order):
+//   1. name-state-city       (e.g. "papago-golf-course-arizona-phoenix")
+//   2. name                  (e.g. "papago-golf-course")
+//   3. Suffix swaps          (e.g. "papago-golf-club", "papago-country-club")
+//   4. Core + suffixes       (e.g. "papago-golf", "papago")
+//   5. City-first variants   (e.g. "phoenix-papago-golf-course")
 
 var stateNames = map[string]string{
 	"AL": "alabama", "AK": "alaska", "AZ": "arizona", "AR": "arkansas",
@@ -76,82 +81,31 @@ type Result struct {
 	Input        string    `json:"input"`
 	City         string    `json:"city"`
 	Slug         string    `json:"slug"`
-	Status       string    `json:"status"` // "confirmed", "listed_only", "wrong_state", "miss"
+	SlugSource   string    `json:"slugSource"`
+	Status       string    `json:"status"` // "confirmed", "listed_only", "wrong_state", "wrong_city", "miss"
 	Club         *ClubData `json:"club,omitempty"`
 	DatesChecked []string  `json:"datesChecked,omitempty"`
 	TeeTimes     []int     `json:"teeTimes,omitempty"`
+}
+
+type CourseInput struct {
+	Name string
+	City string
 }
 
 func log(format string, args ...any) {
 	fmt.Printf("[%s] %s\n", time.Now().Format("15:04:05.000"), fmt.Sprintf(format, args...))
 }
 
-func probeDates() []string {
-	now := time.Now()
-	var dates []string
-	// Next Wednesday
-	d := now
-	for d.Weekday() != time.Wednesday {
-		d = d.AddDate(0, 0, 1)
-	}
-	dates = append(dates, d.Format("2006-01-02"))
-	// Next Saturday
-	d = now
-	for d.Weekday() != time.Saturday {
-		d = d.AddDate(0, 0, 1)
-	}
-	dates = append(dates, d.Format("2006-01-02"))
-	// Saturday after that
-	dates = append(dates, d.AddDate(0, 0, 7).Format("2006-01-02"))
-	return dates
-}
-
-func fetchTeeTimeCount(client *http.Client, courseUUIDs []string, date string) (int, error) {
-	ids := strings.Join(courseUUIDs, ",")
-	url := fmt.Sprintf("https://www.chronogolf.com/marketplace/v2/teetimes?start_date=%s&course_ids=%s&holes=9,18&page=1", date, ids)
-
-	req, err := http.NewRequest("GET", url, nil)
-	if err != nil {
-		return 0, err
-	}
-	req.Header.Set("Accept", "application/json")
-	req.Header.Set("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36")
-
-	resp, err := client.Do(req)
-	if err != nil {
-		return 0, err
-	}
-	defer resp.Body.Close()
-
-	if resp.StatusCode != 200 {
-		io.ReadAll(resp.Body)
-		return 0, fmt.Errorf("status %d", resp.StatusCode)
-	}
-
-	body, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return 0, err
-	}
-
-	var data struct {
-		TeeTimes []json.RawMessage `json:"teetimes"`
-	}
-	if err := json.Unmarshal(body, &data); err != nil {
-		return 0, err
-	}
-
-	return len(data.TeeTimes), nil
-}
-
 func slugify(s string) string {
 	s = strings.ToLower(s)
 	s = strings.ReplaceAll(s, "&", "and")
 	s = strings.ReplaceAll(s, "'", "")
+	s = strings.ReplaceAll(s, "\u2019", "")
 	s = strings.ReplaceAll(s, ".", "")
 	s = strings.ReplaceAll(s, ",", "")
 	s = strings.ReplaceAll(s, "(", "")
 	s = strings.ReplaceAll(s, ")", "")
-	// Replace non-alphanumeric with hyphens
 	var b strings.Builder
 	for _, c := range s {
 		if (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9') {
@@ -160,7 +114,6 @@ func slugify(s string) string {
 			b.WriteRune('-')
 		}
 	}
-	// Collapse multiple hyphens
 	result := b.String()
 	for strings.Contains(result, "--") {
 		result = strings.ReplaceAll(result, "--", "-")
@@ -169,44 +122,105 @@ func slugify(s string) string {
 }
 
 func coreName(name string) string {
-	s := strings.ToLower(name)
-	// Strip common suffixes
+	s := name
 	for _, suffix := range []string{
-		"golf course", "golf club", "golf resort", "golf complex",
-		"country club", "golf links", "golf center",
+		" Golf Course", " Golf Club", " Golf Resort", " Golf Complex",
+		" Country Club", " Golf Links", " Golf Center", " Golf & Country Club",
+		" Golf and Country Club", " GC", " CC",
 	} {
-		s = strings.ReplaceAll(s, suffix, "")
+		if strings.HasSuffix(strings.ToLower(s), strings.ToLower(suffix)) {
+			s = s[:len(s)-len(suffix)]
+			break
+		}
 	}
-	s = strings.TrimPrefix(s, "the ")
+	for _, prefix := range []string{"The ", "Golf Club of ", "Golf Club at "} {
+		if strings.HasPrefix(s, prefix) {
+			s = s[len(prefix):]
+			break
+		}
+	}
 	return strings.TrimSpace(s)
 }
 
-func buildSlugs(name, stateFull, city string) []string {
+func buildSlugs(name, stateFull, city string) []struct{ slug, source string } {
 	seen := map[string]bool{}
-	var slugs []string
-	add := func(s string) {
-		s = slugify(s)
+	var slugs []struct{ slug, source string }
+	add := func(raw, source string) {
+		s := slugify(raw)
 		if s != "" && !seen[s] {
 			seen[s] = true
-			slugs = append(slugs, s)
+			slugs = append(slugs, struct{ slug, source string }{s, source})
 		}
 	}
 
 	core := coreName(name)
 
-	// Full name + state + city
-	add(name + " " + stateFull + " " + city)
-	// Full name only
-	add(name)
-	// Core name + common suffixes
-	add(core + " golf club")
-	add(core + " golf course")
-	add(core + " resort")
-	add(core + " golf")
-	// Core name bare
-	add(core)
+	// 1. Full name + state + city (Chronogolf's primary slug pattern)
+	if city != "" {
+		add(name+" "+stateFull+" "+city, "name+state+city")
+	}
+
+	// 2. Full name + state (no city)
+	add(name+" "+stateFull, "name+state")
+
+	// 3. Full name only
+	add(name, "name")
+
+	// 4. Without "The " prefix
+	if strings.HasPrefix(name, "The ") {
+		add(strings.TrimPrefix(name, "The "), "no-the")
+		if city != "" {
+			add(strings.TrimPrefix(name, "The ")+" "+stateFull+" "+city, "no-the+state+city")
+		}
+	}
+
+	// 5. Suffix swaps
+	suffixes := []string{"golf-course", "golf-club", "country-club", "golf-resort", "golf-links", "golf-center"}
+	exactSlug := slugify(name)
+	for _, oldSuffix := range suffixes {
+		if strings.HasSuffix(exactSlug, "-"+oldSuffix) {
+			base := strings.TrimSuffix(exactSlug, "-"+oldSuffix)
+			for _, newSuffix := range suffixes {
+				if newSuffix != oldSuffix {
+					add(base+"-"+newSuffix, "swap-"+newSuffix)
+				}
+			}
+			break
+		}
+	}
+
+	// 6. Core name + common suffixes
+	add(core+" golf club", "core+club")
+	add(core+" golf course", "core+course")
+	add(core+" golf resort", "core+resort")
+	add(core+" golf", "core+golf")
+
+	// 7. Core name bare
+	add(core, "core")
+
+	// 8. Core + state + city
+	if city != "" {
+		add(core+" "+stateFull+" "+city, "core+state+city")
+	}
 
 	return slugs
+}
+
+func probeDates() []string {
+	now := time.Now()
+	var dates []string
+	d := now
+	for d.Weekday() != time.Wednesday {
+		d = d.AddDate(0, 0, 1)
+	}
+	dates = append(dates, d.Format("2006-01-02"))
+	d = now
+	for d.Weekday() != time.Saturday {
+		d = d.AddDate(0, 0, 1)
+	}
+	dates = append(dates, d.Format("2006-01-02"))
+	dates = append(dates, d.AddDate(0, 0, 7).Format("2006-01-02"))
+	return dates
 }
 
 func probeSlug(client *http.Client, slug string) (*ClubData, error) {
@@ -259,42 +273,74 @@ func probeSlug(client *http.Client, slug string) (*ClubData, error) {
 	return club, nil
 }
 
-type CourseEntry struct {
-	Name string
-	City string
+func fetchTeeTimeCount(client *http.Client, courseUUIDs []string, date string) (int, error) {
+	ids := strings.Join(courseUUIDs, ",")
+	url := fmt.Sprintf("https://www.chronogolf.com/marketplace/v2/teetimes?start_date=%s&course_ids=%s&holes=9,18&page=1", date, ids)
+
+	req, err := http.NewRequest("GET", url, nil)
+	if err != nil {
+		return 0, err
+	}
+	req.Header.Set("Accept", "application/json")
+	req.Header.Set("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36")
+
+	resp, err := client.Do(req)
+	if err != nil {
+		return 0, err
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != 200 {
+		io.ReadAll(resp.Body)
+		return 0, fmt.Errorf("status %d", resp.StatusCode)
+	}
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return 0, err
+	}
+
+	var data struct {
+		TeeTimes []json.RawMessage `json:"teetimes"`
+	}
+	if err := json.Unmarshal(body, &data); err != nil {
+		return 0, err
+	}
+
+	return len(data.TeeTimes), nil
 }
 
-func readCoursesFromFile(path string) ([]CourseEntry, error) {
+func readInputFromFile(path string) ([]CourseInput, error) {
 	f, err := os.Open(path)
 	if err != nil {
 		return nil, err
 	}
 	defer f.Close()
 
-	var courses []CourseEntry
+	var inputs []CourseInput
 	scanner := bufio.NewScanner(f)
 	for scanner.Scan() {
 		line := strings.TrimSpace(scanner.Text())
 		if line == "" || strings.HasPrefix(line, "#") {
 			continue
 		}
-		parts := strings.SplitN(line, "|", 2)
+		parts := strings.SplitN(line, "|", 3)
 		name := strings.TrimSpace(parts[0])
 		city := ""
 		if len(parts) > 1 {
 			city = strings.TrimSpace(parts[1])
 		}
 		if name != "" {
-			courses = append(courses, CourseEntry{Name: name, City: city})
+			inputs = append(inputs, CourseInput{Name: name, City: city})
 		}
 	}
-	return courses, scanner.Err()
+	return inputs, scanner.Err()
 }
 
 func main() {
-	if len(os.Args) < 4 || os.Args[2] != "-f" {
+	if len(os.Args) < 3 {
 		fmt.Fprintf(os.Stderr, "Usage: go run cmd/discover-chronogolf/main.go <state> -f <file>\n")
-		fmt.Fprintf(os.Stderr, "Example: go run cmd/discover-chronogolf/main.go AZ -f discovery/courses/phoenix.txt\n")
+		fmt.Fprintf(os.Stderr, "   or: go run cmd/discover-chronogolf/main.go <state> \"Course Name\"\n")
 		os.Exit(1)
 	}
 
@@ -305,159 +351,198 @@ func main() {
 		os.Exit(1)
 	}
 
-	courses, err := readCoursesFromFile(os.Args[3])
-	if err != nil {
-		fmt.Fprintf(os.Stderr, "Error reading file: %v\n", err)
-		os.Exit(1)
+	var inputs []CourseInput
+	if os.Args[2] == "-f" {
+		if len(os.Args) < 4 {
+			fmt.Fprintf(os.Stderr, "Missing file path after -f\n")
+			os.Exit(1)
+		}
+		var err error
+		inputs, err = readInputFromFile(os.Args[3])
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Error reading file: %v\n", err)
+			os.Exit(1)
+		}
+	} else {
+		for _, name := range os.Args[2:] {
+			inputs = append(inputs, CourseInput{Name: name})
+		}
 	}
 
 	startTime := time.Now()
+	dates := probeDates()
 
 	log("=== Chronogolf Discovery ===")
 	log("State: %s (%s)", state, stateFull)
-	log("Courses to probe: %d", len(courses))
+	log("Courses to probe: %d", len(inputs))
+	log("Validation dates: %s, %s, %s", dates[0], dates[1], dates[2])
 	log("")
 
 	client := &http.Client{Timeout: 15 * time.Second}
 
 	var results []Result
-	confirmed, missed, wrongState, listedOnly := 0, 0, 0, 0
-	dates := probeDates()
+	var confirmedCount, missCount, wrongStateCount, listedOnlyCount int
 
-	for i, c := range courses {
-		if c.City == "" {
-			log("[%d/%d] %-45s  ⚠️  no city, skipping", i+1, len(courses), c.Name)
-			results = append(results, Result{Input: c.Name, City: c.City, Status: "miss"})
-			missed++
+	// Track discovered clubs by ID to avoid duplicates
+	discoveredByClubID := map[int]bool{}
+	// Cache slugs that 404'd
+	deadSlugs := map[string]bool{}
+
+	for i, input := range inputs {
+		slugs := buildSlugs(input.Name, stateFull, input.City)
+		log("[%d/%d] %q (city: %q) — %d slug candidates", i+1, len(inputs), input.Name, input.City, len(slugs))
+
+		var club *ClubData
+		var matchedSlug, matchedSource string
+
+		for _, s := range slugs {
+			if deadSlugs[s.slug] {
+				continue
+			}
+			var err error
+			club, err = probeSlug(client, s.slug)
+			if err != nil {
+				deadSlugs[s.slug] = true
+				time.Sleep(100 * time.Millisecond)
+				continue
+			}
+			matchedSlug = s.slug
+			matchedSource = s.source
+			log("  %s (%s): HIT — %q (%s, %s)", s.slug, s.source, club.Name, club.City, club.Province)
+			break
+		}
+
+		if club == nil {
+			log("  MISS — no slug matched")
+			results = append(results, Result{Input: input.Name, City: input.City, Status: "miss"})
+			missCount++
+			log("")
 			continue
 		}
 
-		slugs := buildSlugs(c.Name, stateFull, c.City)
-		var club *ClubData
-		var matchedSlug string
-
-		for _, slug := range slugs {
-			club, err = probeSlug(client, slug)
-			if err == nil {
-				matchedSlug = slug
-				break
-			}
+		// Dedup by club ID
+		if discoveredByClubID[club.ID] {
+			log("  SKIPPED — club ID %d already discovered", club.ID)
+			log("")
+			continue
 		}
 
-		if club != nil {
-			// Validate state — slug may match a course in another state
-			clubState := strings.ToLower(club.Province)
-			if clubState != stateFull && clubState != strings.ToLower(state) {
-				log("[%d/%d] %-45s  ⚠️  wrong state: %s (slug=%s)", i+1, len(courses), c.Name, club.Province, club.Slug)
-				results = append(results, Result{
-					Input:  c.Name,
-					City:   c.City,
-					Slug:   matchedSlug,
-					Status: "wrong_state",
-					Club:   club,
-				})
-				wrongState++
-				continue
-			}
-			// Collect course UUIDs for tee time probe
-			var courseUUIDs []string
-			for _, cc := range club.Courses {
-				if cc.UUID != "" {
-					courseUUIDs = append(courseUUIDs, cc.UUID)
-				}
-			}
-
-			// 3-date tee time validation
-			var datesChecked []string
-			var teeTimes []int
-			totalTimes := 0
-
-			if len(courseUUIDs) > 0 {
-				for _, date := range dates {
-					count, err := fetchTeeTimeCount(client, courseUUIDs, date)
-					if err != nil {
-						count = 0
-					}
-					datesChecked = append(datesChecked, date)
-					teeTimes = append(teeTimes, count)
-					totalTimes += count
-					time.Sleep(200 * time.Millisecond)
-				}
-			}
-
-			courseNames := make([]string, len(club.Courses))
-			for j, cc := range club.Courses {
-				courseNames[j] = cc.Name
-			}
-
-			if totalTimes > 0 {
-				confirmed++
-				log("[%d/%d] %-45s  ✅ id=%d  times=%v  courses=%v",
-					i+1, len(courses), c.Name, club.ID, teeTimes, courseNames)
-				results = append(results, Result{
-					Input:        c.Name,
-					City:         c.City,
-					Slug:         club.Slug,
-					Status:       "confirmed",
-					Club:         club,
-					DatesChecked: datesChecked,
-					TeeTimes:     teeTimes,
-				})
-			} else {
-				listedOnly++
-				log("[%d/%d] %-45s  📋 listed (0 times)  id=%d  slug=%s",
-					i+1, len(courses), c.Name, club.ID, club.Slug)
-				results = append(results, Result{
-					Input:        c.Name,
-					City:         c.City,
-					Slug:         club.Slug,
-					Status:       "listed_only",
-					Club:         club,
-					DatesChecked: datesChecked,
-					TeeTimes:     teeTimes,
-				})
-			}
-		} else {
-			missed++
-			log("[%d/%d] %-45s  ❌ miss  (tried %d slugs)", i+1, len(courses), c.Name, len(slugs))
+		// State validation
+		clubState := strings.ToLower(club.Province)
+		if clubState != stateFull && clubState != strings.ToLower(state) {
+			log("  WRONG STATE — got %q, wanted %q", club.Province, stateFull)
 			results = append(results, Result{
-				Input:  c.Name,
-				City:   c.City,
-				Slug:   matchedSlug,
-				Status: "miss",
+				Input: input.Name, City: input.City, Slug: matchedSlug, SlugSource: matchedSource,
+				Status: "wrong_state", Club: club,
 			})
+			wrongStateCount++
+			log("")
+			continue
 		}
 
-		time.Sleep(200 * time.Millisecond)
+		// City validation — warn but don't reject (Chronogolf city names can vary)
+		if input.City != "" && !strings.EqualFold(strings.TrimSpace(club.City), strings.TrimSpace(input.City)) {
+			log("  ⚠️  City mismatch: expected %q, got %q — continuing", input.City, club.City)
+		}
+
+		// Collect course UUIDs for tee time probe
+		var courseUUIDs []string
+		for _, cc := range club.Courses {
+			if cc.UUID != "" {
+				courseUUIDs = append(courseUUIDs, cc.UUID)
+			}
+		}
+
+		// 3-date tee time validation
+		var datesChecked []string
+		var teeTimes []int
+		totalTimes := 0
+
+		if len(courseUUIDs) > 0 {
+			for _, date := range dates {
+				count, err := fetchTeeTimeCount(client, courseUUIDs, date)
+				if err != nil {
+					log("    %s: ERROR %v", date, err)
+					count = 0
+				}
+				datesChecked = append(datesChecked, date)
+				teeTimes = append(teeTimes, count)
+				totalTimes += count
+				log("    %s: %d tee times", date, count)
+				time.Sleep(200 * time.Millisecond)
+			}
+		}
+
+		courseNames := make([]string, len(club.Courses))
+		for j, cc := range club.Courses {
+			courseNames[j] = fmt.Sprintf("%s (%dh)", cc.Name, cc.Holes)
+		}
+
+		discoveredByClubID[club.ID] = true
+
+		if totalTimes > 0 {
+			log("  ✅ CONFIRMED — %d total tee times  courses=%v", totalTimes, courseNames)
+			results = append(results, Result{
+				Input: input.Name, City: input.City, Slug: club.Slug, SlugSource: matchedSource,
+				Status: "confirmed", Club: club, DatesChecked: datesChecked, TeeTimes: teeTimes,
+			})
+			confirmedCount++
+		} else {
+			log("  ⚠️  LISTED ONLY — 0 tee times  courses=%v", courseNames)
+			results = append(results, Result{
+				Input: input.Name, City: input.City, Slug: club.Slug, SlugSource: matchedSource,
+				Status: "listed_only", Club: club, DatesChecked: datesChecked, TeeTimes: teeTimes,
+			})
+			listedOnlyCount++
+		}
+
+		log("")
 	}
 
 	elapsed := time.Since(startTime)
 
-	log("")
-	log("=== Results ===")
-	log("Total: %d", len(courses))
-	log("Confirmed: %d", confirmed)
-	log("Listed Only: %d", listedOnly)
-	log("Wrong State: %d", wrongState)
-	log("Missed: %d", missed)
-	log("Elapsed: %s", elapsed.Round(time.Second))
+	log("========================================")
+	log("=== SUMMARY")
+	log("========================================")
+	log("Total probed:  %d", len(inputs))
+	log("Confirmed:     %d", confirmedCount)
+	log("Listed only:   %d", listedOnlyCount)
+	log("Wrong state:   %d", wrongStateCount)
+	log("Misses:        %d", missCount)
+	log("Elapsed:       %s", elapsed.Round(time.Millisecond))
 	log("")
 
-	if confirmed > 0 {
-		log("=== Confirmed ===")
+	if confirmedCount > 0 {
+		log("=== CONFIRMED ===")
 		for _, r := range results {
 			if r.Status == "confirmed" {
-				log("  %-45s  id=%-6d  slug=%s", r.Club.Name, r.Club.ID, r.Club.Slug)
+				total := 0
+				for _, t := range r.TeeTimes {
+					total += t
+				}
+				log("  %-40s slug:%-45s [%s] id:%-6d %s (%s)  [%d times]",
+					r.Input, r.Club.Slug, r.SlugSource, r.Club.ID, r.Club.Name, r.Club.City, total)
 			}
 		}
 		log("")
 	}
 
-	if missed > 0 {
-		log("=== Missed ===")
+	if listedOnlyCount > 0 {
+		log("=== LISTED ONLY ===")
+		for _, r := range results {
+			if r.Status == "listed_only" {
+				log("  %-40s slug:%-45s [%s] id:%-6d %s (%s)",
+					r.Input, r.Club.Slug, r.SlugSource, r.Club.ID, r.Club.Name, r.Club.City)
+			}
+		}
+		log("")
+	}
+
+	if missCount > 0 {
+		log("=== MISSES ===")
 		for _, r := range results {
 			if r.Status == "miss" {
-				log("  %-45s  (tried: %s)", r.Input, r.Slug)
+				log("  %-40s (city: %s)", r.Input, r.City)
 			}
 		}
 		log("")
@@ -465,22 +550,31 @@ func main() {
 
 	// Save results
 	os.MkdirAll("discovery/results", 0755)
-	ts := time.Now().Format("2006-01-02-150405")
-	outPath := fmt.Sprintf("discovery/results/chronogolf-%s-%s.json", strings.ToLower(state), ts)
+	filename := fmt.Sprintf("discovery/results/chronogolf-%s-%s.json",
+		strings.ToLower(state), startTime.Format("2006-01-02-150405"))
 
 	output := map[string]any{
-		"platform":  "chronogolf",
-		"state":     state,
-		"timestamp": time.Now().Format(time.RFC3339),
-		"elapsed":   elapsed.String(),
-		"total":     len(courses),
-		"confirmed":  confirmed,
-		"listedOnly": listedOnly,
-		"wrongState": wrongState,
-		"missed":     missed,
-		"results":   results,
+		"platform":        "chronogolf",
+		"state":           state,
+		"timestamp":       startTime.Format(time.RFC3339),
+		"elapsed":         elapsed.String(),
+		"totalInput":      len(inputs),
+		"confirmed":       confirmedCount,
+		"listedOnly":      listedOnlyCount,
+		"wrongState":      wrongStateCount,
+		"misses":          missCount,
+		"validationDates": dates,
+		"results":         results,
 	}
-	data, _ := json.MarshalIndent(output, "", "  ")
-	os.WriteFile(outPath, data, 0644)
-	log("Results saved to %s", outPath)
+
+	data, err := json.MarshalIndent(output, "", "  ")
+	if err != nil {
+		log("ERROR saving results: %v", err)
+		return
+	}
+	if err := os.WriteFile(filename, data, 0644); err != nil {
+		log("ERROR writing file: %v", err)
+		return
+	}
+	log("Results saved to %s", filename)
 }

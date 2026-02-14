@@ -1,14 +1,16 @@
 {
-  "confirmed": 32,
-  "elapsed": "2m0.548108459s",
+  "confirmed": 39,
+  "elapsed": "3m51.291565083s",
   "errors": 0,
-  "listedOnly": 18,
-  "misses": 37,
+  "listedOnly": 24,
+  "misses": 29,
   "platform": "teeitup",
   "results": [
     {
       "input": "Aguila Golf Course",
+      "city": "Phoenix",
       "alias": "aguila-golf-course",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 287,
@@ -32,12 +34,14 @@
       "teeTimes": [
         2,
         0,
-        0
+        3
       ]
     },
     {
       "input": "Cave Creek Golf Course",
+      "city": "Phoenix",
       "alias": "cave-creek-golf-course",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 288,
@@ -61,12 +65,14 @@
       "teeTimes": [
         2,
         0,
-        0
+        2
       ]
     },
     {
       "input": "Encanto Golf Course",
+      "city": "Phoenix",
       "alias": "encanto-golf-course",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 289,
@@ -90,22 +96,52 @@
       "teeTimes": [
         8,
         7,
-        11
+        10
       ]
     },
     {
       "input": "Encanto 9-Hole Golf Course",
+      "city": "Phoenix",
       "alias": "encanto-9-hole-golf-course",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Palo Verde Golf Course",
-      "alias": "palo-verde-golf-course",
-      "status": "miss"
+      "city": "Phoenix",
+      "alias": "palo-verde",
+      "aliasSource": "base-only",
+      "status": "confirmed",
+      "facility": {
+        "id": 3209,
+        "courseId": "54f14c690c8ad60378b024e3",
+        "name": "Palo Verde",
+        "address": "6215 N. 15th Ave, Phoenix, AZ 85015, US",
+        "locality": "Phoenix",
+        "region": "AZ",
+        "country": "US",
+        "location": [
+          -112.101726,
+          33.508272
+        ],
+        "timeZone": "America/Phoenix"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        2,
+        0,
+        2
+      ]
     },
     {
       "input": "Papago Golf Course",
+      "city": "Phoenix",
       "alias": "papago-golf-course",
+      "aliasSource": "exact",
       "status": "listed_only",
       "facility": {
         "id": 291,
@@ -134,12 +170,16 @@
     },
     {
       "input": "Maryvale Golf Course",
+      "city": "Phoenix",
       "alias": "maryvale-golf-course",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Coronado Golf Course",
+      "city": "Scottsdale",
       "alias": "coronado-golf-course",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 5042,
@@ -168,12 +208,40 @@
     },
     {
       "input": "Continental Golf Club",
-      "alias": "continental-golf-club",
-      "status": "miss"
+      "city": "Scottsdale",
+      "alias": "continental-country-club",
+      "aliasSource": "swap-country-club",
+      "status": "listed_only",
+      "facility": {
+        "id": 9508,
+        "courseId": "54f14efc0c8ad60378b05b55",
+        "name": "Continental Country Club",
+        "address": "2380 N Oakmont Dr, Flagstaff, AZ 86004 US",
+        "locality": "Flagstaff",
+        "region": "AZ",
+        "country": "US",
+        "location": [
+          -111.579617,
+          35.201733
+        ],
+        "timeZone": "America/Phoenix"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "input": "Ken McDonald Golf Course",
+      "city": "Tempe",
       "alias": "ken-mcdonald-golf-course",
+      "aliasSource": "exact",
       "status": "listed_only",
       "facility": {
         "id": 3632,
@@ -202,18 +270,71 @@
     },
     {
       "input": "Rolling Hills Golf Course",
-      "alias": "rolling-hills-golf-course",
-      "status": "wrong_state",
-      "wrongState": "IL"
+      "city": "Tempe",
+      "alias": "rolling-hills-golf",
+      "aliasSource": "swap-golf",
+      "status": "listed_only",
+      "facility": {
+        "id": 13139,
+        "courseId": "55373f09b9208b0300c48a7f",
+        "name": "Rolling Hills Golf Course",
+        "address": "8900 E. 29th St., Tucson, AZ 85710, US",
+        "locality": "Tucson",
+        "region": "AZ",
+        "country": "US",
+        "location": [
+          -110.82923,
+          32.21416
+        ],
+        "timeZone": "America/Phoenix"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "input": "Dobson Ranch Golf Course",
-      "alias": "dobson-ranch-golf-course",
-      "status": "miss"
+      "city": "Mesa",
+      "alias": "dobson-ranch",
+      "aliasSource": "base-only",
+      "status": "confirmed",
+      "facility": {
+        "id": 6501,
+        "courseId": "54f14dca0c8ad60378b0437d",
+        "name": "Dobson Ranch Golf Course",
+        "address": "2155 S Dobson Rd, Mesa, AZ 85202, US",
+        "locality": "Mesa",
+        "region": "AZ",
+        "country": "US",
+        "location": [
+          -111.8782339,
+          33.3751825
+        ],
+        "timeZone": "America/Phoenix"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        19,
+        20,
+        27
+      ]
     },
     {
       "input": "Ak-Chin Southern Dunes Golf Club",
+      "city": "Maricopa",
       "alias": "ak-chin-southern-dunes-golf-club",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 3608,
@@ -242,12 +363,16 @@
     },
     {
       "input": "Arizona Biltmore Golf Club",
+      "city": "Phoenix",
       "alias": "arizona-biltmore-golf-club",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Arizona Grand Golf Course",
+      "city": "Phoenix",
       "alias": "arizona-grand-golf-course",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 12,
@@ -276,7 +401,9 @@
     },
     {
       "input": "ASU Karsten Golf Course",
+      "city": "Tempe",
       "alias": "asu-karsten-golf-course",
+      "aliasSource": "exact",
       "status": "listed_only",
       "facility": {
         "id": 252,
@@ -305,7 +432,9 @@
     },
     {
       "input": "Augusta Ranch Golf Club",
+      "city": "Mesa",
       "alias": "augusta-ranch-golf-club",
+      "aliasSource": "exact",
       "status": "listed_only",
       "facility": {
         "id": 52,
@@ -334,7 +463,9 @@
     },
     {
       "input": "Bear Creek Golf Complex",
+      "city": "Chandler",
       "alias": "bear-creek-golf-complex",
+      "aliasSource": "exact",
       "status": "listed_only",
       "facility": {
         "id": 62,
@@ -362,47 +493,24 @@
       ]
     },
     {
-      "input": "Bear Creek Golf Complex",
-      "alias": "bear-creek-golf-complex",
-      "status": "listed_only",
-      "facility": {
-        "id": 3685,
-        "courseId": "54f14c920c8ad60378b02890",
-        "name": "Bear Creek - Cub Executive Course",
-        "address": "500 East Riggs Road, Chandler, AZ 85248 US",
-        "locality": "Chandler",
-        "region": "AZ",
-        "country": "US",
-        "location": [
-          -111.832023,
-          33.226698
-        ],
-        "timeZone": "America/Phoenix"
-      },
-      "datesChecked": [
-        "2026-02-18",
-        "2026-02-14",
-        "2026-02-21"
-      ],
-      "teeTimes": [
-        0,
-        0,
-        0
-      ]
-    },
-    {
       "input": "Bellair Golf Club",
+      "city": "Glendale",
       "alias": "bellair-golf-club",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Camelback Golf Club",
+      "city": "Scottsdale",
       "alias": "camelback-golf-club",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Coldwater Golf Club",
+      "city": "Avondale",
       "alias": "coldwater-golf-club",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 26,
@@ -431,7 +539,9 @@
     },
     {
       "input": "Coyote Lakes Golf Club",
+      "city": "Surprise",
       "alias": "coyote-lakes-golf-club",
+      "aliasSource": "exact",
       "status": "listed_only",
       "facility": {
         "id": 427,
@@ -460,7 +570,9 @@
     },
     {
       "input": "Desert Canyon Golf Club",
+      "city": "Fountain Hills",
       "alias": "desert-canyon-golf-club",
+      "aliasSource": "exact",
       "status": "listed_only",
       "facility": {
         "id": 548,
@@ -489,12 +601,40 @@
     },
     {
       "input": "Dove Valley Ranch Golf Club",
-      "alias": "dove-valley-ranch-golf-club",
-      "status": "miss"
+      "city": "Cave Creek",
+      "alias": "dove-valley-ranch",
+      "aliasSource": "base-only",
+      "status": "confirmed",
+      "facility": {
+        "id": 115,
+        "courseId": "54f14b3a0c8ad60378b00c44",
+        "name": "Dove Valley Ranch Golf Club",
+        "address": "33750 N Dove Lakes Dr, Cave Creek, AZ 85331, USA",
+        "locality": "Cave Creek",
+        "region": "AZ",
+        "country": "US",
+        "location": [
+          -111.99219640000001,
+          33.7897088
+        ],
+        "timeZone": "America/Phoenix"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        22,
+        16,
+        17
+      ]
     },
     {
       "input": "Eagle Mountain Golf Club",
+      "city": "Fountain Hills",
       "alias": "eagle-mountain-golf-club",
+      "aliasSource": "exact",
       "status": "listed_only",
       "facility": {
         "id": 2,
@@ -523,7 +663,9 @@
     },
     {
       "input": "Foothills Golf Club",
+      "city": "Phoenix",
       "alias": "foothills-golf-club",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 430,
@@ -552,7 +694,9 @@
     },
     {
       "input": "Golf Club of Estrella",
+      "city": "Goodyear",
       "alias": "golf-club-of-estrella",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 51,
@@ -581,36 +725,16 @@
     },
     {
       "input": "Golf Club at Johnson Ranch",
+      "city": "San Tan Valley",
       "alias": "golf-club-at-johnson-ranch",
-      "status": "confirmed",
-      "facility": {
-        "id": 58,
-        "courseId": "54f14b320c8ad60378b00bd0",
-        "name": "San Tan Highlands",
-        "address": "30761 West Golf Club Drive, San Tan Valley, AZ 85143, US",
-        "locality": "San Tan Valley",
-        "region": "AZ",
-        "country": "US",
-        "location": [
-          -111.5677963,
-          33.15867850000001
-        ],
-        "timeZone": "America/Phoenix"
-      },
-      "datesChecked": [
-        "2026-02-18",
-        "2026-02-14",
-        "2026-02-21"
-      ],
-      "teeTimes": [
-        15,
-        47,
-        62
-      ]
+      "aliasSource": "",
+      "status": "miss"
     },
     {
       "input": "Grand Canyon University Golf Course",
+      "city": "Phoenix",
       "alias": "grand-canyon-university-golf-course",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 290,
@@ -634,17 +758,21 @@
       "teeTimes": [
         35,
         22,
-        0
+        39
       ]
     },
     {
       "input": "Granite Falls Golf Club",
+      "city": "Surprise",
       "alias": "granite-falls-golf-club",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Grayhawk Golf Club",
+      "city": "Scottsdale",
       "alias": "grayhawk-golf-club",
+      "aliasSource": "exact",
       "status": "listed_only",
       "facility": {
         "id": 3050,
@@ -673,7 +801,9 @@
     },
     {
       "input": "Greenfield Lakes Golf Course",
+      "city": "Gilbert",
       "alias": "greenfield-lakes-golf-course",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 4481,
@@ -696,35 +826,91 @@
       ],
       "teeTimes": [
         61,
-        50,
-        0
+        49,
+        69
       ]
     },
     {
       "input": "Happy Trails Golf Club",
+      "city": "Surprise",
       "alias": "happy-trails-golf-club",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Hillcrest Golf Club",
-      "alias": "hillcrest-golf-club",
-      "status": "wrong_state",
-      "wrongState": "SC"
+      "city": "Sun City West",
+      "alias": "hillcrest-golf",
+      "aliasSource": "swap-golf",
+      "status": "confirmed",
+      "facility": {
+        "id": 1296,
+        "courseId": "54f14bc50c8ad60378b0163c",
+        "name": "Hillcrest Golf Course",
+        "address": "20002 N Star Ridge Dr, Sun City West, AZ 85375, USA",
+        "locality": "Sun City West",
+        "region": "AZ",
+        "country": "US",
+        "location": [
+          -112.3437902,
+          33.6654846
+        ],
+        "timeZone": "America/Phoenix"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        38,
+        32,
+        16
+      ]
     },
     {
       "input": "InScape Golf",
+      "city": "Mesa",
       "alias": "inscape-golf",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Ironwood Golf Course",
-      "alias": "ironwood-golf-course",
-      "status": "wrong_state",
-      "wrongState": "FL"
+      "city": "Chandler",
+      "alias": "ironwood-golf-club",
+      "aliasSource": "swap-golf-club",
+      "status": "confirmed",
+      "facility": {
+        "id": 3505,
+        "courseId": "54f14c830c8ad60378b02743",
+        "name": "Ironwood Golf Club",
+        "address": "550 W. Champagne Dr., Chandler, AZ 85248 US",
+        "locality": "Chandler",
+        "region": "AZ",
+        "country": "US",
+        "location": [
+          -111.848695,
+          33.224724
+        ],
+        "timeZone": "America/Phoenix"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        24,
+        0
+      ]
     },
     {
       "input": "Kokopelli Golf Club",
+      "city": "Gilbert",
       "alias": "kokopelli-golf-club",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 121,
@@ -748,12 +934,14 @@
       "teeTimes": [
         1,
         0,
-        0
+        1
       ]
     },
     {
       "input": "Las Colinas Golf Club",
+      "city": "Queen Creek",
       "alias": "las-colinas-golf-club",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 1381,
@@ -782,7 +970,9 @@
     },
     {
       "input": "Las Sendas Golf Club",
+      "city": "Mesa",
       "alias": "las-sendas-golf-club",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 21,
@@ -811,13 +1001,16 @@
     },
     {
       "input": "Legacy Golf Club",
+      "city": "Phoenix",
       "alias": "legacy-golf-club",
-      "status": "wrong_state",
-      "wrongState": "NV"
+      "aliasSource": "",
+      "status": "miss"
     },
     {
       "input": "Legend Trail Golf Club",
+      "city": "Scottsdale",
       "alias": "legend-trail-golf-club",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 111,
@@ -841,17 +1034,21 @@
       "teeTimes": [
         23,
         36,
-        32
+        30
       ]
     },
     {
       "input": "Leisure World Golf Course",
+      "city": "Mesa",
       "alias": "leisure-world-golf-course",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Lone Tree Golf Club",
+      "city": "Chandler",
       "alias": "lone-tree-golf-club",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 1349,
@@ -880,7 +1077,9 @@
     },
     {
       "input": "Longbow Golf Club",
+      "city": "Mesa",
       "alias": "longbow-golf-club",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 3021,
@@ -909,12 +1108,40 @@
     },
     {
       "input": "Lookout Mountain Golf Club",
-      "alias": "lookout-mountain-golf-club",
-      "status": "miss"
+      "city": "Phoenix",
+      "alias": "lookout-mountain-gc",
+      "aliasSource": "swap-gc",
+      "status": "confirmed",
+      "facility": {
+        "id": 285,
+        "courseId": "54f14b510c8ad60378b00df4",
+        "name": "Lookout Mountain G.C.",
+        "address": "11111 North 7th Street, Phoenix, AZ 85020 US",
+        "locality": "Phoenix",
+        "region": "AZ",
+        "country": "US",
+        "location": [
+          -112.063829,
+          33.585987
+        ],
+        "timeZone": "America/Phoenix"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        8,
+        8,
+        12
+      ]
     },
     {
       "input": "Los Caballeros Golf Club",
+      "city": "Wickenburg",
       "alias": "los-caballeros-golf-club",
+      "aliasSource": "exact",
       "status": "listed_only",
       "facility": {
         "id": 9335,
@@ -943,17 +1170,47 @@
     },
     {
       "input": "McCormick Ranch Golf Club",
-      "alias": "mccormick-ranch-golf-club",
-      "status": "miss"
+      "city": "Scottsdale",
+      "alias": "mccormick-ranch",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 7078,
+        "courseId": "54f14e100c8ad60378b04873",
+        "name": "McCormick Ranch Golf Club - Pine Course",
+        "address": "7505 E McCormick Pkwy, Scottsdale, AZ 85258 US",
+        "locality": "Scottsdale",
+        "region": "AZ",
+        "country": "US",
+        "location": [
+          -111.9021,
+          33.5706
+        ],
+        "timeZone": "America/Phoenix"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "input": "McDowell Mountain Golf Club",
+      "city": "Scottsdale",
       "alias": "mcdowell-mountain-golf-club",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Mountain Brook Golf Club",
+      "city": "Gold Canyon",
       "alias": "mountain-brook-golf-club",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 3173,
@@ -977,39 +1234,145 @@
       "teeTimes": [
         19,
         35,
-        0
+        62
       ]
     },
     {
       "input": "Ocotillo Golf Club",
-      "alias": "ocotillo-golf-club",
-      "status": "miss"
+      "city": "Chandler",
+      "alias": "ocotillo-golf-resort",
+      "aliasSource": "swap-golf-resort",
+      "status": "listed_only",
+      "facility": {
+        "id": 253,
+        "courseId": "54f14b4c0c8ad60378b00da7",
+        "name": "Ocotillo Golf Club",
+        "address": "3751 S. Clubhouse Drive, Chandler, AZ 85248, US",
+        "locality": "Chandler",
+        "region": "AZ",
+        "country": "US",
+        "location": [
+          -111.871997,
+          33.2519
+        ],
+        "timeZone": "America/Phoenix"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "input": "Orange Tree Golf Course",
-      "alias": "orange-tree-golf-course",
-      "status": "miss"
+      "city": "Scottsdale",
+      "alias": "orange-tree-golf-club",
+      "aliasSource": "swap-golf-club",
+      "status": "listed_only",
+      "facility": {
+        "id": 229,
+        "courseId": "54f14b490c8ad60378b00d67",
+        "name": "Orange Tree Golf Course",
+        "address": "10601 N. 56th Street, Scottsdale, AZ 85254, US",
+        "locality": "Scottsdale",
+        "region": "AZ",
+        "country": "US",
+        "location": [
+          -111.960501,
+          33.582642
+        ],
+        "timeZone": "America/Phoenix"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "input": "Painted Mountain Golf Resort",
-      "alias": "painted-mountain-golf-resort",
-      "status": "miss"
+      "city": "Mesa",
+      "alias": "painted-mountain",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 3233,
+        "courseId": "54f14c6a0c8ad60378b024ff",
+        "name": "Painted Mountain",
+        "address": "6210 E. McKellips Rd., Mesa, AZ 85215, US",
+        "locality": "Mesa",
+        "region": "AZ",
+        "country": "US",
+        "location": [
+          -111.696818,
+          33.452802
+        ],
+        "timeZone": "America/Phoenix"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "input": "Palm Valley Golf Club",
+      "city": "Goodyear",
       "alias": "palm-valley-golf-club",
-      "status": "wrong_state",
-      "wrongState": "FL"
+      "aliasSource": "",
+      "status": "miss"
     },
     {
       "input": "Paradise Valley Golf Course",
-      "alias": "paradise-valley-golf-course",
-      "status": "wrong_state",
-      "wrongState": "CA"
+      "city": "Phoenix",
+      "alias": "paradise-valley-golf",
+      "aliasSource": "swap-golf",
+      "status": "confirmed",
+      "facility": {
+        "id": 6749,
+        "courseId": "54f14deb0c8ad60378b045bf",
+        "name": "Paradise Valley Golf",
+        "address": "3505 E Union Hills Dr, Phoenix, AZ 85050 US",
+        "locality": "Phoenix",
+        "region": "AZ",
+        "country": "US",
+        "location": [
+          -111.9975,
+          33.6914
+        ],
+        "timeZone": "America/Phoenix"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        43,
+        11,
+        40
+      ]
     },
     {
       "input": "Pueblo El Mirage Golf Course",
+      "city": "El Mirage",
       "alias": "pueblo-el-mirage-golf-course",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 6914,
@@ -1038,7 +1401,9 @@
     },
     {
       "input": "Quintero Golf Club",
+      "city": "Peoria",
       "alias": "quintero-golf-club",
+      "aliasSource": "exact",
       "status": "listed_only",
       "facility": {
         "id": 6388,
@@ -1067,7 +1432,9 @@
     },
     {
       "input": "Rancho Manana Golf Club",
+      "city": "Cave Creek",
       "alias": "rancho-manana-golf-club",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 2914,
@@ -1096,36 +1463,16 @@
     },
     {
       "input": "Raven Golf Club Phoenix",
+      "city": "Phoenix",
       "alias": "raven-golf-club-phoenix",
-      "status": "confirmed",
-      "facility": {
-        "id": 1446,
-        "courseId": "54f14bd40c8ad60378b01798",
-        "name": "Raven Golf Club - Phoenix",
-        "address": "3636 E. Baseline Road, Phoenix, AZ 85042, US",
-        "locality": "Phoenix",
-        "region": "AZ",
-        "country": "US",
-        "location": [
-          -112.005802,
-          33.380806
-        ],
-        "timeZone": "America/Phoenix"
-      },
-      "datesChecked": [
-        "2026-02-18",
-        "2026-02-14",
-        "2026-02-21"
-      ],
-      "teeTimes": [
-        1,
-        0,
-        1
-      ]
+      "aliasSource": "",
+      "status": "miss"
     },
     {
       "input": "Red Mountain Ranch Country Club",
+      "city": "Mesa",
       "alias": "red-mountain-ranch-country-club",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 4678,
@@ -1154,25 +1501,35 @@
     },
     {
       "input": "Riverview Golf Course",
+      "city": "Mesa",
       "alias": "riverview-golf-course",
-      "status": "wrong_state",
-      "wrongState": "GA"
+      "aliasSource": "",
+      "status": "miss"
     },
     {
       "input": "Royal Palms Golf Course",
+      "city": "Mesa",
       "alias": "royal-palms-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "San Marcos Golf Course",
+      "city": "Chandler",
+      "alias": "san-marcos-golf-resort",
+      "aliasSource": "swap-golf-resort",
       "status": "confirmed",
       "facility": {
-        "id": 10907,
-        "courseId": "54f14f850c8ad60378b06882",
-        "name": "Little Oasis Club",
-        "address": "1415 E McKellips Rd, Mesa, AZ 85203, US",
-        "locality": "Mesa",
+        "id": 1383,
+        "courseId": "54f14bce0c8ad60378b01706",
+        "name": "San Marcos Golf Resort",
+        "address": "100 N. Dakota St., Chandler, AZ 85225 US",
+        "locality": "Chandler",
         "region": "AZ",
         "country": "US",
         "location": [
-          -111.800828,
-          33.451518
+          -111.85185,
+          33.302879
         ],
         "timeZone": "America/Phoenix"
       },
@@ -1182,29 +1539,54 @@
         "2026-02-21"
       ],
       "teeTimes": [
-        42,
-        64,
-        67
+        35,
+        35,
+        40
       ]
     },
     {
-      "input": "San Marcos Golf Course",
-      "alias": "san-marcos-golf-course",
-      "status": "miss"
-    },
-    {
       "input": "Scottsdale Silverado Golf Club",
+      "city": "Scottsdale",
       "alias": "scottsdale-silverado-golf-club",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Shalimar Golf Club",
-      "alias": "shalimar-golf-club",
-      "status": "miss"
+      "city": "Tempe",
+      "alias": "shalimar-country-club",
+      "aliasSource": "swap-country-club",
+      "status": "listed_only",
+      "facility": {
+        "id": 4168,
+        "courseId": "54f14cc50c8ad60378b02d3c",
+        "name": "Shalimar Golf Club",
+        "address": "2032 East Golf Avenue, Tempe, AZ 85282 US",
+        "locality": "Tempe",
+        "region": "AZ",
+        "country": "US",
+        "location": [
+          -111.898204,
+          33.394901
+        ],
+        "timeZone": "America/Phoenix"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "input": "Starfire Golf Club",
+      "city": "Scottsdale",
       "alias": "starfire-golf-club",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 6,
@@ -1227,13 +1609,15 @@
       ],
       "teeTimes": [
         55,
-        38,
+        36,
         48
       ]
     },
     {
       "input": "Stonecreek Golf Club",
+      "city": "Phoenix",
       "alias": "stonecreek-golf-club",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 122,
@@ -1256,13 +1640,15 @@
       ],
       "teeTimes": [
         50,
-        34,
+        32,
         44
       ]
     },
     {
       "input": "Sundance Golf Club",
+      "city": "Buckeye",
       "alias": "sundance-golf-club",
+      "aliasSource": "exact",
       "status": "listed_only",
       "facility": {
         "id": 39,
@@ -1291,7 +1677,9 @@
     },
     {
       "input": "SunRidge Canyon Golf Club",
+      "city": "Fountain Hills",
       "alias": "sunridge-canyon-golf-club",
+      "aliasSource": "exact",
       "status": "listed_only",
       "facility": {
         "id": 4990,
@@ -1320,12 +1708,16 @@
     },
     {
       "input": "Sunland Springs Village Golf",
+      "city": "Mesa",
       "alias": "sunland-springs-village-golf",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Superstition Springs Golf Club",
+      "city": "Mesa",
       "alias": "superstition-springs-golf-club",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 120,
@@ -1348,13 +1740,15 @@
       ],
       "teeTimes": [
         50,
-        44,
+        43,
         64
       ]
     },
     {
       "input": "Talking Stick Golf Club",
+      "city": "Scottsdale",
       "alias": "talking-stick-golf-club",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 814,
@@ -1383,7 +1777,9 @@
     },
     {
       "input": "Tatum Ranch Golf Club",
+      "city": "Cave Creek",
       "alias": "tatum-ranch-golf-club",
+      "aliasSource": "exact",
       "status": "listed_only",
       "facility": {
         "id": 8237,
@@ -1412,22 +1808,54 @@
     },
     {
       "input": "The Phoenician Golf Club",
-      "alias": "the-phoenician-golf-club",
-      "status": "miss"
+      "city": "Scottsdale",
+      "alias": "the-phoenician",
+      "aliasSource": "base-only",
+      "status": "confirmed",
+      "facility": {
+        "id": 1106,
+        "courseId": "54f14bb20c8ad60378b01495",
+        "name": "The Phoenician",
+        "address": "6000 E. Camelback, Scottsdale, AZ 85251 US",
+        "locality": "Scottsdale",
+        "region": "AZ",
+        "country": "US",
+        "location": [
+          -111.945877,
+          33.506978
+        ],
+        "timeZone": "America/Phoenix"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        10,
+        10,
+        13
+      ]
     },
     {
       "input": "TPC Scottsdale",
+      "city": "Scottsdale",
       "alias": "tpc-scottsdale",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Tres Rios Golf Course",
+      "city": "Goodyear",
       "alias": "tres-rios-golf-course",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Trilogy Golf Club at Vistancia",
+      "city": "Peoria",
       "alias": "trilogy-golf-club-at-vistancia",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 1327,
@@ -1456,7 +1884,9 @@
     },
     {
       "input": "Troon North Golf Club",
+      "city": "Scottsdale",
       "alias": "troon-north-golf-club",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 813,
@@ -1485,17 +1915,47 @@
     },
     {
       "input": "Verde River Golf Club",
-      "alias": "verde-river-golf-club",
-      "status": "miss"
+      "city": "Rio Verde",
+      "alias": "verde-river",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 2039,
+        "courseId": "54f14c0d0c8ad60378b01cbb",
+        "name": "Verde River Golf \u0026 Social Club",
+        "address": "29005 N Paseo Verde Dr, Rio Verde, AZ 85263, USA",
+        "locality": "Rio Verde",
+        "region": "AZ",
+        "country": "US",
+        "location": [
+          -111.6799358,
+          33.7191914
+        ],
+        "timeZone": "America/Phoenix"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "input": "Verrado Golf Club",
+      "city": "Buckeye",
       "alias": "verrado-golf-club",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Viewpoint Golf Resort",
+      "city": "Mesa",
       "alias": "viewpoint-golf-resort",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 169,
@@ -1517,39 +1977,51 @@
         "2026-02-21"
       ],
       "teeTimes": [
-        0,
+        1,
         25,
         0
       ]
     },
     {
       "input": "We-Ko-Pa Golf Club",
+      "city": "Fort McDowell",
       "alias": "we-ko-pa-golf-club",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Westin Kierland Golf Club",
+      "city": "Scottsdale",
       "alias": "westin-kierland-golf-club",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Westbrook Village Golf Club",
+      "city": "Peoria",
       "alias": "westbrook-village-golf-club",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Whirlwind Golf Club",
+      "city": "Chandler",
       "alias": "whirlwind-golf-club",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Wickenburg Ranch Golf Club",
+      "city": "Wickenburg",
       "alias": "wickenburg-ranch-golf-club",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Wickenburg Country Club",
+      "city": "Wickenburg",
       "alias": "wickenburg-country-club",
+      "aliasSource": "exact",
       "status": "confirmed",
       "facility": {
         "id": 9766,
@@ -1573,17 +2045,45 @@
       "teeTimes": [
         25,
         24,
-        0
+        4
       ]
     },
     {
       "input": "Wigwam Golf Club",
-      "alias": "wigwam-golf-club",
-      "status": "miss"
+      "city": "Litchfield Park",
+      "alias": "wigwam",
+      "aliasSource": "base-only",
+      "status": "confirmed",
+      "facility": {
+        "id": 6735,
+        "courseId": "54f14de90c8ad60378b04597",
+        "name": "Wigwam Golf Club",
+        "address": "451 N Litchfield Rd., Litchfield Park, AZ 85340, US",
+        "locality": "Litchfield Park",
+        "region": "AZ",
+        "country": "US",
+        "location": [
+          -112.376694,
+          33.501179
+        ],
+        "timeZone": "America/Phoenix"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        51,
+        40,
+        0
+      ]
     },
     {
       "input": "Wildfire Golf Club",
+      "city": "Phoenix",
       "alias": "wildfire-golf-club",
+      "aliasSource": "exact",
       "status": "listed_only",
       "facility": {
         "id": 7936,
@@ -1611,47 +2111,24 @@
       ]
     },
     {
-      "input": "Wildfire Golf Club",
-      "alias": "wildfire-golf-club",
-      "status": "listed_only",
-      "facility": {
-        "id": 53,
-        "courseId": "54f14b300c8ad60378b00bc3",
-        "name": "Wildfire Golf Club - Palmer Course",
-        "address": "5350 E. Marriott Dr., Phoenix, AZ 85054 US",
-        "locality": "Phoenix",
-        "region": "AZ",
-        "country": "US",
-        "location": [
-          -111.976347,
-          33.676354
-        ],
-        "timeZone": "America/Phoenix"
-      },
-      "datesChecked": [
-        "2026-02-18",
-        "2026-02-14",
-        "2026-02-21"
-      ],
-      "teeTimes": [
-        0,
-        0,
-        0
-      ]
-    },
-    {
       "input": "Alta Mesa Golf Club",
+      "city": "Mesa",
       "alias": "alta-mesa-golf-club",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Encanterra Country Club",
+      "city": "Queen Creek",
       "alias": "encanterra-country-club",
+      "aliasSource": "",
       "status": "miss"
     },
     {
       "input": "Queen Valley Golf Course",
+      "city": "Queen Valley",
       "alias": "queen-valley-golf-course",
+      "aliasSource": "exact",
       "status": "listed_only",
       "facility": {
         "id": 11469,
@@ -1680,17 +2157,18 @@
     },
     {
       "input": "Springfield Golf Resort",
+      "city": "Chandler",
       "alias": "springfield-golf-resort",
+      "aliasSource": "",
       "status": "miss"
     }
   ],
   "state": "AZ",
-  "timestamp": "2026-02-13T23:25:54-07:00",
+  "timestamp": "2026-02-14T04:33:10-07:00",
   "totalInput": 92,
   "validationDates": [
     "2026-02-18",
     "2026-02-14",
     "2026-02-21"
-  ],
-  "wrongState": 7
+  ]
 }

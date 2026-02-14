@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "key": "camelback-ambiente",
+    "metro": "phoenix",
+    "tenantId": "2281",
+    "propertyId": "camelback-golf-club",
+    "courseId": "410",
+    "playerTypeId": "1560",
+    "bookingUrl": "https://book.rguest.com/onecart/golf/courses/2281/camelback-golf-club",
+    "displayName": "Camelback Golf Club - Ambiente",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "camelback-padre",
+    "metro": "phoenix",
+    "tenantId": "2281",
+    "propertyId": "camelback-golf-club",
+    "courseId": "409",
+    "playerTypeId": "1560",
+    "bookingUrl": "https://book.rguest.com/onecart/golf/courses/2281/camelback-golf-club",
+    "displayName": "Camelback Golf Club - Padre",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "wekopa-cholla",
+    "metro": "phoenix",
+    "tenantId": "2093",
+    "propertyId": "wekopa",
+    "courseId": "202",
+    "playerTypeId": "824",
+    "bookingUrl": "https://book.rguest.com/onecart/golf/courses/2093/wekopa",
+    "displayName": "We-Ko-Pa Golf Club - Cholla",
+    "city": "Fort McDowell",
+    "state": "AZ"
+  },
+  {
+    "key": "wekopa-saguaro",
+    "metro": "phoenix",
+    "tenantId": "2093",
+    "propertyId": "wekopa",
+    "courseId": "203",
+    "playerTypeId": "824",
+    "bookingUrl": "https://book.rguest.com/onecart/golf/courses/2093/wekopa",
+    "displayName": "We-Ko-Pa Golf Club - Saguaro",
+    "city": "Fort McDowell",
+    "state": "AZ"
+  }
+]

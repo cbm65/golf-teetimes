@@ -5,7 +5,7 @@
     "courseIds": "8e62fd78-03bf-4665-9a3a-cc0da2826ac7,768df054-3367-45b1-906c-24af39e410ad",
     "clubId": "",
     "numericCourseId": "",
-    "affiliationTypeId": "",
+    "affiliationTypeId": "82990",
     "bookingUrl": "https://www.chronogolf.com/club/arizona-biltmore-golf-club-arizona-phoenix",
     "names": {
       "Estates": "Arizona Biltmore - Estates",
@@ -15,28 +15,12 @@
     "state": "AZ"
   },
   {
-    "key": "wigwam",
-    "metro": "phoenix",
-    "courseIds": "c69b04e1-a379-4dac-922c-c73afe60f802,bfb7d92a-a3cd-4628-a777-e5c24b0308db,72412c8f-5d99-4caa-bf19-d9cef0668567",
-    "clubId": "",
-    "numericCourseId": "",
-    "affiliationTypeId": "",
-    "bookingUrl": "https://www.chronogolf.com/club/wigwam-resort",
-    "names": {
-      "Gold": "Wigwam - Gold",
-      "Blue": "Wigwam - Blue",
-      "Red": "Wigwam - Red"
-    },
-    "city": "Litchfield Park",
-    "state": "AZ"
-  },
-  {
     "key": "queen-valley",
     "metro": "phoenix",
     "courseIds": "713fd280-82db-448b-bafe-aa75ac14a445",
     "clubId": "",
     "numericCourseId": "",
-    "affiliationTypeId": "",
+    "affiliationTypeId": "10170",
     "bookingUrl": "https://www.chronogolf.com/club/queen-valley-golf-course",
     "names": {
       "Queen Valley": "Queen Valley Golf Course"

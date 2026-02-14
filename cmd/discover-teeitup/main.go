@@ -14,17 +14,22 @@ import (
 
 // Discovery tool for TeeItUp courses in a target region.
 //
-// Usage: go run discovery/teeitup.go <state> <course name> [course name] ...
-//   or: go run discovery/teeitup.go <state> -f <file>
+// Usage: go run cmd/discover-teeitup/main.go <state> <course name> [course name] ...
+//   or: go run cmd/discover-teeitup/main.go <state> -f <file>
 //
 // The file should have one course name per line (blank lines and # comments ignored).
+// Format: "Course Name | City" (city is optional but used for validation).
 //
 // Example:
-//   go run discovery/teeitup.go GA "Sugar Hill Golf Club" "Bobby Jones Golf Course"
-//   go run discovery/teeitup.go AZ -f discovery/phoenix-courses.txt
+//   go run cmd/discover-teeitup/main.go AZ -f discovery/courses/phoenix.txt
 //
-// After finding a facility, it validates by checking 3 dates for actual tee times.
-// Only courses with bookable tee times are marked as "confirmed".
+// Discovery approach:
+//   1. For each course, generates multiple alias candidates (suffix swaps, core name, etc.)
+//   2. Probes Kenna /facilities endpoint with x-be-alias header for each candidate
+//   3. On hit: validates state, fuzzy-matches facility name, checks siblings
+//   4. Validates with tee time checks on 3 dates (Wed, Sat, Sat+7)
+//   5. Deduplicates by facility ID to avoid double-counting
+//
 // Results are saved to discovery/results/teeitup-{state}-{timestamp}.json
 
 var apiBase = "https://phx-api-be-east-1b.kenna.io"
@@ -49,21 +54,27 @@ type TeeTimeResponse struct {
 
 type Result struct {
 	Input        string    `json:"input"`
+	City         string    `json:"city,omitempty"`
 	Alias        string    `json:"alias"`
-	Status       string    `json:"status"` // "confirmed", "listed_only", "miss", "wrong_state", "error"
+	AliasSource  string    `json:"aliasSource"` // which pattern matched
+	Status       string    `json:"status"`      // "confirmed", "listed_only", "miss", "error"
 	Facility     *Facility `json:"facility,omitempty"`
 	Error        string    `json:"error,omitempty"`
-	WrongState   string    `json:"wrongState,omitempty"`
 	DatesChecked []string  `json:"datesChecked,omitempty"`
-	TeeTimes     []int     `json:"teeTimes,omitempty"` // count per date checked
+	TeeTimes     []int     `json:"teeTimes,omitempty"`
+}
+
+type CourseInput struct {
+	Name string
+	City string
 }
 
 func log(format string, args ...any) {
 	fmt.Printf("[%s] %s\n", time.Now().Format("15:04:05.000"), fmt.Sprintf(format, args...))
 }
 
-func toAlias(name string) string {
-	s := strings.ToLower(name)
+func slugify(s string) string {
+	s = strings.ToLower(s)
 	s = strings.ReplaceAll(s, "&", "and")
 	s = strings.ReplaceAll(s, "'", "")
 	s = strings.ReplaceAll(s, "\u2019", "")
@@ -73,37 +84,232 @@ func toAlias(name string) string {
 	return s
 }
 
-// probeDates returns the next Wednesday, Saturday, and the Saturday after that.
+// coreName strips common golf suffixes/prefixes to get the core name.
+func coreName(name string) string {
+	s := name
+	for _, suffix := range []string{
+		" Golf Course", " Golf Club", " Golf Resort", " Golf Complex",
+		" Golf Links", " Golf Center", " Country Club", " Golf & Country Club",
+		" Golf and Country Club", " GC", " CC",
+	} {
+		if strings.HasSuffix(strings.ToLower(s), strings.ToLower(suffix)) {
+			s = s[:len(s)-len(suffix)]
+			break
+		}
+	}
+	for _, prefix := range []string{"The ", "Golf Club of ", "Golf Club at "} {
+		if strings.HasPrefix(s, prefix) {
+			s = s[len(prefix):]
+			break
+		}
+	}
+	return strings.TrimSpace(s)
+}
+
+// generateAliases produces multiple alias candidates for a course name.
+// Based on observed real-world alias patterns:
+//   - "stonecreek-golf-club" (exact slug)
+//   - "raven-golf-club-phoenix" (full slug + city for disambiguation)
+//   - "continental-country-club" (different suffix than expected)
+//   - "ballwin-gc-public-booking-engine" (unusual suffix patterns)
+//   - "city-of-phoenix-golf-courses" (group aliases — can't be generated, found via sibling matching)
+func generateAliases(name, city string) []struct{ alias, source string } {
+	var candidates []struct{ alias, source string }
+	seen := map[string]bool{}
+
+	add := func(alias, source string) {
+		if alias == "" || seen[alias] {
+			return
+		}
+		seen[alias] = true
+		candidates = append(candidates, struct{ alias, source string }{alias, source})
+	}
+
+	exact := slugify(name)
+	core := slugify(coreName(name))
+
+	// 1. Exact name slug (highest priority)
+	add(exact, "exact")
+
+	// 2. Without "the-" prefix if present, or add it if missing
+	if strings.HasPrefix(exact, "the-") {
+		add(strings.TrimPrefix(exact, "the-"), "no-the")
+	} else {
+		add("the-"+exact, "add-the")
+	}
+
+	// 3. Suffix swaps — the alias suffix often doesn't match the course's actual name
+	//    e.g. "Continental Golf Course" might be "continental-country-club" on TeeItUp
+	suffixes := []string{
+		"golf-course", "golf-club", "country-club", "golf-resort",
+		"golf-complex", "golf-links", "golf-center", "gc", "golf",
+	}
+	for _, oldSuffix := range suffixes {
+		if strings.HasSuffix(exact, "-"+oldSuffix) {
+			base := strings.TrimSuffix(exact, "-"+oldSuffix)
+			for _, newSuffix := range suffixes {
+				if newSuffix != oldSuffix {
+					add(base+"-"+newSuffix, "swap-"+newSuffix)
+				}
+			}
+			// Base alone (no suffix)
+			add(base, "base-only")
+			break
+		}
+	}
+
+	// 4. Core name alone (strips prefixes like "The", "Golf Club of")
+	add(core, "core")
+
+	// 5. Core + common suffixes — always try these since the core name
+	//    with a different suffix is a common alias pattern
+	//    e.g. "Golf Club of Estrella" -> try "estrella-golf-course", "estrella-golf-club"
+	for _, suffix := range []string{
+		"golf-course", "golf-club", "country-club", "golf-resort", "golf",
+	} {
+		add(core+"-"+suffix, "core+"+suffix)
+	}
+
+	// 6. City-qualified variants — used for disambiguation
+	//    e.g. "raven-golf-club-phoenix", "continental-golf-course-scottsdale"
+	if city != "" {
+		citySlug := slugify(city)
+
+		// Strip city from beginning of name (e.g. "Scottsdale Silverado" → "silverado")
+		cityLower := strings.ToLower(city)
+		coreLower := strings.ToLower(coreName(name))
+		if strings.HasPrefix(coreLower, cityLower+" ") {
+			stripped := slugify(coreLower[len(cityLower)+1:])
+			add(stripped, "strip-city")
+			for _, suffix := range []string{"golf-club", "golf-course", "country-club", "golf"} {
+				add(stripped+"-"+suffix, "strip-city+"+suffix)
+			}
+		}
+
+		// Full slug + city (the raven-golf-club-phoenix pattern)
+		add(exact+"-"+citySlug, "exact+city")
+
+		// Core + city
+		add(core+"-"+citySlug, "core+city")
+
+		// Core + suffix + city
+		add(core+"-golf-course-"+citySlug, "core-gc+city")
+		add(core+"-golf-club-"+citySlug, "core-club+city")
+
+		// City + core
+		add(citySlug+"-"+core, "city+core")
+		add(citySlug+"-"+core+"-golf-course", "city+core-gc")
+		add(citySlug+"-"+core+"-golf-club", "city+core-club")
+	}
+
+	// 7. Public booking engine pattern (seen: ballwin-gc-public-booking-engine)
+	add(core+"-public-booking-engine", "core+pbe")
+	add(exact+"-public-booking-engine", "exact+pbe")
+	add(core+"-gc-public-booking-engine", "core-gc+pbe")
+
+	return candidates
+}
+
+// normalize for name comparison.
+func normalize(s string) string {
+	s = strings.ToLower(strings.TrimSpace(s))
+	for _, suffix := range []string{
+		"golf course", "golf club", "golf resort", "golf complex",
+		"golf links", "golf center", "country club", " gc", " cc",
+	} {
+		s = strings.TrimSuffix(s, " "+suffix)
+	}
+	for _, prefix := range []string{"the ", "golf club of ", "golf club at "} {
+		s = strings.TrimPrefix(s, prefix)
+	}
+	return strings.TrimSpace(s)
+}
+
+// fuzzyMatch checks if an input course name matches a Kenna facility name.
+// After normalizing (stripping golf suffixes/prefixes), it checks:
+//   1. Exact normalized match
+//   2. One contains the other (min 5 chars to avoid "mesa" matching "mesa verde")
+//   3. Significant word overlap — all significant words (2+) from the shorter name
+//      appear in the longer (handles "Raven" matching "Raven at South Mountain")
+func fuzzyMatch(inputName, facilityName string) bool {
+	return fuzzyMatchWithCity(inputName, facilityName, "")
+}
+
+func fuzzyMatchWithCity(inputName, facilityName, city string) bool {
+	a := normalize(inputName)
+	b := normalize(facilityName)
+	if a == "" || b == "" {
+		return false
+	}
+	// Strip city name from input if present (e.g. "Raven Golf Club Phoenix" -> "raven" after normalize strips "golf club")
+	// The city often gets appended to course names for disambiguation but isn't part of the Kenna facility name
+	if city != "" {
+		cityLower := strings.ToLower(strings.TrimSpace(city))
+		a = strings.TrimSpace(strings.ReplaceAll(a, cityLower, ""))
+	}
+	if a == "" {
+		return false
+	}
+	if a == b {
+		return true
+	}
+	// Containment check with min length
+	shorter, longer := a, b
+	if len(a) > len(b) {
+		shorter, longer = b, a
+	}
+	if len(shorter) >= 5 && strings.Contains(longer, shorter) {
+		return true
+	}
+	// Word overlap: check if all significant words from the shorter name
+	// appear in the longer name. Requires 2+ significant words to avoid
+	// false positives like "mesa" matching "mesa verde".
+	skip := map[string]bool{"at": true, "of": true, "the": true, "in": true, "and": true, "a": true}
+	shorterWords := strings.Fields(shorter)
+	longerWords := strings.Fields(longer)
+	longerSet := map[string]bool{}
+	for _, w := range longerWords {
+		longerSet[w] = true
+	}
+	matchCount := 0
+	totalCount := 0
+	for _, w := range shorterWords {
+		if skip[w] {
+			continue
+		}
+		totalCount++
+		if longerSet[w] {
+			matchCount++
+		}
+	}
+	if totalCount >= 2 && matchCount == totalCount {
+		return true
+	}
+	return false
+}
+
 func probeDates() []string {
 	now := time.Now()
 	var dates []string
 
-	// Find next Wednesday (weekday = 3)
 	d := now
 	for d.Weekday() != time.Wednesday {
 		d = d.AddDate(0, 0, 1)
 	}
 	dates = append(dates, d.Format("2006-01-02"))
 
-	// Find next Saturday (weekday = 6)
 	d = now
 	for d.Weekday() != time.Saturday {
 		d = d.AddDate(0, 0, 1)
 	}
 	dates = append(dates, d.Format("2006-01-02"))
-
-	// Saturday after that
 	dates = append(dates, d.AddDate(0, 0, 7).Format("2006-01-02"))
 
 	return dates
 }
 
 func probeFacility(alias string) ([]Facility, int, error) {
-	url := apiBase + "/facilities"
-	log("  HTTP GET %s", url)
-	log("  Headers: x-be-alias=%s", alias)
-
-	req, err := http.NewRequest("GET", url, nil)
+	req, err := http.NewRequest("GET", apiBase+"/facilities", nil)
 	if err != nil {
 		return nil, 0, err
 	}
@@ -111,10 +317,8 @@ func probeFacility(alias string) ([]Facility, int, error) {
 	req.Header.Set("Accept", "application/json")
 	req.Header.Set("Origin", "https://"+alias+".book.teeitup.com")
 
-	start := time.Now()
 	client := &http.Client{Timeout: 10 * time.Second}
 	resp, err := client.Do(req)
-	elapsed := time.Since(start)
 	if err != nil {
 		return nil, 0, err
 	}
@@ -125,34 +329,19 @@ func probeFacility(alias string) ([]Facility, int, error) {
 		return nil, resp.StatusCode, err
 	}
 
-	log("  Response: %d (%dms, %d bytes)", resp.StatusCode, elapsed.Milliseconds(), len(body))
-
 	if resp.StatusCode != 200 {
-		preview := string(body)
-		if len(preview) > 200 {
-			preview = preview[:200] + "..."
-		}
-		log("  Body: %s", preview)
 		return nil, resp.StatusCode, nil
 	}
 
 	var facilities []Facility
 	if err := json.Unmarshal(body, &facilities); err != nil {
-		log("  JSON parse error: %v", err)
 		return nil, resp.StatusCode, nil
 	}
-
-	log("  Parsed %d facility(ies)", len(facilities))
-	for i, f := range facilities {
-		log("    [%d] FID:%d  %s  (%s, %s)  tz:%s", i, f.ID, f.Name, f.Locality, f.Region, f.TimeZone)
-	}
-
 	return facilities, resp.StatusCode, nil
 }
 
 func probeTeeTimes(alias string, facilityID int, date string) (int, error) {
 	url := fmt.Sprintf("%s/v2/tee-times?date=%s&facilityIds=%d&dateMax=%s", apiBase, date, facilityID, date)
-	log("    Checking tee times: %s (FID:%d)", date, facilityID)
 
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
@@ -162,10 +351,8 @@ func probeTeeTimes(alias string, facilityID int, date string) (int, error) {
 	req.Header.Set("Accept", "application/json")
 	req.Header.Set("Origin", "https://"+alias+".book.teeitup.com")
 
-	start := time.Now()
 	client := &http.Client{Timeout: 10 * time.Second}
 	resp, err := client.Do(req)
-	elapsed := time.Since(start)
 	if err != nil {
 		return 0, err
 	}
@@ -176,20 +363,12 @@ func probeTeeTimes(alias string, facilityID int, date string) (int, error) {
 		return 0, err
 	}
 
-	log("    Response: %d (%dms, %d bytes)", resp.StatusCode, elapsed.Milliseconds(), len(body))
-
 	if resp.StatusCode != 200 {
-		preview := string(body)
-		if len(preview) > 200 {
-			preview = preview[:200] + "..."
-		}
-		log("    Body: %s", preview)
 		return 0, nil
 	}
 
 	var data []TeeTimeResponse
 	if err := json.Unmarshal(body, &data); err != nil {
-		log("    JSON parse error: %v", err)
 		return 0, nil
 	}
 
@@ -197,189 +376,265 @@ func probeTeeTimes(alias string, facilityID int, date string) (int, error) {
 	for _, d := range data {
 		total += len(d.Teetimes)
 	}
-
-	log("    Found %d tee times for %s", total, date)
 	return total, nil
 }
 
-func readNamesFromFile(path string) ([]string, error) {
+func readInputFromFile(path string) ([]CourseInput, error) {
 	f, err := os.Open(path)
 	if err != nil {
 		return nil, err
 	}
 	defer f.Close()
 
-	var names []string
+	var inputs []CourseInput
 	scanner := bufio.NewScanner(f)
 	for scanner.Scan() {
 		line := strings.TrimSpace(scanner.Text())
 		if line == "" || strings.HasPrefix(line, "#") {
 			continue
 		}
-		// Support "Course Name | City | Notes" format — take first field
-		if idx := strings.Index(line, "|"); idx > 0 {
-			line = strings.TrimSpace(line[:idx])
+		parts := strings.SplitN(line, "|", 3)
+		name := strings.TrimSpace(parts[0])
+		city := ""
+		if len(parts) > 1 {
+			city = strings.TrimSpace(parts[1])
 		}
-		if line != "" {
-			names = append(names, line)
+		if name != "" {
+			inputs = append(inputs, CourseInput{Name: name, City: city})
 		}
 	}
-	return names, scanner.Err()
+	return inputs, scanner.Err()
+}
+
+// validateAndRecord checks state, probes tee times, records the result.
+func validateAndRecord(
+	f Facility, alias, aliasSource, inputName, inputCity, state string,
+	dates []string,
+	results *[]Result, discoveredByFID map[int]bool, discoveredByName map[string]bool,
+	confirmedCount, listedOnlyCount *int,
+) {
+	if discoveredByFID[f.ID] || discoveredByName[strings.ToLower(inputName)] {
+		return
+	}
+	if !strings.EqualFold(f.Region, state) {
+		return
+	}
+
+	if inputCity != "" && !strings.EqualFold(strings.TrimSpace(f.Locality), strings.TrimSpace(inputCity)) {
+		log("    ⚠️  City mismatch: expected %q, got %q — continuing anyway", inputCity, f.Locality)
+	}
+
+	log("  FACILITY FOUND — FID:%d  %s (%s, %s)  via alias %q [%s]", f.ID, f.Name, f.Locality, f.Region, alias, aliasSource)
+
+	var datesChecked []string
+	var teeTimes []int
+	totalTimes := 0
+
+	for _, date := range dates {
+		count, err := probeTeeTimes(alias, f.ID, date)
+		if err != nil {
+			log("    ERROR checking %s: %v", date, err)
+			count = 0
+		}
+		datesChecked = append(datesChecked, date)
+		teeTimes = append(teeTimes, count)
+		totalTimes += count
+		log("    %s: %d tee times", date, count)
+		time.Sleep(200 * time.Millisecond)
+	}
+
+	status := "listed_only"
+	if totalTimes > 0 {
+		status = "confirmed"
+		log("  ✅ CONFIRMED — %d total tee times", totalTimes)
+		*confirmedCount++
+	} else {
+		log("  ⚠️  LISTED ONLY — 0 tee times")
+		*listedOnlyCount++
+	}
+
+	fCopy := f
+	*results = append(*results, Result{
+		Input:        inputName,
+		City:         inputCity,
+		Alias:        alias,
+		AliasSource:  aliasSource,
+		Status:       status,
+		Facility:     &fCopy,
+		DatesChecked: datesChecked,
+		TeeTimes:     teeTimes,
+	})
+	discoveredByFID[f.ID] = true
+	discoveredByName[strings.ToLower(inputName)] = true
 }
 
 func main() {
 	if len(os.Args) < 3 {
-		fmt.Fprintf(os.Stderr, "Usage: go run discovery/teeitup.go <state> <course name> [course name] ...\n")
-		fmt.Fprintf(os.Stderr, "   or: go run discovery/teeitup.go <state> -f <file>\n")
-		fmt.Fprintf(os.Stderr, "Example: go run discovery/teeitup.go GA \"Sugar Hill Golf Club\" \"Bobby Jones Golf Course\"\n")
-		fmt.Fprintf(os.Stderr, "         go run discovery/teeitup.go AZ -f discovery/phoenix-courses.txt\n")
+		fmt.Fprintf(os.Stderr, "Usage: go run cmd/discover-teeitup/main.go <state> <course name> [course name] ...\n")
+		fmt.Fprintf(os.Stderr, "   or: go run cmd/discover-teeitup/main.go <state> -f <file>\n")
 		os.Exit(1)
 	}
 
 	state := strings.ToUpper(os.Args[1])
-	var names []string
+	var inputs []CourseInput
 	if os.Args[2] == "-f" {
 		if len(os.Args) < 4 {
 			fmt.Fprintf(os.Stderr, "Missing file path after -f\n")
 			os.Exit(1)
 		}
 		var err error
-		names, err = readNamesFromFile(os.Args[3])
+		inputs, err = readInputFromFile(os.Args[3])
 		if err != nil {
 			fmt.Fprintf(os.Stderr, "Error reading file: %v\n", err)
 			os.Exit(1)
 		}
 	} else {
-		names = os.Args[2:]
+		for _, name := range os.Args[2:] {
+			inputs = append(inputs, CourseInput{Name: name})
+		}
 	}
+
 	startTime := time.Now()
 	dates := probeDates()
 
 	log("=== TeeItUp Discovery ===")
 	log("Target state: %s", state)
-	log("Courses to probe: %d", len(names))
+	log("Courses to probe: %d", len(inputs))
 	log("API base: %s", apiBase)
 	log("Validation dates: %s, %s, %s", dates[0], dates[1], dates[2])
 	log("")
 
 	var results []Result
-	var confirmedCount, listedOnlyCount, missCount, errorCount, wrongStateCount int
+	var confirmedCount, listedOnlyCount, missCount, errorCount int
 
-	for i, name := range names {
-		alias := toAlias(name)
-		log("[%d/%d] %q -> alias: %q", i+1, len(names), name, alias)
+	discoveredByFID := map[int]bool{}
+	discoveredByName := map[string]bool{}
+	aliasCache := map[string][]Facility{}
+	// Track aliases that returned "Booking Engine Settings not found" so we don't retry
+	deadAliases := map[string]bool{}
 
-		facilities, statusCode, err := probeFacility(alias)
-		if err != nil {
-			log("  ERROR: %v", err)
-			results = append(results, Result{Input: name, Alias: alias, Status: "error", Error: err.Error()})
-			errorCount++
+	for i, input := range inputs {
+		if discoveredByName[strings.ToLower(input.Name)] {
+			log("[%d/%d] %q — SKIPPED (already discovered)", i+1, len(inputs), input.Name)
 			log("")
-			time.Sleep(200 * time.Millisecond)
 			continue
 		}
 
-		if statusCode != 200 || facilities == nil || len(facilities) == 0 {
-			log("  MISS (status=%d, facilities=%d)", statusCode, len(facilities))
-			results = append(results, Result{Input: name, Alias: alias, Status: "miss"})
-			missCount++
-			log("")
-			time.Sleep(200 * time.Millisecond)
-			continue
-		}
+		candidates := generateAliases(input.Name, input.City)
+		log("[%d/%d] %q (city: %q) — %d alias candidates", i+1, len(inputs), input.Name, input.City, len(candidates))
 
-		matched := false
-		for _, f := range facilities {
-			if strings.EqualFold(f.Region, state) {
-				log("  FACILITY FOUND — FID:%d  %s (%s, %s)", f.ID, f.Name, f.Locality, f.Region)
-				log("  Validating with tee time checks...")
-
-				// Probe 3 dates for actual tee times
-				fCopy := f
-				var datesChecked []string
-				var teeTimes []int
-				totalTimes := 0
-
-				for _, date := range dates {
-					count, err := probeTeeTimes(alias, f.ID, date)
-					if err != nil {
-						log("    ERROR checking %s: %v", date, err)
-						count = 0
-					}
-					datesChecked = append(datesChecked, date)
-					teeTimes = append(teeTimes, count)
-					totalTimes += count
-					time.Sleep(200 * time.Millisecond)
-				}
-
-				if totalTimes > 0 {
-					log("  CONFIRMED — %d total tee times across %d dates", totalTimes, len(dates))
-					results = append(results, Result{
-						Input: name, Alias: alias, Status: "confirmed",
-						Facility: &fCopy, DatesChecked: datesChecked, TeeTimes: teeTimes,
-					})
-					confirmedCount++
-				} else {
-					log("  LISTED ONLY — facility exists but 0 tee times across all dates")
-					results = append(results, Result{
-						Input: name, Alias: alias, Status: "listed_only",
-						Facility: &fCopy, DatesChecked: datesChecked, TeeTimes: teeTimes,
-					})
-					listedOnlyCount++
-				}
-				matched = true
+		found := false
+		for _, c := range candidates {
+			if deadAliases[c.alias] {
+				continue
 			}
+
+			// Check cache
+			facilities, cached := aliasCache[c.alias]
+			if !cached {
+				var statusCode int
+				var err error
+				facilities, statusCode, err = probeFacility(c.alias)
+				if err != nil {
+					log("  %s (%s): ERROR %v", c.alias, c.source, err)
+					time.Sleep(200 * time.Millisecond)
+					continue
+				}
+				if statusCode != 200 || len(facilities) == 0 {
+					deadAliases[c.alias] = true
+					time.Sleep(100 * time.Millisecond)
+					continue
+				}
+				aliasCache[c.alias] = facilities
+				log("  %s (%s): HIT — %d facility(ies)", c.alias, c.source, len(facilities))
+				for _, f := range facilities {
+					log("    FID:%d  %s  (%s, %s)", f.ID, f.Name, f.Locality, f.Region)
+				}
+			}
+
+			// Try to match the triggering course
+			for _, f := range facilities {
+				if fuzzyMatchWithCity(input.Name, f.Name, input.City) {
+					validateAndRecord(f, c.alias, c.source, input.Name, input.City, state, dates,
+						&results, discoveredByFID, discoveredByName, &confirmedCount, &listedOnlyCount)
+					if discoveredByName[strings.ToLower(input.Name)] {
+						found = true
+					}
+				}
+			}
+
+			// Multi-facility: check siblings against ALL inputs
+			if len(facilities) > 1 {
+				for _, f := range facilities {
+					if discoveredByFID[f.ID] {
+						continue
+					}
+					for _, other := range inputs {
+						if discoveredByName[strings.ToLower(other.Name)] {
+							continue
+						}
+						if fuzzyMatchWithCity(other.Name, f.Name, other.City) {
+							log("  ↳ Sibling match: FID:%d %q ↔ input %q", f.ID, f.Name, other.Name)
+							validateAndRecord(f, c.alias, c.source+"/sibling", other.Name, other.City, state, dates,
+								&results, discoveredByFID, discoveredByName, &confirmedCount, &listedOnlyCount)
+						}
+					}
+					// Log unmatched facilities
+					if !discoveredByFID[f.ID] && strings.EqualFold(f.Region, state) {
+						log("  ↳ Unmatched: FID:%d %q (%s) — not in input list", f.ID, f.Name, f.Locality)
+					}
+				}
+			}
+
+			if found {
+				break
+			}
+			time.Sleep(100 * time.Millisecond)
 		}
-		if !matched {
-			log("  WRONG STATE — got %s, wanted %s", facilities[0].Region, state)
-			results = append(results, Result{
-				Input: name, Alias: alias, Status: "wrong_state",
-				WrongState: facilities[0].Region,
-			})
-			wrongStateCount++
+
+		if !found && !discoveredByName[strings.ToLower(input.Name)] {
+			log("  MISS — no alias matched")
+			results = append(results, Result{Input: input.Name, City: input.City, Alias: slugify(input.Name), Status: "miss"})
+			missCount++
 		}
 
 		log("")
-		time.Sleep(200 * time.Millisecond)
 	}
 
 	elapsed := time.Since(startTime)
 
-	// Summary
 	log("========================================")
 	log("=== SUMMARY")
 	log("========================================")
-	log("Total probed:  %d", len(names))
+	log("Total probed:  %d", len(inputs))
 	log("Confirmed:     %d  (facility + tee times)", confirmedCount)
 	log("Listed only:   %d  (facility but no tee times)", listedOnlyCount)
 	log("Misses:        %d", missCount)
-	log("Wrong state:   %d", wrongStateCount)
 	log("Errors:        %d", errorCount)
 	log("Elapsed:       %s", elapsed.Round(time.Millisecond))
 	log("")
 
 	if confirmedCount > 0 {
-		log("=== CONFIRMED (ready to add) ===")
+		log("=== CONFIRMED ===")
 		for _, r := range results {
 			if r.Status == "confirmed" {
 				total := 0
 				for _, t := range r.TeeTimes {
 					total += t
 				}
-				log("  %-40s alias:%-35s FID:%-6d %s (%s, %s)  [%d times across %d dates]",
-					r.Input, r.Alias, r.Facility.ID, r.Facility.Name, r.Facility.Locality, r.Facility.Region,
-					total, len(r.DatesChecked))
+				log("  %-40s alias:%-35s [%s] FID:%-6d %s (%s, %s)  [%d times]",
+					r.Input, r.Alias, r.AliasSource, r.Facility.ID, r.Facility.Name, r.Facility.Locality, r.Facility.Region, total)
 			}
 		}
 		log("")
 	}
 
 	if listedOnlyCount > 0 {
-		log("=== LISTED ONLY (facility exists, no tee times — likely not using TeeItUp for booking) ===")
+		log("=== LISTED ONLY ===")
 		for _, r := range results {
 			if r.Status == "listed_only" {
-				log("  %-40s alias:%-35s FID:%-6d %s (%s, %s)",
-					r.Input, r.Alias, r.Facility.ID, r.Facility.Name, r.Facility.Locality, r.Facility.Region)
+				log("  %-40s alias:%-35s [%s] FID:%-6d %s (%s, %s)",
+					r.Input, r.Alias, r.AliasSource, r.Facility.ID, r.Facility.Name, r.Facility.Locality, r.Facility.Region)
 			}
 		}
 		log("")
@@ -389,50 +644,29 @@ func main() {
 		log("=== MISSES ===")
 		for _, r := range results {
 			if r.Status == "miss" {
-				log("  %-40s alias: %s", r.Input, r.Alias)
+				log("  %-40s (city: %s)", r.Input, r.City)
 			}
 		}
 		log("")
 	}
 
-	if wrongStateCount > 0 {
-		log("=== WRONG STATE ===")
-		for _, r := range results {
-			if r.Status == "wrong_state" {
-				log("  %-40s alias: %-30s got: %s", r.Input, r.Alias, r.WrongState)
-			}
-		}
-		log("")
-	}
-
-	if errorCount > 0 {
-		log("=== ERRORS ===")
-		for _, r := range results {
-			if r.Status == "error" {
-				log("  %-40s %s", r.Input, r.Error)
-			}
-		}
-		log("")
-	}
-
-	// Save results to file
+	// Save results
 	os.MkdirAll("discovery/results", 0755)
 	filename := fmt.Sprintf("discovery/results/teeitup-%s-%s.json",
 		strings.ToLower(state), startTime.Format("2006-01-02-150405"))
 
 	output := map[string]any{
-		"platform":       "teeitup",
-		"state":          state,
-		"timestamp":      startTime.Format(time.RFC3339),
-		"elapsed":        elapsed.String(),
-		"totalInput":     len(names),
-		"confirmed":      confirmedCount,
-		"listedOnly":     listedOnlyCount,
-		"misses":         missCount,
-		"wrongState":     wrongStateCount,
-		"errors":         errorCount,
+		"platform":        "teeitup",
+		"state":           state,
+		"timestamp":       startTime.Format(time.RFC3339),
+		"elapsed":         elapsed.String(),
+		"totalInput":      len(inputs),
+		"confirmed":       confirmedCount,
+		"listedOnly":      listedOnlyCount,
+		"misses":          missCount,
+		"errors":          errorCount,
 		"validationDates": dates,
-		"results":        results,
+		"results":         results,
 	}
 
 	data, err := json.MarshalIndent(output, "", "  ")

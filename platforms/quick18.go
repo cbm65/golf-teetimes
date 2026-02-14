@@ -93,15 +93,25 @@ func FetchQuick18(config Quick18CourseConfig, date string) ([]DisplayTeeTime, er
 		var timeStr string = times[i][1] + " " + times[i][2]
 
 		var courseName string = config.DisplayName
-		if config.NamePrefix != "" && i < len(courses) {
+		var holes string = "18"
+		if i < len(courses) {
 			var htmlCourse string = strings.TrimSpace(courses[i][1])
 			if htmlCourse != "" {
-				if strings.HasPrefix(htmlCourse, config.NamePrefix) {
-					courseName = htmlCourse
-				} else {
-					courseName = config.NamePrefix + " " + htmlCourse
+				lc := strings.ToLower(htmlCourse)
+				if strings.Contains(lc, "back 9") || strings.Contains(lc, "front 9") || strings.HasSuffix(lc, " 9") {
+					holes = "9"
+				}
+				if config.NamePrefix != "" {
+					if strings.HasPrefix(htmlCourse, config.NamePrefix) {
+						courseName = htmlCourse
+					} else {
+						courseName = config.NamePrefix + " " + htmlCourse
+					}
 				}
 			}
+		}
+		if config.Holes != "" {
+			holes = config.Holes
 		}
 
 		var openings int = 1
@@ -120,9 +130,9 @@ func FetchQuick18(config Quick18CourseConfig, date string) ([]DisplayTeeTime, er
 			City:       config.City,
 			State:      config.State,
 			Openings:   openings,
-			Holes:      config.Holes,
+			Holes:      holes,
 			Price:      price,
-			BookingURL: config.BookingURL,
+			BookingURL: config.BookingURL + "?teedate=" + dateClean,
 		})
 	}
 

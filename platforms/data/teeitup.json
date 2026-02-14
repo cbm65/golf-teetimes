@@ -9,7 +9,7 @@
     "state": "AZ"
   },
   {
-    "key": "akchin-southern-dunes",
+    "key": "ak-chin-southern-dunes",
     "metro": "phoenix",
     "alias": "ak-chin-southern-dunes-golf-club",
     "facilityId": "3608",
@@ -54,6 +54,24 @@
     "state": "AZ"
   },
   {
+    "key": "dobson-ranch",
+    "metro": "phoenix",
+    "alias": "dobson-ranch",
+    "facilityId": "6501",
+    "displayName": "Dobson Ranch Golf Course",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "dove-valley-ranch",
+    "metro": "phoenix",
+    "alias": "dove-valley-ranch",
+    "facilityId": "115",
+    "displayName": "Dove Valley Ranch Golf Club",
+    "city": "Cave Creek",
+    "state": "AZ"
+  },
+  {
     "key": "encanto",
     "metro": "phoenix",
     "alias": "encanto-golf-course",
@@ -72,7 +90,7 @@
     "state": "AZ"
   },
   {
-    "key": "of-estrella",
+    "key": "estrella",
     "metro": "phoenix",
     "alias": "golf-club-of-estrella",
     "facilityId": "51",
@@ -96,6 +114,24 @@
     "facilityId": "4481",
     "displayName": "Greenfield Lakes Golf Course",
     "city": "Gilbert",
+    "state": "AZ"
+  },
+  {
+    "key": "hillcrest",
+    "metro": "phoenix",
+    "alias": "hillcrest-golf",
+    "facilityId": "1296",
+    "displayName": "Hillcrest Golf Course",
+    "city": "Sun City West",
+    "state": "AZ"
+  },
+  {
+    "key": "ironwood",
+    "metro": "phoenix",
+    "alias": "ironwood-golf-club",
+    "facilityId": "3505",
+    "displayName": "Ironwood Golf Club",
+    "city": "Chandler",
     "state": "AZ"
   },
   {
@@ -135,15 +171,6 @@
     "state": "AZ"
   },
   {
-    "key": "little-oasis-club",
-    "metro": "phoenix",
-    "alias": "royal-palms-golf-course",
-    "facilityId": "10907",
-    "displayName": "Little Oasis Club",
-    "city": "Mesa",
-    "state": "AZ"
-  },
-  {
     "key": "lone-tree",
     "metro": "phoenix",
     "alias": "lone-tree-golf-club",
@@ -162,12 +189,39 @@
     "state": "AZ"
   },
   {
+    "key": "lookout-mountain",
+    "metro": "phoenix",
+    "alias": "lookout-mountain-gc",
+    "facilityId": "285",
+    "displayName": "Lookout Mountain Golf Club",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
     "key": "mountain-brook",
     "metro": "phoenix",
     "alias": "mountain-brook-golf-club",
     "facilityId": "3173",
     "displayName": "Mountain Brook Golf Club",
     "city": "Gold Canyon",
+    "state": "AZ"
+  },
+  {
+    "key": "palo-verde",
+    "metro": "phoenix",
+    "alias": "palo-verde",
+    "facilityId": "3209",
+    "displayName": "Palo Verde Golf Course",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "paradise-valley",
+    "metro": "phoenix",
+    "alias": "paradise-valley-golf",
+    "facilityId": "6749",
+    "displayName": "Paradise Valley Golf Course",
+    "city": "Phoenix",
     "state": "AZ"
   },
   {
@@ -189,15 +243,6 @@
     "state": "AZ"
   },
   {
-    "key": "raven-phoenix",
-    "metro": "phoenix",
-    "alias": "raven-golf-club-phoenix",
-    "facilityId": "1446",
-    "displayName": "Raven Golf Club Phoenix",
-    "city": "Phoenix",
-    "state": "AZ"
-  },
-  {
     "key": "red-mountain-ranch",
     "metro": "phoenix",
     "alias": "red-mountain-ranch-country-club",
@@ -207,12 +252,12 @@
     "state": "AZ"
   },
   {
-    "key": "san-tan-highlands",
+    "key": "san-marcos",
     "metro": "phoenix",
-    "alias": "golf-club-at-johnson-ranch",
-    "facilityId": "58",
-    "displayName": "San Tan Highlands",
-    "city": "San Tan Valley",
+    "alias": "san-marcos-golf-resort",
+    "facilityId": "1383",
+    "displayName": "San Marcos Golf Resort",
+    "city": "Chandler",
     "state": "AZ"
   },
   {
@@ -252,6 +297,15 @@
     "state": "AZ"
   },
   {
+    "key": "phoenician",
+    "metro": "phoenix",
+    "alias": "the-phoenician",
+    "facilityId": "1106",
+    "displayName": "The Phoenician Golf Club",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
     "key": "trilogy-at-vistancia",
     "metro": "phoenix",
     "alias": "trilogy-golf-club-at-vistancia",
@@ -285,6 +339,33 @@
     "facilityId": "9766",
     "displayName": "Wickenburg Country Club",
     "city": "Wickenburg",
+    "state": "AZ"
+  },
+  {
+    "key": "wigwam",
+    "metro": "phoenix",
+    "alias": "wigwam",
+    "facilityId": "6735",
+    "displayName": "Wigwam Golf Club",
+    "city": "Litchfield Park",
+    "state": "AZ"
+  },
+  {
+    "key": "legacy",
+    "metro": "phoenix",
+    "alias": "the-legacy-golf-club",
+    "facilityId": "57",
+    "displayName": "The Legacy Golf Club",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "scottsdale-silverado",
+    "metro": "phoenix",
+    "alias": "silverado-golf-club",
+    "facilityId": "59",
+    "displayName": "Scottsdale Silverado Golf Club",
+    "city": "Scottsdale",
     "state": "AZ"
   }
 ]

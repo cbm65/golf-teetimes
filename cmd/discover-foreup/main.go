@@ -262,31 +262,59 @@ func normalize(s string) string {
 	return strings.Join(strings.Fields(s), " ")
 }
 
-func readNamesFromFile(path string) ([]string, error) {
+type CourseInput struct {
+	Name string
+	City string
+}
+
+func readInputFromFile(path string) ([]CourseInput, error) {
 	f, err := os.Open(path)
 	if err != nil {
 		return nil, err
 	}
 	defer f.Close()
 
-	var names []string
+	var inputs []CourseInput
 	scanner := bufio.NewScanner(f)
 	for scanner.Scan() {
 		line := strings.TrimSpace(scanner.Text())
 		if line == "" || strings.HasPrefix(line, "#") {
 			continue
 		}
-		if idx := strings.Index(line, "|"); idx > 0 {
-			line = strings.TrimSpace(line[:idx])
+		parts := strings.SplitN(line, "|", 3)
+		name := strings.TrimSpace(parts[0])
+		city := ""
+		if len(parts) > 1 {
+			city = strings.TrimSpace(parts[1])
 		}
-		if line != "" {
-			names = append(names, line)
+		if name != "" {
+			inputs = append(inputs, CourseInput{Name: name, City: city})
 		}
 	}
-	return names, scanner.Err()
+	return inputs, scanner.Err()
 }
 
-func runMatch(state string, targets []string) {
+func fuzzyMatch(inputName, indexName string) bool {
+	a := normalize(inputName)
+	b := normalize(indexName)
+	if a == "" || b == "" {
+		return false
+	}
+	if a == b {
+		return true
+	}
+	// Containment check with min 5-char guard to avoid false positives
+	shorter, longer := a, b
+	if len(a) > len(b) {
+		shorter, longer = b, a
+	}
+	if len(shorter) >= 5 && strings.Contains(longer, shorter) {
+		return true
+	}
+	return false
+}
+
+func runMatch(state string, inputs []CourseInput) {
 	idx := loadIndex()
 	if len(idx.Courses) == 0 {
 		fmt.Fprintf(os.Stderr, "No index found. Run --index first.\n")
@@ -296,7 +324,7 @@ func runMatch(state string, targets []string) {
 	log("=== ForeUP Match ===")
 	log("Index: %d courses (scanned to ID %d)", len(idx.Courses), idx.ScannedTo)
 	log("State filter: %s", state)
-	log("Target courses: %d", len(targets))
+	log("Target courses: %d", len(inputs))
 	log("")
 
 	// Filter index to state
@@ -309,17 +337,34 @@ func runMatch(state string, targets []string) {
 	log("Courses in %s: %d", state, len(stateCourses))
 	log("")
 
+	// Build targets list for iteration (keeps downstream code simple)
+	targets := make([]string, len(inputs))
+	for i, inp := range inputs {
+		targets[i] = inp.Name
+	}
+
 	matched := make(map[string]*IndexEntry)
 	claimedCourseIDs := make(map[int]bool)
+	inputCityMap := make(map[string]string) // input name -> city
+	for _, inp := range inputs {
+		inputCityMap[inp.Name] = inp.City
+	}
 	for i, c := range stateCourses {
-		cn := normalize(c.Name)
-		for _, t := range targets {
-			tn := normalize(t)
-			if cn == tn || strings.Contains(cn, tn) || strings.Contains(tn, cn) {
-				if _, already := matched[t]; !already && !claimedCourseIDs[c.CourseID] {
-					matched[t] = &stateCourses[i]
-					claimedCourseIDs[c.CourseID] = true
+		for _, inp := range inputs {
+			t := inp.Name
+			if _, already := matched[t]; already {
+				continue
+			}
+			if claimedCourseIDs[c.CourseID] {
+				continue
+			}
+			if fuzzyMatch(t, c.Name) {
+				// City validation: warn but don't reject (ForeUp city can differ)
+				if inp.City != "" && !strings.EqualFold(strings.TrimSpace(c.City), strings.TrimSpace(inp.City)) {
+					log("  ⚠️  City mismatch for %q: expected %q, got %q — continuing", t, inp.City, c.City)
 				}
+				matched[t] = &stateCourses[i]
+				claimedCourseIDs[c.CourseID] = true
 			}
 		}
 	}
@@ -542,12 +587,12 @@ func main() {
 			fmt.Fprintf(os.Stderr, "Expected -f <file>\n")
 			os.Exit(1)
 		}
-		targets, err := readNamesFromFile(os.Args[4])
+		inputs, err := readInputFromFile(os.Args[4])
 		if err != nil {
 			fmt.Fprintf(os.Stderr, "Error reading file: %v\n", err)
 			os.Exit(1)
 		}
-		runMatch(state, targets)
+		runMatch(state, inputs)
 
 	default:
 		printUsage()

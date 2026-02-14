@@ -1,0 +1,1303 @@
+{
+  "confirmed": 9,
+  "elapsed": "3m19.941436542s",
+  "listedOnly": 5,
+  "missed": 76,
+  "platform": "quick18",
+  "results": [
+    {
+      "input": "Aguila Golf Course",
+      "city": "Phoenix",
+      "status": "miss",
+      "slugsTried": [
+        "aguila",
+        "aguilagolfcourse",
+        "aguilagolf",
+        "aguilagolfclub",
+        "aguilacc",
+        "aguila-golf-course"
+      ]
+    },
+    {
+      "input": "Cave Creek Golf Course",
+      "city": "Phoenix",
+      "status": "miss",
+      "slugsTried": [
+        "cavecreek",
+        "cavecreekgolfcourse",
+        "cavecreekgolf",
+        "cavecreekgolfclub",
+        "cavecreekcc",
+        "cave-creek-golf-course",
+        "cave-creek"
+      ]
+    },
+    {
+      "input": "Encanto Golf Course",
+      "city": "Phoenix",
+      "status": "miss",
+      "slugsTried": [
+        "encanto",
+        "encantogolfcourse",
+        "encantogolf",
+        "encantogolfclub",
+        "encantocc",
+        "encanto-golf-course"
+      ]
+    },
+    {
+      "input": "Encanto 9-Hole Golf Course",
+      "city": "Phoenix",
+      "status": "miss",
+      "slugsTried": [
+        "encanto9hole",
+        "encanto9holegolfcourse",
+        "encanto9holegolf",
+        "encanto9holegolfclub",
+        "encanto9holecc",
+        "encanto-9-hole-golf-course",
+        "encanto-9-hole"
+      ]
+    },
+    {
+      "input": "Palo Verde Golf Course",
+      "city": "Phoenix",
+      "status": "miss",
+      "slugsTried": [
+        "paloverde",
+        "paloverdegolfcourse",
+        "paloverdegolf",
+        "paloverdegolfclub",
+        "paloverdecc",
+        "palo-verde-golf-course",
+        "palo-verde"
+      ]
+    },
+    {
+      "input": "Papago Golf Course",
+      "city": "Phoenix",
+      "status": "confirmed",
+      "subdomain": "papago",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        13,
+        8,
+        9
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "Maryvale Golf Course",
+      "city": "Phoenix",
+      "status": "miss",
+      "slugsTried": [
+        "maryvale",
+        "maryvalegolfcourse",
+        "maryvalegolf",
+        "maryvalegolfclub",
+        "maryvalecc",
+        "maryvale-golf-course"
+      ]
+    },
+    {
+      "input": "Coronado Golf Course",
+      "city": "Scottsdale",
+      "status": "miss",
+      "slugsTried": [
+        "coronado",
+        "coronadogolfcourse",
+        "coronadogolf",
+        "coronadogolfclub",
+        "coronadocc",
+        "coronado-golf-course"
+      ]
+    },
+    {
+      "input": "Continental Golf Club",
+      "city": "Scottsdale",
+      "status": "listed_only",
+      "subdomain": "continentalcc",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Ken McDonald Golf Course",
+      "city": "Tempe",
+      "status": "miss",
+      "slugsTried": [
+        "kenmcdonald",
+        "kenmcdonaldgolfcourse",
+        "kenmcdonaldgolf",
+        "kenmcdonaldgolfclub",
+        "kenmcdonaldcc",
+        "ken-mcdonald-golf-course",
+        "ken-mcdonald"
+      ]
+    },
+    {
+      "input": "Rolling Hills Golf Course",
+      "city": "Tempe",
+      "status": "miss",
+      "slugsTried": [
+        "rollinghills",
+        "rollinghillsgolfcourse",
+        "rollinghillsgolf",
+        "rollinghillsgolfclub",
+        "rollinghillscc",
+        "rolling-hills-golf-course",
+        "rolling-hills"
+      ]
+    },
+    {
+      "input": "Dobson Ranch Golf Course",
+      "city": "Mesa",
+      "status": "miss",
+      "slugsTried": [
+        "dobsonranch",
+        "dobsonranchgolfcourse",
+        "dobsonranchgolf",
+        "dobsonranchgolfclub",
+        "dobsonranchcc",
+        "dobson-ranch-golf-course",
+        "dobson-ranch"
+      ]
+    },
+    {
+      "input": "Ak-Chin Southern Dunes Golf Club",
+      "city": "Maricopa",
+      "status": "miss",
+      "slugsTried": [
+        "akchinsoutherndunes",
+        "akchinsoutherndunesgolfclub",
+        "akchinsoutherndunesgolf",
+        "akchinsoutherndunesgolfcourse",
+        "akchinsoutherndunescc",
+        "ak-chin-southern-dunes-golf-club",
+        "ak-chin-southern-dunes"
+      ]
+    },
+    {
+      "input": "Arizona Biltmore Golf Club",
+      "city": "Phoenix",
+      "status": "miss",
+      "slugsTried": [
+        "arizonabiltmore",
+        "arizonabiltmoregolfclub",
+        "arizonabiltmoregolf",
+        "arizonabiltmoregolfcourse",
+        "arizonabiltmorecc",
+        "arizona-biltmore-golf-club",
+        "arizona-biltmore"
+      ]
+    },
+    {
+      "input": "Arizona Grand Golf Course",
+      "city": "Phoenix",
+      "status": "miss",
+      "slugsTried": [
+        "arizonagrand",
+        "arizonagrandgolfcourse",
+        "arizonagrandgolf",
+        "arizonagrandgolfclub",
+        "arizonagrandcc",
+        "arizona-grand-golf-course",
+        "arizona-grand"
+      ]
+    },
+    {
+      "input": "ASU Karsten Golf Course",
+      "city": "Tempe",
+      "status": "miss",
+      "slugsTried": [
+        "asukarsten",
+        "asukarstengolfcourse",
+        "asukarstengolf",
+        "asukarstengolfclub",
+        "asukarstencc",
+        "asu-karsten-golf-course",
+        "asu-karsten"
+      ]
+    },
+    {
+      "input": "Augusta Ranch Golf Club",
+      "city": "Mesa",
+      "status": "confirmed",
+      "subdomain": "augustaranch",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        36,
+        31,
+        59
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "Bear Creek Golf Complex",
+      "city": "Chandler",
+      "status": "miss",
+      "slugsTried": [
+        "bearcreek",
+        "bearcreekgolfcomplex",
+        "bearcreekgolf",
+        "bearcreekgolfclub",
+        "bearcreekgolfcourse",
+        "bearcreekcc",
+        "bear-creek-golf-complex",
+        "bear-creek"
+      ]
+    },
+    {
+      "input": "Bellair Golf Club",
+      "city": "Glendale",
+      "status": "miss",
+      "slugsTried": [
+        "bellair",
+        "bellairgolfclub",
+        "bellairgolf",
+        "bellairgolfcourse",
+        "bellaircc",
+        "bellair-golf-club"
+      ]
+    },
+    {
+      "input": "Camelback Golf Club",
+      "city": "Scottsdale",
+      "status": "miss",
+      "slugsTried": [
+        "camelback",
+        "camelbackgolfclub",
+        "camelbackgolf",
+        "camelbackgolfcourse",
+        "camelbackcc",
+        "camelback-golf-club"
+      ]
+    },
+    {
+      "input": "Coldwater Golf Club",
+      "city": "Avondale",
+      "status": "miss",
+      "slugsTried": [
+        "coldwater",
+        "coldwatergolfclub",
+        "coldwatergolf",
+        "coldwatergolfcourse",
+        "coldwatercc",
+        "coldwater-golf-club"
+      ]
+    },
+    {
+      "input": "Coyote Lakes Golf Club",
+      "city": "Surprise",
+      "status": "confirmed",
+      "subdomain": "coyotelakes",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        55,
+        39,
+        66
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "Desert Canyon Golf Club",
+      "city": "Fountain Hills",
+      "status": "confirmed",
+      "subdomain": "desertcanyon",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        25,
+        38,
+        24
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "Dove Valley Ranch Golf Club",
+      "city": "Cave Creek",
+      "status": "miss",
+      "slugsTried": [
+        "dovevalleyranch",
+        "dovevalleyranchgolfclub",
+        "dovevalleyranchgolf",
+        "dovevalleyranchgolfcourse",
+        "dovevalleyranchcc",
+        "dove-valley-ranch-golf-club",
+        "dove-valley-ranch"
+      ]
+    },
+    {
+      "input": "Eagle Mountain Golf Club",
+      "city": "Fountain Hills",
+      "status": "miss",
+      "slugsTried": [
+        "eaglemountain",
+        "eaglemountaingolfclub",
+        "eaglemountaingolf",
+        "eaglemountaingolfcourse",
+        "eaglemountaincc",
+        "eagle-mountain-golf-club",
+        "eagle-mountain"
+      ]
+    },
+    {
+      "input": "Foothills Golf Club",
+      "city": "Phoenix",
+      "status": "miss",
+      "slugsTried": [
+        "foothills",
+        "foothillsgolfclub",
+        "foothillsgolf",
+        "foothillsgolfcourse",
+        "foothillscc",
+        "foothills-golf-club"
+      ]
+    },
+    {
+      "input": "Golf Club of Estrella",
+      "city": "Goodyear",
+      "status": "miss",
+      "slugsTried": [
+        "estrella",
+        "golfclubofestrella",
+        "estrellagolf",
+        "estrellagolfclub",
+        "estrellagolfcourse",
+        "estrellacc",
+        "golf-club-of-estrella"
+      ]
+    },
+    {
+      "input": "Golf Club at Johnson Ranch",
+      "city": "San Tan Valley",
+      "status": "miss",
+      "slugsTried": [
+        "johnsonranch",
+        "golfclubatjohnsonranch",
+        "johnsonranchgolf",
+        "johnsonranchgolfclub",
+        "johnsonranchgolfcourse",
+        "johnsonranchcc",
+        "golf-club-at-johnson-ranch",
+        "johnson-ranch"
+      ]
+    },
+    {
+      "input": "Grand Canyon University Golf Course",
+      "city": "Phoenix",
+      "status": "miss",
+      "slugsTried": [
+        "grandcanyonuniversity",
+        "grandcanyonuniversitygolfcourse",
+        "grandcanyonuniversitygolf",
+        "grandcanyonuniversitygolfclub",
+        "grandcanyonuniversitycc",
+        "grand-canyon-university-golf-course",
+        "grand-canyon-university"
+      ]
+    },
+    {
+      "input": "Granite Falls Golf Club",
+      "city": "Surprise",
+      "status": "miss",
+      "slugsTried": [
+        "granitefalls",
+        "granitefallsgolfclub",
+        "granitefallsgolf",
+        "granitefallsgolfcourse",
+        "granitefallscc",
+        "granite-falls-golf-club",
+        "granite-falls"
+      ]
+    },
+    {
+      "input": "Grayhawk Golf Club",
+      "city": "Scottsdale",
+      "status": "confirmed",
+      "subdomain": "grayhawk",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        45,
+        14,
+        11
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "Greenfield Lakes Golf Course",
+      "city": "Gilbert",
+      "status": "miss",
+      "slugsTried": [
+        "greenfieldlakes",
+        "greenfieldlakesgolfcourse",
+        "greenfieldlakesgolf",
+        "greenfieldlakesgolfclub",
+        "greenfieldlakescc",
+        "greenfield-lakes-golf-course",
+        "greenfield-lakes"
+      ]
+    },
+    {
+      "input": "Happy Trails Golf Club",
+      "city": "Surprise",
+      "status": "miss",
+      "slugsTried": [
+        "happytrails",
+        "happytrailsgolfclub",
+        "happytrailsgolf",
+        "happytrailsgolfcourse",
+        "happytrailscc",
+        "happy-trails-golf-club",
+        "happy-trails"
+      ]
+    },
+    {
+      "input": "Hillcrest Golf Club",
+      "city": "Sun City West",
+      "status": "miss",
+      "slugsTried": [
+        "hillcrest",
+        "hillcrestgolfclub",
+        "hillcrestgolf",
+        "hillcrestgolfcourse",
+        "hillcrestcc",
+        "hillcrest-golf-club"
+      ]
+    },
+    {
+      "input": "InScape Golf",
+      "city": "Mesa",
+      "status": "miss",
+      "slugsTried": [
+        "inscapegolf",
+        "inscapegolfgolf",
+        "inscapegolfgolfclub",
+        "inscapegolfgolfcourse",
+        "inscapegolfcc",
+        "inscape-golf"
+      ]
+    },
+    {
+      "input": "Ironwood Golf Course",
+      "city": "Chandler",
+      "status": "miss",
+      "slugsTried": [
+        "ironwood",
+        "ironwoodgolfcourse",
+        "ironwoodgolf",
+        "ironwoodgolfclub",
+        "ironwoodcc",
+        "ironwood-golf-course"
+      ]
+    },
+    {
+      "input": "Kokopelli Golf Club",
+      "city": "Gilbert",
+      "status": "miss",
+      "slugsTried": [
+        "kokopelli",
+        "kokopelligolfclub",
+        "kokopelligolf",
+        "kokopelligolfcourse",
+        "kokopellicc",
+        "kokopelli-golf-club"
+      ]
+    },
+    {
+      "input": "Las Colinas Golf Club",
+      "city": "Queen Creek",
+      "status": "listed_only",
+      "subdomain": "lascolinas",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Las Sendas Golf Club",
+      "city": "Mesa",
+      "status": "miss",
+      "slugsTried": [
+        "lassendas",
+        "lassendasgolfclub",
+        "lassendasgolf",
+        "lassendasgolfcourse",
+        "lassendascc",
+        "las-sendas-golf-club",
+        "las-sendas"
+      ]
+    },
+    {
+      "input": "Legacy Golf Club",
+      "city": "Phoenix",
+      "status": "miss",
+      "slugsTried": [
+        "legacy",
+        "legacygolfclub",
+        "legacygolf",
+        "legacygolfcourse",
+        "legacycc",
+        "legacy-golf-club"
+      ]
+    },
+    {
+      "input": "Legend Trail Golf Club",
+      "city": "Scottsdale",
+      "status": "miss",
+      "slugsTried": [
+        "legendtrail",
+        "legendtrailgolfclub",
+        "legendtrailgolf",
+        "legendtrailgolfcourse",
+        "legendtrailcc",
+        "legend-trail-golf-club",
+        "legend-trail"
+      ]
+    },
+    {
+      "input": "Leisure World Golf Course",
+      "city": "Mesa",
+      "status": "miss",
+      "slugsTried": [
+        "leisureworld",
+        "leisureworldgolfcourse",
+        "leisureworldgolf",
+        "leisureworldgolfclub",
+        "leisureworldcc",
+        "leisure-world-golf-course",
+        "leisure-world"
+      ]
+    },
+    {
+      "input": "Lone Tree Golf Club",
+      "city": "Chandler",
+      "status": "miss",
+      "slugsTried": [
+        "lonetree",
+        "lonetreegolfclub",
+        "lonetreegolf",
+        "lonetreegolfcourse",
+        "lonetreecc",
+        "lone-tree-golf-club",
+        "lone-tree"
+      ]
+    },
+    {
+      "input": "Longbow Golf Club",
+      "city": "Mesa",
+      "status": "listed_only",
+      "subdomain": "longbowgolf",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Lookout Mountain Golf Club",
+      "city": "Phoenix",
+      "status": "miss",
+      "slugsTried": [
+        "lookoutmountain",
+        "lookoutmountaingolfclub",
+        "lookoutmountaingolf",
+        "lookoutmountaingolfcourse",
+        "lookoutmountaincc",
+        "lookout-mountain-golf-club",
+        "lookout-mountain"
+      ]
+    },
+    {
+      "input": "Los Caballeros Golf Club",
+      "city": "Wickenburg",
+      "status": "miss",
+      "slugsTried": [
+        "loscaballeros",
+        "loscaballerosgolfclub",
+        "loscaballerosgolf",
+        "loscaballerosgolfcourse",
+        "loscaballeroscc",
+        "los-caballeros-golf-club",
+        "los-caballeros"
+      ]
+    },
+    {
+      "input": "McCormick Ranch Golf Club",
+      "city": "Scottsdale",
+      "status": "miss",
+      "slugsTried": [
+        "mccormickranch",
+        "mccormickranchgolfclub",
+        "mccormickranchgolf",
+        "mccormickranchgolfcourse",
+        "mccormickranchcc",
+        "mccormick-ranch-golf-club",
+        "mccormick-ranch"
+      ]
+    },
+    {
+      "input": "McDowell Mountain Golf Club",
+      "city": "Scottsdale",
+      "status": "miss",
+      "slugsTried": [
+        "mcdowellmountain",
+        "mcdowellmountaingolfclub",
+        "mcdowellmountaingolf",
+        "mcdowellmountaingolfcourse",
+        "mcdowellmountaincc",
+        "mcdowell-mountain-golf-club",
+        "mcdowell-mountain"
+      ]
+    },
+    {
+      "input": "Mountain Brook Golf Club",
+      "city": "Gold Canyon",
+      "status": "miss",
+      "slugsTried": [
+        "mountainbrook",
+        "mountainbrookgolfclub",
+        "mountainbrookgolf",
+        "mountainbrookgolfcourse",
+        "mountainbrookcc",
+        "mountain-brook-golf-club",
+        "mountain-brook"
+      ]
+    },
+    {
+      "input": "Ocotillo Golf Club",
+      "city": "Chandler",
+      "status": "miss",
+      "slugsTried": [
+        "ocotillo",
+        "ocotillogolfclub",
+        "ocotillogolf",
+        "ocotillogolfcourse",
+        "ocotillocc",
+        "ocotillo-golf-club"
+      ]
+    },
+    {
+      "input": "Orange Tree Golf Course",
+      "city": "Scottsdale",
+      "status": "confirmed",
+      "subdomain": "orangetree",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        56,
+        32,
+        50
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "Painted Mountain Golf Resort",
+      "city": "Mesa",
+      "status": "listed_only",
+      "subdomain": "paintedmountain",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Palm Valley Golf Club",
+      "city": "Goodyear",
+      "status": "miss",
+      "slugsTried": [
+        "palmvalley",
+        "palmvalleygolfclub",
+        "palmvalleygolf",
+        "palmvalleygolfcourse",
+        "palmvalleycc",
+        "palm-valley-golf-club",
+        "palm-valley"
+      ]
+    },
+    {
+      "input": "Paradise Valley Golf Course",
+      "city": "Phoenix",
+      "status": "miss",
+      "slugsTried": [
+        "paradisevalley",
+        "paradisevalleygolfcourse",
+        "paradisevalleygolf",
+        "paradisevalleygolfclub",
+        "paradisevalleycc",
+        "paradise-valley-golf-course",
+        "paradise-valley"
+      ]
+    },
+    {
+      "input": "Pueblo El Mirage Golf Course",
+      "city": "El Mirage",
+      "status": "miss",
+      "slugsTried": [
+        "puebloelmirage",
+        "puebloelmiragegolfcourse",
+        "puebloelmiragegolf",
+        "puebloelmiragegolfclub",
+        "puebloelmiragecc",
+        "pueblo-el-mirage-golf-course",
+        "pueblo-el-mirage"
+      ]
+    },
+    {
+      "input": "Quintero Golf Club",
+      "city": "Peoria",
+      "status": "miss",
+      "slugsTried": [
+        "quintero",
+        "quinterogolfclub",
+        "quinterogolf",
+        "quinterogolfcourse",
+        "quinterocc",
+        "quintero-golf-club"
+      ]
+    },
+    {
+      "input": "Rancho Manana Golf Club",
+      "city": "Cave Creek",
+      "status": "miss",
+      "slugsTried": [
+        "ranchomanana",
+        "ranchomananagolfclub",
+        "ranchomananagolf",
+        "ranchomananagolfcourse",
+        "ranchomananacc",
+        "rancho-manana-golf-club",
+        "rancho-manana"
+      ]
+    },
+    {
+      "input": "Raven Golf Club Phoenix",
+      "city": "Phoenix",
+      "status": "miss",
+      "slugsTried": [
+        "ravengolfclubphoenix",
+        "ravengolfclubphoenixgolf",
+        "ravengolfclubphoenixgolfclub",
+        "ravengolfclubphoenixgolfcourse",
+        "ravengolfclubphoenixcc",
+        "raven-golf-club-phoenix"
+      ]
+    },
+    {
+      "input": "Red Mountain Ranch Country Club",
+      "city": "Mesa",
+      "status": "miss",
+      "slugsTried": [
+        "redmountainranch",
+        "redmountainranchcountryclub",
+        "redmountainranchgolf",
+        "redmountainranchgolfclub",
+        "redmountainranchgolfcourse",
+        "redmountainranchcc",
+        "red-mountain-ranch-country-club",
+        "red-mountain-ranch"
+      ]
+    },
+    {
+      "input": "Riverview Golf Course",
+      "city": "Mesa",
+      "status": "wrong_state",
+      "subdomain": "riverview",
+      "foundState": "CA"
+    },
+    {
+      "input": "Royal Palms Golf Course",
+      "city": "Mesa",
+      "status": "miss",
+      "slugsTried": [
+        "royalpalms",
+        "royalpalmsgolfcourse",
+        "royalpalmsgolf",
+        "royalpalmsgolfclub",
+        "royalpalmscc",
+        "royal-palms-golf-course",
+        "royal-palms"
+      ]
+    },
+    {
+      "input": "San Marcos Golf Course",
+      "city": "Chandler",
+      "status": "miss",
+      "slugsTried": [
+        "sanmarcos",
+        "sanmarcosgolfcourse",
+        "sanmarcosgolf",
+        "sanmarcosgolfclub",
+        "sanmarcoscc",
+        "san-marcos-golf-course",
+        "san-marcos"
+      ]
+    },
+    {
+      "input": "Scottsdale Silverado Golf Club",
+      "city": "Scottsdale",
+      "status": "miss",
+      "slugsTried": [
+        "scottsdalesilverado",
+        "scottsdalesilveradogolfclub",
+        "scottsdalesilveradogolf",
+        "scottsdalesilveradogolfcourse",
+        "scottsdalesilveradocc",
+        "scottsdale-silverado-golf-club",
+        "scottsdale-silverado"
+      ]
+    },
+    {
+      "input": "Shalimar Golf Club",
+      "city": "Tempe",
+      "status": "miss",
+      "slugsTried": [
+        "shalimar",
+        "shalimargolfclub",
+        "shalimargolf",
+        "shalimargolfcourse",
+        "shalimarcc",
+        "shalimar-golf-club"
+      ]
+    },
+    {
+      "input": "Starfire Golf Club",
+      "city": "Scottsdale",
+      "status": "confirmed",
+      "subdomain": "starfire",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        72,
+        72,
+        72
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "Stonecreek Golf Club",
+      "city": "Phoenix",
+      "status": "wrong_state",
+      "subdomain": "stonecreek",
+      "foundState": "OR"
+    },
+    {
+      "input": "Sundance Golf Club",
+      "city": "Buckeye",
+      "status": "miss",
+      "slugsTried": [
+        "sundance",
+        "sundancegolfclub",
+        "sundancegolf",
+        "sundancegolfcourse",
+        "sundancecc",
+        "sundance-golf-club"
+      ]
+    },
+    {
+      "input": "SunRidge Canyon Golf Club",
+      "city": "Fountain Hills",
+      "status": "confirmed",
+      "subdomain": "sunridgecanyon",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        30,
+        11,
+        1
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "Sunland Springs Village Golf",
+      "city": "Mesa",
+      "status": "miss",
+      "slugsTried": [
+        "sunlandspringsvillagegolf",
+        "sunlandspringsvillagegolfgolf",
+        "sunlandspringsvillagegolfgolfclub",
+        "sunlandspringsvillagegolfgolfcourse",
+        "sunlandspringsvillagegolfcc",
+        "sunland-springs-village-golf"
+      ]
+    },
+    {
+      "input": "Superstition Springs Golf Club",
+      "city": "Mesa",
+      "status": "miss",
+      "slugsTried": [
+        "superstitionsprings",
+        "superstitionspringsgolfclub",
+        "superstitionspringsgolf",
+        "superstitionspringsgolfcourse",
+        "superstitionspringscc",
+        "superstition-springs-golf-club",
+        "superstition-springs"
+      ]
+    },
+    {
+      "input": "Talking Stick Golf Club",
+      "city": "Scottsdale",
+      "status": "miss",
+      "slugsTried": [
+        "talkingstick",
+        "talkingstickgolfclub",
+        "talkingstickgolf",
+        "talkingstickgolfcourse",
+        "talkingstickcc",
+        "talking-stick-golf-club",
+        "talking-stick"
+      ]
+    },
+    {
+      "input": "Tatum Ranch Golf Club",
+      "city": "Cave Creek",
+      "status": "miss",
+      "slugsTried": [
+        "tatumranch",
+        "tatumranchgolfclub",
+        "tatumranchgolf",
+        "tatumranchgolfcourse",
+        "tatumranchcc",
+        "tatum-ranch-golf-club",
+        "tatum-ranch"
+      ]
+    },
+    {
+      "input": "The Phoenician Golf Club",
+      "city": "Scottsdale",
+      "status": "miss",
+      "slugsTried": [
+        "phoenician",
+        "thephoeniciangolfclub",
+        "phoeniciangolf",
+        "phoeniciangolfclub",
+        "phoeniciangolfcourse",
+        "phoeniciancc",
+        "the-phoenician-golf-club",
+        "phoeniciangolfclubgolf"
+      ]
+    },
+    {
+      "input": "TPC Scottsdale",
+      "city": "Scottsdale",
+      "status": "miss",
+      "slugsTried": [
+        "tpcscottsdale",
+        "tpcscottsdalegolf",
+        "tpcscottsdalegolfclub",
+        "tpcscottsdalegolfcourse",
+        "tpcscottsdalecc",
+        "tpc-scottsdale"
+      ]
+    },
+    {
+      "input": "Tres Rios Golf Course",
+      "city": "Goodyear",
+      "status": "miss",
+      "slugsTried": [
+        "tresrios",
+        "tresriosgolfcourse",
+        "tresriosgolf",
+        "tresriosgolfclub",
+        "tresrioscc",
+        "tres-rios-golf-course",
+        "tres-rios"
+      ]
+    },
+    {
+      "input": "Trilogy Golf Club at Vistancia",
+      "city": "Peoria",
+      "status": "miss",
+      "slugsTried": [
+        "trilogygolfclubatvistancia",
+        "trilogygolfclubatvistanciagolf",
+        "trilogygolfclubatvistanciagolfclub",
+        "trilogygolfclubatvistanciagolfcourse",
+        "trilogygolfclubatvistanciacc",
+        "trilogy-golf-club-at-vistancia"
+      ]
+    },
+    {
+      "input": "Troon North Golf Club",
+      "city": "Scottsdale",
+      "status": "miss",
+      "slugsTried": [
+        "troonnorth",
+        "troonnorthgolfclub",
+        "troonnorthgolf",
+        "troonnorthgolfcourse",
+        "troonnorthcc",
+        "troon-north-golf-club",
+        "troon-north"
+      ]
+    },
+    {
+      "input": "Verde River Golf Club",
+      "city": "Rio Verde",
+      "status": "miss",
+      "slugsTried": [
+        "verderiver",
+        "verderivergolfclub",
+        "verderivergolf",
+        "verderivergolfcourse",
+        "verderivercc",
+        "verde-river-golf-club",
+        "verde-river"
+      ]
+    },
+    {
+      "input": "Verrado Golf Club",
+      "city": "Buckeye",
+      "status": "miss",
+      "slugsTried": [
+        "verrado",
+        "verradogolfclub",
+        "verradogolf",
+        "verradogolfcourse",
+        "verradocc",
+        "verrado-golf-club"
+      ]
+    },
+    {
+      "input": "Viewpoint Golf Resort",
+      "city": "Mesa",
+      "status": "miss",
+      "slugsTried": [
+        "viewpoint",
+        "viewpointgolfresort",
+        "viewpointgolf",
+        "viewpointgolfclub",
+        "viewpointgolfcourse",
+        "viewpointcc",
+        "viewpoint-golf-resort"
+      ]
+    },
+    {
+      "input": "We-Ko-Pa Golf Club",
+      "city": "Fort McDowell",
+      "status": "listed_only",
+      "subdomain": "wekopa",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Westin Kierland Golf Club",
+      "city": "Scottsdale",
+      "status": "miss",
+      "slugsTried": [
+        "westinkierland",
+        "westinkierlandgolfclub",
+        "westinkierlandgolf",
+        "westinkierlandgolfcourse",
+        "westinkierlandcc",
+        "westin-kierland-golf-club",
+        "westin-kierland"
+      ]
+    },
+    {
+      "input": "Westbrook Village Golf Club",
+      "city": "Peoria",
+      "status": "miss",
+      "slugsTried": [
+        "westbrookvillage",
+        "westbrookvillagegolfclub",
+        "westbrookvillagegolf",
+        "westbrookvillagegolfcourse",
+        "westbrookvillagecc",
+        "westbrook-village-golf-club",
+        "westbrook-village"
+      ]
+    },
+    {
+      "input": "Whirlwind Golf Club",
+      "city": "Chandler",
+      "status": "miss",
+      "slugsTried": [
+        "whirlwind",
+        "whirlwindgolfclub",
+        "whirlwindgolf",
+        "whirlwindgolfcourse",
+        "whirlwindcc",
+        "whirlwind-golf-club"
+      ]
+    },
+    {
+      "input": "Wickenburg Ranch Golf Club",
+      "city": "Wickenburg",
+      "status": "miss",
+      "slugsTried": [
+        "wickenburgranch",
+        "wickenburgranchgolfclub",
+        "wickenburgranchgolf",
+        "wickenburgranchgolfcourse",
+        "wickenburgranchcc",
+        "wickenburg-ranch-golf-club",
+        "wickenburg-ranch"
+      ]
+    },
+    {
+      "input": "Wickenburg Country Club",
+      "city": "Wickenburg",
+      "status": "miss",
+      "slugsTried": [
+        "wickenburg",
+        "wickenburgcountryclub",
+        "wickenburggolf",
+        "wickenburggolfclub",
+        "wickenburggolfcourse",
+        "wickenburgcc",
+        "wickenburg-country-club"
+      ]
+    },
+    {
+      "input": "Wigwam Golf Club",
+      "city": "Litchfield Park",
+      "status": "miss",
+      "slugsTried": [
+        "wigwam",
+        "wigwamgolfclub",
+        "wigwamgolf",
+        "wigwamgolfcourse",
+        "wigwamcc",
+        "wigwam-golf-club"
+      ]
+    },
+    {
+      "input": "Wildfire Golf Club",
+      "city": "Phoenix",
+      "status": "miss",
+      "slugsTried": [
+        "wildfire",
+        "wildfiregolfclub",
+        "wildfiregolf",
+        "wildfiregolfcourse",
+        "wildfirecc",
+        "wildfire-golf-club"
+      ]
+    },
+    {
+      "input": "Alta Mesa Golf Club",
+      "city": "Mesa",
+      "status": "miss",
+      "slugsTried": [
+        "altamesa",
+        "altamesagolfclub",
+        "altamesagolf",
+        "altamesagolfcourse",
+        "altamesacc",
+        "alta-mesa-golf-club",
+        "alta-mesa"
+      ]
+    },
+    {
+      "input": "Encanterra Country Club",
+      "city": "Queen Creek",
+      "status": "miss",
+      "slugsTried": [
+        "encanterra",
+        "encanterracountryclub",
+        "encanterragolf",
+        "encanterragolfclub",
+        "encanterragolfcourse",
+        "encanterracc",
+        "encanterra-country-club"
+      ]
+    },
+    {
+      "input": "Queen Valley Golf Course",
+      "city": "Queen Valley",
+      "status": "miss",
+      "slugsTried": [
+        "queenvalley",
+        "queenvalleygolfcourse",
+        "queenvalleygolf",
+        "queenvalleygolfclub",
+        "queenvalleycc",
+        "queen-valley-golf-course",
+        "queen-valley"
+      ]
+    },
+    {
+      "input": "Springfield Golf Resort",
+      "city": "Chandler",
+      "status": "confirmed",
+      "subdomain": "springfieldgolfresort",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        2,
+        7,
+        27
+      ],
+      "hasPrice": true
+    }
+  ],
+  "state": "AZ",
+  "timestamp": "2026-02-14T05:23:12-07:00",
+  "total": 92,
+  "wrongState": 2
+}

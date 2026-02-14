@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "key": "augusta-ranch",
+    "metro": "phoenix",
+    "subdomain": "augustaranch",
+    "bookingUrl": "https://augustaranch.quick18.com",
+    "displayName": "Augusta Ranch Golf Club",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "coyote-lakes",
+    "metro": "phoenix",
+    "subdomain": "coyotelakes",
+    "bookingUrl": "https://coyotelakes.quick18.com",
+    "displayName": "Coyote Lakes Golf Club",
+    "city": "Surprise",
+    "state": "AZ"
+  },
+  {
+    "key": "desert-canyon",
+    "metro": "phoenix",
+    "subdomain": "desertcanyon",
+    "bookingUrl": "https://desertcanyon.quick18.com",
+    "displayName": "Desert Canyon Golf Club",
+    "city": "Fountain Hills",
+    "state": "AZ"
+  },
+  {
+    "key": "grayhawk",
+    "metro": "phoenix",
+    "subdomain": "grayhawk",
+    "bookingUrl": "https://grayhawk.quick18.com",
+    "displayName": "Grayhawk Golf Club",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "orange-tree",
+    "metro": "phoenix",
+    "subdomain": "orangetree",
+    "bookingUrl": "https://orangetree.quick18.com",
+    "displayName": "Orange Tree Golf Course",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "papago",
+    "metro": "phoenix",
+    "subdomain": "papago",
+    "bookingUrl": "https://papago.quick18.com",
+    "displayName": "Papago Golf Course",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "springfield",
+    "metro": "phoenix",
+    "subdomain": "springfieldgolfresort",
+    "bookingUrl": "https://springfieldgolfresort.quick18.com",
+    "displayName": "Springfield Golf Resort",
+    "city": "Chandler",
+    "state": "AZ"
+  },
+  {
+    "key": "sunridge-canyon",
+    "metro": "phoenix",
+    "subdomain": "sunridgecanyon",
+    "bookingUrl": "https://sunridgecanyon.quick18.com",
+    "displayName": "SunRidge Canyon Golf Club",
+    "city": "Fountain Hills",
+    "state": "AZ"
+  }
+]

@@ -1,27 +1,5 @@
 [
   {
-    "key": "hillcrest",
-    "metro": "phoenix",
-    "courseId": "21953",
-    "bookingClass": "12677",
-    "scheduleId": "9442",
-    "bookingUrl": "",
-    "displayName": "Hillcrest Golf Club",
-    "city": "Sun City West",
-    "state": "AZ"
-  },
-  {
-    "key": "legend-trail",
-    "metro": "phoenix",
-    "courseId": "21561",
-    "bookingClass": "10566",
-    "scheduleId": "8260",
-    "bookingUrl": "",
-    "displayName": "Legend Trail Golf Club",
-    "city": "Scottsdale",
-    "state": "AZ"
-  },
-  {
     "key": "painted-mountain",
     "metro": "phoenix",
     "courseId": "21954",

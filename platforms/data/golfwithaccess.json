@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "key": "eagle-mountain",
+    "metro": "phoenix",
+    "courseIds": [
+      "698b68b9-908e-416e-8368-a043e2a90072"
+    ],
+    "slug": "eagle-mountain-golf-club",
+    "bookingUrl": "https://golfwithaccess.com/course/eagle-mountain-golf-club/reserve-tee-time",
+    "displayName": "Eagle Mountain Golf Club",
+    "city": "Fountain Hills",
+    "state": "AZ"
+  },
+  {
+    "key": "quintero",
+    "metro": "phoenix",
+    "courseIds": [
+      "416b2e7c-83c1-498c-8958-2422033218c2"
+    ],
+    "slug": "quintero-golf-club",
+    "bookingUrl": "https://golfwithaccess.com/course/quintero-golf-club/reserve-tee-time",
+    "displayName": "Quintero Golf Club",
+    "city": "Peoria",
+    "state": "AZ"
+  },
+  {
+    "key": "westin-kierland",
+    "metro": "phoenix",
+    "courseIds": [
+      "b0e5b8a6-fe88-4cb8-8500-56cbba88e531"
+    ],
+    "slug": "the-westin-kierland-golf-club",
+    "bookingUrl": "https://golfwithaccess.com/course/the-westin-kierland-golf-club/reserve-tee-time",
+    "displayName": "Westin Kierland Golf Club",
+    "city": "Scottsdale",
+    "state": "AZ"
+  }
+]
