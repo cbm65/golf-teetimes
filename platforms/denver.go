@@ -1,4 +1,4 @@
-package main
+package platforms
 
 import (
 	"bytes"
@@ -35,7 +35,7 @@ type DenverSlot struct {
 	Items   []DenverItem `json:"items"`
 }
 
-func fetchDenver(date string) ([]DisplayTeeTime, error) {
+func FetchDenver(date string) ([]DisplayTeeTime, error) {
 	var reqBody DenverRequest = DenverRequest{
 		ConfigurationTypeId: 1,
 		Date:                date,

@@ -1,4 +1,4 @@
-package main
+package platforms
 
 import (
 	"encoding/json"
@@ -10,24 +10,17 @@ import (
 )
 
 type TeeSnapCourseConfig struct {
-	Subdomain   string
-	CourseID    string
-	BookingURL  string
-	DisplayName string
-	City        string
-	State       string
+	Key         string `json:"key"`
+	Metro       string `json:"metro"`
+	Subdomain   string `json:"subdomain"`
+	CourseID    string `json:"courseId"`
+	BookingURL  string `json:"bookingUrl"`
+	DisplayName string `json:"displayName"`
+	City        string `json:"city"`
+	State       string `json:"state"`
 }
 
-var TeeSnapCourses = map[string]TeeSnapCourseConfig{
-	"sundance": {
-		Subdomain:   "sundancegolfclub",
-		CourseID:    "1801",
-		BookingURL:  "https://sundancegolfclub.teesnap.net",
-		DisplayName: "Sundance Golf Club",
-		City:        "Buckeye",
-		State:       "AZ",
-	},
-}
+var TeeSnapCourses = map[string]TeeSnapCourseConfig{}
 
 type TeeSnapResponse struct {
 	TeeTimes TeeSnapTeeTimesOuter `json:"teeTimes"`
@@ -52,7 +45,7 @@ type TeeSnapTeeOff struct {
 	Bookings []int `json:"bookings"`
 }
 
-func fetchTeeSnap(config TeeSnapCourseConfig, date string) ([]DisplayTeeTime, error) {
+func FetchTeeSnap(config TeeSnapCourseConfig, date string) ([]DisplayTeeTime, error) {
 	var url string = fmt.Sprintf(
 		"https://%s.teesnap.net/customer-api/teetimes-day?course=%s&date=%s&players=1&holes=18&addons=off",
 		config.Subdomain, config.CourseID, date,

@@ -1,4 +1,4 @@
-package main
+package platforms
 
 import (
 	"encoding/json"
@@ -10,78 +10,19 @@ import (
 )
 
 type RGuestCourseConfig struct {
-	TenantID    string
-	PropertyID  string
-	CourseID    string
-	PlayerTypeID string
-	BookingURL  string
-	DisplayName string
-	City        string
-	State       string
+	Key          string `json:"key"`
+	Metro        string `json:"metro"`
+	TenantID     string `json:"tenantId"`
+	PropertyID   string `json:"propertyId"`
+	CourseID     string `json:"courseId"`
+	PlayerTypeID string `json:"playerTypeId"`
+	BookingURL   string `json:"bookingUrl"`
+	DisplayName  string `json:"displayName"`
+	City         string `json:"city"`
+	State        string `json:"state"`
 }
 
-var RGuestCourses = map[string]RGuestCourseConfig{
-	"wekopacholla": {
-		TenantID:    "2093",
-		PropertyID:  "wekopa",
-		CourseID:    "202",
-		PlayerTypeID: "824",
-		BookingURL:  "https://book.rguest.com/onecart/golf/courses/2093/wekopa",
-		DisplayName: "We-Ko-Pa Cholla",
-		City:        "Fort McDowell",
-		State:       "AZ",
-	},
-	"wekopasaguaro": {
-		TenantID:    "2093",
-		PropertyID:  "wekopa",
-		CourseID:    "203",
-		PlayerTypeID: "824",
-		BookingURL:  "https://book.rguest.com/onecart/golf/courses/2093/wekopa",
-		DisplayName: "We-Ko-Pa Saguaro",
-		City:        "Fort McDowell",
-		State:       "AZ",
-	},
-	"wildfirefaldo": {
-		TenantID:    "2418",
-		PropertyID:  "wildfire-golf-club",
-		CourseID:    "519",
-		PlayerTypeID: "2032",
-		BookingURL:  "https://book.rguest.com/onecart/golf/courses/2418/wildfire-golf-club",
-		DisplayName: "Wildfire Faldo",
-		City:        "Phoenix",
-		State:       "AZ",
-	},
-	"wildfirepalmer": {
-		TenantID:    "2418",
-		PropertyID:  "wildfire-golf-club",
-		CourseID:    "520",
-		PlayerTypeID: "2032",
-		BookingURL:  "https://book.rguest.com/onecart/golf/courses/2418/wildfire-golf-club",
-		DisplayName: "Wildfire Palmer",
-		City:        "Phoenix",
-		State:       "AZ",
-	},
-	"camelbackambiente": {
-		TenantID:    "2281",
-		PropertyID:  "camelback-golf-club",
-		CourseID:    "410",
-		PlayerTypeID: "1562",
-		BookingURL:  "https://book.rguest.com/onecart/golf/courses/2281/camelback-golf-club",
-		DisplayName: "Camelback Ambiente",
-		City:        "Scottsdale",
-		State:       "AZ",
-	},
-	"camelbackpadre": {
-		TenantID:    "2281",
-		PropertyID:  "camelback-golf-club",
-		CourseID:    "409",
-		PlayerTypeID: "1562",
-		BookingURL:  "https://book.rguest.com/onecart/golf/courses/2281/camelback-golf-club",
-		DisplayName: "Camelback Padre",
-		City:        "Scottsdale",
-		State:       "AZ",
-	},
-}
+var RGuestCourses = map[string]RGuestCourseConfig{}
 
 type RGuestResponse struct {
 	Success           bool              `json:"success"`
@@ -109,7 +50,7 @@ type RGuestFees struct {
 	CartFee  float64 `json:"cartFee"`
 }
 
-func fetchRGuest(config RGuestCourseConfig, date string) ([]DisplayTeeTime, error) {
+func FetchRGuest(config RGuestCourseConfig, date string) ([]DisplayTeeTime, error) {
 	// Generate a UUID-format session ID
 	var r *rand.Rand = rand.New(rand.NewSource(time.Now().UnixNano()))
 	var sessionID string = fmt.Sprintf("%08x-%04x-%04x-%04x-%012x",

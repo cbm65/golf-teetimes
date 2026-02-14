@@ -1,4 +1,4 @@
-package main
+package platforms
 
 import (
 	"encoding/json"
@@ -12,33 +12,18 @@ import (
 )
 
 type ClubCaddieCourseConfig struct {
-	BaseURL     string
-	APIKey      string
-	CourseID    string
-	BookingURL  string
-	DisplayName string
-	City        string
-	State       string
+	Key         string `json:"key"`
+	Metro       string `json:"metro"`
+	BaseURL     string `json:"baseUrl"`
+	APIKey      string `json:"apiKey"`
+	CourseID    string `json:"courseId"`
+	BookingURL  string `json:"bookingUrl"`
+	DisplayName string `json:"displayName"`
+	City        string `json:"city"`
+	State       string `json:"state"`
 }
 
-var ClubCaddieCourses = map[string]ClubCaddieCourseConfig{
-	"applewood": {
-		BaseURL:     "https://apimanager-cc11.clubcaddie.com",
-		APIKey:      "hbfdabab",
-		CourseID:    "103418",
-		BookingURL:  "https://apimanager-cc11.clubcaddie.com/webapi/view/hbfdabab/slots",
-		DisplayName: "Applewood",
-		City: "Golden", State: "CO",
-	},
-	"thelinks": {
-		BaseURL:     "https://apimanager-cc37.clubcaddie.com",
-		APIKey:      "ajfdabab",
-		CourseID:    "103491",
-		BookingURL:  "https://apimanager-cc37.clubcaddie.com/webapi/view/ajfdabab/slots",
-		DisplayName: "The Links",
-		City: "Highlands Ranch", State: "CO",
-	},
-}
+var ClubCaddieCourses = map[string]ClubCaddieCourseConfig{}
 
 type ClubCaddieSlot struct {
 	StartTime        string                  `json:"StartTime"`
@@ -55,7 +40,7 @@ type ClubCaddiePricingPlan struct {
 	TitleType  string   `json:"TitleType"`
 }
 
-func fetchClubCaddie(config ClubCaddieCourseConfig, date string) ([]DisplayTeeTime, error) {
+func FetchClubCaddie(config ClubCaddieCourseConfig, date string) ([]DisplayTeeTime, error) {
 	// Format date as MM/DD/YYYY
 	var t time.Time
 	var err error

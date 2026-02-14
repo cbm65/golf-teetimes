@@ -1,4 +1,4 @@
-package main
+package platforms
 
 import (
 	"bytes"
@@ -11,134 +11,21 @@ import (
 )
 
 type CPSGolfCourseConfig struct {
-	BaseURL    string
-	APIKey     string
-	WebsiteID  string
-	SiteID     string
-	CourseIDs  string
-	BookingURL string
-	Names      map[string]string
-	City       string
-	State      string
-	Timezone   string // e.g. "America/Los_Angeles", defaults to "America/Denver"
+	Key        string            `json:"key"`
+	Metro      string            `json:"metro"`
+	BaseURL    string            `json:"baseUrl"`
+	APIKey     string            `json:"apiKey"`
+	WebsiteID  string            `json:"websiteId"`
+	SiteID     string            `json:"siteId"`
+	CourseIDs  string            `json:"courseIds"`
+	BookingURL string            `json:"bookingUrl"`
+	Names      map[string]string `json:"names"`
+	City       string            `json:"city"`
+	State      string            `json:"state"`
+	Timezone   string            `json:"timezone"`
 }
 
-var CPSGolfCourses = map[string]CPSGolfCourseConfig{
-	"greenvalleyranch": {
-		BaseURL:    "https://greenvalleyranch.cps.golf",
-		APIKey:     "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
-		WebsiteID:  "e6b92812-d6c4-4f86-7eea-08d9fadf154d",
-		SiteID:     "2",
-		CourseIDs:  "1",
-		BookingURL: "https://greenvalleyranch.cps.golf/onlineresweb/search-teetime",
-		Names: map[string]string{
-			"Green Valley Ranch": "Green Valley Ranch",
-		},
-		City: "Denver", State: "CO",
-	},
-	"indiantree": {
-		BaseURL:    "https://indiantree.cps.golf",
-		APIKey:     "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
-		WebsiteID:  "e6d9cd59-8d46-4334-8601-08dad3012d25",
-		SiteID:     "1",
-		CourseIDs:  "1",
-		BookingURL: "https://indiantree.cps.golf/onlineresweb/search-teetime",
-		Names: map[string]string{
-			"Regulation 18": "Indian Tree",
-		},
-		City: "Arvada", State: "CO",
-	},
-	"emeraldgreens": {
-		BaseURL:    "https://emeraldgreens.cps.golf",
-		APIKey:     "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
-		WebsiteID:  "b81ba1ee-d9d0-4f1c-8325-08db37856ea4",
-		SiteID:     "1",
-		CourseIDs:  "1",
-		BookingURL: "https://emeraldgreens.cps.golf/onlineresweb/search-teetime",
-		Names: map[string]string{
-			"Emerald Greens Golf Club": "Emerald Greens",
-		},
-		City: "Denver", State: "CO",
-	},
-	"fossiltrace": {
-		BaseURL:    "https://fossiltrace.cps.golf",
-		APIKey:     "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
-		WebsiteID:  "b6c22f3a-944a-46e9-020e-08da90168fb2",
-		SiteID:     "1",
-		CourseIDs:  "1,3,2",
-		BookingURL: "https://fossiltrace.cps.golf/onlineresweb/search-teetime",
-		Names: map[string]string{
-			"18 Holes": "Fossil Trace",
-			"9 Holes":  "Fossil Trace 9",
-			"Twilight": "Fossil Trace Twilight",
-		},
-		City: "Golden", State: "CO",
-	},
-	"westminster": {
-		BaseURL:    "https://cityofwestminster.cps.golf",
-		APIKey:     "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
-		WebsiteID:  "be7f2728-0758-4a72-fe80-08d97849167d",
-		SiteID:     "2",
-		CourseIDs:  "1,4,2",
-		BookingURL: "https://cityofwestminster.cps.golf/onlineresweb/search-teetime",
-		Names: map[string]string{
-			"Legacy Ridge": "Legacy Ridge",
-			"Walnut Creek": "Walnut Creek",
-		},
-		City: "Westminster", State: "CO",
-	},
-	"flatirons": {
-		BaseURL:    "https://flatironsgolf.cps.golf",
-		APIKey:     "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
-		WebsiteID:  "d0c1d3f9-28c7-4f79-8ee1-08d926a72623",
-		SiteID:     "2",
-		CourseIDs:  "1",
-		BookingURL: "https://flatironsgolf.cps.golf/onlineresweb/search-teetime",
-		Names: map[string]string{
-			"FLATIRONS ": "Flatirons Golf Course",
-		},
-		City: "Boulder", State: "CO",
-	},
-	"indianpeaks": {
-		BaseURL:    "https://indianpeaks.cps.golf",
-		APIKey:     "",
-		WebsiteID:  "f04abbc1-368f-40f4-096d-08d89aea9574",
-		SiteID:     "1",
-		CourseIDs:  "10,11",
-		BookingURL: "https://indianpeaks.cps.golf/onlineresweb/search-teetime",
-		Names: map[string]string{
-			"Indian Peaks Golf Course": "Indian Peaks",
-			"IP 9-Holes":              "Indian Peaks 9-Holes",
-		},
-		City: "Lafayette", State: "CO",
-	},
-	"serket": {
-		BaseURL:    "https://serketpublic.cps.golf",
-		APIKey:     "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
-		WebsiteID:  "9042115d-9c91-4475-bed5-452b72cca140",
-		SiteID:     "1",
-		CourseIDs:  "5",
-		BookingURL: "https://serketpublic.cps.golf/onlineresweb/search-teetime",
-		Names: map[string]string{
-			"Serket": "Serket",
-		},
-		City: "Henderson", State: "NV",
-		Timezone: "America/Los_Angeles",
-	},
-	"cascata": {
-		BaseURL:    "https://serketpublic.cps.golf",
-		APIKey:     "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
-		WebsiteID:  "9042115d-9c91-4475-bed5-452b72cca140",
-		SiteID:     "1",
-		CourseIDs:  "4",
-		BookingURL: "https://serketpublic.cps.golf/onlineresweb/search-teetime",
-		Names: map[string]string{
-			"Cascata": "Cascata",
-		},
-		City: "Boulder City", State: "NV",
-		Timezone: "America/Los_Angeles",
-	},
-}
+var CPSGolfCourses = map[string]CPSGolfCourseConfig{}
 
 type CPSGolfResponse struct {
 	TransactionID string          `json:"transactionId"`
@@ -211,7 +98,7 @@ func setCPSHeaders(req *http.Request, config CPSGolfCourseConfig) {
 	req.Header.Set("Accept-Language", "en-US,en;q=0.9")
 }
 
-func fetchCPSGolf(config CPSGolfCourseConfig, date string) ([]DisplayTeeTime, error) {
+func FetchCPSGolf(config CPSGolfCourseConfig, date string) ([]DisplayTeeTime, error) {
 	// Step 1: Register a transaction ID
 	var txnID string = generateUUID()
 	var txnBody []byte

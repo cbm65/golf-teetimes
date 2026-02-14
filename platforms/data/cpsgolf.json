@@ -1,0 +1,143 @@
+[
+  {
+    "key": "greenvalleyranch",
+    "metro": "denver",
+    "baseUrl": "https://greenvalleyranch.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "e6b92812-d6c4-4f86-7eea-08d9fadf154d",
+    "siteId": "2",
+    "courseIds": "1",
+    "bookingUrl": "https://greenvalleyranch.cps.golf/onlineresweb/search-teetime",
+    "city": "Denver",
+    "state": "CO",
+    "names": {
+      "Green Valley Ranch": "Green Valley Ranch"
+    }
+  },
+  {
+    "key": "indiantree",
+    "metro": "denver",
+    "baseUrl": "https://indiantree.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "e6d9cd59-8d46-4334-8601-08dad3012d25",
+    "siteId": "1",
+    "courseIds": "1",
+    "bookingUrl": "https://indiantree.cps.golf/onlineresweb/search-teetime",
+    "city": "Arvada",
+    "state": "CO",
+    "names": {
+      "Regulation 18": "Indian Tree"
+    }
+  },
+  {
+    "key": "emeraldgreens",
+    "metro": "denver",
+    "baseUrl": "https://emeraldgreens.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "b81ba1ee-d9d0-4f1c-8325-08db37856ea4",
+    "siteId": "1",
+    "courseIds": "1",
+    "bookingUrl": "https://emeraldgreens.cps.golf/onlineresweb/search-teetime",
+    "city": "Denver",
+    "state": "CO",
+    "names": {
+      "Emerald Greens Golf Club": "Emerald Greens"
+    }
+  },
+  {
+    "key": "fossiltrace",
+    "metro": "denver",
+    "baseUrl": "https://fossiltrace.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "b6c22f3a-944a-46e9-020e-08da90168fb2",
+    "siteId": "1",
+    "courseIds": "1,3,2",
+    "bookingUrl": "https://fossiltrace.cps.golf/onlineresweb/search-teetime",
+    "city": "Golden",
+    "state": "CO",
+    "names": {
+      "18 Holes": "Fossil Trace",
+      "9 Holes": "Fossil Trace 9",
+      "Twilight": "Fossil Trace Twilight"
+    }
+  },
+  {
+    "key": "westminster",
+    "metro": "denver",
+    "baseUrl": "https://cityofwestminster.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "be7f2728-0758-4a72-fe80-08d97849167d",
+    "siteId": "2",
+    "courseIds": "1,4,2",
+    "bookingUrl": "https://cityofwestminster.cps.golf/onlineresweb/search-teetime",
+    "city": "Westminster",
+    "state": "CO",
+    "names": {
+      "Legacy Ridge": "Legacy Ridge",
+      "Walnut Creek": "Walnut Creek"
+    }
+  },
+  {
+    "key": "flatirons",
+    "metro": "denver",
+    "baseUrl": "https://flatironsgolf.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "d0c1d3f9-28c7-4f79-8ee1-08d926a72623",
+    "siteId": "2",
+    "courseIds": "1",
+    "bookingUrl": "https://flatironsgolf.cps.golf/onlineresweb/search-teetime",
+    "city": "Boulder",
+    "state": "CO",
+    "names": {
+      "FLATIRONS ": "Flatirons Golf Course"
+    }
+  },
+  {
+    "key": "indianpeaks",
+    "metro": "denver",
+    "baseUrl": "https://indianpeaks.cps.golf",
+    "apiKey": "",
+    "websiteId": "f04abbc1-368f-40f4-096d-08d89aea9574",
+    "siteId": "1",
+    "courseIds": "10,11",
+    "bookingUrl": "https://indianpeaks.cps.golf/onlineresweb/search-teetime",
+    "city": "Lafayette",
+    "state": "CO",
+    "names": {
+      "Indian Peaks Golf Course": "Indian Peaks",
+      "IP 9-Holes": "Indian Peaks 9-Holes"
+    }
+  },
+  {
+    "key": "serket",
+    "metro": "lasvegas",
+    "baseUrl": "https://serketpublic.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "9042115d-9c91-4475-bed5-452b72cca140",
+    "siteId": "1",
+    "courseIds": "5",
+    "bookingUrl": "https://serketpublic.cps.golf/onlineresweb/search-teetime",
+    "city": "Henderson",
+    "state": "NV",
+    "timezone": "America/Los_Angeles",
+    "names": {
+      "Serket": "Serket"
+    }
+  },
+  {
+    "key": "cascata",
+    "metro": "lasvegas",
+    "baseUrl": "https://serketpublic.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "9042115d-9c91-4475-bed5-452b72cca140",
+    "siteId": "1",
+    "courseIds": "4",
+    "bookingUrl": "https://serketpublic.cps.golf/onlineresweb/search-teetime",
+    "city": "Boulder City",
+    "state": "NV",
+    "timezone": "America/Los_Angeles",
+    "names": {
+      "Cascata": "Cascata"
+    }
+  }
+]

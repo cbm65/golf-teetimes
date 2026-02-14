@@ -1,0 +1,124 @@
+[
+  {
+    "key": "lookoutmountain",
+    "metro": "phoenix",
+    "slug": "lookout-mountain-golf-club",
+    "bookingUrl": "https://golfwithaccess.com/course/lookout-mountain-golf-club/reserve-tee-time",
+    "displayName": "Lookout Mountain Golf Club",
+    "city": "Phoenix",
+    "state": "AZ",
+    "courseIds": [
+      "fd506bf4-ae6a-4a92-ae3f-7f847f098fb2"
+    ]
+  },
+  {
+    "key": "akchinsoutherndunes",
+    "metro": "phoenix",
+    "slug": "ak-chin-southern-dunes-golf-club",
+    "bookingUrl": "https://golfwithaccess.com/course/ak-chin-southern-dunes-golf-club/reserve-tee-time",
+    "displayName": "Ak-Chin Southern Dunes",
+    "city": "Maricopa",
+    "state": "AZ",
+    "courseIds": [
+      "2598416d-4e75-44d3-bbe7-811969e14a95"
+    ]
+  },
+  {
+    "key": "troonnorthpinnacle",
+    "metro": "phoenix",
+    "slug": "troon-north-golf-club-pinnacle-course",
+    "bookingUrl": "https://golfwithaccess.com/course/troon-north-golf-club/reserve-tee-time",
+    "displayName": "Troon North Pinnacle",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "courseIds": [
+      "4bf6e82f-697f-46d1-8fad-2de5a6083477"
+    ]
+  },
+  {
+    "key": "troonnorthmonument",
+    "metro": "phoenix",
+    "slug": "troon-north-golf-club-monument-course",
+    "bookingUrl": "https://golfwithaccess.com/course/troon-north-golf-club/reserve-tee-time",
+    "displayName": "Troon North Monument",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "courseIds": [
+      "f800515d-41dd-4ae7-a853-57e8092284aa"
+    ]
+  },
+  {
+    "key": "kierland",
+    "metro": "phoenix",
+    "slug": "the-westin-kierland-golf-club",
+    "bookingUrl": "https://golfwithaccess.com/course/the-westin-kierland-golf-club/reserve-tee-time",
+    "displayName": "Kierland Golf Club",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "courseIds": [
+      "ab5ad653-b217-4119-bcb7-80dd0aecffaa",
+      "6a9798ab-617e-43aa-9ab3-28229a6a83cf",
+      "b0e5b8a6-fe88-4cb8-8500-56cbba88e531"
+    ]
+  },
+  {
+    "key": "eaglemountain",
+    "metro": "phoenix",
+    "slug": "eagle-mountain-golf-club",
+    "bookingUrl": "https://golfwithaccess.com/course/eagle-mountain-golf-club/reserve-tee-time",
+    "displayName": "Eagle Mountain Golf Club",
+    "city": "Fountain Hills",
+    "state": "AZ",
+    "courseIds": [
+      "698b68b9-908e-416e-8368-a043e2a90072"
+    ]
+  },
+  {
+    "key": "lascolinas",
+    "metro": "phoenix",
+    "slug": "las-colinas-golf-club",
+    "bookingUrl": "https://golfwithaccess.com/course/las-colinas-golf-club/reserve-tee-time",
+    "displayName": "Las Colinas Golf Club",
+    "city": "Queen Creek",
+    "state": "AZ",
+    "courseIds": [
+      "b6a25387-b6b4-42a5-a118-58664df8836a"
+    ]
+  },
+  {
+    "key": "phoenician",
+    "metro": "phoenix",
+    "slug": "the-phoenician",
+    "bookingUrl": "https://golfwithaccess.com/course/the-phoenician/reserve-tee-time",
+    "displayName": "The Phoenician Golf Club",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "courseIds": [
+      "b40cfca0-6caf-422e-8459-ebaf9da89c3e"
+    ]
+  },
+  {
+    "key": "estrella",
+    "metro": "phoenix",
+    "slug": "golf-club-of-estrella",
+    "bookingUrl": "https://golfwithaccess.com/course/golf-club-of-estrella/reserve-tee-time",
+    "displayName": "Golf Club of Estrella",
+    "city": "Goodyear",
+    "state": "AZ",
+    "courseIds": [
+      "5e7260b2-d5b3-45ba-9030-b0d1d3dcdf17"
+    ]
+  },
+  {
+    "key": "mountainfalls",
+    "metro": "lasvegas",
+    "slug": "mountain-falls-golf-club",
+    "bookingUrl": "https://golfwithaccess.com/course/mountain-falls-golf-club/reserve-tee-time",
+    "displayName": "Mountain Falls",
+    "city": "Pahrump",
+    "state": "NV",
+    "courseIds": [
+      "b2ff3f68-2ac9-41b1-8924-e79a9040c4a7"
+    ]
+  }
+]

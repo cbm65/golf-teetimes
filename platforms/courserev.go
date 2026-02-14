@@ -1,4 +1,4 @@
-package main
+package platforms
 
 import (
 	"bytes"
@@ -10,56 +10,17 @@ import (
 )
 
 type CourseRevCourseConfig struct {
-	SubDomain   string
-	CourseID    int
-	BookingURL  string
-	DisplayName string
-	City        string
-	State       string
+	Key         string `json:"key"`
+	Metro       string `json:"metro"`
+	SubDomain   string `json:"subDomain"`
+	CourseID    int    `json:"courseId"`
+	BookingURL  string `json:"bookingUrl"`
+	DisplayName string `json:"displayName"`
+	City        string `json:"city"`
+	State       string `json:"state"`
 }
 
-var CourseRevCourses = map[string]CourseRevCourseConfig{
-	"wigwamgold": {
-		SubDomain:   "wigwamgolfclub",
-		CourseID:    137,
-		BookingURL:  "https://wigwamgolfclub.bookings.courserev.ai/tee-times?courseId=137",
-		DisplayName: "Wigwam Gold Course",
-		City:        "Litchfield Park",
-		State:       "AZ",
-	},
-	"wigwamblue": {
-		SubDomain:   "wigwamgolfclub",
-		CourseID:    138,
-		BookingURL:  "https://wigwamgolfclub.bookings.courserev.ai/tee-times?courseId=138",
-		DisplayName: "Wigwam Blue Course",
-		City:        "Litchfield Park",
-		State:       "AZ",
-	},
-	"wigwamred": {
-		SubDomain:   "wigwamgolfclub",
-		CourseID:    139,
-		BookingURL:  "https://wigwamgolfclub.bookings.courserev.ai/tee-times?courseId=139",
-		DisplayName: "Wigwam Red Course",
-		City:        "Litchfield Park",
-		State:       "AZ",
-	},
-	"biltmoreestates": {
-		SubDomain:   "arizonabiltmoregolfclub",
-		CourseID:    135,
-		BookingURL:  "https://arizonabiltmoregolfclub.bookings.courserev.ai/tee-times?courseId=135",
-		DisplayName: "AZ Biltmore Estates",
-		City:        "Phoenix",
-		State:       "AZ",
-	},
-	"biltmorelinks": {
-		SubDomain:   "arizonabiltmoregolfclub",
-		CourseID:    136,
-		BookingURL:  "https://arizonabiltmoregolfclub.bookings.courserev.ai/tee-times?courseId=136",
-		DisplayName: "AZ Biltmore Links",
-		City:        "Phoenix",
-		State:       "AZ",
-	},
-}
+var CourseRevCourses = map[string]CourseRevCourseConfig{}
 
 type CourseRevRequest struct {
 	CourseID    int    `json:"courseId"`
@@ -86,7 +47,7 @@ type CourseRevProduct struct {
 	Price float64 `json:"price"`
 }
 
-func fetchCourseRev(config CourseRevCourseConfig, date string) ([]DisplayTeeTime, error) {
+func FetchCourseRev(config CourseRevCourseConfig, date string) ([]DisplayTeeTime, error) {
 	var reqBody CourseRevRequest = CourseRevRequest{
 		CourseID:    config.CourseID,
 		BookingDate: date,

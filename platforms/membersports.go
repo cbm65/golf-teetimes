@@ -1,4 +1,4 @@
-package main
+package platforms
 
 import (
 	"bytes"
@@ -13,65 +13,20 @@ const MemberSportsAPIKey = "A9814038-9E19-4683-B171-5A06B39147FC"
 const MemberSportsAPIURL = "https://api.membersports.com/api/v1/golfclubs/onlineBookingTeeTimes"
 
 type MemberSportsCourseConfig struct {
-	ClubID       int
-	CourseID     int
-	GroupID      int
-	ConfigType   int
-	BookingURL   string
-	NamePrefix   string   // prepended to API course names if set
-	KnownCourses []string // base course names this config serves
-	City         string
-	State        string
+	Key          string   `json:"key"`
+	Metro        string   `json:"metro"`
+	ClubID       int      `json:"clubId"`
+	CourseID     int      `json:"courseId"`
+	GroupID      int      `json:"groupId"`
+	ConfigType   int      `json:"configType"`
+	BookingURL   string   `json:"bookingUrl"`
+	NamePrefix   string   `json:"namePrefix"`
+	KnownCourses []string `json:"knownCourses"`
+	City         string   `json:"city"`
+	State        string   `json:"state"`
 }
 
-var MemberSportsCourses = map[string]MemberSportsCourseConfig{
-	"denver": {
-		ClubID:     3629,
-		CourseID:   20573,
-		GroupID:    1,
-		ConfigType: 1,
-		BookingURL: "https://app.membersports.com/tee-times/3629/20573/1/1/0",
-		KnownCourses: []string{"City Park", "Kennedy", "Wellshire", "Willis Case", "Overland Park", "Harvard Gulch", "Kennedy Par 3 or Footgolf"},
-		City: "Denver", State: "CO",
-	},
-	"foxhollow": {
-		ClubID:     3703,
-		CourseID:   20589,
-		GroupID:    7,
-		ConfigType: 0,
-		BookingURL: "https://app.membersports.com/tee-times/3703/20589/0/7/0",
-		KnownCourses: []string{"Fox Hollow", "Homestead"},
-		City: "Lakewood", State: "CO",
-	},
-	"foothills": {
-		ClubID:     3697,
-		CourseID:   4758,
-		GroupID:    3,
-		ConfigType: 0,
-		BookingURL: "https://app.membersports.com/tee-times/3697/4758/0/3/0",
-		KnownCourses: []string{"Foothills 18", "Foothills Executive 9", "Foothills Par 3", "Meadows"},
-		City: "Lakewood", State: "CO",
-	},
-	"brokentee": {
-		ClubID:     3689,
-		CourseID:   4748,
-		GroupID:    0,
-		ConfigType: 0,
-		BookingURL: "https://app.membersports.com/tee-times/3689/4748/0/0/0",
-		NamePrefix: "Broken Tee",
-		KnownCourses: []string{"Broken Tee"},
-		City: "Englewood", State: "CO",
-	},
-	"coalcreek": {
-		ClubID:     3663,
-		CourseID:   4714,
-		GroupID:    0,
-		ConfigType: 0,
-		BookingURL: "https://app.membersports.com/tee-times/3663/4714/0/0/0",
-		KnownCourses: []string{"Coal Creek"},
-		City: "Louisville", State: "CO",
-	},
-}
+var MemberSportsCourses = map[string]MemberSportsCourseConfig{}
 
 type MemberSportsRequest struct {
 	ConfigurationTypeId int    `json:"configurationTypeId"`
@@ -95,7 +50,7 @@ type MemberSportsSlot struct {
 	Items   []MemberSportsItem  `json:"items"`
 }
 
-func fetchMemberSports(config MemberSportsCourseConfig, date string) ([]DisplayTeeTime, error) {
+func FetchMemberSports(config MemberSportsCourseConfig, date string) ([]DisplayTeeTime, error) {
 	var reqBody MemberSportsRequest = MemberSportsRequest{
 		ConfigurationTypeId: config.ConfigType,
 		Date:                date,

@@ -7,72 +7,73 @@ import (
 	"os"
 	"strings"
 	"time"
+	"golf-teetimes/platforms"
 )
 
-const AlertsFile = "data/alerts.json"
+const AlertsFile = "alerts.json"
 
-func findChronogolfConfig(course string) (ChronogolfCourseConfig, bool) {
-	for _, config := range ChronogolfCourses {
+func findChronogolfConfig(course string) (platforms.ChronogolfCourseConfig, bool) {
+	for _, config := range platforms.ChronogolfCourses {
 		for _, displayName := range config.Names {
 			if displayName == course {
 				return config, true
 			}
 		}
 	}
-	return ChronogolfCourseConfig{}, false
+	return platforms.ChronogolfCourseConfig{}, false
 }
 
-func findMemberSportsConfig(course string) (MemberSportsCourseConfig, bool) {
-	for _, config := range MemberSportsCourses {
+func findMemberSportsConfig(course string) (platforms.MemberSportsCourseConfig, bool) {
+	for _, config := range platforms.MemberSportsCourses {
 		for _, known := range config.KnownCourses {
 			if known == course {
 				return config, true
 			}
 		}
 	}
-	return MemberSportsCourseConfig{}, false
+	return platforms.MemberSportsCourseConfig{}, false
 }
 
-func findCPSGolfConfig(course string) (CPSGolfCourseConfig, bool) {
-	for _, config := range CPSGolfCourses {
+func findCPSGolfConfig(course string) (platforms.CPSGolfCourseConfig, bool) {
+	for _, config := range platforms.CPSGolfCourses {
 		for _, displayName := range config.Names {
 			if displayName == course {
 				return config, true
 			}
 		}
 	}
-	return CPSGolfCourseConfig{}, false
+	return platforms.CPSGolfCourseConfig{}, false
 }
 
-func findClubCaddieConfig(course string) (ClubCaddieCourseConfig, bool) {
-	for _, config := range ClubCaddieCourses {
+func findClubCaddieConfig(course string) (platforms.ClubCaddieCourseConfig, bool) {
+	for _, config := range platforms.ClubCaddieCourses {
 		if config.DisplayName == course {
 			return config, true
 		}
 	}
-	return ClubCaddieCourseConfig{}, false
+	return platforms.ClubCaddieCourseConfig{}, false
 }
 
-func findTeeItUpConfig(course string) (TeeItUpCourseConfig, bool) {
-	for _, config := range TeeItUpCourses {
+func findTeeItUpConfig(course string) (platforms.TeeItUpCourseConfig, bool) {
+	for _, config := range platforms.TeeItUpCourses {
 		if config.DisplayName == course {
 			return config, true
 		}
 	}
-	return TeeItUpCourseConfig{}, false
+	return platforms.TeeItUpCourseConfig{}, false
 }
 
-func findGolfNowConfig(course string) (GolfNowCourseConfig, bool) {
-	for _, config := range GolfNowCourses {
+func findGolfNowConfig(course string) (platforms.GolfNowCourseConfig, bool) {
+	for _, config := range platforms.GolfNowCourses {
 		if config.DisplayName == course {
 			return config, true
 		}
 	}
-	return GolfNowCourseConfig{}, false
+	return platforms.GolfNowCourseConfig{}, false
 }
 
-func findQuick18Config(course string) (Quick18CourseConfig, bool) {
-	for _, config := range Quick18Courses {
+func findQuick18Config(course string) (platforms.Quick18CourseConfig, bool) {
+	for _, config := range platforms.Quick18Courses {
 		if config.DisplayName == course {
 			return config, true
 		}
@@ -80,252 +81,252 @@ func findQuick18Config(course string) (Quick18CourseConfig, bool) {
 			return config, true
 		}
 	}
-	return Quick18CourseConfig{}, false
+	return platforms.Quick18CourseConfig{}, false
 }
 
-func findGolfWithAccessConfig(course string) (GolfWithAccessCourseConfig, bool) {
-	for _, config := range GolfWithAccessCourses {
+func findGolfWithAccessConfig(course string) (platforms.GolfWithAccessCourseConfig, bool) {
+	for _, config := range platforms.GolfWithAccessCourses {
 		if config.DisplayName == course {
 			return config, true
 		}
 	}
-	return GolfWithAccessCourseConfig{}, false
+	return platforms.GolfWithAccessCourseConfig{}, false
 }
 
-func findCourseRevConfig(course string) (CourseRevCourseConfig, bool) {
-	for _, config := range CourseRevCourses {
+func findCourseRevConfig(course string) (platforms.CourseRevCourseConfig, bool) {
+	for _, config := range platforms.CourseRevCourses {
 		if config.DisplayName == course {
 			return config, true
 		}
 	}
-	return CourseRevCourseConfig{}, false
+	return platforms.CourseRevCourseConfig{}, false
 }
 
-func findRGuestConfig(course string) (RGuestCourseConfig, bool) {
-	for _, config := range RGuestCourses {
+func findRGuestConfig(course string) (platforms.RGuestCourseConfig, bool) {
+	for _, config := range platforms.RGuestCourses {
 		if config.DisplayName == course {
 			return config, true
 		}
 	}
-	return RGuestCourseConfig{}, false
+	return platforms.RGuestCourseConfig{}, false
 }
 
-func findCourseCoConfig(course string) (CourseCoCourseConfig, bool) {
-	for _, config := range CourseCoCourses {
+func findCourseCoConfig(course string) (platforms.CourseCoCourseConfig, bool) {
+	for _, config := range platforms.CourseCoCourses {
 		if config.DisplayName == course {
 			return config, true
 		}
 	}
-	return CourseCoCourseConfig{}, false
+	return platforms.CourseCoCourseConfig{}, false
 }
 
-func findTeeSnapConfig(course string) (TeeSnapCourseConfig, bool) {
-	for _, config := range TeeSnapCourses {
+func findTeeSnapConfig(course string) (platforms.TeeSnapCourseConfig, bool) {
+	for _, config := range platforms.TeeSnapCourses {
 		if config.DisplayName == course {
 			return config, true
 		}
 	}
-	return TeeSnapCourseConfig{}, false
+	return platforms.TeeSnapCourseConfig{}, false
 }
 
-func findForeUpConfig(course string) (ForeUpCourseConfig, bool) {
-	for _, config := range ForeUpCourses {
+func findForeUpConfig(course string) (platforms.ForeUpCourseConfig, bool) {
+	for _, config := range platforms.ForeUpCourses {
 		if config.DisplayName == course {
 			return config, true
 		}
 	}
-	return ForeUpCourseConfig{}, false
+	return platforms.ForeUpCourseConfig{}, false
 }
 
-func fetchForCourse(course string, date string) ([]DisplayTeeTime, error) {
-	var cgConfig ChronogolfCourseConfig
+func fetchForCourse(course string, date string) ([]platforms.DisplayTeeTime, error) {
+	var cgConfig platforms.ChronogolfCourseConfig
 	var cgFound bool
 	cgConfig, cgFound = findChronogolfConfig(course)
 	if cgFound {
-		return fetchChronogolf(cgConfig, date)
+		return platforms.FetchChronogolf(cgConfig, date)
 	}
 
-	var msConfig MemberSportsCourseConfig
+	var msConfig platforms.MemberSportsCourseConfig
 	var msFound bool
 	msConfig, msFound = findMemberSportsConfig(course)
 	if msFound {
-		return fetchMemberSports(msConfig, date)
+		return platforms.FetchMemberSports(msConfig, date)
 	}
 
-	var cpsConfig CPSGolfCourseConfig
+	var cpsConfig platforms.CPSGolfCourseConfig
 	var cpsFound bool
 	cpsConfig, cpsFound = findCPSGolfConfig(course)
 	if cpsFound {
-		return fetchCPSGolf(cpsConfig, date)
+		return platforms.FetchCPSGolf(cpsConfig, date)
 	}
 
-	var gnConfig GolfNowCourseConfig
+	var gnConfig platforms.GolfNowCourseConfig
 	var gnFound bool
 	gnConfig, gnFound = findGolfNowConfig(course)
 	if gnFound {
-		return fetchGolfNow(gnConfig, date)
+		return platforms.FetchGolfNow(gnConfig, date)
 	}
 
-	var tiuConfig TeeItUpCourseConfig
+	var tiuConfig platforms.TeeItUpCourseConfig
 	var tiuFound bool
 	tiuConfig, tiuFound = findTeeItUpConfig(course)
 	if tiuFound {
-		return fetchTeeItUp(tiuConfig, date)
+		return platforms.FetchTeeItUp(tiuConfig, date)
 	}
 
-	var ccConfig ClubCaddieCourseConfig
+	var ccConfig platforms.ClubCaddieCourseConfig
 	var ccFound bool
 	ccConfig, ccFound = findClubCaddieConfig(course)
 	if ccFound {
-		return fetchClubCaddie(ccConfig, date)
+		return platforms.FetchClubCaddie(ccConfig, date)
 	}
 
-	var q18Config Quick18CourseConfig
+	var q18Config platforms.Quick18CourseConfig
 	var q18Found bool
 	q18Config, q18Found = findQuick18Config(course)
 	if q18Found {
-		return fetchQuick18(q18Config, date)
+		return platforms.FetchQuick18(q18Config, date)
 	}
 
-	var gwaConfig GolfWithAccessCourseConfig
+	var gwaConfig platforms.GolfWithAccessCourseConfig
 	var gwaFound bool
 	gwaConfig, gwaFound = findGolfWithAccessConfig(course)
 	if gwaFound {
-		return fetchGolfWithAccess(gwaConfig, date)
+		return platforms.FetchGolfWithAccess(gwaConfig, date)
 	}
 
-	var crConfig CourseRevCourseConfig
+	var crConfig platforms.CourseRevCourseConfig
 	var crFound bool
 	crConfig, crFound = findCourseRevConfig(course)
 	if crFound {
-		return fetchCourseRev(crConfig, date)
+		return platforms.FetchCourseRev(crConfig, date)
 	}
 
-	var rgConfig RGuestCourseConfig
+	var rgConfig platforms.RGuestCourseConfig
 	var rgFound bool
 	rgConfig, rgFound = findRGuestConfig(course)
 	if rgFound {
-		return fetchRGuest(rgConfig, date)
+		return platforms.FetchRGuest(rgConfig, date)
 	}
 
-	var coConfig CourseCoCourseConfig
+	var coConfig platforms.CourseCoCourseConfig
 	var coFound bool
 	coConfig, coFound = findCourseCoConfig(course)
 	if coFound {
-		return fetchCourseCo(coConfig, date)
+		return platforms.FetchCourseCo(coConfig, date)
 	}
 
-	var tsConfig TeeSnapCourseConfig
+	var tsConfig platforms.TeeSnapCourseConfig
 	var tsFound bool
 	tsConfig, tsFound = findTeeSnapConfig(course)
 	if tsFound {
-		return fetchTeeSnap(tsConfig, date)
+		return platforms.FetchTeeSnap(tsConfig, date)
 	}
 
-	var fuConfig ForeUpCourseConfig
+	var fuConfig platforms.ForeUpCourseConfig
 	var fuFound bool
 	fuConfig, fuFound = findForeUpConfig(course)
 	if fuFound {
-		return fetchForeUp(fuConfig, date)
+		return platforms.FetchForeUp(fuConfig, date)
 	}
 
 	// Default to Denver
-	return fetchMemberSports(MemberSportsCourses["denver"], date)
+	return platforms.FetchMemberSports(platforms.MemberSportsCourses["denver"], date)
 }
 
 func bookingURLForCourse(course string) string {
-	var cgConfig ChronogolfCourseConfig
+	var cgConfig platforms.ChronogolfCourseConfig
 	var cgFound bool
 	cgConfig, cgFound = findChronogolfConfig(course)
 	if cgFound {
 		return cgConfig.BookingURL
 	}
 
-	var msConfig MemberSportsCourseConfig
+	var msConfig platforms.MemberSportsCourseConfig
 	var msFound bool
 	msConfig, msFound = findMemberSportsConfig(course)
 	if msFound {
 		return msConfig.BookingURL
 	}
 
-	var cpsConfig CPSGolfCourseConfig
+	var cpsConfig platforms.CPSGolfCourseConfig
 	var cpsFound bool
 	cpsConfig, cpsFound = findCPSGolfConfig(course)
 	if cpsFound {
 		return cpsConfig.BookingURL
 	}
 
-	var gnConfig GolfNowCourseConfig
+	var gnConfig platforms.GolfNowCourseConfig
 	var gnFound bool
 	gnConfig, gnFound = findGolfNowConfig(course)
 	if gnFound {
 		return gnConfig.BookingURL
 	}
 
-	var tiuConfig TeeItUpCourseConfig
+	var tiuConfig platforms.TeeItUpCourseConfig
 	var tiuFound bool
 	tiuConfig, tiuFound = findTeeItUpConfig(course)
 	if tiuFound {
-		return tiuConfig.BookingURL
+		return "https://" + tiuConfig.Alias + ".book.teeitup.com/teetimes"
 	}
 
-	var ccConfig ClubCaddieCourseConfig
+	var ccConfig platforms.ClubCaddieCourseConfig
 	var ccFound bool
 	ccConfig, ccFound = findClubCaddieConfig(course)
 	if ccFound {
 		return ccConfig.BookingURL
 	}
 
-	var q18Config Quick18CourseConfig
+	var q18Config platforms.Quick18CourseConfig
 	var q18Found bool
 	q18Config, q18Found = findQuick18Config(course)
 	if q18Found {
 		return q18Config.BookingURL
 	}
 
-	var gwaConfig GolfWithAccessCourseConfig
+	var gwaConfig platforms.GolfWithAccessCourseConfig
 	var gwaFound bool
 	gwaConfig, gwaFound = findGolfWithAccessConfig(course)
 	if gwaFound {
 		return gwaConfig.BookingURL
 	}
 
-	var crConfig CourseRevCourseConfig
+	var crConfig platforms.CourseRevCourseConfig
 	var crFound bool
 	crConfig, crFound = findCourseRevConfig(course)
 	if crFound {
 		return crConfig.BookingURL
 	}
 
-	var rgConfig RGuestCourseConfig
+	var rgConfig platforms.RGuestCourseConfig
 	var rgFound bool
 	rgConfig, rgFound = findRGuestConfig(course)
 	if rgFound {
 		return rgConfig.BookingURL
 	}
 
-	var coConfig CourseCoCourseConfig
+	var coConfig platforms.CourseCoCourseConfig
 	var coFound bool
 	coConfig, coFound = findCourseCoConfig(course)
 	if coFound {
 		return coConfig.BookingURL
 	}
 
-	var tsConfig TeeSnapCourseConfig
+	var tsConfig platforms.TeeSnapCourseConfig
 	var tsFound bool
 	tsConfig, tsFound = findTeeSnapConfig(course)
 	if tsFound {
 		return tsConfig.BookingURL
 	}
 
-	var fuConfig ForeUpCourseConfig
+	var fuConfig platforms.ForeUpCourseConfig
 	var fuFound bool
 	fuConfig, fuFound = findForeUpConfig(course)
 	if fuFound {
 		return fuConfig.BookingURL
 	}
 
-	return MemberSportsCourses["denver"].BookingURL
+	return platforms.MemberSportsCourses["denver"].BookingURL
 }
 
 func parseTimeToMinutes(timeStr string) int {
@@ -354,18 +355,18 @@ func parseTimeToMinutes(timeStr string) int {
 	return hours*60 + mins
 }
 
-func loadAlerts() ([]Alert, error) {
+func loadAlerts() ([]platforms.Alert, error) {
 	var data []byte
 	var err error
 	data, err = os.ReadFile(AlertsFile)
 	if err != nil {
 		if os.IsNotExist(err) {
-			return []Alert{}, nil
+			return []platforms.Alert{}, nil
 		}
 		return nil, err
 	}
 
-	var alerts []Alert
+	var alerts []platforms.Alert
 	err = json.Unmarshal(data, &alerts)
 	if err != nil {
 		return nil, err
@@ -374,7 +375,7 @@ func loadAlerts() ([]Alert, error) {
 	return alerts, nil
 }
 
-func saveAlerts(alerts []Alert) error {
+func saveAlerts(alerts []platforms.Alert) error {
 	var data []byte
 	var err error
 	data, err = json.MarshalIndent(alerts, "", "  ")
@@ -478,30 +479,30 @@ func getBaseCourse(name string) string {
 	return strings.Replace(name, " Back Nine", "", 1)
 }
 
-func addAlert(phone string, course string, date string, startTime string, endTime string) (Alert, error) {
+func addAlert(phone string, course string, date string, startTime string, endTime string) (platforms.Alert, error) {
 	// Validate start time is before end time
 	var startMins int = parseTimeToMinutes(startTime)
 	var endMins int = parseTimeToMinutes(endTime)
 	if startMins >= endMins {
-		return Alert{}, errors.New("Start time must be before end time.")
+		return platforms.Alert{}, errors.New("Start time must be before end time.")
 	}
 
 	// Check for duplicate alert (same phone + course + date)
-	var alerts []Alert
+	var alerts []platforms.Alert
 	var err error
 	alerts, err = loadAlerts()
 	if err != nil {
-		return Alert{}, err
+		return platforms.Alert{}, err
 	}
 
 	for _, existing := range alerts {
 		if existing.Phone == phone && existing.Course == course && existing.Date == date && existing.Active {
-			return Alert{}, errors.New("You already have an alert set for " + course + " on " + date + ". Delete it first to create a new one.")
+			return platforms.Alert{}, errors.New("You already have an alert set for " + course + " on " + date + ". Delete it first to create a new one.")
 		}
 	}
 
 	// Check if a tee time already exists in this window
-	var teeTimes []DisplayTeeTime
+	var teeTimes []platforms.DisplayTeeTime
 	teeTimes, err = fetchForCourse(course, date)
 	if err == nil {
 		for _, tt := range teeTimes {
@@ -510,13 +511,13 @@ func addAlert(phone string, course string, date string, startTime string, endTim
 			if baseCourse == course && tt.Openings > 0 {
 				var ttMins int = parseTimeToMinutes(tt.Time)
 				if ttMins >= startMins && ttMins <= endMins {
-					return Alert{}, errors.New("There's already a tee time available at " + course + " at " + tt.Time + " — go book it!")
+					return platforms.Alert{}, errors.New("There's already a tee time available at " + course + " at " + tt.Time + " — go book it!")
 				}
 			}
 		}
 	}
 
-	var alert Alert = Alert{
+	var alert platforms.Alert = platforms.Alert{
 		ID:        fmt.Sprintf("%d", time.Now().UnixNano()),
 		Phone:     phone,
 		Course:    course,
@@ -531,21 +532,21 @@ func addAlert(phone string, course string, date string, startTime string, endTim
 
 	err = saveAlerts(alerts)
 	if err != nil {
-		return Alert{}, err
+		return platforms.Alert{}, err
 	}
 
 	return alert, nil
 }
 
 func deleteAlert(id string) error {
-	var alerts []Alert
+	var alerts []platforms.Alert
 	var err error
 	alerts, err = loadAlerts()
 	if err != nil {
 		return err
 	}
 
-	var updated []Alert
+	var updated []platforms.Alert
 	for _, alert := range alerts {
 		if alert.ID != id {
 			updated = append(updated, alert)
@@ -576,10 +577,10 @@ func buildAlertMessage(course string, date string, matches []MatchedTeeTime) str
 }
 
 func startAlertChecker() {
-	fmt.Println("Alert checker started — checking every 1 minute")
+	fmt.Println("platforms.Alert checker started — checking every 1 minute")
 
 	for {
-		var alerts []Alert
+		var alerts []platforms.Alert
 		var err error
 		alerts, err = loadAlerts()
 		if err != nil {
@@ -615,7 +616,7 @@ func startAlertChecker() {
 			fmt.Println("")
 			fmt.Println("  Checking:", alert.Course, "|", alert.Date, "|", alert.StartTime, "–", alert.EndTime, "|", alert.Phone)
 
-			var teeTimes []DisplayTeeTime
+			var teeTimes []platforms.DisplayTeeTime
 			teeTimes, err = fetchForCourse(alert.Course, alert.Date)
 			if err != nil {
 				fmt.Println("    [ERROR] Fetching tee times:", err)

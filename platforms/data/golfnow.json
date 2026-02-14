@@ -1,0 +1,812 @@
+[
+  {
+    "key": "murphycreek",
+    "metro": "denver",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/17879-murphy-creek-golf-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/17879/search",
+    "displayName": "Murphy Creek",
+    "city": "Aurora",
+    "state": "CO",
+    "facilityId": 17879
+  },
+  {
+    "key": "springhill",
+    "metro": "denver",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/17876-springhill-golf-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/17876/search",
+    "displayName": "Springhill",
+    "city": "Aurora",
+    "state": "CO",
+    "facilityId": 17876
+  },
+  {
+    "key": "meadowhills",
+    "metro": "denver",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/17880-meadow-hills-golf-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/17880/search",
+    "displayName": "Meadow Hills",
+    "city": "Aurora",
+    "state": "CO",
+    "facilityId": 17880
+  },
+  {
+    "key": "aurorahills",
+    "metro": "denver",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/17878-aurora-hills-golf-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/17878/search",
+    "displayName": "Aurora Hills",
+    "city": "Aurora",
+    "state": "CO",
+    "facilityId": 17878
+  },
+  {
+    "key": "saddlerock",
+    "metro": "denver",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/17877-saddle-rock-golf-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/17877/search",
+    "displayName": "Saddle Rock",
+    "city": "Aurora",
+    "state": "CO",
+    "facilityId": 17877
+  },
+  {
+    "key": "raccooncreek",
+    "metro": "denver",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/515-raccoon-creek-golf-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/515/search",
+    "displayName": "Raccoon Creek",
+    "city": "Littleton",
+    "state": "CO",
+    "facilityId": 515
+  },
+  {
+    "key": "arrowhead",
+    "metro": "denver",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/453-arrowhead-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/453/search",
+    "displayName": "Arrowhead",
+    "city": "Littleton",
+    "state": "CO",
+    "facilityId": 453
+  },
+  {
+    "key": "tpcscottsdale",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/7076-tpc-scottsdale-champions-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/7076/search",
+    "displayName": "TPC Scottsdale Champions",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "facilityId": 7076
+  },
+  {
+    "key": "tpcscottsdalestadium",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3482-the-stadium-course-at-tpc-scottsdale/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3482/search",
+    "displayName": "TPC Scottsdale Stadium",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "facilityId": 3482
+  },
+  {
+    "key": "ravengolfclub",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1446-raven-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1446/search",
+    "displayName": "Raven Golf Club",
+    "city": "Phoenix",
+    "state": "AZ",
+    "facilityId": 1446
+  },
+  {
+    "key": "stonecreek",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/122-stonecreek-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/122/search",
+    "displayName": "Stonecreek Golf Club",
+    "city": "Phoenix",
+    "state": "AZ",
+    "facilityId": 122
+  },
+  {
+    "key": "verrado",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/14378-verrado-golf-club-victory-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/14378/search",
+    "displayName": "Verrado Victory",
+    "city": "Buckeye",
+    "state": "AZ",
+    "facilityId": 14378
+  },
+  {
+    "key": "verradofounders",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1707-verrado-golf-club-founders-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1707/search",
+    "displayName": "Verrado Founders",
+    "city": "Buckeye",
+    "state": "AZ",
+    "facilityId": 1707
+  },
+  {
+    "key": "quintero",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/6388-quintero-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6388/search",
+    "displayName": "Quintero Golf Club",
+    "city": "Peoria",
+    "state": "AZ",
+    "facilityId": 6388
+  },
+  {
+    "key": "longbow",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3021-longbow-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3021/search",
+    "displayName": "Longbow Golf Club",
+    "city": "Mesa",
+    "state": "AZ",
+    "facilityId": 3021
+  },
+  {
+    "key": "superstitionsprings",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/120-superstition-springs-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/120/search",
+    "displayName": "Superstition Springs",
+    "city": "Mesa",
+    "state": "AZ",
+    "facilityId": 120
+  },
+  {
+    "key": "ocotillo",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/253-ocotillo-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/253/search",
+    "displayName": "Ocotillo Golf Club",
+    "city": "Chandler",
+    "state": "AZ",
+    "facilityId": 253
+  },
+  {
+    "key": "dovevalleyranch",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/115-dove-valley-ranch-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/115/search",
+    "displayName": "Dove Valley Ranch",
+    "city": "Cave Creek",
+    "state": "AZ",
+    "facilityId": 115
+  },
+  {
+    "key": "mccormickranchpine",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/7078-mccormick-ranch-golf-club-pine-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/7078/search",
+    "displayName": "McCormick Ranch Pine",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "facilityId": 7078
+  },
+  {
+    "key": "mccormickranchpalm",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1356-mccormick-ranch-golf-club-palm-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1356/search",
+    "displayName": "McCormick Ranch Palm",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "facilityId": 1356
+  },
+  {
+    "key": "talkingstickoodham",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/12968-talking-stick-golf-club-oodham-north/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/12968/search",
+    "displayName": "Talking Stick O'odham",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "facilityId": 12968
+  },
+  {
+    "key": "talkingstickpiipaash",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/814-talking-stick-golf-club-piipaash-south/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/814/search",
+    "displayName": "Talking Stick Piipaash",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "facilityId": 814
+  },
+  {
+    "key": "whirlwinddevilsclaw",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/110-whirlwind-golf-club-devils-claw/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/110/search",
+    "displayName": "Whirlwind Devil's Claw",
+    "city": "Chandler",
+    "state": "AZ",
+    "facilityId": 110
+  },
+  {
+    "key": "whirlwindcattail",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/13192-whirlwind-golf-club-cattail/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/13192/search",
+    "displayName": "Whirlwind Cattail",
+    "city": "Chandler",
+    "state": "AZ",
+    "facilityId": 13192
+  },
+  {
+    "key": "westernskies",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/123-western-skies-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/123/search",
+    "displayName": "Western Skies Golf Club",
+    "city": "Gilbert",
+    "state": "AZ",
+    "facilityId": 123
+  },
+  {
+    "key": "kokopelli",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/121-kokopelli-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/121/search",
+    "displayName": "Kokopelli Golf Club",
+    "city": "Gilbert",
+    "state": "AZ",
+    "facilityId": 121
+  },
+  {
+    "key": "boulders",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/7-boulders-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/7/search",
+    "displayName": "Boulders Golf Club",
+    "city": "Carefree",
+    "state": "AZ",
+    "facilityId": 7
+  },
+  {
+    "key": "continental",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/428-continental-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/428/search",
+    "displayName": "Continental Golf Club",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "facilityId": 428
+  },
+  {
+    "key": "rollinghills",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3633-rolling-hills-golf-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3633/search",
+    "displayName": "Rolling Hills Golf Course",
+    "city": "Tempe",
+    "state": "AZ",
+    "facilityId": 3633
+  },
+  {
+    "key": "tokasticks",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1039-toka-sticks-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1039/search",
+    "displayName": "Toka Sticks Golf Club",
+    "city": "Mesa",
+    "state": "AZ",
+    "facilityId": 1039
+  },
+  {
+    "key": "sanmarcos",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1383-san-marcos-golf-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1383/search",
+    "displayName": "San Marcos Golf Course",
+    "city": "Chandler",
+    "state": "AZ",
+    "facilityId": 1383
+  },
+  {
+    "key": "palmvalley",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/4682-palm-valley-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/4682/search",
+    "displayName": "Palm Valley Golf Club",
+    "city": "Goodyear",
+    "state": "AZ",
+    "facilityId": 4682
+  },
+  {
+    "key": "bearcreekbear",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/62-bear-creek-gc-bear-championship/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/62/search",
+    "displayName": "Bear Creek Golf Club",
+    "city": "Chandler",
+    "state": "AZ",
+    "facilityId": 62
+  },
+  {
+    "key": "bearcreekcub",
+    "metro": "phoenix",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3685-bear-creek-gc-cub-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3685/search",
+    "displayName": "Bear Creek Cub Course",
+    "city": "Chandler",
+    "state": "AZ",
+    "facilityId": 3685
+  },
+  {
+    "key": "beardance",
+    "metro": "denver",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/516-the-golf-club-at-bear-dance/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/516/search",
+    "displayName": "Bear Dance",
+    "city": "Larkspur",
+    "state": "CO",
+    "facilityId": 516
+  },
+  {
+    "key": "ridgecastlepines",
+    "metro": "denver",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1411-the-ridge-at-castle-pines-north/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1411/search",
+    "displayName": "Ridge at Castle Pines",
+    "city": "Castle Pines",
+    "state": "CO",
+    "facilityId": 1411
+  },
+  {
+    "key": "heatherridge",
+    "metro": "denver",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/9459-the-golf-club-at-heather-ridge/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/9459/search",
+    "displayName": "Heather Ridge",
+    "city": "Aurora",
+    "state": "CO",
+    "facilityId": 9459
+  },
+  {
+    "key": "heritageeaglebend",
+    "metro": "denver",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1019-heritage-eagle-bend-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1019/search",
+    "displayName": "Heritage Eagle Bend",
+    "city": "Aurora",
+    "state": "CO",
+    "facilityId": 1019
+  },
+  {
+    "key": "bonneville",
+    "metro": "",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/2442-bonneville-golf-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/2442/search",
+    "displayName": "Bonneville",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "facilityId": 2442
+  },
+  {
+    "key": "forestdale",
+    "metro": "",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/2443-forest-dale-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/2443/search",
+    "displayName": "Forest Dale",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "facilityId": 2443
+  },
+  {
+    "key": "glendaleslc",
+    "metro": "",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/2339-glendale-golf-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/2339/search",
+    "displayName": "Glendale",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "facilityId": 2339
+  },
+  {
+    "key": "roseparkslc",
+    "metro": "",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/2448-rose-park-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/2448/search",
+    "displayName": "Rose Park",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "facilityId": 2448
+  },
+  {
+    "key": "nibleypark",
+    "metro": "",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/2447-nibley-park-golf-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/2447/search",
+    "displayName": "Nibley Park",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "facilityId": 2447
+  },
+  {
+    "key": "riveroaks",
+    "metro": "",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/2342-river-oaks-golf-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/2342/search",
+    "displayName": "River Oaks",
+    "city": "Sandy",
+    "state": "UT",
+    "facilityId": 2342
+  },
+  {
+    "key": "eaglewood",
+    "metro": "",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/2341-eaglewood/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/2341/search",
+    "displayName": "Eaglewood",
+    "city": "North Salt Lake",
+    "state": "UT",
+    "facilityId": 2341
+  },
+  {
+    "key": "ridgeslc",
+    "metro": "",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/12453-the-ridge-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/12453/search",
+    "displayName": "The Ridge",
+    "city": "West Valley City",
+    "state": "UT",
+    "facilityId": 12453
+  },
+  {
+    "key": "stonebridgeslc",
+    "metro": "",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/12452-stonebridge-golf-club-at-lake-park/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/12452/search",
+    "displayName": "Stonebridge",
+    "city": "West Valley City",
+    "state": "UT",
+    "facilityId": 12452
+  },
+  {
+    "key": "thanksgivingpoint",
+    "metro": "",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/6421-thanksgiving-point-golf-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6421/search",
+    "displayName": "Thanksgiving Point",
+    "city": "Lehi",
+    "state": "UT",
+    "facilityId": 6421
+  },
+  {
+    "key": "lasvegasgolfclub",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1293-las-vegas-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1293-las-vegas-golf-club/search",
+    "displayName": "Las Vegas Golf Club",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 1293
+  },
+  {
+    "key": "lasvegasnational",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/763-las-vegas-national-golf-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/763-las-vegas-national-golf-course/search",
+    "displayName": "Las Vegas National",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 763
+  },
+  {
+    "key": "aliante",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/377-aliante-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/377-aliante-golf-club/search",
+    "displayName": "Aliante Golf Club",
+    "city": "North Las Vegas",
+    "state": "NV",
+    "facilityId": 377
+  },
+  {
+    "key": "rhodesranch",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/762-rhodes-ranch-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/762-rhodes-ranch-golf-club/search",
+    "displayName": "Rhodes Ranch",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 762
+  },
+  {
+    "key": "angelparkmountain",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/246-angel-park-golf-club-mountain-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/246-angel-park-golf-club-mountain-course/search",
+    "displayName": "Angel Park Mountain",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 246
+  },
+  {
+    "key": "angelparkpalm",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/6390-angel-park-golf-club-palm-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6390-angel-park-golf-club-palm-course/search",
+    "displayName": "Angel Park Palm",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 6390
+  },
+  {
+    "key": "angelparkcloudnine",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/9960-angel-park-golf-club-cloud-nine/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/9960-angel-park-golf-club-cloud-nine/search",
+    "displayName": "Angel Park Cloud Nine",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 9960
+  },
+  {
+    "key": "legacylv",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/247-the-legacy-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/247/search",
+    "displayName": "The Legacy",
+    "city": "Henderson",
+    "state": "NV",
+    "facilityId": 247
+  },
+  {
+    "key": "arroyoredrock",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/371-arroyo-golf-club-at-red-rock/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/371-arroyo-golf-club-at-red-rock/search",
+    "displayName": "Arroyo at Red Rock",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 371
+  },
+  {
+    "key": "losprados",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1920-los-prados-golf-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1920-los-prados-golf-course/search",
+    "displayName": "Los Prados",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 1920
+  },
+  {
+    "key": "tpclasvegas",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3508-tpc-las-vegas-golf-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3508/search",
+    "displayName": "TPC Las Vegas",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 3508
+  },
+  {
+    "key": "desertwillow",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1336-desert-willow-golf-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1336-desert-willow-golf-course/search",
+    "displayName": "Desert Willow",
+    "city": "Henderson",
+    "state": "NV",
+    "facilityId": 1336
+  },
+  {
+    "key": "wildhorse",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1111-wildhorse-golf-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1111-wildhorse-golf-course/search",
+    "displayName": "Wildhorse",
+    "city": "Henderson",
+    "state": "NV",
+    "facilityId": 1111
+  },
+  {
+    "key": "bouldercity",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/463-boulder-city-golf-course/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/463-boulder-city-golf-course/search",
+    "displayName": "Boulder City GC",
+    "city": "Boulder City",
+    "state": "NV",
+    "facilityId": 463
+  },
+  {
+    "key": "bouldercreek",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/157-boulder-creek-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/157-boulder-creek-golf-club/search",
+    "displayName": "Boulder Creek",
+    "city": "Boulder City",
+    "state": "NV",
+    "facilityId": 157
+  },
+  {
+    "key": "reverelexington",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/188-the-revere-golf-club-lexington/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/188/search",
+    "displayName": "Revere Lexington",
+    "city": "Henderson",
+    "state": "NV",
+    "facilityId": 188
+  },
+  {
+    "key": "revereconcord",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/4241-the-revere-golf-club-concord/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/4241/search",
+    "displayName": "Revere Concord",
+    "city": "Henderson",
+    "state": "NV",
+    "facilityId": 4241
+  },
+  {
+    "key": "reflectionbay",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/881-reflection-bay-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/881-reflection-bay-golf-club/search",
+    "displayName": "Reflection Bay",
+    "city": "Henderson",
+    "state": "NV",
+    "facilityId": 881
+  },
+  {
+    "key": "palmvalleylv",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/2074-palm-valley-golf-course-at-golf-summerlin/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/2074/search",
+    "displayName": "Palm Valley",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 2074
+  },
+  {
+    "key": "highlandfalls",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1972-highland-falls-golf-club-at-golf-summerlin/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1972/search",
+    "displayName": "Highland Falls",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 1972
+  },
+  {
+    "key": "eaglecrestlv",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/2075-eagle-crest-golf-course-at-golf-summerlin/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/2075/search",
+    "displayName": "Eagle Crest",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 2075
+  },
+  {
+    "key": "bearsbest",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/4995-bears-best-las-vegas/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/4995-bears-best-las-vegas/search",
+    "displayName": "Bear's Best",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 4995
+  },
+  {
+    "key": "chimera",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/761-chimera-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/761-chimera-golf-club/search",
+    "displayName": "Chimera Golf Club",
+    "city": "Henderson",
+    "state": "NV",
+    "facilityId": 761
+  },
+  {
+    "key": "siena",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/370-siena-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/370-siena-golf-club/search",
+    "displayName": "Siena Golf Club",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 370
+  },
+  {
+    "key": "painteddesert",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/764-painted-desert-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/764-painted-desert-golf-club/search",
+    "displayName": "Painted Desert",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 764
+  },
+  {
+    "key": "desertpines",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/5380-desert-pines-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/5380-desert-pines-golf-club/search",
+    "displayName": "Desert Pines",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 5380
+  },
+  {
+    "key": "balihai",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/5359-bali-hai-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/5359-bali-hai-golf-club/search",
+    "displayName": "Bali Hai",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 5359
+  },
+  {
+    "key": "stallionmountain",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/5-stallion-mountain-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/5-stallion-mountain-golf-club/search",
+    "displayName": "Stallion Mountain",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 5
+  },
+  {
+    "key": "royallinks",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/5383-royal-links-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/5383-royal-links-golf-club/search",
+    "displayName": "Royal Links",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 5383
+  },
+  {
+    "key": "paiutesun",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/6331-paiute-golf-resort-sun/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6331-paiute-golf-resort-sun/search",
+    "displayName": "Paiute Sun Mountain",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 6331
+  },
+  {
+    "key": "paiutesnow",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/132-paiute-golf-resort-snow/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/132-paiute-golf-resort-snow/search",
+    "displayName": "Paiute Snow Mountain",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 132
+  },
+  {
+    "key": "paiutewolf",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/6332-paiute-golf-resort-wolf/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6332-paiute-golf-resort-wolf/search",
+    "displayName": "Paiute Wolf",
+    "city": "Las Vegas",
+    "state": "NV",
+    "facilityId": 6332
+  },
+  {
+    "key": "coyotesprings",
+    "metro": "lasvegas",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/6204-coyote-springs-golf-club/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6204-coyote-springs-golf-club/search",
+    "displayName": "Coyote Springs",
+    "city": "Moapa",
+    "state": "NV",
+    "facilityId": 6204
+  }
+]

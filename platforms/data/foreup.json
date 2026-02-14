@@ -1,0 +1,46 @@
+[
+  {
+    "key": "legendtrail",
+    "metro": "phoenix",
+    "courseId": "21561",
+    "bookingClass": "10566",
+    "scheduleId": "8260",
+    "bookingUrl": "https://foreupsoftware.com/index.php/booking/21561#/teetimes",
+    "displayName": "Legend Trail Golf Club",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "paintedmountain",
+    "metro": "phoenix",
+    "courseId": "21954",
+    "bookingClass": "12668",
+    "scheduleId": "9443",
+    "bookingUrl": "https://foreupsoftware.com/index.php/booking/21954#/teetimes",
+    "displayName": "Painted Mountain Golf Resort",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "lonetree",
+    "metro": "phoenix",
+    "courseId": "21985",
+    "bookingClass": "12762",
+    "scheduleId": "9516",
+    "bookingUrl": "https://foreupsoftware.com/index.php/booking/21985#/teetimes",
+    "displayName": "Lone Tree Golf Club",
+    "city": "Chandler",
+    "state": "AZ"
+  },
+  {
+    "key": "toddcreek",
+    "metro": "denver",
+    "courseId": "22161",
+    "bookingClass": "13521",
+    "scheduleId": "10005",
+    "bookingUrl": "https://foreupsoftware.com/index.php/booking/22161#/teetimes",
+    "displayName": "Todd Creek Golf Club",
+    "city": "Thornton",
+    "state": "CO"
+  }
+]

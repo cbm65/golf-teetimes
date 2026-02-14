@@ -1,4 +1,4 @@
-package main
+package platforms
 
 type DisplayTeeTime struct {
 	Time       string  `json:"time"`

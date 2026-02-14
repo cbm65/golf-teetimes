@@ -1,4 +1,4 @@
-package main
+package platforms
 
 import (
 	"bytes"
@@ -62,7 +62,7 @@ type EZLinksSlot struct {
 	R28 string  `json:"r28"` // holes flags
 }
 
-func fetchEZLinks(config EZLinksCourseConfig, date string) ([]DisplayTeeTime, error) {
+func FetchEZLinks(config EZLinksCourseConfig, date string) ([]DisplayTeeTime, error) {
 	// Format date from "2026-02-10" to "02/10/2026"
 	var parts []string = strings.Split(date, "-")
 	if len(parts) != 3 {

@@ -1,0 +1,94 @@
+[
+  {
+    "key": "papago",
+    "metro": "phoenix",
+    "subdomain": "papago",
+    "bookingUrl": "https://papago.quick18.com/teetimes/searchmatrix",
+    "displayName": "Papago Golf Course",
+    "holes": "18",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "grayhawk",
+    "metro": "phoenix",
+    "subdomain": "grayhawk",
+    "bookingUrl": "https://grayhawk.quick18.com/teetimes/searchmatrix",
+    "namePrefix": "Grayhawk",
+    "holes": "18",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "trilogyvistancia",
+    "metro": "phoenix",
+    "subdomain": "trilogyvistancia",
+    "bookingUrl": "https://trilogyvistancia.quick18.com/teetimes/searchmatrix",
+    "displayName": "Trilogy at Vistancia",
+    "holes": "18",
+    "city": "Peoria",
+    "state": "AZ"
+  },
+  {
+    "key": "coyotelakes",
+    "metro": "phoenix",
+    "subdomain": "coyotelakes",
+    "bookingUrl": "https://coyotelakes.quick18.com/teetimes/searchmatrix",
+    "namePrefix": "Coyote Lakes",
+    "holes": "18",
+    "city": "Surprise",
+    "state": "AZ"
+  },
+  {
+    "key": "sunridgecanyon",
+    "metro": "phoenix",
+    "subdomain": "sunridgecanyon",
+    "domain": "play18.com",
+    "bookingUrl": "https://sunridgecanyon.play18.com/teetimes/searchmatrix",
+    "displayName": "SunRidge Canyon",
+    "holes": "18",
+    "city": "Fountain Hills",
+    "state": "AZ"
+  },
+  {
+    "key": "orangetree",
+    "metro": "phoenix",
+    "subdomain": "orangetree",
+    "bookingUrl": "https://orangetree.quick18.com/teetimes/searchmatrix",
+    "displayName": "Orange Tree Golf Course",
+    "holes": "18",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "goldcanyon",
+    "metro": "phoenix",
+    "subdomain": "goldcanyon",
+    "bookingUrl": "https://goldcanyon.quick18.com/teetimes/searchmatrix",
+    "namePrefix": "Gold Canyon",
+    "holes": "18",
+    "city": "Gold Canyon",
+    "state": "AZ"
+  },
+  {
+    "key": "redmountainranch",
+    "metro": "phoenix",
+    "subdomain": "redmountain",
+    "domain": "play18.com",
+    "bookingUrl": "https://redmountain.play18.com/teetimes/searchmatrix",
+    "displayName": "Red Mountain Ranch Country Club",
+    "holes": "18",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "thorncreek",
+    "metro": "denver",
+    "subdomain": "thorncreek",
+    "bookingUrl": "https://thorncreek.quick18.com/teetimes/searchmatrix",
+    "displayName": "Thorncreek Golf Club",
+    "holes": "18",
+    "city": "Thornton",
+    "state": "CO"
+  }
+]

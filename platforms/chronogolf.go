@@ -1,4 +1,4 @@
-package main
+package platforms
 
 import (
 	"encoding/json"
@@ -9,75 +9,19 @@ import (
 )
 
 type ChronogolfCourseConfig struct {
-	CourseIDs         string
-	ClubID            string // for club-level API (alternative to CourseIDs/v2)
-	NumericCourseID   string
-	AffiliationTypeID string
-	BookingURL        string
-	Names             map[string]string // map API name to display name
-	City              string
-	State             string
+	Key               string            `json:"key"`
+	Metro             string            `json:"metro"`
+	CourseIDs         string            `json:"courseIds"`
+	ClubID            string            `json:"clubId"`
+	NumericCourseID   string            `json:"numericCourseId"`
+	AffiliationTypeID string            `json:"affiliationTypeId"`
+	BookingURL        string            `json:"bookingUrl"`
+	Names             map[string]string `json:"names"`
+	City              string            `json:"city"`
+	State             string            `json:"state"`
 }
 
-var ChronogolfCourses = map[string]ChronogolfCourseConfig{
-	"southsuburban": {
-		CourseIDs:  "d75de2f0-634d-4dc5-b426-20d406a6f7cd,482fb33a-fa4a-48fb-85e1-e0492fe39d1a,68c1a9d5-f402-4d54-a1c5-991363899bc8",
-		BookingURL: "https://www.chronogolf.com/club/south-suburban-golf-club",
-		Names: map[string]string{
-			"SSG 18 Hole Course":      "South Suburban",
-			"SSG 9 Hole Par 3 Course": "South Suburban Par 3",
-		},
-		City: "Centennial", State: "CO",
-	},
-	"lonetree": {
-		CourseIDs:  "001a7f2d-2c20-4bd9-8f91-3df9d051f737",
-		BookingURL: "https://www.chronogolf.com/club/lone-tree-golf-club-hotel",
-		Names: map[string]string{
-			"LTH 18 Hole Course": "Lone Tree",
-		},
-		City: "Lone Tree", State: "CO",
-	},
-	"littleton": {
-		CourseIDs:  "6a1ad175-7c4f-4692-a58f-7879e72ed9e9,c98df576-e507-44d7-9ece-7d59154fd143",
-		BookingURL: "https://www.chronogolf.com/club/littleton-golf-tennis-club",
-		Names: map[string]string{
-			"LGT 18 Hole Course": "Littleton",
-		},
-		City: "Littleton", State: "CO",
-	},
-	"familysports": {
-		CourseIDs:  "34b44f75-a475-4ec1-b5d3-e3089b66cf86",
-		BookingURL: "https://www.chronogolf.com/club/family-sports-golf-course",
-		Names: map[string]string{
-			"FSC 9 Hole Course": "Family Sports",
-		},
-		City: "Centennial", State: "CO",
-	},
-	"highlandmeadows": {
-		CourseIDs:  "438c425c-961a-4768-9ccd-c164e8bd8fb4",
-		BookingURL: "https://www.chronogolf.com/club/highland-meadows-golf-club-colorado",
-		Names: map[string]string{
-			"Highland Meadows": "Highland Meadows",
-		},
-		City: "Windsor", State: "CO",
-	},
-	"broadlands": {
-		CourseIDs:  "1af93d4a-dba3-481b-9980-487e5e516146",
-		BookingURL: "https://www.chronogolf.com/club/broadlands-golf-course",
-		Names: map[string]string{
-			"Broadlands": "Broadlands",
-		},
-		City: "Broomfield", State: "CO",
-	},
-	"clubatsunrise": {
-		CourseIDs:  "5b099aff-aa7c-4e50-8413-39da67a133e0",
-		BookingURL: "https://www.chronogolf.com/club/the-club-at-sunrise",
-		Names: map[string]string{
-			"The Club at Sunrise": "Club at Sunrise",
-		},
-		City: "Las Vegas", State: "NV",
-	},
-}
+var ChronogolfCourses = map[string]ChronogolfCourseConfig{}
 
 type ChronogolfResponse struct {
 	Status   string           `json:"status"`
@@ -123,9 +67,9 @@ func formatHoles(holes []int) string {
 	return strconv.Itoa(max)
 }
 
-func fetchChronogolf(config ChronogolfCourseConfig, date string) ([]DisplayTeeTime, error) {
+func FetchChronogolf(config ChronogolfCourseConfig, date string) ([]DisplayTeeTime, error) {
 	if config.ClubID != "" {
-		return fetchChronogolfClub(config, date)
+		return FetchChronogolfClub(config, date)
 	}
 	var allSlots []ChronogolfSlot
 	var page int = 1
@@ -219,7 +163,7 @@ func fetchChronogolf(config ChronogolfCourseConfig, date string) ([]DisplayTeeTi
 	return results, nil
 }
 
-func fetchChronogolfClub(config ChronogolfCourseConfig, date string) ([]DisplayTeeTime, error) {
+func FetchChronogolfClub(config ChronogolfCourseConfig, date string) ([]DisplayTeeTime, error) {
 	var url string = fmt.Sprintf(
 		"https://www.chronogolf.com/marketplace/clubs/%s/teetimes?date=%s&course_id=%s&affiliation_type_ids%%5B%%5D=%s&nb_holes=18",
 		config.ClubID, date, config.NumericCourseID, config.AffiliationTypeID,

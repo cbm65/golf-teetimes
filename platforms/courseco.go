@@ -1,4 +1,4 @@
-package main
+package platforms
 
 import (
 	"encoding/json"
@@ -10,24 +10,17 @@ import (
 )
 
 type CourseCoCourseConfig struct {
-	Subdomain   string
-	CourseID    string
-	BookingURL  string
-	DisplayName string
-	City        string
-	State       string
+	Key         string `json:"key"`
+	Metro       string `json:"metro"`
+	Subdomain   string `json:"subdomain"`
+	CourseID    string `json:"courseId"`
+	BookingURL  string `json:"bookingUrl"`
+	DisplayName string `json:"displayName"`
+	City        string `json:"city"`
+	State       string `json:"state"`
 }
 
-var CourseCoCourses = map[string]CourseCoCourseConfig{
-	"kenmcdonald": {
-		Subdomain:   "kenmcdonald",
-		CourseID:    "KENMCDONALD",
-		BookingURL:  "https://kenmcdonald.totaleintegrated.net/web/tee-times",
-		DisplayName: "Ken McDonald Golf Course",
-		City:        "Tempe",
-		State:       "AZ",
-	},
-}
+var CourseCoCourses = map[string]CourseCoCourseConfig{}
 
 type CourseCoResponse struct {
 	TeeTimeData []CourseCoTeeTime `json:"TeeTimeData"`
@@ -42,7 +35,7 @@ type CourseCoTeeTime struct {
 	Allow9        bool    `json:"Allow9"`
 }
 
-func fetchCourseCo(config CourseCoCourseConfig, date string) ([]DisplayTeeTime, error) {
+func FetchCourseCo(config CourseCoCourseConfig, date string) ([]DisplayTeeTime, error) {
 	var url string = fmt.Sprintf(
 		"https://courseco-gateway.totaleintegrated.net/Booking/Teetimes?IsInitTeeTimeRequest=false&TeeTimeDate=%s&CourseID=%s&StartTime=05:00&EndTime=21:00&NumOfPlayers=-1&Holes=18&IsNineHole=0&StartPrice=0&EndPrice=&CartIncluded=false&SpecialsOnly=0&IsClosest=0&PlayerIDs=&DateFilterChange=false&DateFilterChangeNoSearch=false&SearchByGroups=true&IsPrepaidOnly=0&QueryStringFilters=null",
 		date, config.CourseID,

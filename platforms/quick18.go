@@ -1,4 +1,4 @@
-package main
+package platforms
 
 import (
 	"fmt"
@@ -10,92 +10,19 @@ import (
 )
 
 type Quick18CourseConfig struct {
-	Subdomain   string
-	Domain      string // "quick18.com" or "play18.com", defaults to quick18.com
-	BookingURL  string
-	DisplayName string
-	NamePrefix  string // if set, prepend to course name from HTML
-	Holes       string
-	City        string
-	State       string
+	Key         string `json:"key"`
+	Metro       string `json:"metro"`
+	Subdomain   string `json:"subdomain"`
+	Domain      string `json:"domain"`
+	BookingURL  string `json:"bookingUrl"`
+	DisplayName string `json:"displayName"`
+	NamePrefix  string `json:"namePrefix"`
+	Holes       string `json:"holes"`
+	City        string `json:"city"`
+	State       string `json:"state"`
 }
 
-var Quick18Courses = map[string]Quick18CourseConfig{
-	"papago": {
-		Subdomain:   "papago",
-		BookingURL:  "https://papago.quick18.com/teetimes/searchmatrix",
-		DisplayName: "Papago Golf Course",
-		Holes:       "18",
-		City:        "Phoenix",
-		State:       "AZ",
-	},
-	"grayhawk": {
-		Subdomain:   "grayhawk",
-		BookingURL:  "https://grayhawk.quick18.com/teetimes/searchmatrix",
-		NamePrefix:  "Grayhawk",
-		Holes:       "18",
-		City:        "Scottsdale",
-		State:       "AZ",
-	},
-	"trilogyvistancia": {
-		Subdomain:   "trilogyvistancia",
-		BookingURL:  "https://trilogyvistancia.quick18.com/teetimes/searchmatrix",
-		DisplayName: "Trilogy at Vistancia",
-		Holes:       "18",
-		City:        "Peoria",
-		State:       "AZ",
-	},
-	"coyotelakes": {
-		Subdomain:   "coyotelakes",
-		BookingURL:  "https://coyotelakes.quick18.com/teetimes/searchmatrix",
-		NamePrefix:  "Coyote Lakes",
-		Holes:       "18",
-		City:        "Surprise",
-		State:       "AZ",
-	},
-	"sunridgecanyon": {
-		Subdomain:   "sunridgecanyon",
-		Domain:      "play18.com",
-		BookingURL:  "https://sunridgecanyon.play18.com/teetimes/searchmatrix",
-		DisplayName: "SunRidge Canyon",
-		Holes:       "18",
-		City:        "Fountain Hills",
-		State:       "AZ",
-	},
-	"orangetree": {
-		Subdomain:   "orangetree",
-		BookingURL:  "https://orangetree.quick18.com/teetimes/searchmatrix",
-		DisplayName: "Orange Tree Golf Course",
-		Holes:       "18",
-		City:        "Scottsdale",
-		State:       "AZ",
-	},
-	"goldcanyon": {
-		Subdomain:   "goldcanyon",
-		BookingURL:  "https://goldcanyon.quick18.com/teetimes/searchmatrix",
-		NamePrefix:  "Gold Canyon",
-		Holes:       "18",
-		City:        "Gold Canyon",
-		State:       "AZ",
-	},
-	"redmountainranch": {
-		Subdomain:   "redmountain",
-		Domain:      "play18.com",
-		BookingURL:  "https://redmountain.play18.com/teetimes/searchmatrix",
-		DisplayName: "Red Mountain Ranch Country Club",
-		Holes:       "18",
-		City:        "Mesa",
-		State:       "AZ",
-	},
-	"thorncreek": {
-		Subdomain:   "thorncreek",
-		BookingURL:  "https://thorncreek.quick18.com/teetimes/searchmatrix",
-		DisplayName: "Thorncreek Golf Club",
-		Holes:       "18",
-		City:        "Thornton",
-		State:       "CO",
-	},
-}
+var Quick18Courses = map[string]Quick18CourseConfig{}
 
 var quick18TimeRegex *regexp.Regexp = regexp.MustCompile(`mtrxTeeTimes">\s*(\d+:\d+)<div class="be_tee_time_ampm">(AM|PM)</div>`)
 var quick18CourseRegex *regexp.Regexp = regexp.MustCompile(`mtrxCourse">(.*?)</td>`)
@@ -120,7 +47,7 @@ func parseQuick18Players(text string) int {
 	return n
 }
 
-func fetchQuick18(config Quick18CourseConfig, date string) ([]DisplayTeeTime, error) {
+func FetchQuick18(config Quick18CourseConfig, date string) ([]DisplayTeeTime, error) {
 	// Convert date from 2026-01-15 to 20260115
 	var dateClean string = strings.ReplaceAll(date, "-", "")
 

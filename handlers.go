@@ -8,10 +8,11 @@ import (
 	"sort"
 	"sync"
 	"time"
+	"golf-teetimes/platforms"
 )
 
 type fetchResult struct {
-	results []DisplayTeeTime
+	results []platforms.DisplayTeeTime
 	err     error
 	name    string
 }
@@ -55,235 +56,196 @@ func handleMetroTeeTimes(w http.ResponseWriter, r *http.Request, metro Metro) {
 	var wg sync.WaitGroup
 
 	// Launch MemberSports fetches for this metro
-	for _, key := range metro.MemberSportsKeys {
-		var config MemberSportsCourseConfig
-		var exists bool
-		config, exists = MemberSportsCourses[key]
-		if !exists {
+	for key, config := range platforms.MemberSportsCourses {
+		if config.Metro != metro.Slug {
 			continue
 		}
 		wg.Add(1)
-		go func(n string, c MemberSportsCourseConfig) {
+		go func(n string, c platforms.MemberSportsCourseConfig) {
 			defer wg.Done()
-			var results []DisplayTeeTime
+			var results []platforms.DisplayTeeTime
 			var err error
-			results, err = fetchMemberSports(c, date)
+			results, err = platforms.FetchMemberSports(c, date)
 			ch <- fetchResult{results: results, err: err, name: n}
 		}(key, config)
 	}
 
 	// Launch Chronogolf fetches for this metro
-	for _, key := range metro.ChronogolfKeys {
-		var config ChronogolfCourseConfig
-		var exists bool
-		config, exists = ChronogolfCourses[key]
-		if !exists {
+	for key, config := range platforms.ChronogolfCourses {
+		if config.Metro != metro.Slug {
 			continue
 		}
 		wg.Add(1)
-		go func(n string, c ChronogolfCourseConfig) {
+		go func(n string, c platforms.ChronogolfCourseConfig) {
 			defer wg.Done()
-			var results []DisplayTeeTime
+			var results []platforms.DisplayTeeTime
 			var err error
-			results, err = fetchChronogolf(c, date)
+			results, err = platforms.FetchChronogolf(c, date)
 			ch <- fetchResult{results: results, err: err, name: n}
 		}(key, config)
 	}
 
 	// Launch CPS Golf fetches for this metro
-	for _, key := range metro.CPSGolfKeys {
-		var config CPSGolfCourseConfig
-		var exists bool
-		config, exists = CPSGolfCourses[key]
-		if !exists {
+	for key, config := range platforms.CPSGolfCourses {
+		if config.Metro != metro.Slug {
 			continue
 		}
 		wg.Add(1)
-		go func(n string, c CPSGolfCourseConfig) {
+		go func(n string, c platforms.CPSGolfCourseConfig) {
 			defer wg.Done()
-			var results []DisplayTeeTime
+			var results []platforms.DisplayTeeTime
 			var err error
-			results, err = fetchCPSGolf(c, date)
+			results, err = platforms.FetchCPSGolf(c, date)
 			ch <- fetchResult{results: results, err: err, name: n}
 		}(key, config)
 	}
 
 	// Launch GolfNow fetches for this metro
-	for _, key := range metro.GolfNowKeys {
-		var config GolfNowCourseConfig
-		var exists bool
-		config, exists = GolfNowCourses[key]
-		if !exists {
+	for key, config := range platforms.GolfNowCourses {
+		if config.Metro != metro.Slug {
 			continue
 		}
 		wg.Add(1)
-		go func(n string, c GolfNowCourseConfig) {
+		go func(n string, c platforms.GolfNowCourseConfig) {
 			defer wg.Done()
-			var results []DisplayTeeTime
+			var results []platforms.DisplayTeeTime
 			var err error
-			results, err = fetchGolfNow(c, date)
+			results, err = platforms.FetchGolfNow(c, date)
 			ch <- fetchResult{results: results, err: err, name: n}
 		}(key, config)
 	}
 
 	// Launch TeeItUp fetches for this metro
-	for _, key := range metro.TeeItUpKeys {
-		var config TeeItUpCourseConfig
-		var exists bool
-		config, exists = TeeItUpCourses[key]
-		if !exists {
+	for key, config := range platforms.TeeItUpCourses {
+		if config.Metro != metro.Slug {
 			continue
 		}
 		wg.Add(1)
-		go func(n string, c TeeItUpCourseConfig) {
+		go func(n string, c platforms.TeeItUpCourseConfig) {
 			defer wg.Done()
-			var results []DisplayTeeTime
+			var results []platforms.DisplayTeeTime
 			var err error
-			results, err = fetchTeeItUp(c, date)
+			results, err = platforms.FetchTeeItUp(c, date)
 			ch <- fetchResult{results: results, err: err, name: n}
 		}(key, config)
 	}
 
 	// Launch ClubCaddie fetches for this metro
-	for _, key := range metro.ClubCaddieKeys {
-		var config ClubCaddieCourseConfig
-		var exists bool
-		config, exists = ClubCaddieCourses[key]
-		if !exists {
+	for key, config := range platforms.ClubCaddieCourses {
+		if config.Metro != metro.Slug {
 			continue
 		}
 		wg.Add(1)
-		go func(n string, c ClubCaddieCourseConfig) {
+		go func(n string, c platforms.ClubCaddieCourseConfig) {
 			defer wg.Done()
-			var results []DisplayTeeTime
+			var results []platforms.DisplayTeeTime
 			var err error
-			results, err = fetchClubCaddie(c, date)
+			results, err = platforms.FetchClubCaddie(c, date)
 			ch <- fetchResult{results: results, err: err, name: n}
 		}(key, config)
 	}
 
 	// Launch Quick18 fetches for this metro
-	for _, key := range metro.Quick18Keys {
-		var config Quick18CourseConfig
-		var exists bool
-		config, exists = Quick18Courses[key]
-		if !exists {
+	for key, config := range platforms.Quick18Courses {
+		if config.Metro != metro.Slug {
 			continue
 		}
 		wg.Add(1)
-		go func(n string, c Quick18CourseConfig) {
+		go func(n string, c platforms.Quick18CourseConfig) {
 			defer wg.Done()
-			var results []DisplayTeeTime
+			var results []platforms.DisplayTeeTime
 			var err error
-			results, err = fetchQuick18(c, date)
+			results, err = platforms.FetchQuick18(c, date)
 			ch <- fetchResult{results: results, err: err, name: n}
 		}(key, config)
 	}
 
 	// Launch GolfWithAccess fetches for this metro
-	for _, key := range metro.GolfWithAccessKeys {
-		var config GolfWithAccessCourseConfig
-		var exists bool
-		config, exists = GolfWithAccessCourses[key]
-		if !exists {
+	for key, config := range platforms.GolfWithAccessCourses {
+		if config.Metro != metro.Slug {
 			continue
 		}
 		wg.Add(1)
-		go func(n string, c GolfWithAccessCourseConfig) {
+		go func(n string, c platforms.GolfWithAccessCourseConfig) {
 			defer wg.Done()
-			var results []DisplayTeeTime
+			var results []platforms.DisplayTeeTime
 			var err error
-			results, err = fetchGolfWithAccess(c, date)
+			results, err = platforms.FetchGolfWithAccess(c, date)
 			ch <- fetchResult{results: results, err: err, name: n}
 		}(key, config)
 	}
 
 	// Launch CourseRev fetches for this metro
-	for _, key := range metro.CourseRevKeys {
-		var config CourseRevCourseConfig
-		var exists bool
-		config, exists = CourseRevCourses[key]
-		if !exists {
+	for key, config := range platforms.CourseRevCourses {
+		if config.Metro != metro.Slug {
 			continue
 		}
 		wg.Add(1)
-		go func(n string, c CourseRevCourseConfig) {
+		go func(n string, c platforms.CourseRevCourseConfig) {
 			defer wg.Done()
-			var results []DisplayTeeTime
+			var results []platforms.DisplayTeeTime
 			var err error
-			results, err = fetchCourseRev(c, date)
+			results, err = platforms.FetchCourseRev(c, date)
 			ch <- fetchResult{results: results, err: err, name: n}
 		}(key, config)
 	}
 
 	// Launch RGuest fetches for this metro
-	for _, key := range metro.RGuestKeys {
-		var config RGuestCourseConfig
-		var exists bool
-		config, exists = RGuestCourses[key]
-		if !exists {
+	for key, config := range platforms.RGuestCourses {
+		if config.Metro != metro.Slug {
 			continue
 		}
 		wg.Add(1)
-		go func(n string, c RGuestCourseConfig) {
+		go func(n string, c platforms.RGuestCourseConfig) {
 			defer wg.Done()
-			var results []DisplayTeeTime
+			var results []platforms.DisplayTeeTime
 			var err error
-			results, err = fetchRGuest(c, date)
+			results, err = platforms.FetchRGuest(c, date)
 			ch <- fetchResult{results: results, err: err, name: n}
 		}(key, config)
 	}
 
 	// Launch CourseCo fetches for this metro
-	for _, key := range metro.CourseCoKeys {
-		var config CourseCoCourseConfig
-		var exists bool
-		config, exists = CourseCoCourses[key]
-		if !exists {
+	for key, config := range platforms.CourseCoCourses {
+		if config.Metro != metro.Slug {
 			continue
 		}
 		wg.Add(1)
-		go func(n string, c CourseCoCourseConfig) {
+		go func(n string, c platforms.CourseCoCourseConfig) {
 			defer wg.Done()
-			var results []DisplayTeeTime
+			var results []platforms.DisplayTeeTime
 			var err error
-			results, err = fetchCourseCo(c, date)
+			results, err = platforms.FetchCourseCo(c, date)
 			ch <- fetchResult{results: results, err: err, name: n}
 		}(key, config)
 	}
 
 	// Launch TeeSnap fetches for this metro
-	for _, key := range metro.TeeSnapKeys {
-		var config TeeSnapCourseConfig
-		var exists bool
-		config, exists = TeeSnapCourses[key]
-		if !exists {
+	for key, config := range platforms.TeeSnapCourses {
+		if config.Metro != metro.Slug {
 			continue
 		}
 		wg.Add(1)
-		go func(n string, c TeeSnapCourseConfig) {
+		go func(n string, c platforms.TeeSnapCourseConfig) {
 			defer wg.Done()
-			var results []DisplayTeeTime
+			var results []platforms.DisplayTeeTime
 			var err error
-			results, err = fetchTeeSnap(c, date)
+			results, err = platforms.FetchTeeSnap(c, date)
 			ch <- fetchResult{results: results, err: err, name: n}
 		}(key, config)
 	}
 
 	// Launch ForeUp fetches for this metro
-	for _, key := range metro.ForeUpKeys {
-		var config ForeUpCourseConfig
-		var exists bool
-		config, exists = ForeUpCourses[key]
-		if !exists {
+	for key, config := range platforms.ForeUpCourses {
+		if config.Metro != metro.Slug {
 			continue
 		}
 		wg.Add(1)
-		go func(n string, c ForeUpCourseConfig) {
+		go func(n string, c platforms.ForeUpCourseConfig) {
 			defer wg.Done()
-			var results []DisplayTeeTime
+			var results []platforms.DisplayTeeTime
 			var err error
-			results, err = fetchForeUp(c, date)
+			results, err = platforms.FetchForeUp(c, date)
 			ch <- fetchResult{results: results, err: err, name: n}
 		}(key, config)
 	}
@@ -295,7 +257,7 @@ func handleMetroTeeTimes(w http.ResponseWriter, r *http.Request, metro Metro) {
 	}()
 
 	// Collect results
-	var allResults []DisplayTeeTime
+	var allResults []platforms.DisplayTeeTime
 	for result := range ch {
 		if result.err != nil {
 			fmt.Println("Error fetching", result.name, ":", result.err)
@@ -350,7 +312,7 @@ func handleTerms(w http.ResponseWriter, r *http.Request) {
 }
 
 func handleGetAlerts(w http.ResponseWriter, r *http.Request) {
-	var alerts []Alert
+	var alerts []platforms.Alert
 	var err error
 	alerts, err = loadAlerts()
 	if err != nil {
@@ -368,7 +330,7 @@ func handleCreateAlert(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	var incoming Alert
+	var incoming platforms.Alert
 	var err error
 	err = json.NewDecoder(r.Body).Decode(&incoming)
 	if err != nil {
@@ -385,7 +347,7 @@ func handleCreateAlert(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	var alert Alert
+	var alert platforms.Alert
 	alert, err = addAlert(incoming.Phone, incoming.Course, incoming.Date, incoming.StartTime, incoming.EndTime)
 	if err != nil {
 		w.Header().Set("Content-Type", "application/json")

@@ -1,0 +1,80 @@
+[
+  {
+    "key": "southsuburban",
+    "metro": "denver",
+    "courseIds": "d75de2f0-634d-4dc5-b426-20d406a6f7cd,482fb33a-fa4a-48fb-85e1-e0492fe39d1a,68c1a9d5-f402-4d54-a1c5-991363899bc8",
+    "bookingUrl": "https://www.chronogolf.com/club/south-suburban-golf-club",
+    "city": "Centennial",
+    "state": "CO",
+    "names": {
+      "SSG 18 Hole Course": "South Suburban",
+      "SSG 9 Hole Par 3 Course": "South Suburban Par 3"
+    }
+  },
+  {
+    "key": "lonetree",
+    "metro": "denver",
+    "courseIds": "001a7f2d-2c20-4bd9-8f91-3df9d051f737",
+    "bookingUrl": "https://www.chronogolf.com/club/lone-tree-golf-club-hotel",
+    "city": "Lone Tree",
+    "state": "CO",
+    "names": {
+      "LTH 18 Hole Course": "Lone Tree"
+    }
+  },
+  {
+    "key": "littleton",
+    "metro": "denver",
+    "courseIds": "6a1ad175-7c4f-4692-a58f-7879e72ed9e9,c98df576-e507-44d7-9ece-7d59154fd143",
+    "bookingUrl": "https://www.chronogolf.com/club/littleton-golf-tennis-club",
+    "city": "Littleton",
+    "state": "CO",
+    "names": {
+      "LGT 18 Hole Course": "Littleton"
+    }
+  },
+  {
+    "key": "familysports",
+    "metro": "denver",
+    "courseIds": "34b44f75-a475-4ec1-b5d3-e3089b66cf86",
+    "bookingUrl": "https://www.chronogolf.com/club/family-sports-golf-course",
+    "city": "Centennial",
+    "state": "CO",
+    "names": {
+      "FSC 9 Hole Course": "Family Sports"
+    }
+  },
+  {
+    "key": "highlandmeadows",
+    "metro": "denver",
+    "courseIds": "438c425c-961a-4768-9ccd-c164e8bd8fb4",
+    "bookingUrl": "https://www.chronogolf.com/club/highland-meadows-golf-club-colorado",
+    "city": "Windsor",
+    "state": "CO",
+    "names": {
+      "Highland Meadows": "Highland Meadows"
+    }
+  },
+  {
+    "key": "broadlands",
+    "metro": "denver",
+    "courseIds": "1af93d4a-dba3-481b-9980-487e5e516146",
+    "bookingUrl": "https://www.chronogolf.com/club/broadlands-golf-course",
+    "city": "Broomfield",
+    "state": "CO",
+    "names": {
+      "Broadlands": "Broadlands"
+    }
+  },
+  {
+    "key": "clubatsunrise",
+    "metro": "lasvegas",
+    "courseIds": "5b099aff-aa7c-4e50-8413-39da67a133e0",
+    "bookingUrl": "https://www.chronogolf.com/club/the-club-at-sunrise",
+    "city": "Las Vegas",
+    "state": "NV",
+    "names": {
+      "The Club at Sunrise": "Club at Sunrise"
+    }
+  }
+]

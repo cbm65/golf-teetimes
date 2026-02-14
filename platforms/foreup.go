@@ -1,4 +1,4 @@
-package main
+package platforms
 
 import (
 	"encoding/json"
@@ -9,53 +9,18 @@ import (
 )
 
 type ForeUpCourseConfig struct {
-	CourseID     string
-	BookingClass string
-	ScheduleID  string
-	BookingURL  string
-	DisplayName string
-	City        string
-	State       string
+	Key          string `json:"key"`
+	Metro        string `json:"metro"`
+	CourseID     string `json:"courseId"`
+	BookingClass string `json:"bookingClass"`
+	ScheduleID   string `json:"scheduleId"`
+	BookingURL   string `json:"bookingUrl"`
+	DisplayName  string `json:"displayName"`
+	City         string `json:"city"`
+	State        string `json:"state"`
 }
 
-var ForeUpCourses = map[string]ForeUpCourseConfig{
-	"legendtrail": {
-		CourseID:     "21561",
-		BookingClass: "10566",
-		ScheduleID:  "8260",
-		BookingURL:  "https://foreupsoftware.com/index.php/booking/21561#/teetimes",
-		DisplayName: "Legend Trail Golf Club",
-		City:        "Scottsdale",
-		State:       "AZ",
-	},
-	"paintedmountain": {
-		CourseID:     "21954",
-		BookingClass: "12668",
-		ScheduleID:  "9443",
-		BookingURL:  "https://foreupsoftware.com/index.php/booking/21954#/teetimes",
-		DisplayName: "Painted Mountain Golf Resort",
-		City:        "Mesa",
-		State:       "AZ",
-	},
-	"lonetree": {
-		CourseID:     "21985",
-		BookingClass: "12762",
-		ScheduleID:  "9516",
-		BookingURL:  "https://foreupsoftware.com/index.php/booking/21985#/teetimes",
-		DisplayName: "Lone Tree Golf Club",
-		City:        "Chandler",
-		State:       "AZ",
-	},
-	"toddcreek": {
-		CourseID:     "22161",
-		BookingClass: "13521",
-		ScheduleID:  "10005",
-		BookingURL:  "https://foreupsoftware.com/index.php/booking/22161#/teetimes",
-		DisplayName: "Todd Creek Golf Club",
-		City:        "Thornton",
-		State:       "CO",
-	},
-}
+var ForeUpCourses = map[string]ForeUpCourseConfig{}
 
 type ForeUpTeeTime struct {
 	Time           string  `json:"time"`
@@ -65,7 +30,7 @@ type ForeUpTeeTime struct {
 	CourseName     string  `json:"course_name"`
 }
 
-func fetchForeUp(config ForeUpCourseConfig, date string) ([]DisplayTeeTime, error) {
+func FetchForeUp(config ForeUpCourseConfig, date string) ([]DisplayTeeTime, error) {
 	// ForeUp expects date as MM-DD-YYYY
 	var t time.Time
 	var err error
