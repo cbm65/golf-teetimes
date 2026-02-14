@@ -1,12 +1,12 @@
 package main
 
 import (
-	"bytes"
 	"encoding/json"
 	"errors"
 	"fmt"
 	"io"
 	"net/http"
+	"net/url"
 	"os"
 	"strings"
 	"time"
@@ -16,24 +16,25 @@ import (
 const AlertsFile = "alerts.json"
 
 func sendSMS(to string, message string) error {
-	apiKey := os.Getenv("TELNYX_API_KEY")
-	fromNumber := os.Getenv("TELNYX_FROM_NUMBER")
-	if apiKey == "" || fromNumber == "" {
-		return fmt.Errorf("TELNYX_API_KEY or TELNYX_FROM_NUMBER not set")
+	accountSid := os.Getenv("TWILIO_ACCOUNT_SID")
+	authToken := os.Getenv("TWILIO_AUTH_TOKEN")
+	fromNumber := os.Getenv("TWILIO_FROM_NUMBER")
+	if accountSid == "" || authToken == "" || fromNumber == "" {
+		return fmt.Errorf("TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, or TWILIO_FROM_NUMBER not set")
 	}
 
-	payload, _ := json.Marshal(map[string]string{
-		"from": fromNumber,
-		"to":   to,
-		"text": message,
-	})
+	data := url.Values{}
+	data.Set("From", fromNumber)
+	data.Set("To", to)
+	data.Set("Body", message)
+	apiURL := "https://api.twilio.com/2010-04-01/Accounts/" + accountSid + "/Messages.json"
 
-	req, err := http.NewRequest("POST", "https://api.telnyx.com/v2/messages", bytes.NewBuffer(payload))
+	req, err := http.NewRequest("POST", apiURL, strings.NewReader(data.Encode()))
 	if err != nil {
 		return err
 	}
-	req.Header.Set("Content-Type", "application/json")
-	req.Header.Set("Authorization", "Bearer "+apiKey)
+	req.Header.Set("Content-Type", "application/x-www-form-urlencoded")
+	req.SetBasicAuth(accountSid, authToken)
 
 	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
@@ -43,7 +44,7 @@ func sendSMS(to string, message string) error {
 
 	if resp.StatusCode >= 300 {
 		body, _ := io.ReadAll(resp.Body)
-		return fmt.Errorf("telnyx API error %d: %s", resp.StatusCode, string(body))
+		return fmt.Errorf("twilio API error %d: %s", resp.StatusCode, string(body))
 	}
 
 	return nil
