@@ -423,7 +423,7 @@ func handleCreateAlert(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var alert platforms.Alert
-	alert, err = addAlert(incoming.Phone, incoming.Course, incoming.Date, incoming.StartTime, incoming.EndTime)
+	alert, err = addAlert(incoming.Phone, incoming.Course, incoming.Date, incoming.StartTime, incoming.EndTime, incoming.MinPlayers, incoming.Holes)
 	if err != nil {
 		w.Header().Set("Content-Type", "application/json")
 		w.WriteHeader(400)

@@ -117,5 +117,25 @@
     "names": {
       "Eco": "Eco Golf Course"
     }
+  },
+  {
+    "key": "coal-creek",
+    "metro": "denver",
+    "apiKey": "A9814038-9E19-4683-B171-5A06B39147FC",
+    "apiUrl": "https://api.membersports.com/api/v1/golfclubs/onlineBookingTeeTimes",
+    "clubId": 3663,
+    "courseId": 4714,
+    "groupId": 0,
+    "configType": 0,
+    "bookingUrl": "https://app.membersports.com/tee-times/3663/4714/0/0/0",
+    "namePrefix": "",
+    "knownCourses": [
+      "Coal Creek"
+    ],
+    "city": "Louisville",
+    "state": "CO",
+    "names": {
+      "Coal Creek": "Coal Creek Golf Course"
+    }
   }
 ]

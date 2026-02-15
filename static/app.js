@@ -279,7 +279,9 @@ async function createAlert() {
                 course: course,
                 date: date,
                 startTime: startTime,
-                endTime: endTime
+                endTime: endTime,
+                minPlayers: parseInt(document.getElementById("alertOpenings").value) || 0,
+                holes: document.getElementById("alertHoles").value
             })
         })
 

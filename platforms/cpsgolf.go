@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"net/http/cookiejar"
 	"net/url"
+	"strings"
 	"time"
 )
 
@@ -262,7 +263,7 @@ func FetchCPSGolf(config CPSGolfCourseConfig, date string) ([]DisplayTeeTime, er
 			price = slot.ShItemPrices[0].DisplayPrice
 		}
 
-		var courseName string = slot.CourseName
+		var courseName string = strings.TrimSpace(slot.CourseName)
 		var displayName string = config.Names[courseName]
 		if displayName != "" {
 			courseName = displayName

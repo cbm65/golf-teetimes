@@ -9,18 +9,20 @@ import (
 )
 
 type TeeItUpCourseConfig struct {
-	Key         string `json:"key"`
-	Metro       string `json:"metro"`
-	Alias       string `json:"alias"`
-	FacilityID  string `json:"facilityId"` // optional — omit from URL if empty, API returns all courses for alias
-	DisplayName string `json:"displayName"`
-	City        string `json:"city"`
-	State       string `json:"state"`
+	Key         string            `json:"key"`
+	Metro       string            `json:"metro"`
+	Alias       string            `json:"alias"`
+	FacilityID  string            `json:"facilityId"` // optional — omit from URL if empty, API returns all courses for alias
+	DisplayName string            `json:"displayName"`
+	Names       map[string]string `json:"names"` // courseId → display name (for multi-facility)
+	City        string            `json:"city"`
+	State       string            `json:"state"`
 }
 
 var TeeItUpCourses = map[string]TeeItUpCourseConfig{}
 
 type TeeItUpResponse struct {
+	CourseID string           `json:"courseId"`
 	Teetimes []TeeItUpTeeTime `json:"teetimes"`
 }
 
@@ -112,7 +114,16 @@ func FetchTeeItUp(config TeeItUpCourseConfig, date string) ([]DisplayTeeTime, er
 	var bookingURL string = fmt.Sprintf("https://%s.book.teeitup.com/teetimes?course=%s&date=%s", config.Alias, config.FacilityID, date)
 
 	var results []DisplayTeeTime
-	for _, tt := range data[0].Teetimes {
+	for _, facility := range data {
+		var courseName string
+		if config.Names != nil {
+			courseName = config.Names[facility.CourseID]
+		}
+		if courseName == "" {
+			courseName = config.DisplayName
+		}
+
+		for _, tt := range facility.Teetimes {
 		// Parse UTC time and convert to local time
 		var t time.Time
 		t, err = time.Parse("2006-01-02T15:04:05.000Z", tt.Teetime)
@@ -159,7 +170,7 @@ func FetchTeeItUp(config TeeItUpCourseConfig, date string) ([]DisplayTeeTime, er
 
 		results = append(results, DisplayTeeTime{
 			Time:       timeStr,
-			Course:     config.DisplayName,
+			Course:     courseName,
 			City:       config.City,
 			State:      config.State,
 			Openings:   openings,
@@ -167,6 +178,7 @@ func FetchTeeItUp(config TeeItUpCourseConfig, date string) ([]DisplayTeeTime, er
 			Price:      price,
 			BookingURL: bookingURL,
 		})
+	}
 	}
 
 	return results, nil

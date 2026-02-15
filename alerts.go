@@ -629,10 +629,19 @@ func getBaseCourse(name string) string {
 	if strings.HasPrefix(name, "Riverdale") {
 		return "Riverdale"
 	}
+	if strings.HasPrefix(name, "Hyland Hills") {
+		return "Hyland Hills"
+	}
+	if strings.HasPrefix(name, "Orangebrook Golf") {
+		return "Orangebrook Golf"
+	}
+	if strings.HasPrefix(name, "Legacy Ridge") {
+		return "Legacy Ridge"
+	}
 	return strings.Replace(name, " Back Nine", "", 1)
 }
 
-func addAlert(phone string, course string, date string, startTime string, endTime string) (platforms.Alert, error) {
+func addAlert(phone string, course string, date string, startTime string, endTime string, minPlayers int, holes string) (platforms.Alert, error) {
 	// Validate start time is before end time
 	var startMins int = parseTimeToMinutes(startTime)
 	var endMins int = parseTimeToMinutes(endTime)
@@ -662,6 +671,12 @@ func addAlert(phone string, course string, date string, startTime string, endTim
 			var baseCourse string = getBaseCourse(tt.Course)
 
 			if baseCourse == course && tt.Openings > 0 {
+				if minPlayers > 0 && tt.Openings < minPlayers {
+					continue
+				}
+				if holes != "" && holes != "0" && tt.Holes != "" && tt.Holes != holes {
+					continue
+				}
 				var ttMins int = parseTimeToMinutes(tt.Time)
 				if ttMins >= startMins && ttMins <= endMins {
 					return platforms.Alert{}, errors.New("There's already a tee time available at " + course + " at " + tt.Time + " — go book it!")
@@ -671,15 +686,17 @@ func addAlert(phone string, course string, date string, startTime string, endTim
 	}
 
 	var alert platforms.Alert = platforms.Alert{
-		ID:        fmt.Sprintf("%d", time.Now().UnixNano()),
-		Phone:     phone,
-		Course:    course,
-		Date:      date,
-		StartTime: startTime,
-		EndTime:   endTime,
-		Active:    true,
-		CreatedAt: time.Now().Format("2006-01-02 3:04 PM"),
-		ConsentAt: time.Now().Format("2006-01-02 3:04:05 PM MST"),
+		ID:         fmt.Sprintf("%d", time.Now().UnixNano()),
+		Phone:      phone,
+		Course:     course,
+		Date:       date,
+		StartTime:  startTime,
+		EndTime:    endTime,
+		MinPlayers: minPlayers,
+		Holes:      holes,
+		Active:     true,
+		CreatedAt:  time.Now().Format("2006-01-02 3:04 PM"),
+		ConsentAt:  time.Now().Format("2006-01-02 3:04:05 PM MST"),
 	}
 
 	alerts = append(alerts, alert)
@@ -714,6 +731,7 @@ type MatchedTeeTime struct {
 	Time     string
 	Openings int
 	Price    float64
+	Holes    string
 }
 
 func buildAlertMessage(course string, date string, matches []MatchedTeeTime) string {
@@ -721,7 +739,7 @@ func buildAlertMessage(course string, date string, matches []MatchedTeeTime) str
 	var msg string = "⛳ Tee time alert! " + course + " on " + date + ":\n"
 
 	for _, m := range matches {
-		msg += fmt.Sprintf("%s (%d openings) - $%.0f\n", m.Time, m.Openings, m.Price)
+		msg += fmt.Sprintf("%s (%d openings, %s holes) - $%.0f\n", m.Time, m.Openings, m.Holes, m.Price)
 	}
 
 	msg += "\nBook now: " + bookURL
@@ -795,6 +813,16 @@ func startAlertChecker() {
 					continue
 				}
 
+				if alert.MinPlayers > 0 && tt.Openings < alert.MinPlayers {
+					fmt.Println("    ✗", tt.Time, tt.Course, "— only", tt.Openings, "openings, need", alert.MinPlayers)
+					continue
+				}
+
+				if alert.Holes != "" && alert.Holes != "0" && tt.Holes != "" && tt.Holes != alert.Holes {
+					fmt.Println("    ✗", tt.Time, tt.Course, "—", tt.Holes, "holes, want", alert.Holes)
+					continue
+				}
+
 				var ttMins int = parseTimeToMinutes(tt.Time)
 				if ttMins < startMins || ttMins > endMins {
 					fmt.Println("    ✗", tt.Time, tt.Course, "— outside time window")
@@ -806,6 +834,7 @@ func startAlertChecker() {
 					Time:     tt.Time,
 					Openings: tt.Openings,
 					Price:    tt.Price,
+					Holes:    tt.Holes,
 				})
 			}
 

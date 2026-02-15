@@ -471,7 +471,7 @@
     "key": "omni-interlocken",
     "metro": "denver",
     "facilityId": "594",
-    "alias": "omni-interlocken-resort-golf-club",
+    "alias": "interlocken-golf-club",
     "bookingUrl": "https://omni-interlocken-resort-golf-club.book.teeitup.com",
     "displayName": "Omni Interlocken Resort Golf Club",
     "city": "Broomfield",
@@ -1163,7 +1163,11 @@
     "facilityId": "4482,6661",
     "displayName": "Orangebrook Golf & Country Club",
     "city": "Hollywood",
-    "state": "FL"
+    "state": "FL",
+    "names": {
+      "54f14ce50c8ad60378b02ff6": "Orangebrook Golf - East Course",
+      "54f14ddf0c8ad60378b044e0": "Orangebrook Golf - West Course"
+    }
   },
   {
     "key": "emerald-hills",
@@ -1182,5 +1186,28 @@
     "displayName": "Bonaventure Country Club",
     "city": "Weston",
     "state": "FL"
+  },
+  {
+    "key": "hyland-hills",
+    "metro": "denver",
+    "alias": "hyland-hills-park-recreation-district",
+    "facilityId": "9201,9202,9203",
+    "displayName": "Hyland Hills Golf Course",
+    "city": "Westminster",
+    "state": "CO",
+    "names": {
+      "54f14ee20c8ad60378b058ce": "Hyland Hills - Gold Course",
+      "54f14ee20c8ad60378b058d0": "Hyland Hills - Blue Course",
+      "54f14ee20c8ad60378b058d3": "Hyland Hills - South Par 3"
+    }
+  },
+  {
+    "key": "greenway-park",
+    "metro": "denver",
+    "alias": "greenway-park-golf-course",
+    "facilityId": "11455",
+    "displayName": "Greenway Park Golf Course",
+    "city": "Broomfield",
+    "state": "CO"
   }
 ]

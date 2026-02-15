@@ -272,5 +272,71 @@
     "city": "Margate",
     "state": "FL",
     "timezone": "America/New_York"
+  },
+  {
+    "key": "emerald-greens",
+    "metro": "denver",
+    "baseUrl": "https://emeraldgreens.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "b81ba1ee-d9d0-4f1c-8325-08db37856ea4",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://emeraldgreens.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Emerald Greens Golf Club": "Emerald Greens Golf Club"
+    },
+    "city": "Denver",
+    "state": "CO",
+    "timezone": "America/Denver"
+  },
+  {
+    "key": "eagle-trace",
+    "metro": "denver",
+    "baseUrl": "https://eagletrace.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "5837be69-9780-4b6c-4fa5-08da05be9a74",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://eagletrace.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Eagle Trace Golf Club": "Eagle Trace Golf Club"
+    },
+    "city": "Broomfield",
+    "state": "CO",
+    "timezone": "America/Denver"
+  },
+  {
+    "key": "flatirons",
+    "metro": "denver",
+    "baseUrl": "https://flatironsgolf.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "d0c1d3f9-28c7-4f79-8ee1-08d926a72623",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://flatironsgolf.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "FLATIRONS": "Flatirons Golf Course"
+    },
+    "city": "Boulder",
+    "state": "CO",
+    "timezone": "America/Denver"
+  },
+  {
+    "key": "westminster",
+    "metro": "denver",
+    "baseUrl": "https://cityofwestminster.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "be7f2728-0758-4a72-fe80-08d97849167d",
+    "siteId": "1",
+    "courseIds": "1,4,2",
+    "bookingUrl": "https://cityofwestminster.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Legacy Ridge Golf Course": "Legacy Ridge",
+      "LR Back 9 - 9 Holes Only": "Legacy Ridge - Back 9",
+      "Walnut Creek": "Walnut Creek Golf Preserve"
+    },
+    "city": "Westminster",
+    "state": "CO",
+    "timezone": "America/Denver"
   }
 ]

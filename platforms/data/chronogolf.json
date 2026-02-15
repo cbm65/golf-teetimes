@@ -296,5 +296,19 @@
     "names": {
       "Miccosukee Golf & Country Club": "Miccosukee Golf & Country Club"
     }
+  },
+  {
+    "key": "bella-rosa",
+    "metro": "denver",
+    "courseIds": "8858dd9b-2a40-4717-9a33-4e2a35aded71",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "102864",
+    "bookingUrl": "https://www.chronogolf.com/club/bella-rosa-golf-course",
+    "names": {
+      "Bella Rosa": "Bella Rosa Golf Course"
+    },
+    "city": "Commerce City",
+    "state": "CO"
   }
 ]

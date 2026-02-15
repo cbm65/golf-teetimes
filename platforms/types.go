@@ -12,13 +12,15 @@ type DisplayTeeTime struct {
 }
 
 type Alert struct {
-	ID        string `json:"id"`
-	Phone     string `json:"phone"`
-	Course    string `json:"course"`
-	Date      string `json:"date"`
-	StartTime string `json:"startTime"`
-	EndTime   string `json:"endTime"`
-	Active    bool   `json:"active"`
-	CreatedAt string `json:"createdAt"`
-	ConsentAt string `json:"consentAt"`
+	ID         string `json:"id"`
+	Phone      string `json:"phone"`
+	Course     string `json:"course"`
+	Date       string `json:"date"`
+	StartTime  string `json:"startTime"`
+	EndTime    string `json:"endTime"`
+	MinPlayers int    `json:"minPlayers,omitempty"`
+	Holes      string `json:"holes,omitempty"`
+	Active     bool   `json:"active"`
+	CreatedAt  string `json:"createdAt"`
+	ConsentAt  string `json:"consentAt"`
 }
