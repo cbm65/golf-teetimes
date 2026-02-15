@@ -58,5 +58,17 @@
     "displayName": "TPC Las Vegas",
     "city": "Las Vegas",
     "state": "NV"
+  },
+  {
+    "key": "chateau-elan",
+    "metro": "atlanta",
+    "courseIds": [
+      "0420af41-16fe-4dca-b4fa-69a2704057fb"
+    ],
+    "slug": "chateau-elan-golf-club",
+    "bookingUrl": "https://golfwithaccess.com/course/chateau-elan-golf-club/reserve-tee-time",
+    "displayName": "Chateau Elan Golf Club",
+    "city": "Braselton",
+    "state": "GA"
   }
 ]

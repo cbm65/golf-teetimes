@@ -1,0 +1,649 @@
+{
+  "confirmed": 0,
+  "elapsed": "23.533684625s",
+  "listedOnly": 0,
+  "missed": 52,
+  "platform": "courseco",
+  "results": [
+    {
+      "input": "Bobby Jones Golf Course",
+      "city": "Atlanta",
+      "status": "miss",
+      "slugsTried": [
+        "bobbyjones",
+        "bobbyjonesgolfcourse",
+        "bobbyjonesgolf",
+        "bobbyjonesgolfclub",
+        "bobbyjonescc"
+      ]
+    },
+    {
+      "input": "Browns Mill Golf Course",
+      "city": "Atlanta",
+      "status": "miss",
+      "slugsTried": [
+        "brownsmill",
+        "brownsmillgolfcourse",
+        "brownsmillgolf",
+        "brownsmillgolfclub",
+        "brownsmillcc"
+      ]
+    },
+    {
+      "input": "Alfred Tup Holmes Golf Course",
+      "city": "Atlanta",
+      "status": "miss",
+      "slugsTried": [
+        "alfredtupholmes",
+        "alfredtupholmesgolfcourse",
+        "alfredtupholmesgolf",
+        "alfredtupholmesgolfclub",
+        "alfredtupholmescc"
+      ]
+    },
+    {
+      "input": "North Fulton Golf Course",
+      "city": "Atlanta",
+      "status": "miss",
+      "slugsTried": [
+        "northfulton",
+        "northfultongolfcourse",
+        "northfultongolf",
+        "northfultongolfclub",
+        "northfultoncc"
+      ]
+    },
+    {
+      "input": "Candler Park Golf Course",
+      "city": "Atlanta",
+      "status": "miss",
+      "slugsTried": [
+        "candlerpark",
+        "candlerparkgolfcourse",
+        "candlerparkgolf",
+        "candlerparkgolfclub",
+        "candlerparkcc"
+      ]
+    },
+    {
+      "input": "John A White Golf Course",
+      "city": "Atlanta",
+      "status": "miss",
+      "slugsTried": [
+        "johnawhite",
+        "johnawhitegolfcourse",
+        "johnawhitegolf",
+        "johnawhitegolfclub",
+        "johnawhitecc"
+      ]
+    },
+    {
+      "input": "Charlie Yates Golf Course",
+      "city": "Atlanta",
+      "status": "miss",
+      "slugsTried": [
+        "charlieyates",
+        "charlieyatesgolfcourse",
+        "charlieyatesgolf",
+        "charlieyatesgolfclub",
+        "charlieyatescc"
+      ]
+    },
+    {
+      "input": "Cross Creek Golf Course",
+      "city": "Atlanta",
+      "status": "miss",
+      "slugsTried": [
+        "crosscreek",
+        "crosscreekgolfcourse",
+        "crosscreekgolf",
+        "crosscreekgolfclub",
+        "crosscreekcc"
+      ]
+    },
+    {
+      "input": "College Park Golf Course",
+      "city": "College Park",
+      "status": "miss",
+      "slugsTried": [
+        "collegepark",
+        "collegeparkgolfcourse",
+        "collegeparkgolf",
+        "collegeparkgolfclub",
+        "collegeparkcc"
+      ]
+    },
+    {
+      "input": "Mystery Valley Golf Club",
+      "city": "Lithonia",
+      "status": "miss",
+      "slugsTried": [
+        "mysteryvalley",
+        "mysteryvalleygolfclub",
+        "mysteryvalleygolf",
+        "mysteryvalleygolfcourse",
+        "mysteryvalleycc"
+      ]
+    },
+    {
+      "input": "Fox Creek Golf Club",
+      "city": "Smyrna",
+      "status": "miss",
+      "slugsTried": [
+        "foxcreek",
+        "foxcreekgolfclub",
+        "foxcreekgolf",
+        "foxcreekgolfcourse",
+        "foxcreekcc"
+      ]
+    },
+    {
+      "input": "Legacy Golf Links",
+      "city": "Smyrna",
+      "status": "miss",
+      "slugsTried": [
+        "legacy",
+        "legacygolflinks",
+        "legacygolf",
+        "legacygolfclub",
+        "legacygolfcourse",
+        "legacycc"
+      ]
+    },
+    {
+      "input": "City Club Marietta",
+      "city": "Marietta",
+      "status": "miss",
+      "slugsTried": [
+        "cityclubmarietta",
+        "cityclubmariettagolf",
+        "cityclubmariettagolfclub",
+        "cityclubmariettagolfcourse",
+        "cityclubmariettacc"
+      ]
+    },
+    {
+      "input": "Dogwood Golf Club",
+      "city": "Marietta",
+      "status": "miss",
+      "slugsTried": [
+        "dogwood",
+        "dogwoodgolfclub",
+        "dogwoodgolf",
+        "dogwoodgolfcourse",
+        "dogwoodcc"
+      ]
+    },
+    {
+      "input": "RiverPines Golf Course",
+      "city": "Alpharetta",
+      "status": "miss",
+      "slugsTried": [
+        "riverpines",
+        "riverpinesgolfcourse",
+        "riverpinesgolf",
+        "riverpinesgolfclub",
+        "riverpinescc"
+      ]
+    },
+    {
+      "input": "Echelon Golf Club",
+      "city": "Alpharetta",
+      "status": "miss",
+      "slugsTried": [
+        "echelon",
+        "echelongolfclub",
+        "echelongolf",
+        "echelongolfcourse",
+        "echeloncc"
+      ]
+    },
+    {
+      "input": "St. Marlo Country Club",
+      "city": "Duluth",
+      "status": "miss",
+      "slugsTried": [
+        "stmarlo",
+        "stmarlocountryclub",
+        "stmarlogolf",
+        "stmarlogolfclub",
+        "stmarlogolfcourse",
+        "stmarlocc"
+      ]
+    },
+    {
+      "input": "Collins Hill Golf Club",
+      "city": "Lawrenceville",
+      "status": "miss",
+      "slugsTried": [
+        "collinshill",
+        "collinshillgolfclub",
+        "collinshillgolf",
+        "collinshillgolfcourse",
+        "collinshillcc"
+      ]
+    },
+    {
+      "input": "Trophy Club of Apalachee",
+      "city": "Dacula",
+      "status": "miss",
+      "slugsTried": [
+        "trophyclubofapalachee",
+        "trophyclubofapalacheegolf",
+        "trophyclubofapalacheegolfclub",
+        "trophyclubofapalacheegolfcourse",
+        "trophyclubofapalacheecc"
+      ]
+    },
+    {
+      "input": "Sugar Hill Golf Club",
+      "city": "Sugar Hill",
+      "status": "miss",
+      "slugsTried": [
+        "sugarhill",
+        "sugarhillgolfclub",
+        "sugarhillgolf",
+        "sugarhillgolfcourse",
+        "sugarhillcc"
+      ]
+    },
+    {
+      "input": "Bear's Best Atlanta",
+      "city": "Suwanee",
+      "status": "miss",
+      "slugsTried": [
+        "bearsbestatlanta",
+        "bearsbestatlantagolf",
+        "bearsbestatlantagolfclub",
+        "bearsbestatlantagolfcourse",
+        "bearsbestatlantacc"
+      ]
+    },
+    {
+      "input": "Hamilton Mill Golf Club",
+      "city": "Dacula",
+      "status": "miss",
+      "slugsTried": [
+        "hamiltonmill",
+        "hamiltonmillgolfclub",
+        "hamiltonmillgolf",
+        "hamiltonmillgolfcourse",
+        "hamiltonmillcc"
+      ]
+    },
+    {
+      "input": "Cobblestone Golf Course",
+      "city": "Acworth",
+      "status": "miss",
+      "slugsTried": [
+        "cobblestone",
+        "cobblestonegolfcourse",
+        "cobblestonegolf",
+        "cobblestonegolfclub",
+        "cobblestonecc"
+      ]
+    },
+    {
+      "input": "Brookstone Golf and Country Club",
+      "city": "Acworth",
+      "status": "miss",
+      "slugsTried": [
+        "brookstonegolfand",
+        "brookstonegolfandcountryclub",
+        "brookstonegolfandgolf",
+        "brookstonegolfandgolfclub",
+        "brookstonegolfandgolfcourse",
+        "brookstonegolfandcc"
+      ]
+    },
+    {
+      "input": "The Golf Club at Bradshaw Farm",
+      "city": "Woodstock",
+      "status": "miss",
+      "slugsTried": [
+        "golfclubatbradshawfarm",
+        "thegolfclubatbradshawfarm",
+        "golfclubatbradshawfarmgolf",
+        "golfclubatbradshawfarmgolfclub",
+        "golfclubatbradshawfarmgolfcourse",
+        "golfclubatbradshawfarmcc"
+      ]
+    },
+    {
+      "input": "Eagle Watch Golf Club",
+      "city": "Woodstock",
+      "status": "miss",
+      "slugsTried": [
+        "eaglewatch",
+        "eaglewatchgolfclub",
+        "eaglewatchgolf",
+        "eaglewatchgolfcourse",
+        "eaglewatchcc"
+      ]
+    },
+    {
+      "input": "Towne Lake Hills Golf Club",
+      "city": "Woodstock",
+      "status": "miss",
+      "slugsTried": [
+        "townelakehills",
+        "townelakehillsgolfclub",
+        "townelakehillsgolf",
+        "townelakehillsgolfcourse",
+        "townelakehillscc"
+      ]
+    },
+    {
+      "input": "Woodmont Golf and Country Club",
+      "city": "Canton",
+      "status": "miss",
+      "slugsTried": [
+        "woodmontgolfand",
+        "woodmontgolfandcountryclub",
+        "woodmontgolfandgolf",
+        "woodmontgolfandgolfclub",
+        "woodmontgolfandgolfcourse",
+        "woodmontgolfandcc"
+      ]
+    },
+    {
+      "input": "Canton Golf Club",
+      "city": "Canton",
+      "status": "miss",
+      "slugsTried": [
+        "canton",
+        "cantongolfclub",
+        "cantongolf",
+        "cantongolfcourse",
+        "cantoncc"
+      ]
+    },
+    {
+      "input": "Fairways of Canton",
+      "city": "Canton",
+      "status": "miss",
+      "slugsTried": [
+        "fairwaysofcanton",
+        "fairwaysofcantongolf",
+        "fairwaysofcantongolfclub",
+        "fairwaysofcantongolfcourse",
+        "fairwaysofcantoncc"
+      ]
+    },
+    {
+      "input": "Cherokee Run Golf Club",
+      "city": "Conyers",
+      "status": "miss",
+      "slugsTried": [
+        "cherokeerun",
+        "cherokeerungolfclub",
+        "cherokeerungolf",
+        "cherokeerungolfcourse",
+        "cherokeeruncc"
+      ]
+    },
+    {
+      "input": "Pinetree Country Club",
+      "city": "Kennesaw",
+      "status": "miss",
+      "slugsTried": [
+        "pinetree",
+        "pinetreecountryclub",
+        "pinetreegolf",
+        "pinetreegolfclub",
+        "pinetreegolfcourse",
+        "pinetreecc"
+      ]
+    },
+    {
+      "input": "Chateau Elan Golf Club",
+      "city": "Braselton",
+      "status": "miss",
+      "slugsTried": [
+        "chateauelan",
+        "chateauelangolfclub",
+        "chateauelangolf",
+        "chateauelangolfcourse",
+        "chateauelancc"
+      ]
+    },
+    {
+      "input": "Lanier Golf Club",
+      "city": "Cumming",
+      "status": "miss",
+      "slugsTried": [
+        "lanier",
+        "laniergolfclub",
+        "laniergolf",
+        "laniergolfcourse",
+        "laniercc"
+      ]
+    },
+    {
+      "input": "Reunion Country Club",
+      "city": "Hoschton",
+      "status": "miss",
+      "slugsTried": [
+        "reunion",
+        "reunioncountryclub",
+        "reuniongolf",
+        "reuniongolfclub",
+        "reuniongolfcourse",
+        "reunioncc"
+      ]
+    },
+    {
+      "input": "Lake Arrowhead Golf Course",
+      "city": "Waleska",
+      "status": "miss",
+      "slugsTried": [
+        "lakearrowhead",
+        "lakearrowheadgolfcourse",
+        "lakearrowheadgolf",
+        "lakearrowheadgolfclub",
+        "lakearrowheadcc"
+      ]
+    },
+    {
+      "input": "Stone Mountain Golf Club",
+      "city": "Stone Mountain",
+      "status": "miss",
+      "slugsTried": [
+        "stonemountain",
+        "stonemountaingolfclub",
+        "stonemountaingolf",
+        "stonemountaingolfcourse",
+        "stonemountaincc"
+      ]
+    },
+    {
+      "input": "Ashton Hills Golf Club",
+      "city": "Covington",
+      "status": "miss",
+      "slugsTried": [
+        "ashtonhills",
+        "ashtonhillsgolfclub",
+        "ashtonhillsgolf",
+        "ashtonhillsgolfcourse",
+        "ashtonhillscc"
+      ]
+    },
+    {
+      "input": "The Oaks Course",
+      "city": "Covington",
+      "status": "miss",
+      "slugsTried": [
+        "oakscourse",
+        "theoakscourse",
+        "oakscoursegolf",
+        "oakscoursegolfclub",
+        "oakscoursegolfcourse",
+        "oakscoursecc"
+      ]
+    },
+    {
+      "input": "Honey Creek Golf and Country Club",
+      "city": "Conyers",
+      "status": "miss",
+      "slugsTried": [
+        "honeycreekgolfand",
+        "honeycreekgolfandcountryclub",
+        "honeycreekgolfandgolf",
+        "honeycreekgolfandgolfclub",
+        "honeycreekgolfandgolfcourse",
+        "honeycreekgolfandcc"
+      ]
+    },
+    {
+      "input": "Cedar Lake Golf Club",
+      "city": "Loganville",
+      "status": "miss",
+      "slugsTried": [
+        "cedarlake",
+        "cedarlakegolfclub",
+        "cedarlakegolf",
+        "cedarlakegolfcourse",
+        "cedarlakecc"
+      ]
+    },
+    {
+      "input": "Springbrook Golf Club",
+      "city": "Lawrenceville",
+      "status": "miss",
+      "slugsTried": [
+        "springbrook",
+        "springbrookgolfclub",
+        "springbrookgolf",
+        "springbrookgolfcourse",
+        "springbrookcc"
+      ]
+    },
+    {
+      "input": "SummerGrove Golf Club",
+      "city": "Newnan",
+      "status": "miss",
+      "slugsTried": [
+        "summergrove",
+        "summergrovegolfclub",
+        "summergrovegolf",
+        "summergrovegolfcourse",
+        "summergrovecc"
+      ]
+    },
+    {
+      "input": "Coweta Club at Arbor Springs",
+      "city": "Newnan",
+      "status": "miss",
+      "slugsTried": [
+        "cowetaclubatarborsprings",
+        "cowetaclubatarborspringsgolf",
+        "cowetaclubatarborspringsgolfclub",
+        "cowetaclubatarborspringsgolfcourse",
+        "cowetaclubatarborspringscc"
+      ]
+    },
+    {
+      "input": "Hawks Creek Golf Club",
+      "city": "Westmoreland",
+      "status": "miss",
+      "slugsTried": [
+        "hawkscreek",
+        "hawkscreekgolfclub",
+        "hawkscreekgolf",
+        "hawkscreekgolfcourse",
+        "hawkscreekcc"
+      ]
+    },
+    {
+      "input": "Hampton Golf Club",
+      "city": "Hampton",
+      "status": "miss",
+      "slugsTried": [
+        "hampton",
+        "hamptongolfclub",
+        "hamptongolf",
+        "hamptongolfcourse",
+        "hamptoncc"
+      ]
+    },
+    {
+      "input": "Crystal Lake Golf and Country Club",
+      "city": "Hampton",
+      "status": "miss",
+      "slugsTried": [
+        "crystallakegolfand",
+        "crystallakegolfandcountryclub",
+        "crystallakegolfandgolf",
+        "crystallakegolfandgolfclub",
+        "crystallakegolfandgolfcourse",
+        "crystallakegolfandcc"
+      ]
+    },
+    {
+      "input": "Panola Mountain Golf Course",
+      "city": "Ellenwood",
+      "status": "miss",
+      "slugsTried": [
+        "panolamountain",
+        "panolamountaingolfcourse",
+        "panolamountaingolf",
+        "panolamountaingolfclub",
+        "panolamountaincc"
+      ]
+    },
+    {
+      "input": "Southerness Golf Course",
+      "city": "Stockbridge",
+      "status": "miss",
+      "slugsTried": [
+        "southerness",
+        "southernessgolfcourse",
+        "southernessgolf",
+        "southernessgolfclub",
+        "southernesscc"
+      ]
+    },
+    {
+      "input": "The Creek at Hard Labor",
+      "city": "Rutledge",
+      "status": "miss",
+      "slugsTried": [
+        "creekathardlabor",
+        "thecreekathardlabor",
+        "creekathardlaborgolf",
+        "creekathardlaborgolfclub",
+        "creekathardlaborgolfcourse",
+        "creekathardlaborcc"
+      ]
+    },
+    {
+      "input": "The Frog Golf Club",
+      "city": "Villa Rica",
+      "status": "miss",
+      "slugsTried": [
+        "frog",
+        "thefroggolfclub",
+        "froggolf",
+        "froggolfclub",
+        "froggolfcourse",
+        "frogcc",
+        "froggolfclubgolf"
+      ]
+    },
+    {
+      "input": "Mirror Lake Golf Club",
+      "city": "Villa Rica",
+      "status": "miss",
+      "slugsTried": [
+        "mirrorlake",
+        "mirrorlakegolfclub",
+        "mirrorlakegolf",
+        "mirrorlakegolfcourse",
+        "mirrorlakecc"
+      ]
+    }
+  ],
+  "state": "GA",
+  "timestamp": "2026-02-14T17:10:25-07:00",
+  "total": 52
+}

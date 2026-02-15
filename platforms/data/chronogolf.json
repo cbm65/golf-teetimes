@@ -100,5 +100,19 @@
     },
     "city": "Las Vegas",
     "state": "NV"
+  },
+  {
+    "key": "woodmont",
+    "metro": "atlanta",
+    "courseIds": "9ce1d2f3-c86d-42b8-b358-50dc8af13c5d",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "20838",
+    "bookingUrl": "https://www.chronogolf.com/club/woodmont-golf-country-club",
+    "names": {
+      "Woodmont Golf & Country Club": "Woodmont Golf and Country Club"
+    },
+    "city": "Canton",
+    "state": "GA"
   }
 ]

@@ -1,0 +1,979 @@
+{
+  "confirmed": 21,
+  "elapsed": "2m25.896850916s",
+  "errors": 0,
+  "listedOnly": 3,
+  "misses": 28,
+  "platform": "teeitup",
+  "results": [
+    {
+      "input": "Bobby Jones Golf Course",
+      "city": "Atlanta",
+      "alias": "bobby-jones-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1624,
+        "courseId": "54f14be50c8ad60378b0191b",
+        "name": "Bobby Jones Golf Course",
+        "address": "2205 Northside Dr NW, Atlanta, GA 30305, USA",
+        "locality": "Atlanta",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -84.40716780000002,
+          33.8147403
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        48,
+        0,
+        39
+      ]
+    },
+    {
+      "input": "Browns Mill Golf Course",
+      "city": "Atlanta",
+      "alias": "browns-mill-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1745,
+        "courseId": "54f14bf00c8ad60378b01a11",
+        "name": "Browns Mill Golf Course",
+        "address": "480 Cleveland Ave Se, Atlanta, GA 30354 US",
+        "locality": "Atlanta",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -84.374979,
+          33.684389
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        53,
+        0,
+        47
+      ]
+    },
+    {
+      "input": "Alfred Tup Holmes Golf Course",
+      "city": "Atlanta",
+      "alias": "alfred-tup-holmes",
+      "aliasSource": "base-only",
+      "status": "confirmed",
+      "facility": {
+        "id": 1743,
+        "courseId": "54f14bf00c8ad60378b01a0d",
+        "name": "Alfred Tup Holmes",
+        "address": "2300 Wilson Drive, Atlanta, GA 30311 US",
+        "locality": "Atlanta",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -84.463921,
+          33.714845
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        66,
+        0,
+        63
+      ]
+    },
+    {
+      "input": "North Fulton Golf Course",
+      "city": "Atlanta",
+      "alias": "north-fulton-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Candler Park Golf Course",
+      "city": "Atlanta",
+      "alias": "candler-park-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 17609,
+        "courseId": "5fcf93d2ffc10d50ae7b6ef5",
+        "name": "Candler Park Golf Course",
+        "address": "Atlanta, GA 30307, US",
+        "locality": "Atlanta",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -84.337814,
+          33.768809
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        74,
+        0,
+        74
+      ]
+    },
+    {
+      "input": "John A White Golf Course",
+      "city": "Atlanta",
+      "alias": "john-a-white-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Charlie Yates Golf Course",
+      "city": "Atlanta",
+      "alias": "charlie-yates-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 3742,
+        "courseId": "54f14c970c8ad60378b0290a",
+        "name": "Charlie Yates Golf Course",
+        "address": "10 Lakeside Village Dr., Atlanta, GA 30317 US",
+        "locality": "Atlanta",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -84.31584,
+          33.749851
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        55,
+        0,
+        53
+      ]
+    },
+    {
+      "input": "Cross Creek Golf Course",
+      "city": "Atlanta",
+      "alias": "cross-creek-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "College Park Golf Course",
+      "city": "College Park",
+      "alias": "college-park-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Mystery Valley Golf Club",
+      "city": "Lithonia",
+      "alias": "mystery-valley-golf-course",
+      "aliasSource": "swap-golf-course",
+      "status": "confirmed",
+      "facility": {
+        "id": 5319,
+        "courseId": "54f14d450c8ad60378b038a3",
+        "name": "Mystery Valley Golf Club",
+        "address": "6094 Shadow Rock Drive, Lithonia, GA 30058, GA 30058, US",
+        "locality": "Lithonia, GA 30058",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -84.125748,
+          33.728923
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        45,
+        0,
+        27
+      ]
+    },
+    {
+      "input": "Fox Creek Golf Club",
+      "city": "Smyrna",
+      "alias": "fox-creek-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Legacy Golf Links",
+      "city": "Smyrna",
+      "alias": "legacy-golf-links",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 2256,
+        "courseId": "54f14c1f0c8ad60378b01e69",
+        "name": "Legacy Golf Links",
+        "address": "1825 Windy Hill Rd SE, Smyrna, GA 30080 US",
+        "locality": "Smyrna",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -84.506578,
+          33.895354
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        45,
+        0,
+        41
+      ]
+    },
+    {
+      "input": "City Club Marietta",
+      "city": "Marietta",
+      "alias": "city-club-marietta",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 2219,
+        "courseId": "54f14c1c0c8ad60378b01e16",
+        "name": "City Club Marietta",
+        "address": "510 Powder Springs Street, Marietta, GA 30064 US",
+        "locality": "Marietta",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -84.553277,
+          33.938733
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        17,
+        0,
+        16
+      ]
+    },
+    {
+      "input": "Dogwood Golf Club",
+      "city": "Marietta",
+      "alias": "dogwood-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "RiverPines Golf Course",
+      "city": "Alpharetta",
+      "alias": "riverpines-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Echelon Golf Club",
+      "city": "Alpharetta",
+      "alias": "echelon-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 5185,
+        "courseId": "54f14d360c8ad60378b03732",
+        "name": "Echelon Golf Club",
+        "address": "501 Founders Drive, East, Alpharetta, GA 30004-5420 US",
+        "locality": "Alpharetta",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -84.304997,
+          34.192532
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        29,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "St. Marlo Country Club",
+      "city": "Duluth",
+      "alias": "st-marlo-country-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 3197,
+        "courseId": "54f14c680c8ad60378b024c9",
+        "name": "St. Marlo Country Club",
+        "address": "7755 Saint Marlo Country Club Pkwy, Duluth, GA 30097 US",
+        "locality": "Duluth",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -84.143223,
+          34.067323
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        17,
+        0,
+        20
+      ]
+    },
+    {
+      "input": "Collins Hill Golf Club",
+      "city": "Lawrenceville",
+      "alias": "collins-hill-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 2876,
+        "courseId": "54f14c500c8ad60378b022a7",
+        "name": "Collins Hill Golf Club",
+        "address": "585 Camp Perrin Road, Lawrenceville, GA 30043, US",
+        "locality": "Lawrenceville",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -84.00227,
+          34.019559
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        47,
+        0,
+        50
+      ]
+    },
+    {
+      "input": "Trophy Club of Apalachee",
+      "city": "Dacula",
+      "alias": "trophy-club-of-apalachee",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1740,
+        "courseId": "54f14bef0c8ad60378b01a06",
+        "name": "Trophy Club of Apalachee",
+        "address": "1008 Dacula Rd., Dacula, GA 30019 US",
+        "locality": "Dacula",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -83.909111,
+          34.021364
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        40,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Sugar Hill Golf Club",
+      "city": "Sugar Hill",
+      "alias": "sugar-hill-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Bear's Best Atlanta",
+      "city": "Suwanee",
+      "alias": "bears-best-atlanta",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Hamilton Mill Golf Club",
+      "city": "Dacula",
+      "alias": "hamilton-mill-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Cobblestone Golf Course",
+      "city": "Acworth",
+      "alias": "cobblestone-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Brookstone Golf and Country Club",
+      "city": "Acworth",
+      "alias": "brookstone-golf-and-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "The Golf Club at Bradshaw Farm",
+      "city": "Woodstock",
+      "alias": "golf-club-at-bradshaw-farm",
+      "aliasSource": "no-the",
+      "status": "confirmed",
+      "facility": {
+        "id": 1742,
+        "courseId": "54f14bf00c8ad60378b01a0b",
+        "name": "Golf Club at Bradshaw Farm",
+        "address": "3030 Bradshaw Club Drive, Woodstock, GA 30188 US",
+        "locality": "Woodstock",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -84.444351,
+          34.153579
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        14,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Eagle Watch Golf Club",
+      "city": "Woodstock",
+      "alias": "eagle-watch-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Towne Lake Hills Golf Club",
+      "city": "Woodstock",
+      "alias": "towne-lake-hills-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 2220,
+        "courseId": "54f14c1c0c8ad60378b01e1b",
+        "name": "Towne Lake Hills Golf Club",
+        "address": "1003 Towne Lake Hills East, Woodstock, GA 30189, US",
+        "locality": "Woodstock",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -84.554987,
+          34.125234
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        34,
+        0,
+        28
+      ]
+    },
+    {
+      "input": "Woodmont Golf and Country Club",
+      "city": "Canton",
+      "alias": "woodmont-golf-and-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Canton Golf Club",
+      "city": "Canton",
+      "alias": "canton-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Fairways of Canton",
+      "city": "Canton",
+      "alias": "fairways-of-canton",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 4230,
+        "courseId": "54f14ccb0c8ad60378b02db8",
+        "name": "Fairways of Canton",
+        "address": "400 Laurel Canyon Pkwy, Canton, GA 30114 US",
+        "locality": "Canton",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -84.505033,
+          34.272183
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Cherokee Run Golf Club",
+      "city": "Conyers",
+      "alias": "cherokee-run",
+      "aliasSource": "base-only",
+      "status": "confirmed",
+      "facility": {
+        "id": 3744,
+        "courseId": "54f14c970c8ad60378b0290f",
+        "name": "Cherokee Run",
+        "address": "1595 Centennial Olympic Pkwy Ne, Conyers, GA 30013, US",
+        "locality": "Conyers",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -83.9642,
+          33.64054
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        34,
+        0,
+        28
+      ]
+    },
+    {
+      "input": "Pinetree Country Club",
+      "city": "Kennesaw",
+      "alias": "pinetree-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Chateau Elan Golf Club",
+      "city": "Braselton",
+      "alias": "chateau-elan-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Lanier Golf Club",
+      "city": "Cumming",
+      "alias": "lanier-golf-club-cumming",
+      "aliasSource": "exact+city",
+      "status": "listed_only",
+      "facility": {
+        "id": 3767,
+        "courseId": "54f14c9a0c8ad60378b02951",
+        "name": "Lanier Golf Club (Cumming)",
+        "address": "2080 Buford Dam Road, Cumming, GA 30041 US",
+        "locality": "Cumming",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -84.07327,
+          34.20267
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Reunion Country Club",
+      "city": "Hoschton",
+      "alias": "reunion-country-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 3777,
+        "courseId": "54f14c9b0c8ad60378b02966",
+        "name": "Reunion Country Club",
+        "address": "5609 Grand Reunion Drive, Hoschton, GA 30548, US",
+        "locality": "Hoschton",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -83.862354,
+          34.113145
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        19,
+        0,
+        33
+      ]
+    },
+    {
+      "input": "Lake Arrowhead Golf Course",
+      "city": "Waleska",
+      "alias": "lake-arrowhead",
+      "aliasSource": "base-only",
+      "status": "confirmed",
+      "facility": {
+        "id": 2331,
+        "courseId": "54f14c250c8ad60378b01efe",
+        "name": "Lake Arrowhead Yacht \u0026 Country Club",
+        "address": "486 Arrowridge, Waleska, GA 30183, US",
+        "locality": "Waleska",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -84.61749700000001,
+          34.3037112
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        43,
+        0,
+        49
+      ]
+    },
+    {
+      "input": "Stone Mountain Golf Club",
+      "city": "Stone Mountain",
+      "alias": "stone-mountain-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Ashton Hills Golf Club",
+      "city": "Covington",
+      "alias": "ashton-hills-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 3760,
+        "courseId": "54f14c990c8ad60378b0293c",
+        "name": "Ashton Hills Golf Club",
+        "address": "10400 Covington Bypass SE, Covington, GA 30014, US",
+        "locality": "Covington",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -83.83444,
+          33.59034
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        30,
+        0,
+        31
+      ]
+    },
+    {
+      "input": "The Oaks Course",
+      "city": "Covington",
+      "alias": "the-oaks-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Honey Creek Golf and Country Club",
+      "city": "Conyers",
+      "alias": "honey-creek-golf-and-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Cedar Lake Golf Club",
+      "city": "Loganville",
+      "alias": "cedar-lake-golf-course",
+      "aliasSource": "swap-golf-course",
+      "status": "listed_only",
+      "facility": {
+        "id": 5677,
+        "courseId": "54f14d6c0c8ad60378b03c30",
+        "name": "Cedar Lake Golf Course",
+        "address": "5720 Sharon Church Road, Loganville, GA 30052 US",
+        "locality": "Loganville",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -83.88945,
+          33.81004
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Springbrook Golf Club",
+      "city": "Lawrenceville",
+      "alias": "springbrook-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "SummerGrove Golf Club",
+      "city": "Newnan",
+      "alias": "summergrove-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Coweta Club at Arbor Springs",
+      "city": "Newnan",
+      "alias": "coweta-club-at-arbor-springs",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 3747,
+        "courseId": "54f14c970c8ad60378b02918",
+        "name": "Coweta Club at Arbor Springs",
+        "address": "330 Arbor Springs Parkway, Newnan, GA 30265 US",
+        "locality": "Newnan",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -84.708951,
+          33.458793
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        45,
+        0,
+        46
+      ]
+    },
+    {
+      "input": "Hawks Creek Golf Club",
+      "city": "Westmoreland",
+      "alias": "hawks-creek-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Hampton Golf Club",
+      "city": "Hampton",
+      "alias": "hampton-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Crystal Lake Golf and Country Club",
+      "city": "Hampton",
+      "alias": "crystal-lake-golf-and-country-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 3750,
+        "courseId": "54f14c980c8ad60378b02921",
+        "name": "Crystal Lake Golf and Country Club",
+        "address": "100 Crystal Lake Blvd, Hampton, GA 30228, US",
+        "locality": "Hampton",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -84.249438,
+          33.455994
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        54,
+        0,
+        50
+      ]
+    },
+    {
+      "input": "Panola Mountain Golf Course",
+      "city": "Ellenwood",
+      "alias": "panola-mountain-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Southerness Golf Course",
+      "city": "Stockbridge",
+      "alias": "southerness-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "The Creek at Hard Labor",
+      "city": "Rutledge",
+      "alias": "the-creek-at-hard-labor",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 4794,
+        "courseId": "54f14d080c8ad60378b03320",
+        "name": "The Creek at Hard Labor",
+        "address": "1400 Knox Chapel Road, Social Circle, GA 30025, US",
+        "locality": "Social Circle",
+        "region": "GA",
+        "country": "US",
+        "location": [
+          -83.68549,
+          33.65325
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        13,
+        0,
+        27
+      ]
+    },
+    {
+      "input": "The Frog Golf Club",
+      "city": "Villa Rica",
+      "alias": "the-frog-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Mirror Lake Golf Club",
+      "city": "Villa Rica",
+      "alias": "mirror-lake-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    }
+  ],
+  "state": "GA",
+  "timestamp": "2026-02-14T17:08:34-07:00",
+  "totalInput": 52,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-14",
+    "2026-02-21"
+  ]
+}

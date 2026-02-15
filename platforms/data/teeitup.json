@@ -642,5 +642,284 @@
     "displayName": "Boulder City Golf Course",
     "city": "Boulder City",
     "state": "NV"
+  },
+  {
+    "key": "bobby-jones",
+    "metro": "atlanta",
+    "alias": "bobby-jones-golf-course",
+    "facilityId": "1624",
+    "displayName": "Bobby Jones Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "key": "browns-mill",
+    "metro": "atlanta",
+    "alias": "browns-mill-golf-course",
+    "facilityId": "1745",
+    "displayName": "Browns Mill Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "key": "alfred-tup-holmes",
+    "metro": "atlanta",
+    "alias": "alfred-tup-holmes",
+    "facilityId": "1743",
+    "displayName": "Alfred Tup Holmes Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "key": "candler-park",
+    "metro": "atlanta",
+    "alias": "candler-park-golf-course",
+    "facilityId": "17609",
+    "displayName": "Candler Park Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "key": "charlie-yates",
+    "metro": "atlanta",
+    "alias": "charlie-yates-golf-course",
+    "facilityId": "3742",
+    "displayName": "Charlie Yates Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "key": "mystery-valley",
+    "metro": "atlanta",
+    "alias": "mystery-valley-golf-course",
+    "facilityId": "5319",
+    "displayName": "Mystery Valley Golf Club",
+    "city": "Lithonia",
+    "state": "GA"
+  },
+  {
+    "key": "legacy-golf-links",
+    "metro": "atlanta",
+    "alias": "legacy-golf-links",
+    "facilityId": "2256",
+    "displayName": "Legacy Golf Links",
+    "city": "Smyrna",
+    "state": "GA"
+  },
+  {
+    "key": "city-club-marietta",
+    "metro": "atlanta",
+    "alias": "city-club-marietta",
+    "facilityId": "2219",
+    "displayName": "City Club Marietta",
+    "city": "Marietta",
+    "state": "GA"
+  },
+  {
+    "key": "echelon",
+    "metro": "atlanta",
+    "alias": "echelon-golf-club",
+    "facilityId": "5185",
+    "displayName": "Echelon Golf Club",
+    "city": "Alpharetta",
+    "state": "GA"
+  },
+  {
+    "key": "st-marlo",
+    "metro": "atlanta",
+    "alias": "st-marlo-country-club",
+    "facilityId": "3197",
+    "displayName": "St. Marlo Country Club",
+    "city": "Duluth",
+    "state": "GA"
+  },
+  {
+    "key": "collins-hill",
+    "metro": "atlanta",
+    "alias": "collins-hill-golf-club",
+    "facilityId": "2876",
+    "displayName": "Collins Hill Golf Club",
+    "city": "Lawrenceville",
+    "state": "GA"
+  },
+  {
+    "key": "trophy-club-of-apalachee",
+    "metro": "atlanta",
+    "alias": "trophy-club-of-apalachee",
+    "facilityId": "1740",
+    "displayName": "Trophy Club of Apalachee",
+    "city": "Dacula",
+    "state": "GA"
+  },
+  {
+    "key": "towne-lake-hills",
+    "metro": "atlanta",
+    "alias": "towne-lake-hills-golf-club",
+    "facilityId": "2220",
+    "displayName": "Towne Lake Hills Golf Club",
+    "city": "Woodstock",
+    "state": "GA"
+  },
+  {
+    "key": "cherokee-run",
+    "metro": "atlanta",
+    "alias": "cherokee-run",
+    "facilityId": "3744",
+    "displayName": "Cherokee Run Golf Club",
+    "city": "Conyers",
+    "state": "GA"
+  },
+  {
+    "key": "reunion",
+    "metro": "atlanta",
+    "alias": "reunion-country-club",
+    "facilityId": "3777",
+    "displayName": "Reunion Country Club",
+    "city": "Hoschton",
+    "state": "GA"
+  },
+  {
+    "key": "lake-arrowhead",
+    "metro": "atlanta",
+    "alias": "lake-arrowhead",
+    "facilityId": "2331",
+    "displayName": "Lake Arrowhead Yacht & Country Club",
+    "city": "Waleska",
+    "state": "GA"
+  },
+  {
+    "key": "ashton-hills",
+    "metro": "atlanta",
+    "alias": "ashton-hills-golf-club",
+    "facilityId": "3760",
+    "displayName": "Ashton Hills Golf Club",
+    "city": "Covington",
+    "state": "GA"
+  },
+  {
+    "key": "coweta-club-at-arbor-springs",
+    "metro": "atlanta",
+    "alias": "coweta-club-at-arbor-springs",
+    "facilityId": "3747",
+    "displayName": "Coweta Club at Arbor Springs",
+    "city": "Newnan",
+    "state": "GA"
+  },
+  {
+    "key": "crystal-lake",
+    "metro": "atlanta",
+    "alias": "crystal-lake-golf-and-country-club",
+    "facilityId": "3750",
+    "displayName": "Crystal Lake Golf and Country Club",
+    "city": "Hampton",
+    "state": "GA"
+  },
+  {
+    "key": "creek-at-hard-labor",
+    "metro": "atlanta",
+    "alias": "the-creek-at-hard-labor",
+    "facilityId": "4794",
+    "displayName": "The Creek at Hard Labor",
+    "city": "Social Circle",
+    "state": "GA"
+  },
+  {
+    "key": "north-fulton",
+    "metro": "atlanta",
+    "alias": "chastain-park",
+    "facilityId": "1741",
+    "displayName": "North Fulton Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "key": "stone-mountain-lakemont",
+    "metro": "atlanta",
+    "alias": "stone-mountain",
+    "facilityId": "8712",
+    "displayName": "Stone Mountain Golf Club - Lakemont",
+    "city": "Stone Mountain",
+    "state": "GA"
+  },
+  {
+    "key": "stone-mountain-stonemont",
+    "metro": "atlanta",
+    "alias": "stone-mountain",
+    "facilityId": "2222",
+    "displayName": "Stone Mountain Golf Club - Stonemont",
+    "city": "Stone Mountain",
+    "state": "GA"
+  },
+  {
+    "key": "bears-best-atlanta",
+    "metro": "atlanta",
+    "alias": "bears-best",
+    "facilityId": "4275",
+    "displayName": "Bear's Best Atlanta",
+    "city": "Suwanee",
+    "state": "GA"
+  },
+  {
+    "key": "the-frog",
+    "metro": "atlanta",
+    "alias": "frog-at-the-georgian",
+    "facilityId": "2319",
+    "displayName": "The Frog Golf Club",
+    "city": "Villa Rica",
+    "state": "GA"
+  },
+  {
+    "key": "cobblestone",
+    "metro": "atlanta",
+    "alias": "cobblestone-golf-course-3",
+    "facilityId": "5901",
+    "displayName": "Cobblestone Golf Course",
+    "city": "Acworth",
+    "state": "GA"
+  },
+  {
+    "key": "college-park",
+    "metro": "atlanta",
+    "alias": "c70350ae-111b-4722-b4d0-c74be760d7ec",
+    "facilityId": "16099",
+    "displayName": "College Park Golf Course",
+    "city": "College Park",
+    "state": "GA"
+  },
+  {
+    "key": "sugar-hill",
+    "metro": "atlanta",
+    "alias": "sugar-hill-golf-club",
+    "facilityId": "4653",
+    "displayName": "Sugar Hill Golf Club",
+    "city": "Sugar Hill",
+    "state": "GA"
+  },
+  {
+    "key": "john-a-white",
+    "metro": "atlanta",
+    "alias": "john-a-white-park-golf-course",
+    "facilityId": "3761",
+    "displayName": "John A White Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "key": "fox-creek",
+    "metro": "atlanta",
+    "alias": "fox-creek-golf-club-ga",
+    "facilityId": "2257",
+    "displayName": "Fox Creek Golf Club",
+    "city": "Smyrna",
+    "state": "GA"
+  },
+  {
+    "key": "hampton",
+    "metro": "atlanta",
+    "alias": "hampton-golf-village",
+    "facilityId": "2287",
+    "displayName": "Hampton Golf Club",
+    "city": "Hampton",
+    "state": "GA"
   }
 ]

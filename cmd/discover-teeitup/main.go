@@ -181,10 +181,16 @@ func generateAliases(name, city string) []struct{ alias, source string } {
 		coreLower := strings.ToLower(coreName(name))
 		if strings.HasPrefix(coreLower, cityLower+" ") {
 			stripped := slugify(coreLower[len(cityLower)+1:])
-			add(stripped, "strip-city")
+			add(stripped, "strip-city-prefix")
 			for _, suffix := range []string{"golf-club", "golf-course", "country-club", "golf"} {
-				add(stripped+"-"+suffix, "strip-city+"+suffix)
+				add(stripped+"-"+suffix, "strip-city-prefix+"+suffix)
 			}
+		}
+
+		// Strip city/region from end of name (e.g. "Bear's Best Atlanta" → "bears-best")
+		if strings.HasSuffix(coreLower, " "+cityLower) {
+			stripped := slugify(coreLower[:len(coreLower)-len(cityLower)-1])
+			add(stripped, "strip-city-suffix")
 		}
 
 		// Full slug + city (the raven-golf-club-phoenix pattern)
@@ -201,6 +207,15 @@ func generateAliases(name, city string) []struct{ alias, source string } {
 		add(citySlug+"-"+core, "city+core")
 		add(citySlug+"-"+core+"-golf-course", "city+core-gc")
 		add(citySlug+"-"+core+"-golf-club", "city+core-club")
+	}
+
+	// 7. Strip trailing slug segment — catches names with a geographic qualifier
+	//    that isn't the input city (e.g. "Bear's Best Atlanta" with city "Suwanee")
+	if idx := strings.LastIndex(core, "-"); idx > 0 {
+		trimmed := core[:idx]
+		if len(trimmed) >= 4 {
+			add(trimmed, "trim-trailing")
+		}
 	}
 
 	// 7. Public booking engine pattern (seen: ballwin-gc-public-booking-engine)
@@ -378,6 +393,99 @@ func probeTeeTimes(alias string, facilityID int, date string) (int, error) {
 		total += len(d.Teetimes)
 	}
 	return total, nil
+}
+
+// Regex patterns for booking site HTML extraction
+var (
+	reAlias      = regexp.MustCompile(`id="alias"\s+value="([^"]+)"`)
+	reFacilityID = regexp.MustCompile(`gCPlayFacilityId[\\]*":(\d+)`)
+	reFacName    = regexp.MustCompile(`gFName[\\]*":"([^"\\]+)"`)
+	reRegion     = regexp.MustCompile(`"region":"([^"]+)"`)
+	reLocality   = regexp.MustCompile(`"locality":"([^"]+)"`)
+)
+
+// probeBookingSite tries the TeeItUp booking site HTML directly.
+// This catches courses where the Kenna /facilities API returns 404 but the
+// booking site works (e.g. Stone Mountain). Extracts facility IDs and names
+// from embedded RSC/JSON data in the HTML.
+func probeBookingSite(alias string) ([]Facility, string, error) {
+	url := "https://" + alias + ".book.teeitup.com/"
+	client := &http.Client{Timeout: 10 * time.Second}
+	resp, err := client.Get(url)
+	if err != nil {
+		return nil, "", err
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != 200 {
+		return nil, "", nil
+	}
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, "", err
+	}
+	html := string(body)
+
+	// Confirm it's a TeeItUp booking site
+	m := reAlias.FindStringSubmatch(html)
+	if m == nil {
+		return nil, "", nil
+	}
+	confirmedAlias := m[1]
+
+	// Extract facility IDs and names
+	fidMatches := reFacilityID.FindAllStringSubmatch(html, -1)
+	nameMatches := reFacName.FindAllStringSubmatch(html, -1)
+
+	// Deduplicate facility IDs
+	seen := map[string]bool{}
+	var fids []string
+	for _, fm := range fidMatches {
+		if !seen[fm[1]] {
+			seen[fm[1]] = true
+			fids = append(fids, fm[1])
+		}
+	}
+
+	// Collect unique names
+	seenNames := map[string]bool{}
+	var names []string
+	for _, nm := range nameMatches {
+		if !seenNames[nm[1]] {
+			seenNames[nm[1]] = true
+			names = append(names, nm[1])
+		}
+	}
+
+	// Extract region/locality if available
+	region := ""
+	if rm := reRegion.FindStringSubmatch(html); rm != nil {
+		region = rm[1]
+	}
+	locality := ""
+	if lm := reLocality.FindStringSubmatch(html); lm != nil {
+		locality = lm[1]
+	}
+
+	// Build facilities
+	var facilities []Facility
+	for i, fid := range fids {
+		var fidInt int
+		fmt.Sscanf(fid, "%d", &fidInt)
+		name := confirmedAlias // fallback
+		if i < len(names) {
+			name = names[i]
+		}
+		facilities = append(facilities, Facility{
+			ID:       fidInt,
+			Name:     name,
+			Locality: locality,
+			Region:   region,
+		})
+	}
+
+	return facilities, confirmedAlias, nil
 }
 
 func readInputFromFile(path string) ([]CourseInput, error) {
@@ -596,6 +704,65 @@ func main() {
 				break
 			}
 			time.Sleep(100 * time.Millisecond)
+		}
+
+		// Booking site HTML fallback — try when Kenna API missed.
+		// Catches courses where the Kenna /facilities endpoint returns 404 but
+		// the booking site works (e.g. Stone Mountain had a valid booking page
+		// at stone-mountain.book.teeitup.com but Kenna API returned 404).
+		if !found && !discoveredByName[strings.ToLower(input.Name)] {
+			// Only try the most likely aliases to limit requests
+			fallbackAliases := []string{slugify(coreName(input.Name)), slugify(input.Name)}
+			seen := map[string]bool{}
+			for _, fa := range fallbackAliases {
+				if fa == "" || seen[fa] {
+					continue
+				}
+				seen[fa] = true
+				log("  Trying booking site fallback: %s.book.teeitup.com", fa)
+				facilities, confirmedAlias, err := probeBookingSite(fa)
+				if err != nil || len(facilities) == 0 {
+					time.Sleep(200 * time.Millisecond)
+					continue
+				}
+				log("  ↳ Booking site HIT — alias=%s, %d facility(ies)", confirmedAlias, len(facilities))
+				for _, f := range facilities {
+					log("    FID:%d  %s  (%s, %s)", f.ID, f.Name, f.Locality, f.Region)
+				}
+				// Cache and process like normal Kenna results
+				aliasCache[confirmedAlias] = facilities
+				for _, f := range facilities {
+					if fuzzyMatchWithCity(input.Name, f.Name, input.City) {
+						validateAndRecord(f, confirmedAlias, "booking-site-fallback", input.Name, input.City, state, dates,
+							&results, discoveredByFID, discoveredByName, &confirmedCount, &listedOnlyCount)
+						if discoveredByName[strings.ToLower(input.Name)] {
+							found = true
+						}
+					}
+				}
+				// Multi-facility: check siblings
+				if len(facilities) > 1 {
+					for _, f := range facilities {
+						if discoveredByFID[f.ID] {
+							continue
+						}
+						for _, other := range inputs {
+							if discoveredByName[strings.ToLower(other.Name)] {
+								continue
+							}
+							if fuzzyMatchWithCity(other.Name, f.Name, other.City) {
+								log("  ↳ Sibling match (fallback): FID:%d %q ↔ input %q", f.ID, f.Name, other.Name)
+								validateAndRecord(f, confirmedAlias, "booking-site-fallback/sibling", other.Name, other.City, state, dates,
+									&results, discoveredByFID, discoveredByName, &confirmedCount, &listedOnlyCount)
+							}
+						}
+					}
+				}
+				if found {
+					break
+				}
+				time.Sleep(200 * time.Millisecond)
+			}
 		}
 
 		if !found && !discoveredByName[strings.ToLower(input.Name)] {

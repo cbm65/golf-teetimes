@@ -9,5 +9,70 @@
     "displayName": "Painted Mountain Golf Resort",
     "city": "Mesa",
     "state": "AZ"
+  },
+  {
+    "key": "las-vegas-national",
+    "metro": "lasvegas",
+    "courseId": "20135",
+    "bookingClass": "3425",
+    "scheduleId": "3692",
+    "bookingUrl": "",
+    "displayName": "Las Vegas National Golf Club",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "fairways-of-canton",
+    "metro": "atlanta",
+    "courseId": "20661",
+    "bookingClass": "5793",
+    "scheduleId": "5334",
+    "bookingUrl": "",
+    "displayName": "Fairways of Canton",
+    "city": "Canton",
+    "state": "GA"
+  },
+  {
+    "key": "hamilton-mill",
+    "metro": "atlanta",
+    "courseId": "20471",
+    "bookingClass": "9303",
+    "scheduleId": "4639",
+    "bookingUrl": "",
+    "displayName": "Hamilton Mill Golf Club",
+    "city": "Dacula",
+    "state": "GA"
+  },
+  {
+    "key": "bradshaw-farm",
+    "metro": "atlanta",
+    "courseId": "20022",
+    "bookingClass": "7892",
+    "scheduleId": "3242",
+    "bookingUrl": "",
+    "displayName": "Golf Club at Bradshaw Farm",
+    "city": "Woodstock",
+    "state": "GA"
+  },
+  {
+    "key": "summergrove",
+    "metro": "atlanta",
+    "courseId": "22522",
+    "displayName": "SummerGrove Golf Club",
+    "city": "Newnan",
+    "state": "GA",
+    "bookingClass": "49414",
+    "scheduleId": "11065"
+  },
+  {
+    "key": "hawks-creek",
+    "metro": "atlanta",
+    "courseId": "21952",
+    "bookingClass": "12804",
+    "scheduleId": "9440",
+    "bookingUrl": "",
+    "displayName": "Hawks Creek Golf Club",
+    "city": "Westmoreland",
+    "state": "GA"
   }
 ]

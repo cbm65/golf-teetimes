@@ -1,0 +1,71 @@
+# Atlanta Metro Public Golf Courses
+# Format: Course Name | City
+# Includes public, municipal, semi-private, and resort courses within ~45 min of downtown
+
+# === City of Atlanta Municipal ===
+Bobby Jones Golf Course | Atlanta
+Browns Mill Golf Course | Atlanta
+Alfred Tup Holmes Golf Course | Atlanta
+North Fulton Golf Course | Atlanta
+Candler Park Golf Course | Atlanta
+John A White Golf Course | Atlanta
+
+# === Close-in Suburbs (ITP / Perimeter) ===
+Charlie Yates Golf Course | Atlanta
+Cross Creek Golf Course | Atlanta
+College Park Golf Course | College Park
+Mystery Valley Golf Club | Lithonia
+Fox Creek Golf Club | Smyrna
+Legacy Golf Links | Smyrna
+
+# === North Metro (Marietta / Roswell / Alpharetta / Johns Creek) ===
+City Club Marietta | Marietta
+Dogwood Golf Club | Marietta
+RiverPines Golf Course | Alpharetta
+Echelon Golf Club | Alpharetta
+St. Marlo Country Club | Duluth
+Collins Hill Golf Club | Lawrenceville
+Trophy Club of Apalachee | Dacula
+Sugar Hill Golf Club | Sugar Hill
+Bear's Best Atlanta | Suwanee
+Hamilton Mill Golf Club | Dacula
+
+# === Northwest Metro (Kennesaw / Acworth / Woodstock / Canton) ===
+Cobblestone Golf Course | Acworth
+Brookstone Golf and Country Club | Acworth
+The Golf Club at Bradshaw Farm | Woodstock
+Eagle Watch Golf Club | Woodstock
+Towne Lake Hills Golf Club | Woodstock
+Woodmont Golf and Country Club | Canton
+Canton Golf Club | Canton
+Fairways of Canton | Canton
+Cherokee Run Golf Club | Conyers
+Pinetree Country Club | Kennesaw
+
+# === Northeast Metro (Buford / Braselton / Cumming) ===
+Chateau Elan Golf Club | Braselton
+Lanier Golf Club | Cumming
+Reunion Country Club | Hoschton
+Lake Arrowhead Golf Course | Waleska
+
+# === East Metro (Stone Mountain / Conyers / Covington) ===
+Stone Mountain Golf Club | Stone Mountain
+Ashton Hills Golf Club | Covington
+The Oaks Course | Covington
+Honey Creek Golf and Country Club | Conyers
+Cedar Lake Golf Club | Loganville
+Springbrook Golf Club | Lawrenceville
+
+# === South Metro (Jonesboro / Stockbridge / Hampton / McDonough) ===
+SummerGrove Golf Club | Newnan
+Coweta Club at Arbor Springs | Newnan
+Hawks Creek Golf Club | Westmoreland
+Hampton Golf Club | Hampton
+Crystal Lake Golf and Country Club | Hampton
+Panola Mountain Golf Course | Ellenwood
+Southerness Golf Course | Stockbridge
+The Creek at Hard Labor | Rutledge
+
+# === West Metro (Douglasville / Villa Rica) ===
+The Frog Golf Club | Villa Rica
+Mirror Lake Golf Club | Villa Rica

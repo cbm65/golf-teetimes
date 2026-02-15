@@ -32,8 +32,9 @@ its platform's API, then validates confirmed matches with a 3-date tee time chec
 ### Step 1: Run TeeItUp FIRST
 
 TeeItUp is the dominant platform (78% of Phoenix courses) and should always run first.
-Its results are the **dedup authority** — when a course appears on both TeeItUp and
-another platform, TeeItUp wins. All subsequent scripts should dedup against TeeItUp results.
+Its results establish the **baseline** — when a course appears on both TeeItUp and
+another platform, the other platform wins (direct booking links preferred over TeeItUp).
+All subsequent scripts should check for TeeItUp overlaps and replace them.
 
 ```bash
 # 1. TeeItUp — ALWAYS RUN FIRST — alias probe with multi-facility sibling matching
@@ -73,9 +74,11 @@ Each tool outputs a JSON results file to `discovery/results/` with statuses:
 
 When adding confirmed courses to `platforms/data/*.json`, you MUST check whether
 each course is already present on another platform. A course should only appear on
-ONE platform. **TeeItUp is the dedup authority** — if a course exists on TeeItUp AND
-another platform, use TeeItUp. For all other collisions, whichever platform the
-course actually books through is the one we use.
+ONE platform. **Other platforms take precedence over TeeItUp** — if a course exists on
+both TeeItUp AND another platform (ForeUP, Chronogolf, GolfWithAccess, etc.), remove
+it from TeeItUp and use the other platform. Direct booking links through smaller
+platforms are preferred. For collisions between two non-TeeItUp platforms, whichever
+platform the course actually books through is the one we use.
 
 **GolfNow exclusion:** We intentionally skip GolfNow-only courses. Our value
 proposition is direct booking links (no middleman markup). Most GolfNow courses are
@@ -218,7 +221,13 @@ For scripts that match input names against an index (ForeUP) or API-returned nam
 
 ### Platform-specific notes
 
-**TeeItUp** — Uses Kenna Commerce API. The discovery script generates 15-22 alias candidates per course. Alias probing hits `https://phx-api-be-east-1b.kfrm.com/api/tee-times/settings` with `x-be-alias` header. Multi-facility aliases (e.g. `city-of-phoenix-golf-courses`) return all facilities — the script cross-matches all siblings against the full input list. Single-course aliases that work during discovery may fail in production if the course is actually booked under a shared alias — always prefer the shared alias when one exists.
+**TeeItUp** — Uses Kenna Commerce API. The discovery script generates 15-22 alias candidates per course. Alias probing hits `https://phx-api-be-east-1b.kenna.io/facilities` with `x-be-alias` header. Multi-facility aliases (e.g. `city-of-phoenix-golf-courses`) return all facilities — the script cross-matches all siblings against the full input list. Single-course aliases that work during discovery may fail in production if the course is actually booked under a shared alias — always prefer the shared alias when one exists. During Las Vegas ingestion, added `exactStatus` field to miss results for diagnosing why specific courses weren't found (e.g. Kenna API returned no facility for the slug despite it being a valid TeeItUp course).
+
+**Booking site HTML fallback** (added during Atlanta ingestion): The Kenna `/facilities` API has coverage gaps — some valid aliases return 404 from the API but work fine at `{alias}.book.teeitup.com`. Stone Mountain Golf Club was discovered this way (alias `stone-mountain` returned 404 from Kenna but the booking site HTML contained all facility data). The fallback probes `{alias}.book.teeitup.com` directly, extracts the confirmed alias from `<input id="alias" value="...">`, and parses facility IDs/names from embedded RSC JSON (`gCPlayFacilityId`, `gFName`). Only tried for the top 2 alias candidates (core name, exact slug) to limit extra HTTP requests.
+
+**Alternate name limitation**: Courses known by a different name than their official name (e.g. "North Fulton Golf Course" booking as "Chastain Park") cannot be discovered automatically. These require manual HAR capture in Phase 3.
+
+**UUID alias variant** (discovered during Atlanta ingestion): Some TeeItUp courses use `book-v2.teeitup.golf` with a UUID subdomain instead of a human-readable alias (e.g. College Park Golf Course uses `c70350ae-...`). The Kenna API works identically — the UUID is passed as `x-be-alias`. These are completely undiscoverable by alias probing; HAR capture is the only path.
 
 **Chronogolf** — Owned by Lightspeed. Has a massive directory (57 "listed_only" out of 92 for Phoenix) but almost no courses actually book through it (only 2 confirmed for Phoenix). Most Chronogolf listings are SEO/marketplace directory entries — the courses actually book through TeeItUp, GolfNow, etc. Discovery probes `https://www.chronogolf.com/club/{slug}` and extracts `__NEXT_DATA__` JSON. The `names` map translates API course names to display names. Multi-course clubs return tee times tagged with the course name from the API (e.g. "Estates"), which gets mapped to the display name (e.g. "Arizona Biltmore - Estates"). The lookup is case-insensitive with whitespace trimming.
 
@@ -226,9 +235,19 @@ For scripts that match input names against an index (ForeUP) or API-returned nam
 
 **ClubCaddie** — Has no central directory, API, or enumerable ID scheme. Each course lives at `apimanager-cc{server}.clubcaddie.com/webapi/view/{apiKey}` where both `{server}` and `{apiKey}` are non-sequential. Discovery is **manual only** via HAR capture from the course's booking page. When capturing a HAR, the key fields to extract are: the server number (from the hostname), the apiKey (from the URL path), and the courseId (from the TeeTimes POST body). The booking URL supports date pre-fill: `https://apimanager-cc{server}.clubcaddie.com/webapi/view/{apiKey}/slots?date={MM/DD/YYYY}`.
 
-**CPS Golf** — Subdomain-based: `{slug}.cps.golf`. Discovery probes the unauthenticated `/onlineresweb/Home/Configuration` endpoint — if it returns valid JSON with `siteName` and `apiKey`, the site exists. Then `/OnlineCourses` (requires `x-apikey` header) returns course details including `websiteId`, `courseId`, `courseName`, `timezoneId`, and `holes`. State validation uses the timezone (e.g. `America/Denver` → CO). Tee times are fetched via `/TeeTimes` after registering a transaction ID. A single CPS Golf site can host multiple courses (e.g. Regulation 18 + Executive 9). The booking URL is `https://{slug}.cps.golf/onlineresweb/search-teetime`.
+**CPS Golf** — Subdomain-based: `{slug}.cps.golf`. Discovery probes the unauthenticated `/onlineresweb/Home/Configuration` endpoint — if it returns valid JSON with `siteName`, the site exists. Then `/OnlineCourses` returns course details including `websiteId`, `courseId`, `courseName`, `timezoneId`, and `holes`. State validation uses the timezone (e.g. `America/Denver` → CO). A single CPS Golf site can host multiple courses (e.g. Cascata + Serket on `caspublic.cps.golf`).
 
-**Quick18** — Subdomain-based: `{subdomain}.quick18.com/teetimes/searchmatrix?teedate={YYYYMMDD}`. Generates 8-12 subdomain candidates per course (joined alpha, hyphenated, with/without suffixes). State validation parses the page HTML for address patterns like `, AZ 85XXX` since there's no structured state field in the response. This is critical — without it, generic subdomains like `stonecreek` match courses in Oregon. Dead subdomain caching avoids re-probing known-bad subdomains.
+**CPS Golf has two auth modes** discovered during Las Vegas ingestion:
+- **Older sites** (e.g. Indian Tree, Green Valley Ranch): Configuration returns an `apiKey` field. The fetcher sends it as `x-apikey` header. No bearer token needed.
+- **Newer sites** (e.g. Cascata, Serket, Fossil Trace): Configuration has NO `apiKey`. These require a short-lived Bearer token obtained from `POST /identityapi/myconnect/token/short` with form body `client_id=onlinereswebshortlived`. Returns a JWT valid for 10 minutes. The fetcher gets a fresh token each cycle.
+
+The fetcher dynamically detects which mode to use: it fetches Configuration first, and if no `apiKey` is present, it obtains a bearer token. It also dynamically fetches `courseIds` from OnlineCourses when not specified in config. This means `apiKey` and `courseIds` can both be empty in the JSON config — the fetcher will figure it out at runtime.
+
+**CPS Golf discovery limitation**: subdomain patterns are unpredictable. Cascata lives at `caspublic.cps.golf`, not `cascata.cps.golf`. The discovery script's slug probe won't find these — they require manual HAR capture (Phase 3).
+
+The booking URL is `https://{slug}.cps.golf/onlineresweb/search-teetime` and supports date pre-fill via `?Date={YYYY-MM-DD}`.
+
+**Quick18** — Subdomain-based: `{subdomain}.quick18.com/teetimes/searchmatrix?teedate={YYYYMMDD}`. Generates 8-12 subdomain candidates per course (joined alpha, hyphenated, with/without suffixes). State validation parses the page HTML for address patterns like `, AZ 85XXX` since there's no structured state field in the response. This is critical — without it, generic subdomains like `stonecreek` match courses in Oregon. Dead subdomain caching avoids re-probing known-bad subdomains. During Las Vegas ingestion, added `" - "` variant slug pattern that uses just the base facility name (e.g. "Angel Park" from "Angel Park - Palm Course") — important for multi-course facilities where the subdomain is the club name, not the course name.
 
 **GolfWithAccess (Troon)** — Troon's booking platform (largest golf management company, 900+ courses worldwide). Centralized at `golfwithaccess.com/course/{slug}/reserve-tee-time`. Page HTML contains React Server Components data with courseId UUID, city, and state (full name like "Arizona" → converted to "AZ"). Tee times at `/api/v1/tee-times?courseIds={uuid}&players=1&startAt=00:00:00&endAt=23:59:59&day={date}`. High value for resort/sunbelt markets where Troon is heavily concentrated. Generates slug candidates with suffix swaps and "the-" prefix.
 
@@ -264,6 +283,46 @@ Key takeaways:
 - **GolfNow intentionally skipped** — most GolfNow courses already found via TeeItUp
 - TeeItUp discovery script improved during Phoenix run: added "the-" prefix generation (caught The Legacy) and city-stripping (caught Scottsdale Silverado)
 
+## Las Vegas Discovery Results (Feb 2026)
+
+42 input courses, 4 confirmed across 3 platforms (most Las Vegas courses are GolfNow-only):
+
+| Platform | Confirmed | Notes |
+|----------|-----------|-------|
+| TeeItUp | 1 | Boulder City Golf Course (manual HAR — discovery script missed it due to Kenna API probe gap) |
+| Quick18 | 1 | Angel Park (manual HAR — multi-course with Palm/Mountain, uses `" - "` variant slug) |
+| CPS Golf | 2 | Cascata + Serket on caspublic.cps.golf (manual HAR — subdomain not guessable) |
+
+Key takeaways:
+- **Las Vegas is heavily GolfNow** — most courses only book through GolfNow, which we intentionally skip
+- **CPS Golf auth fix was the big win** — the bearer token discovery (`/myconnect/token/short`) fixed all 5 CPS Golf courses across both Denver and Las Vegas
+- **CPS Golf subdomains are unpredictable** — Cascata/Serket live at `caspublic.cps.golf`, not `cascata.cps.golf`. Discovery scripts can't find these; manual HAR is required.
+- **Multi-course CPS Golf sites** need separate JSON entries per course with specific `courseIds` values (e.g. Cascata=4, Serket=5) but shared `baseUrl`, `websiteId`, and `siteId`
+- **TeeItUp discovery misses** can be diagnosed with the `exactStatus` field in miss results (added during this metro). Boulder City was missed because the Kenna API probe returned no facility for its slug.
+- **Quick18 discovery** improved with `" - "` variant slug pattern (base facility name without course suffix)
+
+## HAR Capture Tips
+
+When doing Phase 3 manual gap-fill, proper HAR capture is critical:
+
+### Chrome sanitized vs unsanitized HARs
+
+Chrome's **Export HAR (sanitized)** button strips `Authorization`, `Cookie`, and other sensitive headers. This is usually fine for identifying platforms and URL patterns, but **will hide auth tokens** needed to understand authentication flows.
+
+**To get unsanitized HARs:**
+- **Firefox** (easiest): DevTools → Network → gear icon → "Save All As HAR" — always unsanitized
+- **Chrome workaround**: Right-click a specific request → Copy → Copy as cURL — includes all headers including Authorization
+
+**When you need unsanitized:** Only when debugging auth failures (401s) where you need to see the actual Bearer token or cookie values. For normal platform identification, sanitized HARs work fine.
+
+### Incognito captures
+
+Always use **incognito/private browsing** for HAR captures to ensure a clean session with no cached tokens. This shows the complete auth flow from scratch.
+
+### Fetch/XHR filter
+
+If the full HAR is too large (common on marketing-heavy golf sites), use the **Fetch/XHR** filter in the Network tab before exporting. This strips out images, CSS, JS, and fonts, keeping only API calls.
+
 ## Adding Courses to JSON
 
 ### TeeItUp entry format
@@ -284,7 +343,7 @@ Fields from discovery results:
 - `key` — derived from display name per key rules above
 - `metro` — target metro slug
 - `alias` — from discovery results `alias` field (use shared alias when one exists)
-- `facilityId` — from discovery results `facility.id`
+- `facilityId` — from discovery results `facility.id` (**must be a string**, not a number — e.g. `"287"` not `287`)
 - `displayName` — from discovery results `facility.name`, cleaned per rules above
 - `city` — from discovery results `facility.locality`
 - `state` — target state code
@@ -401,15 +460,15 @@ Fields from discovery results:
 }
 ```
 
-Fields from discovery results:
-- `baseUrl` — `https://{slug}.cps.golf`
-- `apiKey` — from Configuration response `.apiKey`
+Fields from discovery results or HAR:
+- `baseUrl` — `https://{slug}.cps.golf` (NOTE: slug may not match course name — e.g. Cascata is at `caspublic.cps.golf`)
+- `apiKey` — from Configuration response `.apiKey`. **Can be empty** — newer sites have no apiKey and use bearer token auth instead (fetcher handles this automatically)
 - `websiteId` — from OnlineCourses response `[0].websiteId`
-- `siteId` — from OnlineCourses response `[0].siteId` (as string)
-- `courseIds` — leave empty to fetch all courses, or comma-separated courseId ints to filter
-- `bookingUrl` — `https://{slug}.cps.golf/onlineresweb/search-teetime`
+- `siteId` — always `"1"` (site-level ID, NOT the course-level siteId from OnlineCourses)
+- `courseIds` — specific courseId int to fetch, or **empty string** to auto-detect from OnlineCourses at runtime. Use specific IDs when a site hosts multiple courses and you want one entry per course (e.g. Cascata=4, Serket=5 on caspublic.cps.golf)
+- `bookingUrl` — `https://{slug}.cps.golf/onlineresweb/search-teetime` (date appended automatically as `?Date=YYYY-MM-DD`)
 - `names` — map CPS course name → display name (e.g. "Regulation 18" → "Indian Tree Golf Club")
-- `timezone` — from OnlineCourses response `[0].timezoneId`
+- `timezone` — from OnlineCourses response `[0].timezoneId`. Used as `x-timezoneid` header (should match user's timezone, not course location — but America/Denver works for all current sites)
 
 ### GolfWithAccess (Troon) entry format
 
@@ -546,7 +605,7 @@ Course count and city count are computed automatically from the JSON data at sta
 
 | Platform | Tool | Status |
 |----------|------|--------|
-| TeeItUp | discover-teeitup | ✅ Built — multi-alias probe (15-22 candidates), sibling matching, fuzzyMatchWithCity, "the-" prefix, city-stripping. **Run first — dedup authority.** |
+| TeeItUp | discover-teeitup | ✅ Built — multi-alias probe (15-22 candidates), sibling matching, fuzzyMatchWithCity, "the-" prefix, city-stripping. **Run first — establishes baseline.** Other platforms take precedence when overlaps found. |
 | GolfWithAccess | discover-golfwithaccess | ✅ Built — slug probe, RSC page extraction for courseId/city/state, suffix swaps, "the-" prefix |
 | Chronogolf | discover-chronogolf | ✅ Built — slug probe with name+state+city patterns, suffix swaps, __NEXT_DATA__ extraction |
 | ForeUP | discover-foreup | ✅ Built — two-phase index+match, third-party detection, 5-char fuzzy guard, course_id dedup |
@@ -556,7 +615,7 @@ Course count and city count are computed automatically from the JSON data at sta
 | TeeSnap | — | ⏳ Pending — subdomain-probeable but only 1 known course. Need more examples. |
 | RGuest | — | ❌ Not feasible — numeric tenant IDs, not guessable |
 | GolfNow | — | ❌ Intentionally skipped — direct booking value prop, most courses found via TeeItUp |
-| CPS Golf | discover-cpsgolf | ✅ Built — subdomain probe ({slug}.cps.golf/onlineresweb/Home/Configuration), OnlineCourses extraction, timezone state validation |
+| CPS Golf | discover-cpsgolf | ✅ Built — subdomain probe ({slug}.cps.golf/onlineresweb/Home/Configuration), OnlineCourses extraction, timezone state validation. **Limitation**: subdomains are unpredictable (e.g. `caspublic` for Cascata) — manual HAR needed for non-obvious slugs. Fetcher handles both apiKey and bearer token auth automatically. |
 | MemberSports | — | ❌ API known from Denver, script not built |
 
 ## File Structure
@@ -582,21 +641,23 @@ cmd/
 discovery/
 ├── courses/
 │   ├── phoenix.txt          # Phase 1 course list (92 courses)
+│   ├── lasvegas.txt         # Phase 1 course list (42 courses)
 │   ├── denver.txt           # (TODO)
 │   └── ...
 ├── foreup-index.json        # ForeUP master index (4188 courses, IDs 1-30000)
 └── results/                 # Auto-generated discovery results (gitignored)
 
 platforms/data/
-├── teeitup.json        # 41 courses (Phoenix)
+├── teeitup.json        # 41 courses (Phoenix) + 1 (Las Vegas)
 ├── golfwithaccess.json # 3 courses (Phoenix)
 ├── chronogolf.json     # 2 courses (Phoenix)
 ├── foreup.json         # 1 course (Phoenix)
-├── quick18.json        # 8 courses (Phoenix)
+├── quick18.json        # 8 courses (Phoenix) + 1 (Las Vegas)
 ├── courseco.json       # 1 course (Phoenix)
 ├── rguest.json         # 4 courses (Phoenix)
 ├── teesnap.json        # 1 course (Phoenix)
 ├── clubcaddie.json     # Denver courses
+├── cpsgolf.json        # 3 courses (Denver) + 2 (Las Vegas)
 ├── golfnow.json        # (intentionally empty — skipping GolfNow-only courses)
 └── ...
 ```
