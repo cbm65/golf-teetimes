@@ -1,0 +1,50 @@
+[
+  {
+    "key": "doral-blue-monster",
+    "metro": "miami",
+    "baseUrl": "https://miami.booktrump.com",
+    "sponsorId": "12012",
+    "courseId": "1537",
+    "propertyId": "98",
+    "bookingUrl": "https://miami.booktrump.com/tee-times",
+    "displayName": "Trump National Doral - Blue Monster",
+    "city": "Miami",
+    "state": "FL"
+  },
+  {
+    "key": "doral-golden-palm",
+    "metro": "miami",
+    "baseUrl": "https://miami.booktrump.com",
+    "sponsorId": "12012",
+    "courseId": "1538",
+    "propertyId": "98",
+    "bookingUrl": "https://miami.booktrump.com/tee-times",
+    "displayName": "Trump National Doral - Golden Palm",
+    "city": "Miami",
+    "state": "FL"
+  },
+  {
+    "key": "doral-red-tiger",
+    "metro": "miami",
+    "baseUrl": "https://miami.booktrump.com",
+    "sponsorId": "12012",
+    "courseId": "1539",
+    "propertyId": "98",
+    "bookingUrl": "https://miami.booktrump.com/tee-times",
+    "displayName": "Trump National Doral - Red Tiger",
+    "city": "Miami",
+    "state": "FL"
+  },
+  {
+    "key": "doral-silver-fox",
+    "metro": "miami",
+    "baseUrl": "https://miami.booktrump.com",
+    "sponsorId": "12012",
+    "courseId": "1541",
+    "propertyId": "98",
+    "bookingUrl": "https://miami.booktrump.com/tee-times",
+    "displayName": "Trump National Doral - Silver Fox",
+    "city": "Miami",
+    "state": "FL"
+  }
+]

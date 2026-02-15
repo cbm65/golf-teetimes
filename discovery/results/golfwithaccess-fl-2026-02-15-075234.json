@@ -1,0 +1,607 @@
+{
+  "confirmed": 1,
+  "elapsed": "1m0.826113167s",
+  "listedOnly": 0,
+  "missed": 41,
+  "platform": "golfwithaccess",
+  "results": [
+    {
+      "input": "Crandon Golf at Key Biscayne",
+      "city": "Key Biscayne",
+      "status": "miss",
+      "slugsTried": [
+        "crandon-golf-at-key-biscayne",
+        "crandon-golf-at-key-biscayne-golf-club",
+        "crandon-golf-at-key-biscayne-golf-course",
+        "crandon-golf-at-key-biscayne-golf-resort",
+        "crandon-golf-at-key-biscayne-country-club",
+        "crandon-golf-at-key-biscayne-golf",
+        "the-crandon-golf-at-key-biscayne-golf-club"
+      ]
+    },
+    {
+      "input": "Country Club of Miami - East Course",
+      "city": "Miami",
+      "status": "miss",
+      "slugsTried": [
+        "country-club-of-miami-east-course",
+        "country-club-of-miami-east-course-golf-club",
+        "country-club-of-miami-east-course-golf-course",
+        "country-club-of-miami-east-course-golf-resort",
+        "country-club-of-miami-east-course-country-club",
+        "country-club-of-miami-east-course-golf",
+        "the-country-club-of-miami-east-course-golf-club"
+      ]
+    },
+    {
+      "input": "Country Club of Miami - West Course",
+      "city": "Miami",
+      "status": "miss",
+      "slugsTried": [
+        "country-club-of-miami-west-course",
+        "country-club-of-miami-west-course-golf-club",
+        "country-club-of-miami-west-course-golf-course",
+        "country-club-of-miami-west-course-golf-resort",
+        "country-club-of-miami-west-course-country-club",
+        "country-club-of-miami-west-course-golf",
+        "the-country-club-of-miami-west-course-golf-club"
+      ]
+    },
+    {
+      "input": "Palmetto Golf Course",
+      "city": "Miami",
+      "status": "miss",
+      "slugsTried": [
+        "palmetto-golf-course",
+        "palmetto-golf-club",
+        "palmetto-golf-resort",
+        "palmetto-country-club",
+        "palmetto-golf",
+        "palmetto",
+        "the-palmetto-golf-club"
+      ]
+    },
+    {
+      "input": "Greynolds Golf Course",
+      "city": "North Miami Beach",
+      "status": "miss",
+      "slugsTried": [
+        "greynolds-golf-course",
+        "greynolds-golf-club",
+        "greynolds-golf-resort",
+        "greynolds-country-club",
+        "greynolds-golf",
+        "greynolds",
+        "the-greynolds-golf-club"
+      ]
+    },
+    {
+      "input": "Briar Bay Golf Course",
+      "city": "Miami",
+      "status": "miss",
+      "slugsTried": [
+        "briar-bay-golf-course",
+        "briar-bay-golf-club",
+        "briar-bay-golf-resort",
+        "briar-bay-country-club",
+        "briar-bay-golf",
+        "briar-bay",
+        "the-briar-bay-golf-club"
+      ]
+    },
+    {
+      "input": "Trump National Doral - Blue Monster",
+      "city": "Miami",
+      "status": "miss",
+      "slugsTried": [
+        "trump-national-doral-blue-monster",
+        "trump-national-doral-blue-monster-golf-club",
+        "trump-national-doral-blue-monster-golf-course",
+        "trump-national-doral-blue-monster-golf-resort",
+        "trump-national-doral-blue-monster-country-club",
+        "trump-national-doral-blue-monster-golf",
+        "the-trump-national-doral-blue-monster-golf-club"
+      ]
+    },
+    {
+      "input": "Trump National Doral - Red Tiger",
+      "city": "Miami",
+      "status": "miss",
+      "slugsTried": [
+        "trump-national-doral-red-tiger",
+        "trump-national-doral-red-tiger-golf-club",
+        "trump-national-doral-red-tiger-golf-course",
+        "trump-national-doral-red-tiger-golf-resort",
+        "trump-national-doral-red-tiger-country-club",
+        "trump-national-doral-red-tiger-golf",
+        "the-trump-national-doral-red-tiger-golf-club"
+      ]
+    },
+    {
+      "input": "Trump National Doral - Golden Palm",
+      "city": "Miami",
+      "status": "miss",
+      "slugsTried": [
+        "trump-national-doral-golden-palm",
+        "trump-national-doral-golden-palm-golf-club",
+        "trump-national-doral-golden-palm-golf-course",
+        "trump-national-doral-golden-palm-golf-resort",
+        "trump-national-doral-golden-palm-country-club",
+        "trump-national-doral-golden-palm-golf",
+        "the-trump-national-doral-golden-palm-golf-club"
+      ]
+    },
+    {
+      "input": "Trump National Doral - Silver Fox",
+      "city": "Miami",
+      "status": "miss",
+      "slugsTried": [
+        "trump-national-doral-silver-fox",
+        "trump-national-doral-silver-fox-golf-club",
+        "trump-national-doral-silver-fox-golf-course",
+        "trump-national-doral-silver-fox-golf-resort",
+        "trump-national-doral-silver-fox-country-club",
+        "trump-national-doral-silver-fox-golf",
+        "the-trump-national-doral-silver-fox-golf-club"
+      ]
+    },
+    {
+      "input": "Miami Beach Golf Club",
+      "city": "Miami Beach",
+      "status": "miss",
+      "slugsTried": [
+        "miami-beach-golf-club",
+        "miami-beach-golf-course",
+        "miami-beach-golf-resort",
+        "miami-beach-country-club",
+        "miami-beach-golf",
+        "miami-beach",
+        "the-miami-beach-golf-club"
+      ]
+    },
+    {
+      "input": "Normandy Shores Golf Club",
+      "city": "Miami Beach",
+      "status": "miss",
+      "slugsTried": [
+        "normandy-shores-golf-club",
+        "normandy-shores-golf-course",
+        "normandy-shores-golf-resort",
+        "normandy-shores-country-club",
+        "normandy-shores-golf",
+        "normandy-shores",
+        "the-normandy-shores-golf-club"
+      ]
+    },
+    {
+      "input": "Biltmore Golf Course",
+      "city": "Coral Gables",
+      "status": "miss",
+      "slugsTried": [
+        "biltmore-golf-course",
+        "biltmore-golf-club",
+        "biltmore-golf-resort",
+        "biltmore-country-club",
+        "biltmore-golf",
+        "biltmore",
+        "the-biltmore-golf-club"
+      ]
+    },
+    {
+      "input": "Killian Greens Golf Club",
+      "city": "Miami",
+      "status": "miss",
+      "slugsTried": [
+        "killian-greens-golf-club",
+        "killian-greens-golf-course",
+        "killian-greens-golf-resort",
+        "killian-greens-country-club",
+        "killian-greens-golf",
+        "killian-greens",
+        "the-killian-greens-golf-club"
+      ]
+    },
+    {
+      "input": "Miami Shores Country Club",
+      "city": "Miami Shores",
+      "status": "miss",
+      "slugsTried": [
+        "miami-shores-country-club",
+        "miami-shores-golf-club",
+        "miami-shores-golf-course",
+        "miami-shores-golf-resort",
+        "miami-shores-golf",
+        "miami-shores",
+        "the-miami-shores-golf-club"
+      ]
+    },
+    {
+      "input": "Melreese Golf Course",
+      "city": "Miami",
+      "status": "miss",
+      "slugsTried": [
+        "melreese-golf-course",
+        "melreese-golf-club",
+        "melreese-golf-resort",
+        "melreese-country-club",
+        "melreese-golf",
+        "melreese",
+        "the-melreese-golf-club"
+      ]
+    },
+    {
+      "input": "Shula's Golf Club",
+      "city": "Miami Lakes",
+      "status": "miss",
+      "slugsTried": [
+        "shula-s-golf-club",
+        "shula-s-golf-course",
+        "shula-s-golf-resort",
+        "shula-s-country-club",
+        "shula-s-golf",
+        "shula-s",
+        "the-shula-s-golf-club"
+      ]
+    },
+    {
+      "input": "JW Marriott Turnberry - Soffer Course",
+      "city": "Aventura",
+      "status": "miss",
+      "slugsTried": [
+        "jw-marriott-turnberry-soffer-course",
+        "jw-marriott-turnberry-soffer-course-golf-club",
+        "jw-marriott-turnberry-soffer-course-golf-course",
+        "jw-marriott-turnberry-soffer-course-golf-resort",
+        "jw-marriott-turnberry-soffer-course-country-club",
+        "jw-marriott-turnberry-soffer-course-golf",
+        "the-jw-marriott-turnberry-soffer-course-golf-club"
+      ]
+    },
+    {
+      "input": "JW Marriott Turnberry - Miller Course",
+      "city": "Aventura",
+      "status": "miss",
+      "slugsTried": [
+        "jw-marriott-turnberry-miller-course",
+        "jw-marriott-turnberry-miller-course-golf-club",
+        "jw-marriott-turnberry-miller-course-golf-course",
+        "jw-marriott-turnberry-miller-course-golf-resort",
+        "jw-marriott-turnberry-miller-course-country-club",
+        "jw-marriott-turnberry-miller-course-golf",
+        "the-jw-marriott-turnberry-miller-course-golf-club"
+      ]
+    },
+    {
+      "input": "Costa Del Sol Golf Club",
+      "city": "Miami",
+      "status": "miss",
+      "slugsTried": [
+        "costa-del-sol-golf-club",
+        "costa-del-sol-golf-course",
+        "costa-del-sol-golf-resort",
+        "costa-del-sol-country-club",
+        "costa-del-sol-golf",
+        "costa-del-sol",
+        "the-costa-del-sol-golf-club"
+      ]
+    },
+    {
+      "input": "Miccosukee Golf \u0026 Country Club",
+      "city": "Miami",
+      "status": "miss",
+      "slugsTried": [
+        "miccosukee-golf-country-club",
+        "miccosukee-golf-golf-club",
+        "miccosukee-golf-golf-course",
+        "miccosukee-golf-golf-resort",
+        "miccosukee-golf-golf",
+        "miccosukee-golf",
+        "the-miccosukee-golf-golf-club"
+      ]
+    },
+    {
+      "input": "Redland Golf \u0026 Country Club",
+      "city": "Homestead",
+      "status": "miss",
+      "slugsTried": [
+        "redland-golf-country-club",
+        "redland-golf-golf-club",
+        "redland-golf-golf-course",
+        "redland-golf-golf-resort",
+        "redland-golf-golf",
+        "redland-golf",
+        "the-redland-golf-golf-club"
+      ]
+    },
+    {
+      "input": "Jacaranda Golf Club",
+      "city": "Plantation",
+      "status": "miss",
+      "slugsTried": [
+        "jacaranda-golf-club",
+        "jacaranda-golf-course",
+        "jacaranda-golf-resort",
+        "jacaranda-country-club",
+        "jacaranda-golf",
+        "jacaranda",
+        "the-jacaranda-golf-club"
+      ]
+    },
+    {
+      "input": "Plantation Preserve Golf Course",
+      "city": "Plantation",
+      "status": "miss",
+      "slugsTried": [
+        "plantation-preserve-golf-course",
+        "plantation-preserve-golf-club",
+        "plantation-preserve-golf-resort",
+        "plantation-preserve-country-club",
+        "plantation-preserve-golf",
+        "plantation-preserve",
+        "the-plantation-preserve-golf-club"
+      ]
+    },
+    {
+      "input": "Hollywood Beach Golf Club",
+      "city": "Hollywood",
+      "status": "miss",
+      "slugsTried": [
+        "hollywood-beach-golf-club",
+        "hollywood-beach-golf-course",
+        "hollywood-beach-golf-resort",
+        "hollywood-beach-country-club",
+        "hollywood-beach-golf",
+        "hollywood-beach",
+        "the-hollywood-beach-golf-club"
+      ]
+    },
+    {
+      "input": "Orangebrook Golf Course",
+      "city": "Hollywood",
+      "status": "miss",
+      "slugsTried": [
+        "orangebrook-golf-course",
+        "orangebrook-golf-club",
+        "orangebrook-golf-resort",
+        "orangebrook-country-club",
+        "orangebrook-golf",
+        "orangebrook",
+        "the-orangebrook-golf-club"
+      ]
+    },
+    {
+      "input": "Pembroke Lakes Golf \u0026 Racquet Club",
+      "city": "Pembroke Pines",
+      "status": "miss",
+      "slugsTried": [
+        "pembroke-lakes-golf-racquet-club",
+        "pembroke-lakes-golf-racquet-club-golf-club",
+        "pembroke-lakes-golf-racquet-club-golf-course",
+        "pembroke-lakes-golf-racquet-club-golf-resort",
+        "pembroke-lakes-golf-racquet-club-country-club",
+        "pembroke-lakes-golf-racquet-club-golf",
+        "the-pembroke-lakes-golf-racquet-club-golf-club"
+      ]
+    },
+    {
+      "input": "Grand Palms Golf Club",
+      "city": "Pembroke Pines",
+      "status": "miss",
+      "slugsTried": [
+        "grand-palms-golf-club",
+        "grand-palms-golf-course",
+        "grand-palms-golf-resort",
+        "grand-palms-country-club",
+        "grand-palms-golf",
+        "grand-palms",
+        "the-grand-palms-golf-club"
+      ]
+    },
+    {
+      "input": "Pompano Beach Golf Course - Pines",
+      "city": "Pompano Beach",
+      "status": "miss",
+      "slugsTried": [
+        "pompano-beach-golf-course-pines",
+        "pompano-beach-golf-course-pines-golf-club",
+        "pompano-beach-golf-course-pines-golf-course",
+        "pompano-beach-golf-course-pines-golf-resort",
+        "pompano-beach-golf-course-pines-country-club",
+        "pompano-beach-golf-course-pines-golf",
+        "the-pompano-beach-golf-course-pines-golf-club"
+      ]
+    },
+    {
+      "input": "Pompano Beach Golf Course - Palms",
+      "city": "Pompano Beach",
+      "status": "miss",
+      "slugsTried": [
+        "pompano-beach-golf-course-palms",
+        "pompano-beach-golf-course-palms-golf-club",
+        "pompano-beach-golf-course-palms-golf-course",
+        "pompano-beach-golf-course-palms-golf-resort",
+        "pompano-beach-golf-course-palms-country-club",
+        "pompano-beach-golf-course-palms-golf",
+        "the-pompano-beach-golf-course-palms-golf-club"
+      ]
+    },
+    {
+      "input": "Palm-Aire Country Club - Oaks",
+      "city": "Pompano Beach",
+      "status": "miss",
+      "slugsTried": [
+        "palm-aire-country-club-oaks",
+        "palm-aire-country-club-oaks-golf-club",
+        "palm-aire-country-club-oaks-golf-course",
+        "palm-aire-country-club-oaks-golf-resort",
+        "palm-aire-country-club-oaks-country-club",
+        "palm-aire-country-club-oaks-golf",
+        "the-palm-aire-country-club-oaks-golf-club"
+      ]
+    },
+    {
+      "input": "Palm-Aire Country Club - Cypress",
+      "city": "Pompano Beach",
+      "status": "miss",
+      "slugsTried": [
+        "palm-aire-country-club-cypress",
+        "palm-aire-country-club-cypress-golf-club",
+        "palm-aire-country-club-cypress-golf-course",
+        "palm-aire-country-club-cypress-golf-resort",
+        "palm-aire-country-club-cypress-country-club",
+        "palm-aire-country-club-cypress-golf",
+        "the-palm-aire-country-club-cypress-golf-club"
+      ]
+    },
+    {
+      "input": "Deer Creek Golf Club",
+      "city": "Deerfield Beach",
+      "status": "miss",
+      "slugsTried": [
+        "deer-creek-golf-club",
+        "deer-creek-golf-course",
+        "deer-creek-golf-resort",
+        "deer-creek-country-club",
+        "deer-creek-golf",
+        "deer-creek",
+        "the-deer-creek-golf-club"
+      ]
+    },
+    {
+      "input": "Heron Bay Golf Club",
+      "city": "Coral Springs",
+      "status": "miss",
+      "slugsTried": [
+        "heron-bay-golf-club",
+        "heron-bay-golf-course",
+        "heron-bay-golf-resort",
+        "heron-bay-country-club",
+        "heron-bay-golf",
+        "heron-bay",
+        "the-heron-bay-golf-club"
+      ]
+    },
+    {
+      "input": "Country Club of Coral Springs",
+      "city": "Coral Springs",
+      "status": "miss",
+      "slugsTried": [
+        "country-club-of-coral-springs",
+        "country-club-of-coral-springs-golf-club",
+        "country-club-of-coral-springs-golf-course",
+        "country-club-of-coral-springs-golf-resort",
+        "country-club-of-coral-springs-country-club",
+        "country-club-of-coral-springs-golf",
+        "the-country-club-of-coral-springs-golf-club"
+      ]
+    },
+    {
+      "input": "The Bridges at Springtree Golf Club",
+      "city": "Sunrise",
+      "status": "miss",
+      "slugsTried": [
+        "the-bridges-at-springtree-golf-club",
+        "bridges-at-springtree-golf-club",
+        "bridges-at-springtree-golf-course",
+        "bridges-at-springtree-golf-resort",
+        "bridges-at-springtree-country-club",
+        "bridges-at-springtree-golf",
+        "bridges-at-springtree"
+      ]
+    },
+    {
+      "input": "Inverrary Country Club",
+      "city": "Lauderhill",
+      "status": "miss",
+      "slugsTried": [
+        "inverrary-country-club",
+        "inverrary-golf-club",
+        "inverrary-golf-course",
+        "inverrary-golf-resort",
+        "inverrary-golf",
+        "inverrary",
+        "the-inverrary-golf-club"
+      ]
+    },
+    {
+      "input": "Oriole Golf Club",
+      "city": "Margate",
+      "status": "miss",
+      "slugsTried": [
+        "oriole-golf-club",
+        "oriole-golf-course",
+        "oriole-golf-resort",
+        "oriole-country-club",
+        "oriole-golf",
+        "oriole",
+        "the-oriole-golf-club"
+      ]
+    },
+    {
+      "input": "Colony West Golf Club",
+      "city": "Tamarac",
+      "status": "confirmed",
+      "slug": "colony-west-country-club",
+      "courseId": "dc69c180-9694-43e5-8096-03add0d780ea",
+      "foundCity": "Tamarac",
+      "foundState": "FL",
+      "courseName": "Championship Course",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "input": "Emerald Hills Golf Club",
+      "city": "Hollywood",
+      "status": "miss",
+      "slugsTried": [
+        "emerald-hills-golf-club",
+        "emerald-hills-golf-course",
+        "emerald-hills-golf-resort",
+        "emerald-hills-country-club",
+        "emerald-hills-golf",
+        "emerald-hills",
+        "the-emerald-hills-golf-club"
+      ]
+    },
+    {
+      "input": "Hillsboro Pines Golf Course",
+      "city": "Deerfield Beach",
+      "status": "miss",
+      "slugsTried": [
+        "hillsboro-pines-golf-course",
+        "hillsboro-pines-golf-club",
+        "hillsboro-pines-golf-resort",
+        "hillsboro-pines-country-club",
+        "hillsboro-pines-golf",
+        "hillsboro-pines",
+        "the-hillsboro-pines-golf-club"
+      ]
+    },
+    {
+      "input": "Bonaventure Town Center Club",
+      "city": "Weston",
+      "status": "miss",
+      "slugsTried": [
+        "bonaventure-town-center-club",
+        "bonaventure-town-center-club-golf-club",
+        "bonaventure-town-center-club-golf-course",
+        "bonaventure-town-center-club-golf-resort",
+        "bonaventure-town-center-club-country-club",
+        "bonaventure-town-center-club-golf",
+        "the-bonaventure-town-center-club-golf-club"
+      ]
+    }
+  ],
+  "state": "FL",
+  "timestamp": "2026-02-15T07:52:34-07:00",
+  "total": 42,
+  "wrongState": 0
+}

@@ -1083,5 +1083,104 @@
     "displayName": "Smyrna Municipal Golf Course",
     "city": "Smyrna",
     "state": "TN"
+  },
+  {
+    "key": "crandon",
+    "metro": "miami",
+    "facility": "3648",
+    "alias": "crandon-golf-at-key-biscayne",
+    "displayName": "Crandon Golf at Key Biscayne",
+    "city": "Key Biscayne",
+    "state": "FL"
+  },
+  {
+    "key": "killian-greens",
+    "metro": "miami",
+    "facility": "849",
+    "alias": "killian-greens-golf-club",
+    "displayName": "Killian Greens Golf Club",
+    "city": "Miami",
+    "state": "FL"
+  },
+  {
+    "key": "costa-del-sol",
+    "metro": "miami",
+    "facility": "848",
+    "alias": "costa-del-sol-golf-club",
+    "displayName": "Costa Del Sol Golf Club",
+    "city": "Doral",
+    "state": "FL"
+  },
+  {
+    "key": "redland",
+    "metro": "miami",
+    "facility": "4446",
+    "alias": "redland-golf-and-country-club",
+    "displayName": "Redland Golf & Country Club",
+    "city": "Homestead",
+    "state": "FL"
+  },
+  {
+    "key": "grand-palms",
+    "metro": "miami",
+    "facility": "999",
+    "alias": "grand-palms-golf-resort",
+    "displayName": "Grand Palms Golf Club",
+    "city": "Pembroke Pines",
+    "state": "FL"
+  },
+  {
+    "key": "cc-coral-springs",
+    "metro": "miami",
+    "facility": "4572",
+    "alias": "country-club-of-coral-springs",
+    "displayName": "Country Club of Coral Springs",
+    "city": "Coral Springs",
+    "state": "FL"
+  },
+  {
+    "key": "bridges-springtree",
+    "metro": "miami",
+    "facility": "6442",
+    "alias": "the-bridges-at-springtree-golf-club",
+    "displayName": "The Bridges at Springtree Golf Club",
+    "city": "Sunrise",
+    "state": "FL"
+  },
+  {
+    "key": "colony-west",
+    "metro": "miami",
+    "facility": "2852",
+    "alias": "colony-west",
+    "displayName": "Colony West Golf Club",
+    "city": "Tamarac",
+    "state": "FL"
+  },
+  {
+    "key": "orangebrook",
+    "metro": "miami",
+    "alias": "orangebrook-golf-country-club",
+    "facilityId": "4482,6661",
+    "displayName": "Orangebrook Golf & Country Club",
+    "city": "Hollywood",
+    "state": "FL"
+  },
+  {
+    "key": "emerald-hills",
+    "metro": "miami",
+    "alias": "the-club-at-emerald-hills",
+    "facilityId": "10977",
+    "displayName": "The Club at Emerald Hills",
+    "city": "Hollywood",
+    "state": "FL"
+  },
+  {
+    "key": "bonaventure",
+    "metro": "miami",
+    "alias": "bonaventure-country-club-east-course",
+    "facilityId": "682",
+    "displayName": "Bonaventure Country Club",
+    "city": "Weston",
+    "state": "FL"
   }
 ]

@@ -76,6 +76,9 @@ func init() {
 	for _, c := range loadJSON[ResortSuiteCourseConfig]("data/resortsuite.json") {
 		ResortSuiteCourses[c.Key] = c
 	}
+	for _, c := range loadJSON[BookTrumpCourseConfig]("data/booktrump.json") {
+		BookTrumpCourses[c.Key] = c
+	}
 }
 
 type metroStat struct {
@@ -146,6 +149,9 @@ func MetroStats() map[string][2]int {
 		ensure(c.Metro, c.City)
 	}
 	for _, c := range ResortSuiteCourses {
+		ensure(c.Metro, c.City)
+	}
+	for _, c := range BookTrumpCourses {
 		ensure(c.Metro, c.City)
 	}
 

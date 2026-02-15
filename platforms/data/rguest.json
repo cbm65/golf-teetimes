@@ -64,5 +64,19 @@
     "displayName": "Gaylord Springs Golf Links",
     "city": "Nashville",
     "state": "TN"
+  },
+  {
+    "key": "biltmore",
+    "metro": "miami",
+    "baseUrl": "https://book.onagilysys.com",
+    "tenantId": "553",
+    "propertyId": "biltmorehotel",
+    "courseId": "560",
+    "playerTypeId": "2281",
+    "timezone": "America/New_York",
+    "bookingUrl": "https://book.onagilysys.com/onecart/golf/courses/553/biltmorehotel",
+    "displayName": "Biltmore Golf Course",
+    "city": "Coral Gables",
+    "state": "FL"
   }
 ]

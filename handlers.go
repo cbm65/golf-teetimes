@@ -310,6 +310,21 @@ func handleMetroTeeTimes(w http.ResponseWriter, r *http.Request, metro Metro) {
 		}(key, config)
 	}
 
+	// Launch BookTrump fetches for this metro
+	for key, config := range platforms.BookTrumpCourses {
+		if config.Metro != metro.Slug {
+			continue
+		}
+		wg.Add(1)
+		go func(n string, c platforms.BookTrumpCourseConfig) {
+			defer wg.Done()
+			var results []platforms.DisplayTeeTime
+			var err error
+			results, err = platforms.FetchBookTrump(c, date)
+			ch <- fetchResult{results: results, err: err, name: n}
+		}(key, config)
+	}
+
 	// Close channel when all goroutines finish
 	go func() {
 		wg.Wait()

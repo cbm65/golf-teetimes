@@ -212,6 +212,15 @@ func findResortSuiteConfig(course string) (platforms.ResortSuiteCourseConfig, bo
 	return platforms.ResortSuiteCourseConfig{}, false
 }
 
+func findBookTrumpConfig(course string) (platforms.BookTrumpCourseConfig, bool) {
+	for _, config := range platforms.BookTrumpCourses {
+		if config.DisplayName == course {
+			return config, true
+		}
+	}
+	return platforms.BookTrumpCourseConfig{}, false
+}
+
 func fetchForCourse(course string, date string) ([]platforms.DisplayTeeTime, error) {
 	var cgConfig platforms.ChronogolfCourseConfig
 	var cgFound bool
@@ -330,6 +339,13 @@ func fetchForCourse(course string, date string) ([]platforms.DisplayTeeTime, err
 	rsConfig, rsFound = findResortSuiteConfig(course)
 	if rsFound {
 		return platforms.FetchResortSuite(rsConfig, date)
+	}
+
+	var btConfig platforms.BookTrumpCourseConfig
+	var btFound bool
+	btConfig, btFound = findBookTrumpConfig(course)
+	if btFound {
+		return platforms.FetchBookTrump(btConfig, date)
 	}
 
 	// Default to Denver
@@ -454,6 +470,13 @@ func bookingURLForCourse(course string) string {
 	rsConfig, rsFound = findResortSuiteConfig(course)
 	if rsFound {
 		return rsConfig.BookingURL
+	}
+
+	var btConfig platforms.BookTrumpCourseConfig
+	var btFound bool
+	btConfig, btFound = findBookTrumpConfig(course)
+	if btFound {
+		return btConfig.BookingURL
 	}
 
 	return platforms.MemberSportsCourses["denver"].BookingURL

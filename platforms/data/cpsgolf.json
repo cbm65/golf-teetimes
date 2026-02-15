@@ -240,5 +240,37 @@
     "city": "Murfreesboro",
     "state": "TN",
     "timezone": "America/Chicago"
+  },
+  {
+    "key": "miami-lakes",
+    "metro": "miami",
+    "baseUrl": "https://miamilakes.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "d2d549a8-f235-433a-6291-08daf5ccc931",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://miamilakes.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Miami Lakes Golf Club": "Miami Lakes Golf Club"
+    },
+    "city": "Miami Lakes",
+    "state": "FL",
+    "timezone": "America/New_York"
+  },
+  {
+    "key": "oriole",
+    "metro": "miami",
+    "baseUrl": "https://oriolegc.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "18dda4e6-5af0-4b47-ef1e-08daa629da2f",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://oriolegc.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Oriole Golf Club": "Oriole Golf Club"
+    },
+    "city": "Margate",
+    "state": "FL",
+    "timezone": "America/New_York"
   }
 ]

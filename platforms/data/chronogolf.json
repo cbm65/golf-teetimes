@@ -216,11 +216,85 @@
   {
     "key": "franklin-bridge",
     "metro": "nashville",
-    "slug": "franklin-bridge-golf-club",
-    "displayName": "Franklin Bridge Golf Club",
     "city": "Franklin",
     "state": "TN",
-    "courseId": "821f797f-dcd2-4590-9986-4559c9db4a85",
-    "affiliationTypeId": "127733"
+    "affiliationTypeId": "127733",
+    "courseIds": "821f797f-dcd2-4590-9986-4559c9db4a85",
+    "clubId": "",
+    "numericCourseId": "",
+    "bookingUrl": "https://www.chronogolf.com/club/franklin-bridge-golf-club",
+    "names": {
+      "Franklin Bridge Golf Club": "Franklin Bridge Golf Club"
+    }
+  },
+  {
+    "key": "miami-beach-gc",
+    "metro": "miami",
+    "affiliationTypeId": "98167",
+    "bookingUrl": "https://www.chronogolf.com/club/miami-beach-golf-club",
+    "city": "Miami Beach",
+    "state": "FL",
+    "courseIds": "2be40f28-6aab-46ee-984b-c69e7c22d0ce",
+    "clubId": "",
+    "numericCourseId": "",
+    "names": {
+      "Miami Beach Golf Club": "Miami Beach Golf Club"
+    }
+  },
+  {
+    "key": "normandy-shores",
+    "metro": "miami",
+    "affiliationTypeId": "98168",
+    "bookingUrl": "https://www.chronogolf.com/club/normandy-shores-golf-course",
+    "city": "Miami Beach",
+    "state": "FL",
+    "courseIds": "ee1a71d5-7edf-46a5-a37d-d08f171d9082",
+    "clubId": "",
+    "numericCourseId": "",
+    "names": {
+      "Normandy Shores Golf Club": "Normandy Shores Golf Club"
+    }
+  },
+  {
+    "key": "miami-shores",
+    "metro": "miami",
+    "affiliationTypeId": "17370",
+    "bookingUrl": "https://www.chronogolf.com/club/miami-shores-country-club",
+    "city": "Miami Shores",
+    "state": "FL",
+    "courseIds": "f0675506-a29b-47ce-80ba-c00aba0f1e57",
+    "clubId": "",
+    "numericCourseId": "",
+    "names": {
+      "Miami Shores Country Club": "Miami Shores Country Club"
+    }
+  },
+  {
+    "key": "pembroke-lakes",
+    "metro": "miami",
+    "affiliationTypeId": "17734",
+    "bookingUrl": "https://www.chronogolf.com/club/pembroke-lakes-golf-and-racquet-club",
+    "city": "Pembroke Pines",
+    "state": "FL",
+    "courseIds": "943be6af-27a3-4dd1-b817-3bd537433390",
+    "clubId": "",
+    "numericCourseId": "",
+    "names": {
+      "Pembroke Lakes Golf & Racquet Club": "Pembroke Lakes Golf & Racquet Club"
+    }
+  },
+  {
+    "key": "miccosukee",
+    "metro": "miami",
+    "affiliationTypeId": "17378",
+    "bookingUrl": "https://www.chronogolf.com/club/miccosukee-golf-country-club",
+    "city": "Miami",
+    "state": "FL",
+    "courseIds": "9512260c-579b-4abe-94ca-b9e79bf96d90",
+    "clubId": "",
+    "numericCourseId": "",
+    "names": {
+      "Miccosukee Golf & Country Club": "Miccosukee Golf & Country Club"
+    }
   }
 ]

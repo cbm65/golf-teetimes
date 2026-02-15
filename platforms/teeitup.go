@@ -44,7 +44,7 @@ func TeeItUpTimezone(state string) *time.Location {
 	switch state {
 	case "AZ":
 		tz = "America/Phoenix"
-	case "GA":
+	case "FL", "GA", "TN":
 		tz = "America/New_York"
 	case "NV":
 		tz = "America/Los_Angeles"

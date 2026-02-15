@@ -97,5 +97,25 @@
       "Meadows": "Meadows Golf Club",
       "Meadows Back Nine": "Meadows Golf Club - Back Nine"
     }
+  },
+  {
+    "key": "eco-golf",
+    "metro": "miami",
+    "apiKey": "A9814038-9E19-4683-B171-5A06B39147FC",
+    "apiUrl": "https://api.membersports.com/api/v1/golfclubs/onlineBookingTeeTimes",
+    "clubId": 4248,
+    "courseId": 5482,
+    "groupId": 0,
+    "configType": 0,
+    "bookingUrl": "https://app.membersports.com/tee-times/4248/5482/0/0/0",
+    "namePrefix": "",
+    "knownCourses": [
+      "Eco"
+    ],
+    "city": "Hollywood",
+    "state": "FL",
+    "names": {
+      "Eco": "Eco Golf Course"
+    }
   }
 ]

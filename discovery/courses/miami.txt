@@ -1,0 +1,51 @@
+# Miami Metro Area - Public & Semi-Private Golf Courses
+# Covers Miami-Dade and Broward Counties
+# Format: Course Name | City
+
+# --- Miami-Dade County Municipal ---
+Crandon Golf at Key Biscayne | Key Biscayne
+Country Club of Miami - East Course | Miami
+Country Club of Miami - West Course | Miami
+Palmetto Golf Course | Miami
+Greynolds Golf Course | North Miami Beach
+Briar Bay Golf Course | Miami
+
+# --- Miami-Dade Public/Resort ---
+Trump National Doral - Blue Monster | Miami
+Trump National Doral - Red Tiger | Miami
+Trump National Doral - Golden Palm | Miami
+Trump National Doral - Silver Fox | Miami
+Miami Beach Golf Club | Miami Beach
+Normandy Shores Golf Club | Miami Beach
+Biltmore Golf Course | Coral Gables
+Killian Greens Golf Club | Miami
+Miami Shores Country Club | Miami Shores
+Melreese Golf Course | Miami
+Shula's Golf Club | Miami Lakes
+JW Marriott Turnberry - Soffer Course | Aventura
+JW Marriott Turnberry - Miller Course | Aventura
+Costa Del Sol Golf Club | Miami
+Miccosukee Golf & Country Club | Miami
+Redland Golf & Country Club | Homestead
+
+# --- Broward County Public/Semi-Private ---
+Jacaranda Golf Club | Plantation
+Plantation Preserve Golf Course | Plantation
+Hollywood Beach Golf Club (CLOSED) / Eco Golf Course | Hollywood
+Orangebrook Golf Course | Hollywood
+Pembroke Lakes Golf & Racquet Club | Pembroke Pines
+Grand Palms Golf Club | Pembroke Pines
+Pompano Beach Golf Course - Pines | Pompano Beach
+Pompano Beach Golf Course - Palms | Pompano Beach
+Palm-Aire Country Club - Oaks | Pompano Beach
+Palm-Aire Country Club - Cypress | Pompano Beach
+Deer Creek Golf Club | Deerfield Beach
+Heron Bay Golf Club | Coral Springs
+Country Club of Coral Springs | Coral Springs
+The Bridges at Springtree Golf Club | Sunrise
+Inverrary Country Club | Lauderhill
+Oriole Golf Club | Margate
+Colony West Golf Club | Tamarac
+Emerald Hills Golf Club | Hollywood
+Hillsboro Pines Golf Course | Deerfield Beach
+Bonaventure Town Center Club | Weston
