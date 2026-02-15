@@ -66,13 +66,35 @@
   },
   {
     "key": "hawks-creek",
-    "metro": "atlanta",
+    "metro": "dallas",
     "courseId": "21952",
     "bookingClass": "12804",
     "scheduleId": "9440",
     "bookingUrl": "",
     "displayName": "Hawks Creek Golf Club",
-    "city": "Westmoreland",
+    "city": "Westworth Village",
     "state": "GA"
+  },
+  {
+    "key": "grapevine",
+    "metro": "dallas",
+    "courseId": "19536",
+    "bookingClass": "12800",
+    "scheduleId": "1832",
+    "bookingUrl": "",
+    "displayName": "Grapevine Golf Course",
+    "city": "Grapevine",
+    "state": "TX"
+  },
+  {
+    "key": "watters-creek",
+    "metro": "dallas",
+    "courseId": "22168",
+    "bookingClass": "13795",
+    "scheduleId": "10027",
+    "bookingUrl": "",
+    "displayName": "The Courses at Watters Creek",
+    "city": "Plano",
+    "state": "TX"
   }
 ]

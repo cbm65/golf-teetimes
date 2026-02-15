@@ -250,6 +250,51 @@ func handleMetroTeeTimes(w http.ResponseWriter, r *http.Request, metro Metro) {
 		}(key, config)
 	}
 
+	// Launch Prophet Services fetches for this metro
+	for key, config := range platforms.ProphetCourses {
+		if config.Metro != metro.Slug {
+			continue
+		}
+		wg.Add(1)
+		go func(n string, c platforms.ProphetCourseConfig) {
+			defer wg.Done()
+			var results []platforms.DisplayTeeTime
+			var err error
+			results, err = platforms.FetchProphet(c, date)
+			ch <- fetchResult{results: results, err: err, name: n}
+		}(key, config)
+	}
+
+	// Launch Purpose Golf fetches for this metro
+	for key, config := range platforms.PurposeGolfCourses {
+		if config.Metro != metro.Slug {
+			continue
+		}
+		wg.Add(1)
+		go func(n string, c platforms.PurposeGolfCourseConfig) {
+			defer wg.Done()
+			var results []platforms.DisplayTeeTime
+			var err error
+			results, err = platforms.FetchPurposeGolf(c, date)
+			ch <- fetchResult{results: results, err: err, name: n}
+		}(key, config)
+	}
+
+	// Launch TeeQuest fetches for this metro
+	for key, config := range platforms.TeeQuestCourses {
+		if config.Metro != metro.Slug {
+			continue
+		}
+		wg.Add(1)
+		go func(n string, c platforms.TeeQuestCourseConfig) {
+			defer wg.Done()
+			var results []platforms.DisplayTeeTime
+			var err error
+			results, err = platforms.FetchTeeQuest(c, date)
+			ch <- fetchResult{results: results, err: err, name: n}
+		}(key, config)
+	}
+
 	// Close channel when all goroutines finish
 	go func() {
 		wg.Wait()

@@ -176,6 +176,33 @@ func findForeUpConfig(course string) (platforms.ForeUpCourseConfig, bool) {
 	return platforms.ForeUpCourseConfig{}, false
 }
 
+func findProphetConfig(course string) (platforms.ProphetCourseConfig, bool) {
+	for _, config := range platforms.ProphetCourses {
+		if config.DisplayName == course {
+			return config, true
+		}
+	}
+	return platforms.ProphetCourseConfig{}, false
+}
+
+func findPurposeGolfConfig(course string) (platforms.PurposeGolfCourseConfig, bool) {
+	for _, config := range platforms.PurposeGolfCourses {
+		if config.DisplayName == course {
+			return config, true
+		}
+	}
+	return platforms.PurposeGolfCourseConfig{}, false
+}
+
+func findTeeQuestConfig(course string) (platforms.TeeQuestCourseConfig, bool) {
+	for _, config := range platforms.TeeQuestCourses {
+		if config.DisplayName == course {
+			return config, true
+		}
+	}
+	return platforms.TeeQuestCourseConfig{}, false
+}
+
 func fetchForCourse(course string, date string) ([]platforms.DisplayTeeTime, error) {
 	var cgConfig platforms.ChronogolfCourseConfig
 	var cgFound bool
@@ -266,6 +293,27 @@ func fetchForCourse(course string, date string) ([]platforms.DisplayTeeTime, err
 	fuConfig, fuFound = findForeUpConfig(course)
 	if fuFound {
 		return platforms.FetchForeUp(fuConfig, date)
+	}
+
+	var prConfig platforms.ProphetCourseConfig
+	var prFound bool
+	prConfig, prFound = findProphetConfig(course)
+	if prFound {
+		return platforms.FetchProphet(prConfig, date)
+	}
+
+	var pgConfig platforms.PurposeGolfCourseConfig
+	var pgFound bool
+	pgConfig, pgFound = findPurposeGolfConfig(course)
+	if pgFound {
+		return platforms.FetchPurposeGolf(pgConfig, date)
+	}
+
+	var tqConfig platforms.TeeQuestCourseConfig
+	var tqFound bool
+	tqConfig, tqFound = findTeeQuestConfig(course)
+	if tqFound {
+		return platforms.FetchTeeQuest(tqConfig, date)
 	}
 
 	// Default to Denver
@@ -362,6 +410,27 @@ func bookingURLForCourse(course string) string {
 	fuConfig, fuFound = findForeUpConfig(course)
 	if fuFound {
 		return fuConfig.BookingURL
+	}
+
+	var prConfig platforms.ProphetCourseConfig
+	var prFound bool
+	prConfig, prFound = findProphetConfig(course)
+	if prFound {
+		return prConfig.BookingURL
+	}
+
+	var pgConfig platforms.PurposeGolfCourseConfig
+	var pgFound bool
+	pgConfig, pgFound = findPurposeGolfConfig(course)
+	if pgFound {
+		return pgConfig.BookingURL
+	}
+
+	var tqConfig platforms.TeeQuestCourseConfig
+	var tqFound bool
+	tqConfig, tqFound = findTeeQuestConfig(course)
+	if tqFound {
+		return tqConfig.BookingURL
 	}
 
 	return platforms.MemberSportsCourses["denver"].BookingURL

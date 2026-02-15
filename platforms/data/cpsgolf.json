@@ -80,5 +80,133 @@
     "city": "Henderson",
     "state": "NV",
     "timezone": "America/Denver"
+  },
+  {
+    "key": "golf-club-of-dallas",
+    "metro": "dallas",
+    "baseUrl": "https://golfclubofdallas.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "3baf7d6b-f6d1-4281-2fc9-08daf3155433",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://golfclubofdallas.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Golf Club of Dallas": "The Golf Club of Dallas"
+    },
+    "city": "Dallas",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "stevens-park",
+    "metro": "dallas",
+    "baseUrl": "https://dallasstevenspark.cps.golf",
+    "apiKey": "",
+    "websiteId": "3fa6ba45-e411-4bd4-88dc-08dbc0319d15",
+    "siteId": "1",
+    "courseIds": "4",
+    "bookingUrl": "https://dallasstevenspark.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Stevens Park": "Stevens Park Golf Course"
+    },
+    "city": "Dallas",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "cedar-crest",
+    "metro": "dallas",
+    "baseUrl": "https://dallascedarcrest.cps.golf",
+    "apiKey": "",
+    "websiteId": "2455a144-ad49-4743-77b1-08db57d15c79",
+    "siteId": "1",
+    "courseIds": "7",
+    "bookingUrl": "https://dallascedarcrest.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Cedar Crest": "Cedar Crest Golf Course"
+    },
+    "city": "Dallas",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "tenison-glen",
+    "metro": "dallas",
+    "baseUrl": "https://dallastenison.cps.golf",
+    "apiKey": "",
+    "websiteId": "642cdd4e-2535-4fea-0899-08db47fa63b9",
+    "siteId": "6",
+    "courseIds": "5",
+    "bookingUrl": "https://dallastenison.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "TENISON GLEN": "Tenison Park Golf - Glen"
+    },
+    "city": "Dallas",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "tenison-highlands",
+    "metro": "dallas",
+    "baseUrl": "https://dallastenison.cps.golf",
+    "apiKey": "",
+    "websiteId": "642cdd4e-2535-4fea-0899-08db47fa63b9",
+    "siteId": "6",
+    "courseIds": "6",
+    "bookingUrl": "https://dallastenison.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "TENISON HIGHLANDS": "Tenison Park Golf - Highlands"
+    },
+    "city": "Dallas",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "lake-arlington",
+    "metro": "dallas",
+    "baseUrl": "https://arlington.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "e00a573e-b193-4735-fbc0-08dd6ceee947",
+    "siteId": "1",
+    "courseIds": "2",
+    "bookingUrl": "https://arlington.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Lake Arlington": "Lake Arlington Golf Course"
+    },
+    "city": "Arlington",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "meadowbrook-park",
+    "metro": "dallas",
+    "baseUrl": "https://arlington.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "e00a573e-b193-4735-fbc0-08dd6ceee947",
+    "siteId": "1",
+    "courseIds": "4",
+    "bookingUrl": "https://arlington.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Meadowbrook Park": "Meadowbrook Park Golf Course"
+    },
+    "city": "Arlington",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "texas-rangers",
+    "metro": "dallas",
+    "baseUrl": "https://arlington.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "e00a573e-b193-4735-fbc0-08dd6ceee947",
+    "siteId": "1",
+    "courseIds": "6",
+    "bookingUrl": "https://arlington.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Texas Rangers": "Texas Rangers Golf Club"
+    },
+    "city": "Arlington",
+    "state": "TX",
+    "timezone": "America/Chicago"
   }
 ]

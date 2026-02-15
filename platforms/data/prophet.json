@@ -1,0 +1,98 @@
+[
+  {
+    "key": "keeton-park",
+    "metro": "dallas",
+    "baseUrl": "https://secure.west.prophetservices.com/KeetonParkv3",
+    "slug": "KeetonPark",
+    "courseId": "4",
+    "courseGuid": "401c6723-9ceb-4326-b030-befd4ede7a42",
+    "siteId": "5",
+    "bookingUrl": "",
+    "names": {
+      "Keeton Park": "Keeton Park Golf Course"
+    },
+    "displayName": "Keeton Park Golf Course",
+    "city": "Dallas",
+    "state": "TX"
+  },
+  {
+    "key": "luna-vista",
+    "metro": "dallas",
+    "baseUrl": "https://secure.west.prophetservices.com/LunaVistav3",
+    "slug": "LunaVista",
+    "courseId": "4",
+    "courseGuid": "401c6723-9ceb-4326-b030-befd4ede7a42",
+    "siteId": "5",
+    "bookingUrl": "",
+    "names": {
+      "Luna Vista": "Luna Vista Golf Course"
+    },
+    "displayName": "Luna Vista Golf Course",
+    "city": "Dallas",
+    "state": "TX"
+  },
+  {
+    "key": "meadowbrook",
+    "metro": "dallas",
+    "baseUrl": "https://secure.east.prophetservices.com/MeadowbrookV3",
+    "slug": "Meadowbrook",
+    "courseId": "7",
+    "courseGuid": "4cf47cc5-210a-4c04-9601-133c25a32a07",
+    "siteId": "2",
+    "bookingUrl": "",
+    "names": {
+      "Meadowbrook": "Meadowbrook Golf Course"
+    },
+    "displayName": "Meadowbrook Golf Course",
+    "city": "Fort Worth",
+    "state": "TX"
+  },
+  {
+    "key": "rockwood-park",
+    "metro": "dallas",
+    "baseUrl": "https://secure.east.prophetservices.com/RockwoodV3",
+    "slug": "Rockwood",
+    "courseId": "5",
+    "courseGuid": "01a34050-6b66-41fd-b17c-93cbd81896c9",
+    "siteId": "4",
+    "bookingUrl": "",
+    "names": {
+      "Rockwood Park": "Rockwood Park Golf Course"
+    },
+    "displayName": "Rockwood Park Golf Course",
+    "city": "Fort Worth",
+    "state": "TX"
+  },
+  {
+    "key": "pecan-valley-hills",
+    "metro": "dallas",
+    "baseUrl": "https://secure.east.prophetservices.com/PecanValleyV3",
+    "slug": "PecanValley",
+    "courseId": "4",
+    "courseGuid": "beed3a55-4063-42b9-b9d6-cdfb25254382",
+    "siteId": "3",
+    "bookingUrl": "",
+    "names": {
+      "Pecan Valley Hills": "Pecan Valley Golf Course - Hills"
+    },
+    "displayName": "Pecan Valley Golf Course - Hills",
+    "city": "Fort Worth",
+    "state": "TX"
+  },
+  {
+    "key": "pecan-valley-river",
+    "metro": "dallas",
+    "baseUrl": "https://secure.east.prophetservices.com/PecanValleyV3",
+    "slug": "PecanValley",
+    "courseId": "3",
+    "courseGuid": "5a4140f6-bb92-4b62-afee-80a54337c6aa",
+    "siteId": "3",
+    "bookingUrl": "",
+    "names": {
+      "Pecan Valley River": "Pecan Valley Golf Course - River"
+    },
+    "displayName": "Pecan Valley Golf Course - River",
+    "city": "Fort Worth",
+    "state": "TX"
+  }
+]

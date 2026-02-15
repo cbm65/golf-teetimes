@@ -921,5 +921,68 @@
     "displayName": "Hampton Golf Club",
     "city": "Hampton",
     "state": "GA"
+  },
+  {
+    "key": "pecan-hollow",
+    "metro": "dallas",
+    "alias": "pecan-hollow-golf-course",
+    "facilityId": "1307",
+    "displayName": "Pecan Hollow Golf Course",
+    "city": "Plano",
+    "state": "TX"
+  },
+  {
+    "key": "tangle-ridge",
+    "metro": "dallas",
+    "alias": "tangle-ridge-golf-club",
+    "facilityId": "846",
+    "displayName": "Tangle Ridge Golf Club",
+    "city": "Grand Prairie",
+    "state": "TX"
+  },
+  {
+    "key": "champions-circle",
+    "metro": "dallas",
+    "alias": "golf-club-at-champions-circle",
+    "facilityId": "1280",
+    "displayName": "The Golf Club at Champions Circle",
+    "city": "Fort Worth",
+    "state": "TX"
+  },
+  {
+    "key": "waterchase",
+    "metro": "dallas",
+    "alias": "waterchase-golf-club",
+    "facilityId": "48",
+    "displayName": "Waterchase Golf Club",
+    "city": "Fort Worth",
+    "state": "TX"
+  },
+  {
+    "key": "firewheel",
+    "metro": "dallas",
+    "alias": "firewheel-golf-park",
+    "facilityId": "9413",
+    "displayName": "Firewheel Golf Park - Bridges",
+    "city": "Garland",
+    "state": "TX"
+  },
+  {
+    "key": "duck-creek",
+    "metro": "dallas",
+    "alias": "duck-creek-golf-club",
+    "facilityId": "10769",
+    "displayName": "Duck Creek Golf Club",
+    "city": "Garland",
+    "state": "TX"
+  },
+  {
+    "key": "waterview",
+    "metro": "dallas",
+    "alias": "waterview-golf-club",
+    "facilityId": "32",
+    "displayName": "Waterview Golf Club",
+    "city": "Rowlett",
+    "state": "TX"
   }
 ]

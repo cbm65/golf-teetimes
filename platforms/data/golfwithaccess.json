@@ -70,5 +70,18 @@
     "displayName": "Chateau Elan Golf Club",
     "city": "Braselton",
     "state": "GA"
+  },
+  {
+    "key": "heritage-ranch",
+    "metro": "dallas",
+    "courseIds": [
+      "da4af8ed-99a7-4f4d-b2f6-90a68b96489a",
+      "d64afba3-d286-4d61-9ebb-1369489e5e18"
+    ],
+    "slug": "heritage-ranch-golf-and-country-club",
+    "bookingUrl": "https://golfwithaccess.com/course/heritage-ranch-golf-and-country-club/reserve-tee-time",
+    "displayName": "Heritage Ranch Golf & Country Club",
+    "city": "McKinney",
+    "state": "TX"
   }
 ]

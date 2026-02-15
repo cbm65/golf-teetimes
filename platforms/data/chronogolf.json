@@ -114,5 +114,89 @@
     },
     "city": "Canton",
     "state": "GA"
+  },
+  {
+    "key": "frisco-lakes",
+    "metro": "dallas",
+    "courseIds": "439f9a99-3c0e-4f6d-b7d8-340c9fb928c0",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "111218",
+    "bookingUrl": "https://www.chronogolf.com/club/frisco-lakes-golf-club",
+    "names": {
+      "Frisco Lakes' Championship": "Frisco Lakes Golf Club"
+    },
+    "city": "Frisco",
+    "state": "TX"
+  },
+  {
+    "key": "sky-creek-ranch",
+    "metro": "dallas",
+    "courseIds": "09d47afb-6d67-475b-a575-315d04e40428",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "56726",
+    "bookingUrl": "https://www.chronogolf.com/club/sky-creek-ranch-golf-club",
+    "names": {
+      "Sky Creek Ranch": "Sky Creek Ranch Golf Club"
+    },
+    "city": "Keller",
+    "state": "TX"
+  },
+  {
+    "key": "iron-horse",
+    "metro": "dallas",
+    "courseIds": "e20ec927-d61c-49b2-a5b4-48d4f261a5f8",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "131653",
+    "bookingUrl": "https://www.chronogolf.com/club/iron-horse-golf-course",
+    "names": {
+      "Iron Horse": "Iron Horse Golf Course"
+    },
+    "city": "North Richland Hills",
+    "state": "TX"
+  },
+  {
+    "key": "buffalo-creek",
+    "metro": "dallas",
+    "courseIds": "3efe4158-cd82-4e9a-82a0-19ceb157c76b",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "96456",
+    "bookingUrl": "https://www.chronogolf.com/club/buffalo-creek-golf-club-texas",
+    "names": {
+      "Buffalo Creek": "Buffalo Creek Golf Club"
+    },
+    "city": "Rockwall",
+    "state": "TX"
+  },
+  {
+    "key": "bridlewood",
+    "metro": "dallas",
+    "courseIds": "a4993a59-a654-42d9-a0e9-6b3dcd6bc72a",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "54722",
+    "bookingUrl": "https://www.chronogolf.com/club/bridlewood-golf-club",
+    "names": {
+      "Bridlewood": "Bridlewood Golf Club"
+    },
+    "city": "Flower Mound",
+    "state": "TX"
+  },
+  {
+    "key": "woodbridge",
+    "metro": "dallas",
+    "courseIds": "2dc00c55-ea42-4992-98a3-3b1c52304ba2",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "105683",
+    "bookingUrl": "https://www.chronogolf.com/club/woodbridge-golf-club-texas",
+    "names": {
+      "Woodbridge": "Woodbridge Golf Club"
+    },
+    "city": "Wylie",
+    "state": "TX"
   }
 ]

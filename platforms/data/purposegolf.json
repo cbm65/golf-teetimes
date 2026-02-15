@@ -1,0 +1,22 @@
+[
+  {
+    "key": "sherrill-park-1",
+    "metro": "dallas",
+    "courseId": 2,
+    "slug": "SherrillParkCourse1",
+    "displayName": "Sherrill Park Golf Course #1",
+    "city": "Richardson",
+    "state": "TX",
+    "bookingUrl": "https://booking.purposegolf.com/courses/SherrillParkCourse1/2/teetimes"
+  },
+  {
+    "key": "sherrill-park-2",
+    "metro": "dallas",
+    "courseId": 3,
+    "slug": "SherrillParkCourse2",
+    "displayName": "Sherrill Park Golf Course #2",
+    "city": "Richardson",
+    "state": "TX",
+    "bookingUrl": "https://booking.purposegolf.com/courses/SherrillParkCourse2/3/teetimes"
+  }
+]

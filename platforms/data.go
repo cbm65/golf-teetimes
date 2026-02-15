@@ -64,6 +64,15 @@ func init() {
 	for _, c := range loadJSON[TeeSnapCourseConfig]("data/teesnap.json") {
 		TeeSnapCourses[c.Key] = c
 	}
+	for _, c := range loadJSON[ProphetCourseConfig]("data/prophet.json") {
+		ProphetCourses[c.Key] = c
+	}
+	for _, c := range loadJSON[PurposeGolfCourseConfig]("data/purposegolf.json") {
+		PurposeGolfCourses[c.Key] = c
+	}
+	for _, c := range loadJSON[TeeQuestCourseConfig]("data/teequest.json") {
+		TeeQuestCourses[c.Key] = c
+	}
 }
 
 type metroStat struct {
@@ -121,6 +130,15 @@ func MetroStats() map[string][2]int {
 		ensure(c.Metro, c.City)
 	}
 	for _, c := range ForeUpCourses {
+		ensure(c.Metro, c.City)
+	}
+	for _, c := range ProphetCourses {
+		ensure(c.Metro, c.City)
+	}
+	for _, c := range PurposeGolfCourses {
+		ensure(c.Metro, c.City)
+	}
+	for _, c := range TeeQuestCourses {
 		ensure(c.Metro, c.City)
 	}
 

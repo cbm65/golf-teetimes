@@ -1,0 +1,875 @@
+{
+  "confirmed": 0,
+  "elapsed": "2m47.150512541s",
+  "listedOnly": 1,
+  "missed": 59,
+  "platform": "quick18",
+  "results": [
+    {
+      "input": "Stevens Park Golf Course",
+      "city": "Dallas",
+      "status": "miss",
+      "slugsTried": [
+        "stevenspark",
+        "stevensparkgolfcourse",
+        "stevensparkgolf",
+        "stevensparkgolfclub",
+        "stevensparkcc",
+        "stevens-park-golf-course",
+        "stevens-park"
+      ]
+    },
+    {
+      "input": "Cedar Crest Golf Course",
+      "city": "Dallas",
+      "status": "miss",
+      "slugsTried": [
+        "cedarcrest",
+        "cedarcrestgolfcourse",
+        "cedarcrestgolf",
+        "cedarcrestgolfclub",
+        "cedarcrestcc",
+        "cedar-crest-golf-course",
+        "cedar-crest"
+      ]
+    },
+    {
+      "input": "Keeton Park Golf Course",
+      "city": "Dallas",
+      "status": "miss",
+      "slugsTried": [
+        "keetonpark",
+        "keetonparkgolfcourse",
+        "keetonparkgolf",
+        "keetonparkgolfclub",
+        "keetonparkcc",
+        "keeton-park-golf-course",
+        "keeton-park"
+      ]
+    },
+    {
+      "input": "Luna Vista Golf Course",
+      "city": "Dallas",
+      "status": "miss",
+      "slugsTried": [
+        "lunavista",
+        "lunavistagolfcourse",
+        "lunavistagolf",
+        "lunavistagolfclub",
+        "lunavistacc",
+        "luna-vista-golf-course",
+        "luna-vista"
+      ]
+    },
+    {
+      "input": "Tenison Park Golf Club - Glen",
+      "city": "Dallas",
+      "status": "miss",
+      "slugsTried": [
+        "tenisonparkgolfclubglen",
+        "tenisonparkgolfclubglengolf",
+        "tenisonparkgolfclubglengolfclub",
+        "tenisonparkgolfclubglengolfcourse",
+        "tenisonparkgolfclubglencc",
+        "tenison-park-golf-club---glen",
+        "tenisonpark",
+        "tenisonparkgolfclub",
+        "tenisonparkgolf"
+      ]
+    },
+    {
+      "input": "Tenison Park Golf Club - Highlands",
+      "city": "Dallas",
+      "status": "miss",
+      "slugsTried": [
+        "tenisonparkgolfclubhighlands",
+        "tenisonparkgolfclubhighlandsgolf",
+        "tenisonparkgolfclubhighlandsgolfclub",
+        "tenisonparkgolfclubhighlandsgolfcourse",
+        "tenisonparkgolfclubhighlandscc",
+        "tenison-park-golf-club---highlands",
+        "tenisonpark",
+        "tenisonparkgolfclub",
+        "tenisonparkgolf"
+      ]
+    },
+    {
+      "input": "Meadowbrook Golf Course",
+      "city": "Fort Worth",
+      "status": "miss",
+      "slugsTried": [
+        "meadowbrook",
+        "meadowbrookgolfcourse",
+        "meadowbrookgolf",
+        "meadowbrookgolfclub",
+        "meadowbrookcc",
+        "meadowbrook-golf-course"
+      ]
+    },
+    {
+      "input": "Pecan Valley Golf Course - River",
+      "city": "Fort Worth",
+      "status": "miss",
+      "slugsTried": [
+        "pecanvalleygolfcourseriver",
+        "pecanvalleygolfcourserivergolf",
+        "pecanvalleygolfcourserivergolfclub",
+        "pecanvalleygolfcourserivergolfcourse",
+        "pecanvalleygolfcourserivercc",
+        "pecan-valley-golf-course---river",
+        "pecanvalley",
+        "pecanvalleygolfcourse",
+        "pecanvalleygolf",
+        "pecanvalleygolfclub"
+      ]
+    },
+    {
+      "input": "Pecan Valley Golf Course - Hills",
+      "city": "Fort Worth",
+      "status": "miss",
+      "slugsTried": [
+        "pecanvalleygolfcoursehills",
+        "pecanvalleygolfcoursehillsgolf",
+        "pecanvalleygolfcoursehillsgolfclub",
+        "pecanvalleygolfcoursehillsgolfcourse",
+        "pecanvalleygolfcoursehillscc",
+        "pecan-valley-golf-course---hills",
+        "pecanvalley",
+        "pecanvalleygolfcourse",
+        "pecanvalleygolf",
+        "pecanvalleygolfclub"
+      ]
+    },
+    {
+      "input": "Rockwood Park Golf Course",
+      "city": "Fort Worth",
+      "status": "miss",
+      "slugsTried": [
+        "rockwoodpark",
+        "rockwoodparkgolfcourse",
+        "rockwoodparkgolf",
+        "rockwoodparkgolfclub",
+        "rockwoodparkcc",
+        "rockwood-park-golf-course",
+        "rockwood-park"
+      ]
+    },
+    {
+      "input": "Fields Ranch - East",
+      "city": "Frisco",
+      "status": "miss",
+      "slugsTried": [
+        "fieldsrancheast",
+        "fieldsrancheastgolf",
+        "fieldsrancheastgolfclub",
+        "fieldsrancheastgolfcourse",
+        "fieldsrancheastcc",
+        "fields-ranch---east",
+        "fieldsranch",
+        "fieldsranchgolf",
+        "fieldsranchgolfclub"
+      ]
+    },
+    {
+      "input": "Fields Ranch - West",
+      "city": "Frisco",
+      "status": "miss",
+      "slugsTried": [
+        "fieldsranchwest",
+        "fieldsranchwestgolf",
+        "fieldsranchwestgolfclub",
+        "fieldsranchwestgolfcourse",
+        "fieldsranchwestcc",
+        "fields-ranch---west",
+        "fieldsranch",
+        "fieldsranchgolf",
+        "fieldsranchgolfclub"
+      ]
+    },
+    {
+      "input": "Cowboys Golf Club",
+      "city": "Grapevine",
+      "status": "listed_only",
+      "subdomain": "cowboys",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Tribute Golf Club",
+      "city": "The Colony",
+      "status": "miss",
+      "slugsTried": [
+        "tribute",
+        "thetributegolfclub",
+        "tributegolf",
+        "tributegolfclub",
+        "tributegolfcourse",
+        "tributecc",
+        "the-tribute-golf-club",
+        "tributegolfclubgolf"
+      ]
+    },
+    {
+      "input": "Old American Golf Club",
+      "city": "The Colony",
+      "status": "miss",
+      "slugsTried": [
+        "oldamerican",
+        "oldamericangolfclub",
+        "oldamericangolf",
+        "oldamericangolfcourse",
+        "oldamericancc",
+        "old-american-golf-club",
+        "old-american"
+      ]
+    },
+    {
+      "input": "Sherrill Park Golf Course",
+      "city": "Richardson",
+      "status": "miss",
+      "slugsTried": [
+        "sherrillpark",
+        "sherrillparkgolfcourse",
+        "sherrillparkgolf",
+        "sherrillparkgolfclub",
+        "sherrillparkcc",
+        "sherrill-park-golf-course",
+        "sherrill-park"
+      ]
+    },
+    {
+      "input": "Pecan Hollow Golf Course",
+      "city": "Plano",
+      "status": "miss",
+      "slugsTried": [
+        "pecanhollow",
+        "pecanhollowgolfcourse",
+        "pecanhollowgolf",
+        "pecanhollowgolfclub",
+        "pecanhollowcc",
+        "pecan-hollow-golf-course",
+        "pecan-hollow"
+      ]
+    },
+    {
+      "input": "The Courses at Watters Creek",
+      "city": "Plano",
+      "status": "miss",
+      "slugsTried": [
+        "coursesatwatterscreek",
+        "thecoursesatwatterscreek",
+        "coursesatwatterscreekgolf",
+        "coursesatwatterscreekgolfclub",
+        "coursesatwatterscreekgolfcourse",
+        "coursesatwatterscreekcc",
+        "the-courses-at-watters-creek",
+        "courses-at-watters-creek"
+      ]
+    },
+    {
+      "input": "Heritage Ranch Golf and Country Club",
+      "city": "McKinney",
+      "status": "miss",
+      "slugsTried": [
+        "heritageranchgolfand",
+        "heritageranchgolfandcountryclub",
+        "heritageranchgolfandgolf",
+        "heritageranchgolfandgolfclub",
+        "heritageranchgolfandgolfcourse",
+        "heritageranchgolfandcc",
+        "heritage-ranch-golf-and-country-club",
+        "heritage-ranch-golf-and"
+      ]
+    },
+    {
+      "input": "Chase Oaks Golf Club",
+      "city": "Plano",
+      "status": "miss",
+      "slugsTried": [
+        "chaseoaks",
+        "chaseoaksgolfclub",
+        "chaseoaksgolf",
+        "chaseoaksgolfcourse",
+        "chaseoakscc",
+        "chase-oaks-golf-club",
+        "chase-oaks"
+      ]
+    },
+    {
+      "input": "Stonebridge Ranch Country Club",
+      "city": "McKinney",
+      "status": "miss",
+      "slugsTried": [
+        "stonebridgeranch",
+        "stonebridgeranchcountryclub",
+        "stonebridgeranchgolf",
+        "stonebridgeranchgolfclub",
+        "stonebridgeranchgolfcourse",
+        "stonebridgeranchcc",
+        "stonebridge-ranch-country-club",
+        "stonebridge-ranch"
+      ]
+    },
+    {
+      "input": "Frisco Lakes Golf Club",
+      "city": "Frisco",
+      "status": "miss",
+      "slugsTried": [
+        "friscolakes",
+        "friscolakesgolfclub",
+        "friscolakesgolf",
+        "friscolakesgolfcourse",
+        "friscolakescc",
+        "frisco-lakes-golf-club",
+        "frisco-lakes"
+      ]
+    },
+    {
+      "input": "Eldorado Country Club",
+      "city": "McKinney",
+      "status": "miss",
+      "slugsTried": [
+        "eldorado",
+        "eldoradocountryclub",
+        "eldoradogolf",
+        "eldoradogolfclub",
+        "eldoradogolfcourse",
+        "eldoradocc",
+        "eldorado-country-club"
+      ]
+    },
+    {
+      "input": "Indian Creek Golf Club - Creek",
+      "city": "Carrollton",
+      "status": "miss",
+      "slugsTried": [
+        "indiancreekgolfclubcreek",
+        "indiancreekgolfclubcreekgolf",
+        "indiancreekgolfclubcreekgolfclub",
+        "indiancreekgolfclubcreekgolfcourse",
+        "indiancreekgolfclubcreekcc",
+        "indian-creek-golf-club---creek",
+        "indiancreek",
+        "indiancreekgolfclub",
+        "indiancreekgolf"
+      ]
+    },
+    {
+      "input": "Indian Creek Golf Club - Lake",
+      "city": "Carrollton",
+      "status": "miss",
+      "slugsTried": [
+        "indiancreekgolfclublake",
+        "indiancreekgolfclublakegolf",
+        "indiancreekgolfclublakegolfclub",
+        "indiancreekgolfclublakegolfcourse",
+        "indiancreekgolfclublakecc",
+        "indian-creek-golf-club---lake",
+        "indiancreek",
+        "indiancreekgolfclub",
+        "indiancreekgolf"
+      ]
+    },
+    {
+      "input": "Irving Golf Club",
+      "city": "Irving",
+      "status": "miss",
+      "slugsTried": [
+        "irving",
+        "irvinggolfclub",
+        "irvinggolf",
+        "irvinggolfcourse",
+        "irvingcc",
+        "irving-golf-club"
+      ]
+    },
+    {
+      "input": "Grapevine Golf Course",
+      "city": "Grapevine",
+      "status": "miss",
+      "slugsTried": [
+        "grapevine",
+        "grapevinegolfcourse",
+        "grapevinegolf",
+        "grapevinegolfclub",
+        "grapevinecc",
+        "grapevine-golf-course"
+      ]
+    },
+    {
+      "input": "Bear Creek Golf Club - East",
+      "city": "Dallas",
+      "status": "miss",
+      "slugsTried": [
+        "bearcreekgolfclubeast",
+        "bearcreekgolfclubeastgolf",
+        "bearcreekgolfclubeastgolfclub",
+        "bearcreekgolfclubeastgolfcourse",
+        "bearcreekgolfclubeastcc",
+        "bear-creek-golf-club---east",
+        "bearcreek",
+        "bearcreekgolfclub",
+        "bearcreekgolf"
+      ]
+    },
+    {
+      "input": "Bear Creek Golf Club - West",
+      "city": "Dallas",
+      "status": "miss",
+      "slugsTried": [
+        "bearcreekgolfclubwest",
+        "bearcreekgolfclubwestgolf",
+        "bearcreekgolfclubwestgolfclub",
+        "bearcreekgolfclubwestgolfcourse",
+        "bearcreekgolfclubwestcc",
+        "bear-creek-golf-club---west",
+        "bearcreek",
+        "bearcreekgolfclub",
+        "bearcreekgolf"
+      ]
+    },
+    {
+      "input": "Hackberry Creek Country Club",
+      "city": "Irving",
+      "status": "miss",
+      "slugsTried": [
+        "hackberrycreek",
+        "hackberrycreekcountryclub",
+        "hackberrycreekgolf",
+        "hackberrycreekgolfclub",
+        "hackberrycreekgolfcourse",
+        "hackberrycreekcc",
+        "hackberry-creek-country-club",
+        "hackberry-creek"
+      ]
+    },
+    {
+      "input": "Riverside Golf Club",
+      "city": "Grand Prairie",
+      "status": "miss",
+      "slugsTried": [
+        "riverside",
+        "riversidegolfclub",
+        "riversidegolf",
+        "riversidegolfcourse",
+        "riversidecc",
+        "riverside-golf-club"
+      ]
+    },
+    {
+      "input": "Tierra Verde Golf Club",
+      "city": "Arlington",
+      "status": "miss",
+      "slugsTried": [
+        "tierraverde",
+        "tierraverdegolfclub",
+        "tierraverdegolf",
+        "tierraverdegolfcourse",
+        "tierraverdecc",
+        "tierra-verde-golf-club",
+        "tierra-verde"
+      ]
+    },
+    {
+      "input": "Lake Arlington Golf Course",
+      "city": "Arlington",
+      "status": "miss",
+      "slugsTried": [
+        "lakearlington",
+        "lakearlingtongolfcourse",
+        "lakearlingtongolf",
+        "lakearlingtongolfclub",
+        "lakearlingtoncc",
+        "lake-arlington-golf-course",
+        "lake-arlington"
+      ]
+    },
+    {
+      "input": "Tangle Ridge Golf Club",
+      "city": "Grand Prairie",
+      "status": "miss",
+      "slugsTried": [
+        "tangleridge",
+        "tangleridgegolfclub",
+        "tangleridgegolf",
+        "tangleridgegolfcourse",
+        "tangleridgecc",
+        "tangle-ridge-golf-club",
+        "tangle-ridge"
+      ]
+    },
+    {
+      "input": "Cedar Crest Golf Club",
+      "city": "Cedar Hill",
+      "status": "miss",
+      "slugsTried": [
+        "cedarcrest",
+        "cedarcrestgolfclub",
+        "cedarcrestgolf",
+        "cedarcrestgolfcourse",
+        "cedarcrestcc",
+        "cedar-crest-golf-club",
+        "cedar-crest"
+      ]
+    },
+    {
+      "input": "The Golf Club at Champions Circle",
+      "city": "Fort Worth",
+      "status": "miss",
+      "slugsTried": [
+        "golfclubatchampionscircle",
+        "thegolfclubatchampionscircle",
+        "golfclubatchampionscirclegolf",
+        "golfclubatchampionscirclegolfclub",
+        "golfclubatchampionscirclegolfcourse",
+        "golfclubatchampionscirclecc",
+        "the-golf-club-at-champions-circle",
+        "golf-club-at-champions-circle"
+      ]
+    },
+    {
+      "input": "Waterchase Golf Club",
+      "city": "Fort Worth",
+      "status": "miss",
+      "slugsTried": [
+        "waterchase",
+        "waterchasegolfclub",
+        "waterchasegolf",
+        "waterchasegolfcourse",
+        "waterchasecc",
+        "waterchase-golf-club"
+      ]
+    },
+    {
+      "input": "Sky Creek Ranch Golf Club",
+      "city": "Keller",
+      "status": "miss",
+      "slugsTried": [
+        "skycreekranch",
+        "skycreekranchgolfclub",
+        "skycreekranchgolf",
+        "skycreekranchgolfcourse",
+        "skycreekranchcc",
+        "sky-creek-ranch-golf-club",
+        "sky-creek-ranch"
+      ]
+    },
+    {
+      "input": "Iron Horse Golf Course",
+      "city": "North Richland Hills",
+      "status": "miss",
+      "slugsTried": [
+        "ironhorse",
+        "ironhorsegolfcourse",
+        "ironhorsegolf",
+        "ironhorsegolfclub",
+        "ironhorsecc",
+        "iron-horse-golf-course",
+        "iron-horse"
+      ]
+    },
+    {
+      "input": "Texas Star Golf Course",
+      "city": "Euless",
+      "status": "miss",
+      "slugsTried": [
+        "texasstar",
+        "texasstargolfcourse",
+        "texasstargolf",
+        "texasstargolfclub",
+        "texasstarcc",
+        "texas-star-golf-course",
+        "texas-star"
+      ]
+    },
+    {
+      "input": "Fossil Creek Golf Club",
+      "city": "Fort Worth",
+      "status": "miss",
+      "slugsTried": [
+        "fossilcreek",
+        "fossilcreekgolfclub",
+        "fossilcreekgolf",
+        "fossilcreekgolfcourse",
+        "fossilcreekcc",
+        "fossil-creek-golf-club",
+        "fossil-creek"
+      ]
+    },
+    {
+      "input": "Hawk's Creek Golf Club",
+      "city": "Westworth Village",
+      "status": "miss",
+      "slugsTried": [
+        "hawkscreek",
+        "hawkscreekgolfclub",
+        "hawkscreekgolf",
+        "hawkscreekgolfcourse",
+        "hawkscreekcc",
+        "hawks-creek-golf-club",
+        "hawk's-creek"
+      ]
+    },
+    {
+      "input": "Firewheel Golf Park",
+      "city": "Garland",
+      "status": "miss",
+      "slugsTried": [
+        "firewheelgolfpark",
+        "firewheelgolfparkgolf",
+        "firewheelgolfparkgolfclub",
+        "firewheelgolfparkgolfcourse",
+        "firewheelgolfparkcc",
+        "firewheel-golf-park"
+      ]
+    },
+    {
+      "input": "Duck Creek Golf Club",
+      "city": "Garland",
+      "status": "miss",
+      "slugsTried": [
+        "duckcreek",
+        "duckcreekgolfclub",
+        "duckcreekgolf",
+        "duckcreekgolfcourse",
+        "duckcreekcc",
+        "duck-creek-golf-club",
+        "duck-creek"
+      ]
+    },
+    {
+      "input": "Mesquite Golf Course",
+      "city": "Mesquite",
+      "status": "miss",
+      "slugsTried": [
+        "mesquite",
+        "mesquitegolfcourse",
+        "mesquitegolf",
+        "mesquitegolfclub",
+        "mesquitecc",
+        "mesquite-golf-course"
+      ]
+    },
+    {
+      "input": "The Golf Club of Dallas",
+      "city": "Dallas",
+      "status": "miss",
+      "slugsTried": [
+        "golfclubofdallas",
+        "thegolfclubofdallas",
+        "golfclubofdallasgolf",
+        "golfclubofdallasgolfclub",
+        "golfclubofdallasgolfcourse",
+        "golfclubofdallascc",
+        "the-golf-club-of-dallas",
+        "golf-club-of-dallas"
+      ]
+    },
+    {
+      "input": "Buffalo Creek Golf Club",
+      "city": "Rockwall",
+      "status": "miss",
+      "slugsTried": [
+        "buffalocreek",
+        "buffalocreekgolfclub",
+        "buffalocreekgolf",
+        "buffalocreekgolfcourse",
+        "buffalocreekcc",
+        "buffalo-creek-golf-club",
+        "buffalo-creek"
+      ]
+    },
+    {
+      "input": "Waterview Golf Club",
+      "city": "Rowlett",
+      "status": "miss",
+      "slugsTried": [
+        "waterview",
+        "waterviewgolfclub",
+        "waterviewgolf",
+        "waterviewgolfcourse",
+        "waterviewcc",
+        "waterview-golf-club"
+      ]
+    },
+    {
+      "input": "Mansfield National Golf Club",
+      "city": "Mansfield",
+      "status": "miss",
+      "slugsTried": [
+        "mansfieldnational",
+        "mansfieldnationalgolfclub",
+        "mansfieldnationalgolf",
+        "mansfieldnationalgolfcourse",
+        "mansfieldnationalcc",
+        "mansfield-national-golf-club",
+        "mansfield-national"
+      ]
+    },
+    {
+      "input": "Midlothian Golf Club",
+      "city": "Midlothian",
+      "status": "miss",
+      "slugsTried": [
+        "midlothian",
+        "midlothiangolfclub",
+        "midlothiangolf",
+        "midlothiangolfcourse",
+        "midlothiancc",
+        "midlothian-golf-club"
+      ]
+    },
+    {
+      "input": "Waxahachie Country Club",
+      "city": "Waxahachie",
+      "status": "miss",
+      "slugsTried": [
+        "waxahachie",
+        "waxahachiecountryclub",
+        "waxahachiegolf",
+        "waxahachiegolfclub",
+        "waxahachiegolfcourse",
+        "waxahachiecc",
+        "waxahachie-country-club"
+      ]
+    },
+    {
+      "input": "Teal Bend Golf Club",
+      "city": "Mansfield",
+      "status": "miss",
+      "slugsTried": [
+        "tealbend",
+        "tealbendgolfclub",
+        "tealbendgolf",
+        "tealbendgolfcourse",
+        "tealbendcc",
+        "teal-bend-golf-club",
+        "teal-bend"
+      ]
+    },
+    {
+      "input": "Robson Ranch Golf Club",
+      "city": "Denton",
+      "status": "miss",
+      "slugsTried": [
+        "robsonranch",
+        "robsonranchgolfclub",
+        "robsonranchgolf",
+        "robsonranchgolfcourse",
+        "robsonranchcc",
+        "robson-ranch-golf-club",
+        "robson-ranch"
+      ]
+    },
+    {
+      "input": "Tour 18 Golf Course",
+      "city": "Flower Mound",
+      "status": "miss",
+      "slugsTried": [
+        "tour18",
+        "tour18golfcourse",
+        "tour18golf",
+        "tour18golfclub",
+        "tour18cc",
+        "tour-18-golf-course",
+        "tour-18"
+      ]
+    },
+    {
+      "input": "Lake Park Golf Course",
+      "city": "Lewisville",
+      "status": "miss",
+      "slugsTried": [
+        "lakepark",
+        "lakeparkgolfcourse",
+        "lakeparkgolf",
+        "lakeparkgolfclub",
+        "lakeparkcc",
+        "lake-park-golf-course",
+        "lake-park"
+      ]
+    },
+    {
+      "input": "Bridlewood Golf Club",
+      "city": "Flower Mound",
+      "status": "miss",
+      "slugsTried": [
+        "bridlewood",
+        "bridlewoodgolfclub",
+        "bridlewoodgolf",
+        "bridlewoodgolfcourse",
+        "bridlewoodcc",
+        "bridlewood-golf-club"
+      ]
+    },
+    {
+      "input": "The Golf Club at Castle Hills",
+      "city": "Lewisville",
+      "status": "miss",
+      "slugsTried": [
+        "golfclubatcastlehills",
+        "thegolfclubatcastlehills",
+        "golfclubatcastlehillsgolf",
+        "golfclubatcastlehillsgolfclub",
+        "golfclubatcastlehillsgolfcourse",
+        "golfclubatcastlehillscc",
+        "the-golf-club-at-castle-hills",
+        "golf-club-at-castle-hills"
+      ]
+    },
+    {
+      "input": "Woodbridge Golf Club",
+      "city": "Wylie",
+      "status": "miss",
+      "slugsTried": [
+        "woodbridge",
+        "woodbridgegolfclub",
+        "woodbridgegolf",
+        "woodbridgegolfcourse",
+        "woodbridgecc",
+        "woodbridge-golf-club"
+      ]
+    },
+    {
+      "input": "Trophy Club Country Club",
+      "city": "Trophy Club",
+      "status": "miss",
+      "slugsTried": [
+        "trophyclub",
+        "trophyclubcountryclub",
+        "trophyclubgolf",
+        "trophyclubgolfclub",
+        "trophyclubgolfcourse",
+        "trophyclubcc",
+        "trophy-club-country-club",
+        "trophy-club"
+      ]
+    },
+    {
+      "input": "Gentle Creek Golf Club",
+      "city": "Prosper",
+      "status": "miss",
+      "slugsTried": [
+        "gentlecreek",
+        "gentlecreekgolfclub",
+        "gentlecreekgolf",
+        "gentlecreekgolfcourse",
+        "gentlecreekcc",
+        "gentle-creek-golf-club",
+        "gentle-creek"
+      ]
+    }
+  ],
+  "state": "TX",
+  "timestamp": "2026-02-14T22:23:17-07:00",
+  "total": 60,
+  "wrongState": 0
+}

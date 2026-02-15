@@ -8,5 +8,15 @@
     "displayName": "Ken McDonald Golf Course",
     "city": "Tempe",
     "state": "AZ"
+  },
+  {
+    "key": "riverside",
+    "metro": "dallas",
+    "subdomain": "riverside",
+    "courseId": "RIVERSIDE",
+    "bookingUrl": "https://riverside.totaleintegrated.net",
+    "displayName": "Riverside Golf Club",
+    "city": "Grand Prairie",
+    "state": "TX"
   }
 ]

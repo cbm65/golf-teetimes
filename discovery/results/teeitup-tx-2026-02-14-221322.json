@@ -1,0 +1,1109 @@
+{
+  "confirmed": 8,
+  "elapsed": "3m7.291696333s",
+  "errors": 0,
+  "listedOnly": 19,
+  "misses": 33,
+  "platform": "teeitup",
+  "results": [
+    {
+      "input": "Stevens Park Golf Course",
+      "city": "Dallas",
+      "alias": "stevens-park-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Cedar Crest Golf Course",
+      "city": "Dallas",
+      "alias": "cedar-crest-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Keeton Park Golf Course",
+      "city": "Dallas",
+      "alias": "keeton-park-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Luna Vista Golf Course",
+      "city": "Dallas",
+      "alias": "luna-vista-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 18087,
+        "courseId": "63c027422b01874e91bac7ad",
+        "name": "Luna Vista Golf Course",
+        "address": "Dallas, TX 75229, US",
+        "locality": "Dallas",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -96.922794,
+          32.888723
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Tenison Park Golf Club - Glen",
+      "city": "Dallas",
+      "alias": "tenison-park-golf-club-glen",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Tenison Park Golf Club - Highlands",
+      "city": "Dallas",
+      "alias": "tenison-park-golf-club-highlands",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Meadowbrook Golf Course",
+      "city": "Fort Worth",
+      "alias": "meadowbrook-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Pecan Valley Golf Course - River",
+      "city": "Fort Worth",
+      "alias": "pecan-valley-golf-course-river",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Pecan Valley Golf Course - Hills",
+      "city": "Fort Worth",
+      "alias": "pecan-valley-golf-course-hills",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Rockwood Park Golf Course",
+      "city": "Fort Worth",
+      "alias": "rockwood-park-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Fields Ranch - East",
+      "city": "Frisco",
+      "alias": "fields-ranch-east",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Fields Ranch - West",
+      "city": "Frisco",
+      "alias": "fields-ranch-west",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Cowboys Golf Club",
+      "city": "Grapevine",
+      "alias": "cowboys-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 7307,
+        "courseId": "54f14e290c8ad60378b04a4f",
+        "name": "Cowboys Golf Club",
+        "address": "1600 Fairway Dr, Grapevine, TX 76051-2092, US",
+        "locality": "Grapevine",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.095583,
+          32.931354
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Tribute Golf Club",
+      "city": "The Colony",
+      "alias": "the-tribute-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 78,
+        "courseId": "54f14b350c8ad60378b00c02",
+        "name": "Tribute Golf Links",
+        "address": "1000 Boyd Road, The Colony, TX 75056 US",
+        "locality": "The Colony",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -96.92688,
+          33.100745
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Old American Golf Club",
+      "city": "The Colony",
+      "alias": "old-american-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Sherrill Park Golf Course",
+      "city": "Richardson",
+      "alias": "sherrill-park-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Pecan Hollow Golf Course",
+      "city": "Plano",
+      "alias": "pecan-hollow-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1307,
+        "courseId": "54f14bc60c8ad60378b0165b",
+        "name": "Pecan Hollow Golf Course",
+        "address": "4501 14th St, Plano, TX 75074 US",
+        "locality": "Plano",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -96.67572,
+          33.0357
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        17,
+        0,
+        13
+      ]
+    },
+    {
+      "input": "The Courses at Watters Creek",
+      "city": "Plano",
+      "alias": "the-courses-at-watters-creek",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1353,
+        "courseId": "54f14bcb0c8ad60378b016c8",
+        "name": "The Courses at Watters Creek - The Traditions",
+        "address": "7201 Chase Oaks Blvd., Allen, TX 75025, US",
+        "locality": "Allen",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -96.69191,
+          33.073003
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Heritage Ranch Golf and Country Club",
+      "city": "McKinney",
+      "alias": "heritage-ranch-golf-and-country-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Chase Oaks Golf Club",
+      "city": "Plano",
+      "alias": "chase-oaks-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Stonebridge Ranch Country Club",
+      "city": "McKinney",
+      "alias": "stonebridge-ranch-country-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 7560,
+        "courseId": "54f14e410c8ad60378b04c35",
+        "name": "Stonebridge Ranch Country Club",
+        "address": "7003 Beacon Hill Rd, Mckinney, TX 75070 US",
+        "locality": "Mckinney",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -96.6902,
+          33.1693
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Frisco Lakes Golf Club",
+      "city": "Frisco",
+      "alias": "frisco-lakes-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 4631,
+        "courseId": "54f14cf50c8ad60378b03171",
+        "name": "Frisco Lakes Golf Club",
+        "address": "7170 Anthem Drive, Frisco, TX 75034 US",
+        "locality": "Frisco",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -96.914011,
+          33.14716
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Eldorado Country Club",
+      "city": "McKinney",
+      "alias": "eldorado-country-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 16782,
+        "courseId": "5dd8383c6e7e5e0100d7fdde",
+        "name": "Eldorado Country Club",
+        "address": "2604 Country Club Dr, McKinney, TX 75070, USA",
+        "locality": "McKinney",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -96.65108809999998,
+          33.1775287
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Indian Creek Golf Club - Creek",
+      "city": "Carrollton",
+      "alias": "indian-creek-golf-club-creek",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 7310,
+        "courseId": "54f14e290c8ad60378b04a58",
+        "name": "Indian Creek Golf Club - Creek",
+        "address": "1650 W Frankford Rd, Carrollton, TX 75007-4604 US",
+        "locality": "Carrollton",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -96.890125,
+          33.006618
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Indian Creek Golf Club - Lake",
+      "city": "Carrollton",
+      "alias": "indian-creek-golf-club",
+      "aliasSource": "trim-trailing",
+      "status": "listed_only",
+      "facility": {
+        "id": 1617,
+        "courseId": "54f14be50c8ad60378b01911",
+        "name": "Indian Creek Golf Club",
+        "address": "1650 W. Frankford Rd., Carrollton, TX 75007 US",
+        "locality": "Carrollton",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -96.933716,
+          33.002499
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Irving Golf Club",
+      "city": "Irving",
+      "alias": "irving-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Grapevine Golf Course",
+      "city": "Grapevine",
+      "alias": "grapevine-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Bear Creek Golf Club - East",
+      "city": "Dallas",
+      "alias": "bear-creek-golf-club-east",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Bear Creek Golf Club - West",
+      "city": "Dallas",
+      "alias": "bear-creek-golf-club-west",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Hackberry Creek Country Club",
+      "city": "Irving",
+      "alias": "hackberry-creek-country-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 7625,
+        "courseId": "54f14e470c8ad60378b04cb5",
+        "name": "Hackberry Creek Country Club",
+        "address": "1901 W Royal Ln, Irving, TX 75063 US",
+        "locality": "Irving",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -96.9714,
+          32.9186
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Riverside Golf Club",
+      "city": "Grand Prairie",
+      "alias": "riverside-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Tierra Verde Golf Club",
+      "city": "Arlington",
+      "alias": "tierra-verde-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1315,
+        "courseId": "54f14bc70c8ad60378b01670",
+        "name": "Tierra Verde Golf Club",
+        "address": "7005 Golf Club Dr., Arlington, TX 76001 US",
+        "locality": "Arlington",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.183106,
+          32.631695
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Lake Arlington Golf Course",
+      "city": "Arlington",
+      "alias": "lake-arlington-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Tangle Ridge Golf Club",
+      "city": "Grand Prairie",
+      "alias": "tangle-ridge-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 846,
+        "courseId": "54f14b9c0c8ad60378b012b2",
+        "name": "Tangle Ridge Golf Club",
+        "address": "818 Tangle Ridge Drive, Grand Prairie, TX 75052 US",
+        "locality": "Grand Prairie",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.01344,
+          32.565369
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        41,
+        0,
+        23
+      ]
+    },
+    {
+      "input": "Cedar Crest Golf Club",
+      "city": "Cedar Hill",
+      "alias": "cedar-crest-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "The Golf Club at Champions Circle",
+      "city": "Fort Worth",
+      "alias": "golf-club-at-champions-circle",
+      "aliasSource": "no-the",
+      "status": "confirmed",
+      "facility": {
+        "id": 1280,
+        "courseId": "54f14bc40c8ad60378b0161a",
+        "name": "Golf Club at Champions Circle",
+        "address": "15801 Championship Pkwy, Fort Worth, TX 76177, US",
+        "locality": "Fort Worth",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.287197,
+          33.02716
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        22,
+        0,
+        23
+      ]
+    },
+    {
+      "input": "Waterchase Golf Club",
+      "city": "Fort Worth",
+      "alias": "waterchase-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 48,
+        "courseId": "54f14b2f0c8ad60378b00bb2",
+        "name": "Waterchase Golf Club",
+        "address": "8951 Creek Run Road, Fort Worth, TX 76120 US",
+        "locality": "Fort Worth",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.157636,
+          32.766599
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        29,
+        0,
+        16
+      ]
+    },
+    {
+      "input": "Sky Creek Ranch Golf Club",
+      "city": "Keller",
+      "alias": "sky-creek-ranch-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Iron Horse Golf Course",
+      "city": "North Richland Hills",
+      "alias": "iron-horse-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 7304,
+        "courseId": "54f14e280c8ad60378b04a45",
+        "name": "Iron Horse Golf Course",
+        "address": "6200 Skylark Cir, North Richland Hills, TX 76180-7847 US",
+        "locality": "North Richland Hills",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.252718,
+          32.836575
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Texas Star Golf Course",
+      "city": "Euless",
+      "alias": "texas-star-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 3782,
+        "courseId": "54f14c9c0c8ad60378b0297a",
+        "name": "Texas Star Golf Course",
+        "address": "1400 Texas Star Pkwy, Euless, TX 76040-6865 US",
+        "locality": "Euless",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.114005,
+          32.819138
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Fossil Creek Golf Club",
+      "city": "Fort Worth",
+      "alias": "fossil-creek-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Hawk's Creek Golf Club",
+      "city": "Westworth Village",
+      "alias": "hawks-creek-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Firewheel Golf Park",
+      "city": "Garland",
+      "alias": "firewheel-golf-park",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 9413,
+        "courseId": "54f14ef20c8ad60378b05a62",
+        "name": "Firewheel Golf Park - The Bridges",
+        "address": "600 W Campbell Rd, Garland, TX 75044 US",
+        "locality": "Garland",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -96.6615,
+          32.9677
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        21,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Duck Creek Golf Club",
+      "city": "Garland",
+      "alias": "duck-creek-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 10769,
+        "courseId": "54f14f780c8ad60378b0673e",
+        "name": "Duck Creek Golf Club",
+        "address": "2800 Diamond Oaks Dr, Garland, TX 75044 US",
+        "locality": "Garland",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -96.673327,
+          32.940556
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        86,
+        0,
+        86
+      ]
+    },
+    {
+      "input": "Mesquite Golf Course",
+      "city": "Mesquite",
+      "alias": "mesquite-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "The Golf Club of Dallas",
+      "city": "Dallas",
+      "alias": "the-golf-club-of-dallas",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Buffalo Creek Golf Club",
+      "city": "Rockwall",
+      "alias": "buffalo-creek-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 29,
+        "courseId": "54f147c87bb759125cba2131",
+        "name": "Buffalo Creek Golf Club",
+        "address": "624 Country Club Dr., Heath, TX 75032, US",
+        "locality": "Heath",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -96.465616,
+          32.870522
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Waterview Golf Club",
+      "city": "Rowlett",
+      "alias": "waterview-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 32,
+        "courseId": "54f149427bb759125cba213e",
+        "name": "Waterview Golf Club",
+        "address": "9509  Waterview Parkway, Rowlett, TX 75089, US",
+        "locality": "Rowlett",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -96.533247,
+          32.956149
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        71,
+        0,
+        85
+      ]
+    },
+    {
+      "input": "Mansfield National Golf Club",
+      "city": "Mansfield",
+      "alias": "mansfield-national-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 7313,
+        "courseId": "54f14e2a0c8ad60378b04a60",
+        "name": "Mansfield National Golf Club",
+        "address": "3750 National Pkwy, Mansfield, TX 76063-5406, US",
+        "locality": "Mansfield",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.138016,
+          32.580674
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Midlothian Golf Club",
+      "city": "Midlothian",
+      "alias": "midlothian-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Waxahachie Country Club",
+      "city": "Waxahachie",
+      "alias": "waxahachie-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Teal Bend Golf Club",
+      "city": "Mansfield",
+      "alias": "teal-bend-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Robson Ranch Golf Club",
+      "city": "Denton",
+      "alias": "robson-ranch-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Tour 18 Golf Course",
+      "city": "Flower Mound",
+      "alias": "tour-18-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 584,
+        "courseId": "54f14b770c8ad60378b01087",
+        "name": "Tour 18 Golf Course Houston",
+        "address": "3102 FM 1960 East, Humble, TX 77338, US",
+        "locality": "Humble",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.228898,
+          29.999359
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        52,
+        0,
+        51
+      ]
+    },
+    {
+      "input": "Lake Park Golf Course",
+      "city": "Lewisville",
+      "alias": "lake-park-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Bridlewood Golf Club",
+      "city": "Flower Mound",
+      "alias": "bridlewood-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 7493,
+        "courseId": "54f14e3a0c8ad60378b04ba7",
+        "name": "Bridlewood Golf Club",
+        "address": "4000 Windsor Dr, Flower Mound, TX 75028-1592 US",
+        "locality": "Flower Mound",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.067657,
+          33.033405
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Golf Club at Castle Hills",
+      "city": "Lewisville",
+      "alias": "the-golf-club-at-castle-hills",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1382,
+        "courseId": "54f14bce0c8ad60378b01703",
+        "name": "The Golf Club at Castle Hills",
+        "address": "699 Lady of the Lake Blvd., Lewisville, TX 75056 US",
+        "locality": "Lewisville",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -96.88392,
+          33.09768
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Woodbridge Golf Club",
+      "city": "Wylie",
+      "alias": "woodbridge-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 38,
+        "courseId": "54f149a47bb759125cba2150",
+        "name": "Woodbridge Golf Club",
+        "address": "7400 Country Club Drive, Wylie, TX 75098 US",
+        "locality": "Wylie",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -96.558,
+          32.998
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Trophy Club Country Club",
+      "city": "Trophy Club",
+      "alias": "trophy-club-country-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Gentle Creek Golf Club",
+      "city": "Prosper",
+      "alias": "gentle-creek-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 18209,
+        "courseId": "645bfe252d113f8e7f8642c6",
+        "name": "Gentle Creek Golf Club",
+        "address": "Prosper, TX 75078, US",
+        "locality": "Prosper",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -96.737779,
+          33.248227
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-14",
+        "2026-02-21"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "state": "TX",
+  "timestamp": "2026-02-14T22:13:22-07:00",
+  "totalInput": 60,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-14",
+    "2026-02-21"
+  ]
+}
