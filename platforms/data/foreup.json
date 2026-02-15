@@ -96,5 +96,49 @@
     "displayName": "The Courses at Watters Creek",
     "city": "Plano",
     "state": "TX"
+  },
+  {
+    "key": "grand-ridge",
+    "metro": "neworleans",
+    "courseId": "19848",
+    "bookingClass": "14885",
+    "scheduleId": "2648",
+    "bookingUrl": "",
+    "displayName": "Grand Ridge Golf Club",
+    "city": "Luling",
+    "state": "LA"
+  },
+  {
+    "key": "pinewood",
+    "metro": "neworleans",
+    "courseId": "19636",
+    "bookingClass": "5620",
+    "scheduleId": "1984",
+    "bookingUrl": "",
+    "displayName": "Pinewood Golf Club",
+    "city": "Slidell",
+    "state": "LA"
+  },
+  {
+    "key": "riverlands",
+    "metro": "neworleans",
+    "courseId": "22450",
+    "bookingClass": "48936",
+    "scheduleId": "10817",
+    "bookingUrl": "",
+    "displayName": "Riverlands Golf & Country Club",
+    "city": "LaPlace",
+    "state": "LA"
+  },
+  {
+    "key": "timberlane",
+    "metro": "neworleans",
+    "courseId": "20371",
+    "bookingClass": "4049",
+    "scheduleId": "4461",
+    "bookingUrl": "",
+    "displayName": "Timberlane Golf & Recreation",
+    "city": "Gretna",
+    "state": "LA"
   }
 ]

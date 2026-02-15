@@ -1,0 +1,221 @@
+{
+  "confirmed": 4,
+  "listedOnly": 3,
+  "platform": "foreup",
+  "results": {
+    "Bayou Oaks at City Park - South": {
+      "courseId": 22337,
+      "scheduleId": 10578,
+      "bookingClass": "",
+      "name": "Bayou Country Club",
+      "city": "Thibodaux",
+      "state": "LA",
+      "address": "900 Country Club Blvd",
+      "postal": "70301-3776",
+      "phone": "985-446-8893",
+      "timezone": "America/Chicago",
+      "holes": 9,
+      "bookingClassId": "14565",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        38,
+        35,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "Grand Ridge Golf Club": {
+      "courseId": 19848,
+      "scheduleId": 2648,
+      "bookingClass": "",
+      "name": "Grand Ridge Country Club",
+      "city": "Luling",
+      "state": "LA",
+      "address": "500 Willowdale Blvd",
+      "postal": "70070",
+      "phone": "(985) 308-1640",
+      "website": "http://www.grandridgegolf.com/contact/",
+      "timezone": "America/Chicago",
+      "holes": 18,
+      "bookingClassId": "14885",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        44,
+        38,
+        32
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "LaTour Golf Club": {
+      "courseId": 19827,
+      "scheduleId": 2577,
+      "bookingClass": "",
+      "name": "LaTour Golf Club",
+      "city": "Mathews",
+      "state": "LA",
+      "address": "300 Latour Blvd",
+      "postal": "70375",
+      "phone": "(985) 532-0494",
+      "website": "latourgolfclub.com",
+      "timezone": "America/Chicago",
+      "holes": 18,
+      "bookingClassId": "2230",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ],
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "Oak Harbor Golf Club": {
+      "courseId": 18876,
+      "scheduleId": 525,
+      "bookingClass": "",
+      "name": "Oak Harbor Golf Club",
+      "city": "Slidell",
+      "state": "LA",
+      "address": "201 Oak Harbor Blvd",
+      "phone": "985-646-0110",
+      "website": "http://www.oakharborgolf.com/",
+      "timezone": "America/New_York",
+      "holes": 18,
+      "bookingClassId": "71",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        84,
+        84,
+        0
+      ],
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "Pinewood Country Club": {
+      "courseId": 19636,
+      "scheduleId": 1984,
+      "bookingClass": "",
+      "name": "Pinewood Golf Club (LA)",
+      "city": "Slidell",
+      "state": "LA",
+      "address": "405 Country Club Blvd",
+      "postal": "70458",
+      "phone": "(985) 643-6893",
+      "website": "https://pinewoodgolfclub.com",
+      "timezone": "America/Chicago",
+      "holes": 18,
+      "bookingClassId": "5620",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        51,
+        57,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "Riverlands Golf \u0026 Country Club": {
+      "courseId": 22450,
+      "scheduleId": 10817,
+      "bookingClass": "",
+      "name": "Riverlands Golf \u0026 Country Club",
+      "city": "La Place",
+      "state": "LA",
+      "address": "500 Fairway Dr.",
+      "postal": "70068",
+      "phone": "9856526316",
+      "website": "riverlandscountryclub.com",
+      "timezone": "America/Chicago",
+      "holes": 18,
+      "bookingClassId": "48936",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        31,
+        0,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "Timberlane Golf \u0026 Recreation": {
+      "courseId": 20371,
+      "scheduleId": 4461,
+      "bookingClass": "",
+      "name": "Timberlane Golf \u0026 Recreation",
+      "city": "Gretna",
+      "state": "LA",
+      "address": "700 Lapalco ",
+      "postal": "70056",
+      "phone": "504-367-5010",
+      "website": "http://www.playtimberlane.com/",
+      "timezone": "America/Chicago",
+      "holes": 9,
+      "bookingClassId": "14461",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ],
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    }
+  },
+  "state": "LA",
+  "timestamp": "2026-02-15T05:51:47-07:00",
+  "totalInput": 22,
+  "unmatched": [
+    "Audubon Park Golf Course",
+    "Bayou Oaks at City Park - North",
+    "Joseph M. Bartholomew Golf Course",
+    "Lakewood Golf Club",
+    "Brechtel Memorial Park Municipal Golf Course",
+    "English Turn Golf \u0026 Country Club",
+    "Stonebridge Golf Club of New Orleans",
+    "TPC Louisiana",
+    "Cypress Lakes Country Club",
+    "Fashion Golf \u0026 Country Club",
+    "Eastover Country Club",
+    "Belle Terre Country Club",
+    "Royal Golf Club",
+    "Abita Springs Golf \u0026 Country Club",
+    "Covington Country Club"
+  ]
+}

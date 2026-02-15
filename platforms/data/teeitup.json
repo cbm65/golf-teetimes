@@ -984,5 +984,59 @@
     "displayName": "Waterview Golf Club",
     "city": "Rowlett",
     "state": "TX"
+  },
+  {
+    "key": "audubon-park",
+    "metro": "neworleans",
+    "alias": "audubon-park-golf-club",
+    "facilityId": "1225",
+    "displayName": "Audubon Park Golf Club",
+    "city": "New Orleans",
+    "state": "LA"
+  },
+  {
+    "key": "lakewood",
+    "metro": "neworleans",
+    "alias": "lakewood-golf-club",
+    "facilityId": "441",
+    "displayName": "Lakewood Golf Club",
+    "city": "New Orleans",
+    "state": "LA"
+  },
+  {
+    "key": "belle-terre",
+    "metro": "neworleans",
+    "alias": "belle-terre-country-club",
+    "facilityId": "424",
+    "displayName": "Belle Terre Country Club",
+    "city": "LaPlace",
+    "state": "LA"
+  },
+  {
+    "key": "oak-harbor",
+    "metro": "neworleans",
+    "alias": "oak-harbor-golf-club",
+    "facilityId": "779",
+    "displayName": "Oak Harbor Golf Club",
+    "city": "Slidell",
+    "state": "LA"
+  },
+  {
+    "key": "joseph-bartholomew",
+    "metro": "neworleans",
+    "alias": "joseph-bartholomew-golf-course",
+    "facilityId": "12794",
+    "displayName": "Joseph M. Bartholomew Golf Course",
+    "city": "New Orleans",
+    "state": "LA"
+  },
+  {
+    "key": "cypress-lakes",
+    "metro": "neworleans",
+    "alias": "cypress-lakes-cc",
+    "facilityId": "442",
+    "displayName": "Cypress Lakes Country Club",
+    "city": "Destrehan",
+    "state": "LA"
   }
 ]

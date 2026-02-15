@@ -208,5 +208,21 @@
     "city": "Arlington",
     "state": "TX",
     "timezone": "America/Chicago"
+  },
+  {
+    "key": "latour",
+    "metro": "neworleans",
+    "baseUrl": "https://latour.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "25a74e3a-3bf9-40c2-d1fb-08db08539446",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://latour.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "LaTour Golf Club": "LaTour Golf Club"
+    },
+    "city": "Mathews",
+    "state": "LA",
+    "timezone": "America/Chicago"
   }
 ]

@@ -20,5 +20,27 @@
     "displayName": "Dogwood Golf Club",
     "city": "Austell",
     "state": "GA"
+  },
+  {
+    "key": "stonebridge",
+    "metro": "neworleans",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "eafdabab",
+    "courseId": "103405",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/eafdabab/slots",
+    "displayName": "Stonebridge Golf Club of New Orleans",
+    "city": "Gretna",
+    "state": "LA"
+  },
+  {
+    "key": "stonebridge-harvey",
+    "metro": "neworleans",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "dbfdabab",
+    "courseId": "103414",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/dbfdabab/slots",
+    "displayName": "Stonebridge Golf Club of New Orleans - Harvey 9",
+    "city": "Gretna",
+    "state": "LA"
   }
 ]

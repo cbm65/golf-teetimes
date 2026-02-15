@@ -198,5 +198,19 @@
     },
     "city": "Wylie",
     "state": "TX"
+  },
+  {
+    "key": "english-turn",
+    "metro": "neworleans",
+    "courseIds": "2ea62868-00b6-4d5d-81fc-8920126f266a",
+    "clubId": "",
+    "numericCourseId": "8130",
+    "affiliationTypeId": "29210",
+    "bookingUrl": "https://www.chronogolf.com/club/english-turn-golf-country-club",
+    "names": {
+      "English Turn Golf & Country Club": "English Turn Golf & Country Club"
+    },
+    "city": "New Orleans",
+    "state": "LA"
   }
 ]

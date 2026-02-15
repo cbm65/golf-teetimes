@@ -1,0 +1,294 @@
+{
+  "confirmed": 0,
+  "elapsed": "7.034390292s",
+  "listedOnly": 0,
+  "missed": 22,
+  "platform": "courseco",
+  "results": [
+    {
+      "input": "Audubon Park Golf Course",
+      "city": "New Orleans",
+      "status": "miss",
+      "slugsTried": [
+        "audubonpark",
+        "audubonparkgolfcourse",
+        "audubonparkgolf",
+        "audubonparkgolfclub",
+        "audubonparkcc"
+      ]
+    },
+    {
+      "input": "Bayou Oaks at City Park - South",
+      "city": "New Orleans",
+      "status": "miss",
+      "slugsTried": [
+        "bayouoaksatcityparksouth",
+        "bayouoaksatcityparksouthgolf",
+        "bayouoaksatcityparksouthgolfclub",
+        "bayouoaksatcityparksouthgolfcourse",
+        "bayouoaksatcityparksouthcc"
+      ]
+    },
+    {
+      "input": "Bayou Oaks at City Park - North",
+      "city": "New Orleans",
+      "status": "miss",
+      "slugsTried": [
+        "bayouoaksatcityparknorth",
+        "bayouoaksatcityparknorthgolf",
+        "bayouoaksatcityparknorthgolfclub",
+        "bayouoaksatcityparknorthgolfcourse",
+        "bayouoaksatcityparknorthcc"
+      ]
+    },
+    {
+      "input": "Joseph M. Bartholomew Golf Course",
+      "city": "New Orleans",
+      "status": "miss",
+      "slugsTried": [
+        "josephmbartholomew",
+        "josephmbartholomewgolfcourse",
+        "josephmbartholomewgolf",
+        "josephmbartholomewgolfclub",
+        "josephmbartholomewcc"
+      ]
+    },
+    {
+      "input": "Lakewood Golf Club",
+      "city": "New Orleans",
+      "status": "miss",
+      "slugsTried": [
+        "lakewood",
+        "lakewoodgolfclub",
+        "lakewoodgolf",
+        "lakewoodgolfcourse",
+        "lakewoodcc"
+      ]
+    },
+    {
+      "input": "Brechtel Memorial Park Municipal Golf Course",
+      "city": "New Orleans",
+      "status": "miss",
+      "slugsTried": [
+        "brechtelmemorialparkmunicipal",
+        "brechtelmemorialparkmunicipalgolfcourse",
+        "brechtelmemorialparkmunicipalgolf",
+        "brechtelmemorialparkmunicipalgolfclub",
+        "brechtelmemorialparkmunicipalcc"
+      ]
+    },
+    {
+      "input": "English Turn Golf \u0026 Country Club",
+      "city": "New Orleans",
+      "status": "miss",
+      "slugsTried": [
+        "englishturngolfand",
+        "englishturngolfandcountryclub",
+        "englishturngolfandgolf",
+        "englishturngolfandgolfclub",
+        "englishturngolfandgolfcourse",
+        "englishturngolfandcc",
+        "englishturngolfcountryclub",
+        "englishturngolf"
+      ]
+    },
+    {
+      "input": "Stonebridge Golf Club of New Orleans",
+      "city": "Gretna",
+      "status": "miss",
+      "slugsTried": [
+        "stonebridgegolfclubofneworleans",
+        "stonebridgegolfclubofneworleansgolf",
+        "stonebridgegolfclubofneworleansgolfclub",
+        "stonebridgegolfclubofneworleansgolfcourse",
+        "stonebridgegolfclubofneworleanscc"
+      ]
+    },
+    {
+      "input": "Timberlane Golf \u0026 Recreation",
+      "city": "Gretna",
+      "status": "miss",
+      "slugsTried": [
+        "timberlanegolfandrecreation",
+        "timberlanegolfandrecreationgolf",
+        "timberlanegolfandrecreationgolfclub",
+        "timberlanegolfandrecreationgolfcourse",
+        "timberlanegolfandrecreationcc",
+        "timberlanegolfrecreation"
+      ]
+    },
+    {
+      "input": "TPC Louisiana",
+      "city": "Avondale",
+      "status": "miss",
+      "slugsTried": [
+        "tpclouisiana",
+        "tpclouisianagolf",
+        "tpclouisianagolfclub",
+        "tpclouisianagolfcourse",
+        "tpclouisianacc"
+      ]
+    },
+    {
+      "input": "Grand Ridge Golf Club",
+      "city": "Luling",
+      "status": "miss",
+      "slugsTried": [
+        "grandridge",
+        "grandridgegolfclub",
+        "grandridgegolf",
+        "grandridgegolfcourse",
+        "grandridgecc"
+      ]
+    },
+    {
+      "input": "Cypress Lakes Country Club",
+      "city": "Destrehan",
+      "status": "miss",
+      "slugsTried": [
+        "cypresslakes",
+        "cypresslakescountryclub",
+        "cypresslakesgolf",
+        "cypresslakesgolfclub",
+        "cypresslakesgolfcourse",
+        "cypresslakescc"
+      ]
+    },
+    {
+      "input": "Fashion Golf \u0026 Country Club",
+      "city": "Hahnville",
+      "status": "miss",
+      "slugsTried": [
+        "fashiongolfand",
+        "fashiongolfandcountryclub",
+        "fashiongolfandgolf",
+        "fashiongolfandgolfclub",
+        "fashiongolfandgolfcourse",
+        "fashiongolfandcc",
+        "fashiongolfcountryclub",
+        "fashiongolf"
+      ]
+    },
+    {
+      "input": "Eastover Country Club",
+      "city": "New Orleans",
+      "status": "miss",
+      "slugsTried": [
+        "eastover",
+        "eastovercountryclub",
+        "eastovergolf",
+        "eastovergolfclub",
+        "eastovergolfcourse",
+        "eastovercc"
+      ]
+    },
+    {
+      "input": "Belle Terre Country Club",
+      "city": "LaPlace",
+      "status": "miss",
+      "slugsTried": [
+        "belleterre",
+        "belleterrecountryclub",
+        "belleterregolf",
+        "belleterregolfclub",
+        "belleterregolfcourse",
+        "belleterrecc"
+      ]
+    },
+    {
+      "input": "Riverlands Golf \u0026 Country Club",
+      "city": "LaPlace",
+      "status": "miss",
+      "slugsTried": [
+        "riverlandsgolfand",
+        "riverlandsgolfandcountryclub",
+        "riverlandsgolfandgolf",
+        "riverlandsgolfandgolfclub",
+        "riverlandsgolfandgolfcourse",
+        "riverlandsgolfandcc",
+        "riverlandsgolfcountryclub",
+        "riverlandsgolf"
+      ]
+    },
+    {
+      "input": "LaTour Golf Club",
+      "city": "Mathews",
+      "status": "miss",
+      "slugsTried": [
+        "latour",
+        "latourgolfclub",
+        "latourgolf",
+        "latourgolfcourse",
+        "latourcc"
+      ]
+    },
+    {
+      "input": "Oak Harbor Golf Club",
+      "city": "Slidell",
+      "status": "miss",
+      "slugsTried": [
+        "oakharbor",
+        "oakharborgolfclub",
+        "oakharborgolf",
+        "oakharborgolfcourse",
+        "oakharborcc"
+      ]
+    },
+    {
+      "input": "Royal Golf Club",
+      "city": "Slidell",
+      "status": "miss",
+      "slugsTried": [
+        "royal",
+        "royalgolfclub",
+        "royalgolf",
+        "royalgolfcourse",
+        "royalcc"
+      ]
+    },
+    {
+      "input": "Pinewood Country Club",
+      "city": "Slidell",
+      "status": "miss",
+      "slugsTried": [
+        "pinewood",
+        "pinewoodcountryclub",
+        "pinewoodgolf",
+        "pinewoodgolfclub",
+        "pinewoodgolfcourse",
+        "pinewoodcc"
+      ]
+    },
+    {
+      "input": "Abita Springs Golf \u0026 Country Club",
+      "city": "Abita Springs",
+      "status": "miss",
+      "slugsTried": [
+        "abitaspringsgolfand",
+        "abitaspringsgolfandcountryclub",
+        "abitaspringsgolfandgolf",
+        "abitaspringsgolfandgolfclub",
+        "abitaspringsgolfandgolfcourse",
+        "abitaspringsgolfandcc",
+        "abitaspringsgolfcountryclub",
+        "abitaspringsgolf"
+      ]
+    },
+    {
+      "input": "Covington Country Club",
+      "city": "Covington",
+      "status": "miss",
+      "slugsTried": [
+        "covington",
+        "covingtoncountryclub",
+        "covingtongolf",
+        "covingtongolfclub",
+        "covingtongolfcourse",
+        "covingtoncc"
+      ]
+    }
+  ],
+  "state": "LA",
+  "timestamp": "2026-02-15T05:52:17-07:00",
+  "total": 22
+}
