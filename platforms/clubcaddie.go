@@ -52,7 +52,7 @@ func FetchClubCaddie(config ClubCaddieCourseConfig, date string) ([]DisplayTeeTi
 	var encodedDate string = url.QueryEscape(formDate)
 
 	// Step 1: GET the slots page to establish a session and get Interaction ID
-	var pageURL string = fmt.Sprintf("%s/webapi/view/%s/slots?date=%s&player=4&ratetype=any",
+	var pageURL string = fmt.Sprintf("%s/webapi/view/%s/slots?date=%s&player=1&ratetype=any",
 		config.BaseURL, config.APIKey, encodedDate)
 
 	var client http.Client
@@ -79,7 +79,7 @@ func FetchClubCaddie(config ClubCaddieCourseConfig, date string) ([]DisplayTeeTi
 	// Step 2: POST to get tee times
 	var formData url.Values = url.Values{
 		"date":        {formDate},
-		"player":      {"4"},
+		"player":      {"1"},
 		"holes":       {"any"},
 		"fromtime":    {"0"},
 		"totime":      {"23"},

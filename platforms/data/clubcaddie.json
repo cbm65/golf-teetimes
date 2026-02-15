@@ -9,5 +9,16 @@
     "displayName": "Applewood Golf Course",
     "city": "Golden",
     "state": "CO"
+  },
+  {
+    "key": "dogwood",
+    "metro": "atlanta",
+    "baseUrl": "https://apimanager-cc29.clubcaddie.com",
+    "apiKey": "igfdabab",
+    "courseId": "103469",
+    "bookingUrl": "https://apimanager-cc29.clubcaddie.com/webapi/view/igfdabab/slots",
+    "displayName": "Dogwood Golf Club",
+    "city": "Austell",
+    "state": "GA"
   }
 ]
