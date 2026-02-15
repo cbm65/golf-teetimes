@@ -224,5 +224,21 @@
     "city": "Mathews",
     "state": "LA",
     "timezone": "America/Chicago"
+  },
+  {
+    "key": "old-fort",
+    "metro": "nashville",
+    "baseUrl": "https://oldfort.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "43595181-b9cf-4106-a585-08db42676ca0",
+    "siteId": "6",
+    "courseIds": "",
+    "bookingUrl": "https://oldfort.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Old Fort Golf Club": "Old Fort Golf Club"
+    },
+    "city": "Murfreesboro",
+    "state": "TN",
+    "timezone": "America/Chicago"
   }
 ]

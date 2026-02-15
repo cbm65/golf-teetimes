@@ -1,0 +1,377 @@
+{
+  "confirmed": 4,
+  "elapsed": "1m21.117871209s",
+  "errors": 0,
+  "listedOnly": 4,
+  "misses": 14,
+  "platform": "teeitup",
+  "results": [
+    {
+      "input": "Harpeth Hills Golf Course",
+      "city": "Nashville",
+      "alias": "harpeth-hills-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Two Rivers Golf Course",
+      "city": "Nashville",
+      "alias": "two-rivers-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "McCabe Golf Course",
+      "city": "Nashville",
+      "alias": "mccabe-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Shelby Golf Course",
+      "city": "Nashville",
+      "alias": "shelby-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Ted Rhodes Golf Course",
+      "city": "Nashville",
+      "alias": "ted-rhodes-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Percy Warner Golf Course",
+      "city": "Nashville",
+      "alias": "percy-warner-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Gaylord Springs Golf Links",
+      "city": "Nashville",
+      "alias": "gaylord-springs-golf-links",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1503,
+        "courseId": "54f14bda0c8ad60378b0181e",
+        "name": "Gaylord Springs Golf Links",
+        "address": "18 Springhouse Ln., Nashville, TN 37214 US",
+        "locality": "Nashville",
+        "region": "TN",
+        "country": "US",
+        "location": [
+          -86.681451,
+          36.220409
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Hermitage Golf Course - President's Reserve",
+      "city": "Old Hickory",
+      "alias": "hermitage-golf-course-presidents-reserve",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Hermitage Golf Course - General's Retreat",
+      "city": "Old Hickory",
+      "alias": "hermitage-golf-course-generals-retreat",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Long Hollow Golf Course",
+      "city": "Gallatin",
+      "alias": "long-hollow",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 1360,
+        "courseId": "54f14bcc0c8ad60378b016d9",
+        "name": "Long Hollow",
+        "address": "1080 Long Hollow Pike, Gallatin, TN 37066 US",
+        "locality": "Gallatin",
+        "region": "TN",
+        "country": "US",
+        "location": [
+          -86.478367,
+          36.38764
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Country Hills Golf Course",
+      "city": "Hendersonville",
+      "alias": "country-hills-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1367,
+        "courseId": "54f14bcd0c8ad60378b016e6",
+        "name": "Country Hills Golf Course",
+        "address": "1501 Saundersville Rd, Hendersonville, TN 37075 US",
+        "locality": "Hendersonville",
+        "region": "TN",
+        "country": "US",
+        "location": [
+          -86.558533,
+          36.350873
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Nashville National Golf Links",
+      "city": "Pleasant View",
+      "alias": "nashville-national-golf-links",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "The Legacy Golf Course",
+      "city": "Springfield",
+      "alias": "the-legacy-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Pine Creek Golf Course",
+      "city": "Mt. Juliet",
+      "alias": "pine-creek-golf-club",
+      "aliasSource": "swap-golf-club",
+      "status": "confirmed",
+      "facility": {
+        "id": 3286,
+        "courseId": "54f14c700c8ad60378b0257c",
+        "name": "Pine Creek Golf Club",
+        "address": "1835 Logue Road, Mt. Juliet, TN 37122 US",
+        "locality": "Mt. Juliet",
+        "region": "TN",
+        "country": "US",
+        "location": [
+          -86.478146,
+          36.122218
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        35,
+        48,
+        0
+      ]
+    },
+    {
+      "input": "Franklin Bridge Golf Club",
+      "city": "Franklin",
+      "alias": "franklin-bridge",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 1312,
+        "courseId": "54f14bc70c8ad60378b0166a",
+        "name": "Franklin Bridge Golf Club",
+        "address": "750 Riverview Drive, Franklin, TN 37064 US",
+        "locality": "Franklin",
+        "region": "TN",
+        "country": "US",
+        "location": [
+          -86.837826,
+          35.890719
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Forrest Crossing Golf Course",
+      "city": "Franklin",
+      "alias": "forrest-crossing-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Old Fort Golf Club",
+      "city": "Murfreesboro",
+      "alias": "old-fort-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 19242,
+        "courseId": "6745cf774df632191ba4147a",
+        "name": "Old Fort Golf Club",
+        "address": "Murfreesboro, TN 37129, US",
+        "locality": "Murfreesboro",
+        "region": "TN",
+        "country": "US",
+        "location": [
+          -86.410849,
+          35.851288
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        6,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Indian Hills Golf Club",
+      "city": "Murfreesboro",
+      "alias": "indian-hills-gc",
+      "aliasSource": "swap-gc",
+      "status": "confirmed",
+      "facility": {
+        "id": 7612,
+        "courseId": "54f14e460c8ad60378b04ca5",
+        "name": "Indian Hills GC",
+        "address": "405 Calumet Trce, Murfreesboro, TN 37127, US",
+        "locality": "Murfreesboro",
+        "region": "TN",
+        "country": "US",
+        "location": [
+          -86.32967,
+          35.77367
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        32,
+        41,
+        0
+      ]
+    },
+    {
+      "input": "Cedar Crest Golf Club",
+      "city": "Murfreesboro",
+      "alias": "cedar-crest-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 5287,
+        "courseId": "54f14d410c8ad60378b0384a",
+        "name": "Cedar Crest Golf Club",
+        "address": "7972 Mona Rd, Murfreesboro, TN 37129 US",
+        "locality": "Murfreesboro",
+        "region": "TN",
+        "country": "US",
+        "location": [
+          -86.416871,
+          36.001384
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        26,
+        41,
+        0
+      ]
+    },
+    {
+      "input": "Smyrna Municipal Golf Course",
+      "city": "Smyrna",
+      "alias": "smyrna-municipal-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Greystone Golf Club",
+      "city": "Dickson",
+      "alias": "greystone-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Montgomery Bell State Park Golf Course",
+      "city": "Burns",
+      "alias": "montgomery-bell-state-park-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    }
+  ],
+  "state": "TN",
+  "timestamp": "2026-02-15T06:48:13-07:00",
+  "totalInput": 22,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-21",
+    "2026-02-28"
+  ]
+}

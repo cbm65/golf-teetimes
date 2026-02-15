@@ -212,5 +212,15 @@
     },
     "city": "New Orleans",
     "state": "LA"
+  },
+  {
+    "key": "franklin-bridge",
+    "metro": "nashville",
+    "slug": "franklin-bridge-golf-club",
+    "displayName": "Franklin Bridge Golf Club",
+    "city": "Franklin",
+    "state": "TN",
+    "courseId": "821f797f-dcd2-4590-9986-4559c9db4a85",
+    "affiliationTypeId": "127733"
   }
 ]

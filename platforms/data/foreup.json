@@ -140,5 +140,60 @@
     "displayName": "Timberlane Golf & Recreation",
     "city": "Gretna",
     "state": "LA"
+  },
+  {
+    "key": "country-hills",
+    "metro": "nashville",
+    "courseId": "21139",
+    "bookingClass": "8607",
+    "scheduleId": "7161",
+    "bookingUrl": "",
+    "displayName": "Country Hills Golf Course",
+    "city": "Hendersonville",
+    "state": "TN"
+  },
+  {
+    "key": "greystone",
+    "metro": "nashville",
+    "courseId": "21550",
+    "bookingClass": "10493",
+    "scheduleId": "8200",
+    "bookingUrl": "",
+    "displayName": "Greystone Golf Club",
+    "city": "Dickson",
+    "state": "TN"
+  },
+  {
+    "key": "hermitage-generals-retreat",
+    "metro": "nashville",
+    "courseId": "18747",
+    "bookingClass": "156",
+    "scheduleId": "356",
+    "bookingUrl": "",
+    "displayName": "Hermitage Golf Course - General's Retreat",
+    "city": "Old Hickory",
+    "state": "TN"
+  },
+  {
+    "key": "hermitage-presidents-reserve",
+    "metro": "nashville",
+    "courseId": "18747",
+    "bookingClass": "156",
+    "scheduleId": "357",
+    "bookingUrl": "",
+    "displayName": "Hermitage Golf Course - President's Reserve",
+    "city": "Old Hickory",
+    "state": "TN"
+  },
+  {
+    "key": "montgomery-bell",
+    "metro": "nashville",
+    "courseId": "20354",
+    "bookingClass": "13944",
+    "scheduleId": "4340",
+    "bookingUrl": "",
+    "displayName": "Montgomery Bell State Park Golf Course",
+    "city": "Burns",
+    "state": "TN"
   }
 ]

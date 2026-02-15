@@ -1038,5 +1038,50 @@
     "displayName": "Cypress Lakes Country Club",
     "city": "Destrehan",
     "state": "LA"
+  },
+  {
+    "key": "pine-creek",
+    "metro": "nashville",
+    "alias": "pine-creek-golf-club",
+    "facilityId": "3286",
+    "displayName": "Pine Creek Golf Club",
+    "city": "Mt. Juliet",
+    "state": "TN"
+  },
+  {
+    "key": "indian-hills",
+    "metro": "nashville",
+    "alias": "indian-hills-gc",
+    "facilityId": "7612",
+    "displayName": "Indian Hills Golf Club",
+    "city": "Murfreesboro",
+    "state": "TN"
+  },
+  {
+    "key": "cedar-crest",
+    "metro": "nashville",
+    "alias": "cedar-crest-golf-club",
+    "facilityId": "5287",
+    "displayName": "Cedar Crest Golf Club",
+    "city": "Murfreesboro",
+    "state": "TN"
+  },
+  {
+    "key": "the-legacy",
+    "metro": "nashville",
+    "alias": "the-legacy-of-springfield",
+    "facilityId": "1259",
+    "displayName": "The Legacy Golf Course",
+    "city": "Springfield",
+    "state": "TN"
+  },
+  {
+    "key": "smyrna-municipal",
+    "metro": "nashville",
+    "alias": "smyrna-golf-course",
+    "facilityId": "15222",
+    "displayName": "Smyrna Municipal Golf Course",
+    "city": "Smyrna",
+    "state": "TN"
   }
 ]

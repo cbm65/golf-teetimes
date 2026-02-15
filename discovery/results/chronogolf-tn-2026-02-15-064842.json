@@ -1,0 +1,681 @@
+{
+  "confirmed": 1,
+  "elapsed": "43.013268334s",
+  "listedOnly": 15,
+  "misses": 4,
+  "platform": "chronogolf",
+  "results": [
+    {
+      "input": "Harpeth Hills Golf Course",
+      "city": "Nashville",
+      "slug": "harpeth-hills-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "251eb0d4-a600-435c-8df2-5c9a03eec957",
+        "id": 13238,
+        "name": "Harpeth Hills Golf Course",
+        "slug": "harpeth-hills-golf-course",
+        "city": "Nashville",
+        "province": "Tennessee",
+        "country": "United States",
+        "address": "2424 Old Hickory Blvd",
+        "phone": "(615) 862-8493",
+        "website": "http://www.nashville.gov/Parks-and-Recreation/Golf-Courses/Harpeth-Hills-Golf-Course.aspx",
+        "postcode": "37221",
+        "defaultAffiliationTypeId": 53774,
+        "location": {
+          "lat": 36.04907,
+          "lon": -86.878198
+        },
+        "courses": []
+      }
+    },
+    {
+      "input": "Two Rivers Golf Course",
+      "city": "Nashville",
+      "slug": "two-rivers-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "e23c68a9-6805-49ec-b206-5a2ebf59b75e",
+        "id": 13390,
+        "name": "Two Rivers Golf Course",
+        "slug": "two-rivers-golf-course",
+        "city": "Nashville",
+        "province": "Tennessee",
+        "country": "United States",
+        "address": "2235 Two Rivers Lane",
+        "phone": "(615) 862-8494",
+        "website": "http://www.nashville.gov/Parks-and-Recreation/Golf-Courses/Two-Rivers-Golf-Course.aspx",
+        "postcode": "37214",
+        "defaultAffiliationTypeId": 54382,
+        "location": {
+          "lat": 36.186659,
+          "lon": -86.675252
+        },
+        "courses": []
+      }
+    },
+    {
+      "input": "McCabe Golf Course",
+      "city": "Nashville",
+      "slug": "mccabe-golf-course",
+      "slugSource": "name",
+      "status": "listed_only",
+      "club": {
+        "uuid": "acafdff4-5b52-45c1-830a-1043ccaa845c",
+        "id": 19357,
+        "name": "McCabe Golf Course",
+        "slug": "mccabe-golf-course",
+        "city": "Nashville",
+        "province": "Tennessee",
+        "country": "United States",
+        "address": "4601 Murphy Rd",
+        "phone": "(615) 862-8491",
+        "website": "https://www.nashville.gov/Parks-and-Recreation/Golf-Courses/McCabe-Golf-Course.aspx",
+        "postcode": "37209",
+        "defaultAffiliationTypeId": 128747,
+        "location": {
+          "lat": 0,
+          "lon": 0
+        },
+        "courses": []
+      }
+    },
+    {
+      "input": "Shelby Golf Course",
+      "city": "Nashville",
+      "slug": "shelby-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "1850024a-9a75-4e4e-9da4-e9d8ecb9b20f",
+        "id": 13339,
+        "name": "Shelby Golf Course",
+        "slug": "shelby-golf-course",
+        "city": "Nashville",
+        "province": "Tennessee",
+        "country": "United States",
+        "address": "2021 Fatherland St",
+        "phone": "(615) 862-8474",
+        "website": "http://www.nashville.gov/Parks-and-Recreation/Golf-Courses/Shelby-Golf-Course.aspx",
+        "postcode": "37206",
+        "defaultAffiliationTypeId": 54178,
+        "location": {
+          "lat": 36.173194,
+          "lon": -86.734613
+        },
+        "courses": []
+      }
+    },
+    {
+      "input": "Ted Rhodes Golf Course",
+      "city": "Nashville",
+      "slug": "ted-rhodes-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "1c0ed05b-2e15-4d6c-9e2b-0a7814861cf1",
+        "id": 13363,
+        "name": "Ted Rhodes Golf Course",
+        "slug": "ted-rhodes-golf-course",
+        "city": "Nashville",
+        "province": "Tennessee",
+        "country": "United States",
+        "address": "1901 Ed Temple Blvd",
+        "phone": "(615) 862-8463",
+        "website": "https://www.nashville.gov/departments/parks/golf-courses/ted-rhodes-golf-course",
+        "postcode": "37208",
+        "defaultAffiliationTypeId": 54274,
+        "location": {
+          "lat": 36.175377,
+          "lon": -86.826292
+        },
+        "courses": []
+      }
+    },
+    {
+      "input": "Percy Warner Golf Course",
+      "city": "Nashville",
+      "slug": "percy-warner-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "ff2c15a1-18a4-411e-baff-6c664eb8ee0d",
+        "id": 13304,
+        "name": "Percy Warner Golf Course",
+        "slug": "percy-warner-golf-course",
+        "city": "Nashville",
+        "province": "Tennessee",
+        "country": "United States",
+        "address": "1221 Forrest Park Dr",
+        "phone": "(615)-862-8492",
+        "website": "http://www.nashville.gov/Parks-and-Recreation/Golf-Courses/Percy-Warner-Golf-Course.aspx",
+        "postcode": "37205",
+        "defaultAffiliationTypeId": 54038,
+        "location": {
+          "lat": 36.083135,
+          "lon": -86.872874
+        },
+        "courses": []
+      }
+    },
+    {
+      "input": "Gaylord Springs Golf Links",
+      "city": "Nashville",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Hermitage Golf Course - President's Reserve",
+      "city": "Old Hickory",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Hermitage Golf Course - General's Retreat",
+      "city": "Old Hickory",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Long Hollow Golf Course",
+      "city": "Gallatin",
+      "slug": "long-hollow-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "ac69e0bd-51af-4965-bb0c-847977606282",
+        "id": 13268,
+        "name": "Long Hollow Golf Course",
+        "slug": "long-hollow-golf-course",
+        "city": "Gallatin",
+        "province": "Tennessee",
+        "country": "United States",
+        "address": "1080 Long Hollow Pike",
+        "phone": "(615) 451-3120",
+        "website": "http://www.gallatin-tn.gov/news-events/recreation/long-hollow-golf-course",
+        "postcode": "37066",
+        "defaultAffiliationTypeId": 53894,
+        "location": {
+          "lat": 36.388126,
+          "lon": -86.4873
+        },
+        "courses": [
+          {
+            "id": 15205,
+            "name": "Long Hollow",
+            "holes": 18,
+            "uuid": "02808ee6-a62d-403e-b935-39487299e662"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Country Hills Golf Course",
+      "city": "Hendersonville",
+      "slug": "country-hills-golf-course",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "ce1849f2-42fa-428e-9e4d-3b5eac5c1052",
+        "id": 5631,
+        "name": "Country Hills Golf Course",
+        "slug": "country-hills-golf-course",
+        "city": "Greenview",
+        "province": "Illinois",
+        "country": "United States",
+        "address": "Rural Route 1",
+        "phone": "(217) 632-7242",
+        "website": "http://www.countryhillsgc.com/",
+        "postcode": "62642",
+        "defaultAffiliationTypeId": 23346,
+        "location": {
+          "lat": 40.08539,
+          "lon": -89.734888
+        },
+        "courses": [
+          {
+            "id": 6565,
+            "name": "Country Hills",
+            "holes": 18,
+            "uuid": "3840b5c5-ac93-49f5-97a8-113ecec1ce43"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Nashville National Golf Links",
+      "city": "Pleasant View",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "The Legacy Golf Course",
+      "city": "Springfield",
+      "slug": "the-legacy-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "952fa49d-bbd0-4aca-be14-1cf3d10209cb",
+        "id": 13374,
+        "name": "The Legacy Golf Course",
+        "slug": "the-legacy-golf-course",
+        "city": "Springfield",
+        "province": "Tennessee",
+        "country": "United States",
+        "address": "100 Raymond Floyd Dr",
+        "phone": "(615) 384-4653",
+        "website": "http://www.golfthelegacy.com",
+        "postcode": "37172",
+        "defaultAffiliationTypeId": 54318,
+        "location": {
+          "lat": 36.48448,
+          "lon": -86.84136
+        },
+        "courses": [
+          {
+            "id": 15316,
+            "name": "The Legacy",
+            "holes": 18,
+            "uuid": "33c2dda5-c909-41bd-b9ff-8b333a9d432a"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Pine Creek Golf Course",
+      "city": "Mt. Juliet",
+      "slug": "pine-creek-golf-course-tennessee",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "4f17f397-7c69-4a57-bc9f-3d501fe2b6eb",
+        "id": 13306,
+        "name": "Pine Creek Golf Course",
+        "slug": "pine-creek-golf-course-tennessee",
+        "city": "Mount Juliet",
+        "province": "Tennessee",
+        "country": "United States",
+        "address": "1835 Logue Rd",
+        "phone": "(615) 449-7272",
+        "website": "http://www.pinecreekgolf.net",
+        "postcode": "37122",
+        "defaultAffiliationTypeId": 54046,
+        "location": {
+          "lat": 36.121845,
+          "lon": -86.4728
+        },
+        "courses": [
+          {
+            "id": 15246,
+            "name": "Pine Creek",
+            "holes": 18,
+            "uuid": "30ca86d6-716f-48ef-835a-b6d7eb02fb03"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Franklin Bridge Golf Club",
+      "city": "Franklin",
+      "slug": "franklin-bridge-golf-club",
+      "slugSource": "name",
+      "status": "confirmed",
+      "club": {
+        "uuid": "a7db2b8e-504a-4a22-94ff-08921a8d5ee6",
+        "id": 19317,
+        "name": "Franklin Bridge Golf Club",
+        "slug": "franklin-bridge-golf-club",
+        "city": "Franklin",
+        "province": "Tennessee",
+        "country": "United States",
+        "address": "750 Riverview Drive",
+        "phone": "(615) 794-9400",
+        "website": "http://franklinbridgegolf.com",
+        "postcode": "37064",
+        "defaultAffiliationTypeId": 127733,
+        "location": {
+          "lat": 37.1032773,
+          "lon": -92.4292291
+        },
+        "courses": [
+          {
+            "id": 24224,
+            "name": "Franklin Bridge",
+            "holes": 18,
+            "uuid": "821f797f-dcd2-4590-9986-4559c9db4a85"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "input": "Forrest Crossing Golf Course",
+      "city": "Franklin",
+      "slug": "forrest-crossing-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "ea034f5d-625c-41e4-85b7-9d4f333e0297",
+        "id": 13220,
+        "name": "Forrest Crossing Golf Club",
+        "slug": "forrest-crossing-golf-club",
+        "city": "Franklin",
+        "province": "Tennessee",
+        "country": "United States",
+        "address": "750 Riverview Drive",
+        "phone": "(615) 794-9400",
+        "website": "http://www.forrestcrossing.com",
+        "postcode": "37064",
+        "defaultAffiliationTypeId": 53702,
+        "location": {
+          "lat": 35.891565,
+          "lon": -86.839386
+        },
+        "courses": [
+          {
+            "id": 15150,
+            "name": "Forrest Crossing",
+            "holes": 18,
+            "uuid": "0e631ebd-18d2-4914-b1a7-cf5572407cdb"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Old Fort Golf Club",
+      "city": "Murfreesboro",
+      "slug": "old-fort-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "d359f563-f73e-4e37-98bb-fb2433d8c0a6",
+        "id": 13294,
+        "name": "Old Fort Golf Club",
+        "slug": "old-fort-golf-club",
+        "city": "Murfreesboro",
+        "province": "Tennessee",
+        "country": "United States",
+        "address": "1028 Golf Lane",
+        "phone": "(615) 896-2448",
+        "website": "https://www.oldfortgolfclub.com/",
+        "postcode": "37129",
+        "defaultAffiliationTypeId": 53998,
+        "location": {
+          "lat": 35.84798,
+          "lon": -86.410366
+        },
+        "courses": []
+      }
+    },
+    {
+      "input": "Indian Hills Golf Club",
+      "city": "Murfreesboro",
+      "slug": "indian-hills-golf-course",
+      "slugSource": "swap-golf-course",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "330fde7a-421d-447a-afed-0821b7628609",
+        "id": 4014,
+        "name": "Indian Hills Golf Course",
+        "slug": "indian-hills-golf-course-florida",
+        "city": "Fort Pierce",
+        "province": "Florida",
+        "country": "United States",
+        "address": "1600 S 3rd St",
+        "phone": "(772) 465-8110",
+        "website": "http://www.indianhillsftpierce.com/",
+        "postcode": "34950",
+        "defaultAffiliationTypeId": 16878,
+        "location": {
+          "lat": 27.439532,
+          "lon": -80.327576
+        },
+        "courses": [
+          {
+            "id": 4636,
+            "name": "Indian Hills",
+            "holes": 18,
+            "uuid": "9545b0d6-9dc8-400d-9631-4717876ced6f"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Cedar Crest Golf Club",
+      "city": "Murfreesboro",
+      "slug": "cedar-crest-golf-course",
+      "slugSource": "swap-golf-course",
+      "status": "listed_only",
+      "club": {
+        "uuid": "cf46a001-77d9-4733-8676-3b53e7941d0f",
+        "id": 13169,
+        "name": "Cedar Crest Golf Course",
+        "slug": "cedar-crest-golf-course",
+        "city": "Murfreesboro",
+        "province": "Tennessee",
+        "country": "United States",
+        "address": "7972 Mona Road",
+        "phone": "(615) 849-7837",
+        "website": "http://www.cedarcrestgolfclub.net",
+        "postcode": "37129",
+        "defaultAffiliationTypeId": 53498,
+        "location": {
+          "lat": 36.001147,
+          "lon": -86.417246
+        },
+        "courses": [
+          {
+            "id": 15094,
+            "name": "Cedar Crest",
+            "holes": 18,
+            "uuid": "64e117fc-2cfd-4083-828e-c92d5723bcb5"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Smyrna Municipal Golf Course",
+      "city": "Smyrna",
+      "slug": "smyrna-municipal-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "5ab392fa-e0b7-452c-b2b3-c284ac787744",
+        "id": 13347,
+        "name": "Smyrna Municipal Golf Club",
+        "slug": "smyrna-municipal-golf-club",
+        "city": "Smyrna",
+        "province": "Tennessee",
+        "country": "United States",
+        "address": "101 Sam Ridley Pkwy E",
+        "phone": "(615) 459-2666",
+        "website": "http://www.townofsmyrna.org/RecreationCommunity/GolfCourse.aspx",
+        "postcode": "37167",
+        "defaultAffiliationTypeId": 54210,
+        "location": {
+          "lat": 35.99585,
+          "lon": -86.493199
+        },
+        "courses": [
+          {
+            "id": 15287,
+            "name": "Smyrna Municipal",
+            "holes": 18,
+            "uuid": "13b3927e-3af7-4647-9a25-a844b36b47e8"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Greystone Golf Club",
+      "city": "Dickson",
+      "slug": "greystone-golf-club-tennessee",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "2354ec14-391d-4b35-ba68-764fb9398b02",
+        "id": 13236,
+        "name": "Greystone Golf Club",
+        "slug": "greystone-golf-club-tennessee",
+        "city": "Dickson",
+        "province": "Tennessee",
+        "country": "United States",
+        "address": "2555 Hwy 70 E",
+        "phone": "(615) 446-0044",
+        "website": "http://www.greystonegc.com",
+        "postcode": "37055",
+        "defaultAffiliationTypeId": 53766,
+        "location": {
+          "lat": 36.084406,
+          "lon": -87.336286
+        },
+        "courses": [
+          {
+            "id": 15168,
+            "name": "Greystone",
+            "holes": 18,
+            "uuid": "bef52a99-4376-4451-943c-8deb2a445bcd"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Montgomery Bell State Park Golf Course",
+      "city": "Burns",
+      "slug": "montgomery-bell-state-park-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "c7ebcad3-ed05-4b70-9aae-a8ed50681e4f",
+        "id": 13284,
+        "name": "Montgomery Bell State Park Golf Club",
+        "slug": "montgomery-bell-state-park-golf-club",
+        "city": "Burns",
+        "province": "Tennessee",
+        "country": "United States",
+        "address": "800 Hotel Ave",
+        "phone": "(615) 797-2578",
+        "website": "http://www.tngolftrail.net/traditionals/montgomerybell",
+        "postcode": "37029",
+        "defaultAffiliationTypeId": 53958,
+        "location": {
+          "lat": 36.098909,
+          "lon": -87.274842
+        },
+        "courses": [
+          {
+            "id": 15224,
+            "name": "Montgomery Bell State Park",
+            "holes": 18,
+            "uuid": "3fc1bf3e-3884-4732-945d-1edbe8eebc4c"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "state": "TN",
+  "timestamp": "2026-02-15T06:48:42-07:00",
+  "totalInput": 22,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-21",
+    "2026-02-28"
+  ],
+  "wrongState": 2
+}

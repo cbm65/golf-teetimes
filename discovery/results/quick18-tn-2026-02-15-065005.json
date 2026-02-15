@@ -1,0 +1,322 @@
+{
+  "confirmed": 0,
+  "elapsed": "50.711949541s",
+  "listedOnly": 0,
+  "missed": 21,
+  "platform": "quick18",
+  "results": [
+    {
+      "input": "Harpeth Hills Golf Course",
+      "city": "Nashville",
+      "status": "miss",
+      "slugsTried": [
+        "harpethhills",
+        "harpethhillsgolfcourse",
+        "harpethhillsgolf",
+        "harpethhillsgolfclub",
+        "harpethhillscc",
+        "harpeth-hills-golf-course",
+        "harpeth-hills"
+      ]
+    },
+    {
+      "input": "Two Rivers Golf Course",
+      "city": "Nashville",
+      "status": "miss",
+      "slugsTried": [
+        "tworivers",
+        "tworiversgolfcourse",
+        "tworiversgolf",
+        "tworiversgolfclub",
+        "tworiverscc",
+        "two-rivers-golf-course",
+        "two-rivers"
+      ]
+    },
+    {
+      "input": "McCabe Golf Course",
+      "city": "Nashville",
+      "status": "miss",
+      "slugsTried": [
+        "mccabe",
+        "mccabegolfcourse",
+        "mccabegolf",
+        "mccabegolfclub",
+        "mccabecc",
+        "mccabe-golf-course"
+      ]
+    },
+    {
+      "input": "Shelby Golf Course",
+      "city": "Nashville",
+      "status": "miss",
+      "slugsTried": [
+        "shelby",
+        "shelbygolfcourse",
+        "shelbygolf",
+        "shelbygolfclub",
+        "shelbycc",
+        "shelby-golf-course"
+      ]
+    },
+    {
+      "input": "Ted Rhodes Golf Course",
+      "city": "Nashville",
+      "status": "miss",
+      "slugsTried": [
+        "tedrhodes",
+        "tedrhodesgolfcourse",
+        "tedrhodesgolf",
+        "tedrhodesgolfclub",
+        "tedrhodescc",
+        "ted-rhodes-golf-course",
+        "ted-rhodes"
+      ]
+    },
+    {
+      "input": "Percy Warner Golf Course",
+      "city": "Nashville",
+      "status": "miss",
+      "slugsTried": [
+        "percywarner",
+        "percywarnergolfcourse",
+        "percywarnergolf",
+        "percywarnergolfclub",
+        "percywarnercc",
+        "percy-warner-golf-course",
+        "percy-warner"
+      ]
+    },
+    {
+      "input": "Gaylord Springs Golf Links",
+      "city": "Nashville",
+      "status": "miss",
+      "slugsTried": [
+        "gaylordsprings",
+        "gaylordspringsgolflinks",
+        "gaylordspringsgolf",
+        "gaylordspringsgolfclub",
+        "gaylordspringsgolfcourse",
+        "gaylordspringscc",
+        "gaylord-springs-golf-links",
+        "gaylord-springs"
+      ]
+    },
+    {
+      "input": "Hermitage Golf Course - President's Reserve",
+      "city": "Old Hickory",
+      "status": "miss",
+      "slugsTried": [
+        "hermitagegolfcoursepresidentsreserve",
+        "hermitagegolfcoursepresidentsreservegolf",
+        "hermitagegolfcoursepresidentsreservegolfclub",
+        "hermitagegolfcoursepresidentsreservegolfcourse",
+        "hermitagegolfcoursepresidentsreservecc",
+        "hermitage-golf-course---presidents-reserve",
+        "hermitage-golf-course---president's-reserve",
+        "hermitage",
+        "hermitagegolfcourse",
+        "hermitagegolf",
+        "hermitagegolfclub"
+      ]
+    },
+    {
+      "input": "Hermitage Golf Course - General's Retreat",
+      "city": "Old Hickory",
+      "status": "miss",
+      "slugsTried": [
+        "hermitagegolfcoursegeneralsretreat",
+        "hermitagegolfcoursegeneralsretreatgolf",
+        "hermitagegolfcoursegeneralsretreatgolfclub",
+        "hermitagegolfcoursegeneralsretreatgolfcourse",
+        "hermitagegolfcoursegeneralsretreatcc",
+        "hermitage-golf-course---generals-retreat",
+        "hermitage-golf-course---general's-retreat",
+        "hermitage",
+        "hermitagegolfcourse",
+        "hermitagegolf",
+        "hermitagegolfclub"
+      ]
+    },
+    {
+      "input": "Long Hollow Golf Course",
+      "city": "Gallatin",
+      "status": "miss",
+      "slugsTried": [
+        "longhollow",
+        "longhollowgolfcourse",
+        "longhollowgolf",
+        "longhollowgolfclub",
+        "longhollowcc",
+        "long-hollow-golf-course",
+        "long-hollow"
+      ]
+    },
+    {
+      "input": "Country Hills Golf Course",
+      "city": "Hendersonville",
+      "status": "miss",
+      "slugsTried": [
+        "countryhills",
+        "countryhillsgolfcourse",
+        "countryhillsgolf",
+        "countryhillsgolfclub",
+        "countryhillscc",
+        "country-hills-golf-course",
+        "country-hills"
+      ]
+    },
+    {
+      "input": "Nashville National Golf Links",
+      "city": "Pleasant View",
+      "status": "miss",
+      "slugsTried": [
+        "nashvillenational",
+        "nashvillenationalgolflinks",
+        "nashvillenationalgolf",
+        "nashvillenationalgolfclub",
+        "nashvillenationalgolfcourse",
+        "nashvillenationalcc",
+        "nashville-national-golf-links",
+        "nashville-national"
+      ]
+    },
+    {
+      "input": "The Legacy Golf Course",
+      "city": "Springfield",
+      "status": "miss",
+      "slugsTried": [
+        "legacy",
+        "thelegacygolfcourse",
+        "legacygolf",
+        "legacygolfclub",
+        "legacygolfcourse",
+        "legacycc",
+        "the-legacy-golf-course",
+        "legacygolfcoursegolf"
+      ]
+    },
+    {
+      "input": "Pine Creek Golf Course",
+      "city": "Mt. Juliet",
+      "status": "miss",
+      "slugsTried": [
+        "pinecreek",
+        "pinecreekgolfcourse",
+        "pinecreekgolf",
+        "pinecreekgolfclub",
+        "pinecreekcc",
+        "pine-creek-golf-course",
+        "pine-creek"
+      ]
+    },
+    {
+      "input": "Franklin Bridge Golf Club",
+      "city": "Franklin",
+      "status": "miss",
+      "slugsTried": [
+        "franklinbridge",
+        "franklinbridgegolfclub",
+        "franklinbridgegolf",
+        "franklinbridgegolfcourse",
+        "franklinbridgecc",
+        "franklin-bridge-golf-club",
+        "franklin-bridge"
+      ]
+    },
+    {
+      "input": "Forrest Crossing Golf Course",
+      "city": "Franklin",
+      "status": "miss",
+      "slugsTried": [
+        "forrestcrossing",
+        "forrestcrossinggolfcourse",
+        "forrestcrossinggolf",
+        "forrestcrossinggolfclub",
+        "forrestcrossingcc",
+        "forrest-crossing-golf-course",
+        "forrest-crossing"
+      ]
+    },
+    {
+      "input": "Old Fort Golf Club",
+      "city": "Murfreesboro",
+      "status": "miss",
+      "slugsTried": [
+        "oldfort",
+        "oldfortgolfclub",
+        "oldfortgolf",
+        "oldfortgolfcourse",
+        "oldfortcc",
+        "old-fort-golf-club",
+        "old-fort"
+      ]
+    },
+    {
+      "input": "Indian Hills Golf Club",
+      "city": "Murfreesboro",
+      "status": "wrong_state",
+      "subdomain": "indianhills",
+      "foundState": "PA"
+    },
+    {
+      "input": "Cedar Crest Golf Club",
+      "city": "Murfreesboro",
+      "status": "miss",
+      "slugsTried": [
+        "cedarcrest",
+        "cedarcrestgolfclub",
+        "cedarcrestgolf",
+        "cedarcrestgolfcourse",
+        "cedarcrestcc",
+        "cedar-crest-golf-club",
+        "cedar-crest"
+      ]
+    },
+    {
+      "input": "Smyrna Municipal Golf Course",
+      "city": "Smyrna",
+      "status": "miss",
+      "slugsTried": [
+        "smyrnamunicipal",
+        "smyrnamunicipalgolfcourse",
+        "smyrnamunicipalgolf",
+        "smyrnamunicipalgolfclub",
+        "smyrnamunicipalcc",
+        "smyrna-municipal-golf-course",
+        "smyrna-municipal"
+      ]
+    },
+    {
+      "input": "Greystone Golf Club",
+      "city": "Dickson",
+      "status": "miss",
+      "slugsTried": [
+        "greystone",
+        "greystonegolfclub",
+        "greystonegolf",
+        "greystonegolfcourse",
+        "greystonecc",
+        "greystone-golf-club"
+      ]
+    },
+    {
+      "input": "Montgomery Bell State Park Golf Course",
+      "city": "Burns",
+      "status": "miss",
+      "slugsTried": [
+        "montgomerybellstatepark",
+        "montgomerybellstateparkgolfcourse",
+        "montgomerybellstateparkgolf",
+        "montgomerybellstateparkgolfclub",
+        "montgomerybellstateparkcc",
+        "montgomery-bell-state-park-golf-course",
+        "montgomery-bell-state-park"
+      ]
+    }
+  ],
+  "state": "TN",
+  "timestamp": "2026-02-15T06:50:05-07:00",
+  "total": 22,
+  "wrongState": 1
+}

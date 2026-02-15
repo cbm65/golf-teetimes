@@ -42,5 +42,16 @@
     "displayName": "Stonebridge Golf Club of New Orleans - Harvey 9",
     "city": "Gretna",
     "state": "LA"
+  },
+  {
+    "key": "nashville-national",
+    "metro": "nashville",
+    "baseUrl": "https://apimanager-cc20.clubcaddie.com",
+    "apiKey": "fbgdabab",
+    "courseId": "103516",
+    "bookingUrl": "https://apimanager-cc20.clubcaddie.com/webapi/view/fbgdabab/slots",
+    "displayName": "Nashville National Golf Links",
+    "city": "Pleasant View",
+    "state": "TN"
   }
 ]

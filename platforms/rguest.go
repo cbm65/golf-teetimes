@@ -12,10 +12,12 @@ import (
 type RGuestCourseConfig struct {
 	Key          string `json:"key"`
 	Metro        string `json:"metro"`
+	BaseUrl      string `json:"baseUrl"`
 	TenantID     string `json:"tenantId"`
 	PropertyID   string `json:"propertyId"`
 	CourseID     string `json:"courseId"`
 	PlayerTypeID string `json:"playerTypeId"`
+	Timezone     string `json:"timezone"`
 	BookingURL   string `json:"bookingUrl"`
 	DisplayName  string `json:"displayName"`
 	City         string `json:"city"`
@@ -51,6 +53,11 @@ type RGuestFees struct {
 }
 
 func FetchRGuest(config RGuestCourseConfig, date string) ([]DisplayTeeTime, error) {
+	var baseUrl string = "https://book.rguest.com"
+	if config.BaseUrl != "" {
+		baseUrl = config.BaseUrl
+	}
+
 	// Generate a UUID-format session ID
 	var r *rand.Rand = rand.New(rand.NewSource(time.Now().UnixNano()))
 	var sessionID string = fmt.Sprintf("%08x-%04x-%04x-%04x-%012x",
@@ -58,8 +65,8 @@ func FetchRGuest(config RGuestCourseConfig, date string) ([]DisplayTeeTime, erro
 
 	// Step 1: Generate token to register the session
 	var tokenURL string = fmt.Sprintf(
-		"https://book.rguest.com/wbe-admin-service/generatetoken/v2/tenants/%s/propertyId/%s/appName/NA",
-		config.TenantID, config.PropertyID,
+		"%s/wbe-admin-service/generatetoken/v2/tenants/%s/propertyId/%s/appName/NA",
+		baseUrl, config.TenantID, config.PropertyID,
 	)
 	var tokenReq *http.Request
 	var err error
@@ -69,7 +76,7 @@ func FetchRGuest(config RGuestCourseConfig, date string) ([]DisplayTeeTime, erro
 	}
 	tokenReq.Header.Set("Accept", "application/json, text/plain, */*")
 	tokenReq.Header.Set("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36")
-	tokenReq.Header.Set("Referer", "https://book.rguest.com/onecart/golf/courses/"+config.TenantID+"/"+config.PropertyID)
+	tokenReq.Header.Set("Referer", baseUrl+"/onecart/golf/courses/"+config.TenantID+"/"+config.PropertyID)
 	tokenReq.Header.Set("wbesessionid", sessionID)
 
 	var client http.Client
@@ -90,8 +97,8 @@ func FetchRGuest(config RGuestCourseConfig, date string) ([]DisplayTeeTime, erro
 
 	// Step 2: Fetch available tee slots
 	var url string = fmt.Sprintf(
-		"https://book.rguest.com/wbe-golf-service/golf/tenants/%s/propertyId/%s/getAvailableTeeSlots?fromDate=%s&toDate=%s&courseId=%s&playerTypeId=%s&holes=0&appName=golf&dateTime=%sT06:00:00",
-		config.TenantID, config.PropertyID, date, date, config.CourseID, config.PlayerTypeID, date,
+		"%s/wbe-golf-service/golf/tenants/%s/propertyId/%s/getAvailableTeeSlots?fromDate=%s&toDate=%s&courseId=%s&playerTypeId=%s&holes=0&appName=golf&dateTime=%sT06:00:00",
+		baseUrl, config.TenantID, config.PropertyID, date, date, config.CourseID, config.PlayerTypeID, date,
 	)
 
 	var req *http.Request
@@ -102,10 +109,14 @@ func FetchRGuest(config RGuestCourseConfig, date string) ([]DisplayTeeTime, erro
 
 	req.Header.Set("Accept", "application/json, text/plain, */*")
 	req.Header.Set("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36")
-	req.Header.Set("Referer", fmt.Sprintf("https://book.rguest.com/onecart/golf/courses/%s/%s?date=%s&id=%s", config.TenantID, config.PropertyID, date, config.CourseID))
+	req.Header.Set("Referer", fmt.Sprintf("%s/onecart/golf/courses/%s/%s?date=%s&id=%s", baseUrl, config.TenantID, config.PropertyID, date, config.CourseID))
 	req.Header.Set("wbesessionid", sessionID)
 	req.Header.Set("propertydttm", date+"T00:00:00")
-	req.Header.Set("timezone", "America/Phoenix")
+	var tz string = "America/Chicago"
+	if config.Timezone != "" {
+		tz = config.Timezone
+	}
+	req.Header.Set("timezone", tz)
 	if tokenData.Token != "" {
 		req.Header.Set("Authorization", "Bearer "+tokenData.Token)
 	}

@@ -1,0 +1,207 @@
+{
+  "confirmed": 3,
+  "listedOnly": 4,
+  "platform": "foreup",
+  "results": {
+    "Country Hills Golf Course": {
+      "courseId": 21139,
+      "scheduleId": 7161,
+      "bookingClass": "",
+      "name": "Country Hills Golf Course",
+      "city": "Hendersonville",
+      "state": "TN",
+      "address": "1501 Saundersville Rd.",
+      "postal": "37075",
+      "phone": "6158241100",
+      "website": "http://www.chillsgc.com/",
+      "timezone": "America/Chicago",
+      "holes": 18,
+      "bookingClassId": "8607",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        14,
+        31,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "Franklin Bridge Golf Club": {
+      "courseId": 20227,
+      "scheduleId": 0,
+      "bookingClass": "",
+      "name": "Franklin Bridge Golf Club",
+      "city": "Franklin",
+      "state": "TN",
+      "address": "750 Riverview Drive",
+      "postal": "37064",
+      "phone": "(615) 794-9400",
+      "website": "www.franklinbridgegolf.com",
+      "timezone": "America/Chicago",
+      "bookingClassId": "",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": null,
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "Greystone Golf Club": {
+      "courseId": 21550,
+      "scheduleId": 8200,
+      "bookingClass": "",
+      "name": "Greystone Golf Club (canceled)",
+      "city": "Dickson",
+      "state": "TN",
+      "address": "2555 US-70",
+      "postal": "37055",
+      "phone": "6154460044",
+      "website": "www.greystonegc.com",
+      "timezone": "America/Chicago",
+      "holes": 18,
+      "bookingClassId": "10493",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        54,
+        54,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "Hermitage Golf Course - President's Reserve": {
+      "courseId": 18747,
+      "scheduleId": 356,
+      "bookingClass": "",
+      "name": "Hermitage Golf Course",
+      "city": "Old Hickory",
+      "state": "TN",
+      "address": "3939 Old Hickory Blvd",
+      "postal": "37138",
+      "phone": "615-847-4001",
+      "website": "www.hermitagegolf.com",
+      "timezone": "America/Chicago",
+      "holes": 18,
+      "bookingClassId": "156",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        50,
+        30,
+        34
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "Montgomery Bell State Park Golf Course": {
+      "courseId": 20354,
+      "scheduleId": 4340,
+      "bookingClass": "",
+      "name": "Montgomery Bell Golf Course",
+      "city": "Burns",
+      "state": "TN",
+      "address": "800 Hotel Avenue",
+      "postal": "37029",
+      "phone": "615-797-1850",
+      "website": "https://tnstateparks.com/golf/course/montgomery-bell",
+      "timezone": "America/Chicago",
+      "holes": 18,
+      "bookingClassId": "13944",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ],
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "Nashville National Golf Links": {
+      "courseId": 5313,
+      "scheduleId": 0,
+      "bookingClass": "",
+      "name": "Nashville National Golf Links",
+      "city": "Joelton",
+      "state": "TN",
+      "address": "1725 New Hope Rd",
+      "postal": "37080",
+      "phone": "(615) 746-0400",
+      "website": "www.nashvillenational.golf",
+      "timezone": "America/Chicago",
+      "bookingClassId": "",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": null,
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "Old Fort Golf Club": {
+      "courseId": 19070,
+      "scheduleId": 0,
+      "bookingClass": "",
+      "name": "Old Fort Golf Club",
+      "city": "Murfreesboro",
+      "state": "TN",
+      "address": "1028 Golf Lane",
+      "phone": "(615) 896-2448",
+      "website": "http://www.oldfortgolfclub.com",
+      "timezone": "America/Chicago",
+      "bookingClassId": "",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": null,
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    }
+  },
+  "state": "TN",
+  "timestamp": "2026-02-15T06:49:13-07:00",
+  "totalInput": 22,
+  "unmatched": [
+    "Harpeth Hills Golf Course",
+    "Two Rivers Golf Course",
+    "McCabe Golf Course",
+    "Shelby Golf Course",
+    "Ted Rhodes Golf Course",
+    "Percy Warner Golf Course",
+    "Gaylord Springs Golf Links",
+    "Hermitage Golf Course - General's Retreat",
+    "Long Hollow Golf Course",
+    "The Legacy Golf Course",
+    "Pine Creek Golf Course",
+    "Forrest Crossing Golf Course",
+    "Indian Hills Golf Club",
+    "Cedar Crest Golf Club",
+    "Smyrna Municipal Golf Course"
+  ]
+}

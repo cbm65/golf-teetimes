@@ -9,7 +9,8 @@
     "bookingUrl": "https://book.rguest.com/onecart/golf/courses/2281/camelback-golf-club",
     "displayName": "Camelback Golf Club - Ambiente",
     "city": "Scottsdale",
-    "state": "AZ"
+    "state": "AZ",
+    "timezone": "America/Phoenix"
   },
   {
     "key": "camelback-padre",
@@ -21,7 +22,8 @@
     "bookingUrl": "https://book.rguest.com/onecart/golf/courses/2281/camelback-golf-club",
     "displayName": "Camelback Golf Club - Padre",
     "city": "Scottsdale",
-    "state": "AZ"
+    "state": "AZ",
+    "timezone": "America/Phoenix"
   },
   {
     "key": "wekopa-cholla",
@@ -33,7 +35,8 @@
     "bookingUrl": "https://book.rguest.com/onecart/golf/courses/2093/wekopa",
     "displayName": "We-Ko-Pa Golf Club - Cholla",
     "city": "Fort McDowell",
-    "state": "AZ"
+    "state": "AZ",
+    "timezone": "America/Phoenix"
   },
   {
     "key": "wekopa-saguaro",
@@ -45,6 +48,21 @@
     "bookingUrl": "https://book.rguest.com/onecart/golf/courses/2093/wekopa",
     "displayName": "We-Ko-Pa Golf Club - Saguaro",
     "city": "Fort McDowell",
-    "state": "AZ"
+    "state": "AZ",
+    "timezone": "America/Phoenix"
+  },
+  {
+    "key": "gaylord-springs",
+    "metro": "nashville",
+    "baseUrl": "https://book.onagilysys.com",
+    "tenantId": "2365",
+    "propertyId": "gaylord-springs-golf-links",
+    "courseId": "492",
+    "playerTypeId": "1885",
+    "timezone": "America/Chicago",
+    "bookingUrl": "https://book.onagilysys.com/onecart/golf/courses/2365/gaylord-springs-golf-links",
+    "displayName": "Gaylord Springs Golf Links",
+    "city": "Nashville",
+    "state": "TN"
   }
 ]
