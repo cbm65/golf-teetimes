@@ -19,7 +19,8 @@ Format: `Course Name | City` (city is needed for slug-based discovery tools).
 discovery/courses/
 ├── denver.txt          # TODO
 ├── phoenix.txt         # 92 courses
-├── lasvegas.txt        # TODO
+├── lasvegas.txt        # 42 courses
+├── atlanta.txt         # 52 courses
 └── ...
 ```
 
@@ -300,6 +301,57 @@ Key takeaways:
 - **Multi-course CPS Golf sites** need separate JSON entries per course with specific `courseIds` values (e.g. Cascata=4, Serket=5) but shared `baseUrl`, `websiteId`, and `siteId`
 - **TeeItUp discovery misses** can be diagnosed with the `exactStatus` field in miss results (added during this metro). Boulder City was missed because the Kenna API probe returned no facility for its slug.
 - **Quick18 discovery** improved with `" - "` variant slug pattern (base facility name without course suffix)
+
+## Atlanta Discovery Results (Feb 2026)
+
+52 input courses, 39 confirmed across 6 platforms:
+
+| Platform | Confirmed | Listed Only | Wrong State | Misses | New Courses Added |
+|----------|-----------|-------------|-------------|--------|-------------------|
+| TeeItUp | 21 (auto) + 7 (HAR) | 3 | 0 | 28 | 28 |
+| ForeUP | 3 (auto) + 2 (HAR) | 3 | 0 | — | 5 |
+| GolfWithAccess | 1 | 0 | 0 | — | 1 |
+| Chronogolf | 1 | 25 | 8 | — | 1 |
+| ClubCaddie | 1 (HAR) | — | — | — | 1 |
+| CPS Golf | 0 | 2 | 0 | — | 0 |
+
+13 courses remain unmatched (likely private, phone-only, or on unsupported platforms).
+
+Key takeaways:
+- **TeeItUp Phase 2 discovery found only 21 of 28 TeeItUp courses** — 7 required manual HAR capture. Discovery script improvements made during this metro (see below) should help future metros.
+- **ForeUP requires `bookingClass` and `scheduleId`** — omitting these causes the API to return an error object instead of a tee time array, triggering `json: cannot unmarshal object into Go value of type []platforms.ForeUpTeeTime`. Always extract these from the HAR.
+- **ClubCaddie `courseId` comes from the POST body, NOT the logo URL** — the logo URL contains a different ID (facility ID). The correct courseId is in the `CourseId` field of the `POST /webapi/TeeTimes` request body.
+- **ClubCaddie `player=` parameter affects openings accuracy** — using `player=4` causes the API to return different `PlayersAvailable` values than what the booking site shows with `player=1`. Fixed `clubcaddie.go` to use `player=1`.
+- **Chronogolf directory is even less useful outside Phoenix** — 25 listed_only vs 1 confirmed. Pattern holds: massive directory, almost no active booking.
+
+### TeeItUp alias patterns discovered during Atlanta
+
+These patterns caused discovery script misses and were found via manual HAR capture:
+
+| Course | Actual Alias | Why Missed | Script Fix |
+|--------|-------------|-----------|------------|
+| Bear's Best Atlanta | `bears-best` | City name "Atlanta" in course name but not in alias | Added `strip-city-suffix` + `trim-trailing` patterns |
+| Stone Mountain Golf Club | `stone-mountain` | Kenna API returned 404 despite valid booking site | Added booking site HTML fallback |
+| North Fulton Golf Course | `chastain-park` | Completely different name (local nickname) | Unfixable — HAR only |
+| The Frog Golf Club | `frog-at-the-georgian` | Alias references resort name, not course name | Unfixable — HAR only |
+| Cobblestone Golf Course | `cobblestone-golf-course-3` | Numeric disambiguator suffix | Unfixable — HAR only |
+| College Park Golf Course | UUID alias (`c70350ae-...`) | `book-v2.teeitup.golf` with UUID subdomain | Unfixable — HAR only |
+| Fox Creek Golf Club | `fox-creek-golf-club-ga` | State code suffix `-ga` | Not yet added to script (should add `exact-{state}` candidates) |
+| John A White Golf Course | `john-a-white-park-golf-course` | "Park" in alias but not course name | Unfixable — HAR only |
+| Hampton Golf Club | `hampton-golf-village` | "golf-village" suffix not in swap list | Not yet added to script (should add to suffix list) |
+| Sugar Hill Golf Club | `sugar-hill-golf-club` | Should have been found — likely transient Kenna API failure | N/A |
+
+### TeeItUp discovery script improvements made during Atlanta
+
+1. **Booking site HTML fallback** — after all Kenna API probes fail, tries `{alias}.book.teeitup.com` directly. Catches cases where Kenna API has coverage gaps (e.g. Stone Mountain).
+2. **`strip-city-suffix` pattern** — strips city name from end of core name (e.g. "Bear's Best Atlanta" with city "Suwanee" → tries `bears-best-atlanta` minus `atlanta`). Only fires when city is provided and matches a trailing word.
+3. **`trim-trailing` pattern** — removes the last slug segment from core name (e.g. `bears-best-atlanta` → `bears-best`). Catches geographic qualifiers that aren't the input city.
+
+### TeeItUp improvements NOT yet made (candidates for future)
+
+- **State code suffix** — add `{exact}-{state}` and `{core}-{suffix}-{state}` candidates (would catch `fox-creek-golf-club-ga`)
+- **`golf-village` suffix** — add to suffix swap list (would catch `hampton-golf-village`)
+- **`book.teeitup.golf` domain** — booking site fallback currently only tries `.com`, should also try `.golf`
 
 ## HAR Capture Tips
 
@@ -642,21 +694,22 @@ discovery/
 ├── courses/
 │   ├── phoenix.txt          # Phase 1 course list (92 courses)
 │   ├── lasvegas.txt         # Phase 1 course list (42 courses)
+│   ├── atlanta.txt          # Phase 1 course list (52 courses)
 │   ├── denver.txt           # (TODO)
 │   └── ...
 ├── foreup-index.json        # ForeUP master index (4188 courses, IDs 1-30000)
 └── results/                 # Auto-generated discovery results (gitignored)
 
 platforms/data/
-├── teeitup.json        # 41 courses (Phoenix) + 1 (Las Vegas)
-├── golfwithaccess.json # 3 courses (Phoenix)
-├── chronogolf.json     # 2 courses (Phoenix)
-├── foreup.json         # 1 course (Phoenix)
+├── teeitup.json        # 41 courses (Phoenix) + 1 (Las Vegas) + 28 (Atlanta) = 102 total
+├── golfwithaccess.json # 3 courses (Phoenix) + 1 (Atlanta) = 6 total
+├── chronogolf.json     # 2 courses (Phoenix) + 1 (Atlanta) = 8 total
+├── foreup.json         # 1 course (Phoenix) + 5 (Atlanta) = 7 total
 ├── quick18.json        # 8 courses (Phoenix) + 1 (Las Vegas)
 ├── courseco.json       # 1 course (Phoenix)
 ├── rguest.json         # 4 courses (Phoenix)
 ├── teesnap.json        # 1 course (Phoenix)
-├── clubcaddie.json     # Denver courses
+├── clubcaddie.json     # Denver courses + 1 (Atlanta)
 ├── cpsgolf.json        # 3 courses (Denver) + 2 (Las Vegas)
 ├── golfnow.json        # (intentionally empty — skipping GolfNow-only courses)
 └── ...
