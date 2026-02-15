@@ -73,6 +73,9 @@ func init() {
 	for _, c := range loadJSON[TeeQuestCourseConfig]("data/teequest.json") {
 		TeeQuestCourses[c.Key] = c
 	}
+	for _, c := range loadJSON[ResortSuiteCourseConfig]("data/resortsuite.json") {
+		ResortSuiteCourses[c.Key] = c
+	}
 }
 
 type metroStat struct {
@@ -132,13 +135,17 @@ func MetroStats() map[string][2]int {
 	for _, c := range ForeUpCourses {
 		ensure(c.Metro, c.City)
 	}
-	for _, c := range ProphetCourses {
-		ensure(c.Metro, c.City)
-	}
+	// Prophet disabled — AWS WAF blocks most requests
+	// for _, c := range ProphetCourses {
+	// 	ensure(c.Metro, c.City)
+	// }
 	for _, c := range PurposeGolfCourses {
 		ensure(c.Metro, c.City)
 	}
 	for _, c := range TeeQuestCourses {
+		ensure(c.Metro, c.City)
+	}
+	for _, c := range ResortSuiteCourses {
 		ensure(c.Metro, c.City)
 	}
 

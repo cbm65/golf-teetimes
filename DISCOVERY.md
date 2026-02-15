@@ -256,6 +256,14 @@ The booking URL is `https://{slug}.cps.golf/onlineresweb/search-teetime` and sup
 
 **Denver (MemberSports)** — The API returns raw names like "Kennedy Links". The `normalizeDenverName()` function in `denver.go` converts known multi-course prefixes to the " - " convention (e.g. "Kennedy Links" → "Kennedy - Links").
 
+**PurposeGolf** — Simple REST API at `booking.purposegolf.com`. `GET /api/courses/{courseId}/teeTimes` returns a full week of JSON with no auth. Requires `X-Requested-With: XMLHttpRequest` header. Date filtering is client-side (API returns all dates, fetcher filters by target date). Prices are in cents (divide by 100). Only known at Sherrill Park (Richardson, TX) — 2 courses on a single site.
+
+**TeeQuest** — Server-rendered HTML booking system at `teetimes.teequest.com`. POST form submission returns full HTML page with tee times. A single site (identified by numeric `siteId`) can host multiple courses via `courseTag` (e.g. `57-1`, `57-2`). Needs a cookie jar for session. Parse HTML with regex — times in `<span class="time-only">`, prices in `<span class="rate">`, openings counted from `book-button book-N available` class elements. Slots with only `unavailable` buttons are skipped.
+
+**ResortSuite** — SOAP/XML API used by Omni Hotels. Endpoint at `{baseUrl}/wso2wsas/services/RSWS?action=FetchGolfTeeSheet`. POST body is SOAP XML with course ID and date. Response contains `<TeeTime>` elements with `<Time>`, `<SlotsAvailable>`, and nested `<Rates>` with per-item pricing. Public guest rate identified by `<ItemName>` containing "Public". Requires a session cookie (hit base URL first). `WebFolioId=0` works without authentication. Only known at PGA Frisco (Omni resort, Fields Ranch East/West). Prices are high ($263-$350) — resort course.
+
+**Prophet Services** — **DISABLED.** Uses AWS WAF with JavaScript challenges. Two servers: `secure.west.prophetservices.com` (Keeton Park, Luna Vista) and `secure.east.prophetservices.com` (Meadowbrook, Rockwood, Pecan Valley Hills/River). API at `/OnlineTeeTimes/api/TeeTime/GetTeeTimes`. WAF intermittently returns HTTP 202 with JS challenge payload that requires browser execution. Go HTTP client cannot solve these challenges. See Dallas Discovery Results for full diagnosis.
+
 ## Phoenix Discovery Results (Feb 2026)
 
 First full metro discovery run. 92 input courses, 62 confirmed across 9 platforms:
@@ -352,6 +360,59 @@ These patterns caused discovery script misses and were found via manual HAR capt
 - **State code suffix** — add `{exact}-{state}` and `{core}-{suffix}-{state}` candidates (would catch `fox-creek-golf-club-ga`)
 - **`golf-village` suffix** — add to suffix swap list (would catch `hampton-golf-village`)
 - **`book.teeitup.golf` domain** — booking site fallback currently only tries `.com`, should also try `.golf`
+
+## Dallas Discovery Results (Feb 2026)
+
+All manual HAR capture (Phase 3 only — no automated discovery run). 43 courses confirmed across 10 platforms:
+
+| Platform | Courses | Notes |
+|----------|---------|-------|
+| TeeItUp | 10 | Firewheel, Duck Creek, Pecan Hollow, Tangle Ridge, Waterview, Waterchase, Champions Circle, Irving, Mesquite, Waxahachie, Tour 18 |
+| Chronogolf | 6 | Bridlewood, Buffalo Creek, Frisco Lakes, Iron Horse, Sky Creek Ranch, Woodbridge |
+| CPS Golf | 9 | Stevens Park, Cedar Crest (Dallas), Golf Club of Dallas, Tenison Glen, Tenison Highlands, Lake Arlington, Meadowbrook Park, Texas Rangers, Cedar Crest (Cedar Hill) |
+| ForeUP | 3 | Grapevine, Hawks Creek, Watters Creek |
+| CourseCo | 1 | Riverside |
+| GolfWithAccess | 1 | Heritage Ranch |
+| ClubCaddie | 1 | (from prior metros) |
+| PurposeGolf | 2 | Sherrill Park #1, Sherrill Park #2 |
+| TeeQuest | 2 | Indian Creek - Creek, Indian Creek - Lakes |
+| ResortSuite | 2 | Fields Ranch East, Fields Ranch West |
+| Prophet | 6 | **DISABLED** — Keeton Park, Luna Vista, Meadowbrook, Rockwood, Pecan Valley Hills, Pecan Valley River |
+
+Key takeaways:
+
+### Three new platforms discovered
+
+**PurposeGolf** (`booking.purposegolf.com`) — Simple REST API. `GET /api/courses/{courseId}/teeTimes` returns a full week of tee times as JSON. No auth required, just `X-Requested-With: XMLHttpRequest` header. Date filtering is client-side. Course IDs are integers in the URL path, slug is in the Referer. Only seen at Sherrill Park so far (2 courses).
+
+**TeeQuest** (`teetimes.teequest.com`) — Server-rendered HTML via POST form. POST to `/{siteId}?paymentTab=pay-at-course` with form fields `Search.CourseTag`, `Search.Date` (format `M/D/YYYY 12:00:00 AM`), `Search.Time=Anytime`, `Search.Players=0`. Response is full HTML — parse tee times from `<span class="time-only">`, prices from `<span class="rate">`, and openings by counting `book-button book-N available` elements. A single site can have multiple courses (e.g. Indian Creek has Creek=`57-1`, Lakes=`57-2`, Range=`57-10`). Needs a cookie jar for the session.
+
+**ResortSuite** (`omnipgafriscoexperiences.com`) — SOAP/XML API used by Omni Hotels. Endpoint is `/wso2wsas/services/RSWS?action=FetchGolfTeeSheet`. POST body is SOAP XML with `<CourseId>`, `<Date>`, and `<WebFolioId>` (can use `0` without auth). Response XML has `<TeeTime>` elements with `<Time>`, `<SlotsAvailable>`, and `<Rates>` containing per-item `<Price>` values. Public guest rate identified by `<ItemName>` containing "Public". Requires a session cookie obtained by first hitting the base URL. Only seen at PGA Frisco (Fields Ranch East/West) so far.
+
+### Prophet Services — AWS WAF challenge (DISABLED)
+
+Prophet Services uses AWS WAF with JavaScript challenges that cannot be solved by a Go HTTP client. The WAF intermittently returns HTTP 202 with a JS payload (`window.gokuProps`) that requires browser execution (DOM, canvas, WebGL fingerprinting) to generate an `aws-waf-token` cookie. Without this cookie, subsequent requests are blocked.
+
+**Diagnosis path**: Initially appeared to be rate limiting (first ~12 requests succeed, then 202s). Added 3-second rate limiter between requests — didn't help. Key insight: the browser works because it has a cached `aws-waf-token` cookie from a previous JS challenge solution. The WAF is not rate-based — it's challenge-based with probabilistic enforcement.
+
+**Why Go can't solve it**: The 202 response body contains an encrypted challenge in `window.gokuProps`. A browser-based JS SDK performs environment checks and computes a token. Go's `net/http` has no JS execution capability. Would need a headless browser (chromedp) to solve the challenge and extract the cookie.
+
+**Current status**: Prophet courses are configured in `prophet.json` but the handler dispatch and MetroStats counting are commented out. An in-memory cache was implemented (successful fetches cached per course+date, returned on subsequent WAF blocks) but coverage is incomplete. To re-enable, uncomment the Prophet blocks in `handlers.go` and `data.go` MetroStats, or implement headless browser token extraction.
+
+**Affected courses**: Keeton Park, Luna Vista (west server), Meadowbrook, Rockwood Park, Pecan Valley Hills, Pecan Valley River (east server). Two servers: `secure.west.prophetservices.com` and `secure.east.prophetservices.com`.
+
+### CPS Golf multi-site pattern
+
+Dallas has two separate CPS Golf deployments with different base URLs and configurations:
+- `dallas.cps.golf` — 5 Dallas municipal courses (Stevens Park, Cedar Crest Dallas, Golf Club of Dallas, Tenison Glen, Tenison Highlands). Has `apiKey` in config.
+- `arlington.cps.golf` — 3 Arlington courses (Lake Arlington, Meadowbrook Park, Texas Rangers). Has `apiKey` in config.
+- `dallascedarcrest.cps.golf` — Cedar Crest Cedar Hill. No `apiKey` — uses bearer token flow.
+
+Each is a separate site with its own `websiteId`, `siteId`, and course numbering. The fetcher handles both auth modes automatically.
+
+### EZLinks courses skipped
+
+Several Dallas-area courses use EZLinks for booking. EZLinks has no known API discovery pattern and was not investigated during this metro. These courses remain unmatched and would need further reverse engineering or headless browser approaches.
 
 ## HAR Capture Tips
 
@@ -606,6 +667,67 @@ Fields from HAR (no discovery script yet — need more examples):
 - `courseId` — from `customer-api/teetimes-day?course={id}` URL
 - `bookingUrl` — `https://{subdomain}.teesnap.net`
 
+### PurposeGolf entry format
+
+```json
+{
+  "key": "sherrill-park-1",
+  "metro": "dallas",
+  "courseId": 2,
+  "slug": "SherrillParkCourse1",
+  "displayName": "Sherrill Park Golf Course #1",
+  "city": "Richardson",
+  "state": "TX",
+  "bookingUrl": "https://booking.purposegolf.com/courses/SherrillParkCourse1/2/teetimes"
+}
+```
+
+Fields from HAR:
+- `courseId` — integer from the API URL `/api/courses/{courseId}/teeTimes`
+- `slug` — the CamelCase course slug from the page URL (e.g. `SherrillParkCourse1`)
+- `bookingUrl` — `https://booking.purposegolf.com/courses/{slug}/{courseId}/teetimes`
+
+### TeeQuest entry format
+
+```json
+{
+  "key": "indian-creek-creek",
+  "metro": "dallas",
+  "siteId": "57",
+  "courseTag": "57-1",
+  "displayName": "Indian Creek Golf Club - Creek",
+  "city": "Carrollton",
+  "state": "TX",
+  "bookingUrl": "https://teetimes.teequest.com/57?paymentTab=pay-at-course"
+}
+```
+
+Fields from HAR:
+- `siteId` — the facility number in the URL (e.g. `57`)
+- `courseTag` — from the `<option value="">` dropdown in the HTML (e.g. `57-1` for Creek, `57-2` for Lakes)
+- `bookingUrl` — `https://teetimes.teequest.com/{siteId}?paymentTab=pay-at-course`
+
+### ResortSuite entry format
+
+```json
+{
+  "key": "fields-ranch-east",
+  "metro": "dallas",
+  "baseUrl": "https://omnipgafriscoexperiences.com",
+  "courseId": "002",
+  "displayName": "Fields Ranch East",
+  "city": "Frisco",
+  "state": "TX",
+  "bookingUrl": "https://omnipgafriscoexperiences.com"
+}
+```
+
+Fields from HAR (SOAP/XML API):
+- `baseUrl` — the ResortSuite host (e.g. `https://omnipgafriscoexperiences.com`)
+- `courseId` — from the `<CourseId>` element in the `FetchGolfTeeSheet` POST body (zero-padded, e.g. `"001"`, `"002"`)
+- `bookingUrl` — same as `baseUrl` (the booking widget is embedded on the main page)
+- Course list available via `FetchGolfCourses` SOAP action
+
 ## Phase 3: Manual Gap Fill
 
 After automated discovery, compare the master list against what was found. For each missing course:
@@ -636,6 +758,10 @@ These platforms require manual HAR capture — either because they have no guess
 | MemberSports | Denver-specific so far, API known but no discovery script built |
 | EZLinks | No known discovery pattern |
 | CourseRev | No known discovery pattern |
+| PurposeGolf | Only 1 known site (Sherrill Park, Richardson TX). Simple REST API but no way to discover new sites without HAR. |
+| TeeQuest | Server-rendered HTML via POST. Site IDs are numeric and not derivable from course names. |
+| ResortSuite | SOAP/XML API used by Omni Hotels/resorts. Only 1 known site (PGA Frisco). Base URLs are resort-specific. |
+| Prophet | **DISABLED** — AWS WAF JavaScript challenge cannot be solved by Go HTTP client. Courses configured but not fetched. |
 | GolfNow | **Intentionally skipped.** Most GolfNow courses already found via TeeItUp. Value proposition is direct booking links (no middleman markup). |
 
 ## Adding a Metro Entry
@@ -669,6 +795,10 @@ Course count and city count are computed automatically from the JSON data at sta
 | GolfNow | — | ❌ Intentionally skipped — direct booking value prop, most courses found via TeeItUp |
 | CPS Golf | discover-cpsgolf | ✅ Built — subdomain probe ({slug}.cps.golf/onlineresweb/Home/Configuration), OnlineCourses extraction, timezone state validation. **Limitation**: subdomains are unpredictable (e.g. `caspublic` for Cascata) — manual HAR needed for non-obvious slugs. Fetcher handles both apiKey and bearer token auth automatically. |
 | MemberSports | — | ❌ API known from Denver, script not built |
+| Prophet | — | ❌ **DISABLED** — AWS WAF JavaScript challenge blocks Go HTTP client. Would need headless browser. |
+| PurposeGolf | — | ❌ Only 1 known site (Sherrill Park). Manual HAR only. |
+| TeeQuest | — | ❌ Server-rendered HTML, POST form. Manual HAR only. |
+| ResortSuite | — | ❌ SOAP/XML API (Omni Hotels). Manual HAR only. |
 
 ## File Structure
 
@@ -701,16 +831,20 @@ discovery/
 └── results/                 # Auto-generated discovery results (gitignored)
 
 platforms/data/
-├── teeitup.json        # 41 courses (Phoenix) + 1 (Las Vegas) + 28 (Atlanta) = 102 total
-├── golfwithaccess.json # 3 courses (Phoenix) + 1 (Atlanta) = 6 total
-├── chronogolf.json     # 2 courses (Phoenix) + 1 (Atlanta) = 8 total
-├── foreup.json         # 1 course (Phoenix) + 5 (Atlanta) = 7 total
+├── teeitup.json        # 41 courses (Phoenix) + 1 (Las Vegas) + 28 (Atlanta) + 10 (Dallas) = 113 total
+├── golfwithaccess.json # 3 courses (Phoenix) + 1 (Atlanta) + 2 (Las Vegas) + 1 (Dallas) = 7 total
+├── chronogolf.json     # 2 courses (Phoenix) + 1 (Atlanta) + 6 (Dallas) = 14 total
+├── foreup.json         # 1 course (Phoenix) + 5 (Atlanta) + 3 (Dallas) = 10 total
 ├── quick18.json        # 8 courses (Phoenix) + 1 (Las Vegas)
-├── courseco.json       # 1 course (Phoenix)
+├── courseco.json       # 1 course (Phoenix) + 1 (Dallas)
 ├── rguest.json         # 4 courses (Phoenix)
 ├── teesnap.json        # 1 course (Phoenix)
 ├── clubcaddie.json     # Denver courses + 1 (Atlanta)
-├── cpsgolf.json        # 3 courses (Denver) + 2 (Las Vegas)
+├── cpsgolf.json        # 3 courses (Denver) + 2 (Las Vegas) + 9 (Dallas) = 14 total
+├── prophet.json        # 6 courses (Dallas) — DISABLED (AWS WAF)
+├── purposegolf.json    # 2 courses (Dallas)
+├── teequest.json       # 2 courses (Dallas)
+├── resortsuite.json    # 2 courses (Dallas)
 ├── golfnow.json        # (intentionally empty — skipping GolfNow-only courses)
 └── ...
 ```
