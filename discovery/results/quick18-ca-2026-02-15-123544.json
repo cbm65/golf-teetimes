@@ -1,0 +1,981 @@
+{
+  "confirmed": 1,
+  "elapsed": "2m56.327373875s",
+  "listedOnly": 2,
+  "missed": 65,
+  "platform": "quick18",
+  "results": [
+    {
+      "input": "Harding Park Golf Course",
+      "city": "San Francisco",
+      "status": "miss",
+      "slugsTried": [
+        "hardingpark",
+        "hardingparkgolfcourse",
+        "hardingparkgolf",
+        "hardingparkgolfclub",
+        "hardingparkcc",
+        "harding-park-golf-course",
+        "harding-park"
+      ]
+    },
+    {
+      "input": "Fleming 9 Golf Course",
+      "city": "San Francisco",
+      "status": "miss",
+      "slugsTried": [
+        "fleming9",
+        "fleming9golfcourse",
+        "fleming9golf",
+        "fleming9golfclub",
+        "fleming9cc",
+        "fleming-9-golf-course",
+        "fleming-9"
+      ]
+    },
+    {
+      "input": "Lincoln Park Golf Course",
+      "city": "San Francisco",
+      "status": "miss",
+      "slugsTried": [
+        "lincolnpark",
+        "lincolnparkgolfcourse",
+        "lincolnparkgolf",
+        "lincolnparkgolfclub",
+        "lincolnparkcc",
+        "lincoln-park-golf-course",
+        "lincoln-park"
+      ]
+    },
+    {
+      "input": "Presidio Golf Course",
+      "city": "San Francisco",
+      "status": "miss",
+      "slugsTried": [
+        "presidio",
+        "presidiogolfcourse",
+        "presidiogolf",
+        "presidiogolfclub",
+        "presidiocc",
+        "presidio-golf-course"
+      ]
+    },
+    {
+      "input": "Gleneagles Golf Course",
+      "city": "San Francisco",
+      "status": "miss",
+      "slugsTried": [
+        "gleneagles",
+        "gleneaglesgolfcourse",
+        "gleneaglesgolf",
+        "gleneaglesgolfclub",
+        "gleneaglescc",
+        "gleneagles-golf-course"
+      ]
+    },
+    {
+      "input": "Sharp Park Golf Course",
+      "city": "Pacifica",
+      "status": "miss",
+      "slugsTried": [
+        "sharppark",
+        "sharpparkgolfcourse",
+        "sharpparkgolf",
+        "sharpparkgolfclub",
+        "sharpparkcc",
+        "sharp-park-golf-course",
+        "sharp-park"
+      ]
+    },
+    {
+      "input": "Crystal Springs Golf Course",
+      "city": "Burlingame",
+      "status": "miss",
+      "slugsTried": [
+        "crystalsprings",
+        "crystalspringsgolfcourse",
+        "crystalspringsgolf",
+        "crystalspringsgolfclub",
+        "crystalspringscc",
+        "crystal-springs-golf-course",
+        "crystal-springs"
+      ]
+    },
+    {
+      "input": "Poplar Creek Golf Course",
+      "city": "San Mateo",
+      "status": "miss",
+      "slugsTried": [
+        "poplarcreek",
+        "poplarcreekgolfcourse",
+        "poplarcreekgolf",
+        "poplarcreekgolfclub",
+        "poplarcreekcc",
+        "poplar-creek-golf-course",
+        "poplar-creek"
+      ]
+    },
+    {
+      "input": "Half Moon Bay Golf Links - Ocean Course",
+      "city": "Half Moon Bay",
+      "status": "miss",
+      "slugsTried": [
+        "halfmoonbaygolflinksoceancourse",
+        "halfmoonbaygolflinksoceancoursegolf",
+        "halfmoonbaygolflinksoceancoursegolfclub",
+        "halfmoonbaygolflinksoceancoursegolfcourse",
+        "halfmoonbaygolflinksoceancoursecc",
+        "half-moon-bay-golf-links---ocean-course",
+        "halfmoonbay",
+        "halfmoonbaygolflinks",
+        "halfmoonbaygolf",
+        "halfmoonbaygolfclub"
+      ]
+    },
+    {
+      "input": "Half Moon Bay Golf Links - Old Course",
+      "city": "Half Moon Bay",
+      "status": "miss",
+      "slugsTried": [
+        "halfmoonbaygolflinksoldcourse",
+        "halfmoonbaygolflinksoldcoursegolf",
+        "halfmoonbaygolflinksoldcoursegolfclub",
+        "halfmoonbaygolflinksoldcoursegolfcourse",
+        "halfmoonbaygolflinksoldcoursecc",
+        "half-moon-bay-golf-links---old-course",
+        "halfmoonbay",
+        "halfmoonbaygolflinks",
+        "halfmoonbaygolf",
+        "halfmoonbaygolfclub"
+      ]
+    },
+    {
+      "input": "San Mateo Golf Course",
+      "city": "San Mateo",
+      "status": "miss",
+      "slugsTried": [
+        "sanmateo",
+        "sanmateogolfcourse",
+        "sanmateogolf",
+        "sanmateogolfclub",
+        "sanmateocc",
+        "san-mateo-golf-course",
+        "san-mateo"
+      ]
+    },
+    {
+      "input": "Mariners Point Golf Center",
+      "city": "Foster City",
+      "status": "miss",
+      "slugsTried": [
+        "marinerspoint",
+        "marinerspointgolfcenter",
+        "marinerspointgolf",
+        "marinerspointgolfclub",
+        "marinerspointgolfcourse",
+        "marinerspointcc",
+        "mariners-point-golf-center",
+        "mariners-point"
+      ]
+    },
+    {
+      "input": "Palo Alto Hills Golf \u0026 Country Club",
+      "city": "Palo Alto",
+      "status": "miss",
+      "slugsTried": [
+        "paloaltohillsgolfand",
+        "paloaltohillsgolfandcountryclub",
+        "paloaltohillsgolfandgolf",
+        "paloaltohillsgolfandgolfclub",
+        "paloaltohillsgolfandgolfcourse",
+        "paloaltohillsgolfandcc",
+        "palo-alto-hills-golf-\u0026-country-club",
+        "palo-alto-hills-golf-\u0026"
+      ]
+    },
+    {
+      "input": "Bay Meadows Golf Course",
+      "city": "San Mateo",
+      "status": "miss",
+      "slugsTried": [
+        "baymeadows",
+        "baymeadowsgolfcourse",
+        "baymeadowsgolf",
+        "baymeadowsgolfclub",
+        "baymeadowscc",
+        "bay-meadows-golf-course",
+        "bay-meadows"
+      ]
+    },
+    {
+      "input": "Baylands Golf Links",
+      "city": "Palo Alto",
+      "status": "listed_only",
+      "subdomain": "baylands",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Sunnyvale Golf Course",
+      "city": "Sunnyvale",
+      "status": "miss",
+      "slugsTried": [
+        "sunnyvale",
+        "sunnyvalegolfcourse",
+        "sunnyvalegolf",
+        "sunnyvalegolfclub",
+        "sunnyvalecc",
+        "sunnyvale-golf-course"
+      ]
+    },
+    {
+      "input": "Santa Clara Golf \u0026 Tennis Club",
+      "city": "Santa Clara",
+      "status": "miss",
+      "slugsTried": [
+        "santaclaragolfandtennisclub",
+        "santaclaragolfandtennisclubgolf",
+        "santaclaragolfandtennisclubgolfclub",
+        "santaclaragolfandtennisclubgolfcourse",
+        "santaclaragolfandtennisclubcc",
+        "santa-clara-golf-\u0026-tennis-club"
+      ]
+    },
+    {
+      "input": "San Jose Municipal Golf Course",
+      "city": "San Jose",
+      "status": "miss",
+      "slugsTried": [
+        "sanjosemunicipal",
+        "sanjosemunicipalgolfcourse",
+        "sanjosemunicipalgolf",
+        "sanjosemunicipalgolfclub",
+        "sanjosemunicipalcc",
+        "san-jose-municipal-golf-course",
+        "san-jose-municipal"
+      ]
+    },
+    {
+      "input": "Cinnabar Hills Golf Club",
+      "city": "San Jose",
+      "status": "miss",
+      "slugsTried": [
+        "cinnabarhills",
+        "cinnabarhillsgolfclub",
+        "cinnabarhillsgolf",
+        "cinnabarhillsgolfcourse",
+        "cinnabarhillscc",
+        "cinnabar-hills-golf-club",
+        "cinnabar-hills"
+      ]
+    },
+    {
+      "input": "Coyote Creek Golf Club",
+      "city": "San Jose",
+      "status": "miss",
+      "slugsTried": [
+        "coyotecreek",
+        "coyotecreekgolfclub",
+        "coyotecreekgolf",
+        "coyotecreekgolfcourse",
+        "coyotecreekcc",
+        "coyote-creek-golf-club",
+        "coyote-creek"
+      ]
+    },
+    {
+      "input": "Los Lagos Golf Course",
+      "city": "San Jose",
+      "status": "miss",
+      "slugsTried": [
+        "loslagos",
+        "loslagosgolfcourse",
+        "loslagosgolf",
+        "loslagosgolfclub",
+        "loslagoscc",
+        "los-lagos-golf-course",
+        "los-lagos"
+      ]
+    },
+    {
+      "input": "The Ranch Golf Club",
+      "city": "San Jose",
+      "status": "miss",
+      "slugsTried": [
+        "ranch",
+        "theranchgolfclub",
+        "ranchgolf",
+        "ranchgolfclub",
+        "ranchgolfcourse",
+        "ranchcc",
+        "the-ranch-golf-club",
+        "ranchgolfclubgolf"
+      ]
+    },
+    {
+      "input": "Rancho del Pueblo Golf Course",
+      "city": "San Jose",
+      "status": "miss",
+      "slugsTried": [
+        "ranchodelpueblo",
+        "ranchodelpueblogolfcourse",
+        "ranchodelpueblogolf",
+        "ranchodelpueblogolfclub",
+        "ranchodelpueblocc",
+        "rancho-del-pueblo-golf-course",
+        "rancho-del-pueblo"
+      ]
+    },
+    {
+      "input": "Spring Valley Golf Course",
+      "city": "Milpitas",
+      "status": "miss",
+      "slugsTried": [
+        "springvalley",
+        "springvalleygolfcourse",
+        "springvalleygolf",
+        "springvalleygolfclub",
+        "springvalleycc",
+        "spring-valley-golf-course",
+        "spring-valley"
+      ]
+    },
+    {
+      "input": "Summitpointe Golf Club",
+      "city": "Milpitas",
+      "status": "miss",
+      "slugsTried": [
+        "summitpointe",
+        "summitpointegolfclub",
+        "summitpointegolf",
+        "summitpointegolfcourse",
+        "summitpointecc",
+        "summitpointe-golf-club"
+      ]
+    },
+    {
+      "input": "Pruneridge Golf Club",
+      "city": "Santa Clara",
+      "status": "miss",
+      "slugsTried": [
+        "pruneridge",
+        "pruneridgegolfclub",
+        "pruneridgegolf",
+        "pruneridgegolfcourse",
+        "pruneridgecc",
+        "pruneridge-golf-club"
+      ]
+    },
+    {
+      "input": "Deep Cliff Golf Course",
+      "city": "Cupertino",
+      "status": "miss",
+      "slugsTried": [
+        "deepcliff",
+        "deepcliffgolfcourse",
+        "deepcliffgolf",
+        "deepcliffgolfclub",
+        "deepcliffcc",
+        "deep-cliff-golf-course",
+        "deep-cliff"
+      ]
+    },
+    {
+      "input": "Sunken Gardens Golf Course",
+      "city": "Sunnyvale",
+      "status": "miss",
+      "slugsTried": [
+        "sunkengardens",
+        "sunkengardensgolfcourse",
+        "sunkengardensgolf",
+        "sunkengardensgolfclub",
+        "sunkengardenscc",
+        "sunken-gardens-golf-course",
+        "sunken-gardens"
+      ]
+    },
+    {
+      "input": "Moffett Field Golf Course",
+      "city": "Mountain View",
+      "status": "listed_only",
+      "subdomain": "moffettfield",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Tilden Park Golf Course",
+      "city": "Berkeley",
+      "status": "miss",
+      "slugsTried": [
+        "tildenpark",
+        "tildenparkgolfcourse",
+        "tildenparkgolf",
+        "tildenparkgolfclub",
+        "tildenparkcc",
+        "tilden-park-golf-course",
+        "tilden-park"
+      ]
+    },
+    {
+      "input": "Lake Chabot Golf Course",
+      "city": "Oakland",
+      "status": "miss",
+      "slugsTried": [
+        "lakechabot",
+        "lakechabotgolfcourse",
+        "lakechabotgolf",
+        "lakechabotgolfclub",
+        "lakechabotcc",
+        "lake-chabot-golf-course",
+        "lake-chabot"
+      ]
+    },
+    {
+      "input": "Chuck Corica Golf Complex - Earl Fry Course",
+      "city": "Alameda",
+      "status": "miss",
+      "slugsTried": [
+        "chuckcoricagolfcomplexearlfrycourse",
+        "chuckcoricagolfcomplexearlfrycoursegolf",
+        "chuckcoricagolfcomplexearlfrycoursegolfclub",
+        "chuckcoricagolfcomplexearlfrycoursegolfcourse",
+        "chuckcoricagolfcomplexearlfrycoursecc",
+        "chuck-corica-golf-complex---earl-fry-course",
+        "chuckcorica",
+        "chuckcoricagolfcomplex",
+        "chuckcoricagolf",
+        "chuckcoricagolfclub"
+      ]
+    },
+    {
+      "input": "Chuck Corica Golf Complex - Jack Clark Course",
+      "city": "Alameda",
+      "status": "miss",
+      "slugsTried": [
+        "chuckcoricagolfcomplexjackclarkcourse",
+        "chuckcoricagolfcomplexjackclarkcoursegolf",
+        "chuckcoricagolfcomplexjackclarkcoursegolfclub",
+        "chuckcoricagolfcomplexjackclarkcoursegolfcourse",
+        "chuckcoricagolfcomplexjackclarkcoursecc",
+        "chuck-corica-golf-complex---jack-clark-course",
+        "chuckcorica",
+        "chuckcoricagolfcomplex",
+        "chuckcoricagolf",
+        "chuckcoricagolfclub"
+      ]
+    },
+    {
+      "input": "Metropolitan Golf Links",
+      "city": "Oakland",
+      "status": "miss",
+      "slugsTried": [
+        "metropolitan",
+        "metropolitangolflinks",
+        "metropolitangolf",
+        "metropolitangolfclub",
+        "metropolitangolfcourse",
+        "metropolitancc",
+        "metropolitan-golf-links"
+      ]
+    },
+    {
+      "input": "Tony Lema Golf Course",
+      "city": "San Leandro",
+      "status": "miss",
+      "slugsTried": [
+        "tonylema",
+        "tonylemagolfcourse",
+        "tonylemagolf",
+        "tonylemagolfclub",
+        "tonylemacc",
+        "tony-lema-golf-course",
+        "tony-lema"
+      ]
+    },
+    {
+      "input": "Monarch Bay Golf Club",
+      "city": "San Leandro",
+      "status": "miss",
+      "slugsTried": [
+        "monarchbay",
+        "monarchbaygolfclub",
+        "monarchbaygolf",
+        "monarchbaygolfcourse",
+        "monarchbaycc",
+        "monarch-bay-golf-club",
+        "monarch-bay"
+      ]
+    },
+    {
+      "input": "Skywest Golf Course",
+      "city": "Hayward",
+      "status": "miss",
+      "slugsTried": [
+        "skywest",
+        "skywestgolfcourse",
+        "skywestgolf",
+        "skywestgolfclub",
+        "skywestcc",
+        "skywest-golf-course"
+      ]
+    },
+    {
+      "input": "Willow Park Golf Course",
+      "city": "Castro Valley",
+      "status": "miss",
+      "slugsTried": [
+        "willowpark",
+        "willowparkgolfcourse",
+        "willowparkgolf",
+        "willowparkgolfclub",
+        "willowparkcc",
+        "willow-park-golf-course",
+        "willow-park"
+      ]
+    },
+    {
+      "input": "Redwood Canyon Golf Course",
+      "city": "Castro Valley",
+      "status": "miss",
+      "slugsTried": [
+        "redwoodcanyon",
+        "redwoodcanyongolfcourse",
+        "redwoodcanyongolf",
+        "redwoodcanyongolfclub",
+        "redwoodcanyoncc",
+        "redwood-canyon-golf-course",
+        "redwood-canyon"
+      ]
+    },
+    {
+      "input": "Sunol Valley Golf Club",
+      "city": "Sunol",
+      "status": "miss",
+      "slugsTried": [
+        "sunolvalley",
+        "sunolvalleygolfclub",
+        "sunolvalleygolf",
+        "sunolvalleygolfcourse",
+        "sunolvalleycc",
+        "sunol-valley-golf-club",
+        "sunol-valley"
+      ]
+    },
+    {
+      "input": "Mission Hills of Hayward Golf Course",
+      "city": "Hayward",
+      "status": "miss",
+      "slugsTried": [
+        "missionhillsofhayward",
+        "missionhillsofhaywardgolfcourse",
+        "missionhillsofhaywardgolf",
+        "missionhillsofhaywardgolfclub",
+        "missionhillsofhaywardcc",
+        "mission-hills-of-hayward-golf-course",
+        "mission-hills-of-hayward"
+      ]
+    },
+    {
+      "input": "Canyon Lakes Golf Club",
+      "city": "San Ramon",
+      "status": "miss",
+      "slugsTried": [
+        "canyonlakes",
+        "canyonlakesgolfclub",
+        "canyonlakesgolf",
+        "canyonlakesgolfcourse",
+        "canyonlakescc",
+        "canyon-lakes-golf-club",
+        "canyon-lakes"
+      ]
+    },
+    {
+      "input": "San Ramon Royal Vista Golf Club",
+      "city": "San Ramon",
+      "status": "miss",
+      "slugsTried": [
+        "sanramonroyalvista",
+        "sanramonroyalvistagolfclub",
+        "sanramonroyalvistagolf",
+        "sanramonroyalvistagolfcourse",
+        "sanramonroyalvistacc",
+        "san-ramon-royal-vista-golf-club",
+        "san-ramon-royal-vista"
+      ]
+    },
+    {
+      "input": "Boundary Oak Golf Course",
+      "city": "Walnut Creek",
+      "status": "miss",
+      "slugsTried": [
+        "boundaryoak",
+        "boundaryoakgolfcourse",
+        "boundaryoakgolf",
+        "boundaryoakgolfclub",
+        "boundaryoakcc",
+        "boundary-oak-golf-course",
+        "boundary-oak"
+      ]
+    },
+    {
+      "input": "Diablo Creek Golf Course",
+      "city": "Concord",
+      "status": "miss",
+      "slugsTried": [
+        "diablocreek",
+        "diablocreekgolfcourse",
+        "diablocreekgolf",
+        "diablocreekgolfclub",
+        "diablocreekcc",
+        "diablo-creek-golf-course",
+        "diablo-creek"
+      ]
+    },
+    {
+      "input": "Contra Costa Country Club",
+      "city": "Pleasant Hill",
+      "status": "miss",
+      "slugsTried": [
+        "contracosta",
+        "contracostacountryclub",
+        "contracostagolf",
+        "contracostagolfclub",
+        "contracostagolfcourse",
+        "contracostacc",
+        "contra-costa-country-club",
+        "contra-costa"
+      ]
+    },
+    {
+      "input": "Buchanan Fields Golf Course",
+      "city": "Concord",
+      "status": "miss",
+      "slugsTried": [
+        "buchananfields",
+        "buchananfieldsgolfcourse",
+        "buchananfieldsgolf",
+        "buchananfieldsgolfclub",
+        "buchananfieldscc",
+        "buchanan-fields-golf-course",
+        "buchanan-fields"
+      ]
+    },
+    {
+      "input": "Lone Tree Golf \u0026 Event Center",
+      "city": "Antioch",
+      "status": "miss",
+      "slugsTried": [
+        "lonetreegolfandeventcenter",
+        "lonetreegolfandeventcentergolf",
+        "lonetreegolfandeventcentergolfclub",
+        "lonetreegolfandeventcentergolfcourse",
+        "lonetreegolfandeventcentercc",
+        "lone-tree-golf-\u0026-event-center"
+      ]
+    },
+    {
+      "input": "Roddy Ranch Golf Club",
+      "city": "Antioch",
+      "status": "miss",
+      "slugsTried": [
+        "roddyranch",
+        "roddyranchgolfclub",
+        "roddyranchgolf",
+        "roddyranchgolfcourse",
+        "roddyranchcc",
+        "roddy-ranch-golf-club",
+        "roddy-ranch"
+      ]
+    },
+    {
+      "input": "Delta View Golf Course",
+      "city": "Pittsburg",
+      "status": "miss",
+      "slugsTried": [
+        "deltaview",
+        "deltaviewgolfcourse",
+        "deltaviewgolf",
+        "deltaviewgolfclub",
+        "deltaviewcc",
+        "delta-view-golf-course",
+        "delta-view"
+      ]
+    },
+    {
+      "input": "The Bridges Golf Club",
+      "city": "San Ramon",
+      "status": "miss",
+      "slugsTried": [
+        "bridges",
+        "thebridgesgolfclub",
+        "bridgesgolf",
+        "bridgesgolfclub",
+        "bridgesgolfcourse",
+        "bridgescc",
+        "the-bridges-golf-club",
+        "bridgesgolfclubgolf"
+      ]
+    },
+    {
+      "input": "Oakhurst Country Club",
+      "city": "Clayton",
+      "status": "miss",
+      "slugsTried": [
+        "oakhurst",
+        "oakhurstcountryclub",
+        "oakhurstgolf",
+        "oakhurstgolfclub",
+        "oakhurstgolfcourse",
+        "oakhurstcc",
+        "oakhurst-country-club"
+      ]
+    },
+    {
+      "input": "Callippe Preserve Golf Course",
+      "city": "Pleasanton",
+      "status": "miss",
+      "slugsTried": [
+        "callippepreserve",
+        "callippepreservegolfcourse",
+        "callippepreservegolf",
+        "callippepreservegolfclub",
+        "callippepreservecc",
+        "callippe-preserve-golf-course",
+        "callippe-preserve"
+      ]
+    },
+    {
+      "input": "Castlewood Country Club",
+      "city": "Pleasanton",
+      "status": "miss",
+      "slugsTried": [
+        "castlewood",
+        "castlewoodcountryclub",
+        "castlewoodgolf",
+        "castlewoodgolfclub",
+        "castlewoodgolfcourse",
+        "castlewoodcc",
+        "castlewood-country-club"
+      ]
+    },
+    {
+      "input": "Peacock Gap Golf Club",
+      "city": "San Rafael",
+      "status": "miss",
+      "slugsTried": [
+        "peacockgap",
+        "peacockgapgolfclub",
+        "peacockgapgolf",
+        "peacockgapgolfcourse",
+        "peacockgapcc",
+        "peacock-gap-golf-club",
+        "peacock-gap"
+      ]
+    },
+    {
+      "input": "StoneTree Golf Club",
+      "city": "Novato",
+      "status": "miss",
+      "slugsTried": [
+        "stonetree",
+        "stonetreegolfclub",
+        "stonetreegolf",
+        "stonetreegolfcourse",
+        "stonetreecc",
+        "stonetree-golf-club"
+      ]
+    },
+    {
+      "input": "Indian Valley Golf Club",
+      "city": "Novato",
+      "status": "confirmed",
+      "subdomain": "indianvalley",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        27,
+        31,
+        43
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "San Geronimo Golf Course",
+      "city": "San Geronimo",
+      "status": "miss",
+      "slugsTried": [
+        "sangeronimo",
+        "sangeronimogolfcourse",
+        "sangeronimogolf",
+        "sangeronimogolfclub",
+        "sangeronimocc",
+        "san-geronimo-golf-course",
+        "san-geronimo"
+      ]
+    },
+    {
+      "input": "Marin Country Club",
+      "city": "Novato",
+      "status": "miss",
+      "slugsTried": [
+        "marin",
+        "marincountryclub",
+        "maringolf",
+        "maringolfclub",
+        "maringolfcourse",
+        "marincc",
+        "marin-country-club"
+      ]
+    },
+    {
+      "input": "Mill Valley Golf Course",
+      "city": "Mill Valley",
+      "status": "miss",
+      "slugsTried": [
+        "millvalley",
+        "millvalleygolfcourse",
+        "millvalleygolf",
+        "millvalleygolfclub",
+        "millvalleycc",
+        "mill-valley-golf-course",
+        "mill-valley"
+      ]
+    },
+    {
+      "input": "Rooster Run Golf Club",
+      "city": "Petaluma",
+      "status": "miss",
+      "slugsTried": [
+        "roosterrun",
+        "roosterrungolfclub",
+        "roosterrungolf",
+        "roosterrungolfcourse",
+        "roosterruncc",
+        "rooster-run-golf-club",
+        "rooster-run"
+      ]
+    },
+    {
+      "input": "Adobe Creek Golf Course",
+      "city": "Petaluma",
+      "status": "miss",
+      "slugsTried": [
+        "adobecreek",
+        "adobecreekgolfcourse",
+        "adobecreekgolf",
+        "adobecreekgolfclub",
+        "adobecreekcc",
+        "adobe-creek-golf-course",
+        "adobe-creek"
+      ]
+    },
+    {
+      "input": "Sonoma Golf Club",
+      "city": "Sonoma",
+      "status": "miss",
+      "slugsTried": [
+        "sonoma",
+        "sonomagolfclub",
+        "sonomagolf",
+        "sonomagolfcourse",
+        "sonomacc",
+        "sonoma-golf-club"
+      ]
+    },
+    {
+      "input": "Vintners Golf Club",
+      "city": "Yountville",
+      "status": "miss",
+      "slugsTried": [
+        "vintners",
+        "vintnersgolfclub",
+        "vintnersgolf",
+        "vintnersgolfcourse",
+        "vintnerscc",
+        "vintners-golf-club"
+      ]
+    },
+    {
+      "input": "Chardonnay Golf Club",
+      "city": "Napa",
+      "status": "miss",
+      "slugsTried": [
+        "chardonnay",
+        "chardonnaygolfclub",
+        "chardonnaygolf",
+        "chardonnaygolfcourse",
+        "chardonnaycc",
+        "chardonnay-golf-club"
+      ]
+    },
+    {
+      "input": "Eagle Vines Golf Club",
+      "city": "Napa",
+      "status": "miss",
+      "slugsTried": [
+        "eaglevines",
+        "eaglevinesgolfclub",
+        "eaglevinesgolf",
+        "eaglevinesgolfcourse",
+        "eaglevinescc",
+        "eagle-vines-golf-club",
+        "eagle-vines"
+      ]
+    },
+    {
+      "input": "Silverado Resort - North Course",
+      "city": "Napa",
+      "status": "miss",
+      "slugsTried": [
+        "silveradoresortnorthcourse",
+        "silveradoresortnorthcoursegolf",
+        "silveradoresortnorthcoursegolfclub",
+        "silveradoresortnorthcoursegolfcourse",
+        "silveradoresortnorthcoursecc",
+        "silverado-resort---north-course",
+        "silveradoresort",
+        "silveradoresortgolf",
+        "silveradoresortgolfclub"
+      ]
+    },
+    {
+      "input": "Silverado Resort - South Course",
+      "city": "Napa",
+      "status": "miss",
+      "slugsTried": [
+        "silveradoresortsouthcourse",
+        "silveradoresortsouthcoursegolf",
+        "silveradoresortsouthcoursegolfclub",
+        "silveradoresortsouthcoursegolfcourse",
+        "silveradoresortsouthcoursecc",
+        "silverado-resort---south-course",
+        "silveradoresort",
+        "silveradoresortgolf",
+        "silveradoresortgolfclub"
+      ]
+    }
+  ],
+  "state": "CA",
+  "timestamp": "2026-02-15T12:35:44-07:00",
+  "total": 68,
+  "wrongState": 0
+}

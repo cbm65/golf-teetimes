@@ -89,5 +89,14 @@
     "namePrefix": "Angel Park Golf Club -",
     "city": "Las Vegas",
     "state": "NV"
+  },
+  {
+    "key": "indian-valley",
+    "metro": "sanfrancisco",
+    "subdomain": "indianvalley",
+    "bookingUrl": "https://indianvalley.quick18.com",
+    "displayName": "Indian Valley Golf Club",
+    "city": "Novato",
+    "state": "CA"
   }
 ]

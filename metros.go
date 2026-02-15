@@ -60,6 +60,12 @@ var Metros = map[string]Metro{
 		State:   "FL",
 		Tagline: "Public Courses Across South Florida",
 	},
+	"sanfrancisco": {
+		Name:    "San Francisco",
+		Slug:    "sanfrancisco",
+		State:   "CA",
+		Tagline: "Public Courses Across the Bay Area",
+	},
 }
 
 func init() {

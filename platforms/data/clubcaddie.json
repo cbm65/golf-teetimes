@@ -53,5 +53,27 @@
     "displayName": "Nashville National Golf Links",
     "city": "Pleasant View",
     "state": "TN"
+  },
+  {
+    "key": "pruneridge",
+    "metro": "sanfrancisco",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "ijedabab",
+    "courseId": "103399",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/ijedabab/slots",
+    "displayName": "Pruneridge Golf Club",
+    "city": "Santa Clara",
+    "state": "CA"
+  },
+  {
+    "key": "mill-valley",
+    "metro": "sanfrancisco",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "iafdabab",
+    "courseId": "103409",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/iafdabab/slots",
+    "displayName": "Mill Valley Golf Course",
+    "city": "Mill Valley",
+    "state": "CA"
   }
 ]

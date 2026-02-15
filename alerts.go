@@ -545,100 +545,11 @@ func saveAlerts(alerts []platforms.Alert) error {
 }
 
 func getBaseCourse(name string) string {
-	if strings.HasPrefix(name, "Kennedy") {
-		return "Kennedy"
+	var idx int = strings.Index(name, " - ")
+	if idx > 0 {
+		return name[:idx]
 	}
-	if strings.HasPrefix(name, "Fox Hollow") {
-		return "Fox Hollow"
-	}
-	if strings.HasPrefix(name, "Homestead") {
-		return "Homestead"
-	}
-	if strings.HasPrefix(name, "Harvard Gulch") {
-		return "Harvard Gulch"
-	}
-	if strings.HasPrefix(name, "South Suburban") {
-		return "South Suburban"
-	}
-	if strings.HasPrefix(name, "Foothills") {
-		return "Foothills"
-	}
-	if strings.HasPrefix(name, "Meadows") {
-		return "Meadows"
-	}
-	if strings.HasPrefix(name, "Broken Tee") {
-		return "Broken Tee"
-	}
-	if strings.HasPrefix(name, "Fossil Trace") {
-		return "Fossil Trace"
-	}
-	if strings.HasPrefix(name, "McCormick Ranch") {
-		return "McCormick Ranch"
-	}
-	if strings.HasPrefix(name, "TPC Scottsdale") {
-		return "TPC Scottsdale"
-	}
-	if strings.HasPrefix(name, "Verrado") {
-		return "Verrado"
-	}
-	if strings.HasPrefix(name, "Grayhawk") {
-		return "Grayhawk"
-	}
-	if strings.HasPrefix(name, "Coyote Lakes") {
-		return "Coyote Lakes"
-	}
-	if strings.HasPrefix(name, "Granite Falls") {
-		return "Granite Falls"
-	}
-	if strings.HasPrefix(name, "Wigwam") {
-		return "Wigwam"
-	}
-	if strings.HasPrefix(name, "Troon North") {
-		return "Troon North"
-	}
-	if strings.HasPrefix(name, "Aguila") {
-		return "Aguila"
-	}
-	if strings.HasPrefix(name, "Encanto") {
-		return "Encanto"
-	}
-	if strings.HasPrefix(name, "AZ Biltmore") {
-		return "AZ Biltmore"
-	}
-	if strings.HasPrefix(name, "We-Ko-Pa") {
-		return "We-Ko-Pa"
-	}
-	if strings.HasPrefix(name, "Talking Stick") {
-		return "Talking Stick"
-	}
-	if strings.HasPrefix(name, "Whirlwind") {
-		return "Whirlwind"
-	}
-	if strings.HasPrefix(name, "Wildfire") {
-		return "Wildfire"
-	}
-	if strings.HasPrefix(name, "Camelback") {
-		return "Camelback"
-	}
-	if strings.HasPrefix(name, "Gold Canyon") {
-		return "Gold Canyon"
-	}
-	if strings.HasPrefix(name, "Bear Creek") {
-		return "Bear Creek"
-	}
-	if strings.HasPrefix(name, "Riverdale") {
-		return "Riverdale"
-	}
-	if strings.HasPrefix(name, "Hyland Hills") {
-		return "Hyland Hills"
-	}
-	if strings.HasPrefix(name, "Orangebrook Golf") {
-		return "Orangebrook Golf"
-	}
-	if strings.HasPrefix(name, "Legacy Ridge") {
-		return "Legacy Ridge"
-	}
-	return strings.Replace(name, " Back Nine", "", 1)
+	return name
 }
 
 func addAlert(phone string, course string, date string, startTime string, endTime string, minPlayers int, holes string) (platforms.Alert, error) {

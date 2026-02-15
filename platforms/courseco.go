@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"net/url"
 	"strconv"
 	"strings"
 )
@@ -37,8 +38,8 @@ type CourseCoTeeTime struct {
 
 func FetchCourseCo(config CourseCoCourseConfig, date string) ([]DisplayTeeTime, error) {
 	var url string = fmt.Sprintf(
-		"https://courseco-gateway.totaleintegrated.net/Booking/Teetimes?IsInitTeeTimeRequest=false&TeeTimeDate=%s&CourseID=%s&StartTime=05:00&EndTime=21:00&NumOfPlayers=-1&Holes=18&IsNineHole=0&StartPrice=0&EndPrice=&CartIncluded=false&SpecialsOnly=0&IsClosest=0&PlayerIDs=&DateFilterChange=false&DateFilterChangeNoSearch=false&SearchByGroups=true&IsPrepaidOnly=0&QueryStringFilters=null",
-		date, config.CourseID,
+		"https://courseco-gateway.totaleintegrated.net/Booking/Teetimes?IsInitTeeTimeRequest=false&TeeTimeDate=%s&CourseID=%s&StartTime=05:00&EndTime=21:00&NumOfPlayers=-1&Holes=Any&IsNineHole=0&StartPrice=0&EndPrice=&CartIncluded=false&SpecialsOnly=0&IsClosest=0&PlayerIDs=&DateFilterChange=false&DateFilterChangeNoSearch=false&SearchByGroups=true&IsPrepaidOnly=0&QueryStringFilters=null",
+		date, url.QueryEscape(config.CourseID),
 	)
 
 	var req *http.Request

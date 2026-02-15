@@ -1,0 +1,1197 @@
+{
+  "confirmed": 8,
+  "elapsed": "3m46.513832375s",
+  "errors": 0,
+  "listedOnly": 20,
+  "misses": 40,
+  "platform": "teeitup",
+  "results": [
+    {
+      "input": "Harding Park Golf Course",
+      "city": "San Francisco",
+      "alias": "harding-park-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Fleming 9 Golf Course",
+      "city": "San Francisco",
+      "alias": "fleming-9-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Lincoln Park Golf Course",
+      "city": "San Francisco",
+      "alias": "lincoln-park-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 9723,
+        "courseId": "54f14f140c8ad60378b05d7f",
+        "name": "Lincoln Park Golf Course",
+        "address": "3139 Clement St, San Francisco, CA 94121 US",
+        "locality": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -122.495614,
+          37.782143
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Presidio Golf Course",
+      "city": "San Francisco",
+      "alias": "the-presidio-golf-course",
+      "aliasSource": "add-the",
+      "status": "listed_only",
+      "facility": {
+        "id": 148,
+        "courseId": "54f14b3d0c8ad60378b00c91",
+        "name": "The Presidio Golf Course",
+        "address": "300 Finley Road, San Francisco, CA 94129 US",
+        "locality": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -122.462014,
+          37.789222
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Gleneagles Golf Course",
+      "city": "San Francisco",
+      "alias": "gleneagles-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Sharp Park Golf Course",
+      "city": "Pacifica",
+      "alias": "sharp-park-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 9722,
+        "courseId": "54f14f130c8ad60378b05d7d",
+        "name": "Sharp Park Golf Course",
+        "address": "Highway 1 \u0026 Sharp Park Rd, Pacifica, CA 94044 US",
+        "locality": "Pacifica",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -122.489485,
+          37.62412
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Crystal Springs Golf Course",
+      "city": "Burlingame",
+      "alias": "crystal-springs-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 130,
+        "courseId": "54f14b3b0c8ad60378b00c69",
+        "name": "Crystal Springs Golf Course",
+        "address": "6650 Golf Course Drive, Burlingame, CA 94010 US",
+        "locality": "Burlingame",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -122.385015,
+          37.558552
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        40,
+        33,
+        0
+      ]
+    },
+    {
+      "input": "Poplar Creek Golf Course",
+      "city": "San Mateo",
+      "alias": "poplar-creek-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1445,
+        "courseId": "54f14bd40c8ad60378b01796",
+        "name": "Poplar Creek Golf Course",
+        "address": "1700 Coyote Point Dr, San Mateo, CA 94401-1000 US",
+        "locality": "San Mateo",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -122.325296,
+          37.586622
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Half Moon Bay Golf Links - Ocean Course",
+      "city": "Half Moon Bay",
+      "alias": "half-moon-bay-golf-links-ocean-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Half Moon Bay Golf Links - Old Course",
+      "city": "Half Moon Bay",
+      "alias": "half-moon-bay-golf-links-old-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "San Mateo Golf Course",
+      "city": "San Mateo",
+      "alias": "san-mateo-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Mariners Point Golf Center",
+      "city": "Foster City",
+      "alias": "mariners-point-golf-center",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Palo Alto Hills Golf \u0026 Country Club",
+      "city": "Palo Alto",
+      "alias": "palo-alto-hills-golf-and-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Bay Meadows Golf Course",
+      "city": "San Mateo",
+      "alias": "bay-meadows-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Baylands Golf Links",
+      "city": "Palo Alto",
+      "alias": "baylands-golf-links",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Sunnyvale Golf Course",
+      "city": "Sunnyvale",
+      "alias": "sunnyvale-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Santa Clara Golf \u0026 Tennis Club",
+      "city": "Santa Clara",
+      "alias": "santa-clara-golf-and-tennis-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "San Jose Municipal Golf Course",
+      "city": "San Jose",
+      "alias": "san-jose-municipal-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Cinnabar Hills Golf Club",
+      "city": "San Jose",
+      "alias": "cinnabar-hills-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 3821,
+        "courseId": "54f14c9f0c8ad60378b029d1",
+        "name": "Cinnabar Hills Golf Club",
+        "address": "23600 McKean Road, San Jose, CA 95141 US",
+        "locality": "San Jose",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.755665,
+          37.165388
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Coyote Creek Golf Club",
+      "city": "San Jose",
+      "alias": "coyote-creek-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Los Lagos Golf Course",
+      "city": "San Jose",
+      "alias": "los-lagos-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1450,
+        "courseId": "54f14bd50c8ad60378b017a5",
+        "name": "Los Lagos Golf Course",
+        "address": "2995 Tuers Rd, San Jose, CA 95121 US",
+        "locality": "San Jose",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.826792,
+          37.301978
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        30,
+        18,
+        0
+      ]
+    },
+    {
+      "input": "The Ranch Golf Club",
+      "city": "San Jose",
+      "alias": "the-ranch-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 568,
+        "courseId": "54f14b750c8ad60378b01066",
+        "name": "The Ranch Golf Club",
+        "address": "4601 Hill Top View Lane, San Jose, CA 95138 US",
+        "locality": "San Jose",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.796257,
+          37.288548
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Rancho del Pueblo Golf Course",
+      "city": "San Jose",
+      "alias": "rancho-del-pueblo",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 2908,
+        "courseId": "54f14c520c8ad60378b022de",
+        "name": "Rancho del Pueblo",
+        "address": "1649 hermocilla way, San Jose, CA 95116 US",
+        "locality": "San Jose",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.851768,
+          37.346437
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Spring Valley Golf Course",
+      "city": "Milpitas",
+      "alias": "spring-valley-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 160,
+        "courseId": "54f14b400c8ad60378b00cb8",
+        "name": "Spring Valley Golf Course",
+        "address": "3441 Calaveras Road, Milpitas, CA 95035, US",
+        "locality": "Milpitas",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.8414233,
+          37.44473199999999
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        65,
+        46,
+        0
+      ]
+    },
+    {
+      "input": "Summitpointe Golf Club",
+      "city": "Milpitas",
+      "alias": "summitpointe-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Pruneridge Golf Club",
+      "city": "Santa Clara",
+      "alias": "pruneridge-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1279,
+        "courseId": "54f14bc40c8ad60378b01618",
+        "name": "Pruneridge Golf Club",
+        "address": "400 N. Saratoga Ave., Santa Clara, CA 95050 US",
+        "locality": "Santa Clara",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.963168,
+          37.331341
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Deep Cliff Golf Course",
+      "city": "Cupertino",
+      "alias": "deep-cliff-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Sunken Gardens Golf Course",
+      "city": "Sunnyvale",
+      "alias": "sunken-gardens-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Moffett Field Golf Course",
+      "city": "Mountain View",
+      "alias": "moffett-field-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Tilden Park Golf Course",
+      "city": "Berkeley",
+      "alias": "tilden-park-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 306,
+        "courseId": "54f14b540c8ad60378b00e24",
+        "name": "Tilden Park Golf Course",
+        "address": "Grizzly Peak @ Shasta Rd., Berkeley, CA 94708 US",
+        "locality": "Berkeley",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -122.251911,
+          37.887725
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Lake Chabot Golf Course",
+      "city": "Oakland",
+      "alias": "lake-chabot-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1490,
+        "courseId": "54f14bd90c8ad60378b017fe",
+        "name": "Lake Chabot Golf Course",
+        "address": "11450 Golf Links Rd, Oakland, CA 94605, US",
+        "locality": "Oakland",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -122.119861,
+          37.741967
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Chuck Corica Golf Complex - Earl Fry Course",
+      "city": "Alameda",
+      "alias": "chuck-corica-golf-complex-earl-fry-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Chuck Corica Golf Complex - Jack Clark Course",
+      "city": "Alameda",
+      "alias": "chuck-corica-golf-complex-jack-clark-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Metropolitan Golf Links",
+      "city": "Oakland",
+      "alias": "metropolitan-golf-links",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Tony Lema Golf Course",
+      "city": "San Leandro",
+      "alias": "tony-lema-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Monarch Bay Golf Club",
+      "city": "San Leandro",
+      "alias": "monarch-bay-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 458,
+        "courseId": "54f14b680c8ad60378b00f74",
+        "name": "Monarch Bay Golf Club - Lema 18",
+        "address": "13800 Neptune Dr., San Leandro, CA 94577, US",
+        "locality": "San Leandro",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -122.185521,
+          37.694959
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        73,
+        46,
+        0
+      ]
+    },
+    {
+      "input": "Skywest Golf Course",
+      "city": "Hayward",
+      "alias": "skywest-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 822,
+        "courseId": "54f14b9a0c8ad60378b0127f",
+        "name": "Skywest Golf Course",
+        "address": "1401 Golf Course Road, Hayward, CA 94541 US",
+        "locality": "Hayward",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -122.121349,
+          37.666562
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Willow Park Golf Course",
+      "city": "Castro Valley",
+      "alias": "willow-park-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Redwood Canyon Golf Course",
+      "city": "Castro Valley",
+      "alias": "redwood-canyon-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 3796,
+        "courseId": "54f14c9d0c8ad60378b0299e",
+        "name": "Redwood Canyon Golf Course",
+        "address": "17007 Redwood Rd , Castro Valley, CA 94546 US",
+        "locality": "Castro Valley",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -122.08038,
+          37.72608
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Sunol Valley Golf Club",
+      "city": "Sunol",
+      "alias": "sunol-valley-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Mission Hills of Hayward Golf Course",
+      "city": "Hayward",
+      "alias": "mission-hills-of-hayward-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 6004,
+        "courseId": "54f14d8e0c8ad60378b03ef0",
+        "name": "Mission Hills of Hayward Golf Course",
+        "address": "275 Industrial Pkwy, Hayward, CA 94544 US",
+        "locality": "Hayward",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -122.061914,
+          37.633771
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Canyon Lakes Golf Club",
+      "city": "San Ramon",
+      "alias": "canyon-lakes-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "San Ramon Royal Vista Golf Club",
+      "city": "San Ramon",
+      "alias": "san-ramon-royal-vista-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Boundary Oak Golf Course",
+      "city": "Walnut Creek",
+      "alias": "boundary-oak-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1845,
+        "courseId": "54f14bfa0c8ad60378b01af6",
+        "name": "Boundary Oak Golf Course",
+        "address": "3800 Valley Vista Rd, Walnut Creek, CA 94598 US",
+        "locality": "Walnut Creek",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.999473,
+          37.922639
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Diablo Creek Golf Course",
+      "city": "Concord",
+      "alias": "diablo-creek-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1448,
+        "courseId": "54f14bd50c8ad60378b0179f",
+        "name": "Diablo Creek Golf Course",
+        "address": "4050 Port Chicago Hwy, Concord, CA 94520 US",
+        "locality": "Concord",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -122.020662,
+          38.014643
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Contra Costa Country Club",
+      "city": "Pleasant Hill",
+      "alias": "contra-costa-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Buchanan Fields Golf Course",
+      "city": "Concord",
+      "alias": "buchanan-fields-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 5696,
+        "courseId": "54f14d6f0c8ad60378b03c6d",
+        "name": "Skylinks at Buchanan Fields Golf Course",
+        "address": "1091 Concord Ave, Concord, CA 94520, US",
+        "locality": "Concord",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -122.060344,
+          37.978983
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        39,
+        44,
+        0
+      ]
+    },
+    {
+      "input": "Lone Tree Golf \u0026 Event Center",
+      "city": "Antioch",
+      "alias": "lone-tree-golf-and-event-center",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Roddy Ranch Golf Club",
+      "city": "Antioch",
+      "alias": "roddy-ranch-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 215,
+        "courseId": "54f14b470c8ad60378b00d41",
+        "name": "Roddy Ranch Golf Club",
+        "address": "1 Tour Way, Antioch, CA 94531 US",
+        "locality": "Antioch",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.788168,
+          37.924735
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Delta View Golf Course",
+      "city": "Pittsburg",
+      "alias": "delta-view-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1484,
+        "courseId": "54f14bd80c8ad60378b017ef",
+        "name": "Delta View Golf Course",
+        "address": "2232 Golf Club Rd, Pittsburg, CA 94565-3814 US",
+        "locality": "Pittsburg",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.91102,
+          38.014621
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Bridges Golf Club",
+      "city": "San Ramon",
+      "alias": "the-bridges-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Oakhurst Country Club",
+      "city": "Clayton",
+      "alias": "oakhurst-country-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Callippe Preserve Golf Course",
+      "city": "Pleasanton",
+      "alias": "callippe-preserve",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 1432,
+        "courseId": "54f14bd30c8ad60378b0177a",
+        "name": "Callippe Preserve Golf Course",
+        "address": "8500 Clubhouse Dr, Pleasanton, CA 94566 US",
+        "locality": "Pleasanton",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.860984,
+          37.63094
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Castlewood Country Club",
+      "city": "Pleasanton",
+      "alias": "castlewood-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Peacock Gap Golf Club",
+      "city": "San Rafael",
+      "alias": "peacock-gap-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 237,
+        "courseId": "54f14b490c8ad60378b00d7c",
+        "name": "Peacock Gap Golf Club",
+        "address": "333 Biscayne Drive, San Rafael, CA 94901, US",
+        "locality": "San Rafael",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -122.464589,
+          37.99618
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        50,
+        34,
+        54
+      ]
+    },
+    {
+      "input": "StoneTree Golf Club",
+      "city": "Novato",
+      "alias": "stonetree-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Indian Valley Golf Club",
+      "city": "Novato",
+      "alias": "indian-valley-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1431,
+        "courseId": "54f14bd30c8ad60378b01777",
+        "name": "Indian Valley Golf Club",
+        "address": "3035 Novato Boulevard, Novato, CA null US",
+        "locality": "Novato",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -122.640702,
+          38.11018
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "San Geronimo Golf Course",
+      "city": "San Geronimo",
+      "alias": "san-geronimo-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Marin Country Club",
+      "city": "Novato",
+      "alias": "marin-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Mill Valley Golf Course",
+      "city": "Mill Valley",
+      "alias": "mill-valley-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Rooster Run Golf Club",
+      "city": "Petaluma",
+      "alias": "rooster-run",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 4300,
+        "courseId": "54f14cd10c8ad60378b02e40",
+        "name": "Rooster Run",
+        "address": "2301 East Washington Street, Petaluma, CA 94954  US",
+        "locality": "Petaluma",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -122.614942,
+          38.251788
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Adobe Creek Golf Course",
+      "city": "Petaluma",
+      "alias": "adobe-creek-golf-club",
+      "aliasSource": "swap-golf-club",
+      "status": "listed_only",
+      "facility": {
+        "id": 100,
+        "courseId": "54f14b380c8ad60378b00c27",
+        "name": "Adobe Creek Golf Club",
+        "address": "1901 Frates Road, Petaluma, CA 94954 US",
+        "locality": "Petaluma",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -122.584639,
+          38.244551
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Sonoma Golf Club",
+      "city": "Sonoma",
+      "alias": "sonoma-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Vintners Golf Club",
+      "city": "Yountville",
+      "alias": "vintners-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Chardonnay Golf Club",
+      "city": "Napa",
+      "alias": "chardonnay-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 55,
+        "courseId": "54f14b320c8ad60378b00bca",
+        "name": "Chardonnay Golf Club",
+        "address": "2555 Jamieson Canyon Road, Napa, CA 94558 US",
+        "locality": "Napa",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -122.234241,
+          38.220288
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        38,
+        67,
+        0
+      ]
+    },
+    {
+      "input": "Eagle Vines Golf Club",
+      "city": "Napa",
+      "alias": "eagle-vines-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Silverado Resort - North Course",
+      "city": "Napa",
+      "alias": "silverado-resort-north-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Silverado Resort - South Course",
+      "city": "Napa",
+      "alias": "silverado-resort-south-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    }
+  ],
+  "state": "CA",
+  "timestamp": "2026-02-15T12:32:00-07:00",
+  "totalInput": 68,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-21",
+    "2026-02-28"
+  ]
+}

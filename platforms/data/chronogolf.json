@@ -310,5 +310,48 @@
     },
     "city": "Commerce City",
     "state": "CO"
+  },
+  {
+    "key": "tilden-park",
+    "metro": "sanfrancisco",
+    "courseIds": "650513a5-bd40-4b9f-af67-4e442ca69d34",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "143009",
+    "bookingUrl": "https://www.chronogolf.com/club/tilden-park-golf-course-california-berkeley",
+    "names": {
+      "Tilden Park Golf Course": "Tilden Park Golf Course"
+    },
+    "city": "Berkeley",
+    "state": "CA"
+  },
+  {
+    "key": "canyon-lakes",
+    "metro": "sanfrancisco",
+    "courseIds": "e172b6b1-f3cc-4d6d-8ad1-a0ef1737b3cd",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "11030",
+    "bookingUrl": "https://www.chronogolf.com/club/canyon-lakes-golf-course-and-brewery",
+    "names": {
+      "Canyon Lakes Golf Course and Brewery": "Canyon Lakes Golf Club"
+    },
+    "city": "San Ramon",
+    "state": "CA"
+  },
+  {
+    "key": "half-moon-bay",
+    "metro": "sanfrancisco",
+    "courseIds": "9f50b574-c281-4df7-a7cb-13d567406c36,03274c09-51b5-4ad9-beb4-9177e3990e10",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "139381",
+    "bookingUrl": "https://www.chronogolf.com/club/half-moon-bay-golf-links",
+    "names": {
+      "Old Course": "Half Moon Bay Golf Links - Old Course",
+      "Ocean Course": "Half Moon Bay Golf Links - Ocean Course"
+    },
+    "city": "Half Moon Bay",
+    "state": "CA"
   }
 ]

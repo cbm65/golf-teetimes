@@ -441,15 +441,6 @@
     "state": "CO"
   },
   {
-    "key": "arrowhead",
-    "metro": "denver",
-    "alias": "arrowhead-golf-club",
-    "facilityId": "453",
-    "displayName": "Arrowhead Golf Club",
-    "city": "Littleton",
-    "state": "CO"
-  },
-  {
     "key": "raccoon-creek",
     "metro": "denver",
     "alias": "raccoon-creek-golf-course",
@@ -1209,5 +1200,113 @@
     "displayName": "Greenway Park Golf Course",
     "city": "Broomfield",
     "state": "CO"
+  },
+  {
+    "key": "waxahachie",
+    "metro": "dallas",
+    "alias": "waxahachie-golf-club",
+    "facilityId": "17738",
+    "displayName": "Waxahachie Golf Club",
+    "city": "Waxahachie",
+    "state": "TX"
+  },
+  {
+    "key": "crystal-springs",
+    "metro": "sanfrancisco",
+    "alias": "crystal-springs-golf-course",
+    "facilityId": "130",
+    "displayName": "Crystal Springs Golf Course",
+    "city": "Burlingame",
+    "state": "CA"
+  },
+  {
+    "key": "los-lagos",
+    "metro": "sanfrancisco",
+    "alias": "los-lagos-golf-course",
+    "facilityId": "1450",
+    "displayName": "Los Lagos Golf Course",
+    "city": "San Jose",
+    "state": "CA"
+  },
+  {
+    "key": "spring-valley",
+    "metro": "sanfrancisco",
+    "alias": "spring-valley-golf-course",
+    "facilityId": "160",
+    "displayName": "Spring Valley Golf Course",
+    "city": "Milpitas",
+    "state": "CA"
+  },
+  {
+    "key": "lake-chabot",
+    "metro": "sanfrancisco",
+    "alias": "lake-chabot-golf-course",
+    "facilityId": "1490",
+    "displayName": "Lake Chabot Golf Course",
+    "city": "Oakland",
+    "state": "CA"
+  },
+  {
+    "key": "monarch-bay",
+    "metro": "sanfrancisco",
+    "alias": "monarch-bay-golf-courses",
+    "facilityId": "458",
+    "displayName": "Monarch Bay - Lema 18",
+    "city": "San Leandro",
+    "state": "CA"
+  },
+  {
+    "key": "buchanan-fields",
+    "metro": "sanfrancisco",
+    "alias": "buchanan-fields-golf-course",
+    "facilityId": "5696",
+    "displayName": "Buchanan Fields Golf Course",
+    "city": "Concord",
+    "state": "CA"
+  },
+  {
+    "key": "peacock-gap",
+    "metro": "sanfrancisco",
+    "alias": "peacock-gap-golf-club",
+    "facilityId": "237",
+    "displayName": "Peacock Gap Golf Club",
+    "city": "San Rafael",
+    "state": "CA"
+  },
+  {
+    "key": "gleneagles",
+    "metro": "sanfrancisco",
+    "alias": "gleneagles-gc-mclaren-park",
+    "facilityId": "3801",
+    "displayName": "Gleneagles Golf Course",
+    "city": "San Francisco",
+    "state": "CA"
+  },
+  {
+    "key": "monarch-bay-marina",
+    "metro": "sanfrancisco",
+    "alias": "monarch-bay-golf-courses",
+    "facilityId": "16194",
+    "displayName": "Monarch Bay - Marina 9",
+    "city": "San Leandro",
+    "state": "CA"
+  },
+  {
+    "key": "the-bridges",
+    "metro": "sanfrancisco",
+    "alias": "the-bridges-golf-club-2",
+    "facilityId": "5141",
+    "displayName": "The Bridges Golf Club",
+    "city": "San Ramon",
+    "state": "CA"
+  },
+  {
+    "key": "eagle-vines",
+    "metro": "sanfrancisco",
+    "alias": "eagle-vines-golf-club-2",
+    "facilityId": "10706",
+    "displayName": "Eagle Vines Golf Club",
+    "city": "Napa",
+    "state": "CA"
   }
 ]

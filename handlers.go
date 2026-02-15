@@ -325,6 +325,21 @@ func handleMetroTeeTimes(w http.ResponseWriter, r *http.Request, metro Metro) {
 		}(key, config)
 	}
 
+	// Launch TeeOn fetches for this metro
+	for key, config := range platforms.TeeOnCourses {
+		if config.Metro != metro.Slug {
+			continue
+		}
+		wg.Add(1)
+		go func(n string, c platforms.TeeOnCourseConfig) {
+			defer wg.Done()
+			var results []platforms.DisplayTeeTime
+			var err error
+			results, err = platforms.FetchTeeOn(c, date)
+			ch <- fetchResult{results: results, err: err, name: n}
+		}(key, config)
+	}
+
 	// Close channel when all goroutines finish
 	go func() {
 		wg.Wait()

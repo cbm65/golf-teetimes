@@ -83,5 +83,17 @@
     "displayName": "Heritage Ranch Golf & Country Club",
     "city": "McKinney",
     "state": "TX"
+  },
+  {
+    "key": "baylands",
+    "metro": "sanfrancisco",
+    "courseIds": [
+      "8f1e55f9-c774-4157-9808-62fa466d0a07"
+    ],
+    "slug": "baylands-golf-links",
+    "bookingUrl": "https://golfwithaccess.com/course/baylands-golf-links/reserve-tee-time",
+    "displayName": "Baylands Golf Links",
+    "city": "Palo Alto",
+    "state": "CA"
   }
 ]

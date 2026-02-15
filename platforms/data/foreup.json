@@ -195,5 +195,82 @@
     "displayName": "Montgomery Bell State Park Golf Course",
     "city": "Burns",
     "state": "TN"
+  },
+  {
+    "key": "mission-hills",
+    "metro": "sanfrancisco",
+    "courseId": "21622",
+    "bookingClass": "10881",
+    "scheduleId": "8372",
+    "bookingUrl": "",
+    "displayName": "Mission Hills Golf Course",
+    "city": "Hayward",
+    "state": "CA"
+  },
+  {
+    "key": "poplar-creek",
+    "metro": "sanfrancisco",
+    "courseId": "20831",
+    "bookingClass": "7301",
+    "scheduleId": "6117",
+    "bookingUrl": "",
+    "displayName": "Poplar Creek Golf Course",
+    "city": "San Mateo",
+    "state": "CA"
+  },
+  {
+    "key": "rooster-run",
+    "metro": "sanfrancisco",
+    "courseId": "19851",
+    "bookingClass": "2426",
+    "scheduleId": "2677",
+    "bookingUrl": "",
+    "displayName": "Rooster Run Golf Club",
+    "city": "Petaluma",
+    "state": "CA"
+  },
+  {
+    "key": "corica-south",
+    "metro": "sanfrancisco",
+    "courseId": "22822",
+    "bookingClass": "51292",
+    "scheduleId": "12057",
+    "bookingUrl": "",
+    "displayName": "Corica Park - South Course",
+    "city": "Alameda",
+    "state": "CA"
+  },
+  {
+    "key": "corica-north",
+    "metro": "sanfrancisco",
+    "courseId": "22822",
+    "bookingClass": "51290",
+    "scheduleId": "12056",
+    "bookingUrl": "",
+    "displayName": "Corica Park - North Course",
+    "city": "Alameda",
+    "state": "CA"
+  },
+  {
+    "key": "corica-mif",
+    "metro": "sanfrancisco",
+    "courseId": "22822",
+    "bookingClass": "51294",
+    "scheduleId": "12058",
+    "bookingUrl": "",
+    "displayName": "Corica Park - The Mif",
+    "city": "Alameda",
+    "state": "CA"
+  },
+  {
+    "key": "adobe-creek",
+    "metro": "sanfrancisco",
+    "courseId": "22979",
+    "bookingClass": "52140",
+    "scheduleId": "12592",
+    "bookingUrl": "",
+    "displayName": "Adobe Creek Golf Course",
+    "city": "Petaluma",
+    "state": "CA"
   }
 ]

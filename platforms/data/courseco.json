@@ -18,5 +18,75 @@
     "displayName": "Riverside Golf Club",
     "city": "Grand Prairie",
     "state": "TX"
+  },
+  {
+    "key": "chardonnay",
+    "metro": "sanfrancisco",
+    "subdomain": "chardonnay",
+    "courseId": "CHARDONNAY",
+    "bookingUrl": "https://chardonnay.totaleintegrated.net",
+    "displayName": "Chardonnay Golf Club",
+    "city": "Napa",
+    "state": "CA"
+  },
+  {
+    "key": "san-jose-muni",
+    "metro": "sanfrancisco",
+    "subdomain": "sanjose",
+    "courseId": "SANJOSE",
+    "bookingUrl": "https://sanjose.totaleintegrated.net/web/tee-times",
+    "displayName": "San Jose Municipal Golf Course",
+    "city": "San Jose",
+    "state": "CA"
+  },
+  {
+    "key": "rancho-del-pueblo",
+    "metro": "sanfrancisco",
+    "subdomain": "ranchodelpueblo",
+    "courseId": "RANCHO DELP",
+    "bookingUrl": "https://ranchodelpueblo.totaleintegrated.net/web/tee-times",
+    "displayName": "Rancho del Pueblo Golf Course",
+    "city": "San Jose",
+    "state": "CA"
+  },
+  {
+    "key": "deep-cliff",
+    "metro": "sanfrancisco",
+    "subdomain": "deepcliff",
+    "courseId": "DEEP CLIFF",
+    "bookingUrl": "https://deepcliff.totaleintegrated.net/web/tee-times",
+    "displayName": "Deep Cliff Golf Course",
+    "city": "Cupertino",
+    "state": "CA"
+  },
+  {
+    "key": "metropolitan",
+    "metro": "sanfrancisco",
+    "subdomain": "metro",
+    "courseId": "METROPOLITAN",
+    "bookingUrl": "https://metro.totaleintegrated.net/web/tee-times",
+    "displayName": "Metropolitan Golf Links",
+    "city": "Oakland",
+    "state": "CA"
+  },
+  {
+    "key": "boundary-oak",
+    "metro": "sanfrancisco",
+    "subdomain": "boundaryoak",
+    "courseId": "BOUNDARY OAK",
+    "bookingUrl": "https://boundaryoak.totaleintegrated.net/web/tee-times",
+    "displayName": "Boundary Oak Golf Course",
+    "city": "Walnut Creek",
+    "state": "CA"
+  },
+  {
+    "key": "callippe-preserve",
+    "metro": "sanfrancisco",
+    "subdomain": "callippe",
+    "courseId": "CALLIPPE PRES",
+    "bookingUrl": "https://callippe.totaleintegrated.net/web/tee-times",
+    "displayName": "Callippe Preserve Golf Course",
+    "city": "Pleasanton",
+    "state": "CA"
   }
 ]

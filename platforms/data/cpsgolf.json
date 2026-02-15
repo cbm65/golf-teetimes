@@ -338,5 +338,39 @@
     "city": "Westminster",
     "state": "CO",
     "timezone": "America/Denver"
+  },
+  {
+    "key": "indian-peaks",
+    "metro": "denver",
+    "baseUrl": "https://indianpeaks.cps.golf",
+    "apiKey": "",
+    "websiteId": "f04abbc1-368f-40f4-096d-08d89aea9574",
+    "siteId": "1",
+    "courseIds": "10,11",
+    "bookingUrl": "https://indianpeaks.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Indian Peaks Golf Course": "Indian Peaks Golf Course",
+      "IP 9-Holes": "Indian Peaks - 9 Holes"
+    },
+    "city": "Lafayette",
+    "state": "CO",
+    "timezone": "America/Denver"
+  },
+  {
+    "key": "diablo-creek",
+    "metro": "sanfrancisco",
+    "baseUrl": "https://diablocreek.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "f9c22207-c783-4756-7620-08dc654d08ad",
+    "siteId": "4",
+    "courseIds": "2,3",
+    "bookingUrl": "https://diablocreek.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Diablo Creek Golf Course": "Diablo Creek - 18 Holes",
+      "Back 9": "Diablo Creek - Back 9"
+    },
+    "city": "Concord",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
   }
 ]
