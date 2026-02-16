@@ -88,5 +88,15 @@
     "displayName": "Callippe Preserve Golf Course",
     "city": "Pleasanton",
     "state": "CA"
+  },
+  {
+    "key": "las-positas",
+    "metro": "sanfrancisco",
+    "subdomain": "laspositas",
+    "courseId": "LASPOSITAS",
+    "bookingUrl": "https://laspositas.totaleintegrated.net",
+    "displayName": "Las Positas Golf Course",
+    "city": "Livermore",
+    "state": "CA"
   }
 ]

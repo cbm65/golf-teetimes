@@ -1686,5 +1686,59 @@
     "displayName": "West Pines Golf Club",
     "city": "Douglasville",
     "state": "GA"
+  },
+  {
+    "key": "blackberry-farm",
+    "metro": "sanfrancisco",
+    "alias": "blackberry-farm-golf-course",
+    "facilityId": "8616",
+    "displayName": "Blackberry Farm Golf Course",
+    "city": "Cupertino",
+    "state": "CA"
+  },
+  {
+    "key": "brentwood",
+    "metro": "sanfrancisco",
+    "alias": "the-golf-club-at-brentwood",
+    "facilityId": "1603",
+    "displayName": "Brentwood Golf Club",
+    "city": "Brentwood",
+    "state": "CA"
+  },
+  {
+    "key": "franklin-canyon",
+    "metro": "sanfrancisco",
+    "alias": "franklin-canyon-golf-course",
+    "facilityId": "455",
+    "displayName": "Franklin Canyon Golf Course",
+    "city": "Hercules",
+    "state": "CA"
+  },
+  {
+    "key": "pasatiempo",
+    "metro": "sanfrancisco",
+    "alias": "pasatiempo-golf-club",
+    "facilityId": "4759",
+    "displayName": "Pasatiempo Golf Club",
+    "city": "Santa Cruz",
+    "state": "CA"
+  },
+  {
+    "key": "pleasanton-golf-center",
+    "metro": "sanfrancisco",
+    "alias": "pleasanton-golf-center",
+    "facilityId": "586",
+    "displayName": "Pleasanton Golf Center",
+    "city": "Pleasanton",
+    "state": "CA"
+  },
+  {
+    "key": "wente-vineyards",
+    "metro": "sanfrancisco",
+    "alias": "the-course-at-wente-vineyards",
+    "facilityId": "432",
+    "displayName": "The Course at Wente Vineyards",
+    "city": "Livermore",
+    "state": "CA"
   }
 ]

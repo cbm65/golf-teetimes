@@ -109,5 +109,14 @@
     "displayName": "Copper Canyon Golf Club",
     "city": "Buckeye",
     "state": "AZ"
+  },
+  {
+    "key": "hiddenbrooke",
+    "metro": "sanfrancisco",
+    "slug": "hiddenbrooke-golf-club",
+    "bookingUrl": "https://golfwithaccess.com/course/hiddenbrooke-golf-club/reserve-tee-time",
+    "displayName": "Hiddenbrooke Golf Club",
+    "city": "Vallejo",
+    "state": "CA"
   }
 ]

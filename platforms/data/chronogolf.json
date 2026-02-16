@@ -409,5 +409,22 @@
     },
     "city": "Griffin",
     "state": "GA"
+  },
+  {
+    "key": "blue-rock-springs",
+    "metro": "sanfrancisco",
+    "courseIds": "246323d8-8f07-4771-ad8d-31f648def491,039d1b9b-2723-4b50-b02c-2925ae207f83",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "770",
+    "bookingUrl": "https://www.chronogolf.com/club/blue-rock-springs-golf-club",
+    "names": {
+      "Blue Rock Springs Golf Club - East Course": "Blue Rock Springs Golf Club - East Course",
+      "Blue Rock Springs Golf Club - West Course": "Blue Rock Springs Golf Club - West Course",
+      "East": "Blue Rock Springs Golf Club - East Course",
+      "West": "Blue Rock Springs Golf Club - West Course"
+    },
+    "city": "Vallejo",
+    "state": "CA"
   }
 ]

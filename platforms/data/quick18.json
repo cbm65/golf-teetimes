@@ -125,5 +125,14 @@
     "displayName": "Union Hills Golf Club",
     "city": "Sun City",
     "state": "AZ"
+  },
+  {
+    "key": "delaveaga",
+    "metro": "sanfrancisco",
+    "subdomain": "delaveaga",
+    "bookingUrl": "https://delaveaga.quick18.com",
+    "displayName": "DeLaveaga Golf Course",
+    "city": "Santa Cruz",
+    "state": "CA"
   }
 ]

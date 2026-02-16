@@ -389,5 +389,21 @@
     "city": "Royse City",
     "state": "TX",
     "timezone": "America/Chicago"
+  },
+  {
+    "key": "shadow-lakes",
+    "metro": "sanfrancisco",
+    "baseUrl": "https://jcgslpub.cps.golf",
+    "apiKey": "",
+    "websiteId": "304254b5-3d56-4ee8-2f2f-08d9a9a945d4",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://jcgslpub.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Shadow Lakes": "Shadow Lakes Golf Club"
+    },
+    "city": "Brentwood",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
   }
 ]

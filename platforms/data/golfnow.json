@@ -780,46 +780,6 @@
     "state": "CA"
   },
   {
-    "key": "blackberry-farm-golf-course",
-    "metro": "sanfrancisco",
-    "facilityId": 8616,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/8616/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/8616/search",
-    "displayName": "Blackberry Farm Golf Course",
-    "city": "Cupertino",
-    "state": "CA"
-  },
-  {
-    "key": "blue-rock-springs-golf-club-east-course",
-    "metro": "sanfrancisco",
-    "facilityId": 1906,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/1906/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1906/search",
-    "displayName": "Blue Rock Springs Golf Club - East Course",
-    "city": "Vallejo",
-    "state": "CA"
-  },
-  {
-    "key": "blue-rock-springs-golf-club-west-course",
-    "metro": "sanfrancisco",
-    "facilityId": 9954,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/9954/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/9954/search",
-    "displayName": "Blue Rock Springs Golf Club - West Course",
-    "city": "Vallejo",
-    "state": "CA"
-  },
-  {
-    "key": "brentwood-golf-club",
-    "metro": "sanfrancisco",
-    "facilityId": 1603,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/1603/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1603/search",
-    "displayName": "Brentwood Golf Club",
-    "city": "Brentwood",
-    "state": "CA"
-  },
-  {
     "key": "cinnabar-hills-golf-club",
     "metro": "sanfrancisco",
     "facilityId": 3821,
@@ -850,16 +810,6 @@
     "state": "CA"
   },
   {
-    "key": "delaveaga-golf-course",
-    "metro": "sanfrancisco",
-    "facilityId": 98,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/98/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/98/search",
-    "displayName": "DeLaveaga Golf Course",
-    "city": "Santa Cruz",
-    "state": "CA"
-  },
-  {
     "key": "dublin-ranch-golf-course",
     "metro": "sanfrancisco",
     "facilityId": 567,
@@ -870,16 +820,6 @@
     "state": "CA"
   },
   {
-    "key": "franklin-canyon-golf-course",
-    "metro": "sanfrancisco",
-    "facilityId": 455,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/455/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/455/search",
-    "displayName": "Franklin Canyon Golf Course",
-    "city": "Hercules",
-    "state": "CA"
-  },
-  {
     "key": "fremont-park-golf-course",
     "metro": "sanfrancisco",
     "facilityId": 1323,
@@ -887,26 +827,6 @@
     "bookingUrl": "https://www.golfnow.com/tee-times/facility/1323/search",
     "displayName": "Fremont Park Golf Course",
     "city": "Fremont",
-    "state": "CA"
-  },
-  {
-    "key": "hiddenbrooke-golf-club",
-    "metro": "sanfrancisco",
-    "facilityId": 585,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/585/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/585/search",
-    "displayName": "Hiddenbrooke Golf Club",
-    "city": "Vallejo",
-    "state": "CA"
-  },
-  {
-    "key": "las-positas-golf-course",
-    "metro": "sanfrancisco",
-    "facilityId": 1457,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/1457/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1457/search",
-    "displayName": "Las Positas Golf Course",
-    "city": "Livermore",
     "state": "CA"
   },
   {
@@ -930,26 +850,6 @@
     "state": "CA"
   },
   {
-    "key": "pasatiempo-golf-club",
-    "metro": "sanfrancisco",
-    "facilityId": 4759,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/4759/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/4759/search",
-    "displayName": "Pasatiempo Golf Club",
-    "city": "Santa Cruz",
-    "state": "CA"
-  },
-  {
-    "key": "pleasanton-golf-center",
-    "metro": "sanfrancisco",
-    "facilityId": 586,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/586/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/586/search",
-    "displayName": "Pleasanton Golf Center",
-    "city": "Pleasanton",
-    "state": "CA"
-  },
-  {
     "key": "redwood-canyon-golf-course",
     "metro": "sanfrancisco",
     "facilityId": 3796,
@@ -970,16 +870,6 @@
     "state": "CA"
   },
   {
-    "key": "shadow-lakes-golf-club",
-    "metro": "sanfrancisco",
-    "facilityId": 102,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/102/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/102/search",
-    "displayName": "Shadow Lakes Golf Club",
-    "city": "Brentwood",
-    "state": "CA"
-  },
-  {
     "key": "sharp-park-golf-course",
     "metro": "sanfrancisco",
     "facilityId": 9722,
@@ -987,16 +877,6 @@
     "bookingUrl": "https://www.golfnow.com/tee-times/facility/9722/search",
     "displayName": "Sharp Park Golf Course",
     "city": "Pacifica",
-    "state": "CA"
-  },
-  {
-    "key": "shoreline-golf-links",
-    "metro": "sanfrancisco",
-    "facilityId": 6012,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/6012/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6012/search",
-    "displayName": "Shoreline Golf Links",
-    "city": "Mountain View",
     "state": "CA"
   },
   {
@@ -1030,16 +910,6 @@
     "state": "CA"
   },
   {
-    "key": "the-course-at-wente-vineyards",
-    "metro": "sanfrancisco",
-    "facilityId": 432,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/432/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/432/search",
-    "displayName": "The Course at Wente Vineyards",
-    "city": "Livermore",
-    "state": "CA"
-  },
-  {
     "key": "the-golf-club-at-moffett-field",
     "metro": "sanfrancisco",
     "facilityId": 13114,
@@ -1048,5 +918,175 @@
     "displayName": "The Golf Club at Moffett Field",
     "city": "Mountain View",
     "state": "CA"
+  },
+  {
+    "key": "briar-bay-golf-course",
+    "metro": "miami",
+    "facilityId": 6739,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/6739/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6739/search",
+    "displayName": "Briar Bay Golf Course",
+    "city": "Miami",
+    "state": "FL"
+  },
+  {
+    "key": "city-of-lauderhill-golf-course",
+    "metro": "miami",
+    "facilityId": 9857,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/9857/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/9857/search",
+    "displayName": "City of Lauderhill Golf Course",
+    "city": "Fort Lauderdale",
+    "state": "FL"
+  },
+  {
+    "key": "country-club-of-miami-east",
+    "metro": "miami",
+    "facilityId": 3647,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3647/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3647/search",
+    "displayName": "Country Club of Miami - East",
+    "city": "Hialeah",
+    "state": "FL"
+  },
+  {
+    "key": "country-club-of-miami-west",
+    "metro": "miami",
+    "facilityId": 5989,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/5989/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/5989/search",
+    "displayName": "Country Club of Miami - West",
+    "city": "Hialeah",
+    "state": "FL"
+  },
+  {
+    "key": "davie-golf-club",
+    "metro": "miami",
+    "facilityId": 8261,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/8261/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/8261/search",
+    "displayName": "Davie Golf Club",
+    "city": "Fort Lauderdale",
+    "state": "FL"
+  },
+  {
+    "key": "flamingo-lakes-country-club",
+    "metro": "miami",
+    "facilityId": 973,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/973/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/973/search",
+    "displayName": "Flamingo Lakes Country Club",
+    "city": "Pembroke Pines",
+    "state": "FL"
+  },
+  {
+    "key": "greynolds-park-golf-course",
+    "metro": "miami",
+    "facilityId": 6741,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/6741/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6741/search",
+    "displayName": "Greynolds Park Golf Course",
+    "city": "North Miami Beach",
+    "state": "FL"
+  },
+  {
+    "key": "miami-springs-golf-country-club",
+    "metro": "miami",
+    "facilityId": 7277,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/7277/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/7277/search",
+    "displayName": "Miami Springs Golf & Country Club",
+    "city": "Miami",
+    "state": "FL"
+  },
+  {
+    "key": "palm-aire-country-club-oaks",
+    "metro": "miami",
+    "facilityId": 4476,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/4476/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/4476/search",
+    "displayName": "Palm Aire Country Club - Oaks",
+    "city": "Pompano Beach",
+    "state": "FL"
+  },
+  {
+    "key": "palm-aire-country-club-cypress",
+    "metro": "miami",
+    "facilityId": 4478,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/4478/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/4478/search",
+    "displayName": "Palm Aire Country Club - Cypress",
+    "city": "Pompano Beach",
+    "state": "FL"
+  },
+  {
+    "key": "palmetto-golf-course",
+    "metro": "miami",
+    "facilityId": 5988,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/5988/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/5988/search",
+    "displayName": "Palmetto Golf Course",
+    "city": "Miami",
+    "state": "FL"
+  },
+  {
+    "key": "palms-at-palm-aire",
+    "metro": "miami",
+    "facilityId": 4479,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/4479/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/4479/search",
+    "displayName": "Palms at Palm Aire",
+    "city": "Pompano Beach",
+    "state": "FL"
+  },
+  {
+    "key": "trump-national-doral-miami-blue-monster-course",
+    "metro": "miami",
+    "facilityId": 11057,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/11057/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/11057/search",
+    "displayName": "Trump National Doral Miami - Blue Monster Course",
+    "city": "Miami",
+    "state": "FL"
+  },
+  {
+    "key": "trump-national-doral-miami-golden-palm-course",
+    "metro": "miami",
+    "facilityId": 5849,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/5849/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/5849/search",
+    "displayName": "Trump National Doral Miami - Golden Palm Course",
+    "city": "Miami",
+    "state": "FL"
+  },
+  {
+    "key": "trump-national-doral-miami-red-tiger-course",
+    "metro": "miami",
+    "facilityId": 5848,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/5848/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/5848/search",
+    "displayName": "Trump National Doral Miami - Red Tiger Course",
+    "city": "Miami",
+    "state": "FL"
+  },
+  {
+    "key": "trump-national-doral-miami-silver-fox-course",
+    "metro": "miami",
+    "facilityId": 5852,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/5852/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/5852/search",
+    "displayName": "Trump National Doral Miami - Silver Fox Course",
+    "city": "Miami",
+    "state": "FL"
+  },
+  {
+    "key": "woodmont-country-club",
+    "metro": "miami",
+    "facilityId": 3630,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3630/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3630/search",
+    "displayName": "Woodmont Country Club",
+    "city": "Fort Lauderdale",
+    "state": "FL"
   }
 ]

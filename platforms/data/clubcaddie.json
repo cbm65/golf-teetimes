@@ -86,5 +86,16 @@
     "displayName": "Country View Golf Club",
     "city": "Lancaster",
     "state": "TX"
+  },
+  {
+    "key": "shoreline",
+    "metro": "sanfrancisco",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "bcfdabab",
+    "courseId": "103422",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/bcfdabab/slots",
+    "displayName": "Shoreline Golf Links",
+    "city": "Mountain View",
+    "state": "CA"
   }
 ]
