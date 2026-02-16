@@ -768,5 +768,285 @@
     "displayName": "Woodland Hills Golf Club",
     "city": "Cartersville",
     "state": "GA"
+  },
+  {
+    "key": "bay-view-golf-club",
+    "metro": "sanfrancisco",
+    "facilityId": 460,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/460/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/460/search",
+    "displayName": "Bay View Golf Club",
+    "city": "Milpitas",
+    "state": "CA"
+  },
+  {
+    "key": "blackberry-farm-golf-course",
+    "metro": "sanfrancisco",
+    "facilityId": 8616,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/8616/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/8616/search",
+    "displayName": "Blackberry Farm Golf Course",
+    "city": "Cupertino",
+    "state": "CA"
+  },
+  {
+    "key": "blue-rock-springs-golf-club-east-course",
+    "metro": "sanfrancisco",
+    "facilityId": 1906,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1906/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1906/search",
+    "displayName": "Blue Rock Springs Golf Club - East Course",
+    "city": "Vallejo",
+    "state": "CA"
+  },
+  {
+    "key": "blue-rock-springs-golf-club-west-course",
+    "metro": "sanfrancisco",
+    "facilityId": 9954,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/9954/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/9954/search",
+    "displayName": "Blue Rock Springs Golf Club - West Course",
+    "city": "Vallejo",
+    "state": "CA"
+  },
+  {
+    "key": "brentwood-golf-club",
+    "metro": "sanfrancisco",
+    "facilityId": 1603,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1603/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1603/search",
+    "displayName": "Brentwood Golf Club",
+    "city": "Brentwood",
+    "state": "CA"
+  },
+  {
+    "key": "cinnabar-hills-golf-club",
+    "metro": "sanfrancisco",
+    "facilityId": 3821,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3821/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3821/search",
+    "displayName": "Cinnabar Hills Golf Club",
+    "city": "San Jose",
+    "state": "CA"
+  },
+  {
+    "key": "coyote-creek-golf-club-tournament-course",
+    "metro": "sanfrancisco",
+    "facilityId": 9127,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/9127/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/9127/search",
+    "displayName": "Coyote Creek Golf Club - Tournament Course",
+    "city": "Morgan Hill",
+    "state": "CA"
+  },
+  {
+    "key": "coyote-creek-golf-club-valley-course",
+    "metro": "sanfrancisco",
+    "facilityId": 9126,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/9126/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/9126/search",
+    "displayName": "Coyote Creek Golf Club - Valley Course",
+    "city": "Morgan Hill",
+    "state": "CA"
+  },
+  {
+    "key": "delaveaga-golf-course",
+    "metro": "sanfrancisco",
+    "facilityId": 98,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/98/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/98/search",
+    "displayName": "DeLaveaga Golf Course",
+    "city": "Santa Cruz",
+    "state": "CA"
+  },
+  {
+    "key": "dublin-ranch-golf-course",
+    "metro": "sanfrancisco",
+    "facilityId": 567,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/567/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/567/search",
+    "displayName": "Dublin Ranch Golf Course",
+    "city": "Dublin",
+    "state": "CA"
+  },
+  {
+    "key": "franklin-canyon-golf-course",
+    "metro": "sanfrancisco",
+    "facilityId": 455,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/455/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/455/search",
+    "displayName": "Franklin Canyon Golf Course",
+    "city": "Hercules",
+    "state": "CA"
+  },
+  {
+    "key": "fremont-park-golf-course",
+    "metro": "sanfrancisco",
+    "facilityId": 1323,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1323/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1323/search",
+    "displayName": "Fremont Park Golf Course",
+    "city": "Fremont",
+    "state": "CA"
+  },
+  {
+    "key": "hiddenbrooke-golf-club",
+    "metro": "sanfrancisco",
+    "facilityId": 585,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/585/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/585/search",
+    "displayName": "Hiddenbrooke Golf Club",
+    "city": "Vallejo",
+    "state": "CA"
+  },
+  {
+    "key": "las-positas-golf-course",
+    "metro": "sanfrancisco",
+    "facilityId": 1457,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1457/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1457/search",
+    "displayName": "Las Positas Golf Course",
+    "city": "Livermore",
+    "state": "CA"
+  },
+  {
+    "key": "lincoln-park-golf-course",
+    "metro": "sanfrancisco",
+    "facilityId": 9723,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/9723/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/9723/search",
+    "displayName": "Lincoln Park Golf Course",
+    "city": "San Francisco",
+    "state": "CA"
+  },
+  {
+    "key": "montclair-golf-course",
+    "metro": "sanfrancisco",
+    "facilityId": 17999,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/17999/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/17999/search",
+    "displayName": "Montclair Golf Course",
+    "city": "Oakland",
+    "state": "CA"
+  },
+  {
+    "key": "pasatiempo-golf-club",
+    "metro": "sanfrancisco",
+    "facilityId": 4759,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/4759/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/4759/search",
+    "displayName": "Pasatiempo Golf Club",
+    "city": "Santa Cruz",
+    "state": "CA"
+  },
+  {
+    "key": "pleasanton-golf-center",
+    "metro": "sanfrancisco",
+    "facilityId": 586,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/586/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/586/search",
+    "displayName": "Pleasanton Golf Center",
+    "city": "Pleasanton",
+    "state": "CA"
+  },
+  {
+    "key": "redwood-canyon-golf-course",
+    "metro": "sanfrancisco",
+    "facilityId": 3796,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3796/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3796/search",
+    "displayName": "Redwood Canyon Golf Course",
+    "city": "Castro Valley",
+    "state": "CA"
+  },
+  {
+    "key": "san-ramon-golf-club",
+    "metro": "sanfrancisco",
+    "facilityId": 241,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/241/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/241/search",
+    "displayName": "San Ramon Golf Club",
+    "city": "San Ramon",
+    "state": "CA"
+  },
+  {
+    "key": "shadow-lakes-golf-club",
+    "metro": "sanfrancisco",
+    "facilityId": 102,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/102/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/102/search",
+    "displayName": "Shadow Lakes Golf Club",
+    "city": "Brentwood",
+    "state": "CA"
+  },
+  {
+    "key": "sharp-park-golf-course",
+    "metro": "sanfrancisco",
+    "facilityId": 9722,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/9722/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/9722/search",
+    "displayName": "Sharp Park Golf Course",
+    "city": "Pacifica",
+    "state": "CA"
+  },
+  {
+    "key": "shoreline-golf-links",
+    "metro": "sanfrancisco",
+    "facilityId": 6012,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/6012/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6012/search",
+    "displayName": "Shoreline Golf Links",
+    "city": "Mountain View",
+    "state": "CA"
+  },
+  {
+    "key": "sunken-gardens-golf-course",
+    "metro": "sanfrancisco",
+    "facilityId": 15719,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/15719/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/15719/search",
+    "displayName": "Sunken Gardens Golf Course",
+    "city": "Sunnyvale",
+    "state": "CA"
+  },
+  {
+    "key": "sunnyvale-golf-course",
+    "metro": "sanfrancisco",
+    "facilityId": 1497,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1497/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1497/search",
+    "displayName": "Sunnyvale Golf Course",
+    "city": "Sunnyvale",
+    "state": "CA"
+  },
+  {
+    "key": "tpc-harding-park-golf-club",
+    "metro": "sanfrancisco",
+    "facilityId": 8276,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/8276/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/8276/search",
+    "displayName": "TPC Harding Park Golf Club",
+    "city": "San Francisco",
+    "state": "CA"
+  },
+  {
+    "key": "the-course-at-wente-vineyards",
+    "metro": "sanfrancisco",
+    "facilityId": 432,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/432/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/432/search",
+    "displayName": "The Course at Wente Vineyards",
+    "city": "Livermore",
+    "state": "CA"
+  },
+  {
+    "key": "the-golf-club-at-moffett-field",
+    "metro": "sanfrancisco",
+    "facilityId": 13114,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/13114/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/13114/search",
+    "displayName": "The Golf Club at Moffett Field",
+    "city": "Mountain View",
+    "state": "CA"
   }
 ]
