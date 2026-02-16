@@ -272,5 +272,16 @@
     "displayName": "Adobe Creek Golf Course",
     "city": "Petaluma",
     "state": "CA"
+  },
+  {
+    "key": "hidden-creek",
+    "metro": "dallas",
+    "courseId": "20887",
+    "bookingClass": "7204",
+    "scheduleId": "6097",
+    "bookingUrl": "",
+    "displayName": "Hidden Creek Golf Course",
+    "city": "Burleson",
+    "state": "TX"
   }
 ]

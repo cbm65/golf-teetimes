@@ -952,7 +952,7 @@
   {
     "key": "firewheel",
     "metro": "dallas",
-    "alias": "firewheel-golf-park",
+    "alias": "firewheel-golf-park-v2",
     "facilityId": "9413",
     "displayName": "Firewheel Golf Park - Bridges",
     "city": "Garland",
@@ -1497,5 +1497,131 @@
     "displayName": "The Duke Golf Course",
     "city": "Maricopa",
     "state": "AZ"
+  },
+  {
+    "key": "coyote-ridge",
+    "metro": "dallas",
+    "alias": "coyote-ridge-golf-club",
+    "facilityId": "1261",
+    "displayName": "Coyote Ridge Golf Club",
+    "city": "Carrollton",
+    "state": "TX"
+  },
+  {
+    "key": "irving",
+    "metro": "dallas",
+    "alias": "irving-golf-club",
+    "facilityId": "3186",
+    "displayName": "Irving Golf Club",
+    "city": "Irving",
+    "state": "TX"
+  },
+  {
+    "key": "oak-hollow",
+    "metro": "dallas",
+    "alias": "oak-hollow-golf-course",
+    "facilityId": "42",
+    "displayName": "Oak Hollow Golf Course",
+    "city": "McKinney",
+    "state": "TX"
+  },
+  {
+    "key": "old-brickyard",
+    "metro": "dallas",
+    "alias": "old-brickyard-golf-course",
+    "facilityId": "43",
+    "displayName": "Old Brickyard Golf Course",
+    "city": "Ferris",
+    "state": "TX"
+  },
+  {
+    "key": "prairie-lakes",
+    "metro": "dallas",
+    "alias": "prairie-lakes-golf-course",
+    "facilityId": "1311",
+    "displayName": "Prairie Lakes Golf Course",
+    "city": "Grand Prairie",
+    "state": "TX"
+  },
+  {
+    "key": "ridgeview-ranch",
+    "metro": "dallas",
+    "alias": "ridgeview-ranch-golf-club",
+    "facilityId": "4654",
+    "displayName": "Ridgeview Ranch Golf Club",
+    "city": "Plano",
+    "state": "TX"
+  },
+  {
+    "key": "stewart-peninsula",
+    "metro": "dallas",
+    "alias": "stewart-peninsula-golf-course",
+    "facilityId": "41",
+    "displayName": "Stewart Peninsula Golf Course",
+    "city": "The Colony",
+    "state": "TX"
+  },
+  {
+    "key": "trails-of-frisco",
+    "metro": "dallas",
+    "alias": "the-trails-of-frisco",
+    "facilityId": "33",
+    "displayName": "The Trails of Frisco Golf Club",
+    "city": "Frisco",
+    "state": "TX"
+  },
+  {
+    "key": "thorntree",
+    "metro": "dallas",
+    "alias": "thorntree-golf-club",
+    "facilityId": "15985",
+    "displayName": "Thorntree Golf Club",
+    "city": "DeSoto",
+    "state": "TX"
+  },
+  {
+    "key": "tour-18-dallas",
+    "metro": "dallas",
+    "alias": "tour-18-dallas",
+    "facilityId": "1391",
+    "displayName": "Tour 18 Dallas Golf Course",
+    "city": "Flower Mound",
+    "state": "TX"
+  },
+  {
+    "key": "westdale-hills",
+    "metro": "dallas",
+    "alias": "westdale-hills-golf-course",
+    "facilityId": "9503",
+    "displayName": "Westdale Hills Golf Course",
+    "city": "Euless",
+    "state": "TX"
+  },
+  {
+    "key": "wildhorse-at-robson-ranch",
+    "metro": "dallas",
+    "alias": "wildhorse-at-robson-ranch",
+    "facilityId": "3793",
+    "displayName": "Wildhorse Golf Club at Robson Ranch",
+    "city": "Denton",
+    "state": "TX"
+  },
+  {
+    "key": "firewheel-lakes",
+    "metro": "dallas",
+    "alias": "firewheel-golf-park-v2",
+    "facilityId": "9415",
+    "displayName": "Firewheel Golf Park - Lakes Course",
+    "city": "Garland",
+    "state": "TX"
+  },
+  {
+    "key": "firewheel-old",
+    "metro": "dallas",
+    "alias": "firewheel-golf-park-v2",
+    "facilityId": "9414",
+    "displayName": "Firewheel Golf Park - Old Course",
+    "city": "Garland",
+    "state": "TX"
   }
 ]

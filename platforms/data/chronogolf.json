@@ -353,5 +353,33 @@
     },
     "city": "Half Moon Bay",
     "state": "CA"
+  },
+  {
+    "key": "grand-oaks",
+    "metro": "dallas",
+    "courseIds": "e336d4ac-b342-406d-98fa-cad26d9fae45",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "62",
+    "bookingUrl": "https://www.chronogolf.com/club/grand-oaks-golf-club",
+    "names": {
+      "Grand Oaks Golf Club": "Grand Oaks Golf Club"
+    },
+    "city": "Grand Prairie",
+    "state": "TX"
+  },
+  {
+    "key": "westridge",
+    "metro": "dallas",
+    "courseIds": "c6ff46f4-6da2-4903-9641-97ba16162f4c",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "86",
+    "bookingUrl": "https://www.chronogolf.com/club/westridge-golf-course-texas",
+    "names": {
+      "WestRidge Golf Course": "WestRidge Golf Course"
+    },
+    "city": "McKinney",
+    "state": "TX"
   }
 ]

@@ -372,5 +372,21 @@
     "city": "Concord",
     "state": "CA",
     "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "stone-river",
+    "metro": "dallas",
+    "baseUrl": "https://stonerivertx.cps.golf",
+    "apiKey": "",
+    "websiteId": "d3fce869-f477-4506-4c4e-08d9b68084bc",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://stonerivertx.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Stone River": "Stone River Golf Club"
+    },
+    "city": "Royse City",
+    "state": "TX",
+    "timezone": "America/Chicago"
   }
 ]

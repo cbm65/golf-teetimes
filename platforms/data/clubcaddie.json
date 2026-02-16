@@ -75,5 +75,16 @@
     "displayName": "Mill Valley Golf Course",
     "city": "Mill Valley",
     "state": "CA"
+  },
+  {
+    "key": "country-view",
+    "metro": "dallas",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "cafdabab",
+    "courseId": "103403",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/cafdabab",
+    "displayName": "Country View Golf Club",
+    "city": "Lancaster",
+    "state": "TX"
   }
 ]

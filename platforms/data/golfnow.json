@@ -498,5 +498,145 @@
     "displayName": "The Boulders Golf Club",
     "city": "Carefree",
     "state": "AZ"
+  },
+  {
+    "key": "bear-creek-golf-club-east-course",
+    "metro": "dallas",
+    "facilityId": 1491,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1491/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1491/search",
+    "displayName": "Bear Creek Golf Club - East Course",
+    "city": "Dallas",
+    "state": "TX"
+  },
+  {
+    "key": "bear-creek-golf-club-west-course",
+    "metro": "dallas",
+    "facilityId": 6374,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/6374/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6374/search",
+    "displayName": "Bear Creek Golf Club - West Course",
+    "city": "Dallas",
+    "state": "TX"
+  },
+  {
+    "key": "cowboys-golf-club",
+    "metro": "dallas",
+    "facilityId": 7307,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/7307/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/7307/search",
+    "displayName": "Cowboys Golf Club",
+    "city": "Grapevine",
+    "state": "TX"
+  },
+  {
+    "key": "lake-park-golf-club-18-holes",
+    "metro": "dallas",
+    "facilityId": 7305,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/7305/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/7305/search",
+    "displayName": "Lake Park Golf Club - 18 Holes",
+    "city": "Lewisville",
+    "state": "TX"
+  },
+  {
+    "key": "lake-park-golf-club-9-holes",
+    "metro": "dallas",
+    "facilityId": 7306,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/7306/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/7306/search",
+    "displayName": "Lake Park Golf Club - 9 Holes",
+    "city": "Lewisville",
+    "state": "TX"
+  },
+  {
+    "key": "mansfield-national-golf-club",
+    "metro": "dallas",
+    "facilityId": 7313,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/7313/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/7313/search",
+    "displayName": "Mansfield National Golf Club",
+    "city": "Mansfield",
+    "state": "TX"
+  },
+  {
+    "key": "mesquite-golf-club",
+    "metro": "dallas",
+    "facilityId": 3184,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3184/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3184/search",
+    "displayName": "Mesquite Golf Club",
+    "city": "Mesquite",
+    "state": "TX"
+  },
+  {
+    "key": "rusted-rail-golf-course",
+    "metro": "dallas",
+    "facilityId": 1522,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1522/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1522/search",
+    "displayName": "Rusted Rail Golf Course",
+    "city": "Crandall",
+    "state": "TX"
+  },
+  {
+    "key": "southern-oaks-golf-club",
+    "metro": "dallas",
+    "facilityId": 6928,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/6928/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6928/search",
+    "displayName": "Southern Oaks Golf Club",
+    "city": "Burleson",
+    "state": "TX"
+  },
+  {
+    "key": "texas-9",
+    "metro": "dallas",
+    "facilityId": 12110,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/12110/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/12110/search",
+    "displayName": "Texas 9",
+    "city": "Fort Worth",
+    "state": "TX"
+  },
+  {
+    "key": "the-club-at-frisco-farms",
+    "metro": "dallas",
+    "facilityId": 7309,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/7309/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/7309/search",
+    "displayName": "The Club at Frisco Farms",
+    "city": "Frisco",
+    "state": "TX"
+  },
+  {
+    "key": "the-golf-club-at-fossil-creek",
+    "metro": "dallas",
+    "facilityId": 7312,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/7312/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/7312/search",
+    "displayName": "The Golf Club at Fossil Creek",
+    "city": "Fort Worth",
+    "state": "TX"
+  },
+  {
+    "key": "the-golf-club-at-twin-creeks",
+    "metro": "dallas",
+    "facilityId": 1416,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1416/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1416/search",
+    "displayName": "The Golf Club at Twin Creeks",
+    "city": "Allen",
+    "state": "TX"
+  },
+  {
+    "key": "tierra-verde-golf-club",
+    "metro": "dallas",
+    "facilityId": 1315,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1315/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1315/search",
+    "displayName": "Tierra Verde Golf Club",
+    "city": "Arlington",
+    "state": "TX"
   }
 ]
