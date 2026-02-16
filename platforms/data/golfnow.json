@@ -638,5 +638,245 @@
     "displayName": "Tierra Verde Golf Club",
     "city": "Arlington",
     "state": "TX"
+  },
+  {
+    "key": "bayou-oaks-at-city-park-south-course",
+    "metro": "neworleans",
+    "facilityId": 15225,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/15225/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/15225/search",
+    "displayName": "Bayou Oaks at City Park - South Course",
+    "city": "New Orleans",
+    "state": "LA"
+  },
+  {
+    "key": "bayou-oaks-at-city-park-north-course",
+    "metro": "neworleans",
+    "facilityId": 640,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/640/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/640/search",
+    "displayName": "Bayou Oaks at City Park - North Course",
+    "city": "New Orleans",
+    "state": "LA"
+  },
+  {
+    "key": "tpc-louisiana-golf-club",
+    "metro": "neworleans",
+    "facilityId": 4311,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/4311/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/4311/search",
+    "displayName": "TPC Louisiana Golf Club",
+    "city": "Avondale",
+    "state": "LA"
+  },
+  {
+    "key": "bear-creek-golf-club",
+    "metro": "atlanta",
+    "facilityId": 3737,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3737/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3737/search",
+    "displayName": "Bear Creek Golf Club",
+    "city": "Monroe",
+    "state": "GA"
+  },
+  {
+    "key": "bridgemill-athletic-club",
+    "metro": "atlanta",
+    "facilityId": 2330,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/2330/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/2330/search",
+    "displayName": "BridgeMill Athletic Club",
+    "city": "Canton",
+    "state": "GA"
+  },
+  {
+    "key": "chapel-hills-golf-course",
+    "metro": "atlanta",
+    "facilityId": 18845,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/18845/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/18845/search",
+    "displayName": "Chapel Hills Golf Course",
+    "city": "Douglasville",
+    "state": "GA"
+  },
+  {
+    "key": "country-club-of-gwinnett",
+    "metro": "atlanta",
+    "facilityId": 3746,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3746/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3746/search",
+    "displayName": "Country Club of Gwinnett",
+    "city": "Snellville",
+    "state": "GA"
+  },
+  {
+    "key": "creekside-golf-club",
+    "metro": "atlanta",
+    "facilityId": 3748,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3748/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3748/search",
+    "displayName": "Creekside Golf Club",
+    "city": "Hiram",
+    "state": "GA"
+  },
+  {
+    "key": "cross-creek-golf-course",
+    "metro": "atlanta",
+    "facilityId": 15807,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/15807/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/15807/search",
+    "displayName": "Cross Creek Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "key": "georgia-national-golf-club",
+    "metro": "atlanta",
+    "facilityId": 15792,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/15792/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/15792/search",
+    "displayName": "Georgia National Golf Club",
+    "city": "McDonough",
+    "state": "GA"
+  },
+  {
+    "key": "heritage-golf-links",
+    "metro": "atlanta",
+    "facilityId": 3741,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3741/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3741/search",
+    "displayName": "Heritage Golf Links",
+    "city": "Tucker",
+    "state": "GA"
+  },
+  {
+    "key": "heron-bay-golf-and-country-club",
+    "metro": "atlanta",
+    "facilityId": 15594,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/15594/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/15594/search",
+    "displayName": "Heron Bay Golf and Country Club",
+    "city": "Locust Grove",
+    "state": "GA"
+  },
+  {
+    "key": "lake-spivey-golf-club",
+    "metro": "atlanta",
+    "facilityId": 3764,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3764/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3764/search",
+    "displayName": "Lake Spivey Golf Club",
+    "city": "Jonesboro",
+    "state": "GA"
+  },
+  {
+    "key": "mirror-lake-golf-club-lake-course",
+    "metro": "atlanta",
+    "facilityId": 18846,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/18846/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/18846/search",
+    "displayName": "Mirror Lake Golf Club - Lake Course",
+    "city": "Villa Rica",
+    "state": "GA"
+  },
+  {
+    "key": "mirror-lake-golf-club-mountain-course",
+    "metro": "atlanta",
+    "facilityId": 18927,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/18927/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/18927/search",
+    "displayName": "Mirror Lake Golf Club - Mountain Course",
+    "city": "Villa Rica",
+    "state": "GA"
+  },
+  {
+    "key": "riverpines-golf-course-par-3",
+    "metro": "atlanta",
+    "facilityId": 16512,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/16512/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/16512/search",
+    "displayName": "RiverPines Golf Course - Par 3",
+    "city": "Johns Creek",
+    "state": "GA"
+  },
+  {
+    "key": "riverpines-golf-course",
+    "metro": "atlanta",
+    "facilityId": 3778,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3778/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3778/search",
+    "displayName": "RiverPines Golf Course",
+    "city": "Alpharetta",
+    "state": "GA"
+  },
+  {
+    "key": "southland-golf-country-club",
+    "metro": "atlanta",
+    "facilityId": 3783,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3783/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3783/search",
+    "displayName": "Southland Golf & Country Club",
+    "city": "Stone Mountain",
+    "state": "GA"
+  },
+  {
+    "key": "steel-canyon-golf-club",
+    "metro": "atlanta",
+    "facilityId": 4475,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/4475/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/4475/search",
+    "displayName": "Steel Canyon Golf Club",
+    "city": "Sandy Springs",
+    "state": "GA"
+  },
+  {
+    "key": "sugar-creek-golf-course",
+    "metro": "atlanta",
+    "facilityId": 9428,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/9428/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/9428/search",
+    "displayName": "Sugar Creek Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "key": "the-club-at-shoal-creek",
+    "metro": "atlanta",
+    "facilityId": 12146,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/12146/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/12146/search",
+    "displayName": "The Club at Shoal Creek",
+    "city": "Griffin",
+    "state": "GA"
+  },
+  {
+    "key": "west-pines-golf-club",
+    "metro": "atlanta",
+    "facilityId": 2329,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/2329/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/2329/search",
+    "displayName": "West Pines Golf Club",
+    "city": "Douglasville",
+    "state": "GA"
+  },
+  {
+    "key": "wolf-creek-golf-course",
+    "metro": "atlanta",
+    "facilityId": 3790,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3790/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3790/search",
+    "displayName": "Wolf Creek Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "key": "woodland-hills-golf-club",
+    "metro": "atlanta",
+    "facilityId": 13816,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/13816/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/13816/search",
+    "displayName": "Woodland Hills Golf Club",
+    "city": "Cartersville",
+    "state": "GA"
   }
 ]
