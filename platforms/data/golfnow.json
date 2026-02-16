@@ -60,16 +60,6 @@
     "state": "CO"
   },
   {
-    "key": "ahwatukee-golf-club",
-    "metro": "phoenix",
-    "facilityId": 1294,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/1294/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1294/search",
-    "displayName": "Ahwatukee Golf Club",
-    "city": "Phoenix",
-    "state": "AZ"
-  },
-  {
     "key": "apache-creek-golf-club",
     "metro": "phoenix",
     "facilityId": 1440,
@@ -90,36 +80,6 @@
     "state": "AZ"
   },
   {
-    "key": "arizona-traditions-golf-club",
-    "metro": "phoenix",
-    "facilityId": 56,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/56/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/56/search",
-    "displayName": "Arizona Traditions Golf Club",
-    "city": "Surprise",
-    "state": "AZ"
-  },
-  {
-    "key": "bellair-golf-park",
-    "metro": "phoenix",
-    "facilityId": 4505,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/4505/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/4505/search",
-    "displayName": "Bellair Golf Park",
-    "city": "Glendale",
-    "state": "AZ"
-  },
-  {
-    "key": "cimarron-golf-course",
-    "metro": "phoenix",
-    "facilityId": 5216,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/5216/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/5216/search",
-    "displayName": "Cimarron Golf Course",
-    "city": "Surprise",
-    "state": "AZ"
-  },
-  {
     "key": "continental-golf-course",
     "metro": "phoenix",
     "facilityId": 428,
@@ -130,26 +90,6 @@
     "state": "AZ"
   },
   {
-    "key": "copper-canyon-golf-club",
-    "metro": "phoenix",
-    "facilityId": 2042,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/2042/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/2042/search",
-    "displayName": "Copper Canyon Golf Club",
-    "city": "Buckeye",
-    "state": "AZ"
-  },
-  {
-    "key": "corte-bella-golf-club",
-    "metro": "phoenix",
-    "facilityId": 3,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/3/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3/search",
-    "displayName": "Corte Bella Golf Club",
-    "city": "Sun City West",
-    "state": "AZ"
-  },
-  {
     "key": "deer-valley-golf-course",
     "metro": "phoenix",
     "facilityId": 7712,
@@ -157,26 +97,6 @@
     "bookingUrl": "https://www.golfnow.com/tee-times/facility/7712/search",
     "displayName": "Deer Valley Golf Course",
     "city": "Sun City West",
-    "state": "AZ"
-  },
-  {
-    "key": "desert-sands-golf-course",
-    "metro": "phoenix",
-    "facilityId": 4283,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/4283/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/4283/search",
-    "displayName": "Desert Sands Golf Course",
-    "city": "Mesa",
-    "state": "AZ"
-  },
-  {
-    "key": "desert-springs-golf-course",
-    "metro": "phoenix",
-    "facilityId": 164,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/164/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/164/search",
-    "displayName": "Desert Springs Golf Course",
-    "city": "Surprise",
     "state": "AZ"
   },
   {
@@ -200,26 +120,6 @@
     "state": "AZ"
   },
   {
-    "key": "gold-canyon-golf-resort",
-    "metro": "phoenix",
-    "facilityId": 15268,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/15268/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/15268/search",
-    "displayName": "Gold Canyon Golf Resort",
-    "city": "Gold Canyon",
-    "state": "AZ"
-  },
-  {
-    "key": "golden-hills-golf-club",
-    "metro": "phoenix",
-    "facilityId": 1295,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/1295/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1295/search",
-    "displayName": "Golden Hills Golf Club",
-    "city": "Mesa",
-    "state": "AZ"
-  },
-  {
     "key": "grandview-golf-course",
     "metro": "phoenix",
     "facilityId": 7710,
@@ -230,16 +130,6 @@
     "state": "AZ"
   },
   {
-    "key": "kierland-golf-club",
-    "metro": "phoenix",
-    "facilityId": 80,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/80/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/80/search",
-    "displayName": "Kierland Golf Club",
-    "city": "Scottsdale",
-    "state": "AZ"
-  },
-  {
     "key": "mcdowell-mountain-golf-club",
     "metro": "phoenix",
     "facilityId": 4872,
@@ -247,26 +137,6 @@
     "bookingUrl": "https://www.golfnow.com/tee-times/facility/4872/search",
     "displayName": "McDowell Mountain Golf Club",
     "city": "Scottsdale",
-    "state": "AZ"
-  },
-  {
-    "key": "mountain-shadows-golf-course",
-    "metro": "phoenix",
-    "facilityId": 147,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/147/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/147/search",
-    "displayName": "Mountain Shadows Golf Course",
-    "city": "Paradise Valley",
-    "state": "AZ"
-  },
-  {
-    "key": "oakwood-golf-club",
-    "metro": "phoenix",
-    "facilityId": 3506,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/3506/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3506/search",
-    "displayName": "Oakwood Golf Club",
-    "city": "Sun Lakes",
     "state": "AZ"
   },
   {
@@ -290,16 +160,6 @@
     "state": "AZ"
   },
   {
-    "key": "palmbrook-golf-club",
-    "metro": "phoenix",
-    "facilityId": 4601,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/4601/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/4601/search",
-    "displayName": "Palmbrook Golf Club",
-    "city": "Sun City",
-    "state": "AZ"
-  },
-  {
     "key": "pebblebrook-golf-course",
     "metro": "phoenix",
     "facilityId": 7709,
@@ -307,16 +167,6 @@
     "bookingUrl": "https://www.golfnow.com/tee-times/facility/7709/search",
     "displayName": "Pebblebrook Golf Course",
     "city": "Sun City West",
-    "state": "AZ"
-  },
-  {
-    "key": "peoria-pines-golf-course",
-    "metro": "phoenix",
-    "facilityId": 5570,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/5570/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/5570/search",
-    "displayName": "Peoria Pines Golf Course",
-    "city": "Peoria",
     "state": "AZ"
   },
   {
@@ -340,16 +190,6 @@
     "state": "AZ"
   },
   {
-    "key": "san-tan-highlands-golf-club",
-    "metro": "phoenix",
-    "facilityId": 58,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/58/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/58/search",
-    "displayName": "San Tan Highlands Golf Club",
-    "city": "San Tan Valley",
-    "state": "AZ"
-  },
-  {
     "key": "stardust-golf-course",
     "metro": "phoenix",
     "facilityId": 7714,
@@ -367,16 +207,6 @@
     "bookingUrl": "https://www.golfnow.com/tee-times/facility/17626/search",
     "displayName": "Sterling Grove Golf & Country Club",
     "city": "Surprise",
-    "state": "AZ"
-  },
-  {
-    "key": "sun-city-country-club",
-    "metro": "phoenix",
-    "facilityId": 3602,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/3602/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3602/search",
-    "displayName": "Sun City Country Club",
-    "city": "Sun City",
     "state": "AZ"
   },
   {
@@ -470,16 +300,6 @@
     "state": "AZ"
   },
   {
-    "key": "sunbird-golf-club",
-    "metro": "phoenix",
-    "facilityId": 1963,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/1963/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1963/search",
-    "displayName": "Sunbird Golf Club",
-    "city": "Chandler",
-    "state": "AZ"
-  },
-  {
     "key": "sunland-springs-golf-club",
     "metro": "phoenix",
     "facilityId": 11556,
@@ -496,16 +316,6 @@
     "searchUrl": "https://www.golfnow.com/tee-times/facility/18051/search",
     "bookingUrl": "https://www.golfnow.com/tee-times/facility/18051/search",
     "displayName": "Sunland Village East Golf Club",
-    "city": "Mesa",
-    "state": "AZ"
-  },
-  {
-    "key": "sunland-village-golf-club",
-    "metro": "phoenix",
-    "facilityId": 6558,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/6558/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6558/search",
-    "displayName": "Sunland Village Golf Club",
     "city": "Mesa",
     "state": "AZ"
   },
@@ -530,16 +340,6 @@
     "state": "AZ"
   },
   {
-    "key": "union-hills-golf-club",
-    "metro": "phoenix",
-    "facilityId": 2038,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/2038/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/2038/search",
-    "displayName": "Union Hills Golf Club",
-    "city": "Sun City",
-    "state": "AZ"
-  },
-  {
     "key": "western-skies-golf-club",
     "metro": "phoenix",
     "facilityId": 123,
@@ -547,36 +347,6 @@
     "bookingUrl": "https://www.golfnow.com/tee-times/facility/123/search",
     "displayName": "Western Skies Golf Club",
     "city": "Gilbert",
-    "state": "AZ"
-  },
-  {
-    "key": "the-lakes-at-ahwatukee-golf-club",
-    "metro": "phoenix",
-    "facilityId": 556,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/556/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/556/search",
-    "displayName": "The Lakes at Ahwatukee Golf Club",
-    "city": "Phoenix",
-    "state": "AZ"
-  },
-  {
-    "key": "arizona-biltmore-golf-club-links-course",
-    "metro": "phoenix",
-    "facilityId": 6734,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/6734/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6734/search",
-    "displayName": "Arizona Biltmore Golf Club - Links Course",
-    "city": "Phoenix",
-    "state": "AZ"
-  },
-  {
-    "key": "arizona-biltmore-golf-club-estates-course",
-    "metro": "phoenix",
-    "facilityId": 13,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/13/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/13/search",
-    "displayName": "Arizona Biltmore Golf Club - Estates Course",
-    "city": "Phoenix",
     "state": "AZ"
   },
   {
@@ -620,26 +390,6 @@
     "state": "AZ"
   },
   {
-    "key": "granite-falls-golf-course-north",
-    "metro": "phoenix",
-    "facilityId": 167,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/167/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/167/search",
-    "displayName": "Granite Falls Golf Course - North",
-    "city": "Surprise",
-    "state": "AZ"
-  },
-  {
-    "key": "granite-falls-golf-course-south",
-    "metro": "phoenix",
-    "facilityId": 11485,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/11485/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/11485/search",
-    "displayName": "Granite Falls Golf Course - South",
-    "city": "Surprise",
-    "state": "AZ"
-  },
-  {
     "key": "mccormick-ranch-golf-club-palm-course",
     "metro": "phoenix",
     "facilityId": 1356,
@@ -656,26 +406,6 @@
     "searchUrl": "https://www.golfnow.com/tee-times/facility/7078/search",
     "bookingUrl": "https://www.golfnow.com/tee-times/facility/7078/search",
     "displayName": "McCormick Ranch Golf Club - Pine Course",
-    "city": "Scottsdale",
-    "state": "AZ"
-  },
-  {
-    "key": "starfire-golf-club-18-holes",
-    "metro": "phoenix",
-    "facilityId": 6,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/6/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6/search",
-    "displayName": "Starfire Golf Club - 18 Holes",
-    "city": "Scottsdale",
-    "state": "AZ"
-  },
-  {
-    "key": "starfire-golf-club-mulligan-9",
-    "metro": "phoenix",
-    "facilityId": 14452,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/14452/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/14452/search",
-    "displayName": "Starfire Golf Club - Mulligan 9",
     "city": "Scottsdale",
     "state": "AZ"
   },
@@ -767,16 +497,6 @@
     "bookingUrl": "https://www.golfnow.com/tee-times/facility/7/search",
     "displayName": "The Boulders Golf Club",
     "city": "Carefree",
-    "state": "AZ"
-  },
-  {
-    "key": "the-duke-golf-course",
-    "metro": "phoenix",
-    "facilityId": 3022,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/3022/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3022/search",
-    "displayName": "The Duke Golf Course",
-    "city": "Maricopa",
     "state": "AZ"
   }
 ]

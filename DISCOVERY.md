@@ -2,12 +2,24 @@
 
 ## Overview
 
-Three-phase process to add all public courses for a new metro area. Designed to automate ~90% of course discovery and minimize manual work.
+Five-phase process to add all public courses for a new metro area:
+
+1. **Phase 1: Course List** — Exhaustive list of every public course within an hour of the metro city
+2. **Phase 2: Automated Discovery** — Run platform discovery scripts against the course list
+3. **Phase 3: Manual Gap Fill** — HAR capture for courses not found by automated discovery
+4. **Phase 4: GolfNow Discovery** — Area search for GolfNow-only courses not already added
+5. **Phase 5: GolfNow Platform Swap** — Check each GolfNow course for direct platform availability
 
 ## Phase 1: Course List
 
-Compile a master list of every public golf course in the metro area and save it to
-`discovery/courses/{metro}.txt` — one course per line, `#` comments ignored.
+Compile a **comprehensive, exhaustive** list of every public golf course within approximately
+one hour of the city the metro is named for. This is not a "popular courses" list — it must
+include municipal courses, retirement community courses, lesser-known facilities, courses at
+the edges of the metro, and anything else with public tee times. The GolfNow discovery script
+(Phase 4) should only catch GolfNow-exclusive courses, NOT courses we should have found during
+initial research.
+
+Save the list to `discovery/courses/{metro}.txt` — one course per line, `#` comments ignored.
 Format: `Course Name | City` (city is needed for slug-based discovery tools).
 
 **Input:** Metro name (e.g., "Phoenix, AZ")
@@ -81,10 +93,10 @@ it from TeeItUp and use the other platform. Direct booking links through smaller
 platforms are preferred. For collisions between two non-TeeItUp platforms, whichever
 platform the course actually books through is the one we use.
 
-**GolfNow exclusion:** We intentionally skip GolfNow-only courses. Our value
-proposition is direct booking links (no middleman markup). Most GolfNow courses are
-already discoverable through TeeItUp since many courses use GolfNow as a backend
-while TeeItUp handles consumer-facing booking.
+**GolfNow handling:** GolfNow courses are NOT added during Phase 2. GolfNow is a middleman
+booking platform — we prefer direct platform integrations. GolfNow-only courses are discovered
+separately in Phase 4 (after all direct platforms are exhausted), and then checked for direct
+platform availability in Phase 5.
 
 Ingestion checklist for each confirmed course:
 1. Is this course already in any `platforms/data/*.json`? → **SKIP**
@@ -291,6 +303,19 @@ Key takeaways:
 - Cross-platform dedup prevented 15+ duplicate entries
 - **GolfNow intentionally skipped** — most GolfNow courses already found via TeeItUp
 - TeeItUp discovery script improved during Phoenix run: added "the-" prefix generation (caught The Legacy) and city-stripping (caught Scottsdale Silverado)
+
+### Phoenix Phase 4/5: GolfNow Discovery & Platform Swap
+
+GolfNow area search found 133 unique facilities across 7 days. 54 already added via direct platforms, 7 excluded (non-golf: Putting World, Grass Clippings, Little Oasis, Stripe Show, Aguila 9 duplicate, Desert Mirage practice range, Junior National). 72 courses added to `golfnow.json`.
+
+After adding, 22 courses were swapped from GolfNow to direct platforms:
+- **18 → TeeItUp**: Ahwatukee, AZ Traditions, Bellair, Cimarron, Corte Bella, Desert Sands, Desert Springs, Golden Hills, Mountain Shadows, Oakwood, Peoria Pines, San Tan Highlands, Sun City CC, Sunbird, Sunland Village, Lakes at Ahwatukee, Granite Falls North, Granite Falls South, Starfire 18 + Mulligan 9, The Duke
+- **3 → Quick18**: Gold Canyon, Palmbrook, Union Hills
+- **1 → GolfWithAccess**: Copper Canyon
+- **1 updated**: Kierland (already in GolfWithAccess, added 2 missing courseIds)
+- **2 removed**: Arizona Biltmore Links/Estates (duplicates of existing Chronogolf entries)
+
+Final GolfNow-only count for Phoenix: ~50 courses (mostly Sun City retirement community courses and smaller facilities).
 
 ## Las Vegas Discovery Results (Feb 2026)
 
@@ -667,6 +692,28 @@ Fields from HAR (no discovery script yet — need more examples):
 - `courseId` — from `customer-api/teetimes-day?course={id}` URL
 - `bookingUrl` — `https://{subdomain}.teesnap.net`
 
+### GolfNow entry format
+
+```json
+{
+  "key": "apache-creek-golf-club",
+  "metro": "phoenix",
+  "facilityId": 1440,
+  "searchUrl": "https://www.golfnow.com/tee-times/facility/1440/search",
+  "bookingUrl": "https://www.golfnow.com/tee-times/facility/1440/search",
+  "displayName": "Apache Creek Golf Club",
+  "city": "Apache Junction",
+  "state": "AZ"
+}
+```
+
+Fields from GolfNow discovery script output:
+- `facilityId` — integer facility ID from GolfNow area search results
+- `searchUrl` — `https://www.golfnow.com/tee-times/facility/{facilityId}/search`
+- `bookingUrl` — same as `searchUrl`
+- `displayName` — cleaned name using standard naming rules; multi-course facilities use `" - "` convention
+- The frontend shows "Book via GolfNow" instead of "Book" for any course with `golfnow.com` in the bookingUrl
+
 ### PurposeGolf entry format
 
 ```json
@@ -745,6 +792,58 @@ This catches:
 **Input:** HAR files for each missing course
 **Output:** Remaining courses added to `platforms/data/*.json`
 
+## Phase 4: GolfNow Discovery
+
+After Phases 1-3 are complete, run the GolfNow area search discovery script to find courses
+that are only bookable through GolfNow and weren't already added via a direct platform.
+
+```bash
+go run discovery/golfnow-discover.go phoenix
+```
+
+The script:
+1. Searches GolfNow's area search API using metro coordinates across 7 days
+2. Filters out simulator facilities (`isSimulator: true`)
+3. Fuzzy-matches results against all courses already in `platforms/data/*.json`
+4. Outputs a list of missing courses with GolfNow facility IDs
+
+**When adding GolfNow courses:**
+- Exclude non-golf facilities (putting courses, entertainment venues, practice ranges, restaurants)
+- Consolidate multi-course facilities using the `" - "` naming convention (e.g. "TPC Scottsdale - Stadium Course", "TPC Scottsdale - Champions Course")
+- Use clean display names consistent with existing naming rules
+
+**GolfNow courses show "Book via GolfNow" in the UI** instead of just "Book" — the frontend
+checks `bookingUrl` for `golfnow.com` and adjusts the button label.
+
+Metro coordinates are defined in the script's `metroCoords` map (lat, lng, radius in miles).
+
+## Phase 5: GolfNow Platform Swap
+
+After GolfNow courses are added, manually check each one to see if it also books through
+a direct platform (TeeItUp, Quick18, GolfWithAccess, ForeUP, etc.). Direct platform
+integrations are always preferred over GolfNow — no middleman, cleaner data.
+
+**Process:**
+1. Visit the course's own website (not GolfNow)
+2. Find their "Book Tee Times" / "Reserve" link
+3. If it goes to a platform we support (TeeItUp, Quick18, GolfWithAccess, etc.):
+   - Capture a HAR of the booking page
+   - Provide the HAR to Claude
+   - Claude extracts platform config, adds course to the correct platform JSON, and removes it from `golfnow.json`
+4. If it only goes to GolfNow, the course stays in `golfnow.json`
+
+**Common patterns found during Phoenix Phase 5:**
+- Many courses use TeeItUp (`{alias}.book.teeitup.com` or `{alias}.book-v2.teeitup.golf`)
+- Some use Quick18 (`{subdomain}.quick18.com`)
+- Some use GolfWithAccess (`golfwithaccess.com/course/{slug}/reserve-tee-time`)
+- The swap involves adding to the new platform's JSON and removing from `golfnow.json`
+
+**Phoenix Phase 5 results:** 22 courses swapped from GolfNow to direct platforms:
+- 18 → TeeItUp
+- 3 → Quick18 (Gold Canyon, Palmbrook, Union Hills)
+- 2 → GolfWithAccess (Copper Canyon, Kierland updated with 3 courseIds)
+- 2 duplicate Biltmore entries removed (already in Chronogolf)
+
 ### Platforms without discovery scripts (need HAR)
 
 These platforms require manual HAR capture — either because they have no guessable URL pattern, require authentication/session tokens to discover, or we don't have enough examples yet:
@@ -762,7 +861,7 @@ These platforms require manual HAR capture — either because they have no guess
 | TeeQuest | Server-rendered HTML via POST. Site IDs are numeric and not derivable from course names. |
 | ResortSuite | SOAP/XML API used by Omni Hotels/resorts. Only 1 known site (PGA Frisco). Base URLs are resort-specific. |
 | Prophet | **DISABLED** — AWS WAF JavaScript challenge cannot be solved by Go HTTP client. Courses configured but not fetched. |
-| GolfNow | **Intentionally skipped.** Most GolfNow courses already found via TeeItUp. Value proposition is direct booking links (no middleman markup). |
+| GolfNow | Discovery script built (`discovery/golfnow-discover.go`). Used in Phase 4 after direct platform discovery. Courses are then checked for direct platform swaps in Phase 5. |
 
 ## Adding a Metro Entry
 
@@ -792,7 +891,7 @@ Course count and city count are computed automatically from the JSON data at sta
 | CourseCo | discover-courseco | ⚠️ Built but unvalidated — only 1 known course. Need more examples to confirm patterns. |
 | TeeSnap | — | ⏳ Pending — subdomain-probeable but only 1 known course. Need more examples. |
 | RGuest | — | ❌ Not feasible — numeric tenant IDs, not guessable |
-| GolfNow | — | ❌ Intentionally skipped — direct booking value prop, most courses found via TeeItUp |
+| GolfNow | golfnow-discover | ✅ Built — area search API (7-day sweep), simulator filtering, fuzzy dedup against all platforms. **Run in Phase 4 after all direct platform discovery is complete.** Courses added via GolfNow should then be checked for direct platform availability (Phase 5). |
 | CPS Golf | discover-cpsgolf | ✅ Built — subdomain probe ({slug}.cps.golf/onlineresweb/Home/Configuration), OnlineCourses extraction, timezone state validation. **Limitation**: subdomains are unpredictable (e.g. `caspublic` for Cascata) — manual HAR needed for non-obvious slugs. Fetcher handles both apiKey and bearer token auth automatically. |
 | MemberSports | — | ❌ API known from Denver, script not built |
 | Prophet | — | ❌ **DISABLED** — AWS WAF JavaScript challenge blocks Go HTTP client. Would need headless browser. |
@@ -821,6 +920,7 @@ cmd/
 └── ...
 
 discovery/
+├── golfnow-discover.go  # Phase 4: GolfNow area search discovery script
 ├── courses/
 │   ├── phoenix.txt          # Phase 1 course list (92 courses)
 │   ├── lasvegas.txt         # Phase 1 course list (42 courses)
@@ -845,7 +945,7 @@ platforms/data/
 ├── purposegolf.json    # 2 courses (Dallas)
 ├── teequest.json       # 2 courses (Dallas)
 ├── resortsuite.json    # 2 courses (Dallas)
-├── golfnow.json        # (intentionally empty — skipping GolfNow-only courses)
+├── golfnow.json        # Phase 4 GolfNow-only courses (6 Denver + 59 Phoenix after Phase 5 swaps)
 └── ...
 ```
 

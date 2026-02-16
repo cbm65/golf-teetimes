@@ -98,5 +98,32 @@
     "displayName": "Indian Valley Golf Club",
     "city": "Novato",
     "state": "CA"
+  },
+  {
+    "key": "gold-canyon",
+    "metro": "phoenix",
+    "subdomain": "goldcanyon",
+    "bookingUrl": "https://goldcanyon.quick18.com",
+    "displayName": "Gold Canyon Golf Resort",
+    "city": "Gold Canyon",
+    "state": "AZ"
+  },
+  {
+    "key": "palmbrook",
+    "metro": "phoenix",
+    "subdomain": "palmbrook",
+    "bookingUrl": "https://palmbrook.quick18.com",
+    "displayName": "Palmbrook Golf Club",
+    "city": "Sun City",
+    "state": "AZ"
+  },
+  {
+    "key": "union-hills",
+    "metro": "phoenix",
+    "subdomain": "unionhills",
+    "bookingUrl": "https://unionhills.quick18.com",
+    "displayName": "Union Hills Golf Club",
+    "city": "Sun City",
+    "state": "AZ"
   }
 ]

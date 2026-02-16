@@ -1308,5 +1308,194 @@
     "displayName": "Eagle Vines Golf Club",
     "city": "Napa",
     "state": "CA"
+  },
+  {
+    "key": "ahwatukee",
+    "metro": "phoenix",
+    "alias": "ahwatukee-golf-club",
+    "facilityId": "1294",
+    "displayName": "Ahwatukee Golf Club",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "arizona-traditions",
+    "metro": "phoenix",
+    "alias": "arizona-traditions-golf-club",
+    "facilityId": "56",
+    "displayName": "Arizona Traditions Golf Club",
+    "city": "Surprise",
+    "state": "AZ"
+  },
+  {
+    "key": "bellair-golf-park",
+    "metro": "phoenix",
+    "alias": "bellair-golf-park",
+    "facilityId": "4505",
+    "displayName": "Bellair Golf Park",
+    "city": "Glendale",
+    "state": "AZ"
+  },
+  {
+    "key": "cimarron",
+    "metro": "phoenix",
+    "alias": "cimarron-golf-course",
+    "facilityId": "5216",
+    "displayName": "Cimarron Golf Course",
+    "city": "Surprise",
+    "state": "AZ"
+  },
+  {
+    "key": "corte-bella",
+    "metro": "phoenix",
+    "alias": "corte-bella-golf-club",
+    "facilityId": "3",
+    "displayName": "Corte Bella Golf Club",
+    "city": "Sun City West",
+    "state": "AZ"
+  },
+  {
+    "key": "desert-sands",
+    "metro": "phoenix",
+    "alias": "desert-sands-golf-course",
+    "facilityId": "4283",
+    "displayName": "Desert Sands Golf Course",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "desert-springs",
+    "metro": "phoenix",
+    "alias": "desert-springs-golf-course",
+    "facilityId": "164",
+    "displayName": "Desert Springs Golf Course",
+    "city": "Surprise",
+    "state": "AZ"
+  },
+  {
+    "key": "golden-hills",
+    "metro": "phoenix",
+    "alias": "golden-hills-golf-club-az",
+    "facilityId": "1295",
+    "displayName": "Golden Hills Golf Club",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "mountain-shadows",
+    "metro": "phoenix",
+    "alias": "mountain-shadows-golf-club",
+    "facilityId": "147",
+    "displayName": "Mountain Shadows Golf Course",
+    "city": "Paradise Valley",
+    "state": "AZ"
+  },
+  {
+    "key": "oakwood",
+    "metro": "phoenix",
+    "alias": "oakwood-golf-club-2",
+    "facilityId": "3506",
+    "displayName": "Oakwood Golf Club",
+    "city": "Sun Lakes",
+    "state": "AZ"
+  },
+  {
+    "key": "peoria-pines",
+    "metro": "phoenix",
+    "alias": "peoria-pines",
+    "facilityId": "5570",
+    "displayName": "Peoria Pines Golf Course",
+    "city": "Peoria",
+    "state": "AZ"
+  },
+  {
+    "key": "san-tan-highlands",
+    "metro": "phoenix",
+    "alias": "san-tan-highlands",
+    "facilityId": "58",
+    "displayName": "San Tan Highlands Golf Club",
+    "city": "San Tan Valley",
+    "state": "AZ"
+  },
+  {
+    "key": "sun-city-country-club",
+    "metro": "phoenix",
+    "alias": "sun-city-country-club",
+    "facilityId": "3602",
+    "displayName": "Sun City Country Club",
+    "city": "Sun City",
+    "state": "AZ"
+  },
+  {
+    "key": "sunbird",
+    "metro": "phoenix",
+    "alias": "sunbird-golf-club",
+    "facilityId": "1963",
+    "displayName": "Sunbird Golf Club",
+    "city": "Chandler",
+    "state": "AZ"
+  },
+  {
+    "key": "sunland-village",
+    "metro": "phoenix",
+    "alias": "sunland-village-golf-club",
+    "facilityId": "6558",
+    "displayName": "Sunland Village Golf Club",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "ahwatukee-lakes",
+    "metro": "phoenix",
+    "alias": "ahwatukee-lakes-golf-club",
+    "facilityId": "556",
+    "displayName": "The Lakes at Ahwatukee Golf Club",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "granite-falls-north",
+    "metro": "phoenix",
+    "alias": "granite-falls-golf-course-north",
+    "facilityId": "167",
+    "displayName": "Granite Falls Golf Course - North",
+    "city": "Surprise",
+    "state": "AZ"
+  },
+  {
+    "key": "granite-falls-south",
+    "metro": "phoenix",
+    "alias": "granite-falls-golf-course-south",
+    "facilityId": "11485",
+    "displayName": "Granite Falls Golf Course - South",
+    "city": "Surprise",
+    "state": "AZ"
+  },
+  {
+    "key": "starfire-18",
+    "metro": "phoenix",
+    "alias": "starfire-golf-club-scottsdale",
+    "facilityId": "6",
+    "displayName": "Starfire Golf Club - 18 Holes",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "starfire-mulligan",
+    "metro": "phoenix",
+    "alias": "starfire-golf-club-scottsdale",
+    "facilityId": "14452",
+    "displayName": "Starfire Golf Club - Mulligan 9",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "the-duke",
+    "metro": "phoenix",
+    "alias": "the-duke-at-rancho-el-dorado",
+    "facilityId": "3022",
+    "displayName": "The Duke Golf Course",
+    "city": "Maricopa",
+    "state": "AZ"
   }
 ]

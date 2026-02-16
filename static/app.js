@@ -184,7 +184,8 @@ function displayTimes() {
             html += "<td class='openings-cell " + openClass + "'><svg class='openings-icon' viewBox='0 0 24 24' fill='currentColor'><circle cx='12' cy='7' r='4'/><path d='M12 13c-4.42 0-8 1.79-8 4v2h16v-2c0-2.21-3.58-4-8-4z'/></svg>" + t.openings + " / 4</td>"
             html += "<td><span class='" + holesClass + "'>" + t.holes + " holes</span></td>"
             html += "<td class='price-cell'>$" + Math.round(t.price) + "</td>"
-            html += "<td><a href='" + t.bookingUrl + "' target='_blank' class='book-link'>Book</a></td>"
+            var bookLabel = t.bookingUrl.indexOf("golfnow.com") >= 0 ? "Book via GolfNow" : "Book"
+            html += "<td><a href='" + t.bookingUrl + "' target='_blank' class='book-link'>" + bookLabel + "</a></td>"
             html += "</tr>"
         }
 
@@ -214,7 +215,8 @@ function displayTimes() {
             html += "</div>"
             html += "<div class='mobile-tt-right'>"
             html += "<div class='mobile-tt-price'>$" + Math.round(t.price) + "</div>"
-            html += "<a href='" + t.bookingUrl + "' target='_blank' class='mobile-tt-book'>Book</a>"
+            var mBookLabel = t.bookingUrl.indexOf("golfnow.com") >= 0 ? "Book via GolfNow" : "Book"
+            html += "<a href='" + t.bookingUrl + "' target='_blank' class='mobile-tt-book'>" + mBookLabel + "</a>"
             html += "</div>"
             html += "</div>"
         }

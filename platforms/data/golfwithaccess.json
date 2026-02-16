@@ -27,6 +27,8 @@
     "key": "westin-kierland",
     "metro": "phoenix",
     "courseIds": [
+      "ab5ad653-b217-4119-bcb7-80dd0aecffaa",
+      "6a9798ab-617e-43aa-9ab3-28229a6a83cf",
       "b0e5b8a6-fe88-4cb8-8500-56cbba88e531"
     ],
     "slug": "the-westin-kierland-golf-club",
@@ -95,5 +97,17 @@
     "displayName": "Baylands Golf Links",
     "city": "Palo Alto",
     "state": "CA"
+  },
+  {
+    "key": "copper-canyon",
+    "metro": "phoenix",
+    "courseIds": [
+      "0018b24b-60c6-4f15-a48d-68f336d9bf5a"
+    ],
+    "slug": "copper-canyon-golf-club",
+    "bookingUrl": "https://golfwithaccess.com/course/copper-canyon-golf-club/reserve-tee-time",
+    "displayName": "Copper Canyon Golf Club",
+    "city": "Buckeye",
+    "state": "AZ"
   }
 ]
