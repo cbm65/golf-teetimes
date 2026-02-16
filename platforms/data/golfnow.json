@@ -960,26 +960,6 @@
     "state": "FL"
   },
   {
-    "key": "davie-golf-club",
-    "metro": "miami",
-    "facilityId": 8261,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/8261/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/8261/search",
-    "displayName": "Davie Golf Club",
-    "city": "Fort Lauderdale",
-    "state": "FL"
-  },
-  {
-    "key": "flamingo-lakes-country-club",
-    "metro": "miami",
-    "facilityId": 973,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/973/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/973/search",
-    "displayName": "Flamingo Lakes Country Club",
-    "city": "Pembroke Pines",
-    "state": "FL"
-  },
-  {
     "key": "greynolds-park-golf-course",
     "metro": "miami",
     "facilityId": 6741,
@@ -990,13 +970,23 @@
     "state": "FL"
   },
   {
-    "key": "miami-springs-golf-country-club",
+    "key": "palmetto-golf-course",
     "metro": "miami",
-    "facilityId": 7277,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/7277/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/7277/search",
-    "displayName": "Miami Springs Golf & Country Club",
+    "facilityId": 5988,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/5988/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/5988/search",
+    "displayName": "Palmetto Golf Course",
     "city": "Miami",
+    "state": "FL"
+  },
+  {
+    "key": "woodmont-country-club",
+    "metro": "miami",
+    "facilityId": 3630,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3630/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3630/search",
+    "displayName": "Woodmont Country Club",
+    "city": "Fort Lauderdale",
     "state": "FL"
   },
   {
@@ -1020,16 +1010,6 @@
     "state": "FL"
   },
   {
-    "key": "palmetto-golf-course",
-    "metro": "miami",
-    "facilityId": 5988,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/5988/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/5988/search",
-    "displayName": "Palmetto Golf Course",
-    "city": "Miami",
-    "state": "FL"
-  },
-  {
     "key": "palms-at-palm-aire",
     "metro": "miami",
     "facilityId": 4479,
@@ -1037,56 +1017,6 @@
     "bookingUrl": "https://www.golfnow.com/tee-times/facility/4479/search",
     "displayName": "Palms at Palm Aire",
     "city": "Pompano Beach",
-    "state": "FL"
-  },
-  {
-    "key": "trump-national-doral-miami-blue-monster-course",
-    "metro": "miami",
-    "facilityId": 11057,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/11057/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/11057/search",
-    "displayName": "Trump National Doral Miami - Blue Monster Course",
-    "city": "Miami",
-    "state": "FL"
-  },
-  {
-    "key": "trump-national-doral-miami-golden-palm-course",
-    "metro": "miami",
-    "facilityId": 5849,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/5849/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/5849/search",
-    "displayName": "Trump National Doral Miami - Golden Palm Course",
-    "city": "Miami",
-    "state": "FL"
-  },
-  {
-    "key": "trump-national-doral-miami-red-tiger-course",
-    "metro": "miami",
-    "facilityId": 5848,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/5848/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/5848/search",
-    "displayName": "Trump National Doral Miami - Red Tiger Course",
-    "city": "Miami",
-    "state": "FL"
-  },
-  {
-    "key": "trump-national-doral-miami-silver-fox-course",
-    "metro": "miami",
-    "facilityId": 5852,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/5852/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/5852/search",
-    "displayName": "Trump National Doral Miami - Silver Fox Course",
-    "city": "Miami",
-    "state": "FL"
-  },
-  {
-    "key": "woodmont-country-club",
-    "metro": "miami",
-    "facilityId": 3630,
-    "searchUrl": "https://www.golfnow.com/tee-times/facility/3630/search",
-    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3630/search",
-    "displayName": "Woodmont Country Club",
-    "city": "Fort Lauderdale",
     "state": "FL"
   }
 ]

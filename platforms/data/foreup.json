@@ -305,5 +305,16 @@
     "displayName": "Wolf Creek Golf Course",
     "city": "Atlanta",
     "state": "GA"
+  },
+  {
+    "key": "davie",
+    "metro": "miami",
+    "courseId": "21959",
+    "bookingClass": "12686",
+    "scheduleId": "9451",
+    "bookingUrl": "",
+    "displayName": "Davie Golf Club",
+    "city": "Fort Lauderdale",
+    "state": "FL"
   }
 ]

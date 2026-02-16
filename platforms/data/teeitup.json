@@ -1740,5 +1740,23 @@
     "displayName": "The Course at Wente Vineyards",
     "city": "Livermore",
     "state": "CA"
+  },
+  {
+    "key": "flamingo-lakes",
+    "metro": "miami",
+    "alias": "flamingo-lakes-country-club",
+    "facilityId": "973",
+    "displayName": "Flamingo Lakes Country Club",
+    "city": "Pembroke Pines",
+    "state": "FL"
+  },
+  {
+    "key": "miami-springs",
+    "metro": "miami",
+    "alias": "miami-springs-golf-and-country-club",
+    "facilityId": "7277",
+    "displayName": "Miami Springs Golf & Country Club",
+    "city": "Miami",
+    "state": "FL"
   }
 ]
