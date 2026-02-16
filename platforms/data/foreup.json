@@ -283,5 +283,27 @@
     "displayName": "Hidden Creek Golf Course",
     "city": "Burleson",
     "state": "TX"
+  },
+  {
+    "key": "creekside",
+    "metro": "atlanta",
+    "courseId": "20373",
+    "bookingClass": "48751",
+    "scheduleId": "4491",
+    "bookingUrl": "",
+    "displayName": "Creekside Golf Club",
+    "city": "Hiram",
+    "state": "GA"
+  },
+  {
+    "key": "wolf-creek",
+    "metro": "atlanta",
+    "courseId": "22891",
+    "bookingClass": "51527",
+    "scheduleId": "12241",
+    "bookingUrl": "",
+    "displayName": "Wolf Creek Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
   }
 ]

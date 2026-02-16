@@ -381,5 +381,33 @@
     },
     "city": "McKinney",
     "state": "TX"
+  },
+  {
+    "key": "steel-canyon",
+    "metro": "atlanta",
+    "courseIds": "be7a47f8-4020-45a2-9e77-43dbf68a68f6",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "99",
+    "bookingUrl": "https://www.chronogolf.com/club/steel-canyon-golf-club",
+    "names": {
+      "Steel Canyon Golf Club": "Steel Canyon Golf Club"
+    },
+    "city": "Sandy Springs",
+    "state": "GA"
+  },
+  {
+    "key": "club-at-shoal-creek",
+    "metro": "atlanta",
+    "courseIds": "33e0a357-55c2-4101-9833-556cc0d00893",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "269",
+    "bookingUrl": "https://www.chronogolf.com/club/the-club-at-shoal-creek",
+    "names": {
+      "The Club at Shoal Creek": "The Club at Shoal Creek"
+    },
+    "city": "Griffin",
+    "state": "GA"
   }
 ]

@@ -1623,5 +1623,68 @@
     "displayName": "Firewheel Golf Park - Old Course",
     "city": "Garland",
     "state": "TX"
+  },
+  {
+    "key": "bear-creek-ga",
+    "metro": "atlanta",
+    "alias": "bear-creek-golf-club-ga",
+    "facilityId": "3737",
+    "displayName": "Bear Creek Golf Club",
+    "city": "Monroe",
+    "state": "GA"
+  },
+  {
+    "key": "bridgemill",
+    "metro": "atlanta",
+    "alias": "bridgemill-athletic-club",
+    "facilityId": "2330",
+    "displayName": "BridgeMill Athletic Club",
+    "city": "Canton",
+    "state": "GA"
+  },
+  {
+    "key": "heritage-golf-links",
+    "metro": "atlanta",
+    "alias": "heritage-golf-links",
+    "facilityId": "3741",
+    "displayName": "Heritage Golf Links",
+    "city": "Tucker",
+    "state": "GA"
+  },
+  {
+    "key": "lake-spivey",
+    "metro": "atlanta",
+    "alias": "lake-spivey",
+    "facilityId": "3764",
+    "displayName": "Lake Spivey Golf Club",
+    "city": "Jonesboro",
+    "state": "GA"
+  },
+  {
+    "key": "southland",
+    "metro": "atlanta",
+    "alias": "southland-golf-club",
+    "facilityId": "3783",
+    "displayName": "Southland Golf & Country Club",
+    "city": "Stone Mountain",
+    "state": "GA"
+  },
+  {
+    "key": "sugar-creek",
+    "metro": "atlanta",
+    "alias": "sugar-creek-golf-and-tennis",
+    "facilityId": "9428",
+    "displayName": "Sugar Creek Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "key": "west-pines",
+    "metro": "atlanta",
+    "alias": "west-pines-golf-club",
+    "facilityId": "2329",
+    "displayName": "West Pines Golf Club",
+    "city": "Douglasville",
+    "state": "GA"
   }
 ]
