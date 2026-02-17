@@ -524,5 +524,33 @@
     },
     "city": "San Diego",
     "state": "CA"
+  },
+  {
+    "key": "revival-at-the-crescent",
+    "metro": "charlotte",
+    "courseIds": "e7782e01-9a75-4fc7-8dea-b3fd4fc68e0b",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "143794",
+    "bookingUrl": "https://www.chronogolf.com/club/the-revival-golf-course-at-the-crescent-north-carolina",
+    "names": {
+      "The Revival Golf Course at the Crescent": "The Revival Golf Club at the Crescent"
+    },
+    "city": "Salisbury",
+    "state": "NC"
+  },
+  {
+    "key": "lincoln",
+    "metro": "charlotte",
+    "courseIds": "8b3329a9-4f76-479a-b108-9e1647a85296",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "37682",
+    "bookingUrl": "https://www.chronogolf.com/club/lincoln-country-club-north-carolina",
+    "names": {
+      "Lincoln": "Lincoln Country Club"
+    },
+    "city": "Lincolnton",
+    "state": "NC"
   }
 ]

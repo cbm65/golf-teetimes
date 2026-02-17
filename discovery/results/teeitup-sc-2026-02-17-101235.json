@@ -1,0 +1,542 @@
+{
+  "confirmed": 3,
+  "elapsed": "2m34.361895083s",
+  "errors": 0,
+  "listedOnly": 3,
+  "misses": 46,
+  "platform": "teeitup",
+  "results": [
+    {
+      "input": "Harry L. Jones Sr. Golf Course",
+      "city": "Charlotte",
+      "alias": "harry-l-jones-sr-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Charles T. Myers Golf Club",
+      "city": "Charlotte",
+      "alias": "charles-t-myers-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Dr. Charles L. Sifford Golf Course",
+      "city": "Charlotte",
+      "alias": "dr-charles-l-sifford-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Sunset Hills Golf Course",
+      "city": "Charlotte",
+      "alias": "sunset-hills-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Highland Creek Golf Club",
+      "city": "Charlotte",
+      "alias": "highland-creek-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Olde Sycamore Golf Plantation",
+      "city": "Charlotte",
+      "alias": "olde-sycamore-golf-plantation",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "The Tradition Golf Club",
+      "city": "Charlotte",
+      "alias": "tradition-golf-club",
+      "aliasSource": "no-the",
+      "status": "listed_only",
+      "facility": {
+        "id": 5427,
+        "courseId": "54f14d510c8ad60378b039bd",
+        "name": "Tradition Golf Club",
+        "address": "1027 Willbrook Blvd, Pawleys Island, SC 29585 US",
+        "locality": "Pawleys Island",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -79.136161,
+          33.453347
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Divide Golf Club",
+      "city": "Matthews",
+      "alias": "the-divide-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Emerald Lake Golf Club",
+      "city": "Matthews",
+      "alias": "emerald-lake-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Charlotte National Golf Club",
+      "city": "Indian Trail",
+      "alias": "charlotte-national-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Birkdale Golf Club",
+      "city": "Huntersville",
+      "alias": "birkdale-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Skybrook Golf Club",
+      "city": "Huntersville",
+      "alias": "skybrook-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Mooresville Golf Club",
+      "city": "Mooresville",
+      "alias": "mooresville-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Lake Norman Golf Club",
+      "city": "Mooresville",
+      "alias": "lake-norman-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Mallard Head Country Club",
+      "city": "Mooresville",
+      "alias": "mallard-head-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Verdict Ridge Golf \u0026 Country Club",
+      "city": "Denver",
+      "alias": "verdict-ridge-golf-and-country-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Westport Golf Course",
+      "city": "Denver",
+      "alias": "westport-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "The 500 Club",
+      "city": "Statesville",
+      "alias": "the-500-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "River Oaks Golf Club",
+      "city": "Statesville",
+      "alias": "river-oaks-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Twin Oaks Golf Club",
+      "city": "Statesville",
+      "alias": "twin-oaks-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Lakewood Golf Club",
+      "city": "Statesville",
+      "alias": "lakewood-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Rocky River Golf Club",
+      "city": "Concord",
+      "alias": "rocky-river-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Warrior Golf Club",
+      "city": "China Grove",
+      "alias": "warrior-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "The Revival Golf Club at the Crescent",
+      "city": "Salisbury",
+      "alias": "the-revival-golf-club-at-the-crescent",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Corbin Hills Golf Course",
+      "city": "Salisbury",
+      "alias": "corbin-hills-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "McCanless Golf Club",
+      "city": "Salisbury",
+      "alias": "mccanless-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Rolling Hills Golf Club",
+      "city": "Salisbury",
+      "alias": "rolling-hills-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Sapona Country Club",
+      "city": "Lexington",
+      "alias": "sapona-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Monroe Country Club",
+      "city": "Monroe",
+      "alias": "monroe-country-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Stonebridge Golf Club",
+      "city": "Monroe",
+      "alias": "stonebridge-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Eagle Chase Golf Club",
+      "city": "Marshville",
+      "alias": "eagle-chase-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Red Bridge Golf \u0026 Country Club",
+      "city": "Locust",
+      "alias": "red-bridge-golf-and-country-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Catawba Creek Golf Course",
+      "city": "Gastonia",
+      "alias": "catawba-creek-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Crowders Mountain Golf Club",
+      "city": "Kings Mountain",
+      "alias": "crowders-mountain-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Kings Mountain Country Club",
+      "city": "Kings Mountain",
+      "alias": "kings-mountain-country-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Woodbridge Golf Links",
+      "city": "Kings Mountain",
+      "alias": "woodbridge-golf-links",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Deer Brook Golf Club",
+      "city": "Shelby",
+      "alias": "deer-brook-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "River Bend YMCA Golf Course",
+      "city": "Shelby",
+      "alias": "river-bend-ymca-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Lincoln Country Club",
+      "city": "Lincolnton",
+      "alias": "lincoln-country-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Glen Oaks Golf Club",
+      "city": "Maiden",
+      "alias": "glen-oaks-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Springfield Golf Club",
+      "city": "Fort Mill",
+      "alias": "springfield-gc",
+      "aliasSource": "swap-gc",
+      "status": "listed_only",
+      "facility": {
+        "id": 1628,
+        "courseId": "54f14be60c8ad60378b01926",
+        "name": "Springfield Golf Club",
+        "address": "990 Springfield Pkwy, Fort Mill, SC 29715 US",
+        "locality": "Fort Mill",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.9472,
+          35.02632
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Fort Mill Golf Club",
+      "city": "Fort Mill",
+      "alias": "fort-mill-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Tega Cay Golf Club",
+      "city": "Tega Cay",
+      "alias": "tega-cay-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Carolina Lakes Golf Club",
+      "city": "Indian Land",
+      "alias": "carolina-lakes-golf-course",
+      "aliasSource": "swap-golf-course",
+      "status": "listed_only",
+      "facility": {
+        "id": 19010,
+        "courseId": "669e4cd06e4d7bbba26f4108",
+        "name": "Carolina Lakes Golf Course",
+        "address": "Shaw Air Force Base, SC 29152, US",
+        "locality": "Shaw Air Force Base",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.480304,
+          33.982153
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Waterford Golf Club",
+      "city": "Rock Hill",
+      "alias": "waterford-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Pinetuck Golf Club",
+      "city": "Rock Hill",
+      "alias": "pinetuck-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 3837,
+        "courseId": "54f14ca20c8ad60378b02a04",
+        "name": "Pinetuck Golf Club",
+        "address": "2578 Tuckaway Rd, Rock Hill, SC 29730, USA",
+        "locality": "Rock Hill",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -81.00061499999998,
+          34.834118
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        36,
+        37,
+        0
+      ]
+    },
+    {
+      "input": "Edgewater Golf Club",
+      "city": "Lancaster",
+      "alias": "edgewater-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 4987,
+        "courseId": "54f14d1f0c8ad60378b03535",
+        "name": "Edgewater Golf Club",
+        "address": "2375 Catawba Ridge Blvd, Lancaster, SC 29720, US",
+        "locality": "Lancaster",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.74645,
+          34.71311
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        33,
+        26,
+        47
+      ]
+    },
+    {
+      "input": "Lancaster Golf Club",
+      "city": "Lancaster",
+      "alias": "lancaster-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Chester Golf Club",
+      "city": "Chester",
+      "alias": "chester-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Spring Lake Country Club",
+      "city": "York",
+      "alias": "spring-lake-country-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1932,
+        "courseId": "54f14c020c8ad60378b01bbe",
+        "name": "Spring Lake Country Club",
+        "address": "1375 Springlake Rd, York, SC 29745, US",
+        "locality": "York",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -81.265354,
+          35.022757
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        8,
+        7,
+        0
+      ]
+    },
+    {
+      "input": "Rock Barn Golf \u0026 Spa",
+      "city": "Conover",
+      "alias": "rock-barn-golf-and-spa",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Tillery Tradition Country Club",
+      "city": "Mt Gilead",
+      "alias": "tillery-tradition-country-club",
+      "aliasSource": "",
+      "status": "miss"
+    }
+  ],
+  "state": "SC",
+  "timestamp": "2026-02-17T10:12:35-07:00",
+  "totalInput": 52,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-21",
+    "2026-02-28"
+  ]
+}

@@ -799,5 +799,53 @@
     "city": "Temecula",
     "state": "CA",
     "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "emerald-lake",
+    "metro": "charlotte",
+    "baseUrl": "https://emeraldlake.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "b65d4a17-afe5-4264-2a16-08da8b5dcc8e",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://emeraldlake.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Emerald Lake": "Emerald Lake Golf Club"
+    },
+    "city": "Matthews",
+    "state": "NC",
+    "timezone": "America/New_York"
+  },
+  {
+    "key": "birkdale",
+    "metro": "charlotte",
+    "baseUrl": "https://birkdale.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "627dfd65-35af-4a85-9fdd-08dbc69b5717",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://birkdale.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Birkdale Golf Club": "Birkdale Golf Club"
+    },
+    "city": "Huntersville",
+    "state": "NC",
+    "timezone": "America/New_York"
+  },
+  {
+    "key": "tega-cay",
+    "metro": "charlotte",
+    "baseUrl": "https://tegacay.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "28087353-41cf-4e80-623a-08dbbb757969",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://tegacay.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Carolina Pines/Grande View": "Tega Cay Golf Club"
+    },
+    "city": "Tega Cay",
+    "state": "SC",
+    "timezone": "America/New_York"
   }
 ]

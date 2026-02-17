@@ -215,5 +215,29 @@
     "displayName": "Native Oaks Golf Club",
     "city": "Valley Center",
     "state": "CA"
+  },
+  {
+    "key": "dr-charles-l-sifford",
+    "metro": "charlotte",
+    "courseIds": [
+      "b1bc9148-6254-4416-8898-12d3c7327917"
+    ],
+    "slug": "dr-charles-l-sifford-golf-course",
+    "bookingUrl": "https://golfwithaccess.com/course/dr-charles-l-sifford-golf-course/reserve-tee-time",
+    "displayName": "Dr. Charles L. Sifford Golf Course",
+    "city": "Charlotte",
+    "state": "NC"
+  },
+  {
+    "key": "sunset-hills",
+    "metro": "charlotte",
+    "courseIds": [
+      "f739afc8-0d95-468b-ae4c-b190a94e9291"
+    ],
+    "slug": "sunset-hills-golf-course",
+    "bookingUrl": "https://golfwithaccess.com/course/sunset-hills-golf-course/reserve-tee-time",
+    "displayName": "Sunset Hills Golf Course",
+    "city": "Charlotte",
+    "state": "NC"
   }
 ]

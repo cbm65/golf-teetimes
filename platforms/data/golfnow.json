@@ -1408,5 +1408,25 @@
     "state": "CA",
     "bookingUrl": "https://www.golfnow.com/tee-times/facility/3532/search",
     "searchUrl": "https://www.golfnow.com/tee-times/facility/3532/search"
+  },
+  {
+    "key": "carolina-lakes",
+    "metro": "charlotte",
+    "facilityId": 16601,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/16601/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/16601/search",
+    "displayName": "Carolina Lakes Golf Club",
+    "city": "Indian Land",
+    "state": "SC"
+  },
+  {
+    "key": "westport",
+    "metro": "charlotte",
+    "facilityId": 4183,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/4183/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/4183/search",
+    "displayName": "Westport Golf Club",
+    "city": "Denver",
+    "state": "NC"
   }
 ]

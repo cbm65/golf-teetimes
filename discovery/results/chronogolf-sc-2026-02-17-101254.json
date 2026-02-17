@@ -1,0 +1,1360 @@
+{
+  "confirmed": 0,
+  "elapsed": "3m29.8225235s",
+  "listedOnly": 0,
+  "misses": 15,
+  "platform": "chronogolf",
+  "results": [
+    {
+      "input": "Harry L. Jones Sr. Golf Course",
+      "city": "Charlotte",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Charles T. Myers Golf Club",
+      "city": "Charlotte",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Dr. Charles L. Sifford Golf Course",
+      "city": "Charlotte",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Sunset Hills Golf Course",
+      "city": "Charlotte",
+      "slug": "sunset-hills-golf-course",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "b82acb5b-d269-46a8-8250-79adbedb3834",
+        "id": 11831,
+        "name": "Sunset Hills Golf Course",
+        "slug": "sunset-hills-golf-course",
+        "city": "Guymon",
+        "province": "Oklahoma",
+        "country": "United States",
+        "address": "219 W Forest",
+        "phone": "(580) 338-7404",
+        "website": "",
+        "postcode": "73942",
+        "defaultAffiliationTypeId": 48146,
+        "location": {
+          "lat": 36.689552,
+          "lon": -101.481614
+        },
+        "courses": [
+          {
+            "id": 13552,
+            "name": "Sunset Hills",
+            "holes": 18,
+            "uuid": "1ab9aa5a-47eb-4dd3-91c3-c411a15630f4"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Highland Creek Golf Club",
+      "city": "Charlotte",
+      "slug": "highland-creek-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "07a705a4-be41-4043-8bc5-26265732c772",
+        "id": 18944,
+        "name": "Highland Creek Golf Course",
+        "slug": "highland-creek-golf-club",
+        "city": "Charlotte",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "7101 Highland Creek Parkway",
+        "phone": "7048759000",
+        "website": "http://highlandcreekgolfclub.com/",
+        "postcode": "28269",
+        "defaultAffiliationTypeId": 111817,
+        "location": {
+          "lat": 35.3809181627474,
+          "lon": -80.7629116596849
+        },
+        "courses": []
+      }
+    },
+    {
+      "input": "Olde Sycamore Golf Plantation",
+      "city": "Charlotte",
+      "slug": "olde-sycamore-golf-plantation",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "bf6c66f1-df55-43da-bb23-fccce7ba6995",
+        "id": 9291,
+        "name": "Olde Sycamore Golf Plantation",
+        "slug": "olde-sycamore-golf-plantation",
+        "city": "Charlotte",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "7504 Olde Sycamore Dr",
+        "phone": "(704) 573-1000",
+        "website": "http://www.oldesycamoregolf.com/",
+        "postcode": "28227",
+        "defaultAffiliationTypeId": 37986,
+        "location": {
+          "lat": 35.16705,
+          "lon": -80.610064
+        },
+        "courses": [
+          {
+            "id": 10680,
+            "name": "Olde Sycamore Golf Plantation",
+            "holes": 18,
+            "uuid": "f2ffa0ba-300b-41c2-907b-c82cb4d44d34"
+          }
+        ]
+      }
+    },
+    {
+      "input": "The Tradition Golf Club",
+      "city": "Charlotte",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "The Divide Golf Club",
+      "city": "Matthews",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Emerald Lake Golf Club",
+      "city": "Matthews",
+      "slug": "emerald-lake-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "7ca23f7a-190d-4612-8bca-edf68c94bdf1",
+        "id": 9105,
+        "name": "The Emerald Golf Club",
+        "slug": "emerald-lake-golf-club",
+        "city": "Matthews",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "9750 Tournament Dr",
+        "phone": "(704) 882-7888",
+        "website": "http://www.emeraldlakegolfclub.com",
+        "postcode": "28104",
+        "defaultAffiliationTypeId": 37242,
+        "location": {
+          "lat": 35.141,
+          "lon": -80.61338
+        },
+        "courses": [
+          {
+            "id": 10477,
+            "name": "The Emerald",
+            "holes": 18,
+            "uuid": "2c1febbc-85fd-4e2b-be4f-7192600f97cd"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Charlotte National Golf Club",
+      "city": "Indian Trail",
+      "slug": "charlotte-national-golf-course",
+      "slugSource": "swap-golf-course",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "bb2dd630-eca4-4870-b6ca-cd08ac5243a5",
+        "id": 9047,
+        "name": "Charlotte National Golf Course",
+        "slug": "charlotte-national-golf-course",
+        "city": "Indian Trail",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "6920 Howey Bottoms Rd",
+        "phone": "(704) 882-8282",
+        "website": "http://www.charlottenationalgc.com",
+        "postcode": "28079",
+        "defaultAffiliationTypeId": 37010,
+        "location": {
+          "lat": 35.127086,
+          "lon": -80.580048
+        },
+        "courses": [
+          {
+            "id": 10414,
+            "name": "Charlotte National",
+            "holes": 18,
+            "uuid": "76f45484-469a-498f-a2e2-fd93c29ae51e"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Birkdale Golf Club",
+      "city": "Huntersville",
+      "slug": "birkdale-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "4c3d24c6-65eb-477d-94b1-b55a80f804db",
+        "id": 14284,
+        "name": "Birkdale Golf Club",
+        "slug": "birkdale-golf-club-virginia",
+        "city": "Chesterfield",
+        "province": "Virginia",
+        "country": "United States",
+        "address": "8511 Royal Birkdale Dr",
+        "phone": "(804) 739-8800",
+        "website": "http://www.acumengolf.com/Default.aspx?p=DynamicModule\u0026pageid=371798\u0026ssid=285688\u0026vnf=1",
+        "postcode": "23832",
+        "defaultAffiliationTypeId": 57958,
+        "location": {
+          "lat": 37.387458,
+          "lon": -77.669684
+        },
+        "courses": [
+          {
+            "id": 16385,
+            "name": "Birkdale",
+            "holes": 18,
+            "uuid": "4c36b536-2e22-4676-b997-c35b0878cce9"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Skybrook Golf Club",
+      "city": "Huntersville",
+      "slug": "skybrook-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "9d31f24b-8d50-48bd-832f-82c819086221",
+        "id": 9385,
+        "name": "Skybrook Golf Club",
+        "slug": "skybrook-golf-club",
+        "city": "Huntersville",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "14720 Northgreen Dr",
+        "phone": "(704) 948-6611",
+        "website": "http://www.skybrookgolf.com",
+        "postcode": "28078",
+        "defaultAffiliationTypeId": 38362,
+        "location": {
+          "lat": 35.409318,
+          "lon": -80.767546
+        },
+        "courses": [
+          {
+            "id": 10798,
+            "name": "Skybrook",
+            "holes": 18,
+            "uuid": "7bb84aad-f3dd-4dc4-b789-d24a074cda30"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Mooresville Golf Club",
+      "city": "Mooresville",
+      "slug": "mooresville-golf-course",
+      "slugSource": "swap-golf-course",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "c96ea47a-de25-4f93-b550-cbe17179cf18",
+        "id": 9255,
+        "name": "Mooresville Golf Course",
+        "slug": "mooresville-golf-course",
+        "city": "Mooresville",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "800 Golf Course Dr",
+        "phone": "(704) 663-2539",
+        "website": "http://www.ci.mooresville.nc.us",
+        "postcode": "28115",
+        "defaultAffiliationTypeId": 37842,
+        "location": {
+          "lat": 35.580854,
+          "lon": -80.828713
+        },
+        "courses": [
+          {
+            "id": 10641,
+            "name": "Mooresville",
+            "holes": 18,
+            "uuid": "d23bf0a7-e232-44aa-898e-f2c5377ea8a1"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Lake Norman Golf Club",
+      "city": "Mooresville",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Mallard Head Country Club",
+      "city": "Mooresville",
+      "slug": "mallard-head-country-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "3e899225-bb19-4f00-8384-d09c080b8a91",
+        "id": 9233,
+        "name": "Mallard Head Country Club",
+        "slug": "mallard-head-country-club",
+        "city": "Mooresville",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "185 Mallard Way",
+        "phone": "(704) 664-7031",
+        "website": "http://www.mallardheadcc.com",
+        "postcode": "28117",
+        "defaultAffiliationTypeId": 37754,
+        "location": {
+          "lat": 35.56411,
+          "lon": -80.894885
+        },
+        "courses": [
+          {
+            "id": 10619,
+            "name": "Mallard Head",
+            "holes": 18,
+            "uuid": "dad5b771-d25c-4735-a26f-64cb106f43b8"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Verdict Ridge Golf \u0026 Country Club",
+      "city": "Denver",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Westport Golf Course",
+      "city": "Denver",
+      "slug": "westport-golf-course",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "520839fe-a5c7-4829-b951-b2f54730b853",
+        "id": 9466,
+        "name": "Westport Golf Course",
+        "slug": "westport-golf-course",
+        "city": "Denver",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "7494 Golf Course Dr S",
+        "phone": "(704) 483-5604",
+        "website": "http://www.westportgc.com",
+        "postcode": "28037",
+        "defaultAffiliationTypeId": 38686,
+        "location": {
+          "lat": 35.501664,
+          "lon": -80.988429
+        },
+        "courses": [
+          {
+            "id": 10885,
+            "name": "Westport",
+            "holes": 18,
+            "uuid": "5ab4cb46-7d20-4a16-a183-515d80e7c065"
+          }
+        ]
+      }
+    },
+    {
+      "input": "The 500 Club",
+      "city": "Statesville",
+      "slug": "the-500-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "773502d1-7b53-486b-898e-633bb49840e3",
+        "id": 2396,
+        "name": "The 500 Club",
+        "slug": "the-500-club",
+        "city": "Phoenix",
+        "province": "Arizona",
+        "country": "United States",
+        "address": "4707 W Pinnacle Peak Rd",
+        "phone": "(623) 492-9500",
+        "website": "http://www.the500club.com",
+        "postcode": "85310",
+        "defaultAffiliationTypeId": 10406,
+        "location": {
+          "lat": 33.69809,
+          "lon": -112.161114
+        },
+        "courses": [
+          {
+            "id": 2756,
+            "name": "The 500",
+            "holes": 18,
+            "uuid": "5e0938e9-8e53-4b12-a22d-4c46828e5475"
+          }
+        ]
+      }
+    },
+    {
+      "input": "River Oaks Golf Club",
+      "city": "Statesville",
+      "slug": "river-oaks-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "6901dd2c-c966-4aeb-9626-b512b944fbd1",
+        "id": 9014,
+        "name": "River Oaks Golf Club",
+        "slug": "river-oaks-golf-club-north-carolina",
+        "city": "Statesville",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "1000 Broken Arrow Dr",
+        "phone": "(704) 873-4653",
+        "website": "http://www.riveroaksnc.com/",
+        "postcode": "28677",
+        "defaultAffiliationTypeId": 36878,
+        "location": {
+          "lat": 35.744208,
+          "lon": -81.044239
+        },
+        "courses": [
+          {
+            "id": 10377,
+            "name": "Buffalo Shoals",
+            "holes": 18,
+            "uuid": "30b419c6-64f5-4324-b639-1fbfa792979e"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Twin Oaks Golf Club",
+      "city": "Statesville",
+      "slug": "twin-oaks-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "7c67e6eb-0394-49ff-a72f-bde2f4c0eed9",
+        "id": 8268,
+        "name": "Twin Oaks Golf Club",
+        "slug": "twin-oaks-golf-club-michigan",
+        "city": "Freeland",
+        "province": "Michigan",
+        "country": "United States",
+        "address": "6710 W Freeland Rd",
+        "phone": "(517) 695-9746",
+        "website": "",
+        "postcode": "48623",
+        "defaultAffiliationTypeId": 33894,
+        "location": {
+          "lat": 43.52404,
+          "lon": -84.042949
+        },
+        "courses": [
+          {
+            "id": 9537,
+            "name": "Front Nine/Back Nine",
+            "holes": 9,
+            "uuid": "d9f84514-904b-408c-8075-7f91e7280774"
+          },
+          {
+            "id": 9536,
+            "name": "East Nine",
+            "holes": 18,
+            "uuid": "6c1ad5f3-1490-430f-8bf3-d43cbbd3f2c8"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Lakewood Golf Club",
+      "city": "Statesville",
+      "slug": "lakewood-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "038d3d80-ff7c-48a1-8025-ae1d1b8cb9ad",
+        "id": 9205,
+        "name": "Lakewood Golf Club",
+        "slug": "lakewood-golf-club-north-carolina",
+        "city": "Statesville",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "390 Airport Rd",
+        "phone": "(704) 873-6441",
+        "website": "http://www.lakewoodgolfclub.net",
+        "postcode": "28677",
+        "defaultAffiliationTypeId": 37642,
+        "location": {
+          "lat": 35.769217,
+          "lon": -80.947342
+        },
+        "courses": [
+          {
+            "id": 10589,
+            "name": "Lakewood",
+            "holes": 18,
+            "uuid": "d1ac78d7-338b-49c7-a093-71894cb337ba"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Rocky River Golf Club",
+      "city": "Concord",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Warrior Golf Club",
+      "city": "China Grove",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "The Revival Golf Club at the Crescent",
+      "city": "Salisbury",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Corbin Hills Golf Course",
+      "city": "Salisbury",
+      "slug": "corbin-hills-golf-course",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "c723bc08-03c5-46ff-8b97-9f457b5fcab7",
+        "id": 9062,
+        "name": "Corbin Hills Golf Course",
+        "slug": "corbin-hills-golf-course",
+        "city": "Salisbury",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "431 Wildwood Dr",
+        "phone": "(704) 636-0672",
+        "website": "http://corbinhills.com/",
+        "postcode": "28146",
+        "defaultAffiliationTypeId": 37070,
+        "location": {
+          "lat": 35.65039,
+          "lon": -80.450644
+        },
+        "courses": [
+          {
+            "id": 10429,
+            "name": "Corbin Hills",
+            "holes": 18,
+            "uuid": "39d68b48-b8af-4d68-a7d9-f647d43ed354"
+          }
+        ]
+      }
+    },
+    {
+      "input": "McCanless Golf Club",
+      "city": "Salisbury",
+      "slug": "mccanless-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "510bf75d-d907-4b2e-880a-309dc342b7aa",
+        "id": 9237,
+        "name": "McCanless Golf Club",
+        "slug": "mccanless-golf-club",
+        "city": "Salisbury",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "3515 Stokes Ferry Rd",
+        "phone": "(704) 637-1235",
+        "website": "http://www.themacgc.com",
+        "postcode": "28146",
+        "defaultAffiliationTypeId": 37770,
+        "location": {
+          "lat": 35.631705,
+          "lon": -80.430794
+        },
+        "courses": [
+          {
+            "id": 10623,
+            "name": "McCanless",
+            "holes": 18,
+            "uuid": "a98c554b-2c68-4f31-9174-20a7c5e40604"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Rolling Hills Golf Club",
+      "city": "Salisbury",
+      "slug": "rolling-hills-golf-course",
+      "slugSource": "swap-golf-course",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "907472e3-f9a9-4c1e-87cc-ae7e033c368b",
+        "id": 2354,
+        "name": "Rolling Hills Golf Course",
+        "slug": "rolling-hills-golf-course-arizona--2",
+        "city": "Tempe",
+        "province": "Arizona",
+        "country": "United States",
+        "address": "1415 N Mill Ave",
+        "phone": "(480) 350-5275",
+        "website": "http://www.tempe.gov/index.aspx?page=482",
+        "postcode": "85281",
+        "defaultAffiliationTypeId": 10238,
+        "location": {
+          "lat": 33.446066,
+          "lon": -111.949967
+        },
+        "courses": [
+          {
+            "id": 2705,
+            "name": "Rolling Hills",
+            "holes": 18,
+            "uuid": "592f2245-577f-4502-a5ce-5057a3f3e152"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Sapona Country Club",
+      "city": "Lexington",
+      "slug": "sapona-country-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "d24948c9-c39c-4bf8-bca6-18eacf2b30a5",
+        "id": 9370,
+        "name": "Sapona Golf Swim and Tennis Club",
+        "slug": "sapona-country-club",
+        "city": "Lexington",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "439 Beaver Creek Rd",
+        "phone": "(336) 956-6245",
+        "website": "https://saponaclub.com",
+        "postcode": "27295",
+        "defaultAffiliationTypeId": 124810,
+        "location": {
+          "lat": 35.805303,
+          "lon": -80.317897
+        },
+        "courses": [
+          {
+            "id": 10781,
+            "name": "Sapona",
+            "holes": 18,
+            "uuid": "e2e83592-5c27-401f-902c-ab32e1ec7552"
+          },
+          {
+            "id": 26821,
+            "name": "Sapona Pickleball Courts",
+            "holes": 1,
+            "uuid": "04f8f44a-8460-4a6f-863d-a96fa5d25a0e"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Monroe Country Club",
+      "city": "Monroe",
+      "slug": "monroe-country-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "b98db24f-438b-44d2-8ee3-b657165fcd48",
+        "id": 10662,
+        "name": "Monroe Country Club",
+        "slug": "monroe-country-club-new-york",
+        "city": "Monroe",
+        "province": "New York",
+        "country": "United States",
+        "address": "63 Still Rd",
+        "phone": "(914) 783-9045",
+        "website": "http://www.monroecountryclubny.com",
+        "postcode": "10950",
+        "defaultAffiliationTypeId": 43470,
+        "location": {
+          "lat": 41.313994,
+          "lon": -74.18258
+        },
+        "courses": [
+          {
+            "id": 12245,
+            "name": "Monroe",
+            "holes": 9,
+            "uuid": "366a49db-b379-442d-8168-3b74a8ec02ee"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Stonebridge Golf Club",
+      "city": "Monroe",
+      "slug": "stonebridge-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "5c62e51d-6a27-491b-a723-fe48527ef28c",
+        "id": 6044,
+        "name": "Stonebridge Golf Club",
+        "slug": "stonebridge-golf-club-illinois",
+        "city": "Maryville",
+        "province": "Illinois",
+        "country": "United States",
+        "address": "7700 Stonebridge Golf Dr",
+        "phone": "(618) 346-8800",
+        "website": "http://www.golfatstonebridge.com",
+        "postcode": "62062",
+        "defaultAffiliationTypeId": 24998,
+        "location": {
+          "lat": 38.722187,
+          "lon": -89.988614
+        },
+        "courses": [
+          {
+            "id": 7007,
+            "name": "Stonebridge",
+            "holes": 18,
+            "uuid": "87fe813b-a095-4433-ae2b-091873533c7b"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Eagle Chase Golf Club",
+      "city": "Marshville",
+      "slug": "eagle-chase-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "e12b7870-7510-4983-b8f9-c8c3dbdbe9f7",
+        "id": 9100,
+        "name": "Eagle Chase Golf Club",
+        "slug": "eagle-chase-golf-club",
+        "city": "Marshville",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "3215 Brantley Rd",
+        "phone": "(704) 385-9000",
+        "website": "http://www.palyeaglechase.com",
+        "postcode": "28103",
+        "defaultAffiliationTypeId": 37222,
+        "location": {
+          "lat": 35.071476,
+          "lon": -80.387071
+        },
+        "courses": [
+          {
+            "id": 10472,
+            "name": "Eagle Chase",
+            "holes": 18,
+            "uuid": "2994a43f-9242-49be-8c25-e42c1d07247d"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Red Bridge Golf \u0026 Country Club",
+      "city": "Locust",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Catawba Creek Golf Course",
+      "city": "Gastonia",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Crowders Mountain Golf Club",
+      "city": "Kings Mountain",
+      "slug": "crowders-mountain-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "8b158a75-69b7-4450-9b48-15875e63bd46",
+        "id": 9080,
+        "name": "Crowders Mountain Golf Club",
+        "slug": "crowders-mountain-golf-club",
+        "city": "Kings Mountain",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "255 Lincoln Academy Rd",
+        "phone": "(704) 739-7681",
+        "website": "",
+        "postcode": "28086",
+        "defaultAffiliationTypeId": 37142,
+        "location": {
+          "lat": 35.253595,
+          "lon": -81.208341
+        },
+        "courses": [
+          {
+            "id": 10452,
+            "name": "Crowders Mountain",
+            "holes": 18,
+            "uuid": "c203bb35-2935-4d06-9cc2-8fa5f7ce7cd8"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Kings Mountain Country Club",
+      "city": "Kings Mountain",
+      "slug": "kings-mountain-country-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "146d10ac-d903-4b66-acf8-fa92a19ba281",
+        "id": 9191,
+        "name": "Kings Mountain Country Club",
+        "slug": "kings-mountain-country-club",
+        "city": "Kings Mountain",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "110 Country Club Rd",
+        "phone": "(704) 739-5871",
+        "website": "http://www.kingsmountaingolf.com",
+        "postcode": "28086",
+        "defaultAffiliationTypeId": 37586,
+        "location": {
+          "lat": 35.241694,
+          "lon": -81.359924
+        },
+        "courses": [
+          {
+            "id": 10573,
+            "name": "Kings Mountain",
+            "holes": 18,
+            "uuid": "7856d6d2-218f-4090-ad55-eb7d2f170db1"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Woodbridge Golf Links",
+      "city": "Kings Mountain",
+      "slug": "woodbridge-golf-links",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "1eb48c10-83c1-467c-9fd4-f9a19a92355c",
+        "id": 9482,
+        "name": "Woodbridge Golf Links",
+        "slug": "woodbridge-golf-links",
+        "city": "Kings Mountain",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "1007 New Camp Creek Church Rd",
+        "phone": "(704) 482-0353",
+        "website": "http://www.woodbridgegolf.com",
+        "postcode": "28086",
+        "defaultAffiliationTypeId": 38750,
+        "location": {
+          "lat": 35.286341,
+          "lon": -81.44184
+        },
+        "courses": [
+          {
+            "id": 10901,
+            "name": "Woodbridge",
+            "holes": 18,
+            "uuid": "b05d6f4f-fc7f-4b0c-b7b0-4ad6e9bcf610"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Deer Brook Golf Club",
+      "city": "Shelby",
+      "slug": "deer-brook-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "7c9df38a-a7ad-42e7-8ff8-078ed8797543",
+        "id": 9092,
+        "name": "Deer Brook Golf Club",
+        "slug": "deer-brook-golf-club",
+        "city": "Shelby",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "201 Deer Brook Dr",
+        "phone": "(704) 482-4653",
+        "website": "http://www.deerbrookgolfclub.com",
+        "postcode": "28150",
+        "defaultAffiliationTypeId": 37190,
+        "location": {
+          "lat": 35.340126,
+          "lon": -81.500845
+        },
+        "courses": [
+          {
+            "id": 10464,
+            "name": "Deer Brook",
+            "holes": 18,
+            "uuid": "b1d78038-7615-417e-9773-da5902ca36dc"
+          }
+        ]
+      }
+    },
+    {
+      "input": "River Bend YMCA Golf Course",
+      "city": "Shelby",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Lincoln Country Club",
+      "city": "Lincolnton",
+      "slug": "lincoln-country-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "036a787c-6f08-41ee-9a57-818566d60649",
+        "id": 9215,
+        "name": "Lincoln Country Club",
+        "slug": "lincoln-country-club-north-carolina",
+        "city": "Lincolnton",
+        "province": "North Carolina",
+        "country": "United States",
+        "address": "2052 Country Club Rd.",
+        "phone": "(704) 735-1382",
+        "website": "https://www.golflcc.com/",
+        "postcode": "28092",
+        "defaultAffiliationTypeId": 37682,
+        "location": {
+          "lat": 35.51437020738899,
+          "lon": -81.04988071652191
+        },
+        "courses": [
+          {
+            "id": 10599,
+            "name": "Lincoln",
+            "holes": 18,
+            "uuid": "8b3329a9-4f76-479a-b108-9e1647a85296"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Glen Oaks Golf Club",
+      "city": "Maiden",
+      "slug": "glen-oaks-golf-course",
+      "slugSource": "swap-golf-course",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "34ec7636-c7ec-45e6-8f06-0c2f2a60eb11",
+        "id": 7881,
+        "name": "Glen Oaks Golf Course",
+        "slug": "glen-oaks-golf-course-michigan",
+        "city": "Farmington Hills",
+        "province": "Michigan",
+        "country": "United States",
+        "address": "30500 W 13 Mile Rd",
+        "phone": "(248) 851-8356",
+        "website": "http://www.oakmanagement.com/",
+        "postcode": "48334",
+        "defaultAffiliationTypeId": 32346,
+        "location": {
+          "lat": 42.513957,
+          "lon": -83.352296
+        },
+        "courses": [
+          {
+            "id": 9022,
+            "name": "Glen Oaks",
+            "holes": 18,
+            "uuid": "2c9fb0d8-d764-47a7-b5d3-897929a340d2"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Springfield Golf Club",
+      "city": "Fort Mill",
+      "slug": "springfield-golf-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "48c4d0d7-e5ba-4fe9-bf88-bdbd1dc489a8",
+        "id": 12990,
+        "name": "Springfield Golf Club",
+        "slug": "springfield-golf-club-south-carolina",
+        "city": "Fort Mill",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "639 Hamley House Lane",
+        "phone": "803.548.3318",
+        "website": "http://www.playspringfield.com",
+        "postcode": "29715",
+        "defaultAffiliationTypeId": 52782,
+        "location": {
+          "lat": 35.039154,
+          "lon": -80.913404
+        },
+        "courses": [
+          {
+            "id": 14892,
+            "name": "Springfield",
+            "holes": 18,
+            "uuid": "c7b02945-0b16-4b51-b344-4d80e81369ab"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Fort Mill Golf Club",
+      "city": "Fort Mill",
+      "slug": "fort-mill-golf-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "1720d676-ec3d-4460-aee1-1a4eb73a7c2d",
+        "id": 12842,
+        "name": "Fort Mill Golf Club",
+        "slug": "fort-mill-golf-club",
+        "city": "Fort Mill",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "101 Country Club Dr",
+        "phone": "(803) 547-2044",
+        "website": "http://www.playfortmill.com/",
+        "postcode": "29715",
+        "defaultAffiliationTypeId": 52190,
+        "location": {
+          "lat": 34.999366,
+          "lon": -80.938664
+        },
+        "courses": [
+          {
+            "id": 14699,
+            "name": "Fort Mill",
+            "holes": 18,
+            "uuid": "3f192158-ce5e-4f37-b19a-2031b8c9abb7"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Tega Cay Golf Club",
+      "city": "Tega Cay",
+      "slug": "tega-cay-golf-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "a109f536-cdb4-4e89-97db-5d0d17d17e29",
+        "id": 13000,
+        "name": "Tega Cay Golf Club",
+        "slug": "tega-cay-golf-club",
+        "city": "Tega Cay",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "15083 Molokai Drive",
+        "phone": "(803) 548-3500",
+        "website": "http://www.tegacaygolfclub.com",
+        "postcode": "29708",
+        "defaultAffiliationTypeId": 52822,
+        "location": {
+          "lat": 35.03695,
+          "lon": -81.022085
+        },
+        "courses": [
+          {
+            "id": 14905,
+            "name": "Cove 9",
+            "holes": 9,
+            "uuid": "8e79a86f-fef3-4b7a-a580-9205ced309f2"
+          },
+          {
+            "id": 14904,
+            "name": "Cove/Grande View",
+            "holes": 18,
+            "uuid": "02b3776d-b9fb-4499-9798-231f0f9f5f62"
+          },
+          {
+            "id": 14903,
+            "name": "Carolina Pines/Grande View",
+            "holes": 18,
+            "uuid": "703eef4a-a54a-4230-a35d-a6800329fdb3"
+          },
+          {
+            "id": 14902,
+            "name": "Carolina Pines/Cove",
+            "holes": 18,
+            "uuid": "4fa328c0-af6e-4904-be0e-beb6ff887733"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Carolina Lakes Golf Club",
+      "city": "Indian Land",
+      "slug": "carolina-lakes-golf-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "281ea746-f28a-47a6-9dc2-30ce79355a88",
+        "id": 12785,
+        "name": "Carolina Lakes Golf Club",
+        "slug": "carolina-lakes-golf-club",
+        "city": "Indian Land",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "23012 Kingfisher Drive",
+        "phone": "803-547-9688",
+        "website": "http://www.carolinalakesgc.com",
+        "postcode": "29707",
+        "defaultAffiliationTypeId": 51962,
+        "location": {
+          "lat": 35.000115,
+          "lon": -80.857822
+        },
+        "courses": [
+          {
+            "id": 14625,
+            "name": "Carolina Lakes",
+            "holes": 18,
+            "uuid": "b22b8097-7f6a-40f7-90b1-f4131fb85daf"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Waterford Golf Club",
+      "city": "Rock Hill",
+      "slug": "waterford-golf-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "28e0fa88-9068-497e-9041-37275f4cdb96",
+        "id": 13044,
+        "name": "Waterford Golf Club",
+        "slug": "waterford-golf-club-south-carolina",
+        "city": "Rock Hill",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "1900 Clubhouse Road",
+        "phone": "(803) 324-0300",
+        "website": "https://thelinksatwaterford.com/",
+        "postcode": "29730",
+        "defaultAffiliationTypeId": 52998,
+        "location": {
+          "lat": 34.94996556946312,
+          "lon": -80.94367200674645
+        },
+        "courses": []
+      }
+    },
+    {
+      "input": "Pinetuck Golf Club",
+      "city": "Rock Hill",
+      "slug": "pinetuck-golf-course",
+      "slugSource": "swap-golf-course",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "bfb0bb01-0c92-4cd3-9552-052dae69ce44",
+        "id": 12947,
+        "name": "Pinetuck Golf Course",
+        "slug": "pinetuck-golf-course",
+        "city": "Rock Hill",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "2578 Tuckaway Road",
+        "phone": "(803) 327-1141",
+        "website": "http://www.pinetuckgolf.com",
+        "postcode": "29730",
+        "defaultAffiliationTypeId": 52610,
+        "location": {
+          "lat": 34.834377,
+          "lon": -81.000615
+        },
+        "courses": [
+          {
+            "id": 14838,
+            "name": "Pinetuck",
+            "holes": 18,
+            "uuid": "86baa76e-3428-4303-b424-b2fc442455be"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Edgewater Golf Club",
+      "city": "Lancaster",
+      "slug": "edgewater-golf-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "650bd9d6-9b50-4b1b-bdfb-68880e9a65e7",
+        "id": 12835,
+        "name": "Edgewater Golf Club",
+        "slug": "edgewater-golf-club-south-carolina",
+        "city": "Lancaster",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "2380 Catawba Ridge Road",
+        "phone": "(803) 283-9800",
+        "website": "http://www.edgewatergc.com",
+        "postcode": "29720",
+        "defaultAffiliationTypeId": 52162,
+        "location": {
+          "lat": 34.636453,
+          "lon": -80.867145
+        },
+        "courses": [
+          {
+            "id": 14691,
+            "name": "Edgewater",
+            "holes": 18,
+            "uuid": "653cab78-35c8-4036-bf40-45c9da4f474b"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Lancaster Golf Club",
+      "city": "Lancaster",
+      "slug": "lancaster-golf-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "e8cbd1be-321b-433f-a8a3-f85c0c3e51df",
+        "id": 12894,
+        "name": "Lancaster Golf Club",
+        "slug": "lancaster-golf-club",
+        "city": "Lancaster",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "1821 Springs Club Road",
+        "phone": "(803) 416-4500",
+        "website": "http://www.playlancaster.com",
+        "postcode": "29720",
+        "defaultAffiliationTypeId": 52398,
+        "location": {
+          "lat": 34.684232,
+          "lon": -80.785672
+        },
+        "courses": [
+          {
+            "id": 14773,
+            "name": "Lancaster",
+            "holes": 18,
+            "uuid": "c5754650-ba10-48d5-ab6e-52c16a5adfbb"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Chester Golf Club",
+      "city": "Chester",
+      "slug": "chester-golf-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "c9638a22-2bd1-4b72-bd5a-b449f64ce3cb",
+        "id": 12799,
+        "name": "Chester Golf Club",
+        "slug": "chester-golf-club",
+        "city": "Chester",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "770 Old Richburg Road",
+        "phone": "(803) 581-5733",
+        "website": "http://www.playchester.com",
+        "postcode": "29706",
+        "defaultAffiliationTypeId": 52018,
+        "location": {
+          "lat": 34.715312,
+          "lon": -81.043334
+        },
+        "courses": [
+          {
+            "id": 14644,
+            "name": "Chester",
+            "holes": 18,
+            "uuid": "26d4a94e-0fcf-42c7-b5ad-59ea2e54e23c"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Spring Lake Country Club",
+      "city": "York",
+      "slug": "spring-lake-country-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "9fc59c4f-abc7-4f2d-90ba-efa83a258f04",
+        "id": 12988,
+        "name": "Spring Lake Country Club",
+        "slug": "spring-lake-country-club-south-carolina",
+        "city": "York",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "1375 Springlake Road",
+        "phone": "(803) 684-4898",
+        "website": "http://www.springlakegolfcourse.com",
+        "postcode": "29745",
+        "defaultAffiliationTypeId": 52774,
+        "location": {
+          "lat": 35.020393,
+          "lon": -81.264154
+        },
+        "courses": [
+          {
+            "id": 14890,
+            "name": "Spring Lake",
+            "holes": 18,
+            "uuid": "9b56e3da-7a42-4882-bd30-4dcb90bbd277"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Rock Barn Golf \u0026 Spa",
+      "city": "Conover",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Tillery Tradition Country Club",
+      "city": "Mt Gilead",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    }
+  ],
+  "state": "SC",
+  "timestamp": "2026-02-17T10:12:54-07:00",
+  "totalInput": 52,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-21",
+    "2026-02-28"
+  ],
+  "wrongState": 37
+}

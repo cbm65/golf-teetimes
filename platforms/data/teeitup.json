@@ -2578,5 +2578,131 @@
     "city": "Chula Vista",
     "state": "CA",
     "holes": 18
+  },
+  {
+    "key": "charlotte-national",
+    "metro": "charlotte",
+    "alias": "charlotte-national-golf-club",
+    "facilityId": "19620",
+    "displayName": "Charlotte National Golf Club",
+    "city": "Indian Trail",
+    "state": "NC"
+  },
+  {
+    "key": "river-oaks",
+    "metro": "charlotte",
+    "alias": "river-oaks-golf-club",
+    "facilityId": "3216",
+    "displayName": "River Oaks Golf Club",
+    "city": "Statesville",
+    "state": "NC"
+  },
+  {
+    "key": "twin-oaks",
+    "metro": "charlotte",
+    "alias": "twin-oaks-golf-club",
+    "facilityId": "1810",
+    "displayName": "Twin Oaks Golf Club",
+    "city": "Statesville",
+    "state": "NC"
+  },
+  {
+    "key": "rocky-river",
+    "metro": "charlotte",
+    "alias": "rocky-river-golf-club",
+    "facilityId": "1632",
+    "displayName": "Rocky River Golf Club",
+    "city": "Concord",
+    "state": "NC"
+  },
+  {
+    "key": "deer-brook",
+    "metro": "charlotte",
+    "alias": "deer-brook-golf-club",
+    "facilityId": "5498",
+    "displayName": "Deer Brook Golf Club",
+    "city": "Shelby",
+    "state": "NC"
+  },
+  {
+    "key": "river-bend-ymca",
+    "metro": "charlotte",
+    "alias": "river-bend-ymca-golf-club",
+    "facilityId": "7423",
+    "displayName": "River Bend YMCA Golf Club",
+    "city": "Shelby",
+    "state": "NC"
+  },
+  {
+    "key": "pinetuck",
+    "metro": "charlotte",
+    "alias": "pinetuck-golf-club",
+    "facilityId": "3837",
+    "displayName": "Pinetuck Golf Club",
+    "city": "Rock Hill",
+    "state": "SC"
+  },
+  {
+    "key": "edgewater",
+    "metro": "charlotte",
+    "alias": "edgewater-golf-club",
+    "facilityId": "4987",
+    "displayName": "Edgewater Golf Club",
+    "city": "Lancaster",
+    "state": "SC"
+  },
+  {
+    "key": "spring-lake",
+    "metro": "charlotte",
+    "alias": "spring-lake-country-club",
+    "facilityId": "1932",
+    "displayName": "Spring Lake Country Club",
+    "city": "York",
+    "state": "SC"
+  },
+  {
+    "key": "harry-l-jones-sr",
+    "metro": "charlotte",
+    "alias": "meck-county-golf-booking-engine",
+    "facilityId": "1557",
+    "displayName": "Harry L. Jones Sr. Golf Course",
+    "city": "Charlotte",
+    "state": "NC"
+  },
+  {
+    "key": "charles-t-myers",
+    "metro": "charlotte",
+    "alias": "meck-county-golf-booking-engine",
+    "facilityId": "1560",
+    "displayName": "Charles T. Myers Golf Course",
+    "city": "Charlotte",
+    "state": "NC"
+  },
+  {
+    "key": "olde-sycamore",
+    "metro": "charlotte",
+    "alias": "olde-sycamore-golf-club",
+    "facilityId": "1623",
+    "displayName": "Olde Sycamore Golf Plantation",
+    "city": "Charlotte",
+    "state": "NC"
+  },
+  {
+    "key": "monroe",
+    "metro": "charlotte",
+    "alias": "monroe-country-club",
+    "facilityId": "1702",
+    "displayName": "Monroe Country Club",
+    "city": "Monroe",
+    "state": "NC"
+  },
+  {
+    "key": "rock-barn-jackson",
+    "metro": "charlotte",
+    "alias": "rock-barn-golf-and-spa-jackson-course",
+    "facilityId": "6790",
+    "displayName": "Rock Barn Golf & Spa - Jackson Course",
+    "city": "Conover",
+    "state": "NC"
   }
 ]

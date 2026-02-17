@@ -152,5 +152,14 @@
     "displayName": "Journey at Pechanga",
     "city": "Temecula",
     "state": "CA"
+  },
+  {
+    "key": "tradition",
+    "metro": "charlotte",
+    "subdomain": "tradition",
+    "bookingUrl": "https://tradition.quick18.com",
+    "displayName": "The Tradition Golf Club",
+    "city": "Charlotte",
+    "state": "NC"
   }
 ]

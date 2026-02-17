@@ -90,6 +90,12 @@ var Metros = map[string]Metro{
 		State:   "CA",
 		Tagline: "Public Courses Across LA County",
 	},
+	"charlotte": {
+		Name:    "Charlotte",
+		Slug:    "charlotte",
+		State:   "NC",
+		Tagline: "Public Courses Across the Queen City",
+	},
 	"sandiego": {
 		Name:    "San Diego",
 		Slug:    "sandiego",

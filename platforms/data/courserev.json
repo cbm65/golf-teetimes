@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "key": "highland-creek",
+    "metro": "charlotte",
+    "subDomain": "highlandcreekgolfclub",
+    "courseId": 1,
+    "bookingUrl": "https://highlandcreekgolfclub.bookings.courserev.ai/tee-times",
+    "displayName": "Highland Creek Golf Club",
+    "city": "Charlotte",
+    "state": "NC"
+  },
+  {
+    "key": "divide",
+    "metro": "charlotte",
+    "subDomain": "thedivideclub",
+    "courseId": 3,
+    "bookingUrl": "https://thedivideclub.bookings.courserev.ai/tee-times",
+    "displayName": "The Divide Golf Club",
+    "city": "Matthews",
+    "state": "NC"
+  },
+  {
+    "key": "waterford",
+    "metro": "charlotte",
+    "subDomain": "waterfordgolfclub",
+    "courseId": 145,
+    "bookingUrl": "https://waterfordgolfclub.bookings.courserev.ai/tee-times",
+    "displayName": "Waterford Golf Club",
+    "city": "Rock Hill",
+    "state": "SC"
+  }
+]

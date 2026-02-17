@@ -1,0 +1,412 @@
+{
+  "confirmed": 7,
+  "listedOnly": 7,
+  "platform": "foreup",
+  "results": {
+    "Carolina Lakes Golf Club": {
+      "courseId": 20956,
+      "scheduleId": 6345,
+      "bookingClass": "",
+      "name": "The Lakes Country Club",
+      "city": "Southport",
+      "state": "NC",
+      "address": "590 S. Shore Dr.",
+      "postal": "28461 ",
+      "phone": "910-845-2625",
+      "website": "https://www.thelakescountryclub.com/",
+      "timezone": "America/New_York",
+      "holes": 18,
+      "bookingClassId": "7525",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ],
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "Deer Brook Golf Club": {
+      "courseId": 19409,
+      "scheduleId": 0,
+      "bookingClass": "",
+      "name": "Deer Brook Golf Club",
+      "city": "Shelby",
+      "state": "NC",
+      "address": "201 Deerbrook Drive",
+      "postal": "28150",
+      "phone": "(704) 482-4653",
+      "website": "golfdeerbrook.com",
+      "timezone": "America/New_York",
+      "bookingClassId": "",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": null,
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "Eagle Chase Golf Club": {
+      "courseId": 22972,
+      "scheduleId": 12497,
+      "bookingClass": "",
+      "name": "Eagle Chase Golf Club (NC)",
+      "city": "Marshville",
+      "state": "NC",
+      "address": "3215 Brantley Rd",
+      "postal": "28103-7663",
+      "phone": "704-385-9000",
+      "timezone": "America/New_York",
+      "holes": 18,
+      "bookingClassId": "52004",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        21,
+        17,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "Glen Oaks Golf Club": {
+      "courseId": 22153,
+      "scheduleId": 9978,
+      "bookingClass": "",
+      "name": "Glen Oaks Golf Club",
+      "city": "Maiden",
+      "state": "NC",
+      "address": "245 Golf Course Road",
+      "postal": "28650",
+      "phone": "(828) 428-2451",
+      "website": "http://www.glenoaksgolf.com/",
+      "timezone": "America/New_York",
+      "holes": 18,
+      "bookingClassId": "13954",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        22,
+        40,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "Kings Mountain Country Club": {
+      "courseId": 22529,
+      "scheduleId": 11079,
+      "bookingClass": "",
+      "name": "Kings Mountain Country Club",
+      "city": "Kings Mountain",
+      "state": "NC",
+      "address": "109 Country Club Rd",
+      "postal": "28086",
+      "phone": "(704) 739-5871",
+      "timezone": "America/New_York",
+      "holes": 18,
+      "bookingClassId": "49735",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        27,
+        31,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "Lake Norman Golf Club": {
+      "courseId": 20134,
+      "scheduleId": 3687,
+      "bookingClass": "",
+      "name": "Lake Norman Yacht Club",
+      "city": "Lake Norman",
+      "state": "NC",
+      "timezone": "America/Chicago",
+      "holes": 9,
+      "bookingClassId": "",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": null,
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "Mallard Head Country Club": {
+      "courseId": 19507,
+      "scheduleId": 0,
+      "bookingClass": "",
+      "name": "Mallard Head Golf Course",
+      "city": "Mooresville",
+      "state": "NC",
+      "address": "185 Mallard Way",
+      "phone": "(704) 664-7031",
+      "website": "http://www.mallardheadcc.com/mhcc/",
+      "timezone": "America/New_York",
+      "bookingClassId": "",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": null,
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "McCanless Golf Club": {
+      "courseId": 20554,
+      "scheduleId": 4834,
+      "bookingClass": "",
+      "name": "McCanless Golf Club",
+      "city": "Salisbury",
+      "state": "NC",
+      "address": "3515 Stokes Ferry Rd",
+      "phone": "(704) 637-1235",
+      "website": "https://www.themacgc.com/",
+      "timezone": "America/New_York",
+      "holes": 18,
+      "bookingClassId": "5193",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        51,
+        43,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "Red Bridge Golf \u0026 Country Club": {
+      "courseId": 21207,
+      "scheduleId": 7256,
+      "bookingClass": "",
+      "name": "Red Bridge Golf Club",
+      "city": "Locust",
+      "state": "NC",
+      "address": "6801 Gatehouse Road",
+      "postal": "28097",
+      "phone": "704-781-5231",
+      "website": "http://redbridgegolfclub.com/",
+      "timezone": "America/New_York",
+      "holes": 18,
+      "bookingClassId": "9187",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        24,
+        21,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "Sapona Country Club": {
+      "courseId": 21564,
+      "scheduleId": 0,
+      "bookingClass": "",
+      "name": "Sapona Club",
+      "city": "Lexington",
+      "state": "NC",
+      "address": "439 Beaver Creek Road",
+      "postal": "27295",
+      "phone": "336-956-6245",
+      "website": "https://www.saponaclub.com",
+      "timezone": "America/New_York",
+      "bookingClassId": "",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": null,
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "Stonebridge Golf Club": {
+      "courseId": 21195,
+      "scheduleId": 7223,
+      "bookingClass": "",
+      "name": "Stonebridge Golf Club",
+      "city": "Monroe",
+      "state": "NC",
+      "address": "2721 Swilcan Burn Drive",
+      "postal": "28112",
+      "phone": "704-283-8998",
+      "website": "http://www.stonebridgegolfclub.com/",
+      "timezone": "America/New_York",
+      "holes": 18,
+      "bookingClassId": "9020",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        16,
+        17,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "The 500 Club": {
+      "courseId": 22678,
+      "scheduleId": 11602,
+      "bookingClass": "",
+      "name": "The 500 Club (NC)",
+      "city": "Statesville",
+      "state": "NC",
+      "phone": "7048729990",
+      "website": "https://500-club.com/",
+      "timezone": "America/New_York",
+      "holes": 18,
+      "bookingClassId": "50433",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        39,
+        24,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "The Tradition Golf Club": {
+      "courseId": 21675,
+      "scheduleId": 8524,
+      "bookingClass": "",
+      "name": "Tillery Tradition Country Club",
+      "city": "Mt Gilead",
+      "state": "NC",
+      "address": "214 Tradition Dr",
+      "postal": "27306",
+      "phone": "910-439-5578",
+      "timezone": "America/New_York",
+      "holes": 18,
+      "bookingClassId": "11018",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ],
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "Warrior Golf Club": {
+      "courseId": 18999,
+      "scheduleId": 795,
+      "bookingClass": "",
+      "name": "Warrior Golf Club",
+      "city": "China Grove",
+      "state": "NC",
+      "address": "1300 Lake Wright Rd",
+      "postal": "28023",
+      "phone": "704-856-0871",
+      "website": "http://warriorgolf.com",
+      "timezone": "America/New_York",
+      "holes": 18,
+      "bookingClassId": "10243",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ],
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    }
+  },
+  "state": "NC",
+  "timestamp": "2026-02-17T10:08:54-07:00",
+  "totalInput": 52,
+  "unmatched": [
+    "Harry L. Jones Sr. Golf Course",
+    "Charles T. Myers Golf Club",
+    "Dr. Charles L. Sifford Golf Course",
+    "Sunset Hills Golf Course",
+    "Highland Creek Golf Club",
+    "Olde Sycamore Golf Plantation",
+    "The Divide Golf Club",
+    "Emerald Lake Golf Club",
+    "Charlotte National Golf Club",
+    "Birkdale Golf Club",
+    "Skybrook Golf Club",
+    "Mooresville Golf Club",
+    "Verdict Ridge Golf \u0026 Country Club",
+    "Westport Golf Course",
+    "River Oaks Golf Club",
+    "Twin Oaks Golf Club",
+    "Lakewood Golf Club",
+    "Rocky River Golf Club",
+    "The Revival Golf Club at the Crescent",
+    "Corbin Hills Golf Course",
+    "Rolling Hills Golf Club",
+    "Monroe Country Club",
+    "Catawba Creek Golf Course",
+    "Crowders Mountain Golf Club",
+    "Woodbridge Golf Links",
+    "River Bend YMCA Golf Course",
+    "Lincoln Country Club",
+    "Springfield Golf Club",
+    "Fort Mill Golf Club",
+    "Tega Cay Golf Club",
+    "Waterford Golf Club",
+    "Pinetuck Golf Club",
+    "Edgewater Golf Club",
+    "Lancaster Golf Club",
+    "Chester Golf Club",
+    "Spring Lake Country Club",
+    "Rock Barn Golf \u0026 Spa",
+    "Tillery Tradition Country Club"
+  ]
+}

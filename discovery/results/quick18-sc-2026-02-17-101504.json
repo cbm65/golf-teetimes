@@ -1,0 +1,737 @@
+{
+  "confirmed": 1,
+  "elapsed": "1m48.934155583s",
+  "listedOnly": 0,
+  "missed": 51,
+  "platform": "quick18",
+  "results": [
+    {
+      "input": "Harry L. Jones Sr. Golf Course",
+      "city": "Charlotte",
+      "status": "miss",
+      "slugsTried": [
+        "harryljonessr",
+        "harryljonessrgolfcourse",
+        "harryljonessrgolf",
+        "harryljonessrgolfclub",
+        "harryljonessrcc",
+        "harry-l-jones-sr-golf-course",
+        "harry-l.-jones-sr."
+      ]
+    },
+    {
+      "input": "Charles T. Myers Golf Club",
+      "city": "Charlotte",
+      "status": "miss",
+      "slugsTried": [
+        "charlestmyers",
+        "charlestmyersgolfclub",
+        "charlestmyersgolf",
+        "charlestmyersgolfcourse",
+        "charlestmyerscc",
+        "charles-t-myers-golf-club",
+        "charles-t.-myers"
+      ]
+    },
+    {
+      "input": "Dr. Charles L. Sifford Golf Course",
+      "city": "Charlotte",
+      "status": "miss",
+      "slugsTried": [
+        "drcharleslsifford",
+        "drcharleslsiffordgolfcourse",
+        "drcharleslsiffordgolf",
+        "drcharleslsiffordgolfclub",
+        "drcharleslsiffordcc",
+        "dr-charles-l-sifford-golf-course",
+        "dr.-charles-l.-sifford"
+      ]
+    },
+    {
+      "input": "Sunset Hills Golf Course",
+      "city": "Charlotte",
+      "status": "miss",
+      "slugsTried": [
+        "sunsethills",
+        "sunsethillsgolfcourse",
+        "sunsethillsgolf",
+        "sunsethillsgolfclub",
+        "sunsethillscc",
+        "sunset-hills-golf-course",
+        "sunset-hills"
+      ]
+    },
+    {
+      "input": "Highland Creek Golf Club",
+      "city": "Charlotte",
+      "status": "miss",
+      "slugsTried": [
+        "highlandcreek",
+        "highlandcreekgolfclub",
+        "highlandcreekgolf",
+        "highlandcreekgolfcourse",
+        "highlandcreekcc",
+        "highland-creek-golf-club",
+        "highland-creek"
+      ]
+    },
+    {
+      "input": "Olde Sycamore Golf Plantation",
+      "city": "Charlotte",
+      "status": "miss",
+      "slugsTried": [
+        "oldesycamoregolfplantation",
+        "oldesycamoregolfplantationgolf",
+        "oldesycamoregolfplantationgolfclub",
+        "oldesycamoregolfplantationgolfcourse",
+        "oldesycamoregolfplantationcc",
+        "olde-sycamore-golf-plantation"
+      ]
+    },
+    {
+      "input": "The Tradition Golf Club",
+      "city": "Charlotte",
+      "status": "confirmed",
+      "subdomain": "tradition",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        11,
+        41,
+        48
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "The Divide Golf Club",
+      "city": "Matthews",
+      "status": "miss",
+      "slugsTried": [
+        "divide",
+        "thedividegolfclub",
+        "dividegolf",
+        "dividegolfclub",
+        "dividegolfcourse",
+        "dividecc",
+        "the-divide-golf-club",
+        "dividegolfclubgolf"
+      ]
+    },
+    {
+      "input": "Emerald Lake Golf Club",
+      "city": "Matthews",
+      "status": "miss",
+      "slugsTried": [
+        "emeraldlake",
+        "emeraldlakegolfclub",
+        "emeraldlakegolf",
+        "emeraldlakegolfcourse",
+        "emeraldlakecc",
+        "emerald-lake-golf-club",
+        "emerald-lake"
+      ]
+    },
+    {
+      "input": "Charlotte National Golf Club",
+      "city": "Indian Trail",
+      "status": "miss",
+      "slugsTried": [
+        "charlottenational",
+        "charlottenationalgolfclub",
+        "charlottenationalgolf",
+        "charlottenationalgolfcourse",
+        "charlottenationalcc",
+        "charlotte-national-golf-club",
+        "charlotte-national"
+      ]
+    },
+    {
+      "input": "Birkdale Golf Club",
+      "city": "Huntersville",
+      "status": "miss",
+      "slugsTried": [
+        "birkdale",
+        "birkdalegolfclub",
+        "birkdalegolf",
+        "birkdalegolfcourse",
+        "birkdalecc",
+        "birkdale-golf-club"
+      ]
+    },
+    {
+      "input": "Skybrook Golf Club",
+      "city": "Huntersville",
+      "status": "miss",
+      "slugsTried": [
+        "skybrook",
+        "skybrookgolfclub",
+        "skybrookgolf",
+        "skybrookgolfcourse",
+        "skybrookcc",
+        "skybrook-golf-club"
+      ]
+    },
+    {
+      "input": "Mooresville Golf Club",
+      "city": "Mooresville",
+      "status": "miss",
+      "slugsTried": [
+        "mooresville",
+        "mooresvillegolfclub",
+        "mooresvillegolf",
+        "mooresvillegolfcourse",
+        "mooresvillecc",
+        "mooresville-golf-club"
+      ]
+    },
+    {
+      "input": "Lake Norman Golf Club",
+      "city": "Mooresville",
+      "status": "miss",
+      "slugsTried": [
+        "lakenorman",
+        "lakenormangolfclub",
+        "lakenormangolf",
+        "lakenormangolfcourse",
+        "lakenormancc",
+        "lake-norman-golf-club",
+        "lake-norman"
+      ]
+    },
+    {
+      "input": "Mallard Head Country Club",
+      "city": "Mooresville",
+      "status": "miss",
+      "slugsTried": [
+        "mallardhead",
+        "mallardheadcountryclub",
+        "mallardheadgolf",
+        "mallardheadgolfclub",
+        "mallardheadgolfcourse",
+        "mallardheadcc",
+        "mallard-head-country-club",
+        "mallard-head"
+      ]
+    },
+    {
+      "input": "Verdict Ridge Golf \u0026 Country Club",
+      "city": "Denver",
+      "status": "miss",
+      "slugsTried": [
+        "verdictridgegolfand",
+        "verdictridgegolfandcountryclub",
+        "verdictridgegolfandgolf",
+        "verdictridgegolfandgolfclub",
+        "verdictridgegolfandgolfcourse",
+        "verdictridgegolfandcc",
+        "verdict-ridge-golf-\u0026-country-club",
+        "verdict-ridge-golf-\u0026"
+      ]
+    },
+    {
+      "input": "Westport Golf Course",
+      "city": "Denver",
+      "status": "miss",
+      "slugsTried": [
+        "westport",
+        "westportgolfcourse",
+        "westportgolf",
+        "westportgolfclub",
+        "westportcc",
+        "westport-golf-course"
+      ]
+    },
+    {
+      "input": "The 500 Club",
+      "city": "Statesville",
+      "status": "miss",
+      "slugsTried": [
+        "500club",
+        "the500club",
+        "500clubgolf",
+        "500clubgolfclub",
+        "500clubgolfcourse",
+        "500clubcc",
+        "the-500-club",
+        "500-club"
+      ]
+    },
+    {
+      "input": "River Oaks Golf Club",
+      "city": "Statesville",
+      "status": "miss",
+      "slugsTried": [
+        "riveroaks",
+        "riveroaksgolfclub",
+        "riveroaksgolf",
+        "riveroaksgolfcourse",
+        "riveroakscc",
+        "river-oaks-golf-club",
+        "river-oaks"
+      ]
+    },
+    {
+      "input": "Twin Oaks Golf Club",
+      "city": "Statesville",
+      "status": "miss",
+      "slugsTried": [
+        "twinoaks",
+        "twinoaksgolfclub",
+        "twinoaksgolf",
+        "twinoaksgolfcourse",
+        "twinoakscc",
+        "twin-oaks-golf-club",
+        "twin-oaks"
+      ]
+    },
+    {
+      "input": "Lakewood Golf Club",
+      "city": "Statesville",
+      "status": "miss",
+      "slugsTried": [
+        "lakewood",
+        "lakewoodgolfclub",
+        "lakewoodgolf",
+        "lakewoodgolfcourse",
+        "lakewoodcc",
+        "lakewood-golf-club"
+      ]
+    },
+    {
+      "input": "Rocky River Golf Club",
+      "city": "Concord",
+      "status": "miss",
+      "slugsTried": [
+        "rockyriver",
+        "rockyrivergolfclub",
+        "rockyrivergolf",
+        "rockyrivergolfcourse",
+        "rockyrivercc",
+        "rocky-river-golf-club",
+        "rocky-river"
+      ]
+    },
+    {
+      "input": "Warrior Golf Club",
+      "city": "China Grove",
+      "status": "miss",
+      "slugsTried": [
+        "warrior",
+        "warriorgolfclub",
+        "warriorgolf",
+        "warriorgolfcourse",
+        "warriorcc",
+        "warrior-golf-club"
+      ]
+    },
+    {
+      "input": "The Revival Golf Club at the Crescent",
+      "city": "Salisbury",
+      "status": "miss",
+      "slugsTried": [
+        "revivalgolfclubatthecrescent",
+        "therevivalgolfclubatthecrescent",
+        "revivalgolfclubatthecrescentgolf",
+        "revivalgolfclubatthecrescentgolfclub",
+        "revivalgolfclubatthecrescentgolfcourse",
+        "revivalgolfclubatthecrescentcc",
+        "the-revival-golf-club-at-the-crescent",
+        "revival-golf-club-at-the-crescent"
+      ]
+    },
+    {
+      "input": "Corbin Hills Golf Course",
+      "city": "Salisbury",
+      "status": "miss",
+      "slugsTried": [
+        "corbinhills",
+        "corbinhillsgolfcourse",
+        "corbinhillsgolf",
+        "corbinhillsgolfclub",
+        "corbinhillscc",
+        "corbin-hills-golf-course",
+        "corbin-hills"
+      ]
+    },
+    {
+      "input": "McCanless Golf Club",
+      "city": "Salisbury",
+      "status": "miss",
+      "slugsTried": [
+        "mccanless",
+        "mccanlessgolfclub",
+        "mccanlessgolf",
+        "mccanlessgolfcourse",
+        "mccanlesscc",
+        "mccanless-golf-club"
+      ]
+    },
+    {
+      "input": "Rolling Hills Golf Club",
+      "city": "Salisbury",
+      "status": "miss",
+      "slugsTried": [
+        "rollinghills",
+        "rollinghillsgolfclub",
+        "rollinghillsgolf",
+        "rollinghillsgolfcourse",
+        "rollinghillscc",
+        "rolling-hills-golf-club",
+        "rolling-hills"
+      ]
+    },
+    {
+      "input": "Sapona Country Club",
+      "city": "Lexington",
+      "status": "miss",
+      "slugsTried": [
+        "sapona",
+        "saponacountryclub",
+        "saponagolf",
+        "saponagolfclub",
+        "saponagolfcourse",
+        "saponacc",
+        "sapona-country-club"
+      ]
+    },
+    {
+      "input": "Monroe Country Club",
+      "city": "Monroe",
+      "status": "miss",
+      "slugsTried": [
+        "monroe",
+        "monroecountryclub",
+        "monroegolf",
+        "monroegolfclub",
+        "monroegolfcourse",
+        "monroecc",
+        "monroe-country-club"
+      ]
+    },
+    {
+      "input": "Stonebridge Golf Club",
+      "city": "Monroe",
+      "status": "miss",
+      "slugsTried": [
+        "stonebridge",
+        "stonebridgegolfclub",
+        "stonebridgegolf",
+        "stonebridgegolfcourse",
+        "stonebridgecc",
+        "stonebridge-golf-club"
+      ]
+    },
+    {
+      "input": "Eagle Chase Golf Club",
+      "city": "Marshville",
+      "status": "miss",
+      "slugsTried": [
+        "eaglechase",
+        "eaglechasegolfclub",
+        "eaglechasegolf",
+        "eaglechasegolfcourse",
+        "eaglechasecc",
+        "eagle-chase-golf-club",
+        "eagle-chase"
+      ]
+    },
+    {
+      "input": "Red Bridge Golf \u0026 Country Club",
+      "city": "Locust",
+      "status": "miss",
+      "slugsTried": [
+        "redbridgegolfand",
+        "redbridgegolfandcountryclub",
+        "redbridgegolfandgolf",
+        "redbridgegolfandgolfclub",
+        "redbridgegolfandgolfcourse",
+        "redbridgegolfandcc",
+        "red-bridge-golf-\u0026-country-club",
+        "red-bridge-golf-\u0026"
+      ]
+    },
+    {
+      "input": "Catawba Creek Golf Course",
+      "city": "Gastonia",
+      "status": "miss",
+      "slugsTried": [
+        "catawbacreek",
+        "catawbacreekgolfcourse",
+        "catawbacreekgolf",
+        "catawbacreekgolfclub",
+        "catawbacreekcc",
+        "catawba-creek-golf-course",
+        "catawba-creek"
+      ]
+    },
+    {
+      "input": "Crowders Mountain Golf Club",
+      "city": "Kings Mountain",
+      "status": "miss",
+      "slugsTried": [
+        "crowdersmountain",
+        "crowdersmountaingolfclub",
+        "crowdersmountaingolf",
+        "crowdersmountaingolfcourse",
+        "crowdersmountaincc",
+        "crowders-mountain-golf-club",
+        "crowders-mountain"
+      ]
+    },
+    {
+      "input": "Kings Mountain Country Club",
+      "city": "Kings Mountain",
+      "status": "miss",
+      "slugsTried": [
+        "kingsmountain",
+        "kingsmountaincountryclub",
+        "kingsmountaingolf",
+        "kingsmountaingolfclub",
+        "kingsmountaingolfcourse",
+        "kingsmountaincc",
+        "kings-mountain-country-club",
+        "kings-mountain"
+      ]
+    },
+    {
+      "input": "Woodbridge Golf Links",
+      "city": "Kings Mountain",
+      "status": "miss",
+      "slugsTried": [
+        "woodbridge",
+        "woodbridgegolflinks",
+        "woodbridgegolf",
+        "woodbridgegolfclub",
+        "woodbridgegolfcourse",
+        "woodbridgecc",
+        "woodbridge-golf-links"
+      ]
+    },
+    {
+      "input": "Deer Brook Golf Club",
+      "city": "Shelby",
+      "status": "miss",
+      "slugsTried": [
+        "deerbrook",
+        "deerbrookgolfclub",
+        "deerbrookgolf",
+        "deerbrookgolfcourse",
+        "deerbrookcc",
+        "deer-brook-golf-club",
+        "deer-brook"
+      ]
+    },
+    {
+      "input": "River Bend YMCA Golf Course",
+      "city": "Shelby",
+      "status": "miss",
+      "slugsTried": [
+        "riverbendymca",
+        "riverbendymcagolfcourse",
+        "riverbendymcagolf",
+        "riverbendymcagolfclub",
+        "riverbendymcacc",
+        "river-bend-ymca-golf-course",
+        "river-bend-ymca"
+      ]
+    },
+    {
+      "input": "Lincoln Country Club",
+      "city": "Lincolnton",
+      "status": "miss",
+      "slugsTried": [
+        "lincoln",
+        "lincolncountryclub",
+        "lincolngolf",
+        "lincolngolfclub",
+        "lincolngolfcourse",
+        "lincolncc",
+        "lincoln-country-club"
+      ]
+    },
+    {
+      "input": "Glen Oaks Golf Club",
+      "city": "Maiden",
+      "status": "miss",
+      "slugsTried": [
+        "glenoaks",
+        "glenoaksgolfclub",
+        "glenoaksgolf",
+        "glenoaksgolfcourse",
+        "glenoakscc",
+        "glen-oaks-golf-club",
+        "glen-oaks"
+      ]
+    },
+    {
+      "input": "Springfield Golf Club",
+      "city": "Fort Mill",
+      "status": "miss",
+      "slugsTried": [
+        "springfield",
+        "springfieldgolfclub",
+        "springfieldgolf",
+        "springfieldgolfcourse",
+        "springfieldcc",
+        "springfield-golf-club"
+      ]
+    },
+    {
+      "input": "Fort Mill Golf Club",
+      "city": "Fort Mill",
+      "status": "miss",
+      "slugsTried": [
+        "fortmill",
+        "fortmillgolfclub",
+        "fortmillgolf",
+        "fortmillgolfcourse",
+        "fortmillcc",
+        "fort-mill-golf-club",
+        "fort-mill"
+      ]
+    },
+    {
+      "input": "Tega Cay Golf Club",
+      "city": "Tega Cay",
+      "status": "miss",
+      "slugsTried": [
+        "tegacay",
+        "tegacaygolfclub",
+        "tegacaygolf",
+        "tegacaygolfcourse",
+        "tegacaycc",
+        "tega-cay-golf-club",
+        "tega-cay"
+      ]
+    },
+    {
+      "input": "Carolina Lakes Golf Club",
+      "city": "Indian Land",
+      "status": "miss",
+      "slugsTried": [
+        "carolinalakes",
+        "carolinalakesgolfclub",
+        "carolinalakesgolf",
+        "carolinalakesgolfcourse",
+        "carolinalakescc",
+        "carolina-lakes-golf-club",
+        "carolina-lakes"
+      ]
+    },
+    {
+      "input": "Waterford Golf Club",
+      "city": "Rock Hill",
+      "status": "miss",
+      "slugsTried": [
+        "waterford",
+        "waterfordgolfclub",
+        "waterfordgolf",
+        "waterfordgolfcourse",
+        "waterfordcc",
+        "waterford-golf-club"
+      ]
+    },
+    {
+      "input": "Pinetuck Golf Club",
+      "city": "Rock Hill",
+      "status": "miss",
+      "slugsTried": [
+        "pinetuck",
+        "pinetuckgolfclub",
+        "pinetuckgolf",
+        "pinetuckgolfcourse",
+        "pinetuckcc",
+        "pinetuck-golf-club"
+      ]
+    },
+    {
+      "input": "Edgewater Golf Club",
+      "city": "Lancaster",
+      "status": "miss",
+      "slugsTried": [
+        "edgewater",
+        "edgewatergolfclub",
+        "edgewatergolf",
+        "edgewatergolfcourse",
+        "edgewatercc",
+        "edgewater-golf-club"
+      ]
+    },
+    {
+      "input": "Lancaster Golf Club",
+      "city": "Lancaster",
+      "status": "miss",
+      "slugsTried": [
+        "lancaster",
+        "lancastergolfclub",
+        "lancastergolf",
+        "lancastergolfcourse",
+        "lancastercc",
+        "lancaster-golf-club"
+      ]
+    },
+    {
+      "input": "Chester Golf Club",
+      "city": "Chester",
+      "status": "miss",
+      "slugsTried": [
+        "chester",
+        "chestergolfclub",
+        "chestergolf",
+        "chestergolfcourse",
+        "chestercc",
+        "chester-golf-club"
+      ]
+    },
+    {
+      "input": "Spring Lake Country Club",
+      "city": "York",
+      "status": "miss",
+      "slugsTried": [
+        "springlake",
+        "springlakecountryclub",
+        "springlakegolf",
+        "springlakegolfclub",
+        "springlakegolfcourse",
+        "springlakecc",
+        "spring-lake-country-club",
+        "spring-lake"
+      ]
+    },
+    {
+      "input": "Rock Barn Golf \u0026 Spa",
+      "city": "Conover",
+      "status": "miss",
+      "slugsTried": [
+        "rockbarngolfandspa",
+        "rockbarngolfandspagolf",
+        "rockbarngolfandspagolfclub",
+        "rockbarngolfandspagolfcourse",
+        "rockbarngolfandspacc",
+        "rock-barn-golf-\u0026-spa"
+      ]
+    },
+    {
+      "input": "Tillery Tradition Country Club",
+      "city": "Mt Gilead",
+      "status": "miss",
+      "slugsTried": [
+        "tillerytradition",
+        "tillerytraditioncountryclub",
+        "tillerytraditiongolf",
+        "tillerytraditiongolfclub",
+        "tillerytraditiongolfcourse",
+        "tillerytraditioncc",
+        "tillery-tradition-country-club",
+        "tillery-tradition"
+      ]
+    }
+  ],
+  "state": "SC",
+  "timestamp": "2026-02-17T10:15:04-07:00",
+  "total": 52,
+  "wrongState": 0
+}

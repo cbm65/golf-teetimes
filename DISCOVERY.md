@@ -12,458 +12,92 @@ Five-phase process to add all public courses for a new metro area:
 
 ## Phase 1: Course List
 
-Compile a **comprehensive, exhaustive** list of every public golf course within approximately
-one hour of the city the metro is named for. This is not a "popular courses" list — it must
-include municipal courses, retirement community courses, lesser-known facilities, courses at
-the edges of the metro, and anything else with public tee times. The GolfNow discovery script
-(Phase 4) should only catch GolfNow-exclusive courses, NOT courses we should have found during
-initial research.
-
-Save the list to `discovery/courses/{metro}.txt` — one course per line, `#` comments ignored.
-Format: `Course Name | City` (city is needed for slug-based discovery tools).
-
-**Input:** Metro name (e.g., "Phoenix, AZ")
-**Output:** `discovery/courses/phoenix.txt`
-
-### Course List Files
-
-```
-discovery/courses/
-├── denver.txt          # TODO
-├── phoenix.txt         # 92 courses
-├── lasvegas.txt        # 42 courses
-├── atlanta.txt         # 52 courses
-└── ...
-```
+Compile a **comprehensive, exhaustive** list of every public golf course within approximately one hour of the metro city. Include municipal, retirement community, lesser-known, and edge-of-metro courses. Save to `discovery/courses/{metro}.txt` — one course per line, `#` comments ignored. Format: `Course Name | City`.
 
 ## Phase 2: Automated Discovery
 
-Run each platform's discovery tool against the course list file. Each tool probes
-its platform's API, then validates confirmed matches with a 3-date tee time check
-(next Wednesday, next Saturday, Saturday after that).
-
-### Step 1: Run TeeItUp FIRST
-
-TeeItUp is the dominant platform (78% of Phoenix courses) and should always run first.
-Its results establish the **baseline** — when a course appears on both TeeItUp and
-another platform, the other platform wins (direct booking links preferred over TeeItUp).
-All subsequent scripts should check for TeeItUp overlaps and replace them.
+Run each platform's discovery tool against the course list. Each tool probes its platform's API, then validates with a 3-date tee time check.
 
 ```bash
-# 1. TeeItUp — ALWAYS RUN FIRST — alias probe with multi-facility sibling matching
-go run cmd/discover-teeitup/main.go AZ -f discovery/courses/phoenix.txt
-
-# 2. GolfWithAccess (Troon) — slug probe, high value for resort/sunbelt courses
-go run cmd/discover-golfwithaccess/main.go AZ -f discovery/courses/phoenix.txt
-
-# 3. Chronogolf — slug probe against club pages
-go run cmd/discover-chronogolf/main.go AZ -f discovery/courses/phoenix.txt
-
-# 4. ForeUP — two-phase: one-time index build, then match against index
-go run cmd/discover-foreup/main.go --index 1 30000
-go run cmd/discover-foreup/main.go --match AZ -f discovery/courses/phoenix.txt
-
-# 5. ClubCaddie — NO discovery script (HAR capture only, see Phase 3)
-
-# 6. Quick18 — subdomain probe
-go run cmd/discover-quick18/main.go AZ -f discovery/courses/phoenix.txt
-
-# 7. CourseCo — subdomain probe (only 1 known course so far, no discovery script yet)
-go run cmd/discover-courseco/main.go AZ -f discovery/courses/phoenix.txt
-
-# 8. CPS Golf — subdomain probe against {slug}.cps.golf
-go run cmd/discover-cpsgolf/main.go AZ -f discovery/courses/phoenix.txt
+# Run in this order (TeeItUp first — establishes baseline):
+go run cmd/discover-teeitup/main.go {STATE} -f discovery/courses/{metro}.txt
+go run cmd/discover-golfwithaccess/main.go {STATE} -f discovery/courses/{metro}.txt
+go run cmd/discover-chronogolf/main.go {STATE} -f discovery/courses/{metro}.txt
+go run cmd/discover-foreup/main.go --match {STATE} -f discovery/courses/{metro}.txt
+go run cmd/discover-quick18/main.go {STATE} -f discovery/courses/{metro}.txt
+go run cmd/discover-courseco/main.go {STATE} -f discovery/courses/{metro}.txt
+go run cmd/discover-cpsgolf/main.go {STATE} -f discovery/courses/{metro}.txt
 ```
 
-Each tool outputs a JSON results file to `discovery/results/` with statuses:
-- **confirmed** — course found on platform with live tee times
-- **listed_only** — course page exists but 0 tee times (directory listing, not actively booking)
-- **third_party_backend** — (ForeUP only) ForeUP is the teesheet backend but another platform handles consumer booking
-- **wrong_state** — slug matched a course in another state (rejected)
-- **wrong_city** — slug matched the right state but wrong city (warning, not rejected)
-- **miss** — no match found
+For metros spanning two states (e.g. Charlotte NC/SC), run each script for both states.
 
-### Step 2: Ingest results — CRITICAL: cross-platform dedup
+**Cross-platform dedup rule**: A course appears on ONE platform only. Other platforms take precedence over TeeItUp. GolfNow courses are NOT added in Phase 2.
 
-When adding confirmed courses to `platforms/data/*.json`, you MUST check whether
-each course is already present on another platform. A course should only appear on
-ONE platform. **Other platforms take precedence over TeeItUp** — if a course exists on
-both TeeItUp AND another platform (ForeUP, Chronogolf, GolfWithAccess, etc.), remove
-it from TeeItUp and use the other platform. Direct booking links through smaller
-platforms are preferred. For collisions between two non-TeeItUp platforms, whichever
-platform the course actually books through is the one we use.
+**Ingestion checklist** for each confirmed course:
+1. Already in any `platforms/data/*.json`? → SKIP
+2. In the correct metro area? → SKIP if wrong metro
+3. Name match actually correct? → SKIP if wrong course
+4. Clean display name, derive key, add to appropriate JSON file
 
-**GolfNow handling:** GolfNow courses are NOT added during Phase 2. GolfNow is a middleman
-booking platform — we prefer direct platform integrations. GolfNow-only courses are discovered
-separately in Phase 4 (after all direct platforms are exhausted), and then checked for direct
-platform availability in Phase 5.
+## Phase 3: Manual Gap Fill
 
-Ingestion checklist for each confirmed course:
-1. Is this course already in any `platforms/data/*.json`? → **SKIP**
-2. Is this course in the correct metro area? (e.g. Tucson courses are NOT Phoenix) → **SKIP**
-3. Is the name match actually correct? (e.g. "Wickenburg Ranch" ≠ "Wickenburg Country Club") → **SKIP if wrong**
-4. Clean the display name per rules below
-5. Derive the key per rules below
-6. Add to the appropriate JSON file
+For each course not found by automated discovery:
+1. Visit the course's booking page in a browser (incognito)
+2. Capture a HAR file of the tee time loading
+3. Give Claude the HAR — Claude identifies the platform and extracts config
+4. Claude appends the course to `platforms/data/*.json`
 
-### Step 3: Verify and test
+## Phase 4: GolfNow Discovery
 
 ```bash
-go run .
+go run discovery/golfnow-discover.go {metro}
 ```
 
-Visit `http://localhost:8080/phoenix` and verify courses appear in the dropdown.
+Searches GolfNow area API, cross-references against all existing courses, outputs missing GolfNow-only courses. Exclude non-golf facilities (simulators, par-3s, entertainment venues, practice ranges).
+
+## Phase 5: GolfNow Platform Swap
+
+Check each GolfNow course's own website for direct platform booking. If it uses a supported platform, capture HAR, swap from golfnow.json to the direct platform.
+
+---
+
+## Adding a Metro Entry
+
+Add to `metros.go` before running discovery:
+
+```go
+"charlotte": {
+    Name:    "Charlotte",
+    Slug:    "charlotte",
+    State:   "NC",
+    Tagline: "Public Courses Across the Queen City",
+},
+```
+
+Course/city counts are computed automatically at startup.
+
+---
 
 ## Key Derivation Rules
 
-The `key` field in every JSON entry must follow these rules:
+1. Start with display name
+2. Strip: "Golf Course", "Golf Club", "Golf Resort", "Country Club", "Golf Complex", "Golf Links", "Golf Center", "GC", "CC"
+3. Strip leading: "The ", "Golf Club of ", "Golf Club at "
+4. Lowercase, replace non-alphanumeric with hyphens, collapse multiples, trim edges
 
-1. Start with the display name
-2. Strip golf suffixes: "Golf Course", "Golf Club", "Golf Resort", "Country Club", "Golf Complex", "Golf Links", "Golf Center", "GC", "CC"
-3. Strip leading "The ", "Golf Club of ", "Golf Club at "
-4. Lowercase
-5. Replace non-alphanumeric with hyphens, collapse multiples, trim edges
+Examples: `Aguila Golf Course → aguila`, `Red Mountain Ranch Country Club → red-mountain-ranch`, `Golf Club of Estrella → estrella`, `Trilogy Golf Club at Vistancia → trilogy-at-vistancia`
 
-Examples:
-```
-Aguila Golf Course              → aguila
-Stonecreek Golf Club            → stonecreek
-Red Mountain Ranch Country Club → red-mountain-ranch
-Golf Club of Estrella           → estrella
-The Phoenician Golf Club        → phoenician
-Trilogy Golf Club at Vistancia  → trilogy-at-vistancia
-Painted Mountain Golf Resort    → painted-mountain
-```
+## Display Name Rules
 
-Keys must be unique across all platforms within a metro. Use hyphens, not underscores.
+- Multi-course clubs: `"ClubName - CourseName"` (frontend groups on `" - "`)
+- Remove state/region suffixes, expand abbreviations, add missing "Golf Course"/"Golf Club" suffixes
+- No trailing whitespace
 
-## Display Name Normalization Rules
+---
 
-All course names must follow these conventions so the frontend dropdown groups
-multi-course clubs correctly and displays clean names.
+## JSON Entry Formats by Platform
 
-### The " - " convention
-
-Multi-course clubs use `"ClubName - CourseName"` format. The frontend
-`getBaseCourse()` splits on `" - "` to group sub-courses under one dropdown entry.
-
-Examples:
-```
-Arizona Biltmore - Estates      → dropdown shows "Arizona Biltmore"
-Arizona Biltmore - Links        → grouped under "Arizona Biltmore"
-Wigwam - Gold                   → dropdown shows "Wigwam"
-Wigwam - Blue                   → grouped under "Wigwam"
-```
-
-Single-course clubs use their full name with no separator:
-```
-Aguila Golf Course
-Coldwater Golf Club
-Starfire Golf Club
-```
-
-### Cleanup rules
-
-When adding courses from discovery results, clean display names:
-
-1. **Remove state/region suffixes**: "Longbow Golf Club, AZ" → "Longbow Golf Club"
-2. **Remove "(AZ)" or "(state)" suffixes**: "Rolling Hills Golf Course (AZ)" → "Rolling Hills Golf Course"
-3. **Remove internal sub-course names for single-facility entries**: "Talking Stick Golf Club - Piipaash (South)" → "Talking Stick Golf Club"
-4. **Expand abbreviations**: "Lookout Mountain G.C." → "Lookout Mountain Golf Club"
-5. **Add missing suffixes**: "Palo Verde" → "Palo Verde Golf Course", "Paradise Valley Golf" → "Paradise Valley Golf Course"
-6. **No trailing whitespace** in names or map keys
-7. **Chronogolf `names` map**: Keys are the API course name (e.g. `"Estates"`), values use the " - " convention (e.g. `"Arizona Biltmore - Estates"`)
-
-### Common pitfalls caught during Phoenix ingestion
-
-These are real mistakes we made and corrected:
-- `Longbow Golf Club, AZ` — had state suffix left over from API
-- `Lookout Mountain G.C.` — abbreviation not expanded
-- `Talking Stick Golf Club - Piipaash (South)` — sub-course name not stripped
-- `Palo Verde` — missing "Golf Course" suffix entirely
-- `The Phoenician` — missing "Golf Club" suffix
-- `Paradise Valley Golf` — incomplete suffix ("Golf" without "Course")
-- Keys were using underscores and including golf suffixes (e.g. `aguila_golf_course` instead of `aguila`)
-
-## Discovery Script Architecture
-
-All 7 scripts share common patterns that emerged through trial and error:
-
-### Common features across all scripts
-
-- **3-date tee time validation**: probes next Wednesday, next Saturday, Saturday+7 to confirm active booking
-- **State validation**: every script validates that matched courses are in the target state (critical — without this, generic names like "Stonecreek" match courses in Oregon, "Riverview" matches California, "Foothills" matches Colorado)
-- **City validation**: warns on mismatch but does NOT reject (facility cities often differ from input — e.g. "Laveen" vs "Phoenix" for Aguila)
-- **Multi-alias/slug generation**: tries 8-20+ naming variants per course to maximize hit rate
-- **Dead slug/alias caching**: tracks 404'd slugs to skip them in subsequent iterations
-- **Deduplication**: tracks discovered facility/club/course IDs to prevent the same course being recorded twice
-- **Alias/slug source tracking**: records which naming pattern matched (e.g. "swap-golf-club", "core+state+city") for debugging
-- **JSON results output**: saves full results to `discovery/results/` for ingestion
-- **Timestamped log output**: prefixes every line with `[HH:MM:SS.mmm]` for debugging timing issues
-
-### Alias/slug generation patterns
-
-Each platform has different URL conventions, but the name-munging patterns are similar.
-Starting from an input like "Stonecreek Golf Club" in Phoenix, AZ:
-
-| Pattern | Example | Used by |
-|---------|---------|---------|
-| Exact name slug | `stonecreek-golf-club` | TeeItUp, Chronogolf |
-| Name + state + city | `stonecreek-golf-club-arizona-phoenix` | Chronogolf |
-| Name + state | `stonecreek-golf-club-arizona` | Chronogolf |
-| Suffix swap (course↔club↔resort) | `stonecreek-golf-course` | TeeItUp, Chronogolf |
-| Core name only | `stonecreek` | TeeItUp, Quick18 |
-| Core + "golf" | `stonecreekgolf` | Quick18 |
-| Core + city | `stonecreek-phoenix` | TeeItUp |
-| "The" prefix removal | `phoenician-golf-club` | All |
-| "The" prefix addition | `the-legacy-golf-club` | TeeItUp |
-| City prefix stripping | `silverado-golf-club` (from "Scottsdale Silverado") | TeeItUp |
-| Hyphenated full | `stonecreek-golf-club` | Quick18 |
-| Joined alpha | `stonecreekgolfclub` | Quick18 |
-| "gc" abbreviation | `stonecreek-gc` | TeeItUp |
-
-### Fuzzy matching guidelines
-
-For scripts that match input names against an index (ForeUP) or API-returned names (TeeItUp sibling matching):
-
-- **Normalize both sides**: strip golf suffixes, "the", punctuation, lowercase, collapse whitespace
-- **Minimum length guard**: require 5+ chars for containment matches to prevent false positives ("mesa" should NOT match "mesa verde")
-- **City-aware matching**: when input includes city (e.g. "Raven Golf Club Phoenix"), strip city before comparing since API names don't include it
-- **Skip prepositions**: ignore "at", "of", "the", "in", "and" when doing word-overlap matching
-- **Watch for same-city same-prefix collisions**: "Wickenburg Ranch Golf Club" vs "Wickenburg Country Club" are DIFFERENT courses — the fuzzy matcher must not conflate them
-
-### Platform-specific notes
-
-**TeeItUp** — Uses Kenna Commerce API. The discovery script generates 15-22 alias candidates per course. Alias probing hits `https://phx-api-be-east-1b.kenna.io/facilities` with `x-be-alias` header. Multi-facility aliases (e.g. `city-of-phoenix-golf-courses`) return all facilities — the script cross-matches all siblings against the full input list. Single-course aliases that work during discovery may fail in production if the course is actually booked under a shared alias — always prefer the shared alias when one exists. During Las Vegas ingestion, added `exactStatus` field to miss results for diagnosing why specific courses weren't found (e.g. Kenna API returned no facility for the slug despite it being a valid TeeItUp course).
-
-**Booking site HTML fallback** (added during Atlanta ingestion): The Kenna `/facilities` API has coverage gaps — some valid aliases return 404 from the API but work fine at `{alias}.book.teeitup.com`. Stone Mountain Golf Club was discovered this way (alias `stone-mountain` returned 404 from Kenna but the booking site HTML contained all facility data). The fallback probes `{alias}.book.teeitup.com` directly, extracts the confirmed alias from `<input id="alias" value="...">`, and parses facility IDs/names from embedded RSC JSON (`gCPlayFacilityId`, `gFName`). Only tried for the top 2 alias candidates (core name, exact slug) to limit extra HTTP requests.
-
-**Alternate name limitation**: Courses known by a different name than their official name (e.g. "North Fulton Golf Course" booking as "Chastain Park") cannot be discovered automatically. These require manual HAR capture in Phase 3.
-
-**UUID alias variant** (discovered during Atlanta ingestion): Some TeeItUp courses use `book-v2.teeitup.golf` with a UUID subdomain instead of a human-readable alias (e.g. College Park Golf Course uses `c70350ae-...`). The Kenna API works identically — the UUID is passed as `x-be-alias`. These are completely undiscoverable by alias probing; HAR capture is the only path.
-
-**Chronogolf** — Owned by Lightspeed. Has a massive directory (57 "listed_only" out of 92 for Phoenix) but almost no courses actually book through it (only 2 confirmed for Phoenix). Most Chronogolf listings are SEO/marketplace directory entries — the courses actually book through TeeItUp, GolfNow, etc. Discovery probes `https://www.chronogolf.com/club/{slug}` and extracts `__NEXT_DATA__` JSON. The `names` map translates API course names to display names. Multi-course clubs return tee times tagged with the course name from the API (e.g. "Estates"), which gets mapped to the display name (e.g. "Arizona Biltmore - Estates"). The lookup is case-insensitive with whitespace trimming.
-
-**ForeUP** — Two-phase discovery: (1) build a master index by sweeping course_id 1–30000 (one-time, ~30min, checkpoint every 500), (2) match input courses against the index by state + fuzzy name. Many courses use ForeUP as a teesheet backend while a different platform (TeeItUp, GolfNow, etc.) handles consumer-facing booking. The discovery script detects this by checking for a booking class named "Online Third Party". If present, the course is marked `third_party_backend` and should NOT be added as a ForeUP course. The script deduplicates by `course_id` and uses a 5-char minimum guard for fuzzy matching. ForeUP's booking URL does not support date pre-fill (Angular SPA).
-
-**ClubCaddie** — Has no central directory, API, or enumerable ID scheme. Each course lives at `apimanager-cc{server}.clubcaddie.com/webapi/view/{apiKey}` where both `{server}` and `{apiKey}` are non-sequential. Discovery is **manual only** via HAR capture from the course's booking page. When capturing a HAR, the key fields to extract are: the server number (from the hostname), the apiKey (from the URL path), and the courseId (from the TeeTimes POST body). The booking URL supports date pre-fill: `https://apimanager-cc{server}.clubcaddie.com/webapi/view/{apiKey}/slots?date={MM/DD/YYYY}`.
-
-**CPS Golf** — Subdomain-based: `{slug}.cps.golf`. Discovery probes the unauthenticated `/onlineresweb/Home/Configuration` endpoint — if it returns valid JSON with `siteName`, the site exists. Then `/OnlineCourses` returns course details including `websiteId`, `courseId`, `courseName`, `timezoneId`, and `holes`. State validation uses the timezone (e.g. `America/Denver` → CO). A single CPS Golf site can host multiple courses (e.g. Cascata + Serket on `caspublic.cps.golf`).
-
-**CPS Golf has two auth modes** discovered during Las Vegas ingestion:
-- **Older sites** (e.g. Indian Tree, Green Valley Ranch): Configuration returns an `apiKey` field. The fetcher sends it as `x-apikey` header. No bearer token needed.
-- **Newer sites** (e.g. Cascata, Serket, Fossil Trace): Configuration has NO `apiKey`. These require a short-lived Bearer token obtained from `POST /identityapi/myconnect/token/short` with form body `client_id=onlinereswebshortlived`. Returns a JWT valid for 10 minutes. The fetcher gets a fresh token each cycle.
-
-The fetcher dynamically detects which mode to use: it fetches Configuration first, and if no `apiKey` is present, it obtains a bearer token. It also dynamically fetches `courseIds` from OnlineCourses when not specified in config. This means `apiKey` and `courseIds` can both be empty in the JSON config — the fetcher will figure it out at runtime.
-
-**CPS Golf discovery limitation**: subdomain patterns are unpredictable. Cascata lives at `caspublic.cps.golf`, not `cascata.cps.golf`. The discovery script's slug probe won't find these — they require manual HAR capture (Phase 3).
-
-The booking URL is `https://{slug}.cps.golf/onlineresweb/search-teetime` and supports date pre-fill via `?Date={YYYY-MM-DD}`.
-
-**Quick18** — Subdomain-based: `{subdomain}.quick18.com/teetimes/searchmatrix?teedate={YYYYMMDD}`. Generates 8-12 subdomain candidates per course (joined alpha, hyphenated, with/without suffixes). State validation parses the page HTML for address patterns like `, AZ 85XXX` since there's no structured state field in the response. This is critical — without it, generic subdomains like `stonecreek` match courses in Oregon. Dead subdomain caching avoids re-probing known-bad subdomains. During Las Vegas ingestion, added `" - "` variant slug pattern that uses just the base facility name (e.g. "Angel Park" from "Angel Park - Palm Course") — important for multi-course facilities where the subdomain is the club name, not the course name.
-
-**GolfWithAccess (Troon)** — Troon's booking platform (largest golf management company, 900+ courses worldwide). Centralized at `golfwithaccess.com/course/{slug}/reserve-tee-time`. Page HTML contains React Server Components data with courseId UUID, city, and state (full name like "Arizona" → converted to "AZ"). Tee times at `/api/v1/tee-times?courseIds={uuid}&players=1&startAt=00:00:00&endAt=23:59:59&day={date}`. High value for resort/sunbelt markets where Troon is heavily concentrated. Generates slug candidates with suffix swaps and "the-" prefix.
-
-**CourseCo** — Uses `{subdomain}.totaleintegrated.net`. Subdomains are the course name joined without separators (e.g. `kenmcdonald`). CourseID is the uppercase of the subdomain. API at `courseco-gateway.totaleintegrated.net/Booking/Teetimes?CourseID={ID}&TeeTimeDate={date}`. Only 1 known course so far (Ken McDonald) — **need more examples before the discovery script is reliable**.
-
-**Denver (MemberSports)** — The API returns raw names like "Kennedy Links". The `normalizeDenverName()` function in `denver.go` converts known multi-course prefixes to the " - " convention (e.g. "Kennedy Links" → "Kennedy - Links").
-
-**PurposeGolf** — Simple REST API at `booking.purposegolf.com`. `GET /api/courses/{courseId}/teeTimes` returns a full week of JSON with no auth. Requires `X-Requested-With: XMLHttpRequest` header. Date filtering is client-side (API returns all dates, fetcher filters by target date). Prices are in cents (divide by 100). Only known at Sherrill Park (Richardson, TX) — 2 courses on a single site.
-
-**TeeQuest** — Server-rendered HTML booking system at `teetimes.teequest.com`. POST form submission returns full HTML page with tee times. A single site (identified by numeric `siteId`) can host multiple courses via `courseTag` (e.g. `57-1`, `57-2`). Needs a cookie jar for session. Parse HTML with regex — times in `<span class="time-only">`, prices in `<span class="rate">`, openings counted from `book-button book-N available` class elements. Slots with only `unavailable` buttons are skipped.
-
-**ResortSuite** — SOAP/XML API used by Omni Hotels. Endpoint at `{baseUrl}/wso2wsas/services/RSWS?action=FetchGolfTeeSheet`. POST body is SOAP XML with course ID and date. Response contains `<TeeTime>` elements with `<Time>`, `<SlotsAvailable>`, and nested `<Rates>` with per-item pricing. Public guest rate identified by `<ItemName>` containing "Public". Requires a session cookie (hit base URL first). `WebFolioId=0` works without authentication. Only known at PGA Frisco (Omni resort, Fields Ranch East/West). Prices are high ($263-$350) — resort course.
-
-**Prophet Services** — **DISABLED.** Uses AWS WAF with JavaScript challenges. Two servers: `secure.west.prophetservices.com` (Keeton Park, Luna Vista) and `secure.east.prophetservices.com` (Meadowbrook, Rockwood, Pecan Valley Hills/River). API at `/OnlineTeeTimes/api/TeeTime/GetTeeTimes`. WAF intermittently returns HTTP 202 with JS challenge payload that requires browser execution. Go HTTP client cannot solve these challenges. See Dallas Discovery Results for full diagnosis.
-
-## Phoenix Discovery Results (Feb 2026)
-
-First full metro discovery run. 92 input courses, 62 confirmed across 9 platforms:
-
-| Platform | Confirmed | Listed Only | Wrong State | Misses | New Courses Added |
-|----------|-----------|-------------|-------------|--------|-------------------|
-| TeeItUp | 41 | 24 | 0 | 29 | 41 |
-| GolfWithAccess | 12 | 1 | 0 | 79 | 3 (10 overlapped TeeItUp) |
-| Chronogolf | 2 | 57 | 11 | 22 | 2 |
-| ForeUP | 5 | 16 | 0 | 70 | 1 (4 overlapped TeeItUp) |
-| Quick18 | 9 | 5 | 2 | 76 | 8 (1 overlapped TeeItUp) |
-| CourseCo | 1 | — | — | — | 1 (manual HAR) |
-| RGuest | 4 | — | — | — | 4 (manual HAR) |
-| TeeSnap | 1 | — | — | — | 1 (manual HAR) |
-| ClubCaddie | pending | — | — | — | — |
-
-Key takeaways:
-- **TeeItUp dominates Phoenix** — 41 of 62 courses (66%), should always run first
-- GolfWithAccess (Troon) found 12 but 10 overlapped TeeItUp — still added 3 new courses
-- Chronogolf has massive directory coverage but almost no active booking (2 of 57 listed)
-- ForeUP confirmed 5 but 3 were already on TeeItUp and 1 was wrong city — only 1 genuinely new
-- Quick18 found 8 new courses that no other platform had
-- Manual HAR capture filled 6 more courses across CourseCo, RGuest, and TeeSnap
-- State validation prevented 13 wrong-state false positives across all scripts
-- Cross-platform dedup prevented 15+ duplicate entries
-- **GolfNow intentionally skipped** — most GolfNow courses already found via TeeItUp
-- TeeItUp discovery script improved during Phoenix run: added "the-" prefix generation (caught The Legacy) and city-stripping (caught Scottsdale Silverado)
-
-### Phoenix Phase 4/5: GolfNow Discovery & Platform Swap
-
-GolfNow area search found 133 unique facilities across 7 days. 54 already added via direct platforms, 7 excluded (non-golf: Putting World, Grass Clippings, Little Oasis, Stripe Show, Aguila 9 duplicate, Desert Mirage practice range, Junior National). 72 courses added to `golfnow.json`.
-
-After adding, 22 courses were swapped from GolfNow to direct platforms:
-- **18 → TeeItUp**: Ahwatukee, AZ Traditions, Bellair, Cimarron, Corte Bella, Desert Sands, Desert Springs, Golden Hills, Mountain Shadows, Oakwood, Peoria Pines, San Tan Highlands, Sun City CC, Sunbird, Sunland Village, Lakes at Ahwatukee, Granite Falls North, Granite Falls South, Starfire 18 + Mulligan 9, The Duke
-- **3 → Quick18**: Gold Canyon, Palmbrook, Union Hills
-- **1 → GolfWithAccess**: Copper Canyon
-- **1 updated**: Kierland (already in GolfWithAccess, added 2 missing courseIds)
-- **2 removed**: Arizona Biltmore Links/Estates (duplicates of existing Chronogolf entries)
-
-Final GolfNow-only count for Phoenix: ~50 courses (mostly Sun City retirement community courses and smaller facilities).
-
-## Las Vegas Discovery Results (Feb 2026)
-
-42 input courses, 4 confirmed across 3 platforms (most Las Vegas courses are GolfNow-only):
-
-| Platform | Confirmed | Notes |
-|----------|-----------|-------|
-| TeeItUp | 1 | Boulder City Golf Course (manual HAR — discovery script missed it due to Kenna API probe gap) |
-| Quick18 | 1 | Angel Park (manual HAR — multi-course with Palm/Mountain, uses `" - "` variant slug) |
-| CPS Golf | 2 | Cascata + Serket on caspublic.cps.golf (manual HAR — subdomain not guessable) |
-
-Key takeaways:
-- **Las Vegas is heavily GolfNow** — most courses only book through GolfNow, which we intentionally skip
-- **CPS Golf auth fix was the big win** — the bearer token discovery (`/myconnect/token/short`) fixed all 5 CPS Golf courses across both Denver and Las Vegas
-- **CPS Golf subdomains are unpredictable** — Cascata/Serket live at `caspublic.cps.golf`, not `cascata.cps.golf`. Discovery scripts can't find these; manual HAR is required.
-- **Multi-course CPS Golf sites** need separate JSON entries per course with specific `courseIds` values (e.g. Cascata=4, Serket=5) but shared `baseUrl`, `websiteId`, and `siteId`
-- **TeeItUp discovery misses** can be diagnosed with the `exactStatus` field in miss results (added during this metro). Boulder City was missed because the Kenna API probe returned no facility for its slug.
-- **Quick18 discovery** improved with `" - "` variant slug pattern (base facility name without course suffix)
-
-## Atlanta Discovery Results (Feb 2026)
-
-52 input courses, 39 confirmed across 6 platforms:
-
-| Platform | Confirmed | Listed Only | Wrong State | Misses | New Courses Added |
-|----------|-----------|-------------|-------------|--------|-------------------|
-| TeeItUp | 21 (auto) + 7 (HAR) | 3 | 0 | 28 | 28 |
-| ForeUP | 3 (auto) + 2 (HAR) | 3 | 0 | — | 5 |
-| GolfWithAccess | 1 | 0 | 0 | — | 1 |
-| Chronogolf | 1 | 25 | 8 | — | 1 |
-| ClubCaddie | 1 (HAR) | — | — | — | 1 |
-| CPS Golf | 0 | 2 | 0 | — | 0 |
-
-13 courses remain unmatched (likely private, phone-only, or on unsupported platforms).
-
-Key takeaways:
-- **TeeItUp Phase 2 discovery found only 21 of 28 TeeItUp courses** — 7 required manual HAR capture. Discovery script improvements made during this metro (see below) should help future metros.
-- **ForeUP requires `bookingClass` and `scheduleId`** — omitting these causes the API to return an error object instead of a tee time array, triggering `json: cannot unmarshal object into Go value of type []platforms.ForeUpTeeTime`. Always extract these from the HAR.
-- **ClubCaddie `courseId` comes from the POST body, NOT the logo URL** — the logo URL contains a different ID (facility ID). The correct courseId is in the `CourseId` field of the `POST /webapi/TeeTimes` request body.
-- **ClubCaddie `player=` parameter affects openings accuracy** — using `player=4` causes the API to return different `PlayersAvailable` values than what the booking site shows with `player=1`. Fixed `clubcaddie.go` to use `player=1`.
-- **Chronogolf directory is even less useful outside Phoenix** — 25 listed_only vs 1 confirmed. Pattern holds: massive directory, almost no active booking.
-
-### TeeItUp alias patterns discovered during Atlanta
-
-These patterns caused discovery script misses and were found via manual HAR capture:
-
-| Course | Actual Alias | Why Missed | Script Fix |
-|--------|-------------|-----------|------------|
-| Bear's Best Atlanta | `bears-best` | City name "Atlanta" in course name but not in alias | Added `strip-city-suffix` + `trim-trailing` patterns |
-| Stone Mountain Golf Club | `stone-mountain` | Kenna API returned 404 despite valid booking site | Added booking site HTML fallback |
-| North Fulton Golf Course | `chastain-park` | Completely different name (local nickname) | Unfixable — HAR only |
-| The Frog Golf Club | `frog-at-the-georgian` | Alias references resort name, not course name | Unfixable — HAR only |
-| Cobblestone Golf Course | `cobblestone-golf-course-3` | Numeric disambiguator suffix | Unfixable — HAR only |
-| College Park Golf Course | UUID alias (`c70350ae-...`) | `book-v2.teeitup.golf` with UUID subdomain | Unfixable — HAR only |
-| Fox Creek Golf Club | `fox-creek-golf-club-ga` | State code suffix `-ga` | Not yet added to script (should add `exact-{state}` candidates) |
-| John A White Golf Course | `john-a-white-park-golf-course` | "Park" in alias but not course name | Unfixable — HAR only |
-| Hampton Golf Club | `hampton-golf-village` | "golf-village" suffix not in swap list | Not yet added to script (should add to suffix list) |
-| Sugar Hill Golf Club | `sugar-hill-golf-club` | Should have been found — likely transient Kenna API failure | N/A |
-
-### TeeItUp discovery script improvements made during Atlanta
-
-1. **Booking site HTML fallback** — after all Kenna API probes fail, tries `{alias}.book.teeitup.com` directly. Catches cases where Kenna API has coverage gaps (e.g. Stone Mountain).
-2. **`strip-city-suffix` pattern** — strips city name from end of core name (e.g. "Bear's Best Atlanta" with city "Suwanee" → tries `bears-best-atlanta` minus `atlanta`). Only fires when city is provided and matches a trailing word.
-3. **`trim-trailing` pattern** — removes the last slug segment from core name (e.g. `bears-best-atlanta` → `bears-best`). Catches geographic qualifiers that aren't the input city.
-
-### TeeItUp improvements NOT yet made (candidates for future)
-
-- **State code suffix** — add `{exact}-{state}` and `{core}-{suffix}-{state}` candidates (would catch `fox-creek-golf-club-ga`)
-- **`golf-village` suffix** — add to suffix swap list (would catch `hampton-golf-village`)
-- **`book.teeitup.golf` domain** — booking site fallback currently only tries `.com`, should also try `.golf`
-
-## Dallas Discovery Results (Feb 2026)
-
-All manual HAR capture (Phase 3 only — no automated discovery run). 43 courses confirmed across 10 platforms:
-
-| Platform | Courses | Notes |
-|----------|---------|-------|
-| TeeItUp | 10 | Firewheel, Duck Creek, Pecan Hollow, Tangle Ridge, Waterview, Waterchase, Champions Circle, Irving, Mesquite, Waxahachie, Tour 18 |
-| Chronogolf | 6 | Bridlewood, Buffalo Creek, Frisco Lakes, Iron Horse, Sky Creek Ranch, Woodbridge |
-| CPS Golf | 9 | Stevens Park, Cedar Crest (Dallas), Golf Club of Dallas, Tenison Glen, Tenison Highlands, Lake Arlington, Meadowbrook Park, Texas Rangers, Cedar Crest (Cedar Hill) |
-| ForeUP | 3 | Grapevine, Hawks Creek, Watters Creek |
-| CourseCo | 1 | Riverside |
-| GolfWithAccess | 1 | Heritage Ranch |
-| ClubCaddie | 1 | (from prior metros) |
-| PurposeGolf | 2 | Sherrill Park #1, Sherrill Park #2 |
-| TeeQuest | 2 | Indian Creek - Creek, Indian Creek - Lakes |
-| ResortSuite | 2 | Fields Ranch East, Fields Ranch West |
-| Prophet | 6 | **DISABLED** — Keeton Park, Luna Vista, Meadowbrook, Rockwood, Pecan Valley Hills, Pecan Valley River |
-
-Key takeaways:
-
-### Three new platforms discovered
-
-**PurposeGolf** (`booking.purposegolf.com`) — Simple REST API. `GET /api/courses/{courseId}/teeTimes` returns a full week of tee times as JSON. No auth required, just `X-Requested-With: XMLHttpRequest` header. Date filtering is client-side. Course IDs are integers in the URL path, slug is in the Referer. Only seen at Sherrill Park so far (2 courses).
-
-**TeeQuest** (`teetimes.teequest.com`) — Server-rendered HTML via POST form. POST to `/{siteId}?paymentTab=pay-at-course` with form fields `Search.CourseTag`, `Search.Date` (format `M/D/YYYY 12:00:00 AM`), `Search.Time=Anytime`, `Search.Players=0`. Response is full HTML — parse tee times from `<span class="time-only">`, prices from `<span class="rate">`, and openings by counting `book-button book-N available` elements. A single site can have multiple courses (e.g. Indian Creek has Creek=`57-1`, Lakes=`57-2`, Range=`57-10`). Needs a cookie jar for the session.
-
-**ResortSuite** (`omnipgafriscoexperiences.com`) — SOAP/XML API used by Omni Hotels. Endpoint is `/wso2wsas/services/RSWS?action=FetchGolfTeeSheet`. POST body is SOAP XML with `<CourseId>`, `<Date>`, and `<WebFolioId>` (can use `0` without auth). Response XML has `<TeeTime>` elements with `<Time>`, `<SlotsAvailable>`, and `<Rates>` containing per-item `<Price>` values. Public guest rate identified by `<ItemName>` containing "Public". Requires a session cookie obtained by first hitting the base URL. Only seen at PGA Frisco (Fields Ranch East/West) so far.
-
-### Prophet Services — AWS WAF challenge (DISABLED)
-
-Prophet Services uses AWS WAF with JavaScript challenges that cannot be solved by a Go HTTP client. The WAF intermittently returns HTTP 202 with a JS payload (`window.gokuProps`) that requires browser execution (DOM, canvas, WebGL fingerprinting) to generate an `aws-waf-token` cookie. Without this cookie, subsequent requests are blocked.
-
-**Diagnosis path**: Initially appeared to be rate limiting (first ~12 requests succeed, then 202s). Added 3-second rate limiter between requests — didn't help. Key insight: the browser works because it has a cached `aws-waf-token` cookie from a previous JS challenge solution. The WAF is not rate-based — it's challenge-based with probabilistic enforcement.
-
-**Why Go can't solve it**: The 202 response body contains an encrypted challenge in `window.gokuProps`. A browser-based JS SDK performs environment checks and computes a token. Go's `net/http` has no JS execution capability. Would need a headless browser (chromedp) to solve the challenge and extract the cookie.
-
-**Current status**: Prophet courses are configured in `prophet.json` but the handler dispatch and MetroStats counting are commented out. An in-memory cache was implemented (successful fetches cached per course+date, returned on subsequent WAF blocks) but coverage is incomplete. To re-enable, uncomment the Prophet blocks in `handlers.go` and `data.go` MetroStats, or implement headless browser token extraction.
-
-**Affected courses**: Keeton Park, Luna Vista (west server), Meadowbrook, Rockwood Park, Pecan Valley Hills, Pecan Valley River (east server). Two servers: `secure.west.prophetservices.com` and `secure.east.prophetservices.com`.
-
-### CPS Golf multi-site pattern
-
-Dallas has two separate CPS Golf deployments with different base URLs and configurations:
-- `dallas.cps.golf` — 5 Dallas municipal courses (Stevens Park, Cedar Crest Dallas, Golf Club of Dallas, Tenison Glen, Tenison Highlands). Has `apiKey` in config.
-- `arlington.cps.golf` — 3 Arlington courses (Lake Arlington, Meadowbrook Park, Texas Rangers). Has `apiKey` in config.
-- `dallascedarcrest.cps.golf` — Cedar Crest Cedar Hill. No `apiKey` — uses bearer token flow.
-
-Each is a separate site with its own `websiteId`, `siteId`, and course numbering. The fetcher handles both auth modes automatically.
-
-### EZLinks courses skipped
-
-Several Dallas-area courses use EZLinks for booking. EZLinks has no known API discovery pattern and was not investigated during this metro. These courses remain unmatched and would need further reverse engineering or headless browser approaches.
-
-## HAR Capture Tips
-
-When doing Phase 3 manual gap-fill, proper HAR capture is critical:
-
-### Chrome sanitized vs unsanitized HARs
-
-Chrome's **Export HAR (sanitized)** button strips `Authorization`, `Cookie`, and other sensitive headers. This is usually fine for identifying platforms and URL patterns, but **will hide auth tokens** needed to understand authentication flows.
-
-**To get unsanitized HARs:**
-- **Firefox** (easiest): DevTools → Network → gear icon → "Save All As HAR" — always unsanitized
-- **Chrome workaround**: Right-click a specific request → Copy → Copy as cURL — includes all headers including Authorization
-
-**When you need unsanitized:** Only when debugging auth failures (401s) where you need to see the actual Bearer token or cookie values. For normal platform identification, sanitized HARs work fine.
-
-### Incognito captures
-
-Always use **incognito/private browsing** for HAR captures to ensure a clean session with no cached tokens. This shows the complete auth flow from scratch.
-
-### Fetch/XHR filter
-
-If the full HAR is too large (common on marketing-heavy golf sites), use the **Fetch/XHR** filter in the Network tab before exporting. This strips out images, CSS, JS, and fonts, keeping only API calls.
-
-## Adding Courses to JSON
-
-### TeeItUp entry format
+### TeeItUp
 
 ```json
 {
@@ -477,42 +111,10 @@ If the full HAR is too large (common on marketing-heavy golf sites), use the **F
 }
 ```
 
-Fields from discovery results:
-- `key` — derived from display name per key rules above
-- `metro` — target metro slug
-- `alias` — from discovery results `alias` field (use shared alias when one exists)
-- `facilityId` — from discovery results `facility.id` (**must be a string**, not a number — e.g. `"287"` not `287`)
-- `displayName` — from discovery results `facility.name`, cleaned per rules above
-- `city` — from discovery results `facility.locality`
-- `state` — target state code
+- `alias` — from HAR URL: `{alias}.book.teeitup.com` or `{alias}.book-v2.teeitup.golf`
+- `facilityId` — string, from Kenna `/facilities` response or HAR `?fid=` param
 
-### Chronogolf entry format
-
-```json
-{
-  "key": "arizona-biltmore",
-  "metro": "phoenix",
-  "courseIds": "8e62fd78-03bf-4665-9a3a-cc0da2826ac7,768df054-3367-45b1-906c-24af39e410ad",
-  "clubId": "",
-  "numericCourseId": "",
-  "affiliationTypeId": "82990",
-  "bookingUrl": "https://www.chronogolf.com/club/arizona-biltmore-golf-club-arizona-phoenix",
-  "names": {
-    "Estates": "Arizona Biltmore - Estates",
-    "Links": "Arizona Biltmore - Links"
-  },
-  "city": "Phoenix",
-  "state": "AZ"
-}
-```
-
-Fields from discovery results:
-- `courseIds` — comma-separated UUIDs from `club.courses[].uuid`
-- `affiliationTypeId` — from `club.defaultAffiliationTypeId`
-- `bookingUrl` — `https://www.chronogolf.com/club/{slug}`
-- `names` — map of API course name → display name (use " - " convention for multi-course)
-
-### ForeUP entry format
+### ForeUP
 
 ```json
 {
@@ -528,14 +130,45 @@ Fields from discovery results:
 }
 ```
 
-Fields from discovery results:
-- `courseId` — from discovery results `courseId` field
-- `bookingClass` — from discovery results `bookingClassId` field (the active, non-third-party class)
-- `scheduleId` — from discovery results `scheduleId` field
-- `bookingUrl` — leave empty (URL is constructed at runtime)
-- `displayName` — from discovery results `name` field, cleaned per rules above
+- Extract `courseId`, `bookingClass` (`booking_class=`), and `scheduleId` (`schedule_id=`) from HAR tee-times API URL
+- `bookingUrl` — leave empty
 
-### Quick18 entry format
+### Chronogolf
+
+```json
+{
+  "key": "arizona-biltmore",
+  "metro": "phoenix",
+  "courseIds": "uuid1,uuid2",
+  "clubId": "",
+  "numericCourseId": "",
+  "affiliationTypeId": "82990",
+  "bookingUrl": "https://www.chronogolf.com/club/{slug}",
+  "names": { "Estates": "Arizona Biltmore - Estates" },
+  "city": "Phoenix",
+  "state": "AZ"
+}
+```
+
+- Extract from `__NEXT_DATA__` in page HTML: `club.courses[].uuid`, `club.defaultAffiliationTypeId`, `club.slug`
+- `names` maps API course name → display name
+
+### GolfWithAccess (Troon)
+
+```json
+{
+  "key": "quintero",
+  "metro": "phoenix",
+  "courseIds": ["uuid"],
+  "slug": "quintero-golf-club",
+  "bookingUrl": "https://golfwithaccess.com/course/{slug}/reserve-tee-time",
+  "displayName": "Quintero Golf Club",
+  "city": "Peoria",
+  "state": "AZ"
+}
+```
+
+### Quick18
 
 ```json
 {
@@ -549,13 +182,48 @@ Fields from discovery results:
 }
 ```
 
-Fields from discovery results:
-- `subdomain` — the confirmed Quick18 subdomain
-- `bookingUrl` — `https://{subdomain}.quick18.com`
-- `displayName` — input course name (already clean if course list was curated)
-- Optional fields: `domain` (if non-standard), `namePrefix` (for multi-course), `holes` (if fixed)
+### CPS Golf
 
-### ClubCaddie entry format
+```json
+{
+  "key": "indian-tree",
+  "metro": "denver",
+  "baseUrl": "https://indiantree.cps.golf",
+  "apiKey": "",
+  "websiteId": "e6d9cd59-...",
+  "siteId": "1",
+  "courseIds": "",
+  "bookingUrl": "https://indiantree.cps.golf/onlineresweb/search-teetime",
+  "names": { "Regulation 18": "Indian Tree Golf Club" },
+  "city": "Arvada",
+  "state": "CO",
+  "timezone": "America/Denver"
+}
+```
+
+- `apiKey` and `courseIds` can be empty — fetcher auto-detects at runtime
+- Has two auth modes (apiKey or bearer token) — fetcher handles both
+- **Legacy V3 interface** (`e.cps.golf/{Name}V3/`) uses server-rendered HTML — NOT supported, skip these
+
+### CourseRev
+
+```json
+{
+  "key": "highland-creek",
+  "metro": "charlotte",
+  "subDomain": "highlandcreekgolfclub",
+  "courseId": 1,
+  "bookingUrl": "https://highlandcreekgolfclub.bookings.courserev.ai/tee-times",
+  "displayName": "Highland Creek Golf Club",
+  "city": "Charlotte",
+  "state": "NC"
+}
+```
+
+- Extract from `course/mco/details` POST response: `golfCourses[].id`, `groupName`
+- `subDomain` from URL: `{subDomain}.bookings.courserev.ai`
+
+### ClubCaddie
 
 ```json
 {
@@ -571,84 +239,9 @@ Fields from discovery results:
 }
 ```
 
-Fields from discovery results:
-- `baseUrl` — `https://apimanager-cc{server}.clubcaddie.com`
-- `apiKey` — from discovery results `apiKey` field
-- `courseId` — from discovery results `courseId` field (extracted from slots page, as string)
-- `bookingUrl` — `https://apimanager-cc{server}.clubcaddie.com/webapi/view/{apiKey}`
+- `courseId` from POST body of `/webapi/TeeTimes` (NOT the logo URL)
 
-### CPS Golf entry format
-
-```json
-{
-  "key": "indian-tree",
-  "metro": "denver",
-  "baseUrl": "https://indiantree.cps.golf",
-  "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
-  "websiteId": "e6d9cd59-8d46-4334-8601-08dad3012d25",
-  "siteId": "1",
-  "courseIds": "",
-  "bookingUrl": "https://indiantree.cps.golf/onlineresweb/search-teetime",
-  "names": {
-    "Regulation 18": "Indian Tree Golf Club"
-  },
-  "city": "Arvada",
-  "state": "CO",
-  "timezone": "America/Denver"
-}
-```
-
-Fields from discovery results or HAR:
-- `baseUrl` — `https://{slug}.cps.golf` (NOTE: slug may not match course name — e.g. Cascata is at `caspublic.cps.golf`)
-- `apiKey` — from Configuration response `.apiKey`. **Can be empty** — newer sites have no apiKey and use bearer token auth instead (fetcher handles this automatically)
-- `websiteId` — from OnlineCourses response `[0].websiteId`
-- `siteId` — always `"1"` (site-level ID, NOT the course-level siteId from OnlineCourses)
-- `courseIds` — specific courseId int to fetch, or **empty string** to auto-detect from OnlineCourses at runtime. Use specific IDs when a site hosts multiple courses and you want one entry per course (e.g. Cascata=4, Serket=5 on caspublic.cps.golf)
-- `bookingUrl` — `https://{slug}.cps.golf/onlineresweb/search-teetime` (date appended automatically as `?Date=YYYY-MM-DD`)
-- `names` — map CPS course name → display name (e.g. "Regulation 18" → "Indian Tree Golf Club")
-- `timezone` — from OnlineCourses response `[0].timezoneId`. Used as `x-timezoneid` header (should match user's timezone, not course location — but America/Denver works for all current sites)
-
-### GolfWithAccess (Troon) entry format
-
-```json
-{
-  "key": "quintero",
-  "metro": "phoenix",
-  "courseIds": ["416b2e7c-83c1-498c-8958-2422033218c2"],
-  "slug": "quintero-golf-club",
-  "bookingUrl": "https://golfwithaccess.com/course/quintero-golf-club/reserve-tee-time",
-  "displayName": "Quintero Golf Club",
-  "city": "Peoria",
-  "state": "AZ"
-}
-```
-
-Fields from discovery results or HAR:
-- `courseIds` — array of UUID(s) from page HTML RSC data
-- `slug` — the confirmed URL slug (may differ from input name, e.g. `the-westin-kierland-golf-club`)
-- `bookingUrl` — `https://golfwithaccess.com/course/{slug}/reserve-tee-time`
-
-### CourseCo entry format
-
-```json
-{
-  "key": "ken-mcdonald",
-  "metro": "phoenix",
-  "subdomain": "kenmcdonald",
-  "courseId": "KENMCDONALD",
-  "bookingUrl": "https://kenmcdonald.totaleintegrated.net",
-  "displayName": "Ken McDonald Golf Course",
-  "city": "Tempe",
-  "state": "AZ"
-}
-```
-
-Fields from HAR:
-- `subdomain` — the subdomain on `totaleintegrated.net`
-- `courseId` — uppercase of subdomain (confirmed pattern from 1 example)
-- `bookingUrl` — `https://{subdomain}.totaleintegrated.net`
-
-### RGuest entry format
+### RGuest
 
 ```json
 {
@@ -665,14 +258,7 @@ Fields from HAR:
 }
 ```
 
-Fields from HAR (no discovery script — manual only):
-- `tenantId` — numeric tenant ID from RGuest URL
-- `propertyId` — property slug from RGuest URL
-- `courseId` — from `getAvailableCourses` API response
-- `playerTypeId` — from `getAvailableTeeSlots` response (use public/online rate type)
-- `bookingUrl` — `https://book.rguest.com/onecart/golf/courses/{tenantId}/{propertyId}`
-
-### TeeSnap entry format
+### TeeSnap
 
 ```json
 {
@@ -687,16 +273,11 @@ Fields from HAR (no discovery script — manual only):
 }
 ```
 
-Fields from HAR (no discovery script yet — need more examples):
-- `subdomain` — the subdomain on `teesnap.net`
-- `courseId` — from `customer-api/teetimes-day?course={id}` URL
-- `bookingUrl` — `https://{subdomain}.teesnap.net`
-
-### GolfNow entry format
+### GolfNow
 
 ```json
 {
-  "key": "apache-creek-golf-club",
+  "key": "apache-creek",
   "metro": "phoenix",
   "facilityId": 1440,
   "searchUrl": "https://www.golfnow.com/tee-times/facility/1440/search",
@@ -707,14 +288,10 @@ Fields from HAR (no discovery script yet — need more examples):
 }
 ```
 
-Fields from GolfNow discovery script output:
-- `facilityId` — integer facility ID from GolfNow area search results
-- `searchUrl` — `https://www.golfnow.com/tee-times/facility/{facilityId}/search`
-- `bookingUrl` — same as `searchUrl`
-- `displayName` — cleaned name using standard naming rules; multi-course facilities use `" - "` convention
-- The frontend shows "Book via GolfNow" instead of "Book" for any course with `golfnow.com` in the bookingUrl
+- `facilityId` is an integer (not string)
+- Frontend shows "Book via GolfNow" for courses with `golfnow.com` in bookingUrl
 
-### PurposeGolf entry format
+### PurposeGolf
 
 ```json
 {
@@ -729,12 +306,7 @@ Fields from GolfNow discovery script output:
 }
 ```
 
-Fields from HAR:
-- `courseId` — integer from the API URL `/api/courses/{courseId}/teeTimes`
-- `slug` — the CamelCase course slug from the page URL (e.g. `SherrillParkCourse1`)
-- `bookingUrl` — `https://booking.purposegolf.com/courses/{slug}/{courseId}/teetimes`
-
-### TeeQuest entry format
+### TeeQuest
 
 ```json
 {
@@ -749,12 +321,7 @@ Fields from HAR:
 }
 ```
 
-Fields from HAR:
-- `siteId` — the facility number in the URL (e.g. `57`)
-- `courseTag` — from the `<option value="">` dropdown in the HTML (e.g. `57-1` for Creek, `57-2` for Lakes)
-- `bookingUrl` — `https://teetimes.teequest.com/{siteId}?paymentTab=pay-at-course`
-
-### ResortSuite entry format
+### ResortSuite
 
 ```json
 {
@@ -769,184 +336,121 @@ Fields from HAR:
 }
 ```
 
-Fields from HAR (SOAP/XML API):
-- `baseUrl` — the ResortSuite host (e.g. `https://omnipgafriscoexperiences.com`)
-- `courseId` — from the `<CourseId>` element in the `FetchGolfTeeSheet` POST body (zero-padded, e.g. `"001"`, `"002"`)
-- `bookingUrl` — same as `baseUrl` (the booking widget is embedded on the main page)
-- Course list available via `FetchGolfCourses` SOAP action
+---
 
-## Phase 3: Manual Gap Fill
+## Instructions for AI Assistants
 
-After automated discovery, compare the master list against what was found. For each missing course:
+### Efficient Append Pattern
 
-1. Visit the course's booking page in a browser
-2. Capture a HAR file of the tee time loading request
-3. Give Claude the HAR — Claude identifies the platform and extracts the config
-4. Claude adds the course to the appropriate `platforms/data/*.json`
+As JSON data files grow, avoid reading entire files when adding entries:
 
-This catches:
-- Courses with non-obvious aliases/slugs/subdomains
-- Courses on platforms without discovery scripts (ClubCaddie, RGuest, etc.)
-- Private/semi-private courses with unusual booking configurations
+```python
+import json, os
 
-**Input:** HAR files for each missing course
-**Output:** Remaining courses added to `platforms/data/*.json`
+entry = json.dumps(new_entry, indent=2)
+with open('platforms/data/foreup.json', 'rb+') as f:
+    f.seek(-2, os.SEEK_END)
+    f.write(b',\n  ' + entry.encode() + b'\n]')
+```
 
-## Phase 4: GolfNow Discovery
+**When starting a new chat session, do NOT read full JSON data files.** The HAR tells you the platform and all config fields. If unsure about schema, read only the first entry (`f.read(500)`). Discovery scripts handle deduplication.
 
-After Phases 1-3 are complete, run the GolfNow area search discovery script to find courses
-that are only bookable through GolfNow and weren't already added via a direct platform.
+### Cumulative Zip After Every Change
+
+After every course addition (or batch of additions), produce a fresh zip of the full project and present it to the user:
 
 ```bash
-go run discovery/golfnow-discover.go phoenix
+cd /home/claude/golf-teetimes && zip -r /mnt/user-data/outputs/golf-teetimes.zip . -x '.git/*' 'node_modules/*' '*.zip' > /dev/null 2>&1
 ```
 
-The script:
-1. Searches GolfNow's area search API using metro coordinates across 7 days
-2. Filters out simulator facilities (`isSimulator: true`)
-3. Fuzzy-matches results against all courses already in `platforms/data/*.json`
-4. Outputs a list of missing courses with GolfNow facility IDs
+This ensures the user always has a complete, up-to-date snapshot after each change.
 
-**When adding GolfNow courses:**
-- Exclude non-golf facilities (putting courses, entertainment venues, practice ranges, restaurants)
-- Consolidate multi-course facilities using the `" - "` naming convention (e.g. "TPC Scottsdale - Stadium Course", "TPC Scottsdale - Champions Course")
-- Use clean display names consistent with existing naming rules
+### User's Update Command
 
-**GolfNow courses show "Book via GolfNow" in the UI** instead of just "Book" — the frontend
-checks `bookingUrl` for `golfnow.com` and adjusts the button label.
+The user applies updates by extracting the zip into their local repo:
 
-Metro coordinates are defined in the script's `metroCoords` map (lat, lng, radius in miles).
-
-## Phase 5: GolfNow Platform Swap
-
-After GolfNow courses are added, manually check each one to see if it also books through
-a direct platform (TeeItUp, Quick18, GolfWithAccess, ForeUP, etc.). Direct platform
-integrations are always preferred over GolfNow — no middleman, cleaner data.
-
-**Process:**
-1. Visit the course's own website (not GolfNow)
-2. Find their "Book Tee Times" / "Reserve" link
-3. If it goes to a platform we support (TeeItUp, Quick18, GolfWithAccess, etc.):
-   - Capture a HAR of the booking page
-   - Provide the HAR to Claude
-   - Claude extracts platform config, adds course to the correct platform JSON, and removes it from `golfnow.json`
-4. If it only goes to GolfNow, the course stays in `golfnow.json`
-
-**Common patterns found during Phoenix Phase 5:**
-- Many courses use TeeItUp (`{alias}.book.teeitup.com` or `{alias}.book-v2.teeitup.golf`)
-- Some use Quick18 (`{subdomain}.quick18.com`)
-- Some use GolfWithAccess (`golfwithaccess.com/course/{slug}/reserve-tee-time`)
-- The swap involves adding to the new platform's JSON and removing from `golfnow.json`
-
-**Phoenix Phase 5 results:** 22 courses swapped from GolfNow to direct platforms:
-- 18 → TeeItUp
-- 3 → Quick18 (Gold Canyon, Palmbrook, Union Hills)
-- 2 → GolfWithAccess (Copper Canyon, Kierland updated with 3 courseIds)
-- 2 duplicate Biltmore entries removed (already in Chronogolf)
-
-### Platforms without discovery scripts (need HAR)
-
-These platforms require manual HAR capture — either because they have no guessable URL pattern, require authentication/session tokens to discover, or we don't have enough examples yet:
-
-| Platform | Why no discovery script |
-|----------|----------------------|
-| ClubCaddie | No central directory, API, or enumerable ID scheme. Server numbers and API keys are random. Only discoverable via HAR capture from the course's booking page. |
-| RGuest | Numeric tenant IDs not derivable from course names. Hotel/resort platform (Agilysys) — only a handful of golf courses per metro. Manual HAR is faster. |
-| TeeSnap | Subdomain-probeable (`{slug}.teesnap.net`) but only 1 known course so far. **Need more examples to validate patterns before building script.** |
-| CourseCo | Has a discovery script (`discover-courseco`) but only 1 known course. **Need more examples to validate patterns before relying on it.** |
-| MemberSports | Denver-specific so far, API known but no discovery script built |
-| EZLinks | No known discovery pattern |
-| CourseRev | No known discovery pattern |
-| PurposeGolf | Only 1 known site (Sherrill Park, Richardson TX). Simple REST API but no way to discover new sites without HAR. |
-| TeeQuest | Server-rendered HTML via POST. Site IDs are numeric and not derivable from course names. |
-| ResortSuite | SOAP/XML API used by Omni Hotels/resorts. Only 1 known site (PGA Frisco). Base URLs are resort-specific. |
-| Prophet | **DISABLED** — AWS WAF JavaScript challenge cannot be solved by Go HTTP client. Courses configured but not fetched. |
-| GolfNow | Discovery script built (`discovery/golfnow-discover.go`). Used in Phase 4 after direct platform discovery. Courses are then checked for direct platform swaps in Phase 5. |
-
-## Adding a Metro Entry
-
-Before running discovery, add the metro to `metros.go`:
-
-```go
-"phoenix": {
-    Name:    "Phoenix",
-    Slug:    "phoenix",
-    State:   "AZ",
-    Tagline: "Public Courses Across Metro Phoenix",
-},
+```bash
+unzip -o ~/Downloads/golf-teetimes.zip -d ~/golf-teetimes/
 ```
 
-Course count and city count are computed automatically from the JSON data at startup.
+The `-d` path **must** point to the repo root (`~/golf-teetimes/`), not `~/`.
 
-## Discovery Tools Status
+---
 
-| Platform | Tool | Status |
-|----------|------|--------|
-| TeeItUp | discover-teeitup | ✅ Built — multi-alias probe (15-22 candidates), sibling matching, fuzzyMatchWithCity, "the-" prefix, city-stripping. **Run first — establishes baseline.** Other platforms take precedence when overlaps found. |
-| GolfWithAccess | discover-golfwithaccess | ✅ Built — slug probe, RSC page extraction for courseId/city/state, suffix swaps, "the-" prefix |
-| Chronogolf | discover-chronogolf | ✅ Built — slug probe with name+state+city patterns, suffix swaps, __NEXT_DATA__ extraction |
-| ForeUP | discover-foreup | ✅ Built — two-phase index+match, third-party detection, 5-char fuzzy guard, course_id dedup |
-| ClubCaddie | — | No script — manual HAR capture only (no central directory or enumerable IDs) |
-| Quick18 | discover-quick18 | ✅ Built — subdomain probe (8-12 candidates), HTML state validation, dead subdomain caching |
-| CourseCo | discover-courseco | ⚠️ Built but unvalidated — only 1 known course. Need more examples to confirm patterns. |
-| TeeSnap | — | ⏳ Pending — subdomain-probeable but only 1 known course. Need more examples. |
-| RGuest | — | ❌ Not feasible — numeric tenant IDs, not guessable |
-| GolfNow | golfnow-discover | ✅ Built — area search API (7-day sweep), simulator filtering, fuzzy dedup against all platforms. **Run in Phase 4 after all direct platform discovery is complete.** Courses added via GolfNow should then be checked for direct platform availability (Phase 5). |
-| CPS Golf | discover-cpsgolf | ✅ Built — subdomain probe ({slug}.cps.golf/onlineresweb/Home/Configuration), OnlineCourses extraction, timezone state validation. **Limitation**: subdomains are unpredictable (e.g. `caspublic` for Cascata) — manual HAR needed for non-obvious slugs. Fetcher handles both apiKey and bearer token auth automatically. |
-| MemberSports | — | ❌ API known from Denver, script not built |
-| Prophet | — | ❌ **DISABLED** — AWS WAF JavaScript challenge blocks Go HTTP client. Would need headless browser. |
-| PurposeGolf | — | ❌ Only 1 known site (Sherrill Park). Manual HAR only. |
-| TeeQuest | — | ❌ Server-rendered HTML, POST form. Manual HAR only. |
-| ResortSuite | — | ❌ SOAP/XML API (Omni Hotels). Manual HAR only. |
+## Platform Quick Reference
 
-## File Structure
+| Platform | Discovery Script | HAR Identification |
+|----------|-----------------|-------------------|
+| TeeItUp | `discover-teeitup` | `kenna.io` or `teeitup.golf`/`teeitup.com` in URLs |
+| ForeUP | `discover-foreup` | `foreupsoftware.com` in URLs |
+| Chronogolf | `discover-chronogolf` | `chronogolf.com` in URLs |
+| GolfWithAccess | `discover-golfwithaccess` | `golfwithaccess.com` in URLs |
+| Quick18 | `discover-quick18` | `quick18.com` in URLs |
+| CPS Golf | `discover-cpsgolf` | `cps.golf` in URLs (modern: `/onlineresweb/`, legacy V3: skip) |
+| CourseRev | None | `courserev.ai` in URLs |
+| ClubCaddie | None | `clubcaddie.com` in URLs |
+| RGuest | None | `rguest.com` in URLs |
+| TeeSnap | None | `teesnap.net` in URLs |
+| GolfNow | `golfnow-discover` (Phase 4) | `golfnow.com` in URLs |
+| PurposeGolf | None | `purposegolf.com` in URLs |
+| TeeQuest | None | `teequest.com` in URLs |
+| ResortSuite | None | SOAP/XML to `/wso2wsas/services/RSWS` |
+| CourseCo | `discover-courseco` | `totaleintegrated.net` in URLs |
+| Prophet | None (**DISABLED** — AWS WAF) | `prophetservices.com` in URLs |
 
-```
-cmd/
-├── discover-teeitup/
-│   └── main.go              # TeeItUp discovery — RUN FIRST (alias probe + sibling matching)
-├── discover-golfwithaccess/
-│   └── main.go              # GolfWithAccess/Troon discovery (slug probe + RSC extraction)
-├── discover-chronogolf/
-│   └── main.go              # Chronogolf discovery (slug probe + __NEXT_DATA__)
-├── discover-foreup/
-│   └── main.go              # ForeUP discovery (index build + fuzzy match)
-├── discover-quick18/
-│   └── main.go              # Quick18 discovery (subdomain probe)
-├── discover-courseco/
-│   └── main.go              # CourseCo discovery (subdomain probe — needs more examples)
-├── discover-cpsgolf/
-│   └── main.go              # CPS Golf discovery (subdomain probe + Configuration/OnlineCourses API)
-└── ...
+## HAR Capture Tips
 
-discovery/
-├── golfnow-discover.go  # Phase 4: GolfNow area search discovery script
-├── courses/
-│   ├── phoenix.txt          # Phase 1 course list (92 courses)
-│   ├── lasvegas.txt         # Phase 1 course list (42 courses)
-│   ├── atlanta.txt          # Phase 1 course list (52 courses)
-│   ├── denver.txt           # (TODO)
-│   └── ...
-├── foreup-index.json        # ForeUP master index (4188 courses, IDs 1-30000)
-└── results/                 # Auto-generated discovery results (gitignored)
+- Use **incognito** for clean sessions
+- **Fetch/XHR filter** in Network tab before export to reduce HAR size
+- Sanitized HARs are fine for platform identification; unsanitized needed only for auth debugging
 
-platforms/data/
-├── teeitup.json        # 41 courses (Phoenix) + 1 (Las Vegas) + 28 (Atlanta) + 10 (Dallas) = 113 total
-├── golfwithaccess.json # 3 courses (Phoenix) + 1 (Atlanta) + 2 (Las Vegas) + 1 (Dallas) = 7 total
-├── chronogolf.json     # 2 courses (Phoenix) + 1 (Atlanta) + 6 (Dallas) = 14 total
-├── foreup.json         # 1 course (Phoenix) + 5 (Atlanta) + 3 (Dallas) = 10 total
-├── quick18.json        # 8 courses (Phoenix) + 1 (Las Vegas)
-├── courseco.json       # 1 course (Phoenix) + 1 (Dallas)
-├── rguest.json         # 4 courses (Phoenix)
-├── teesnap.json        # 1 course (Phoenix)
-├── clubcaddie.json     # Denver courses + 1 (Atlanta)
-├── cpsgolf.json        # 3 courses (Denver) + 2 (Las Vegas) + 9 (Dallas) = 14 total
-├── prophet.json        # 6 courses (Dallas) — DISABLED (AWS WAF)
-├── purposegolf.json    # 2 courses (Dallas)
-├── teequest.json       # 2 courses (Dallas)
-├── resortsuite.json    # 2 courses (Dallas)
-├── golfnow.json        # Phase 4 GolfNow-only courses (6 Denver + 59 Phoenix after Phase 5 swaps)
-└── ...
-```
+---
 
-Each JSON file is an array of course configs. Every entry has `key`, `metro`, `city`, and `state` plus platform-specific fields. Adding a course is a single JSON entry — no other files need editing.
+## Historical Notes
+
+<details>
+<summary>Per-Metro Discovery Results (click to expand)</summary>
+
+### Phoenix (Feb 2026)
+92 input courses, 62 confirmed. TeeItUp dominated (41/62). Phase 4/5: 133 GolfNow facilities found, 72 added, 22 swapped to direct platforms.
+
+### Las Vegas (Feb 2026)
+42 input courses, 4 confirmed (mostly GolfNow-only market). CPS Golf bearer token auth discovered here.
+
+### Atlanta (Feb 2026)
+52 input courses, 39 confirmed across 6 platforms. TeeItUp found 21 auto + 7 HAR. Booking site HTML fallback added to TeeItUp discovery.
+
+### Dallas (Feb 2026)
+All manual HAR (Phase 3 only). 43 courses across 10 platforms. Three new platforms discovered: PurposeGolf, TeeQuest, ResortSuite. Prophet Services disabled due to AWS WAF.
+
+### Charlotte (Feb 2026)
+55 input courses, 39 confirmed across 8 platforms. CourseRev platform added (3 courses). CPS Golf legacy V3 identified as unsupported.
+
+</details>
+
+<details>
+<summary>TeeItUp Discovery Script Improvements</summary>
+
+- **Booking site HTML fallback** — tries `{alias}.book.teeitup.com` when Kenna API returns 404
+- **`strip-city-suffix`** — strips city from core name end
+- **`trim-trailing`** — removes last slug segment
+- **Candidates not yet added**: state code suffix (`{exact}-{state}`), `golf-village` suffix, `.golf` domain fallback
+
+</details>
+
+<details>
+<summary>Platform-Specific Technical Notes</summary>
+
+**TeeItUp**: Kenna Commerce API. Some courses use UUID aliases on `book-v2.teeitup.golf` (undiscoverable). Some have alternate names (e.g. "Chastain Park" for "North Fulton GC").
+
+**ForeUP**: Many courses use ForeUP as teesheet backend with another platform for consumer booking ("third_party_backend"). Always need `bookingClass` and `scheduleId` from HAR.
+
+**Chronogolf**: Massive directory (50+ listed_only per metro) but rarely active for booking (~2 per metro).
+
+**CPS Golf**: Two auth modes (apiKey or bearer token) — auto-detected. Subdomains are unpredictable. Legacy V3 interface (`e.cps.golf/`) not supported. Multi-course sites need separate entries with specific `courseIds`.
+
+**ClubCaddie**: No central directory. `courseId` from POST body, not logo URL. Use `player=1`.
+
+**Prophet**: DISABLED. AWS WAF JS challenge. Would need headless browser.
+
+</details>

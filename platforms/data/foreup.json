@@ -532,5 +532,137 @@
     "displayName": "Goat Hill Park Golf Club",
     "city": "Oceanside",
     "state": "CA"
+  },
+  {
+    "key": "eagle-chase",
+    "metro": "charlotte",
+    "courseId": "22972",
+    "bookingClass": "52004",
+    "scheduleId": "12497",
+    "bookingUrl": "",
+    "displayName": "Eagle Chase Golf Club",
+    "city": "Marshville",
+    "state": "NC"
+  },
+  {
+    "key": "glen-oaks",
+    "metro": "charlotte",
+    "courseId": "22153",
+    "bookingClass": "13954",
+    "scheduleId": "9978",
+    "bookingUrl": "",
+    "displayName": "Glen Oaks Golf Club",
+    "city": "Maiden",
+    "state": "NC"
+  },
+  {
+    "key": "kings-mountain",
+    "metro": "charlotte",
+    "courseId": "22529",
+    "bookingClass": "49735",
+    "scheduleId": "11079",
+    "bookingUrl": "",
+    "displayName": "Kings Mountain Country Club",
+    "city": "Kings Mountain",
+    "state": "NC"
+  },
+  {
+    "key": "mccanless",
+    "metro": "charlotte",
+    "courseId": "20554",
+    "bookingClass": "5193",
+    "scheduleId": "4834",
+    "bookingUrl": "",
+    "displayName": "McCanless Golf Club",
+    "city": "Salisbury",
+    "state": "NC"
+  },
+  {
+    "key": "red-bridge",
+    "metro": "charlotte",
+    "courseId": "21207",
+    "bookingClass": "9187",
+    "scheduleId": "7256",
+    "bookingUrl": "",
+    "displayName": "Red Bridge Golf Club",
+    "city": "Locust",
+    "state": "NC"
+  },
+  {
+    "key": "stonebridge",
+    "metro": "charlotte",
+    "courseId": "21195",
+    "bookingClass": "9020",
+    "scheduleId": "7223",
+    "bookingUrl": "",
+    "displayName": "Stonebridge Golf Club",
+    "city": "Monroe",
+    "state": "NC"
+  },
+  {
+    "key": "500-club",
+    "metro": "charlotte",
+    "courseId": "22678",
+    "bookingClass": "50433",
+    "scheduleId": "11602",
+    "bookingUrl": "",
+    "displayName": "The 500 Club",
+    "city": "Statesville",
+    "state": "NC"
+  },
+  {
+    "key": "chester",
+    "metro": "charlotte",
+    "courseId": "20822",
+    "bookingClass": "6535",
+    "scheduleId": "5727",
+    "bookingUrl": "",
+    "displayName": "Chester Golf Club",
+    "city": "Chester",
+    "state": "SC"
+  },
+  {
+    "key": "fort-mill",
+    "metro": "charlotte",
+    "courseId": "20823",
+    "bookingClass": "6535",
+    "scheduleId": "5727",
+    "bookingUrl": "",
+    "displayName": "Fort Mill Golf Club",
+    "city": "Fort Mill",
+    "state": "SC"
+  },
+  {
+    "key": "lancaster",
+    "metro": "charlotte",
+    "courseId": "20824",
+    "bookingClass": "6535",
+    "scheduleId": "5727",
+    "bookingUrl": "",
+    "displayName": "Lancaster Golf Club",
+    "city": "Lancaster",
+    "state": "SC"
+  },
+  {
+    "key": "springfield",
+    "metro": "charlotte",
+    "courseId": "20825",
+    "bookingClass": "6535",
+    "scheduleId": "5727",
+    "bookingUrl": "",
+    "displayName": "Springfield Golf Club",
+    "city": "Fort Mill",
+    "state": "SC"
+  },
+  {
+    "key": "warrior",
+    "metro": "charlotte",
+    "courseId": "18999",
+    "bookingClass": "10244",
+    "scheduleId": "795",
+    "bookingUrl": "",
+    "displayName": "Warrior Golf Club",
+    "city": "China Grove",
+    "state": "NC"
   }
 ]
