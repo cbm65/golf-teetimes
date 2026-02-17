@@ -90,6 +90,12 @@ var Metros = map[string]Metro{
 		State:   "CA",
 		Tagline: "Public Courses Across LA County",
 	},
+	"sandiego": {
+		Name:    "San Diego",
+		Slug:    "sandiego",
+		State:   "CA",
+		Tagline: "Year-Round Golf Across San Diego County",
+	},
 }
 
 func init() {

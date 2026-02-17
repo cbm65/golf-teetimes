@@ -179,5 +179,41 @@
     "city": "Pico Rivera",
     "state": "CA",
     "key": "pico-rivera-municipal-golf-course"
+  },
+  {
+    "key": "aviara",
+    "metro": "sandiego",
+    "courseIds": [
+      "b23c96d3-60c5-4d97-ab0d-301b3f1c37d4"
+    ],
+    "slug": "aviara-golf-club",
+    "bookingUrl": "https://golfwithaccess.com/course/aviara-golf-club/reserve-tee-time",
+    "displayName": "Aviara Golf Club",
+    "city": "Carlsbad",
+    "state": "CA"
+  },
+  {
+    "key": "maderas",
+    "metro": "sandiego",
+    "courseIds": [
+      "cc847540-36cc-4140-a97d-917bdc79ac4d"
+    ],
+    "slug": "maderas-golf-club",
+    "bookingUrl": "https://golfwithaccess.com/course/maderas-golf-club/reserve-tee-time",
+    "displayName": "Maderas Golf Club",
+    "city": "Poway",
+    "state": "CA"
+  },
+  {
+    "key": "native-oaks",
+    "metro": "sandiego",
+    "courseIds": [
+      "12137995-83ea-4d56-9242-c88f464abe19"
+    ],
+    "slug": "native-oaks-golf-club",
+    "bookingUrl": "https://golfwithaccess.com/course/native-oaks-golf-club/reserve-tee-time",
+    "displayName": "Native Oaks Golf Club",
+    "city": "Valley Center",
+    "state": "CA"
   }
 ]

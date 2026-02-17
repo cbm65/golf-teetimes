@@ -141,5 +141,27 @@
     "displayName": "Vista Valencia Golf Course",
     "city": "Valencia",
     "state": "CA"
+  },
+  {
+    "key": "rancho-carlsbad",
+    "metro": "sandiego",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "gjedabab",
+    "courseId": "103397",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/gjedabab/slots",
+    "displayName": "Rancho Carlsbad Golf Course",
+    "city": "Carlsbad",
+    "state": "CA"
+  },
+  {
+    "key": "chula-vista",
+    "metro": "sandiego",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "jbfdabab",
+    "courseId": "103420",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/jbfdabab/slots",
+    "displayName": "Chula Vista Golf Course",
+    "city": "Bonita",
+    "state": "CA"
   }
 ]

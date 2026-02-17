@@ -139,5 +139,33 @@
     "city": "Shawnee",
     "state": "OK",
     "timezone": "America/Chicago"
+  },
+  {
+    "key": "links-at-lakehouse",
+    "metro": "sandiego",
+    "baseUrl": "https://book.onagilysys.com",
+    "tenantId": "2500",
+    "propertyId": "thelakehouseresort",
+    "courseId": "619",
+    "playerTypeId": "2537",
+    "bookingUrl": "https://book.onagilysys.com/onecart/golf/courses/2500/thelakehouseresort",
+    "displayName": "The Links at Lakehouse",
+    "city": "San Marcos",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "exec-at-lakehouse",
+    "metro": "sandiego",
+    "baseUrl": "https://book.onagilysys.com",
+    "tenantId": "2500",
+    "propertyId": "thelakehouseresort",
+    "courseId": "620",
+    "playerTypeId": "2537",
+    "bookingUrl": "https://book.onagilysys.com/onecart/golf/courses/2500/thelakehouseresort",
+    "displayName": "The Executive at Lakehouse",
+    "city": "San Marcos",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
   }
 ]

@@ -1,0 +1,796 @@
+{
+  "confirmed": 0,
+  "elapsed": "18.516494459s",
+  "listedOnly": 1,
+  "missed": 63,
+  "platform": "courseco",
+  "results": [
+    {
+      "input": "Torrey Pines Golf Course - South",
+      "city": "La Jolla",
+      "status": "miss",
+      "slugsTried": [
+        "torreypinesgolfcoursesouth",
+        "torreypinesgolfcoursesouthgolf",
+        "torreypinesgolfcoursesouthgolfclub",
+        "torreypinesgolfcoursesouthgolfcourse",
+        "torreypinesgolfcoursesouthcc"
+      ]
+    },
+    {
+      "input": "Torrey Pines Golf Course - North",
+      "city": "La Jolla",
+      "status": "miss",
+      "slugsTried": [
+        "torreypinesgolfcoursenorth",
+        "torreypinesgolfcoursenorthgolf",
+        "torreypinesgolfcoursenorthgolfclub",
+        "torreypinesgolfcoursenorthgolfcourse",
+        "torreypinesgolfcoursenorthcc"
+      ]
+    },
+    {
+      "input": "Balboa Park Golf Course",
+      "city": "San Diego",
+      "status": "miss",
+      "slugsTried": [
+        "balboapark",
+        "balboaparkgolfcourse",
+        "balboaparkgolf",
+        "balboaparkgolfclub",
+        "balboaparkcc"
+      ]
+    },
+    {
+      "input": "Mission Bay Golf Course",
+      "city": "San Diego",
+      "status": "miss",
+      "slugsTried": [
+        "missionbay",
+        "missionbaygolfcourse",
+        "missionbaygolf",
+        "missionbaygolfclub",
+        "missionbaycc"
+      ]
+    },
+    {
+      "input": "Presidio Hills Golf Course",
+      "city": "San Diego",
+      "status": "miss",
+      "slugsTried": [
+        "presidiohills",
+        "presidiohillsgolfcourse",
+        "presidiohillsgolf",
+        "presidiohillsgolfclub",
+        "presidiohillscc"
+      ]
+    },
+    {
+      "input": "Colina Park Golf Course",
+      "city": "San Diego",
+      "status": "miss",
+      "slugsTried": [
+        "colinapark",
+        "colinaparkgolfcourse",
+        "colinaparkgolf",
+        "colinaparkgolfclub",
+        "colinaparkcc"
+      ]
+    },
+    {
+      "input": "The Loma Club",
+      "city": "San Diego",
+      "status": "miss",
+      "slugsTried": [
+        "lomaclub",
+        "thelomaclub",
+        "lomaclubgolf",
+        "lomaclubgolfclub",
+        "lomaclubgolfcourse",
+        "lomaclubcc"
+      ]
+    },
+    {
+      "input": "Tecolote Canyon Golf Course",
+      "city": "San Diego",
+      "status": "miss",
+      "slugsTried": [
+        "tecolotecanyon",
+        "tecolotecanyongolfcourse",
+        "tecolotecanyongolf",
+        "tecolotecanyongolfclub",
+        "tecolotecanyoncc"
+      ]
+    },
+    {
+      "input": "Riverwalk Golf Club",
+      "city": "San Diego",
+      "status": "miss",
+      "slugsTried": [
+        "riverwalk",
+        "riverwalkgolfclub",
+        "riverwalkgolf",
+        "riverwalkgolfcourse",
+        "riverwalkcc"
+      ]
+    },
+    {
+      "input": "Admiral Baker Golf Course",
+      "city": "San Diego",
+      "status": "miss",
+      "slugsTried": [
+        "admiralbaker",
+        "admiralbakergolfcourse",
+        "admiralbakergolf",
+        "admiralbakergolfclub",
+        "admiralbakercc"
+      ]
+    },
+    {
+      "input": "Mission Trails Golf Course",
+      "city": "San Diego",
+      "status": "miss",
+      "slugsTried": [
+        "missiontrails",
+        "missiontrailsgolfcourse",
+        "missiontrailsgolf",
+        "missiontrailsgolfclub",
+        "missiontrailscc"
+      ]
+    },
+    {
+      "input": "Oaks North Golf Course",
+      "city": "San Diego",
+      "status": "miss",
+      "slugsTried": [
+        "oaksnorth",
+        "oaksnorthgolfcourse",
+        "oaksnorthgolf",
+        "oaksnorthgolfclub",
+        "oaksnorthcc"
+      ]
+    },
+    {
+      "input": "Miramar Memorial Golf Course",
+      "city": "San Diego",
+      "status": "miss",
+      "slugsTried": [
+        "miramarmemorial",
+        "miramarmemorialgolfcourse",
+        "miramarmemorialgolf",
+        "miramarmemorialgolfclub",
+        "miramarmemorialcc"
+      ]
+    },
+    {
+      "input": "Carmel Mountain Ranch Golf Course",
+      "city": "San Diego",
+      "status": "miss",
+      "slugsTried": [
+        "carmelmountainranch",
+        "carmelmountainranchgolfcourse",
+        "carmelmountainranchgolf",
+        "carmelmountainranchgolfclub",
+        "carmelmountainranchcc"
+      ]
+    },
+    {
+      "input": "StoneRidge Country Club",
+      "city": "Poway",
+      "status": "miss",
+      "slugsTried": [
+        "stoneridge",
+        "stoneridgecountryclub",
+        "stoneridgegolf",
+        "stoneridgegolfclub",
+        "stoneridgegolfcourse",
+        "stoneridgecc"
+      ]
+    },
+    {
+      "input": "Coronado Golf Course",
+      "city": "Coronado",
+      "status": "miss",
+      "slugsTried": [
+        "coronado",
+        "coronadogolfcourse",
+        "coronadogolf",
+        "coronadogolfclub",
+        "coronadocc"
+      ]
+    },
+    {
+      "input": "The Crossings at Carlsbad",
+      "city": "Carlsbad",
+      "status": "miss",
+      "slugsTried": [
+        "crossingsatcarlsbad",
+        "thecrossingsatcarlsbad",
+        "crossingsatcarlsbadgolf",
+        "crossingsatcarlsbadgolfclub",
+        "crossingsatcarlsbadgolfcourse",
+        "crossingsatcarlsbadcc"
+      ]
+    },
+    {
+      "input": "Aviara Golf Club",
+      "city": "Carlsbad",
+      "status": "miss",
+      "slugsTried": [
+        "aviara",
+        "aviaragolfclub",
+        "aviaragolf",
+        "aviaragolfcourse",
+        "aviaracc"
+      ]
+    },
+    {
+      "input": "Omni La Costa Resort - North Course",
+      "city": "Carlsbad",
+      "status": "miss",
+      "slugsTried": [
+        "omnilacostaresortnorthcourse",
+        "omnilacostaresortnorthcoursegolf",
+        "omnilacostaresortnorthcoursegolfclub",
+        "omnilacostaresortnorthcoursegolfcourse",
+        "omnilacostaresortnorthcoursecc"
+      ]
+    },
+    {
+      "input": "Omni La Costa Resort - South Course",
+      "city": "Carlsbad",
+      "status": "miss",
+      "slugsTried": [
+        "omnilacostaresortsouthcourse",
+        "omnilacostaresortsouthcoursegolf",
+        "omnilacostaresortsouthcoursegolfclub",
+        "omnilacostaresortsouthcoursegolfcourse",
+        "omnilacostaresortsouthcoursecc"
+      ]
+    },
+    {
+      "input": "Rancho Carlsbad Golf Course",
+      "city": "Carlsbad",
+      "status": "miss",
+      "slugsTried": [
+        "ranchocarlsbad",
+        "ranchocarlsbadgolfcourse",
+        "ranchocarlsbadgolf",
+        "ranchocarlsbadgolfclub",
+        "ranchocarlsbadcc"
+      ]
+    },
+    {
+      "input": "Encinitas Ranch Golf Course",
+      "city": "Encinitas",
+      "status": "miss",
+      "slugsTried": [
+        "encinitasranch",
+        "encinitasranchgolfcourse",
+        "encinitasranchgolf",
+        "encinitasranchgolfclub",
+        "encinitasranchcc"
+      ]
+    },
+    {
+      "input": "Lomas Santa Fe Executive Golf Course",
+      "city": "Solana Beach",
+      "status": "miss",
+      "slugsTried": [
+        "lomassantafeexecutive",
+        "lomassantafeexecutivegolfcourse",
+        "lomassantafeexecutivegolf",
+        "lomassantafeexecutivegolfclub",
+        "lomassantafeexecutivecc"
+      ]
+    },
+    {
+      "input": "Goat Hill Park Golf Club",
+      "city": "Oceanside",
+      "status": "miss",
+      "slugsTried": [
+        "goathillpark",
+        "goathillparkgolfclub",
+        "goathillparkgolf",
+        "goathillparkgolfcourse",
+        "goathillparkcc"
+      ]
+    },
+    {
+      "input": "Emerald Isle Golf Course",
+      "city": "Oceanside",
+      "status": "miss",
+      "slugsTried": [
+        "emeraldisle",
+        "emeraldislegolfcourse",
+        "emeraldislegolf",
+        "emeraldislegolfclub",
+        "emeraldislecc"
+      ]
+    },
+    {
+      "input": "Arrowood Golf Course",
+      "city": "Oceanside",
+      "status": "miss",
+      "slugsTried": [
+        "arrowood",
+        "arrowoodgolfcourse",
+        "arrowoodgolf",
+        "arrowoodgolfclub",
+        "arrowoodcc"
+      ]
+    },
+    {
+      "input": "Rancho Bernardo Inn Golf Course",
+      "city": "San Diego",
+      "status": "miss",
+      "slugsTried": [
+        "ranchobernardoinn",
+        "ranchobernardoinngolfcourse",
+        "ranchobernardoinngolf",
+        "ranchobernardoinngolfclub",
+        "ranchobernardoinncc"
+      ]
+    },
+    {
+      "input": "Maderas Golf Club",
+      "city": "Poway",
+      "status": "miss",
+      "slugsTried": [
+        "maderas",
+        "maderasgolfclub",
+        "maderasgolf",
+        "maderasgolfcourse",
+        "maderascc"
+      ]
+    },
+    {
+      "input": "Twin Oaks Golf Course",
+      "city": "San Marcos",
+      "status": "miss",
+      "slugsTried": [
+        "twinoaks",
+        "twinoaksgolfcourse",
+        "twinoaksgolf",
+        "twinoaksgolfclub",
+        "twinoakscc"
+      ]
+    },
+    {
+      "input": "St. Mark Golf Club",
+      "city": "San Marcos",
+      "status": "miss",
+      "slugsTried": [
+        "stmark",
+        "stmarkgolfclub",
+        "stmarkgolf",
+        "stmarkgolfcourse",
+        "stmarkcc"
+      ]
+    },
+    {
+      "input": "Shadowridge Golf Club",
+      "city": "Vista",
+      "status": "miss",
+      "slugsTried": [
+        "shadowridge",
+        "shadowridgegolfclub",
+        "shadowridgegolf",
+        "shadowridgegolfcourse",
+        "shadowridgecc"
+      ]
+    },
+    {
+      "input": "Castle Creek Country Club",
+      "city": "Escondido",
+      "status": "miss",
+      "slugsTried": [
+        "castlecreek",
+        "castlecreekcountryclub",
+        "castlecreekgolf",
+        "castlecreekgolfclub",
+        "castlecreekgolfcourse",
+        "castlecreekcc"
+      ]
+    },
+    {
+      "input": "Dos Osos Golf Club",
+      "city": "Escondido",
+      "status": "miss",
+      "slugsTried": [
+        "dososos",
+        "dosososgolfclub",
+        "dosososgolf",
+        "dosososgolfcourse",
+        "dosososcc"
+      ]
+    },
+    {
+      "input": "The Vineyard at Escondido",
+      "city": "Escondido",
+      "status": "miss",
+      "slugsTried": [
+        "vineyardatescondido",
+        "thevineyardatescondido",
+        "vineyardatescondidogolf",
+        "vineyardatescondidogolfclub",
+        "vineyardatescondidogolfcourse",
+        "vineyardatescondidocc"
+      ]
+    },
+    {
+      "input": "Reidy Creek Golf Course",
+      "city": "Escondido",
+      "status": "listed_only",
+      "subdomain": "reidycreek",
+      "courseId": "REIDYCREEK",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Meadow Lake Golf Course",
+      "city": "Escondido",
+      "status": "miss",
+      "slugsTried": [
+        "meadowlake",
+        "meadowlakegolfcourse",
+        "meadowlakegolf",
+        "meadowlakegolfclub",
+        "meadowlakecc"
+      ]
+    },
+    {
+      "input": "Boulder Oaks Golf Club",
+      "city": "Escondido",
+      "status": "miss",
+      "slugsTried": [
+        "boulderoaks",
+        "boulderoaksgolfclub",
+        "boulderoaksgolf",
+        "boulderoaksgolfcourse",
+        "boulderoakscc"
+      ]
+    },
+    {
+      "input": "Welk Resort - Fountains Course",
+      "city": "Escondido",
+      "status": "miss",
+      "slugsTried": [
+        "welkresortfountainscourse",
+        "welkresortfountainscoursegolf",
+        "welkresortfountainscoursegolfclub",
+        "welkresortfountainscoursegolfcourse",
+        "welkresortfountainscoursecc"
+      ]
+    },
+    {
+      "input": "Welk Resort - Oaks Course",
+      "city": "Escondido",
+      "status": "miss",
+      "slugsTried": [
+        "welkresortoakscourse",
+        "welkresortoakscoursegolf",
+        "welkresortoakscoursegolfclub",
+        "welkresortoakscoursegolfcourse",
+        "welkresortoakscoursecc"
+      ]
+    },
+    {
+      "input": "Mt. Woodson Golf Club",
+      "city": "Ramona",
+      "status": "miss",
+      "slugsTried": [
+        "mtwoodson",
+        "mtwoodsongolfclub",
+        "mtwoodsongolf",
+        "mtwoodsongolfcourse",
+        "mtwoodsoncc"
+      ]
+    },
+    {
+      "input": "San Vicente Resort and Golf Course",
+      "city": "Ramona",
+      "status": "miss",
+      "slugsTried": [
+        "sanvicenteresortand",
+        "sanvicenteresortandgolfcourse",
+        "sanvicenteresortandgolf",
+        "sanvicenteresortandgolfclub",
+        "sanvicenteresortandcc"
+      ]
+    },
+    {
+      "input": "Singing Hills Golf Resort - Willow Glen",
+      "city": "El Cajon",
+      "status": "miss",
+      "slugsTried": [
+        "singinghillsgolfresortwillowglen",
+        "singinghillsgolfresortwillowglengolf",
+        "singinghillsgolfresortwillowglengolfclub",
+        "singinghillsgolfresortwillowglengolfcourse",
+        "singinghillsgolfresortwillowglencc"
+      ]
+    },
+    {
+      "input": "Singing Hills Golf Resort - Oak Glen",
+      "city": "El Cajon",
+      "status": "miss",
+      "slugsTried": [
+        "singinghillsgolfresortoakglen",
+        "singinghillsgolfresortoakglengolf",
+        "singinghillsgolfresortoakglengolfclub",
+        "singinghillsgolfresortoakglengolfcourse",
+        "singinghillsgolfresortoakglencc"
+      ]
+    },
+    {
+      "input": "Singing Hills Golf Resort - Pine Glen",
+      "city": "El Cajon",
+      "status": "miss",
+      "slugsTried": [
+        "singinghillsgolfresortpineglen",
+        "singinghillsgolfresortpineglengolf",
+        "singinghillsgolfresortpineglengolfclub",
+        "singinghillsgolfresortpineglengolfcourse",
+        "singinghillsgolfresortpineglencc"
+      ]
+    },
+    {
+      "input": "Sycuan Golf Resort",
+      "city": "El Cajon",
+      "status": "miss",
+      "slugsTried": [
+        "sycuan",
+        "sycuangolfresort",
+        "sycuangolf",
+        "sycuangolfclub",
+        "sycuangolfcourse",
+        "sycuancc"
+      ]
+    },
+    {
+      "input": "Steele Canyon Golf Club",
+      "city": "Jamul",
+      "status": "miss",
+      "slugsTried": [
+        "steelecanyon",
+        "steelecanyongolfclub",
+        "steelecanyongolf",
+        "steelecanyongolfcourse",
+        "steelecanyoncc"
+      ]
+    },
+    {
+      "input": "Carlton Oaks Golf Club",
+      "city": "Santee",
+      "status": "miss",
+      "slugsTried": [
+        "carltonoaks",
+        "carltonoaksgolfclub",
+        "carltonoaksgolf",
+        "carltonoaksgolfcourse",
+        "carltonoakscc"
+      ]
+    },
+    {
+      "input": "Cottonwood Golf Club",
+      "city": "El Cajon",
+      "status": "miss",
+      "slugsTried": [
+        "cottonwood",
+        "cottonwoodgolfclub",
+        "cottonwoodgolf",
+        "cottonwoodgolfcourse",
+        "cottonwoodcc"
+      ]
+    },
+    {
+      "input": "Barona Creek Golf Club",
+      "city": "Lakeside",
+      "status": "miss",
+      "slugsTried": [
+        "baronacreek",
+        "baronacreekgolfclub",
+        "baronacreekgolf",
+        "baronacreekgolfcourse",
+        "baronacreekcc"
+      ]
+    },
+    {
+      "input": "Bonita Golf Club",
+      "city": "Bonita",
+      "status": "miss",
+      "slugsTried": [
+        "bonita",
+        "bonitagolfclub",
+        "bonitagolf",
+        "bonitagolfcourse",
+        "bonitacc"
+      ]
+    },
+    {
+      "input": "Chula Vista Golf Course",
+      "city": "Bonita",
+      "status": "miss",
+      "slugsTried": [
+        "chulavista",
+        "chulavistagolfcourse",
+        "chulavistagolf",
+        "chulavistagolfclub",
+        "chulavistacc"
+      ]
+    },
+    {
+      "input": "National City Golf Course",
+      "city": "National City",
+      "status": "miss",
+      "slugsTried": [
+        "nationalcity",
+        "nationalcitygolfcourse",
+        "nationalcitygolf",
+        "nationalcitygolfclub",
+        "nationalcitycc"
+      ]
+    },
+    {
+      "input": "Pala Mesa Golf Resort",
+      "city": "Fallbrook",
+      "status": "miss",
+      "slugsTried": [
+        "palamesa",
+        "palamesagolfresort",
+        "palamesagolf",
+        "palamesagolfclub",
+        "palamesagolfcourse",
+        "palamesacc"
+      ]
+    },
+    {
+      "input": "Fallbrook Golf Club",
+      "city": "Fallbrook",
+      "status": "miss",
+      "slugsTried": [
+        "fallbrook",
+        "fallbrookgolfclub",
+        "fallbrookgolf",
+        "fallbrookgolfcourse",
+        "fallbrookcc"
+      ]
+    },
+    {
+      "input": "The Golf Club of California",
+      "city": "Fallbrook",
+      "status": "miss",
+      "slugsTried": [
+        "golfclubofcalifornia",
+        "thegolfclubofcalifornia",
+        "golfclubofcaliforniagolf",
+        "golfclubofcaliforniagolfclub",
+        "golfclubofcaliforniagolfcourse",
+        "golfclubofcaliforniacc"
+      ]
+    },
+    {
+      "input": "Journey at Pechanga",
+      "city": "Temecula",
+      "status": "miss",
+      "slugsTried": [
+        "journeyatpechanga",
+        "journeyatpechangagolf",
+        "journeyatpechangagolfclub",
+        "journeyatpechangagolfcourse",
+        "journeyatpechangacc"
+      ]
+    },
+    {
+      "input": "Temecula Creek Inn Golf Resort",
+      "city": "Temecula",
+      "status": "miss",
+      "slugsTried": [
+        "temeculacreekinn",
+        "temeculacreekinngolfresort",
+        "temeculacreekinngolf",
+        "temeculacreekinngolfclub",
+        "temeculacreekinngolfcourse",
+        "temeculacreekinncc"
+      ]
+    },
+    {
+      "input": "CrossCreek Golf Club",
+      "city": "Temecula",
+      "status": "miss",
+      "slugsTried": [
+        "crosscreek",
+        "crosscreekgolfclub",
+        "crosscreekgolf",
+        "crosscreekgolfcourse",
+        "crosscreekcc"
+      ]
+    },
+    {
+      "input": "Temeku Hills Golf Club",
+      "city": "Temecula",
+      "status": "miss",
+      "slugsTried": [
+        "temekuhills",
+        "temekuhillsgolfclub",
+        "temekuhillsgolf",
+        "temekuhillsgolfcourse",
+        "temekuhillscc"
+      ]
+    },
+    {
+      "input": "Redhawk Golf Course",
+      "city": "Temecula",
+      "status": "miss",
+      "slugsTried": [
+        "redhawk",
+        "redhawkgolfcourse",
+        "redhawkgolf",
+        "redhawkgolfclub",
+        "redhawkcc"
+      ]
+    },
+    {
+      "input": "The Golf Club at Rancho California",
+      "city": "Murrieta",
+      "status": "miss",
+      "slugsTried": [
+        "golfclubatranchocalifornia",
+        "thegolfclubatranchocalifornia",
+        "golfclubatranchocaliforniagolf",
+        "golfclubatranchocaliforniagolfclub",
+        "golfclubatranchocaliforniagolfcourse",
+        "golfclubatranchocaliforniacc"
+      ]
+    },
+    {
+      "input": "SCGA Golf Course",
+      "city": "Murrieta",
+      "status": "miss",
+      "slugsTried": [
+        "scga",
+        "scgagolfcourse",
+        "scgagolf",
+        "scgagolfclub",
+        "scgacc"
+      ]
+    },
+    {
+      "input": "Fairmont Grand Del Mar",
+      "city": "San Diego",
+      "status": "miss",
+      "slugsTried": [
+        "fairmontgranddelmar",
+        "fairmontgranddelmargolf",
+        "fairmontgranddelmargolfclub",
+        "fairmontgranddelmargolfcourse",
+        "fairmontgranddelmarcc"
+      ]
+    },
+    {
+      "input": "Morgan Run Club \u0026 Resort",
+      "city": "Rancho Santa Fe",
+      "status": "miss",
+      "slugsTried": [
+        "morganrunclubandresort",
+        "morganrunclubandresortgolf",
+        "morganrunclubandresortgolfclub",
+        "morganrunclubandresortgolfcourse",
+        "morganrunclubandresortcc",
+        "morganrunclubresort"
+      ]
+    }
+  ],
+  "state": "CA",
+  "timestamp": "2026-02-17T08:11:21-07:00",
+  "total": 64
+}

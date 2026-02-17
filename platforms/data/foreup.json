@@ -444,5 +444,93 @@
     "city": "Simi Valley",
     "state": "CA",
     "holes": 18
+  },
+  {
+    "key": "balboa-park",
+    "metro": "sandiego",
+    "courseId": "19348",
+    "bookingClass": "929",
+    "scheduleId": "1470",
+    "bookingUrl": "",
+    "displayName": "Balboa Park Golf Course",
+    "city": "San Diego",
+    "state": "CA"
+  },
+  {
+    "key": "mission-bay",
+    "metro": "sandiego",
+    "courseId": "19346",
+    "bookingClass": "925",
+    "scheduleId": "1469",
+    "bookingUrl": "",
+    "displayName": "Mission Bay Golf Course",
+    "city": "San Diego",
+    "state": "CA"
+  },
+  {
+    "key": "emerald-isle",
+    "metro": "sandiego",
+    "courseId": "18977",
+    "bookingClass": "10318",
+    "scheduleId": "704",
+    "bookingUrl": "",
+    "displayName": "Emerald Isle Golf Course",
+    "city": "Oceanside",
+    "state": "CA"
+  },
+  {
+    "key": "loma-club",
+    "metro": "sandiego",
+    "courseId": "18908",
+    "bookingClass": "14763",
+    "scheduleId": "614",
+    "bookingUrl": "",
+    "displayName": "The Loma Club",
+    "city": "San Diego",
+    "state": "CA"
+  },
+  {
+    "key": "redhawk",
+    "metro": "sandiego",
+    "courseId": "22694",
+    "bookingClass": "50675",
+    "scheduleId": "11655",
+    "bookingUrl": "",
+    "displayName": "Redhawk Golf Course",
+    "city": "Temecula",
+    "state": "CA"
+  },
+  {
+    "key": "rancho-california",
+    "metro": "sandiego",
+    "courseId": "22974",
+    "bookingClass": "52216",
+    "scheduleId": "12493",
+    "bookingUrl": "",
+    "displayName": "The Golf Club at Rancho California",
+    "city": "Murrieta",
+    "state": "CA"
+  },
+  {
+    "key": "arrowood",
+    "metro": "sandiego",
+    "courseId": "20032",
+    "bookingClass": "3459",
+    "scheduleId": "3276",
+    "bookingUrl": "",
+    "displayName": "Arrowood Golf Course",
+    "city": "Oceanside",
+    "state": "CA"
+  },
+  {
+    "key": "goat-hill-park",
+    "metro": "sandiego",
+    "courseId": "20906",
+    "bookingClass": "7870",
+    "scheduleId": "6161",
+    "bookingUrl": "",
+    "displayName": "Goat Hill Park Golf Club",
+    "city": "Oceanside",
+    "state": "CA"
   }
 ]

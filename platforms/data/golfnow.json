@@ -1368,5 +1368,45 @@
     "state": "CA",
     "searchUrl": "https://www.golfnow.com/tee-times/facility/12204/search",
     "bookingUrl": "https://www.golfnow.com/tee-times/facility/12204/search"
+  },
+  {
+    "key": "san-vicente",
+    "metro": "sandiego",
+    "facilityId": 2135,
+    "displayName": "San Vicente Golf Course",
+    "city": "Ramona",
+    "state": "CA",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/2135/search",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/2135/search"
+  },
+  {
+    "key": "singing-hills-oak-glen",
+    "metro": "sandiego",
+    "facilityId": 3533,
+    "displayName": "Singing Hills Golf Club - Oak Glen",
+    "city": "El Cajon",
+    "state": "CA",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3533/search",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3533/search"
+  },
+  {
+    "key": "singing-hills-pine-glen",
+    "metro": "sandiego",
+    "facilityId": 3514,
+    "displayName": "Singing Hills Golf Club - Pine Glen",
+    "city": "El Cajon",
+    "state": "CA",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3514/search",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3514/search"
+  },
+  {
+    "key": "singing-hills-willow-glen",
+    "metro": "sandiego",
+    "facilityId": 3532,
+    "displayName": "Singing Hills Golf Club - Willow Glen",
+    "city": "El Cajon",
+    "state": "CA",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3532/search",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3532/search"
   }
 ]

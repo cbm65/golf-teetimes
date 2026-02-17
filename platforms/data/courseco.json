@@ -98,5 +98,15 @@
     "displayName": "Las Positas Golf Course",
     "city": "Livermore",
     "state": "CA"
+  },
+  {
+    "key": "reidy-creek",
+    "metro": "sandiego",
+    "subdomain": "reidycreek",
+    "courseId": "REIDY_CREEK",
+    "bookingUrl": "https://reidycreek.totaleintegrated.net",
+    "displayName": "Reidy Creek Golf Course",
+    "city": "Escondido",
+    "state": "CA"
   }
 ]

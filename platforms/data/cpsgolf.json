@@ -621,5 +621,183 @@
     "city": "San Juan Capistrano",
     "state": "CA",
     "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "oaks-north",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub3.cps.golf",
+    "apiKey": "",
+    "websiteId": "590f1416-72c3-4623-52f9-08d8d8f9344f",
+    "siteId": "3",
+    "courseIds": "10,13,11",
+    "bookingUrl": "https://jcgpub3.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Oaks North": "Oaks North Golf Course"
+    },
+    "city": "San Diego",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "welk-fountains",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub3.cps.golf",
+    "apiKey": "",
+    "websiteId": "590f1416-72c3-4623-52f9-08d8d8f9344f",
+    "siteId": "11",
+    "courseIds": "18",
+    "bookingUrl": "https://jcgpub3.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "The Welk - Fountains": "Welk Resort - Fountains Course"
+    },
+    "city": "Escondido",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "welk-oaks",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub3.cps.golf",
+    "apiKey": "",
+    "websiteId": "590f1416-72c3-4623-52f9-08d8d8f9344f",
+    "siteId": "11",
+    "courseIds": "17",
+    "bookingUrl": "https://jcgpub3.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "The Welk - Oaks": "Welk Resort - Oaks Course"
+    },
+    "city": "Escondido",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "crosscreek",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub29.cps.golf",
+    "apiKey": "",
+    "websiteId": "ffa867bc-759e-4609-970e-08d8ddc92179",
+    "siteId": "18",
+    "courseIds": "25",
+    "bookingUrl": "https://jcgpub29.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Cross Creek": "CrossCreek Golf Club"
+    },
+    "city": "Temecula",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "crossings-at-carlsbad",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub29.cps.golf",
+    "apiKey": "",
+    "websiteId": "ffa867bc-759e-4609-970e-08d8ddc92179",
+    "siteId": "14",
+    "courseIds": "22",
+    "bookingUrl": "https://jcgpub29.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Crossings": "The Crossings at Carlsbad"
+    },
+    "city": "Carlsbad",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "dos-osos",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub29.cps.golf",
+    "apiKey": "",
+    "websiteId": "ffa867bc-759e-4609-970e-08d8ddc92179",
+    "siteId": "19",
+    "courseIds": "26",
+    "bookingUrl": "https://jcgpub29.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Dos Osos": "Dos Osos Golf Club"
+    },
+    "city": "Escondido",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "encinitas-ranch",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub29.cps.golf",
+    "apiKey": "",
+    "websiteId": "ffa867bc-759e-4609-970e-08d8ddc92179",
+    "siteId": "6",
+    "courseIds": "6",
+    "bookingUrl": "https://jcgpub29.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Encinitas Ranch": "Encinitas Ranch Golf Course"
+    },
+    "city": "Encinitas",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "golf-club-of-california",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub29.cps.golf",
+    "apiKey": "",
+    "websiteId": "ffa867bc-759e-4609-970e-08d8ddc92179",
+    "siteId": "19",
+    "courseIds": "23",
+    "bookingUrl": "https://jcgpub29.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Golf Club of California": "The Golf Club of California"
+    },
+    "city": "Fallbrook",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "rancho-bernardo-inn",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub29.cps.golf",
+    "apiKey": "",
+    "websiteId": "ffa867bc-759e-4609-970e-08d8ddc92179",
+    "siteId": "2",
+    "courseIds": "2",
+    "bookingUrl": "https://jcgpub29.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Rancho Bernardo Inn": "Rancho Bernardo Inn Golf Course"
+    },
+    "city": "San Diego",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "twin-oaks",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub29.cps.golf",
+    "apiKey": "",
+    "websiteId": "ffa867bc-759e-4609-970e-08d8ddc92179",
+    "siteId": "4",
+    "courseIds": "4",
+    "bookingUrl": "https://jcgpub29.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Twin Oaks": "Twin Oaks Golf Course"
+    },
+    "city": "San Marcos",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "temecula-creek-inn",
+    "metro": "sandiego",
+    "baseUrl": "https://temeculacreek.cps.golf",
+    "apiKey": "",
+    "websiteId": "21053180-002f-4266-3549-08dcb2e61ff3",
+    "siteId": "5",
+    "courseIds": "9,8,12",
+    "bookingUrl": "https://temeculacreek.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Creek/Stonehouse": "Temecula Creek Inn - Creek/Stonehouse",
+      "Oaks/Creek": "Temecula Creek Inn - Oaks/Creek",
+      "Stonehouse/Oaks": "Temecula Creek Inn - Stonehouse/Oaks"
+    },
+    "city": "Temecula",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
   }
 ]

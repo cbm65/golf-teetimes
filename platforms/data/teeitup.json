@@ -2438,5 +2438,145 @@
     "state": "CA",
     "holes": 18,
     "key": "oso-creek-golf-course"
+  },
+  {
+    "key": "colina-park",
+    "metro": "sandiego",
+    "alias": "colina-park-golf-course",
+    "facilityId": "10641",
+    "displayName": "Colina Park Golf Course",
+    "city": "San Diego",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "riverwalk",
+    "metro": "sandiego",
+    "alias": "riverwalk-golf-club",
+    "facilityId": "171",
+    "displayName": "Riverwalk Golf Club",
+    "city": "San Diego",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "mission-trails",
+    "metro": "sandiego",
+    "alias": "mission-trails-golf-course",
+    "facilityId": "221",
+    "displayName": "Mission Trails Golf Course",
+    "city": "San Diego",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "lomas-santa-fe",
+    "metro": "sandiego",
+    "alias": "lomas-santa-fe-executive-golf-course",
+    "facilityId": "1241",
+    "displayName": "Lomas Santa Fe Executive Golf Course",
+    "city": "Solana Beach",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "castle-creek",
+    "metro": "sandiego",
+    "alias": "castle-creek-country-club",
+    "facilityId": "1988",
+    "displayName": "Castle Creek Country Club",
+    "city": "Escondido",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "vineyard-at-escondido",
+    "metro": "sandiego",
+    "alias": "the-vineyard-at-escondido",
+    "facilityId": "242",
+    "displayName": "The Vineyard at Escondido",
+    "city": "Escondido",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "mt-woodson",
+    "metro": "sandiego",
+    "alias": "mt-woodson-golf-club",
+    "facilityId": "4078",
+    "displayName": "Mt. Woodson Golf Club",
+    "city": "Ramona",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "steele-canyon",
+    "metro": "sandiego",
+    "alias": "steele-canyon-golf-course",
+    "facilityId": "176",
+    "displayName": "Steele Canyon Golf Club",
+    "city": "Jamul",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "carlton-oaks",
+    "metro": "sandiego",
+    "alias": "carlton-oaks-golf-club",
+    "facilityId": "2129",
+    "displayName": "Carlton Oaks Golf Club",
+    "city": "Santee",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "coronado",
+    "metro": "sandiego",
+    "alias": "coronado-gc-3-14-be",
+    "facilityId": "10985",
+    "displayName": "Coronado Golf Course",
+    "city": "Coronado",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "national-city",
+    "metro": "sandiego",
+    "alias": "national-city-golf-course",
+    "facilityId": "3056",
+    "displayName": "National City Golf Course",
+    "city": "National City",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "pala-mesa",
+    "metro": "sandiego",
+    "alias": "pala-mesa-resort",
+    "facilityId": "1301",
+    "displayName": "Pala Mesa Golf Resort",
+    "city": "Fallbrook",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "temeku-hills",
+    "metro": "sandiego",
+    "alias": "the-legends-golf-club",
+    "facilityId": "1244",
+    "displayName": "Temeku Hills Golf Club",
+    "city": "Temecula",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "enagic-at-eastlake",
+    "metro": "sandiego",
+    "alias": "eastlake-country-club",
+    "facilityId": "245",
+    "displayName": "Enagic Golf Club at Eastlake",
+    "city": "Chula Vista",
+    "state": "CA",
+    "holes": 18
   }
 ]

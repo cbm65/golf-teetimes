@@ -482,5 +482,47 @@
     },
     "city": "Laguna Beach",
     "state": "CA"
+  },
+  {
+    "key": "boulder-oaks",
+    "metro": "sandiego",
+    "courseIds": "095820a4-e5d2-4bea-9281-a748e7371124",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "98562",
+    "bookingUrl": "https://www.chronogolf.com/club/boulder-oaks-golf-club",
+    "names": {
+      "Boulder Oaks": "Boulder Oaks Golf Club"
+    },
+    "city": "Escondido",
+    "state": "CA"
+  },
+  {
+    "key": "cottonwood",
+    "metro": "sandiego",
+    "courseIds": "c08cd930-d4ee-47d1-92f4-f41c714cd85a",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "142129",
+    "bookingUrl": "https://www.chronogolf.com/club/cottonwood-golf-club-california",
+    "names": {
+      "Cottonwood Golf Club": "Cottonwood Golf Club"
+    },
+    "city": "El Cajon",
+    "state": "CA"
+  },
+  {
+    "key": "miramar-memorial",
+    "metro": "sandiego",
+    "courseIds": "a4f448e9-915e-4fce-97df-067f646448c7",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "12178",
+    "bookingUrl": "https://www.chronogolf.com/club/miramar-memorial-golf-course",
+    "names": {
+      "Miramar Memorial": "Miramar Memorial Golf Course"
+    },
+    "city": "San Diego",
+    "state": "CA"
   }
 ]

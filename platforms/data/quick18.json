@@ -143,5 +143,14 @@
     "displayName": "Arroyo Trabuco Golf Club",
     "city": "Mission Viejo",
     "state": "CA"
+  },
+  {
+    "key": "journey-at-pechanga",
+    "metro": "sandiego",
+    "subdomain": "pechanga",
+    "bookingUrl": "https://pechanga.quick18.com",
+    "displayName": "Journey at Pechanga",
+    "city": "Temecula",
+    "state": "CA"
   }
 ]

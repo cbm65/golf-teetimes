@@ -1,0 +1,1214 @@
+{
+  "confirmed": 11,
+  "elapsed": "3m4.097221666s",
+  "errors": 0,
+  "listedOnly": 19,
+  "misses": 34,
+  "platform": "teeitup",
+  "results": [
+    {
+      "input": "Torrey Pines Golf Course - South",
+      "city": "La Jolla",
+      "alias": "torrey-pines-golf-course-south",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Torrey Pines Golf Course - North",
+      "city": "La Jolla",
+      "alias": "torrey-pines-golf-course-north",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Balboa Park Golf Course",
+      "city": "San Diego",
+      "alias": "balboa-park-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Mission Bay Golf Course",
+      "city": "San Diego",
+      "alias": "mission-bay-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Presidio Hills Golf Course",
+      "city": "San Diego",
+      "alias": "presidio-hills-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Colina Park Golf Course",
+      "city": "San Diego",
+      "alias": "colina-park-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 10641,
+        "courseId": "54f14f6c0c8ad60378b0660b",
+        "name": "Colina Park Golf Course",
+        "address": "4085 52nd St, San Diego, CA 92105 US",
+        "locality": "San Diego",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.083543,
+          32.751048
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        64,
+        34,
+        0
+      ]
+    },
+    {
+      "input": "The Loma Club",
+      "city": "San Diego",
+      "alias": "the-loma-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Tecolote Canyon Golf Course",
+      "city": "San Diego",
+      "alias": "tecolote-canyon-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1222,
+        "courseId": "54f14bbe0c8ad60378b0159c",
+        "name": "Tecolote Canyon Golf Course",
+        "address": "2755 Snead Avenue, San Diego, CA 92111, US",
+        "locality": "San Diego",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.189019,
+          32.797722
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Riverwalk Golf Club",
+      "city": "San Diego",
+      "alias": "riverwalk-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 171,
+        "courseId": "54f14b410c8ad60378b00cd4",
+        "name": "Riverwalk Golf Club",
+        "address": "1150 Fashion Valley Rd, San Diego, CA 92108, US",
+        "locality": "San Diego",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.171092,
+          32.767231
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        28,
+        34,
+        55
+      ]
+    },
+    {
+      "input": "Admiral Baker Golf Course",
+      "city": "San Diego",
+      "alias": "admiral-baker-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Mission Trails Golf Course",
+      "city": "San Diego",
+      "alias": "mission-trails-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 221,
+        "courseId": "54f14b480c8ad60378b00d52",
+        "name": "Mission Trails Golf Course",
+        "address": "7380 Golfcrest Place, San Diego, CA 92119, US",
+        "locality": "San Diego",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.156389,
+          32.715278
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        61,
+        30,
+        0
+      ]
+    },
+    {
+      "input": "Oaks North Golf Course",
+      "city": "San Diego",
+      "alias": "oaks-north-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 4836,
+        "courseId": "54f14d0e0c8ad60378b03399",
+        "name": "Oaks North Golf Course",
+        "address": "12602 Oaks North Dr, San Diego, CA 92128 US",
+        "locality": "San Diego",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.058087,
+          33.032689
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Miramar Memorial Golf Course",
+      "city": "San Diego",
+      "alias": "miramar-memorial-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 8952,
+        "courseId": "54f14ece0c8ad60378b056fb",
+        "name": "Miramar Memorial Golf Course",
+        "address": "Marine Corps Air Station Miramar, San Diego, CA 92145 US",
+        "locality": "San Diego",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.14423,
+          32.883
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Carmel Mountain Ranch Golf Course",
+      "city": "San Diego",
+      "alias": "carmel-mountain-ranch-country-club",
+      "aliasSource": "swap-country-club",
+      "status": "listed_only",
+      "facility": {
+        "id": 216,
+        "courseId": "54f14b470c8ad60378b00d44",
+        "name": "Carmel Mountain Ranch Country Club",
+        "address": "14050 Carmel Ridge Road, San Diego, CA 92128 US",
+        "locality": "San Diego",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.076149,
+          32.97382
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "StoneRidge Country Club",
+      "city": "Poway",
+      "alias": "stoneridge-country-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 10818,
+        "courseId": "54f14f7d0c8ad60378b067ae",
+        "name": "Stoneridge Country Club",
+        "address": "17166 Stoneridge Country Club Ln, Poway, CA 92064 US",
+        "locality": "Poway",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.038763,
+          33.020717
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Coronado Golf Course",
+      "city": "Coronado",
+      "alias": "coronado-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "The Crossings at Carlsbad",
+      "city": "Carlsbad",
+      "alias": "crossings-at-carlsbad",
+      "aliasSource": "no-the",
+      "status": "listed_only",
+      "facility": {
+        "id": 4184,
+        "courseId": "54f14cc60c8ad60378b02d57",
+        "name": "The Crossings at Carlsbad",
+        "address": "5800 The Crossings Drive , Carlsbad, CA 92008 US",
+        "locality": "Carlsbad",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.307051,
+          33.126528
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Aviara Golf Club",
+      "city": "Carlsbad",
+      "alias": "aviara-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 4082,
+        "courseId": "54f14cbe0c8ad60378b02c88",
+        "name": "Aviara Golf Club",
+        "address": "7447 Batiquitos Drive, Carlsbad, CA 92011 US",
+        "locality": "Carlsbad",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.297602,
+          33.097768
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        53,
+        28,
+        42
+      ]
+    },
+    {
+      "input": "Omni La Costa Resort - North Course",
+      "city": "Carlsbad",
+      "alias": "omni-la-costa-resort-north-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Omni La Costa Resort - South Course",
+      "city": "Carlsbad",
+      "alias": "omni-la-costa-resort-south-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Rancho Carlsbad Golf Course",
+      "city": "Carlsbad",
+      "alias": "rancho-carlsbad-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 9421,
+        "courseId": "54f14ef30c8ad60378b05a7a",
+        "name": "Rancho Carlsbad Golf Course",
+        "address": "5200 El Camino Real, Carlsbad, CA 92010, US",
+        "locality": "Carlsbad",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.283016,
+          33.143096
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Encinitas Ranch Golf Course",
+      "city": "Encinitas",
+      "alias": "encinitas-ranch",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 4579,
+        "courseId": "54f37aa7a6f5040bb05646ea",
+        "name": "Encinitas Ranch",
+        "address": "Ranch Road, Encinitas, CA 92024, USA",
+        "locality": "Encinitas",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.2775825,
+          33.0745878
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Lomas Santa Fe Executive Golf Course",
+      "city": "Solana Beach",
+      "alias": "lomas-santa-fe-executive-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1241,
+        "courseId": "54f14bc00c8ad60378b015c9",
+        "name": "Lomas Santa Fe Executive Golf Course",
+        "address": "1580 Sun Valley Road, Solana Beach, CA 92075, US",
+        "locality": "Solana Beach",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.238989,
+          32.99935
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        35,
+        24,
+        0
+      ]
+    },
+    {
+      "input": "Goat Hill Park Golf Club",
+      "city": "Oceanside",
+      "alias": "goat-hill-park-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Emerald Isle Golf Course",
+      "city": "Oceanside",
+      "alias": "emerald-isle-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 8478,
+        "courseId": "54f14e980c8ad60378b052da",
+        "name": "Emerald Isle Golf Course",
+        "address": "660 S. El Camino Real, Oceanside, CA 92057  US",
+        "locality": "Oceanside",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.332658,
+          33.213863
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Arrowood Golf Course",
+      "city": "Oceanside",
+      "alias": "arrowood-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 4580,
+        "courseId": "54f14cf00c8ad60378b030f6",
+        "name": "Arrowood Golf Course",
+        "address": "5201 Village Drive, Oceanside, CA 92057 US",
+        "locality": "Oceanside",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.287382,
+          33.273259
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        42,
+        25,
+        0
+      ]
+    },
+    {
+      "input": "Rancho Bernardo Inn Golf Course",
+      "city": "San Diego",
+      "alias": "rancho-bernardo-inn",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 4578,
+        "courseId": "54f14cf00c8ad60378b030f3",
+        "name": "Rancho Bernardo Inn",
+        "address": "17550 Bernardo Oaks Dr, San Diego, CA 92128 US",
+        "locality": "San Diego",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.067027,
+          33.02959
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Maderas Golf Club",
+      "city": "Poway",
+      "alias": "maderas-golf-club-v2",
+      "aliasSource": "exact+v2",
+      "status": "listed_only",
+      "facility": {
+        "id": 3069,
+        "courseId": "54f14c5c0c8ad60378b023b9",
+        "name": "Maderas Golf Club",
+        "address": "17750 Old Coach Road, Poway, CA 92064 US",
+        "locality": "Poway",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.022419,
+          33.034931
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Twin Oaks Golf Course",
+      "city": "San Marcos",
+      "alias": "twin-oaks-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 4581,
+        "courseId": "54f14cf00c8ad60378b030fa",
+        "name": "Twin Oaks Golf Course",
+        "address": "1425 N Twin Oaks Valley Rd, San Marcos, CA 92069 US",
+        "locality": "San Marcos",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.160552,
+          33.167265
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "St. Mark Golf Club",
+      "city": "San Marcos",
+      "alias": "st-mark-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Shadowridge Golf Club",
+      "city": "Vista",
+      "alias": "shadowridge-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Castle Creek Country Club",
+      "city": "Escondido",
+      "alias": "castle-creek-country-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1988,
+        "courseId": "54f14c080c8ad60378b01c46",
+        "name": "Castle Creek Country Club",
+        "address": "8797 Circle R Drive, Escondido, CA 92026, US",
+        "locality": "Escondido",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.144937,
+          33.255928
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        14,
+        14,
+        14
+      ]
+    },
+    {
+      "input": "Dos Osos Golf Club",
+      "city": "Escondido",
+      "alias": "dos-osos-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "The Vineyard at Escondido",
+      "city": "Escondido",
+      "alias": "the-vineyard-at-escondido",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 242,
+        "courseId": "54f14b4a0c8ad60378b00d8d",
+        "name": "The Vineyard at Escondido",
+        "address": "925 San Pasqual Road, Escondido, CA 92025, US",
+        "locality": "Escondido",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.051802,
+          33.073177
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        40,
+        29,
+        0
+      ]
+    },
+    {
+      "input": "Reidy Creek Golf Course",
+      "city": "Escondido",
+      "alias": "reidy-creek-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1704,
+        "courseId": "54f14bed0c8ad60378b019c7",
+        "name": "Reidy Creek Golf Course",
+        "address": "2300 North Broadway, Escondido, CA 92026 US",
+        "locality": "Escondido",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.092714,
+          33.16105
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Meadow Lake Golf Course",
+      "city": "Escondido",
+      "alias": "meadow-lake-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Boulder Oaks Golf Club",
+      "city": "Escondido",
+      "alias": "boulder-oaks-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 2198,
+        "courseId": "54f14c190c8ad60378b01de0",
+        "name": "Boulder Oaks Golf Club",
+        "address": "10333 Meadow Glen Way East, Escondido, CA 92026, US",
+        "locality": "Escondido",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.110018,
+          33.215553
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Welk Resort - Fountains Course",
+      "city": "Escondido",
+      "alias": "welk-resort-fountains-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Welk Resort - Oaks Course",
+      "city": "Escondido",
+      "alias": "welk-resort-oaks-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Mt. Woodson Golf Club",
+      "city": "Ramona",
+      "alias": "mt-woodson-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 4078,
+        "courseId": "54f14cbd0c8ad60378b02c7b",
+        "name": "Mt. Woodson Golf Club",
+        "address": "16422 North Woodson Drive, San Diego, CA 92065 US",
+        "locality": "San Diego",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.955312,
+          33.014894
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        40,
+        22,
+        0
+      ]
+    },
+    {
+      "input": "San Vicente Resort and Golf Course",
+      "city": "Ramona",
+      "alias": "san-vicente-resort",
+      "aliasSource": "trim-trailing",
+      "status": "listed_only",
+      "facility": {
+        "id": 2135,
+        "courseId": "54f14c160c8ad60378b01d89",
+        "name": "San Vicente Golf Course",
+        "address": "24157 San Vicente Road, Ramona, CA 92065 US",
+        "locality": "Ramona",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.805525,
+          33.001538
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Singing Hills Golf Resort - Willow Glen",
+      "city": "El Cajon",
+      "alias": "singing-hills-golf-resort-willow-glen",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Singing Hills Golf Resort - Oak Glen",
+      "city": "El Cajon",
+      "alias": "singing-hills-golf-resort-oak-glen",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Singing Hills Golf Resort - Pine Glen",
+      "city": "El Cajon",
+      "alias": "singing-hills-golf-resort-pine-glen",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Sycuan Golf Resort",
+      "city": "El Cajon",
+      "alias": "sycuan-golf-resort",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Steele Canyon Golf Club",
+      "city": "Jamul",
+      "alias": "steele-canyon-golf-course",
+      "aliasSource": "swap-golf-course",
+      "status": "confirmed",
+      "facility": {
+        "id": 176,
+        "courseId": "54f14b420c8ad60378b00ce0",
+        "name": "Steele Canyon Golf Course",
+        "address": "3199 Stonefield Drive, Jamul, CA 91935 US",
+        "locality": "Jamul",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.894333,
+          32.743137
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        14,
+        35,
+        41
+      ]
+    },
+    {
+      "input": "Carlton Oaks Golf Club",
+      "city": "Santee",
+      "alias": "carlton-oaks-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 2129,
+        "courseId": "54f14c150c8ad60378b01d78",
+        "name": "Carlton Oaks Golf Club",
+        "address": "9200 Inwood Dr., Santee, CA 92071, US",
+        "locality": "Santee",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.00963,
+          32.842385
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        70,
+        53,
+        8
+      ]
+    },
+    {
+      "input": "Cottonwood Golf Club",
+      "city": "El Cajon",
+      "alias": "cottonwood-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Barona Creek Golf Club",
+      "city": "Lakeside",
+      "alias": "barona-creek-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Bonita Golf Club",
+      "city": "Bonita",
+      "alias": "bonita-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Chula Vista Golf Course",
+      "city": "Bonita",
+      "alias": "chula-vista-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 178,
+        "courseId": "54f14b420c8ad60378b00ce8",
+        "name": "Chula Vista Golf Course",
+        "address": "4475 Bonita Road, Bonita, CA 91902 US",
+        "locality": "Bonita",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.028451,
+          32.66252
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "National City Golf Course",
+      "city": "National City",
+      "alias": "national-city-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Pala Mesa Golf Resort",
+      "city": "Fallbrook",
+      "alias": "pala-mesa-golf-resort",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Fallbrook Golf Club",
+      "city": "Fallbrook",
+      "alias": "fallbrook-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "The Golf Club of California",
+      "city": "Fallbrook",
+      "alias": "the-golf-club-of-california",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 4167,
+        "courseId": "54f14cc50c8ad60378b02d39",
+        "name": "The Golf Club of California",
+        "address": "3742 Flowerwood Ln, Fallbrook, CA 92028, USA",
+        "locality": "Fallbrook",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.1999695,
+          33.32008930000001
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Journey at Pechanga",
+      "city": "Temecula",
+      "alias": "journey-at-pechanga",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Temecula Creek Inn Golf Resort",
+      "city": "Temecula",
+      "alias": "temecula-creek-inn-golf-resort",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "CrossCreek Golf Club",
+      "city": "Temecula",
+      "alias": "crosscreek-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1298,
+        "courseId": "54f14bc60c8ad60378b01644",
+        "name": "CrossCreek Golf Club",
+        "address": "43860 Glenn Meadows Road, Temecula, CA 92590-4911 US",
+        "locality": "Temecula",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.2194,
+          33.506906
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Temeku Hills Golf Club",
+      "city": "Temecula",
+      "alias": "temeku-hills-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Redhawk Golf Course",
+      "city": "Temecula",
+      "alias": "redhawk-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1246,
+        "courseId": "54f14bc10c8ad60378b015d2",
+        "name": "Redhawk Golf Course",
+        "address": "45100 Redhawk Parkway, Temecula, CA 92592 US",
+        "locality": "Temecula",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -117.091096,
+          33.471029
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Golf Club at Rancho California",
+      "city": "Murrieta",
+      "alias": "the-golf-club-at-rancho-california",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "SCGA Golf Course",
+      "city": "Murrieta",
+      "alias": "scga-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Fairmont Grand Del Mar",
+      "city": "San Diego",
+      "alias": "fairmont-grand-del-mar",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Morgan Run Club \u0026 Resort",
+      "city": "Rancho Santa Fe",
+      "alias": "morgan-run-club-and-resort",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    }
+  ],
+  "state": "CA",
+  "timestamp": "2026-02-17T08:26:29-07:00",
+  "totalInput": 64,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-21",
+    "2026-02-28"
+  ]
+}

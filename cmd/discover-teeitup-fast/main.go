@@ -690,7 +690,7 @@ func main() {
 
 	// Save results
 	os.MkdirAll("discovery/results", 0755)
-	filename := fmt.Sprintf("discovery/results/teeitup-%s-%s.json",
+	filename := fmt.Sprintf("discovery/results/teeitup-fast-%s-%s.json",
 		strings.ToLower(state), startTime.Format("2006-01-02-150405"))
 
 	output := map[string]any{
