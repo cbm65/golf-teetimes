@@ -108,5 +108,38 @@
     "displayName": "Cheekwood Golf Club",
     "city": "Franklin",
     "state": "TN"
+  },
+  {
+    "key": "debell",
+    "metro": "losangeles",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "hdfdabab",
+    "courseId": "103437",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/hdfdabab/slots",
+    "displayName": "De Bell Golf Course",
+    "city": "Burbank",
+    "state": "CA"
+  },
+  {
+    "key": "azusa-greens",
+    "metro": "losangeles",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "hcfdabab",
+    "courseId": "103427",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/hcfdabab/slots",
+    "displayName": "Azusa Greens Golf Course",
+    "city": "Azusa",
+    "state": "CA"
+  },
+  {
+    "key": "vista-valencia",
+    "metro": "losangeles",
+    "baseUrl": "https://apimanager-cc18.clubcaddie.com",
+    "apiKey": "agfdabab",
+    "courseId": "103461",
+    "bookingUrl": "https://apimanager-cc18.clubcaddie.com/webapi/view/agfdabab/slots",
+    "displayName": "Vista Valencia Golf Course",
+    "city": "Valencia",
+    "state": "CA"
   }
 ]

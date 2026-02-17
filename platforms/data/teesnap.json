@@ -38,5 +38,15 @@
     "displayName": "Crimson Creek Golf Club",
     "city": "El Reno",
     "state": "OK"
+  },
+  {
+    "key": "sand-canyon",
+    "metro": "losangeles",
+    "subdomain": "sandcanyoncc",
+    "courseId": "1333",
+    "bookingUrl": "https://sandcanyoncc.teesnap.net",
+    "displayName": "Sand Canyon Country Club",
+    "city": "Santa Clarita",
+    "state": "CA"
   }
 ]

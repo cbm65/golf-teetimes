@@ -154,5 +154,30 @@
     "displayName": "Gateway Park Executive Golf Course",
     "city": "Montgomery",
     "state": "AL"
+  },
+  {
+    "courseId": "8ed5e9ea-a4a9-4f04-8869-02ee0a742a90",
+    "metro": "losangeles",
+    "displayName": "Alhambra Golf Course",
+    "city": "Alhambra",
+    "state": "CA",
+    "holes": 18,
+    "key": "alhambra-golf-course"
+  },
+  {
+    "courseId": "f5e43a8c-0c9c-476f-b9b8-ec36b0012b3f",
+    "metro": "losangeles",
+    "displayName": "Monarch Beach Golf Links",
+    "city": "Dana Point",
+    "state": "CA",
+    "key": "monarch-beach-golf-links"
+  },
+  {
+    "courseId": "88c8282b-ffb5-4319-82d6-a2e0e2f4d3e8",
+    "metro": "losangeles",
+    "displayName": "Pico Rivera Municipal Golf Course",
+    "city": "Pico Rivera",
+    "state": "CA",
+    "key": "pico-rivera-municipal-golf-course"
   }
 ]

@@ -134,5 +134,14 @@
     "displayName": "DeLaveaga Golf Course",
     "city": "Santa Cruz",
     "state": "CA"
+  },
+  {
+    "key": "arroyo-trabuco",
+    "metro": "losangeles",
+    "subdomain": "arroyotrabuco",
+    "bookingUrl": "https://arroyotrabuco.quick18.com",
+    "displayName": "Arroyo Trabuco Golf Club",
+    "city": "Mission Viejo",
+    "state": "CA"
   }
 ]

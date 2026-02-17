@@ -1,0 +1,93 @@
+# Los Angeles Metro v2 - Additional Courses
+# Courses NOT in the original losangeles.txt
+# Includes: LA County gaps, Orange County, Santa Clarita, edge areas
+
+# === LA COUNTY - GAPS FROM ORIGINAL LIST ===
+
+# Par 3s and Executive courses (LA City/County)
+Alondra Park Par 3 Golf Course | Lawndale
+Arcadia Par 3 Golf Course | Arcadia
+DeBell Par 3 Course | Burbank
+Van Nuys Golf Course - 18-Hole Par-3 | Van Nuys
+Van Nuys Golf Course - 9-Hole Executive | Van Nuys
+
+# Additional LA County courses
+Arroyo Seco Golf Course | South Pasadena
+Azusa Greens Golf Course | Azusa
+Bixby Village Golf Course | Long Beach
+Glen Oaks Golf and Learning Center | Glendora
+Lake Lindero Golf Course | Agoura Hills
+Monterey Park Golf Course | Monterey Park
+Pico Rivera Municipal Golf Course | Pico Rivera
+Recreation Park Golf Course 9 | Long Beach
+San Dimas Canyon Golf Club | San Dimas
+Sea-Aire Golf Course | Torrance
+StarX Golf Course | Duarte
+The Lakes at El Segundo | El Segundo
+Westdrift Manhattan Beach Golf Club | Manhattan Beach
+Whittier Narrows 9-hole Mountain Course | Rosemead
+
+# LA County border / Inland Empire edge
+El Prado Golf Course - Butterfield Stage | Chino
+El Prado Golf Course - Chino Creek | Chino
+Los Serranos Country Club - North | Chino Hills
+Los Serranos Country Club - South | Chino Hills
+
+# Santa Clarita Valley
+Sand Canyon Country Club | Santa Clarita
+Vista Valencia Golf Course | Santa Clarita
+Friendly Valley Golf Course | Newhall
+
+# Simi Valley / Ventura County border (close to LA metro)
+Simi Hills Golf Course | Simi Valley
+Sinaloa Golf Course | Simi Valley
+Tierra Rejada Golf Club | Moorpark
+Westlake Village Golf Course | Westlake Village
+
+# West LA / Malibu
+Malibu Golf Club | Malibu
+
+# South LA / Gateway Cities
+Compton Par 3 Golf Course | Compton
+
+# === ORANGE COUNTY - NORTH ===
+Anaheim Hills Golf Course | Anaheim
+Birch Hills Golf Course | Brea
+Black Gold Golf Club | Yorba Linda
+Brea Creek Golf Course | Brea
+Coyote Hills Golf Course | Fullerton
+Dad Miller Golf Course | Anaheim
+David L. Baker Golf Course | Fountain Valley
+Fullerton Golf Course | Fullerton
+Meadowlark Golf Club | Huntington Beach
+Mile Square Golf Course - Classic | Fountain Valley
+Mile Square Golf Course - Players | Fountain Valley
+Navy Golf Seal Beach - Destroyer Course | Cypress
+Navy Golf Seal Beach - Cruiser Course | Cypress
+Newport Beach Golf Course | Newport Beach
+River View Golf Course | Santa Ana
+Willowick Golf Course | Santa Ana
+Costa Mesa Country Club - Los Lagos | Costa Mesa
+Costa Mesa Country Club - Mesa Linda | Costa Mesa
+Westridge Golf Club | La Habra
+
+# === ORANGE COUNTY - CENTRAL/IRVINE ===
+Oak Creek Golf Club | Irvine
+Rancho San Joaquin Golf Course | Irvine
+Strawberry Farms Golf Club | Irvine
+Tustin Ranch Golf Club | Tustin
+Pelican Hill Golf Club - Ocean North | Newport Beach
+Pelican Hill Golf Club - Ocean South | Newport Beach
+
+# === ORANGE COUNTY - SOUTH ===
+Arroyo Trabuco Golf Club | Mission Viejo
+Ben Brown's Golf Course | Laguna Beach
+Oso Creek Golf Course | Mission Viejo
+Monarch Beach Golf Links | Dana Point
+San Clemente Municipal Golf Course | San Clemente
+San Juan Hills Golf Club | San Juan Capistrano
+Shorecliffs Golf Club | San Clemente
+Talega Golf Club | San Clemente
+Tijeras Creek Golf Club | Rancho Santa Margarita
+Casta del Sol Golf Course | Mission Viejo
+Lake Forest Golf and Practice Center | Lake Forest

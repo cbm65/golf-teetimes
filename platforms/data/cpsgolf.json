@@ -572,5 +572,54 @@
     "city": "Dadeville",
     "state": "AL",
     "timezone": "America/Chicago"
+  },
+  {
+    "key": "rio-hondo",
+    "metro": "losangeles",
+    "baseUrl": "https://riohondo.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "d904ddb6-dfe7-4692-35e1-08dd2902d4f6",
+    "siteId": "1",
+    "courseIds": "1",
+    "bookingUrl": "https://riohondo.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Rio Hondo Golf Club": "Rio Hondo Golf Club"
+    },
+    "city": "Downey",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "los-serranos",
+    "metro": "losangeles",
+    "baseUrl": "https://jcglspub.cps.golf",
+    "apiKey": "",
+    "websiteId": "04d6a0a8-00b3-4eb7-f183-08d8d908e0a0",
+    "siteId": "1",
+    "courseIds": "1,2",
+    "bookingUrl": "https://jcglspub.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "North Course": "Los Serranos Country Club - North",
+      "South Course": "Los Serranos Country Club - South"
+    },
+    "city": "Chino Hills",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "san-juan-hills",
+    "metro": "losangeles",
+    "baseUrl": "https://sanjuanhillsca.cps.golf",
+    "apiKey": "",
+    "websiteId": "763e627c-d735-4cc7-909a-08db8f5f2f98",
+    "siteId": "1",
+    "courseIds": "3",
+    "bookingUrl": "https://sanjuanhillsca.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "San Juan Hills Golf": "San Juan Hills Golf Club"
+    },
+    "city": "San Juan Capistrano",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
   }
 ]

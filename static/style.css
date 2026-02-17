@@ -522,6 +522,7 @@ tr:hover td {
     border-radius: 20px;
     font-size: 13px;
     font-weight: 600;
+    white-space: nowrap;
     background: #eef3ec;
     color: #3d6b35;
 }

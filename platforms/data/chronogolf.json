@@ -468,5 +468,19 @@
     },
     "city": "Blanchard",
     "state": "OK"
+  },
+  {
+    "key": "ranch-laguna-beach",
+    "metro": "losangeles",
+    "courseIds": "67f195ec-3827-442d-877b-45d4b2637ad5",
+    "clubId": "",
+    "numericCourseId": "26694",
+    "affiliationTypeId": "",
+    "bookingUrl": "https://www.chronogolf.com/club/the-ranch-at-laguna-beach",
+    "names": {
+      "The Ranch at Laguna Beach": "Ben Brown's Golf Course"
+    },
+    "city": "Laguna Beach",
+    "state": "CA"
   }
 ]

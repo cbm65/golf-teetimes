@@ -46,5 +46,17 @@
     "displayName": "Trump National Doral - Silver Fox",
     "city": "Miami",
     "state": "FL"
+  },
+  {
+    "key": "trump-la",
+    "metro": "losangeles",
+    "baseUrl": "https://losangeles.booktrump.com",
+    "sponsorId": "2611",
+    "courseId": "3426",
+    "propertyId": "45",
+    "bookingUrl": "https://losangeles.booktrump.com/tee-times",
+    "displayName": "Trump National Golf Club Los Angeles",
+    "city": "Rancho Palos Verdes",
+    "state": "CA"
   }
 ]

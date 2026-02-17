@@ -382,5 +382,67 @@
     "displayName": "Surrey Hills Golf Club",
     "city": "Yukon",
     "state": "OK"
+  },
+  {
+    "courseId": "21903",
+    "scheduleId": "9285",
+    "bookingClass": "12401",
+    "metro": "losangeles",
+    "displayName": "Rustic Canyon Golf Course",
+    "city": "Moorpark",
+    "state": "CA",
+    "holes": 18,
+    "key": "rustic-canyon-golf-course"
+  },
+  {
+    "courseId": "20096",
+    "scheduleId": "3759",
+    "metro": "losangeles",
+    "displayName": "Mile Square Golf Course - Classic",
+    "city": "Fountain Valley",
+    "state": "CA",
+    "key": "mile-square-golf-course-classic"
+  },
+  {
+    "courseId": "18754",
+    "scheduleId": "413",
+    "metro": "losangeles",
+    "displayName": "San Clemente Municipal Golf Course",
+    "city": "San Clemente",
+    "state": "CA",
+    "key": "san-clemente-municipal-golf-course"
+  },
+  {
+    "courseId": "19401",
+    "scheduleId": "1570",
+    "metro": "losangeles",
+    "displayName": "Westlake Village Golf Course",
+    "city": "Westlake Village",
+    "state": "CA",
+    "key": "westlake-village-golf-course"
+  },
+  {
+    "key": "simi-hills",
+    "metro": "losangeles",
+    "courseId": "21271",
+    "scheduleId": "7461",
+    "bookingClass": "9436",
+    "bookingUrl": "https://foreupsoftware.com/index.php/booking/21271/7461",
+    "displayName": "Simi Hills Golf Course",
+    "city": "Simi Valley",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "sinaloa",
+    "metro": "losangeles",
+    "courseId": "21272",
+    "scheduleId": "7460",
+    "bookingClass": "9438",
+    "bookingUrl": "https://foreupsoftware.com/index.php/booking/21272/7460",
+    "displayName": "Sinaloa Golf Course",
+    "city": "Simi Valley",
+    "state": "CA",
+    "holes": 18
   }
 ]

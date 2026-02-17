@@ -84,6 +84,12 @@ var Metros = map[string]Metro{
 		State:   "AL",
 		Tagline: "Public Courses Across the River Region",
 	},
+	"losangeles": {
+		Name:    "Los Angeles",
+		Slug:    "losangeles",
+		State:   "CA",
+		Tagline: "Public Courses Across LA County",
+	},
 }
 
 func init() {

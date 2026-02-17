@@ -1860,5 +1860,583 @@
     "displayName": "Emerald Mountain Golf Club",
     "city": "Wetumpka",
     "state": "AL"
+  },
+  {
+    "alias": "balboa-golf-course",
+    "metro": "losangeles",
+    "displayName": "Balboa Golf Course",
+    "city": "Encino",
+    "state": "CA",
+    "holes": 18,
+    "key": "balboa-golf-course"
+  },
+  {
+    "alias": "woodley-lakes-golf-course",
+    "metro": "losangeles",
+    "displayName": "Woodley Lakes Golf Course",
+    "city": "Van Nuys",
+    "state": "CA",
+    "holes": 18,
+    "key": "woodley-lakes-golf-course"
+  },
+  {
+    "alias": "chester-washington-golf-course",
+    "metro": "losangeles",
+    "displayName": "Chester Washington Golf Course",
+    "city": "Los Angeles",
+    "state": "CA",
+    "holes": 18,
+    "key": "chester-washington-golf-course"
+  },
+  {
+    "alias": "el-cariso-golf",
+    "metro": "losangeles",
+    "displayName": "El Cariso Golf Course",
+    "city": "Sylmar",
+    "state": "CA",
+    "holes": 18,
+    "key": "el-cariso-golf"
+  },
+  {
+    "alias": "knollwood-golf-course",
+    "metro": "losangeles",
+    "displayName": "Knollwood Country Club",
+    "city": "Granada Hills",
+    "state": "CA",
+    "holes": 18,
+    "key": "knollwood-golf-course"
+  },
+  {
+    "alias": "los-amigos-golf-course",
+    "metro": "losangeles",
+    "displayName": "Los Amigos Golf Course",
+    "city": "Downey",
+    "state": "CA",
+    "holes": 18,
+    "key": "los-amigos-golf-course"
+  },
+  {
+    "alias": "los-verdes-golf-course",
+    "metro": "losangeles",
+    "displayName": "Los Verdes Golf Course",
+    "city": "Rancho Palos Verdes",
+    "state": "CA",
+    "holes": 18,
+    "key": "los-verdes-golf-course"
+  },
+  {
+    "alias": "marshall-canyon-golf-course",
+    "metro": "losangeles",
+    "displayName": "Marshall Canyon Golf Course",
+    "city": "La Verne",
+    "state": "CA",
+    "holes": 18,
+    "key": "marshall-canyon-golf-course"
+  },
+  {
+    "alias": "mountain-meadows-golf-course",
+    "metro": "losangeles",
+    "displayName": "Mountain Meadows Golf Course",
+    "city": "Pomona",
+    "state": "CA",
+    "holes": 18,
+    "key": "mountain-meadows-golf-course"
+  },
+  {
+    "alias": "santa-anita-golf-course",
+    "metro": "losangeles",
+    "displayName": "Santa Anita Golf Course",
+    "city": "Arcadia",
+    "state": "CA",
+    "holes": 18,
+    "key": "santa-anita-golf-course"
+  },
+  {
+    "alias": "whittier-narrows-golf-course",
+    "metro": "losangeles",
+    "displayName": "Whittier Narrows Golf Course",
+    "city": "Rosemead",
+    "state": "CA",
+    "holes": 18,
+    "key": "whittier-narrows-golf-course"
+  },
+  {
+    "alias": "el-dorado-park-golf-course",
+    "metro": "losangeles",
+    "displayName": "El Dorado Park Golf Course",
+    "city": "Long Beach",
+    "state": "CA",
+    "holes": 18,
+    "key": "el-dorado-park-golf-course"
+  },
+  {
+    "alias": "skylinks-golf-course",
+    "metro": "losangeles",
+    "displayName": "Skylinks Golf Course",
+    "city": "Long Beach",
+    "state": "CA",
+    "holes": 18,
+    "key": "skylinks-golf-course"
+  },
+  {
+    "alias": "heartwell-golf-course",
+    "metro": "losangeles",
+    "displayName": "Heartwell Golf Course",
+    "city": "Long Beach",
+    "state": "CA",
+    "holes": 18,
+    "key": "heartwell-golf-course"
+  },
+  {
+    "alias": "angeles-national-golf-club",
+    "metro": "losangeles",
+    "displayName": "Angeles National Golf Club",
+    "city": "Sunland",
+    "state": "CA",
+    "holes": 18,
+    "key": "angeles-national-golf-club"
+  },
+  {
+    "alias": "westchester-golf-course",
+    "metro": "losangeles",
+    "displayName": "Westchester Golf Course",
+    "city": "Los Angeles",
+    "state": "CA",
+    "holes": 18,
+    "key": "westchester-golf-course"
+  },
+  {
+    "alias": "los-robles-greens-golf-course",
+    "metro": "losangeles",
+    "displayName": "Los Robles Greens Golf Course",
+    "city": "Thousand Oaks",
+    "state": "CA",
+    "holes": 18,
+    "key": "los-robles-greens-golf-course"
+  },
+  {
+    "alias": "alondra-park-golf-courses",
+    "metro": "losangeles",
+    "displayName": "Alondra Golf Course",
+    "city": "Lawndale",
+    "state": "CA",
+    "holes": 18,
+    "key": "alondra-park-golf-courses"
+  },
+  {
+    "alias": "diamond-bar-golf-course",
+    "metro": "losangeles",
+    "displayName": "Diamond Bar Golf Course",
+    "city": "Diamond Bar",
+    "state": "CA",
+    "holes": 18,
+    "key": "diamond-bar-golf-course"
+  },
+  {
+    "alias": "don-knabe-golf-center-junior-academy-formerly-norwalk",
+    "metro": "losangeles",
+    "displayName": "Don Knabe Golf Course",
+    "city": "Norwalk",
+    "state": "CA",
+    "holes": 18,
+    "key": "don-knabe-golf-center-junior-academy-formerly-norwalk"
+  },
+  {
+    "alias": "la-mirada-golf-club",
+    "metro": "losangeles",
+    "displayName": "La Mirada Golf Course",
+    "city": "La Mirada",
+    "state": "CA",
+    "holes": 18,
+    "key": "la-mirada-golf-club"
+  },
+  {
+    "alias": "lakewood-country-club-public",
+    "metro": "losangeles",
+    "displayName": "Lakewood Golf Course",
+    "city": "Lakewood",
+    "state": "CA",
+    "holes": 18,
+    "key": "lakewood-country-club-public"
+  },
+  {
+    "alias": "maggie-hathaway-golf-course",
+    "metro": "losangeles",
+    "displayName": "Maggie Hathaway Golf Course",
+    "city": "Los Angeles",
+    "state": "CA",
+    "holes": 9,
+    "key": "maggie-hathaway-golf-course"
+  },
+  {
+    "alias": "victoria-golf-course",
+    "metro": "losangeles",
+    "displayName": "Victoria Golf Course",
+    "city": "Carson",
+    "state": "CA",
+    "holes": 18,
+    "key": "victoria-golf-course"
+  },
+  {
+    "alias": "scholl-canyon-golf-and-tennis-club",
+    "metro": "losangeles",
+    "displayName": "Scholl Canyon Golf & Tennis Club",
+    "city": "Glendale",
+    "state": "CA",
+    "holes": 18,
+    "key": "scholl-canyon-golf-and-tennis-club"
+  },
+  {
+    "alias": "american-golf-long-beach-public",
+    "metro": "losangeles",
+    "displayName": "Recreation Park Golf Course",
+    "city": "Long Beach",
+    "state": "CA",
+    "holes": 18,
+    "key": "american-golf-long-beach-public"
+  },
+  {
+    "alias": "the-montebello-9-at-bella-verde",
+    "metro": "losangeles",
+    "displayName": "Montebello Country Club",
+    "city": "Montebello",
+    "state": "CA",
+    "holes": 9,
+    "key": "the-montebello-9-at-bella-verde"
+  },
+  {
+    "alias": "the-signature-par-3-at-bella-verde",
+    "metro": "losangeles",
+    "displayName": "Bella Verde Par 3",
+    "city": "Montebello",
+    "state": "CA",
+    "holes": 9,
+    "key": "the-signature-par-3-at-bella-verde"
+  },
+  {
+    "alias": "industry-hills-golf-club-ike-course",
+    "metro": "losangeles",
+    "displayName": "Industry Hills Golf Club - Ike",
+    "city": "City of Industry",
+    "state": "CA",
+    "holes": 18,
+    "key": "industry-hills-golf-club-ike-course"
+  },
+  {
+    "alias": "industry-hills-golf-club-babe-course",
+    "metro": "losangeles",
+    "displayName": "Industry Hills Golf Club - Zaharias",
+    "city": "City of Industry",
+    "state": "CA",
+    "holes": 18,
+    "key": "industry-hills-golf-club-babe-course"
+  },
+  {
+    "alias": "alondra-park-par-3-golf-course",
+    "metro": "losangeles",
+    "displayName": "Alondra Park Par 3 Golf Course",
+    "city": "Lawndale",
+    "state": "CA",
+    "holes": 9,
+    "key": "alondra-park-par-3-golf-course"
+  },
+  {
+    "alias": "arroyo-seco-golf-course",
+    "metro": "losangeles",
+    "displayName": "Arroyo Seco Golf Course",
+    "city": "South Pasadena",
+    "state": "CA",
+    "holes": 18,
+    "key": "arroyo-seco-golf-course"
+  },
+  {
+    "alias": "bixby-village-golf-course",
+    "metro": "losangeles",
+    "displayName": "Bixby Village Golf Course",
+    "city": "Long Beach",
+    "state": "CA",
+    "holes": 18,
+    "key": "bixby-village-golf-course"
+  },
+  {
+    "alias": "glen-oaks-golf-and-learning-center",
+    "metro": "losangeles",
+    "displayName": "Glen Oaks Golf and Learning Center",
+    "city": "Glendora",
+    "state": "CA",
+    "holes": 18,
+    "key": "glen-oaks-golf-and-learning-center"
+  },
+  {
+    "alias": "recreation-park-golf-course-9",
+    "metro": "losangeles",
+    "displayName": "Recreation Park Golf Course 9",
+    "city": "Long Beach",
+    "state": "CA",
+    "holes": 9,
+    "key": "recreation-park-golf-course-9"
+  },
+  {
+    "alias": "san-dimas-canyon-golf-club",
+    "metro": "losangeles",
+    "displayName": "San Dimas Canyon Golf Club",
+    "city": "San Dimas",
+    "state": "CA",
+    "holes": 18,
+    "key": "san-dimas-canyon-golf-club"
+  },
+  {
+    "alias": "the-lakes-at-el-segundo",
+    "metro": "losangeles",
+    "displayName": "The Lakes at El Segundo",
+    "city": "El Segundo",
+    "state": "CA",
+    "holes": 18,
+    "key": "the-lakes-at-el-segundo"
+  },
+  {
+    "alias": "el-prado-golf-course-butterfield-stage",
+    "metro": "losangeles",
+    "displayName": "El Prado Golf Course - Butterfield Stage",
+    "city": "Chino",
+    "state": "CA",
+    "holes": 18,
+    "key": "el-prado-golf-course-butterfield-stage"
+  },
+  {
+    "alias": "el-prado-golf-course-chino-creek",
+    "metro": "losangeles",
+    "displayName": "El Prado Golf Course - Chino Creek",
+    "city": "Chino",
+    "state": "CA",
+    "holes": 18,
+    "key": "el-prado-golf-course-chino-creek"
+  },
+  {
+    "alias": "anaheim-hills-golf-course",
+    "metro": "losangeles",
+    "displayName": "Anaheim Hills Golf Course",
+    "city": "Anaheim",
+    "state": "CA",
+    "holes": 18,
+    "key": "anaheim-hills-golf-course"
+  },
+  {
+    "alias": "birch-hills-golf-course",
+    "metro": "losangeles",
+    "displayName": "Birch Hills Golf Course",
+    "city": "Brea",
+    "state": "CA",
+    "holes": 18,
+    "key": "birch-hills-golf-course"
+  },
+  {
+    "alias": "black-gold-golf-club",
+    "metro": "losangeles",
+    "displayName": "Black Gold Golf Club",
+    "city": "Yorba Linda",
+    "state": "CA",
+    "holes": 18,
+    "key": "black-gold-golf-club"
+  },
+  {
+    "alias": "brea-creek-golf-course",
+    "metro": "losangeles",
+    "displayName": "Brea Creek Golf Course",
+    "city": "Brea",
+    "state": "CA",
+    "holes": 18,
+    "key": "brea-creek-golf-course"
+  },
+  {
+    "alias": "coyote-hills-golf-course",
+    "metro": "losangeles",
+    "displayName": "Coyote Hills Golf Course",
+    "city": "Fullerton",
+    "state": "CA",
+    "holes": 18,
+    "key": "coyote-hills-golf-course"
+  },
+  {
+    "alias": "dad-miller-golf-course",
+    "metro": "losangeles",
+    "displayName": "Dad Miller Golf Course",
+    "city": "Anaheim",
+    "state": "CA",
+    "holes": 18,
+    "key": "dad-miller-golf-course"
+  },
+  {
+    "alias": "david-l-baker-golf-course",
+    "metro": "losangeles",
+    "displayName": "David L. Baker Golf Course",
+    "city": "Fountain Valley",
+    "state": "CA",
+    "holes": 18,
+    "key": "david-l-baker-golf-course"
+  },
+  {
+    "alias": "meadowlark-golf-club",
+    "metro": "losangeles",
+    "displayName": "Meadowlark Golf Club",
+    "city": "Huntington Beach",
+    "state": "CA",
+    "holes": 18,
+    "key": "meadowlark-golf-club"
+  },
+  {
+    "alias": "navy-golf-seal-beach-destroyer-course",
+    "metro": "losangeles",
+    "displayName": "Navy Golf Seal Beach - Destroyer Course",
+    "city": "Cypress",
+    "state": "CA",
+    "holes": 18,
+    "key": "navy-golf-seal-beach-destroyer-course"
+  },
+  {
+    "alias": "river-view-golf-club",
+    "metro": "losangeles",
+    "displayName": "River View Golf Course",
+    "city": "Santa Ana",
+    "state": "CA",
+    "holes": 18,
+    "key": "river-view-golf-club"
+  },
+  {
+    "alias": "willowick-golf-course",
+    "metro": "losangeles",
+    "displayName": "Willowick Golf Course",
+    "city": "Santa Ana",
+    "state": "CA",
+    "holes": 18,
+    "key": "willowick-golf-course"
+  },
+  {
+    "alias": "westridge-golf-club",
+    "metro": "losangeles",
+    "displayName": "Westridge Golf Club",
+    "city": "La Habra",
+    "state": "CA",
+    "holes": 18,
+    "key": "westridge-golf-club"
+  },
+  {
+    "alias": "rancho-san-joaquin-golf-club",
+    "metro": "losangeles",
+    "displayName": "Rancho San Joaquin Golf Course",
+    "city": "Irvine",
+    "state": "CA",
+    "holes": 18,
+    "key": "rancho-san-joaquin-golf-club"
+  },
+  {
+    "alias": "strawberry-farms-golf",
+    "metro": "losangeles",
+    "displayName": "Strawberry Farms Golf Club",
+    "city": "Irvine",
+    "state": "CA",
+    "holes": 18,
+    "key": "strawberry-farms-golf"
+  },
+  {
+    "alias": "tustin-ranch-golf-club",
+    "metro": "losangeles",
+    "displayName": "Tustin Ranch Golf Club",
+    "city": "Tustin",
+    "state": "CA",
+    "holes": 18,
+    "key": "tustin-ranch-golf-club"
+  },
+  {
+    "alias": "tijeras-creek",
+    "metro": "losangeles",
+    "displayName": "Tijeras Creek Golf Club",
+    "city": "Rancho Santa Margarita",
+    "state": "CA",
+    "holes": 18,
+    "key": "tijeras-creek"
+  },
+  {
+    "alias": "lake-forest-golf-and-practice-center",
+    "metro": "losangeles",
+    "displayName": "Lake Forest Golf and Practice Center",
+    "city": "Lake Forest",
+    "state": "CA",
+    "holes": 18,
+    "key": "lake-forest-golf-and-practice-center"
+  },
+  {
+    "alias": "van-nuys-18-hole-par-3-gc",
+    "metro": "losangeles",
+    "displayName": "Van Nuys Golf Course - 18-Hole Par-3",
+    "city": "Van Nuys",
+    "state": "CA",
+    "holes": 18,
+    "key": "van-nuys-18-hole-par-3-gc"
+  },
+  {
+    "alias": "monterey-park-golf-course",
+    "metro": "losangeles",
+    "displayName": "Monterey Park Golf Course",
+    "city": "Monterey Park",
+    "state": "CA",
+    "holes": 18,
+    "key": "monterey-park-golf-course"
+  },
+  {
+    "alias": "rancho-duarte-golf-course",
+    "metro": "losangeles",
+    "displayName": "Rancho Duarte Golf Course",
+    "city": "Duarte",
+    "state": "CA",
+    "holes": 18,
+    "key": "rancho-duarte-golf-course"
+  },
+  {
+    "alias": "fullerton-golf-course",
+    "metro": "losangeles",
+    "displayName": "Fullerton Golf Course",
+    "city": "Fullerton",
+    "state": "CA",
+    "holes": 18,
+    "key": "fullerton-golf-course"
+  },
+  {
+    "alias": "newport-beach-golf-course",
+    "metro": "losangeles",
+    "displayName": "Newport Beach Golf Course",
+    "city": "Newport Beach",
+    "state": "CA",
+    "holes": 18,
+    "key": "newport-beach-golf-course"
+  },
+  {
+    "alias": "costa-mesa-country-club",
+    "facilityId": "12886",
+    "metro": "losangeles",
+    "displayName": "Costa Mesa Country Club - Mesa Linda",
+    "city": "Costa Mesa",
+    "state": "CA",
+    "holes": 18,
+    "key": "costa-mesa-mesa-linda"
+  },
+  {
+    "alias": "costa-mesa-country-club",
+    "facilityId": "12885",
+    "metro": "losangeles",
+    "displayName": "Costa Mesa Country Club - Los Lagos",
+    "city": "Costa Mesa",
+    "state": "CA",
+    "holes": 18,
+    "key": "costa-mesa-los-lagos"
+  },
+  {
+    "alias": "oso-creek-golf-course",
+    "metro": "losangeles",
+    "displayName": "Oso Creek Golf Course",
+    "city": "Mission Viejo",
+    "state": "CA",
+    "holes": 18,
+    "key": "oso-creek-golf-course"
   }
 ]

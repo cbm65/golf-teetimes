@@ -1158,5 +1158,215 @@
     "displayName": "The Links At Norman",
     "city": "Norman",
     "state": "OK"
+  },
+  {
+    "key": "arcadia-par-3",
+    "metro": "losangeles",
+    "facilityId": 1177,
+    "displayName": "Arcadia Par 3 Golf Course",
+    "city": "Arcadia",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1177/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1177/search"
+  },
+  {
+    "key": "brookside-eo-nay",
+    "metro": "losangeles",
+    "facilityId": 19058,
+    "displayName": "Brookside at the Rose Bowl - E.O. Nay",
+    "city": "Pasadena",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/19058/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/19058/search"
+  },
+  {
+    "key": "debell-par-3",
+    "metro": "losangeles",
+    "facilityId": 9448,
+    "displayName": "DeBell Par 3 Course",
+    "city": "Burbank",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/9448/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/9448/search"
+  },
+  {
+    "key": "eaton-canyon",
+    "metro": "losangeles",
+    "facilityId": 4708,
+    "displayName": "Eaton Canyon Golf Club",
+    "city": "Pasadena",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/4708/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/4708/search"
+  },
+  {
+    "key": "encino",
+    "metro": "losangeles",
+    "facilityId": 12200,
+    "displayName": "Encino Golf Course",
+    "city": "Encino",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/12200/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/12200/search"
+  },
+  {
+    "key": "hansen-dam",
+    "metro": "losangeles",
+    "facilityId": 12201,
+    "displayName": "Hansen Dam Golf Course",
+    "city": "Pacoima",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/12201/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/12201/search"
+  },
+  {
+    "key": "harbor-park",
+    "metro": "losangeles",
+    "facilityId": 12218,
+    "displayName": "Harbor Park Golf Course",
+    "city": "Wilmington",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/12218/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/12218/search"
+  },
+  {
+    "key": "harding",
+    "metro": "losangeles",
+    "facilityId": 12202,
+    "displayName": "Harding Golf Course",
+    "city": "Los Angeles",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/12202/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/12202/search"
+  },
+  {
+    "key": "heroes",
+    "metro": "losangeles",
+    "facilityId": 15765,
+    "displayName": "Heroes Golf Course",
+    "city": "Los Angeles",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/15765/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/15765/search"
+  },
+  {
+    "key": "lake-lindero",
+    "metro": "losangeles",
+    "facilityId": 8487,
+    "displayName": "Lake Lindero Golf Course",
+    "city": "Agoura Hills",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/8487/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/8487/search"
+  },
+  {
+    "key": "los-feliz",
+    "metro": "losangeles",
+    "facilityId": 16836,
+    "displayName": "Los Feliz Municipal Golf Course",
+    "city": "Los Angeles",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/16836/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/16836/search"
+  },
+  {
+    "key": "navy-cruiser",
+    "metro": "losangeles",
+    "facilityId": 9835,
+    "displayName": "Navy Golf Seal Beach - 9 Hole Cruiser Course",
+    "city": "Cypress",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/9835/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/9835/search"
+  },
+  {
+    "key": "penmar",
+    "metro": "losangeles",
+    "facilityId": 12219,
+    "displayName": "Penmar Golf Course",
+    "city": "Venice",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/12219/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/12219/search"
+  },
+  {
+    "key": "rancho-park",
+    "metro": "losangeles",
+    "facilityId": 12203,
+    "displayName": "Rancho Park Golf Course",
+    "city": "Los Angeles",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/12203/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/12203/search"
+  },
+  {
+    "key": "rancho-park-par-3",
+    "metro": "losangeles",
+    "facilityId": 17155,
+    "displayName": "Rancho Park Golf Course - Par 3",
+    "city": "Los Angeles",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/17155/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/17155/search"
+  },
+  {
+    "key": "roosevelt",
+    "metro": "losangeles",
+    "facilityId": 12220,
+    "displayName": "Roosevelt Golf Course",
+    "city": "Los Angeles",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/12220/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/12220/search"
+  },
+  {
+    "key": "terranea",
+    "metro": "losangeles",
+    "facilityId": 6140,
+    "displayName": "The Links at Terranea",
+    "city": "Rancho Palos Verdes",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/6140/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6140/search"
+  },
+  {
+    "key": "van-nuys-executive",
+    "metro": "losangeles",
+    "facilityId": 9404,
+    "displayName": "Van Nuys Golf Course - 9-Hole Executive",
+    "city": "Los Angeles",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/9404/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/9404/search"
+  },
+  {
+    "key": "westdrift",
+    "metro": "losangeles",
+    "facilityId": 7026,
+    "displayName": "Westdrift Manhattan Beach Golf Club",
+    "city": "Manhattan Beach",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/7026/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/7026/search"
+  },
+  {
+    "key": "whittier-narrows-mountain",
+    "metro": "losangeles",
+    "facilityId": 19492,
+    "displayName": "Whittier Narrows 9-hole Mountain Course",
+    "city": "Rosemead",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/19492/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/19492/search"
+  },
+  {
+    "key": "wilson",
+    "metro": "losangeles",
+    "facilityId": 12204,
+    "displayName": "Wilson Golf Course",
+    "city": "Los Angeles",
+    "state": "CA",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/12204/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/12204/search"
   }
 ]

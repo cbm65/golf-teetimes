@@ -111,7 +111,6 @@ func FetchTeeItUp(config TeeItUpCourseConfig, date string) ([]DisplayTeeTime, er
 	}
 
 	var loc *time.Location = TeeItUpTimezone(config.State)
-	var bookingURL string = fmt.Sprintf("https://%s.book.teeitup.com/teetimes?course=%s&date=%s", config.Alias, config.FacilityID, date)
 
 	var results []DisplayTeeTime
 	for _, facility := range data {
@@ -122,6 +121,8 @@ func FetchTeeItUp(config TeeItUpCourseConfig, date string) ([]DisplayTeeTime, er
 		if courseName == "" {
 			courseName = config.DisplayName
 		}
+
+		var bookingURL string = fmt.Sprintf("https://%s.book.teeitup.com/teetimes?course=%s&date=%s", config.Alias, facility.CourseID, date)
 
 		for _, tt := range facility.Teetimes {
 		// Parse UTC time and convert to local time
