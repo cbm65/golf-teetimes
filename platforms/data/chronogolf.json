@@ -580,5 +580,33 @@
   },
   "city": "Burnet",
   "state": "TX"
+},
+  {
+  "key": "shingle-creek",
+  "metro": "orlando",
+  "courseIds": "15c6ec1b-4794-4cec-91c1-ab8c9fb36b27",
+  "clubId": "",
+  "numericCourseId": "",
+  "affiliationTypeId": "18294",
+  "bookingUrl": "https://www.chronogolf.com/club/shingle-creek-golf-club",
+  "names": {
+    "Shingle Creek": "Shingle Creek Golf Club"
+  },
+  "city": "Orlando",
+  "state": "FL"
+},
+  {
+  "key": "highlands-reserve",
+  "metro": "orlando",
+  "courseIds": "b8fea7f3-8122-42c9-95e5-ec869b1283d1",
+  "clubId": "",
+  "numericCourseId": "",
+  "affiliationTypeId": "143394",
+  "bookingUrl": "https://www.chronogolf.com/club/walden-highlands-reserve-golf-club",
+  "names": {
+    "Highlands Reserve Golf Club": "Highlands Reserve Golf Club"
+  },
+  "city": "Davenport",
+  "state": "FL"
 }
 ]

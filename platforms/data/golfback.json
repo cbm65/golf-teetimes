@@ -1,0 +1,20 @@
+[
+  {
+    "key": "orange-lake-legends",
+    "metro": "orlando",
+    "courseId": "80ba7e9c-daeb-4289-9107-4d965dce3f74",
+    "bookingUrl": "https://golfback.com/?utm_source=orange-lake&utm_medium=website&utm_campaign=tee-times",
+    "displayName": "Orange Lake Resort - The Legends",
+    "city": "Kissimmee",
+    "state": "FL"
+  },
+  {
+    "key": "orange-lake-reserve",
+    "metro": "orlando",
+    "courseId": "a1fdad6d-4034-40ba-81f4-cfc9c2239a87",
+    "bookingUrl": "https://golfback.com/?utm_source=orange-lake&utm_medium=website&utm_campaign=tee-times",
+    "displayName": "Orange Lake Resort - The Reserve",
+    "city": "Kissimmee",
+    "state": "FL"
+  }
+]

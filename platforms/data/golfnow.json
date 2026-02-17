@@ -1430,27 +1430,107 @@
     "state": "NC"
   },
   {
-  "key": "lions-municipal",
-  "metro": "austin",
-  "facilityId": 834,
-  "displayName": "Lions Municipal Golf Course",
-  "city": "Austin",
-  "state": "TX"
-},
+    "key": "lions-municipal",
+    "metro": "austin",
+    "facilityId": 834,
+    "displayName": "Lions Municipal Golf Course",
+    "city": "Austin",
+    "state": "TX"
+  },
   {
-  "key": "lost-pines",
-  "metro": "austin",
-  "facilityId": 2007,
-  "displayName": "Lost Pines Golf Club",
-  "city": "Cedar Creek",
-  "state": "TX"
-},
+    "key": "lost-pines",
+    "metro": "austin",
+    "facilityId": 2007,
+    "displayName": "Lost Pines Golf Club",
+    "city": "Cedar Creek",
+    "state": "TX"
+  },
   {
-  "key": "star-ranch",
-  "metro": "austin",
-  "facilityId": 151,
-  "displayName": "The Golf Club Star Ranch",
-  "city": "Hutto",
-  "state": "TX"
-}
+    "key": "star-ranch",
+    "metro": "austin",
+    "facilityId": 151,
+    "displayName": "The Golf Club Star Ranch",
+    "city": "Hutto",
+    "state": "TX"
+  },
+  {
+    "key": "disneys-lake-buena-vista-golf-course",
+    "metro": "orlando",
+    "facilityId": 3815,
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3815/search",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3815/search",
+    "displayName": "Disney's Lake Buena Vista Golf Course",
+    "city": "Lake Buena Vista",
+    "state": "FL"
+  },
+  {
+    "key": "disneys-oak-trail-golf-course",
+    "metro": "orlando",
+    "facilityId": 8566,
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/8566/search",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/8566/search",
+    "displayName": "Disney's Oak Trail Golf Course",
+    "city": "Lake Buena Vista",
+    "state": "FL"
+  },
+  {
+    "key": "eagle-dunes-golf-club",
+    "metro": "orlando",
+    "facilityId": 8692,
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/8692/search",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/8692/search",
+    "displayName": "Eagle Dunes Golf Club",
+    "city": "Sorrento",
+    "state": "FL"
+  },
+  {
+    "key": "fairways-country-club",
+    "metro": "orlando",
+    "facilityId": 2781,
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/2781/search",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/2781/search",
+    "displayName": "Fairways Country Club",
+    "city": "Orlando",
+    "state": "FL"
+  },
+  {
+    "key": "grande-vista-golf-club",
+    "metro": "orlando",
+    "facilityId": 4059,
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/4059/search",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/4059/search",
+    "displayName": "Grande Vista Golf Club",
+    "city": "Orlando",
+    "state": "FL"
+  },
+  {
+    "key": "mayfair-country-club",
+    "metro": "orlando",
+    "facilityId": 1107,
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1107/search",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1107/search",
+    "displayName": "Mayfair Country Club",
+    "city": "Sanford",
+    "state": "FL"
+  },
+  {
+    "key": "oaks-national-golf-club",
+    "metro": "orlando",
+    "facilityId": 1690,
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1690/search",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1690/search",
+    "displayName": "Oaks National Golf Club",
+    "city": "Kissimmee",
+    "state": "FL"
+  },
+  {
+    "key": "winter-park-pines-golf-club",
+    "metro": "orlando",
+    "facilityId": 5634,
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/5634/search",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/5634/search",
+    "displayName": "Winter Park Pines Golf Club",
+    "city": "Winter Park",
+    "state": "FL"
+  }
 ]

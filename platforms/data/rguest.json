@@ -167,5 +167,18 @@
     "city": "San Marcos",
     "state": "CA",
     "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "hawks-landing",
+    "metro": "orlando",
+    "tenantId": "2260",
+    "propertyId": "hawks-landing-golf-club",
+    "courseId": "367",
+    "bookingUrl": "https://book.rguest.com/onecart/golf/courses/2260/hawks-landing-golf-club",
+    "displayName": "Hawk's Landing Golf Club",
+    "city": "Orlando",
+    "state": "FL",
+    "playerTypeId": "1428",
+    "timezone": "America/New_York"
   }
 ]

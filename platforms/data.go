@@ -82,6 +82,9 @@ func init() {
 	for _, c := range loadJSON[TeeOnCourseConfig]("data/teeon.json") {
 		TeeOnCourses[c.Key] = c
 	}
+	for _, c := range loadJSON[GolfBackCourseConfig]("data/golfback.json") {
+		GolfBackCourses[c.Key] = c
+	}
 }
 
 type metroStat struct {
@@ -158,6 +161,9 @@ func MetroStats() map[string][2]int {
 		ensure(c.Metro, c.City)
 	}
 	for _, c := range TeeOnCourses {
+		ensure(c.Metro, c.City)
+	}
+	for _, c := range GolfBackCourses {
 		ensure(c.Metro, c.City)
 	}
 

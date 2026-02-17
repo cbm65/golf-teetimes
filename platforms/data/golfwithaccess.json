@@ -251,5 +251,29 @@
   "displayName": "Kissing Tree Golf Club",
   "city": "San Marcos",
   "state": "TX"
+},
+  {
+  "key": "dubsdread",
+  "metro": "orlando",
+  "courseIds": [
+    "9f9e5f27-4b73-4153-b410-6f2262877a19"
+  ],
+  "slug": "dubsdread-golf-course",
+  "bookingUrl": "https://golfwithaccess.com/course/dubsdread-golf-course/reserve-tee-time",
+  "displayName": "Dubsdread Golf Course",
+  "city": "Orlando",
+  "state": "FL"
+},
+  {
+  "key": "mystic-dunes",
+  "metro": "orlando",
+  "courseIds": [
+    "81787b71-b610-4a5f-bc01-a2d55e4cd7e6"
+  ],
+  "slug": "mystic-dunes-golf-club",
+  "bookingUrl": "https://golfwithaccess.com/course/mystic-dunes-golf-club/reserve-tee-time",
+  "displayName": "Mystic Dunes Golf Club",
+  "city": "Celebration",
+  "state": "FL"
 }
 ]

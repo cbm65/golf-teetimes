@@ -36,6 +36,7 @@ var metroCoords = map[string][3]float64{
 	"sandiego":     {32.7157, -117.1611, 40},
 	"charlotte":    {35.2271, -80.8431, 35},
 	"austin":       {30.2672, -97.7431, 40},
+	"orlando":      {28.5383, -81.3792, 40},
 }
 
 type searchRequest struct {

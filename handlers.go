@@ -428,6 +428,21 @@ func fetchMetroTeeTimes(metro Metro, date string) []platforms.DisplayTeeTime {
 		}(key, config)
 	}
 
+	// Launch GolfBack fetches for this metro
+	for key, config := range platforms.GolfBackCourses {
+		if config.Metro != metro.Slug {
+			continue
+		}
+		wg.Add(1)
+		go func(n string, c platforms.GolfBackCourseConfig) {
+			defer wg.Done()
+			var results []platforms.DisplayTeeTime
+			var err error
+			results, err = platforms.FetchGolfBack(c, date)
+			ch <- fetchResult{results: results, err: err, name: n}
+		}(key, config)
+	}
+
 	// Close channel when all goroutines finish
 	go func() {
 		wg.Wait()

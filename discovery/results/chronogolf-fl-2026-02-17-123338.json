@@ -1,0 +1,910 @@
+{
+  "confirmed": 1,
+  "elapsed": "1m48.164747666s",
+  "listedOnly": 14,
+  "misses": 25,
+  "platform": "chronogolf",
+  "results": [
+    {
+      "input": "Dubsdread Golf Course",
+      "city": "",
+      "slug": "dubsdread-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "b1751682-5650-4dfe-b2fc-9b286aab0d1e",
+        "id": 3853,
+        "name": "Dubsdread Golf Course",
+        "slug": "dubsdread-golf-course",
+        "city": "Orlando",
+        "province": "Florida",
+        "country": "United States",
+        "address": "549 W Par St",
+        "phone": "(407) 246-2551",
+        "website": "http://www.historicaldubsdread.com/",
+        "postcode": "32804",
+        "defaultAffiliationTypeId": 16234,
+        "location": {
+          "lat": 28.583179,
+          "lon": -81.387131
+        },
+        "courses": [
+          {
+            "id": 4414,
+            "name": "Dubsdread",
+            "holes": 18,
+            "uuid": "27474a41-6e7f-4c35-a5bd-86bfa1b2daa3"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "MetroWest Golf Club",
+      "city": "",
+      "slug": "metrowest-country-club",
+      "slugSource": "swap-country-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "2f8164eb-5fb3-4ee2-85a4-6fb19ace9aef",
+        "id": 4134,
+        "name": "MetroWest Country Club",
+        "slug": "metrowest-country-club",
+        "city": "Orlando",
+        "province": "Florida",
+        "country": "United States",
+        "address": "2100 S Hiawassee Rd",
+        "phone": "(407) 299-1099",
+        "website": "http://www.metrowestgolf.com/",
+        "postcode": "32835",
+        "defaultAffiliationTypeId": 17358,
+        "location": {
+          "lat": 28.520757,
+          "lon": -81.478014
+        },
+        "courses": [
+          {
+            "id": 4794,
+            "name": "MetroWest",
+            "holes": 18,
+            "uuid": "8c7571b3-7021-47cc-b3dd-83479b32c132"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Shingle Creek Golf Club",
+      "city": "",
+      "slug": "shingle-creek-golf-club",
+      "slugSource": "name+state",
+      "status": "confirmed",
+      "club": {
+        "uuid": "6bee2207-eecc-4528-9d8e-89546239f5a6",
+        "id": 4368,
+        "name": "Shingle Creek Golf Club",
+        "slug": "shingle-creek-golf-club",
+        "city": "Orlando",
+        "province": "Florida",
+        "country": "United States",
+        "address": "9939 Universal Blvd",
+        "phone": "(407) 996-1559",
+        "website": "http://www.shinglecreekgolf.com",
+        "postcode": "32819",
+        "defaultAffiliationTypeId": 18294,
+        "location": {
+          "lat": 28.426868,
+          "lon": -81.435326
+        },
+        "courses": [
+          {
+            "id": 5114,
+            "name": "Shingle Creek",
+            "holes": 18,
+            "uuid": "15c6ec1b-4794-4cec-91c1-ab8c9fb36b27"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        19,
+        21,
+        21
+      ]
+    },
+    {
+      "input": "Ritz-Carlton Golf Club Grande Lakes",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Winter Park Golf Course",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Eagle Creek Golf Club",
+      "city": "",
+      "slug": "eagle-creek-golf-club-florida",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "80317b38-e32e-4723-97c4-35b98f8e56a6",
+        "id": 3858,
+        "name": "Eagle Creek Golf Club",
+        "slug": "eagle-creek-golf-club-florida",
+        "city": "Orlando",
+        "province": "Florida",
+        "country": "United States",
+        "address": "14409 Narcoossee Rd",
+        "phone": "(407) 273-4653",
+        "website": "http://www.eaglecreekgolf.info/",
+        "postcode": "32827",
+        "defaultAffiliationTypeId": 16254,
+        "location": {
+          "lat": 28.433183,
+          "lon": -81.256689
+        },
+        "courses": [
+          {
+            "id": 4419,
+            "name": "Eagle Creek",
+            "holes": 18,
+            "uuid": "df562ef5-5773-4506-8da2-df7ebeb35a9e"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "North Shore Golf Club",
+      "city": "",
+      "slug": "north-shore-golf-club-florida",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "ce187d51-e6ab-4913-86ab-f902291d9c9c",
+        "id": 4165,
+        "name": "North Shore Golf Club",
+        "slug": "north-shore-golf-club-florida",
+        "city": "Orlando",
+        "province": "Florida",
+        "country": "United States",
+        "address": "11507 North Shore Golf Club Blvd",
+        "phone": "(407) 277-9277",
+        "website": "http://www.golfatnorthshore.com",
+        "postcode": "32832",
+        "defaultAffiliationTypeId": 17482,
+        "location": {
+          "lat": 28.401084,
+          "lon": -81.221305
+        },
+        "courses": [
+          {
+            "id": 4837,
+            "name": "North Shore",
+            "holes": 18,
+            "uuid": "b741fc6c-7310-4542-a929-586188d0d8d8"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Stoneybrook East Golf Club",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Wedgefield Golf Course",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Celebration Golf Club",
+      "city": "",
+      "slug": "celebration-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "5e4fb70b-b826-4839-84d9-4b2743009d26",
+        "id": 3771,
+        "name": "Celebration Golf Club",
+        "slug": "celebration-golf-club",
+        "city": "Celebration",
+        "province": "Florida",
+        "country": "United States",
+        "address": "701 Golf Park Dr",
+        "phone": "(407) 566-4653",
+        "website": "http://www.celebrationgolf.com/",
+        "postcode": "34747",
+        "defaultAffiliationTypeId": 15906,
+        "location": {
+          "lat": 28.323241,
+          "lon": -81.542817
+        },
+        "courses": [
+          {
+            "id": 4311,
+            "name": "Celebration",
+            "holes": 18,
+            "uuid": "f2a7b37d-5d68-444a-b167-0e74eba39dd7"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Falcon's Fire Golf Club",
+      "city": "",
+      "slug": "falcons-fire-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "32f33e66-bfc7-46a7-ac7b-56d67d1b0e7d",
+        "id": 3885,
+        "name": "Falcons Fire Golf Club",
+        "slug": "falcons-fire-golf-club",
+        "city": "Kissimmee",
+        "province": "Florida",
+        "country": "United States",
+        "address": "3200 Seralago Blvd",
+        "phone": "(407) 239-5445",
+        "website": "http://falconsfire.com/",
+        "postcode": "34746",
+        "defaultAffiliationTypeId": 16362,
+        "location": {
+          "lat": 28.341543,
+          "lon": -81.524604
+        },
+        "courses": [
+          {
+            "id": 4459,
+            "name": "Falcons Fire",
+            "holes": 18,
+            "uuid": "16b475df-1e8a-4b3f-8f96-db59e0944023"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Remington Golf Club",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Kissimmee Bay Country Club",
+      "city": "",
+      "slug": "kissimmee-bay-country-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "fec8397b-a8e2-46a4-922a-50fbe6eb8270",
+        "id": 4061,
+        "name": "Kissimmee Bay Country Club",
+        "slug": "kissimmee-bay-country-club",
+        "city": "Kissimmee",
+        "province": "Florida",
+        "country": "United States",
+        "address": "2801 Kissimmee Bay Cir",
+        "phone": "(407) 348-4653",
+        "website": "http://www.playgolfinkissimmee.com/",
+        "postcode": "34744",
+        "defaultAffiliationTypeId": 17066,
+        "location": {
+          "lat": 28.30718,
+          "lon": -81.327306
+        },
+        "courses": [
+          {
+            "id": 4700,
+            "name": "Kissimmee Bay",
+            "holes": 18,
+            "uuid": "029a64ee-3b39-4a71-b34c-c03a3086d27e"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Hunter's Creek Golf Club",
+      "city": "",
+      "slug": "hunters-creek-golf-course",
+      "slugSource": "swap-golf-course",
+      "status": "listed_only",
+      "club": {
+        "uuid": "fac3dda3-6371-44e4-8dfb-5c7613f956ea",
+        "id": 4000,
+        "name": "Hunters Creek Golf Course",
+        "slug": "hunters-creek-golf-course",
+        "city": "Orlando",
+        "province": "Florida",
+        "country": "United States",
+        "address": "14401 Sports Club Way",
+        "phone": "(407) 240-4653",
+        "website": "http://www.golfhunterscreek.com/-home",
+        "postcode": "32837",
+        "defaultAffiliationTypeId": 16822,
+        "location": {
+          "lat": 28.358295,
+          "lon": -81.410396
+        },
+        "courses": [
+          {
+            "id": 4615,
+            "name": "Hunters Creek",
+            "holes": 18,
+            "uuid": "99060f7a-94a8-4438-aa8b-9956f53740ae"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Disney's Magnolia Golf Course",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Disney's Palm Golf Course",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Disney's Lake Buena Vista Golf Course",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Waldorf Astoria Golf Club",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Tranquilo Golf Club at Four Seasons",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Orange County National - Panther Lake",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Orange County National - Crooked Cat",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Stoneybrook West Golf Club",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Legends Golf and Country Club",
+      "city": "",
+      "slug": "legends-golf-country-club-florida",
+      "slugSource": "no-and+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "e3495307-5cec-43c7-b48b-37014859ff1c",
+        "id": 4090,
+        "name": "Legends Golf \u0026 Country Club",
+        "slug": "legends-golf-country-club-florida",
+        "city": "Clermont",
+        "province": "Florida",
+        "country": "United States",
+        "address": "1700 Legendary Blvd",
+        "phone": "(352) 243-1118",
+        "website": "http://www.legendsgolforlando.com/",
+        "postcode": "34711",
+        "defaultAffiliationTypeId": 17182,
+        "location": {
+          "lat": 28.504554,
+          "lon": -81.723812
+        },
+        "courses": [
+          {
+            "id": 4735,
+            "name": "Legends",
+            "holes": 18,
+            "uuid": "4963b842-4747-40d0-a265-bc1b8e9ad1bc"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Kings Ridge Golf Club",
+      "city": "",
+      "slug": "kings-ridge-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "c9654bac-1976-4cc6-bef9-326ca89caebd",
+        "id": 4059,
+        "name": "Kings Ridge Golf Club ",
+        "slug": "kings-ridge-golf-club",
+        "city": "Clermont",
+        "province": "Florida",
+        "country": "United States",
+        "address": "1950 Kings Ridge Blvd",
+        "phone": "(352) 242-4653",
+        "website": "http://www.kingsridgegc.com",
+        "postcode": "34711",
+        "defaultAffiliationTypeId": 17058,
+        "location": {
+          "lat": 28.501503,
+          "lon": -81.720137
+        },
+        "courses": [
+          {
+            "id": 4697,
+            "name": "Kings",
+            "holes": 18,
+            "uuid": "4e1dd3ef-5ab0-41a8-8916-eea1b4d41877"
+          },
+          {
+            "id": 4698,
+            "name": "Ridge",
+            "holes": 18,
+            "uuid": "f910d3b5-2a7a-4c31-b775-ddafc8436c05"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Clermont National Golf Club",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Sanctuary Ridge Golf Club",
+      "city": "",
+      "slug": "sanctuary-ridge-golf-club-florida",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "5ad7c558-c3cc-4f2c-97c6-a1a9bd613b2b",
+        "id": 3823,
+        "name": "Sanctuary Ridge Golf Club",
+        "slug": "sanctuary-ridge-golf-club-florida",
+        "city": "Clermont",
+        "province": "Florida",
+        "country": "United States",
+        "address": "2601 Diamond Club Drive",
+        "phone": "(863) 956-4179",
+        "website": "http://www.sanctuaryridgegc.com/index.php",
+        "postcode": "34711",
+        "defaultAffiliationTypeId": 16114,
+        "location": {
+          "lat": 28.556184,
+          "lon": -81.706415
+        },
+        "courses": [
+          {
+            "id": 4375,
+            "name": "Cypress Greens",
+            "holes": 18,
+            "uuid": "4a83cdf0-17b0-4e1a-ba56-d511260f01a8"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "ChampionsGate Golf Club - International",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "ChampionsGate Golf Club - National",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Reunion Resort - Palmer",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Reunion Resort - Watson",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Reunion Resort - Nicklaus",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Mystic Dunes Golf Club",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Highlands Reserve Golf Club",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Southern Dunes Golf Club",
+      "city": "",
+      "slug": "southern-dunes-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "262dd653-7dd1-49b3-b1c3-90283aca4f6c",
+        "id": 2372,
+        "name": "Southern Dunes Golf Club",
+        "slug": "southern-dunes-golf-club",
+        "city": "Maricopa",
+        "province": "Arizona",
+        "country": "United States",
+        "address": "48456 W Hwy 238",
+        "phone": "(480) 367-8949",
+        "website": "http://www.golfsoutherndunes.com",
+        "postcode": "85239",
+        "defaultAffiliationTypeId": 10310,
+        "location": {
+          "lat": 33.078619,
+          "lon": -112.103732
+        },
+        "courses": [
+          {
+            "id": 2724,
+            "name": "Southern Dunes",
+            "holes": 18,
+            "uuid": "1351d82b-1af4-4531-9ec2-a918bd803fd6"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Diamondback Golf Club",
+      "city": "",
+      "slug": "diamondback-golf-club-florida",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "8cc6df26-1862-403d-8ab6-7516619447a0",
+        "id": 3849,
+        "name": "Diamondback Golf Club",
+        "slug": "diamondback-golf-club-florida",
+        "city": "Haines City",
+        "province": "Florida",
+        "country": "United States",
+        "address": "6501 State Road 544 E",
+        "phone": "(863) 421-0437",
+        "website": "http://www.diamondbackgolfclub.net",
+        "postcode": "33844",
+        "defaultAffiliationTypeId": 16218,
+        "location": {
+          "lat": 28.079668,
+          "lon": -81.560294
+        },
+        "courses": [
+          {
+            "id": 4406,
+            "name": "Diamondback",
+            "holes": 18,
+            "uuid": "d77d3e9a-abfb-456f-8000-7e44cc9bda31"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Providence Golf Club",
+      "city": "",
+      "slug": "providence-golf-club-florida",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "b4a9ffaa-36c1-4793-b61b-477000270718",
+        "id": 4265,
+        "name": "Providence Golf Club",
+        "slug": "providence-golf-club-florida",
+        "city": "Davenport",
+        "province": "Florida",
+        "country": "United States",
+        "address": "1518 Clubhouse Blvd",
+        "phone": "(863) 420-2652",
+        "website": "http://www.providence-golf.com",
+        "postcode": "33837",
+        "defaultAffiliationTypeId": 17882,
+        "location": {
+          "lat": 28.21093,
+          "lon": -81.54653
+        },
+        "courses": [
+          {
+            "id": 4985,
+            "name": "Providence",
+            "holes": 18,
+            "uuid": "7f2c3cd9-7419-4903-8182-0adc20d19602"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Orange Lake Resort - The Legends",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Orange Lake Resort - The Reserve",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Stonegate Golf Club - Cypress",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Stonegate Golf Club - Oaks",
+      "city": "",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Forest Lake Golf Club",
+      "city": "",
+      "slug": "forest-lake-golf-course",
+      "slugSource": "swap-golf-course",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "772133dc-f0a9-42d9-a722-9130ab19e88a",
+        "id": 2682,
+        "name": "Forest Lake Golf Course",
+        "slug": "forest-lake-golf-course",
+        "city": "Acampo",
+        "province": "California",
+        "country": "United States",
+        "address": "2450 E Woodson Rd",
+        "phone": "(209) 369-5451",
+        "website": "http://www.forestlakegolfcourse.com",
+        "postcode": "95220",
+        "defaultAffiliationTypeId": 11550,
+        "location": {
+          "lat": 38.216267,
+          "lon": -121.288526
+        },
+        "courses": [
+          {
+            "id": 3069,
+            "name": "Forest Lake",
+            "holes": 18,
+            "uuid": "315d1870-6ff5-4e9e-abd8-e6a5f5191072"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Wekiva Golf Club",
+      "city": "",
+      "slug": "wekiva-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "6eb3337a-74fa-4476-bdda-f0084eae767a",
+        "id": 4578,
+        "name": "Wekiva Golf Club",
+        "slug": "wekiva-golf-club",
+        "city": "Longwood",
+        "province": "Florida",
+        "country": "United States",
+        "address": "4100 Wekiva Club Court",
+        "phone": "(407) 862-5113",
+        "website": "http://www.wekivagc.com",
+        "postcode": "32779",
+        "defaultAffiliationTypeId": 19134,
+        "location": {
+          "lat": 28.694422,
+          "lon": -81.450486
+        },
+        "courses": [
+          {
+            "id": 5387,
+            "name": "Wekiva",
+            "holes": 18,
+            "uuid": "1af04ce3-8ec1-48d2-9a45-ce28ebf75db0"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "state": "FL",
+  "timestamp": "2026-02-17T12:33:38-07:00",
+  "totalInput": 42,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-21",
+    "2026-02-28"
+  ],
+  "wrongState": 2
+}

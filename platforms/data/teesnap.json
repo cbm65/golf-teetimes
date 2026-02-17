@@ -50,13 +50,23 @@
     "state": "CA"
   },
   {
-  "key": "mustang-creek",
-  "metro": "austin",
-  "subdomain": "golfmustangcreek",
-  "courseId": "1034",
-  "bookingUrl": "https://golfmustangcreek.teesnap.net",
-  "displayName": "Mustang Creek Golf Course",
-  "city": "Taylor",
-  "state": "TX"
-}
+    "key": "mustang-creek",
+    "metro": "austin",
+    "subdomain": "golfmustangcreek",
+    "courseId": "1034",
+    "bookingUrl": "https://golfmustangcreek.teesnap.net",
+    "displayName": "Mustang Creek Golf Course",
+    "city": "Taylor",
+    "state": "TX"
+  },
+  {
+    "key": "forest-lake",
+    "metro": "orlando",
+    "subdomain": "forestlakegolf",
+    "courseId": "555",
+    "bookingUrl": "https://forestlakegolf.teesnap.net/",
+    "displayName": "Forest Lake Golf Club",
+    "city": "Apopka",
+    "state": "FL"
+  }
 ]

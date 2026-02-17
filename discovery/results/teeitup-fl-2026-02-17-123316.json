@@ -1,0 +1,927 @@
+{
+  "confirmed": 20,
+  "elapsed": "1m27.496350417s",
+  "errors": 0,
+  "listedOnly": 7,
+  "misses": 15,
+  "platform": "teeitup",
+  "results": [
+    {
+      "input": "Dubsdread Golf Course",
+      "alias": "dubsdread",
+      "aliasSource": "base-only",
+      "status": "confirmed",
+      "facility": {
+        "id": 877,
+        "courseId": "54f14ba00c8ad60378b01301",
+        "name": "Dubsdread",
+        "address": "549 West Par Street, Orlando, FL 32804 US",
+        "locality": "Orlando",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.387405,
+          28.582185
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        25,
+        10,
+        0
+      ]
+    },
+    {
+      "input": "MetroWest Golf Club",
+      "alias": "metrowest-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 4062,
+        "courseId": "54f14cbc0c8ad60378b02c71",
+        "name": "MetroWest Golf Club",
+        "address": "2100 S. Hiawassee Road, Orlando, FL 32835 US",
+        "locality": "Orlando",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.477645,
+          28.520846
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        51,
+        31,
+        46
+      ]
+    },
+    {
+      "input": "Shingle Creek Golf Club",
+      "alias": "shingle-creek-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 3606,
+        "courseId": "54f14c8c0c8ad60378b0280a",
+        "name": "Shingle Creek Golf Club",
+        "address": "9939 Universal Blvd, Orlando, FL 32819, USA",
+        "locality": "Orlando",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.4345457,
+          28.4258288
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        18,
+        21,
+        19
+      ]
+    },
+    {
+      "input": "Ritz-Carlton Golf Club Grande Lakes",
+      "alias": "ritz-carlton-golf-club-grande-lakes",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Winter Park Golf Course",
+      "alias": "winter-park-country-club",
+      "aliasSource": "swap-country-club",
+      "status": "confirmed",
+      "facility": {
+        "id": 3217,
+        "courseId": "54f14c6a0c8ad60378b024ef",
+        "name": "Winter Park Golf Course",
+        "address": "401 Park Avenue South, Winter Park, FL 32789 US",
+        "locality": "Winter Park",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.347895,
+          28.604028
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Eagle Creek Golf Club",
+      "alias": "eagle-creek-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "North Shore Golf Club",
+      "alias": "north-shore-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Stoneybrook East Golf Club",
+      "alias": "stoneybrook-east",
+      "aliasSource": "base-only",
+      "status": "confirmed",
+      "facility": {
+        "id": 1748,
+        "courseId": "54f14bf00c8ad60378b01a1a",
+        "name": "Stoneybrook East",
+        "address": "2900 Northampton Ave., Orlando, FL 32828, US",
+        "locality": "Orlando",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.180038,
+          28.512143
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        39,
+        39,
+        46
+      ]
+    },
+    {
+      "input": "Wedgefield Golf Course",
+      "alias": "wedgefield-golf-club",
+      "aliasSource": "swap-golf-club",
+      "status": "confirmed",
+      "facility": {
+        "id": 6179,
+        "courseId": "54f14da40c8ad60378b040ac",
+        "name": "Wedgefield Golf Club",
+        "address": "20550 Maxim Parkway, Orlando, FL 32833 US",
+        "locality": "Orlando",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.07211,
+          28.51054
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        26,
+        19,
+        40
+      ]
+    },
+    {
+      "input": "Celebration Golf Club",
+      "alias": "celebration-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1806,
+        "courseId": "54f14bf50c8ad60378b01a95",
+        "name": "Celebration Golf Club",
+        "address": "701 Golf Park Drive, Celebration, FL 34747 US",
+        "locality": "Celebration",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.542534,
+          28.324225
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        48,
+        24,
+        24
+      ]
+    },
+    {
+      "input": "Falcon's Fire Golf Club",
+      "alias": "falcons-fire-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 4673,
+        "courseId": "54f14cfb0c8ad60378b031ef",
+        "name": "Falcon's Fire Golf Club",
+        "address": "3200 Seralago Blvd., Kissimmee, FL 34746 US",
+        "locality": "Kissimmee",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.509235,
+          28.336775
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        41,
+        37,
+        37
+      ]
+    },
+    {
+      "input": "Remington Golf Club",
+      "alias": "remington-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1996,
+        "courseId": "54f14c080c8ad60378b01c5a",
+        "name": "Remington Golf Club",
+        "address": "2995 Remington Boulevard, Kissimmee, FL 34744, US",
+        "locality": "Kissimmee",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.3491,
+          28.2806
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        55,
+        52,
+        59
+      ]
+    },
+    {
+      "input": "Kissimmee Bay Country Club",
+      "alias": "kissimmee-bay-country-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 9093,
+        "courseId": "54f14ed90c8ad60378b057f9",
+        "name": "Kissimmee Bay Country Club",
+        "address": "2801 Kissimmee Bay Cir, Kissimmee, FL 34744, US",
+        "locality": "Kissimmee",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.3491,
+          28.2806
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        62,
+        52,
+        53
+      ]
+    },
+    {
+      "input": "Hunter's Creek Golf Club",
+      "alias": "hunters-creek-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1306,
+        "courseId": "54f14bc60c8ad60378b01659",
+        "name": "Hunter's Creek Golf Club",
+        "address": "14401 Sport Club Way, Orlando, FL 32837 US",
+        "locality": "Orlando",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.41058,
+          28.35855
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Disney's Magnolia Golf Course",
+      "alias": "disneys-magnolia-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 3813,
+        "courseId": "54f14c9f0c8ad60378b029bf",
+        "name": "Disney's Magnolia Golf Course",
+        "address": "1950 West Magnolia Palm Drive, Lake Buena Vista, FL 32830 US",
+        "locality": "Lake Buena Vista",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.597381,
+          28.403443
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        6,
+        3,
+        12
+      ]
+    },
+    {
+      "input": "Disney's Palm Golf Course",
+      "alias": "disneys-palm-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 3809,
+        "courseId": "54f14c9e0c8ad60378b029b8",
+        "name": "Disney's Palm Golf Course",
+        "address": "1950 Magnolia Palm Dr, Orlando, FL 32830, USA",
+        "locality": "Orlando",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.59110570000001,
+          28.4016515
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        9,
+        11,
+        11
+      ]
+    },
+    {
+      "input": "Disney's Lake Buena Vista Golf Course",
+      "alias": "disneys-lake-buena-vista",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 3815,
+        "courseId": "54f14c9f0c8ad60378b029c8",
+        "name": "Disney's Lake Buena Vista",
+        "address": "2200 Club Lake Drive, Lake Buena Vista, FL 32830 US",
+        "locality": "Lake Buena Vista",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.520471,
+          28.375543
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Waldorf Astoria Golf Club",
+      "alias": "waldorf-astoria-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 4853,
+        "courseId": "54f14d100c8ad60378b033c9",
+        "name": "Waldorf Astoria Golf Club",
+        "address": "14224 BONNET CREEK RESORT LANE , Orlando, FL 32821 US",
+        "locality": "Orlando",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.5338,
+          28.3526
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        17,
+        0,
+        6
+      ]
+    },
+    {
+      "input": "Tranquilo Golf Club at Four Seasons",
+      "alias": "tranquilo-golf-club-at-four-seasons",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Orange County National - Panther Lake",
+      "alias": "orange-county-national-panther-lake",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Orange County National - Crooked Cat",
+      "alias": "orange-county-national-crooked-cat",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Stoneybrook West Golf Club",
+      "alias": "stoneybrook-west",
+      "aliasSource": "base-only",
+      "status": "confirmed",
+      "facility": {
+        "id": 1943,
+        "courseId": "54f14c030c8ad60378b01bdc",
+        "name": "Stoneybrook West Golf Club",
+        "address": "15501 Towne Commons Blvd., Winter Garden, FL 34787, US",
+        "locality": "Winter Garden",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.61138,
+          28.516366
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        39,
+        76,
+        0
+      ]
+    },
+    {
+      "input": "Legends Golf and Country Club",
+      "alias": "legends-golf-and-country-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Kings Ridge Golf Club",
+      "alias": "kings-ridge-v2",
+      "aliasSource": "core+v2",
+      "status": "confirmed",
+      "facility": {
+        "id": 2035,
+        "courseId": "54f14c0c0c8ad60378b01cae",
+        "name": "Kings Ridge Golf Club - Kings Course",
+        "address": "1950 Kings Ridge Boulevard, Clermont, FL 34711, US",
+        "locality": "Clermont",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.718035,
+          28.511359
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        23,
+        41,
+        0
+      ]
+    },
+    {
+      "input": "Clermont National Golf Club",
+      "alias": "clermont-national-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Sanctuary Ridge Golf Club",
+      "alias": "sanctuary-ridge-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "ChampionsGate Golf Club - International",
+      "alias": "championsgate-golf-club",
+      "aliasSource": "trim-trailing",
+      "status": "confirmed",
+      "facility": {
+        "id": 3707,
+        "courseId": "54f14c940c8ad60378b028c6",
+        "name": "ChampionsGate Golf Club",
+        "address": "8575 White Shark Boulevard, ChampionsGate, FL 33896, US",
+        "locality": "ChampionsGate",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.630842,
+          28.263225
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        18,
+        0,
+        4
+      ]
+    },
+    {
+      "input": "ChampionsGate Golf Club - National",
+      "alias": "championsgate-golf-club",
+      "aliasSource": "trim-trailing/sibling",
+      "status": "confirmed",
+      "facility": {
+        "id": 254,
+        "courseId": "54f14b4c0c8ad60378b00daa",
+        "name": "ChampionsGate Golf Club - National",
+        "address": "1400 Masters Blvd., Championsgate, FL 33896, US",
+        "locality": "Championsgate",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.630842,
+          28.263225
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        25,
+        8,
+        12
+      ]
+    },
+    {
+      "input": "Reunion Resort - Palmer",
+      "alias": "reunion-resort-palmer",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Reunion Resort - Watson",
+      "alias": "reunion-resort-watson",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Reunion Resort - Nicklaus",
+      "alias": "reunion-resort-nicklaus",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Mystic Dunes Golf Club",
+      "alias": "mystic-dunes-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 466,
+        "courseId": "54f14b690c8ad60378b00f8c",
+        "name": "Mystic Dunes Golf Club",
+        "address": "7850 Shadow Tree Lane, Kissimmee, FL 34747, US",
+        "locality": "Kissimmee",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.6007687,
+          28.3107865
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        28,
+        28,
+        17
+      ]
+    },
+    {
+      "input": "Highlands Reserve Golf Club",
+      "alias": "highlands-reserve-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 2240,
+        "courseId": "54f14c1e0c8ad60378b01e46",
+        "name": "Highlands Reserve Golf Club",
+        "address": "500 Highlands Reserve Blvd, Davenport, FL 33897-7325 US",
+        "locality": "Davenport",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.671591,
+          28.301887
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Southern Dunes Golf Club",
+      "alias": "southern-dunes-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Diamondback Golf Club",
+      "alias": "diamondback-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 553,
+        "courseId": "54f14b740c8ad60378b0104f",
+        "name": "Diamondback Golf Club",
+        "address": "6501 State Road 544 East, Haines City, FL 33844 US",
+        "locality": "Haines City",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.561985,
+          28.077282
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Providence Golf Club",
+      "alias": "providence-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 4407,
+        "courseId": "54f14cdd0c8ad60378b02f3a",
+        "name": "Providence Golf Club (FL)",
+        "address": "1518 Clubhouse Blvd, Davenport, FL 33837, US",
+        "locality": "Davenport",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.6047,
+          28.1932
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        59,
+        35,
+        44
+      ]
+    },
+    {
+      "input": "Orange Lake Resort - The Legends",
+      "alias": "orange-lake-resort-the-legends",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 501,
+        "courseId": "54f14b6d0c8ad60378b00fd9",
+        "name": "Orange Lake Resort - Legends",
+        "address": "8505 W. Irlo Bronson Memorial Hwy., Kissimmee, FL 34747 US",
+        "locality": "Kissimmee",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.624126,
+          28.348126
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Orange Lake Resort - The Reserve",
+      "alias": "orange-lake-resort-the-reserve",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 6340,
+        "courseId": "54f14db90c8ad60378b04219",
+        "name": "Orange Lake Resort - Reserve",
+        "address": "8505 W. Irlo Bronson Memorial Hwy., Kissimmee, FL 34747 US",
+        "locality": "Kissimmee",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.61621,
+          28.29656
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Stonegate Golf Club - Cypress",
+      "alias": "stonegate-golf-club-cypress",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Stonegate Golf Club - Oaks",
+      "alias": "stonegate-golf-club-oaks",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Forest Lake Golf Club",
+      "alias": "forest-lake-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 19813,
+        "courseId": "687165103857087939963118",
+        "name": "Forest Lake Golf Club",
+        "address": "Apopka, FL 32703, US",
+        "locality": "Apopka",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.53512,
+          28.59954
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Wekiva Golf Club",
+      "alias": "wekiva-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 3824,
+        "courseId": "54f14ca00c8ad60378b029db",
+        "name": "Wekiva Golf Club",
+        "address": "4100 Wekiva Club Court, Longwood, FL 32779 US",
+        "locality": "Longwood",
+        "region": "FL",
+        "country": "US",
+        "location": [
+          -81.45092,
+          28.694822
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        59,
+        43,
+        0
+      ]
+    }
+  ],
+  "state": "FL",
+  "timestamp": "2026-02-17T12:33:16-07:00",
+  "totalInput": 42,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-21",
+    "2026-02-28"
+  ]
+}

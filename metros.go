@@ -108,6 +108,12 @@ var Metros = map[string]Metro{
 		State:   "TX",
 		Tagline: "Public Courses Across the Texas Hill Country",
 	},
+	"orlando": {
+		Name:    "Orlando",
+		Slug:    "orlando",
+		State:   "FL",
+		Tagline: "Championship Golf in the Heart of Central Florida",
+	},
 }
 
 func init() {

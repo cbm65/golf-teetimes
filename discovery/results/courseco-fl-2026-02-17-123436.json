@@ -1,0 +1,518 @@
+{
+  "confirmed": 0,
+  "elapsed": "21.666446209s",
+  "listedOnly": 0,
+  "missed": 42,
+  "platform": "courseco",
+  "results": [
+    {
+      "input": "Dubsdread Golf Course",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "dubsdread",
+        "dubsdreadgolfcourse",
+        "dubsdreadgolf",
+        "dubsdreadgolfclub",
+        "dubsdreadcc"
+      ]
+    },
+    {
+      "input": "MetroWest Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "metrowest",
+        "metrowestgolfclub",
+        "metrowestgolf",
+        "metrowestgolfcourse",
+        "metrowestcc"
+      ]
+    },
+    {
+      "input": "Shingle Creek Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "shinglecreek",
+        "shinglecreekgolfclub",
+        "shinglecreekgolf",
+        "shinglecreekgolfcourse",
+        "shinglecreekcc"
+      ]
+    },
+    {
+      "input": "Ritz-Carlton Golf Club Grande Lakes",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "ritzcarltongolfclubgrandelakes",
+        "ritzcarltongolfclubgrandelakesgolf",
+        "ritzcarltongolfclubgrandelakesgolfclub",
+        "ritzcarltongolfclubgrandelakesgolfcourse",
+        "ritzcarltongolfclubgrandelakescc"
+      ]
+    },
+    {
+      "input": "Winter Park Golf Course",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "winterpark",
+        "winterparkgolfcourse",
+        "winterparkgolf",
+        "winterparkgolfclub",
+        "winterparkcc"
+      ]
+    },
+    {
+      "input": "Eagle Creek Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "eaglecreek",
+        "eaglecreekgolfclub",
+        "eaglecreekgolf",
+        "eaglecreekgolfcourse",
+        "eaglecreekcc"
+      ]
+    },
+    {
+      "input": "North Shore Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "northshore",
+        "northshoregolfclub",
+        "northshoregolf",
+        "northshoregolfcourse",
+        "northshorecc"
+      ]
+    },
+    {
+      "input": "Stoneybrook East Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "stoneybrookeast",
+        "stoneybrookeastgolfclub",
+        "stoneybrookeastgolf",
+        "stoneybrookeastgolfcourse",
+        "stoneybrookeastcc"
+      ]
+    },
+    {
+      "input": "Wedgefield Golf Course",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "wedgefield",
+        "wedgefieldgolfcourse",
+        "wedgefieldgolf",
+        "wedgefieldgolfclub",
+        "wedgefieldcc"
+      ]
+    },
+    {
+      "input": "Celebration Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "celebration",
+        "celebrationgolfclub",
+        "celebrationgolf",
+        "celebrationgolfcourse",
+        "celebrationcc"
+      ]
+    },
+    {
+      "input": "Falcon's Fire Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "falconsfire",
+        "falconsfiregolfclub",
+        "falconsfiregolf",
+        "falconsfiregolfcourse",
+        "falconsfirecc"
+      ]
+    },
+    {
+      "input": "Remington Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "remington",
+        "remingtongolfclub",
+        "remingtongolf",
+        "remingtongolfcourse",
+        "remingtoncc"
+      ]
+    },
+    {
+      "input": "Kissimmee Bay Country Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "kissimmeebay",
+        "kissimmeebaycountryclub",
+        "kissimmeebaygolf",
+        "kissimmeebaygolfclub",
+        "kissimmeebaygolfcourse",
+        "kissimmeebaycc"
+      ]
+    },
+    {
+      "input": "Hunter's Creek Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "hunterscreek",
+        "hunterscreekgolfclub",
+        "hunterscreekgolf",
+        "hunterscreekgolfcourse",
+        "hunterscreekcc"
+      ]
+    },
+    {
+      "input": "Disney's Magnolia Golf Course",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "disneysmagnolia",
+        "disneysmagnoliagolfcourse",
+        "disneysmagnoliagolf",
+        "disneysmagnoliagolfclub",
+        "disneysmagnoliacc"
+      ]
+    },
+    {
+      "input": "Disney's Palm Golf Course",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "disneyspalm",
+        "disneyspalmgolfcourse",
+        "disneyspalmgolf",
+        "disneyspalmgolfclub",
+        "disneyspalmcc"
+      ]
+    },
+    {
+      "input": "Disney's Lake Buena Vista Golf Course",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "disneyslakebuenavista",
+        "disneyslakebuenavistagolfcourse",
+        "disneyslakebuenavistagolf",
+        "disneyslakebuenavistagolfclub",
+        "disneyslakebuenavistacc"
+      ]
+    },
+    {
+      "input": "Waldorf Astoria Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "waldorfastoria",
+        "waldorfastoriagolfclub",
+        "waldorfastoriagolf",
+        "waldorfastoriagolfcourse",
+        "waldorfastoriacc"
+      ]
+    },
+    {
+      "input": "Tranquilo Golf Club at Four Seasons",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "tranquilogolfclubatfourseasons",
+        "tranquilogolfclubatfourseasonsgolf",
+        "tranquilogolfclubatfourseasonsgolfclub",
+        "tranquilogolfclubatfourseasonsgolfcourse",
+        "tranquilogolfclubatfourseasonscc"
+      ]
+    },
+    {
+      "input": "Orange County National - Panther Lake",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "orangecountynationalpantherlake",
+        "orangecountynationalpantherlakegolf",
+        "orangecountynationalpantherlakegolfclub",
+        "orangecountynationalpantherlakegolfcourse",
+        "orangecountynationalpantherlakecc"
+      ]
+    },
+    {
+      "input": "Orange County National - Crooked Cat",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "orangecountynationalcrookedcat",
+        "orangecountynationalcrookedcatgolf",
+        "orangecountynationalcrookedcatgolfclub",
+        "orangecountynationalcrookedcatgolfcourse",
+        "orangecountynationalcrookedcatcc"
+      ]
+    },
+    {
+      "input": "Stoneybrook West Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "stoneybrookwest",
+        "stoneybrookwestgolfclub",
+        "stoneybrookwestgolf",
+        "stoneybrookwestgolfcourse",
+        "stoneybrookwestcc"
+      ]
+    },
+    {
+      "input": "Legends Golf and Country Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "legendsgolfand",
+        "legendsgolfandcountryclub",
+        "legendsgolfandgolf",
+        "legendsgolfandgolfclub",
+        "legendsgolfandgolfcourse",
+        "legendsgolfandcc"
+      ]
+    },
+    {
+      "input": "Kings Ridge Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "kingsridge",
+        "kingsridgegolfclub",
+        "kingsridgegolf",
+        "kingsridgegolfcourse",
+        "kingsridgecc"
+      ]
+    },
+    {
+      "input": "Clermont National Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "clermontnational",
+        "clermontnationalgolfclub",
+        "clermontnationalgolf",
+        "clermontnationalgolfcourse",
+        "clermontnationalcc"
+      ]
+    },
+    {
+      "input": "Sanctuary Ridge Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "sanctuaryridge",
+        "sanctuaryridgegolfclub",
+        "sanctuaryridgegolf",
+        "sanctuaryridgegolfcourse",
+        "sanctuaryridgecc"
+      ]
+    },
+    {
+      "input": "ChampionsGate Golf Club - International",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "championsgategolfclubinternational",
+        "championsgategolfclubinternationalgolf",
+        "championsgategolfclubinternationalgolfclub",
+        "championsgategolfclubinternationalgolfcourse",
+        "championsgategolfclubinternationalcc"
+      ]
+    },
+    {
+      "input": "ChampionsGate Golf Club - National",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "championsgategolfclubnational",
+        "championsgategolfclubnationalgolf",
+        "championsgategolfclubnationalgolfclub",
+        "championsgategolfclubnationalgolfcourse",
+        "championsgategolfclubnationalcc"
+      ]
+    },
+    {
+      "input": "Reunion Resort - Palmer",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "reunionresortpalmer",
+        "reunionresortpalmergolf",
+        "reunionresortpalmergolfclub",
+        "reunionresortpalmergolfcourse",
+        "reunionresortpalmercc"
+      ]
+    },
+    {
+      "input": "Reunion Resort - Watson",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "reunionresortwatson",
+        "reunionresortwatsongolf",
+        "reunionresortwatsongolfclub",
+        "reunionresortwatsongolfcourse",
+        "reunionresortwatsoncc"
+      ]
+    },
+    {
+      "input": "Reunion Resort - Nicklaus",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "reunionresortnicklaus",
+        "reunionresortnicklausgolf",
+        "reunionresortnicklausgolfclub",
+        "reunionresortnicklausgolfcourse",
+        "reunionresortnicklauscc"
+      ]
+    },
+    {
+      "input": "Mystic Dunes Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "mysticdunes",
+        "mysticdunesgolfclub",
+        "mysticdunesgolf",
+        "mysticdunesgolfcourse",
+        "mysticdunescc"
+      ]
+    },
+    {
+      "input": "Highlands Reserve Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "highlandsreserve",
+        "highlandsreservegolfclub",
+        "highlandsreservegolf",
+        "highlandsreservegolfcourse",
+        "highlandsreservecc"
+      ]
+    },
+    {
+      "input": "Southern Dunes Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "southerndunes",
+        "southerndunesgolfclub",
+        "southerndunesgolf",
+        "southerndunesgolfcourse",
+        "southerndunescc"
+      ]
+    },
+    {
+      "input": "Diamondback Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "diamondback",
+        "diamondbackgolfclub",
+        "diamondbackgolf",
+        "diamondbackgolfcourse",
+        "diamondbackcc"
+      ]
+    },
+    {
+      "input": "Providence Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "providence",
+        "providencegolfclub",
+        "providencegolf",
+        "providencegolfcourse",
+        "providencecc"
+      ]
+    },
+    {
+      "input": "Orange Lake Resort - The Legends",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "orangelakeresortthelegends",
+        "orangelakeresortthelegendsgolf",
+        "orangelakeresortthelegendsgolfclub",
+        "orangelakeresortthelegendsgolfcourse",
+        "orangelakeresortthelegendscc"
+      ]
+    },
+    {
+      "input": "Orange Lake Resort - The Reserve",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "orangelakeresortthereserve",
+        "orangelakeresortthereservegolf",
+        "orangelakeresortthereservegolfclub",
+        "orangelakeresortthereservegolfcourse",
+        "orangelakeresortthereservecc"
+      ]
+    },
+    {
+      "input": "Stonegate Golf Club - Cypress",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "stonegategolfclubcypress",
+        "stonegategolfclubcypressgolf",
+        "stonegategolfclubcypressgolfclub",
+        "stonegategolfclubcypressgolfcourse",
+        "stonegategolfclubcypresscc"
+      ]
+    },
+    {
+      "input": "Stonegate Golf Club - Oaks",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "stonegategolfcluboaks",
+        "stonegategolfcluboaksgolf",
+        "stonegategolfcluboaksgolfclub",
+        "stonegategolfcluboaksgolfcourse",
+        "stonegategolfcluboakscc"
+      ]
+    },
+    {
+      "input": "Forest Lake Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "forestlake",
+        "forestlakegolfclub",
+        "forestlakegolf",
+        "forestlakegolfcourse",
+        "forestlakecc"
+      ]
+    },
+    {
+      "input": "Wekiva Golf Club",
+      "city": "",
+      "status": "miss",
+      "slugsTried": [
+        "wekiva",
+        "wekivagolfclub",
+        "wekivagolf",
+        "wekivagolfcourse",
+        "wekivacc"
+      ]
+    }
+  ],
+  "state": "FL",
+  "timestamp": "2026-02-17T12:34:36-07:00",
+  "total": 42
+}

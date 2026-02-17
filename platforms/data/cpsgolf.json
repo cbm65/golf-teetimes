@@ -879,5 +879,21 @@
   "city": "San Marcos",
   "state": "TX",
   "timezone": "America/Chicago"
+},
+  {
+  "key": "southern-dunes",
+  "metro": "orlando",
+  "baseUrl": "https://southerndunes.cps.golf",
+  "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+  "websiteId": "184196d2-136c-4c64-65a1-08da89d75382",
+  "siteId": "1",
+  "courseIds": "",
+  "bookingUrl": "https://southerndunes.cps.golf/onlineresweb/search-teetime",
+  "names": {
+    "Southern Dunes": "Southern Dunes Golf Club"
+  },
+  "city": "Haines City",
+  "state": "FL",
+  "timezone": "America/New_York"
 }
 ]

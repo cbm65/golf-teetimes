@@ -226,6 +226,15 @@ func findBookTrumpConfig(course string) (platforms.BookTrumpCourseConfig, bool) 
 	return platforms.BookTrumpCourseConfig{}, false
 }
 
+func findGolfBackConfig(course string) (platforms.GolfBackCourseConfig, bool) {
+	for _, config := range platforms.GolfBackCourses {
+		if config.DisplayName == course {
+			return config, true
+		}
+	}
+	return platforms.GolfBackCourseConfig{}, false
+}
+
 func metroForCourse(course string) string {
 	if c, ok := findChronogolfConfig(course); ok {
 		return c.Metro
@@ -279,6 +288,9 @@ func metroForCourse(course string) string {
 		return c.Metro
 	}
 	if c, ok := findBookTrumpConfig(course); ok {
+		return c.Metro
+	}
+	if c, ok := findGolfBackConfig(course); ok {
 		return c.Metro
 	}
 	return ""
@@ -411,6 +423,13 @@ func fetchForCourse(course string, date string) ([]platforms.DisplayTeeTime, err
 		return platforms.FetchBookTrump(btConfig, date)
 	}
 
+	var gbConfig platforms.GolfBackCourseConfig
+	var gbFound bool
+	gbConfig, gbFound = findGolfBackConfig(course)
+	if gbFound {
+		return platforms.FetchGolfBack(gbConfig, date)
+	}
+
 	// Default to Denver
 	return platforms.FetchMemberSports(platforms.MemberSportsCourses["denver"], date)
 }
@@ -540,6 +559,13 @@ func bookingURLForCourse(course string) string {
 	btConfig, btFound = findBookTrumpConfig(course)
 	if btFound {
 		return btConfig.BookingURL
+	}
+
+	var gbConfig platforms.GolfBackCourseConfig
+	var gbFound bool
+	gbConfig, gbFound = findGolfBackConfig(course)
+	if gbFound {
+		return gbConfig.BookingURL
 	}
 
 	return platforms.MemberSportsCourses["denver"].BookingURL
