@@ -56,7 +56,7 @@ function lookupAlerts() {
 
 async function removeAlert(id) {
     try {
-        var response = await fetch("/api/alerts/delete?id=" + id, {
+        var response = await fetch("/api/alerts/delete?id=" + id + "&phone=" + encodeURIComponent(currentPhone), {
             method: "POST"
         })
 

@@ -97,6 +97,11 @@ func findTeeItUpConfig(course string) (platforms.TeeItUpCourseConfig, bool) {
 		if config.DisplayName == course {
 			return config, true
 		}
+		for _, name := range config.Names {
+			if name == course || getBaseCourse(name) == course {
+				return config, true
+			}
+		}
 	}
 	return platforms.TeeItUpCourseConfig{}, false
 }
@@ -676,6 +681,34 @@ func addAlert(phone string, course string, date string, startTime string, endTim
 	}
 
 	return alert, nil
+}
+
+func deleteAlertByOwner(id string, phone string) error {
+	var alerts []platforms.Alert
+	var err error
+	alerts, err = loadAlerts()
+	if err != nil {
+		return err
+	}
+
+	var found bool
+	var updated []platforms.Alert
+	for _, alert := range alerts {
+		if alert.ID == id {
+			if alert.Phone != phone {
+				return errors.New("Not authorized to delete this alert")
+			}
+			found = true
+			continue
+		}
+		updated = append(updated, alert)
+	}
+
+	if !found {
+		return errors.New("Alert not found")
+	}
+
+	return saveAlerts(updated)
 }
 
 func deleteAlert(id string) error {

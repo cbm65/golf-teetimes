@@ -567,14 +567,15 @@ func handleDeleteAlert(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var id string = r.URL.Query().Get("id")
-	if id == "" {
-		http.Error(w, "ID required", 400)
+	var phone string = r.URL.Query().Get("phone")
+	if id == "" || phone == "" {
+		http.Error(w, "ID and phone required", 400)
 		return
 	}
 
-	var err error = deleteAlert(id)
+	var err error = deleteAlertByOwner(id, phone)
 	if err != nil {
-		http.Error(w, err.Error(), 500)
+		http.Error(w, err.Error(), 400)
 		return
 	}
 
