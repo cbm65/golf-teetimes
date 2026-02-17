@@ -1,0 +1,393 @@
+{
+  "confirmed": 0,
+  "elapsed": "45.92639625s",
+  "listedOnly": 6,
+  "misses": 12,
+  "platform": "chronogolf",
+  "results": [
+    {
+      "input": "Lagoon Park Golf Course",
+      "city": "Montgomery",
+      "slug": "lagoon-park-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "08960a7a-2f44-463b-a46c-1b42228a2c9e",
+        "id": 1889,
+        "name": "Lagoon Park Golf Course",
+        "slug": "lagoon-park-golf-course",
+        "city": "Montgomery",
+        "province": "Alabama",
+        "country": "United States",
+        "address": "2855 Lagoon Park Dr",
+        "phone": "(334) 271-7000",
+        "website": "http://www.playmontgomerygolf.com/lagoonpark",
+        "postcode": "36109",
+        "defaultAffiliationTypeId": 8378,
+        "location": {
+          "lat": 32.402943,
+          "lon": -86.215278
+        },
+        "courses": [
+          {
+            "id": 2169,
+            "name": "Lagoon Park",
+            "holes": 18,
+            "uuid": "a3fb6257-c4cb-4fd5-acf3-490b3c4e18ff"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Gateway Park Golf Course",
+      "city": "Montgomery",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Cottonwood Golf Club",
+      "city": "Montgomery",
+      "slug": "cottonwood-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "c2f502c2-a69e-4729-b03b-9a0abb635555",
+        "id": 1835,
+        "name": "Cottonwood Golf Club",
+        "slug": "cottonwood-golf-club",
+        "city": "Montgomery",
+        "province": "Alabama",
+        "country": "United States",
+        "address": "7160 Byron Nelson Blvd",
+        "phone": "(334) 281-3344",
+        "website": "http://www.cottonwoodgolfclub.com/",
+        "postcode": "36116",
+        "defaultAffiliationTypeId": 8162,
+        "location": {
+          "lat": 32.247782,
+          "lon": -86.173824
+        },
+        "courses": [
+          {
+            "id": 2110,
+            "name": "Montgomery National",
+            "holes": 18,
+            "uuid": "eeb191e7-069b-47fb-877e-a5a584312c17"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Aroostook Golf Course",
+      "city": "Montgomery",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Capitol Hill Golf Club - Judge Course",
+      "city": "Prattville",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Capitol Hill Golf Club - Legislator Course",
+      "city": "Prattville",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Capitol Hill Golf Club - Senator Course",
+      "city": "Prattville",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Prattville Country Club",
+      "city": "Prattville",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Pines Golf Course",
+      "city": "Millbrook",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Emerald Mountain Golf Club",
+      "city": "Wetumpka",
+      "slug": "emerald-mountain-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "ba677d0e-1242-4f75-b2be-062638caf08c",
+        "id": 1852,
+        "name": "Emerald Mountain Golf Club",
+        "slug": "emerald-mountain-golf-club",
+        "city": "Wetumpka",
+        "province": "Alabama",
+        "country": "United States",
+        "address": "245 Mountain View Drive",
+        "phone": "(334) 514-8082",
+        "website": "https://www.facebook.com/EmeraldMountainGolfClub",
+        "postcode": "36093",
+        "defaultAffiliationTypeId": 8230,
+        "location": {
+          "lat": 32.448359,
+          "lon": -86.10457
+        },
+        "courses": [
+          {
+            "id": 2130,
+            "name": "Emerald Mountain",
+            "holes": 18,
+            "uuid": "a0c8c939-6c9d-4006-8d7c-f535b0d8456d"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Quail Walk Golf Course",
+      "city": "Wetumpka",
+      "slug": "quail-walk-country-club",
+      "slugSource": "swap-country-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "4b17dba9-52ad-4dfc-9419-31f71f481803",
+        "id": 1925,
+        "name": "Quail Walk Country Club",
+        "slug": "quail-walk-country-club",
+        "city": "Wetumpka",
+        "province": "Alabama",
+        "country": "United States",
+        "address": "2110 Holtville Hwy",
+        "phone": "(334) 567-5014",
+        "website": "http://www.quailwalkgolfcourse.org/",
+        "postcode": "36092",
+        "defaultAffiliationTypeId": 8522,
+        "location": {
+          "lat": 32.562125,
+          "lon": -86.22576
+        },
+        "courses": [
+          {
+            "id": 2206,
+            "name": "Quail Walk",
+            "holes": 18,
+            "uuid": "ddbc5631-9d6e-4895-b987-8995977dc73c"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Lakeside Golf \u0026 Country Club",
+      "city": "Tallassee",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Cambrian Ridge Golf Club - Canyon Course",
+      "city": "Greenville",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Cambrian Ridge Golf Club - Loblolly Course",
+      "city": "Greenville",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Cambrian Ridge Golf Club - Sherling Course",
+      "city": "Greenville",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Valley Grande Golf Course",
+      "city": "Valley Grande",
+      "slug": "valley-grande-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "616d270a-2a35-4033-a149-90f83aa77158",
+        "id": 1909,
+        "name": "Valley Grande Golf Course",
+        "slug": "valley-grande-golf-course",
+        "city": "Valley Grande",
+        "province": "Alabama",
+        "country": "United States",
+        "address": "1009 Warrior Dr",
+        "phone": "(334) 872-8301",
+        "website": "https://www.facebook.com/pages/Valley-Grande-Golf-Course/105567746176006",
+        "postcode": "36701",
+        "defaultAffiliationTypeId": 8458,
+        "location": {
+          "lat": 32.491329,
+          "lon": -87.108583
+        },
+        "courses": [
+          {
+            "id": 2190,
+            "name": "Ocumulgee",
+            "holes": 18,
+            "uuid": "ec7ac4f9-233e-411d-8a3e-1cec7e50a6ea"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Craig Golf Course",
+      "city": "Selma",
+      "slug": "craig-golf-course",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "a434fb19-02f2-4790-8d67-e6c2a61ee3fb",
+        "id": 1730,
+        "name": "Craig Golf Course",
+        "slug": "craig-golf-course",
+        "city": "Regina",
+        "province": "Saskatchewan",
+        "country": "Canada",
+        "address": "2225 Empress Rd",
+        "phone": "(306) 777-7368",
+        "website": "",
+        "postcode": "S4W 3B6",
+        "defaultAffiliationTypeId": 7637,
+        "location": {
+          "lat": 50.434894,
+          "lon": -104.648511
+        },
+        "courses": [
+          {
+            "id": 2004,
+            "name": "Craig",
+            "holes": 9,
+            "uuid": "a989bf9c-e913-4d29-bf91-3555bc340e40"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Lakewinds Golf Course",
+      "city": "Jacksons Gap",
+      "slug": "lakewinds-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "0b52fc10-a012-4550-b87d-fb29c3062e26",
+        "id": 1893,
+        "name": "Lakewinds Golf Course",
+        "slug": "lakewinds-golf-course",
+        "city": "Alexander City",
+        "province": "Alabama",
+        "country": "United States",
+        "address": "95 County Rd 40",
+        "phone": "(256) 825-9860",
+        "website": "",
+        "postcode": "35010",
+        "defaultAffiliationTypeId": 8394,
+        "location": {
+          "lat": 32.885141,
+          "lon": -85.865353
+        },
+        "courses": [
+          {
+            "id": 2173,
+            "name": "Lakewinds",
+            "holes": 18,
+            "uuid": "59c2d3f3-aaba-4fa9-8b32-e2ec32b41c09"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "StillWaters Golf Course",
+      "city": "Dadeville",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    }
+  ],
+  "state": "AL",
+  "timestamp": "2026-02-17T02:05:08-07:00",
+  "totalInput": 19,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-21",
+    "2026-02-28"
+  ],
+  "wrongState": 1
+}

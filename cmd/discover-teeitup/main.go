@@ -226,6 +226,13 @@ func generateAliases(name, city string) []struct{ alias, source string } {
 	add(exact+"-public-booking-engine", "exact+pbe")
 	add(core+"-gc-public-booking-engine", "core-gc+pbe")
 
+	// 8. V2 booking engine variants — some courses use {slug}-v2.book.teeitup.com
+	add(exact+"-v2", "exact+v2")
+	add(core+"-v2", "core+v2")
+	for _, suffix := range []string{"golf-club", "golf-course", "country-club"} {
+		add(core+"-"+suffix+"-v2", "core+"+suffix+"+v2")
+	}
+
 	return candidates
 }
 
@@ -584,7 +591,9 @@ func validateAndRecord(
 		TeeTimes:     teeTimes,
 	})
 	discoveredByFID[f.ID] = true
-	discoveredByName[strings.ToLower(inputName)] = true
+	if status == "confirmed" {
+		discoveredByName[strings.ToLower(inputName)] = true
+	}
 }
 
 func main() {
@@ -643,6 +652,7 @@ func main() {
 		log("[%d/%d] %q (city: %q) — %d alias candidates", i+1, len(inputs), input.Name, input.City, len(candidates))
 
 		found := false
+		foundListedOnly := false
 		exactStatus := 0
 		for _, c := range candidates {
 			if deadAliases[c.alias] {
@@ -695,6 +705,7 @@ func main() {
 			}
 
 			// Try to match the triggering course
+			prevLen := len(results)
 			for _, f := range facilities {
 				if fuzzyMatchWithCity(input.Name, f.Name, input.City) {
 					validateAndRecord(f, c.alias, c.source, input.Name, input.City, state, dates,
@@ -703,6 +714,9 @@ func main() {
 						found = true
 					}
 				}
+			}
+			if !found && len(results) > prevLen {
+				foundListedOnly = true
 			}
 
 			// Multi-facility: check siblings against ALL inputs
@@ -734,7 +748,7 @@ func main() {
 			time.Sleep(100 * time.Millisecond)
 		}
 
-		if !found && !discoveredByName[strings.ToLower(input.Name)] {
+		if !found && !foundListedOnly && !discoveredByName[strings.ToLower(input.Name)] {
 			log("  MISS — no alias matched")
 			results = append(results, Result{Input: input.Name, City: input.City, Alias: slugify(input.Name), Status: "miss", ExactStatus: exactStatus})
 			missCount++

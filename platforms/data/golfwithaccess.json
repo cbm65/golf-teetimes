@@ -130,5 +130,29 @@
     "displayName": "Sandia Golf Club",
     "city": "Albuquerque",
     "state": "NM"
+  },
+  {
+    "key": "lagoon-park",
+    "metro": "montgomery",
+    "courseIds": [
+      "e110e102-b69d-4ae2-b503-138d60596299"
+    ],
+    "slug": "lagoon-park-golf-course",
+    "bookingUrl": "https://golfwithaccess.com/course/lagoon-park-golf-course/reserve-tee-time",
+    "displayName": "Lagoon Park Golf Course",
+    "city": "Montgomery",
+    "state": "AL"
+  },
+  {
+    "key": "gateway-park-executive",
+    "metro": "montgomery",
+    "courseIds": [
+      "b845d607-8db8-4e7c-bf2e-ec66f6eef15d"
+    ],
+    "slug": "gateway-park-golf-course",
+    "bookingUrl": "https://golfwithaccess.com/course/gateway-park-golf-course/reserve-tee-time",
+    "displayName": "Gateway Park Executive Golf Course",
+    "city": "Montgomery",
+    "state": "AL"
   }
 ]

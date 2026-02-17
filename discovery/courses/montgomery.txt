@@ -1,0 +1,51 @@
+# Montgomery, AL Metro — Public Golf Courses
+# Format: Course Name | City
+# Lines starting with # are ignored.
+#
+# Excludes private-only clubs: Wynlakes Golf & Country Club, Arrowhead Country Club,
+# Montgomery Country Club, Selma Country Club, Troy Country Club,
+# Auburn University Club, Willow Point CC (Alexander City), Wicker Point GC
+# Excludes military: Cypress Tree Golf Course (Maxwell AFB - East & West)
+# Excludes closed: Tallapoosa Lakes GC (closed 2015), Magnolia Golf Club (closed 2007),
+# Trojan Oaks GC (closed 2010)
+# Excludes entertainment/simulator: Magnolia Golf Club (indoor TrackMan), T2 Green, Back 9 Pitch & Put
+
+# --- Montgomery Municipal (Troon managed, playmontgomerygolf.com) ---
+Lagoon Park Golf Course | Montgomery
+Gateway Park Golf Course | Montgomery
+
+# --- Montgomery Public ---
+Cottonwood Golf Club | Montgomery
+Aroostook Golf Course | Montgomery
+
+# --- Prattville (~15 min north) ---
+Capitol Hill - Judge | Prattville
+Capitol Hill - Legislator | Prattville
+Capitol Hill - Senator | Prattville
+Prattville Country Club | Prattville
+
+# --- Millbrook (~20 min north) ---
+Pines Golf Course | Millbrook
+
+# --- Wetumpka (~20 min northeast) ---
+Emerald Mountain Golf Club | Wetumpka
+Quail Walk Golf Course | Wetumpka
+
+# --- Tallassee (~30 min northeast) ---
+Lakeside Golf & Country Club | Tallassee
+
+# --- Greenville (~45 min south, RTJ Trail) ---
+# Cambrian Ridge is 27-hole rotation: 3 nines combined into 18-hole rounds
+Cambrian Ridge - Canyon/Loblolly | Greenville
+Cambrian Ridge - Loblolly/Sherling | Greenville
+Cambrian Ridge - Sherling/Canyon | Greenville
+
+# --- Selma / Valley Grande (~50 min west) ---
+Valley Grande Golf Course | Valley Grande
+Craig Golf Course | Selma
+
+# --- Jacksons Gap / Alexander City (~50 min northeast) ---
+Lakewinds Golf Course | Jacksons Gap
+
+# --- Dadeville (~55 min northeast, Lake Martin) ---
+StillWaters Golf Course | Dadeville

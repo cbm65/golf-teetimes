@@ -1,0 +1,244 @@
+{
+  "confirmed": 0,
+  "elapsed": "5.148879542s",
+  "listedOnly": 0,
+  "missed": 19,
+  "platform": "courseco",
+  "results": [
+    {
+      "input": "Lagoon Park Golf Course",
+      "city": "Montgomery",
+      "status": "miss",
+      "slugsTried": [
+        "lagoonpark",
+        "lagoonparkgolfcourse",
+        "lagoonparkgolf",
+        "lagoonparkgolfclub",
+        "lagoonparkcc"
+      ]
+    },
+    {
+      "input": "Gateway Park Golf Course",
+      "city": "Montgomery",
+      "status": "miss",
+      "slugsTried": [
+        "gatewaypark",
+        "gatewayparkgolfcourse",
+        "gatewayparkgolf",
+        "gatewayparkgolfclub",
+        "gatewayparkcc"
+      ]
+    },
+    {
+      "input": "Cottonwood Golf Club",
+      "city": "Montgomery",
+      "status": "miss",
+      "slugsTried": [
+        "cottonwood",
+        "cottonwoodgolfclub",
+        "cottonwoodgolf",
+        "cottonwoodgolfcourse",
+        "cottonwoodcc"
+      ]
+    },
+    {
+      "input": "Aroostook Golf Course",
+      "city": "Montgomery",
+      "status": "miss",
+      "slugsTried": [
+        "aroostook",
+        "aroostookgolfcourse",
+        "aroostookgolf",
+        "aroostookgolfclub",
+        "aroostookcc"
+      ]
+    },
+    {
+      "input": "Capitol Hill Golf Club - Judge Course",
+      "city": "Prattville",
+      "status": "miss",
+      "slugsTried": [
+        "capitolhillgolfclubjudgecourse",
+        "capitolhillgolfclubjudgecoursegolf",
+        "capitolhillgolfclubjudgecoursegolfclub",
+        "capitolhillgolfclubjudgecoursegolfcourse",
+        "capitolhillgolfclubjudgecoursecc"
+      ]
+    },
+    {
+      "input": "Capitol Hill Golf Club - Legislator Course",
+      "city": "Prattville",
+      "status": "miss",
+      "slugsTried": [
+        "capitolhillgolfclublegislatorcourse",
+        "capitolhillgolfclublegislatorcoursegolf",
+        "capitolhillgolfclublegislatorcoursegolfclub",
+        "capitolhillgolfclublegislatorcoursegolfcourse",
+        "capitolhillgolfclublegislatorcoursecc"
+      ]
+    },
+    {
+      "input": "Capitol Hill Golf Club - Senator Course",
+      "city": "Prattville",
+      "status": "miss",
+      "slugsTried": [
+        "capitolhillgolfclubsenatorcourse",
+        "capitolhillgolfclubsenatorcoursegolf",
+        "capitolhillgolfclubsenatorcoursegolfclub",
+        "capitolhillgolfclubsenatorcoursegolfcourse",
+        "capitolhillgolfclubsenatorcoursecc"
+      ]
+    },
+    {
+      "input": "Prattville Country Club",
+      "city": "Prattville",
+      "status": "miss",
+      "slugsTried": [
+        "prattville",
+        "prattvillecountryclub",
+        "prattvillegolf",
+        "prattvillegolfclub",
+        "prattvillegolfcourse",
+        "prattvillecc"
+      ]
+    },
+    {
+      "input": "Pines Golf Course",
+      "city": "Millbrook",
+      "status": "miss",
+      "slugsTried": [
+        "pines",
+        "pinesgolfcourse",
+        "pinesgolf",
+        "pinesgolfclub",
+        "pinescc"
+      ]
+    },
+    {
+      "input": "Emerald Mountain Golf Club",
+      "city": "Wetumpka",
+      "status": "miss",
+      "slugsTried": [
+        "emeraldmountain",
+        "emeraldmountaingolfclub",
+        "emeraldmountaingolf",
+        "emeraldmountaingolfcourse",
+        "emeraldmountaincc"
+      ]
+    },
+    {
+      "input": "Quail Walk Golf Course",
+      "city": "Wetumpka",
+      "status": "miss",
+      "slugsTried": [
+        "quailwalk",
+        "quailwalkgolfcourse",
+        "quailwalkgolf",
+        "quailwalkgolfclub",
+        "quailwalkcc"
+      ]
+    },
+    {
+      "input": "Lakeside Golf \u0026 Country Club",
+      "city": "Tallassee",
+      "status": "miss",
+      "slugsTried": [
+        "lakesidegolfand",
+        "lakesidegolfandcountryclub",
+        "lakesidegolfandgolf",
+        "lakesidegolfandgolfclub",
+        "lakesidegolfandgolfcourse",
+        "lakesidegolfandcc",
+        "lakesidegolfcountryclub",
+        "lakesidegolf"
+      ]
+    },
+    {
+      "input": "Cambrian Ridge Golf Club - Canyon Course",
+      "city": "Greenville",
+      "status": "miss",
+      "slugsTried": [
+        "cambrianridgegolfclubcanyoncourse",
+        "cambrianridgegolfclubcanyoncoursegolf",
+        "cambrianridgegolfclubcanyoncoursegolfclub",
+        "cambrianridgegolfclubcanyoncoursegolfcourse",
+        "cambrianridgegolfclubcanyoncoursecc"
+      ]
+    },
+    {
+      "input": "Cambrian Ridge Golf Club - Loblolly Course",
+      "city": "Greenville",
+      "status": "miss",
+      "slugsTried": [
+        "cambrianridgegolfclubloblollycourse",
+        "cambrianridgegolfclubloblollycoursegolf",
+        "cambrianridgegolfclubloblollycoursegolfclub",
+        "cambrianridgegolfclubloblollycoursegolfcourse",
+        "cambrianridgegolfclubloblollycoursecc"
+      ]
+    },
+    {
+      "input": "Cambrian Ridge Golf Club - Sherling Course",
+      "city": "Greenville",
+      "status": "miss",
+      "slugsTried": [
+        "cambrianridgegolfclubsherlingcourse",
+        "cambrianridgegolfclubsherlingcoursegolf",
+        "cambrianridgegolfclubsherlingcoursegolfclub",
+        "cambrianridgegolfclubsherlingcoursegolfcourse",
+        "cambrianridgegolfclubsherlingcoursecc"
+      ]
+    },
+    {
+      "input": "Valley Grande Golf Course",
+      "city": "Valley Grande",
+      "status": "miss",
+      "slugsTried": [
+        "valleygrande",
+        "valleygrandegolfcourse",
+        "valleygrandegolf",
+        "valleygrandegolfclub",
+        "valleygrandecc"
+      ]
+    },
+    {
+      "input": "Craig Golf Course",
+      "city": "Selma",
+      "status": "miss",
+      "slugsTried": [
+        "craig",
+        "craiggolfcourse",
+        "craiggolf",
+        "craiggolfclub",
+        "craigcc"
+      ]
+    },
+    {
+      "input": "Lakewinds Golf Course",
+      "city": "Jacksons Gap",
+      "status": "miss",
+      "slugsTried": [
+        "lakewinds",
+        "lakewindsgolfcourse",
+        "lakewindsgolf",
+        "lakewindsgolfclub",
+        "lakewindscc"
+      ]
+    },
+    {
+      "input": "StillWaters Golf Course",
+      "city": "Dadeville",
+      "status": "miss",
+      "slugsTried": [
+        "stillwaters",
+        "stillwatersgolfcourse",
+        "stillwatersgolf",
+        "stillwatersgolfclub",
+        "stillwaterscc"
+      ]
+    }
+  ],
+  "state": "AL",
+  "timestamp": "2026-02-17T02:05:52-07:00",
+  "total": 19
+}

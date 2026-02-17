@@ -234,16 +234,18 @@ func FetchCPSGolf(config CPSGolfCourseConfig, date string) ([]DisplayTeeTime, er
 		return nil, err
 	}
 
-	var data CPSGolfResponse
-	err = json.Unmarshal(body, &data)
-	if err != nil {
-		return nil, nil
-	}
-
 	var slots []CPSGolfSlot
-	err = json.Unmarshal(data.Content, &slots)
-	if err != nil {
-		return nil, nil
+	// Try wrapped format first: {transactionId, isSuccess, content: [...]}
+	var data CPSGolfResponse
+	if json.Unmarshal(body, &data) == nil && len(data.Content) > 0 {
+		if json.Unmarshal(data.Content, &slots) != nil {
+			return nil, nil
+		}
+	} else {
+		// Fall back to raw list format: [...]
+		if json.Unmarshal(body, &slots) != nil {
+			return nil, nil
+		}
 	}
 
 	var results []DisplayTeeTime

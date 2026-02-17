@@ -78,6 +78,12 @@ var Metros = map[string]Metro{
 		State:   "OK",
 		Tagline: "Public Courses Across Metro OKC",
 	},
+	"montgomery": {
+		Name:    "Montgomery",
+		Slug:    "montgomery",
+		State:   "AL",
+		Tagline: "Public Courses Across the River Region",
+	},
 }
 
 func init() {
