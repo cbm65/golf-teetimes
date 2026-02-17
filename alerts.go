@@ -221,6 +221,64 @@ func findBookTrumpConfig(course string) (platforms.BookTrumpCourseConfig, bool) 
 	return platforms.BookTrumpCourseConfig{}, false
 }
 
+func metroForCourse(course string) string {
+	if c, ok := findChronogolfConfig(course); ok {
+		return c.Metro
+	}
+	if c, ok := findMemberSportsConfig(course); ok {
+		return c.Metro
+	}
+	if c, ok := findCPSGolfConfig(course); ok {
+		return c.Metro
+	}
+	if c, ok := findGolfNowConfig(course); ok {
+		return c.Metro
+	}
+	if c, ok := findTeeItUpConfig(course); ok {
+		return c.Metro
+	}
+	if c, ok := findClubCaddieConfig(course); ok {
+		return c.Metro
+	}
+	if c, ok := findQuick18Config(course); ok {
+		return c.Metro
+	}
+	if c, ok := findGolfWithAccessConfig(course); ok {
+		return c.Metro
+	}
+	if c, ok := findCourseRevConfig(course); ok {
+		return c.Metro
+	}
+	if c, ok := findRGuestConfig(course); ok {
+		return c.Metro
+	}
+	if c, ok := findCourseCoConfig(course); ok {
+		return c.Metro
+	}
+	if c, ok := findTeeSnapConfig(course); ok {
+		return c.Metro
+	}
+	if c, ok := findForeUpConfig(course); ok {
+		return c.Metro
+	}
+	if c, ok := findProphetConfig(course); ok {
+		return c.Metro
+	}
+	if c, ok := findPurposeGolfConfig(course); ok {
+		return c.Metro
+	}
+	if c, ok := findTeeQuestConfig(course); ok {
+		return c.Metro
+	}
+	if c, ok := findResortSuiteConfig(course); ok {
+		return c.Metro
+	}
+	if c, ok := findBookTrumpConfig(course); ok {
+		return c.Metro
+	}
+	return ""
+}
+
 func fetchForCourse(course string, date string) ([]platforms.DisplayTeeTime, error) {
 	var cgConfig platforms.ChronogolfCourseConfig
 	var cgFound bool
@@ -691,81 +749,119 @@ func startAlertChecker() {
 			continue
 		}
 
+		// Group active alerts by metro:date for batched fetching
+		type alertRef struct {
+			index int
+			alert platforms.Alert
+			metro string
+		}
+		groups := make(map[string][]alertRef) // key = metro:date
+
 		for i, alert := range alerts {
 			if !alert.Active {
 				continue
 			}
+			metro := metroForCourse(alert.Course)
+			if metro == "" {
+				// Unknown course — skip
+				fmt.Println("  [WARN] No metro found for course:", alert.Course)
+				continue
+			}
+			key := metro + ":" + alert.Date
+			groups[key] = append(groups[key], alertRef{index: i, alert: alert, metro: metro})
+		}
 
-			fmt.Println("")
-			fmt.Println("  Checking:", alert.Course, "|", alert.Date, "|", alert.StartTime, "–", alert.EndTime, "|", alert.Phone)
+		var dirty bool // track if any alerts were deactivated
 
-			var teeTimes []platforms.DisplayTeeTime
-			teeTimes, err = fetchForCourse(alert.Course, alert.Date)
-			if err != nil {
-				fmt.Println("    [ERROR] Fetching tee times:", err)
+		for groupKey, refs := range groups {
+			// Parse metro and date from group key
+			var metro string
+			var date string
+			for j := range groupKey {
+				if groupKey[j] == ':' {
+					metro = groupKey[:j]
+					date = groupKey[j+1:]
+					break
+				}
+			}
+
+			metroObj, metroExists := Metros[metro]
+			if !metroExists {
+				fmt.Println("  [WARN] Unknown metro slug:", metro)
 				continue
 			}
 
-			fmt.Println("    Fetched", len(teeTimes), "tee times for", alert.Date)
+			// One fetch for all alerts in this metro+date group
+			teeTimes := fetchMetroTeeTimes(metroObj, date)
+			fmt.Println("")
+			fmt.Printf("  Fetched %d tee times for %s on %s (%d alerts)\n", len(teeTimes), metro, date, len(refs))
 
-			var startMins int = parseTimeToMinutes(alert.StartTime)
-			var endMins int = parseTimeToMinutes(alert.EndTime)
-			var matches []MatchedTeeTime
+			for _, ref := range refs {
+				alert := ref.alert
+				fmt.Println("")
+				fmt.Println("  Checking:", alert.Course, "|", alert.Date, "|", alert.StartTime, "–", alert.EndTime, "|", alert.Phone)
 
-			for _, tt := range teeTimes {
-				var baseCourse string = getBaseCourse(tt.Course)
+				var startMins int = parseTimeToMinutes(alert.StartTime)
+				var endMins int = parseTimeToMinutes(alert.EndTime)
+				var matches []MatchedTeeTime
 
-				if baseCourse != alert.Course {
-					continue
+				for _, tt := range teeTimes {
+					var baseCourse string = getBaseCourse(tt.Course)
+
+					if baseCourse != alert.Course {
+						continue
+					}
+
+					if tt.Openings <= 0 {
+						fmt.Println("    ✗", tt.Time, tt.Course, "— no openings")
+						continue
+					}
+
+					if alert.MinPlayers > 0 && tt.Openings < alert.MinPlayers {
+						fmt.Println("    ✗", tt.Time, tt.Course, "— only", tt.Openings, "openings, need", alert.MinPlayers)
+						continue
+					}
+
+					if alert.Holes != "" && alert.Holes != "0" && tt.Holes != "" && tt.Holes != alert.Holes {
+						fmt.Println("    ✗", tt.Time, tt.Course, "—", tt.Holes, "holes, want", alert.Holes)
+						continue
+					}
+
+					var ttMins int = parseTimeToMinutes(tt.Time)
+					if ttMins < startMins || ttMins > endMins {
+						fmt.Println("    ✗", tt.Time, tt.Course, "— outside time window")
+						continue
+					}
+
+					fmt.Println("    ✓ MATCH!", tt.Time, tt.Course, "—", tt.Openings, "openings, $", tt.Price)
+					matches = append(matches, MatchedTeeTime{
+						Time:     tt.Time,
+						Openings: tt.Openings,
+						Price:    tt.Price,
+						Holes:    tt.Holes,
+					})
 				}
 
-				if tt.Openings <= 0 {
-					fmt.Println("    ✗", tt.Time, tt.Course, "— no openings")
-					continue
-				}
-
-				if alert.MinPlayers > 0 && tt.Openings < alert.MinPlayers {
-					fmt.Println("    ✗", tt.Time, tt.Course, "— only", tt.Openings, "openings, need", alert.MinPlayers)
-					continue
-				}
-
-				if alert.Holes != "" && alert.Holes != "0" && tt.Holes != "" && tt.Holes != alert.Holes {
-					fmt.Println("    ✗", tt.Time, tt.Course, "—", tt.Holes, "holes, want", alert.Holes)
-					continue
-				}
-
-				var ttMins int = parseTimeToMinutes(tt.Time)
-				if ttMins < startMins || ttMins > endMins {
-					fmt.Println("    ✗", tt.Time, tt.Course, "— outside time window")
-					continue
-				}
-
-				fmt.Println("    ✓ MATCH!", tt.Time, tt.Course, "—", tt.Openings, "openings, $", tt.Price)
-				matches = append(matches, MatchedTeeTime{
-					Time:     tt.Time,
-					Openings: tt.Openings,
-					Price:    tt.Price,
-					Holes:    tt.Holes,
-				})
-			}
-
-			if len(matches) == 0 {
-				fmt.Println("    No matches found")
-			} else {
-				var msg string = buildAlertMessage(alert.Course, alert.Date, matches)
-				fmt.Println("   ", len(matches), "match(es) found!")
-				fmt.Println("    Sending SMS to", alert.Phone)
-				var smsErr error = sendSMS(alert.Phone, msg)
-				if smsErr != nil {
-					fmt.Println("    [ERROR] SMS failed:", smsErr)
+				if len(matches) == 0 {
+					fmt.Println("    No matches found")
 				} else {
-					fmt.Println("    ✓ SMS sent successfully")
-					// Deactivate alert so we don't send again
-					alert.Active = false
-					alerts[i] = alert
-					saveAlerts(alerts)
+					var msg string = buildAlertMessage(alert.Course, alert.Date, matches)
+					fmt.Println("   ", len(matches), "match(es) found!")
+					fmt.Println("    Sending SMS to", alert.Phone)
+					var smsErr error = sendSMS(alert.Phone, msg)
+					if smsErr != nil {
+						fmt.Println("    [ERROR] SMS failed:", smsErr)
+					} else {
+						fmt.Println("    ✓ SMS sent successfully")
+						alerts[ref.index].Active = false
+						dirty = true
+					}
 				}
 			}
+		}
+
+		if dirty {
+			saveAlerts(alerts)
 		}
 
 		fmt.Println("")

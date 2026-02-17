@@ -17,6 +17,61 @@ type fetchResult struct {
 	name    string
 }
 
+// Minimal singleflight — collapses concurrent calls with the same key into one
+type flightCall struct {
+	wg  sync.WaitGroup
+	val interface{}
+}
+
+type flightGroup struct {
+	mu sync.Mutex
+	m  map[string]*flightCall
+}
+
+func (g *flightGroup) Do(key string, fn func() interface{}) interface{} {
+	g.mu.Lock()
+	if g.m == nil {
+		g.m = make(map[string]*flightCall)
+	}
+	if c, ok := g.m[key]; ok {
+		g.mu.Unlock()
+		c.wg.Wait()
+		return c.val
+	}
+	c := &flightCall{}
+	c.wg.Add(1)
+	g.m[key] = c
+	g.mu.Unlock()
+
+	c.val = fn()
+	c.wg.Done()
+
+	g.mu.Lock()
+	delete(g.m, key)
+	g.mu.Unlock()
+
+	return c.val
+}
+
+// In-memory tee time cache — collapses concurrent user requests into one upstream fetch per metro+date
+var teeTimeCache struct {
+	sync.RWMutex
+	entries map[string]cachedTeeTimes
+}
+
+var teeTimeFlight flightGroup
+
+type cachedTeeTimes struct {
+	data    []platforms.DisplayTeeTime
+	fetched time.Time
+}
+
+const teeTimeCacheTTL = 5 * time.Minute
+
+func init() {
+	teeTimeCache.entries = make(map[string]cachedTeeTimes)
+}
+
 type MetroPageData struct {
 	Date  string
 	Metro Metro
@@ -52,6 +107,35 @@ func handleMetroTeeTimes(w http.ResponseWriter, r *http.Request, metro Metro) {
 		date = time.Now().Format("2006-01-02")
 	}
 
+	// Check cache
+	cacheKey := metro.Slug + ":" + date
+	teeTimeCache.RLock()
+	if cached, ok := teeTimeCache.entries[cacheKey]; ok && time.Since(cached.fetched) < teeTimeCacheTTL {
+		teeTimeCache.RUnlock()
+		w.Header().Set("Content-Type", "application/json")
+		json.NewEncoder(w).Encode(cached.data)
+		return
+	}
+	teeTimeCache.RUnlock()
+
+	// singleflight: if multiple requests hit the same cache miss, only one fetches
+	val := teeTimeFlight.Do(cacheKey, func() interface{} {
+		// Double-check cache inside singleflight (another goroutine may have just filled it)
+		teeTimeCache.RLock()
+		if cached, ok := teeTimeCache.entries[cacheKey]; ok && time.Since(cached.fetched) < teeTimeCacheTTL {
+			teeTimeCache.RUnlock()
+			return cached.data
+		}
+		teeTimeCache.RUnlock()
+
+		return fetchMetroTeeTimes(metro, date)
+	})
+
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(val)
+}
+
+func fetchMetroTeeTimes(metro Metro, date string) []platforms.DisplayTeeTime {
 	var ch chan fetchResult = make(chan fetchResult)
 	var wg sync.WaitGroup
 
@@ -363,8 +447,13 @@ func handleMetroTeeTimes(w http.ResponseWriter, r *http.Request, metro Metro) {
 		return iMins < jMins
 	})
 
-	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(allResults)
+	// Cache results
+	cacheKey := metro.Slug + ":" + date
+	teeTimeCache.Lock()
+	teeTimeCache.entries[cacheKey] = cachedTeeTimes{data: allResults, fetched: time.Now()}
+	teeTimeCache.Unlock()
+
+	return allResults
 }
 
 func handleMetroAlerts(w http.ResponseWriter, r *http.Request, metro Metro) {
