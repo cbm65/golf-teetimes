@@ -78,7 +78,7 @@ func FetchDenver(date string) ([]DisplayTeeTime, error) {
 	req.Header.Set("Accept", "application/json")
 	req.Header.Set("x-api-key", DenverAPIKey)
 
-	var client http.Client
+	var client http.Client = http.Client{Timeout: PlatformTimeout}
 	var resp *http.Response
 	resp, err = client.Do(req)
 	if err != nil {

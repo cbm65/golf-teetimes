@@ -62,7 +62,7 @@ func FetchTeeSnap(config TeeSnapCourseConfig, date string) ([]DisplayTeeTime, er
 	req.Header.Set("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36")
 	req.Header.Set("Referer", "https://"+config.Subdomain+".teesnap.net/")
 
-	var client http.Client
+	var client http.Client = http.Client{Timeout: PlatformTimeout}
 	var resp *http.Response
 	resp, err = client.Do(req)
 	if err != nil {

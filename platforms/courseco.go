@@ -70,7 +70,7 @@ func FetchCourseCo(config CourseCoCourseConfig, date string) ([]DisplayTeeTime, 
 	req.Header.Set("Origin", origin)
 	req.Header.Set("Referer", origin+"/")
 
-	var client http.Client
+	var client http.Client = http.Client{Timeout: PlatformTimeout}
 	var resp *http.Response
 	resp, err = client.Do(req)
 	if err != nil {

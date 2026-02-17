@@ -106,6 +106,10 @@ func handleMetroTeeTimes(w http.ResponseWriter, r *http.Request, metro Metro) {
 	if date == "" {
 		date = time.Now().Format("2006-01-02")
 	}
+	if _, err := time.Parse("2006-01-02", date); err != nil {
+		http.Error(w, "Invalid date format", 400)
+		return
+	}
 
 	// Check cache
 	cacheKey := metro.Slug + ":" + date
@@ -491,6 +495,13 @@ func handleTerms(w http.ResponseWriter, r *http.Request) {
 }
 
 func handleGetAlerts(w http.ResponseWriter, r *http.Request) {
+	var phone string = r.URL.Query().Get("phone")
+	if phone == "" {
+		w.Header().Set("Content-Type", "application/json")
+		json.NewEncoder(w).Encode([]platforms.Alert{})
+		return
+	}
+
 	var alerts []platforms.Alert
 	var err error
 	alerts, err = loadAlerts()
@@ -499,8 +510,18 @@ func handleGetAlerts(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	var filtered []platforms.Alert
+	for _, a := range alerts {
+		if a.Phone == phone {
+			filtered = append(filtered, a)
+		}
+	}
+	if filtered == nil {
+		filtered = []platforms.Alert{}
+	}
+
 	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(alerts)
+	json.NewEncoder(w).Encode(filtered)
 }
 
 func handleCreateAlert(w http.ResponseWriter, r *http.Request) {

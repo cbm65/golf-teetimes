@@ -79,7 +79,7 @@ func FetchRGuest(config RGuestCourseConfig, date string) ([]DisplayTeeTime, erro
 	tokenReq.Header.Set("Referer", baseUrl+"/onecart/golf/courses/"+config.TenantID+"/"+config.PropertyID)
 	tokenReq.Header.Set("wbesessionid", sessionID)
 
-	var client http.Client
+	var client http.Client = http.Client{Timeout: PlatformTimeout}
 	var tokenResp *http.Response
 	tokenResp, err = client.Do(tokenReq)
 	if err != nil {

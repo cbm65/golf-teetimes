@@ -77,7 +77,7 @@ func FetchMemberSports(config MemberSportsCourseConfig, date string) ([]DisplayT
 	req.Header.Set("Accept", "application/json")
 	req.Header.Set("x-api-key", config.APIKey)
 
-	var client http.Client
+	var client http.Client = http.Client{Timeout: PlatformTimeout}
 	var resp *http.Response
 	resp, err = client.Do(req)
 	if err != nil {

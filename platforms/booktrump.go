@@ -64,7 +64,7 @@ func FetchBookTrump(config BookTrumpCourseConfig, date string) ([]DisplayTeeTime
 	req.Header.Set("Referer", config.BaseUrl+"/tee-times")
 	req.Header.Set("X-Requested-With", "XMLHttpRequest")
 
-	var client http.Client
+	var client http.Client = http.Client{Timeout: PlatformTimeout}
 	var resp *http.Response
 	resp, err = client.Do(req)
 	if err != nil {

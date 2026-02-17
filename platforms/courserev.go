@@ -76,7 +76,7 @@ func FetchCourseRev(config CourseRevCourseConfig, date string) ([]DisplayTeeTime
 	req.Header.Set("Origin", "https://"+config.SubDomain+".bookings.courserev.ai")
 	req.Header.Set("Referer", "https://"+config.SubDomain+".bookings.courserev.ai/")
 
-	var client http.Client
+	var client http.Client = http.Client{Timeout: PlatformTimeout}
 	var resp *http.Response
 	resp, err = client.Do(req)
 	if err != nil {

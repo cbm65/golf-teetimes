@@ -53,7 +53,7 @@ func FetchProphet(config ProphetCourseConfig, date string) ([]DisplayTeeTime, er
 		{Name: "CPS.Online3.CurrentUICulture", Value: "en"},
 	})
 
-	client := http.Client{Jar: jar}
+	client := http.Client{Jar: jar, Timeout: PlatformTimeout}
 
 	parsedDate, err := time.Parse("2006-01-02", date)
 	if err != nil {

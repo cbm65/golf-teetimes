@@ -1,5 +1,9 @@
 package platforms
 
+import "time"
+
+const PlatformTimeout = 15 * time.Second
+
 type DisplayTeeTime struct {
 	Time       string  `json:"time"`
 	Course     string  `json:"course"`

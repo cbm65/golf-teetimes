@@ -95,7 +95,7 @@ func FetchChronogolf(config ChronogolfCourseConfig, date string) ([]DisplayTeeTi
 
 		req.Header.Set("Accept", "application/json")
 
-		var client http.Client
+		var client http.Client = http.Client{Timeout: PlatformTimeout}
 		var resp *http.Response
 		resp, err = client.Do(req)
 		if err != nil {
@@ -193,7 +193,7 @@ func FetchChronogolfClub(config ChronogolfCourseConfig, date string) ([]DisplayT
 
 	req.Header.Set("Accept", "application/json")
 
-	var client http.Client
+	var client http.Client = http.Client{Timeout: PlatformTimeout}
 	var resp *http.Response
 	resp, err = client.Do(req)
 	if err != nil {

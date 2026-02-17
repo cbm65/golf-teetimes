@@ -5,19 +5,12 @@ async function loadAlerts() {
     var alertsList = document.getElementById("alertsList")
 
     try {
-        var response = await fetch("/api/alerts")
+        var response = await fetch("/api/alerts?phone=" + encodeURIComponent(currentPhone))
         if (!response.ok) {
             throw new Error("Server error: " + response.status)
         }
-        var allAlerts = await response.json()
-        if (!allAlerts) allAlerts = []
-
-        var alerts = []
-        for (var i = 0; i < allAlerts.length; i++) {
-            if (allAlerts[i].phone === currentPhone) {
-                alerts.push(allAlerts[i])
-            }
-        }
+        var alerts = await response.json()
+        if (!alerts) alerts = []
 
         alertsList.style.display = "block"
 

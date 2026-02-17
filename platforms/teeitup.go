@@ -85,7 +85,7 @@ func FetchTeeItUp(config TeeItUpCourseConfig, date string) ([]DisplayTeeTime, er
 	req.Header.Set("Accept", "application/json")
 	req.Header.Set("Origin", "https://"+config.Alias+".book.teeitup.com")
 
-	var client http.Client
+	var client http.Client = http.Client{Timeout: PlatformTimeout}
 	var resp *http.Response
 	resp, err = client.Do(req)
 	if err != nil {

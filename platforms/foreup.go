@@ -65,7 +65,7 @@ func FetchForeUp(config ForeUpCourseConfig, date string) ([]DisplayTeeTime, erro
 	}
 	var foreUpDate string = t.Format("01-02-2006")
 
-	var client http.Client
+	var client http.Client = http.Client{Timeout: PlatformTimeout}
 
 	// Resolve booking class if not set
 	var bookingClass string = config.BookingClass

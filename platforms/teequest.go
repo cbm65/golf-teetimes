@@ -34,7 +34,7 @@ var (
 
 func FetchTeeQuest(config TeeQuestCourseConfig, date string) ([]DisplayTeeTime, error) {
 	jar, _ := cookiejar.New(nil)
-	client := http.Client{Jar: jar}
+	client := http.Client{Jar: jar, Timeout: PlatformTimeout}
 
 	parsedDate, err := time.Parse("2006-01-02", date)
 	if err != nil {

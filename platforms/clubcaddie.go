@@ -55,7 +55,7 @@ func FetchClubCaddie(config ClubCaddieCourseConfig, date string) ([]DisplayTeeTi
 	var pageURL string = fmt.Sprintf("%s/webapi/view/%s/slots?date=%s&player=1&ratetype=any",
 		config.BaseURL, config.APIKey, encodedDate)
 
-	var client http.Client
+	var client http.Client = http.Client{Timeout: PlatformTimeout}
 	var pageResp *http.Response
 	pageResp, err = client.Get(pageURL)
 	if err != nil {

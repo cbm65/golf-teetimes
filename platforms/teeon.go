@@ -33,7 +33,7 @@ var (
 
 func FetchTeeOn(config TeeOnCourseConfig, date string) ([]DisplayTeeTime, error) {
 	jar, _ := cookiejar.New(nil)
-	client := &http.Client{Jar: jar}
+	client := &http.Client{Jar: jar, Timeout: PlatformTimeout}
 	ua := "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
 
 	// Step 1: GET TrailSearch — follows redirect to WebBookingAllTimesLanding, establishes session

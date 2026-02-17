@@ -38,7 +38,7 @@ const soapEnvelopeClose = `</soapenv:Body></soapenv:Envelope>`
 
 func FetchResortSuite(config ResortSuiteCourseConfig, date string) ([]DisplayTeeTime, error) {
 	jar, _ := cookiejar.New(nil)
-	client := &http.Client{Jar: jar}
+	client := &http.Client{Jar: jar, Timeout: PlatformTimeout}
 
 	// Step 1: Establish session
 	req, _ := http.NewRequest("GET", config.BaseURL+"/", nil)

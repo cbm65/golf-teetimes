@@ -102,7 +102,7 @@ func setCPSHeaders(req *http.Request, config CPSGolfCourseConfig) {
 
 func FetchCPSGolf(config CPSGolfCourseConfig, date string) ([]DisplayTeeTime, error) {
 	jar, _ := cookiejar.New(nil)
-	client := http.Client{Jar: jar}
+	client := http.Client{Jar: jar, Timeout: PlatformTimeout}
 
 	// Step 1: Fetch Configuration to get apiKey dynamically
 	configReq, err := http.NewRequest("GET", config.BaseURL+"/onlineresweb/Home/Configuration", nil)

@@ -92,7 +92,7 @@ func formatGolfNowDate(date string) string {
 }
 
 func getVerificationToken(facilityURL string) (string, error) {
-	var client http.Client
+	var client http.Client = http.Client{Timeout: PlatformTimeout}
 	var req *http.Request
 	var err error
 	req, err = http.NewRequest("GET", facilityURL, nil)
@@ -201,7 +201,7 @@ func FetchGolfNow(config GolfNowCourseConfig, date string) ([]DisplayTeeTime, er
 	req.Header.Set("__requestverificationtoken", token)
 	req.Header.Set("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36")
 
-	var client http.Client
+	var client http.Client = http.Client{Timeout: PlatformTimeout}
 	var resp *http.Response
 	resp, err = client.Do(req)
 	if err != nil {

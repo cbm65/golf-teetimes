@@ -96,7 +96,7 @@ func FetchEZLinks(config EZLinksCourseConfig, date string) ([]DisplayTeeTime, er
 	req.Header.Set("Content-Type", "application/json; charset=UTF-8")
 	req.Header.Set("Accept", "application/json")
 
-	var client http.Client
+	var client http.Client = http.Client{Timeout: PlatformTimeout}
 	var resp *http.Response
 	resp, err = client.Do(req)
 	if err != nil {
