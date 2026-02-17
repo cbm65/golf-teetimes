@@ -552,5 +552,33 @@
     },
     "city": "Lincolnton",
     "state": "NC"
-  }
+  },
+  {
+  "key": "forest-creek",
+  "metro": "austin",
+  "courseIds": "b7169df1-7c8e-4c80-b2ff-f68a3f98c00c",
+  "clubId": "",
+  "numericCourseId": "",
+  "affiliationTypeId": "139028",
+  "bookingUrl": "https://www.chronogolf.com/club/forest-creek-golf-club-texas",
+  "names": {
+    "Forest Creek": "Forest Creek Golf Club"
+  },
+  "city": "Round Rock",
+  "state": "TX"
+},
+  {
+  "key": "delaware-springs",
+  "metro": "austin",
+  "courseIds": "bab0e48e-c1a3-49c1-bf5a-4788374104aa",
+  "clubId": "",
+  "numericCourseId": "",
+  "affiliationTypeId": "55062",
+  "bookingUrl": "https://www.chronogolf.com/club/delaware-springs-golf-course",
+  "names": {
+    "Delaware Springs": "Delaware Springs Golf Course"
+  },
+  "city": "Burnet",
+  "state": "TX"
+}
 ]

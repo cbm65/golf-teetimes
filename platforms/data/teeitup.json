@@ -2704,5 +2704,113 @@
     "displayName": "Rock Barn Golf & Spa - Jackson Course",
     "city": "Conover",
     "state": "NC"
-  }
+  },
+  {
+  "key": "jimmy-clay",
+  "metro": "austin",
+  "alias": "jimmy-clay-golf-course",
+  "facilityId": "759",
+  "displayName": "Jimmy Clay Golf Course",
+  "city": "Austin",
+  "state": "TX"
+},
+  {
+  "key": "roy-kizer",
+  "metro": "austin",
+  "alias": "roy-kizer-golf-course",
+  "facilityId": "590",
+  "displayName": "Roy Kizer Golf Course",
+  "city": "Austin",
+  "state": "TX"
+},
+  {
+  "key": "morris-williams",
+  "metro": "austin",
+  "alias": "morris-williams-golf-course",
+  "facilityId": "620",
+  "displayName": "Morris Williams Golf Course",
+  "city": "Austin",
+  "state": "TX"
+},
+  {
+  "key": "grey-rock",
+  "metro": "austin",
+  "alias": "grey-rock-golf-club",
+  "facilityId": "166",
+  "displayName": "Grey Rock Golf Club",
+  "city": "Austin",
+  "state": "TX"
+},
+  {
+  "key": "harvey-penick",
+  "metro": "austin",
+  "alias": "harvey-penick-golf-campus",
+  "facilityId": "1020",
+  "displayName": "Harvey Penick Golf Campus",
+  "city": "Austin",
+  "state": "TX"
+},
+  {
+  "key": "blackhawk",
+  "metro": "austin",
+  "alias": "blackhawk-golf-club",
+  "facilityId": "139",
+  "displayName": "Blackhawk Golf Club",
+  "city": "Pflugerville",
+  "state": "TX"
+},
+  {
+  "key": "point-venture",
+  "metro": "austin",
+  "alias": "point-venture-golf-club",
+  "facilityId": "3498",
+  "displayName": "Point Venture Golf Club",
+  "city": "Point Venture",
+  "state": "TX"
+},
+  {
+  "key": "vaaler-creek",
+  "metro": "austin",
+  "alias": "vaaler-creek-golf-club",
+  "facilityId": "5199",
+  "displayName": "Vaaler Creek Golf Club",
+  "city": "Blanco",
+  "state": "TX"
+},
+  {
+  "key": "shadow-glen",
+  "metro": "austin",
+  "alias": "shadowglen-golf-club",
+  "facilityId": "591",
+  "displayName": "Shadow Glen Golf Club",
+  "city": "Manor",
+  "state": "TX"
+},
+  {
+  "key": "crystal-falls",
+  "metro": "austin",
+  "alias": "crystal-falls-golf-club-2",
+  "facilityId": "5741",
+  "displayName": "Crystal Falls Golf Club",
+  "city": "Leander",
+  "state": "TX"
+},
+  {
+  "key": "lago-vista",
+  "metro": "austin",
+  "alias": "lago-vista-golf-course",
+  "facilityId": "145",
+  "displayName": "Lago Vista Golf Course",
+  "city": "Lago Vista",
+  "state": "TX"
+},
+  {
+  "key": "pine-forest",
+  "metro": "austin",
+  "alias": "pine-forest-gc",
+  "facilityId": "223",
+  "displayName": "Pine Forest Golf Club",
+  "city": "Bastrop",
+  "state": "TX"
+}
 ]

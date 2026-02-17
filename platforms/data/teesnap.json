@@ -48,5 +48,15 @@
     "displayName": "Sand Canyon Country Club",
     "city": "Santa Clarita",
     "state": "CA"
-  }
+  },
+  {
+  "key": "mustang-creek",
+  "metro": "austin",
+  "subdomain": "golfmustangcreek",
+  "courseId": "1034",
+  "bookingUrl": "https://golfmustangcreek.teesnap.net",
+  "displayName": "Mustang Creek Golf Course",
+  "city": "Taylor",
+  "state": "TX"
+}
 ]

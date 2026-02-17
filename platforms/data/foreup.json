@@ -664,5 +664,49 @@
     "displayName": "Warrior Golf Club",
     "city": "China Grove",
     "state": "NC"
-  }
+  },
+  {
+  "key": "colovista",
+  "metro": "austin",
+  "courseId": "20676",
+  "bookingClass": "6283",
+  "scheduleId": "5414",
+  "bookingUrl": "",
+  "displayName": "ColoVista Golf Club",
+  "city": "Bastrop",
+  "state": "TX"
+},
+  {
+  "key": "avery-ranch",
+  "metro": "austin",
+  "courseId": "23032",
+  "bookingClass": "14268",
+  "scheduleId": "10175",
+  "bookingUrl": "",
+  "displayName": "Avery Ranch Golf Club",
+  "city": "Austin",
+  "state": "TX"
+},
+  {
+  "key": "falconhead",
+  "metro": "austin",
+  "courseId": "23031",
+  "bookingClass": "14336",
+  "scheduleId": "10177",
+  "bookingUrl": "",
+  "displayName": "Falconhead Golf Club",
+  "city": "Lakeway",
+  "state": "TX"
+},
+  {
+  "key": "teravista",
+  "metro": "austin",
+  "courseId": "23033",
+  "bookingClass": "14332",
+  "scheduleId": "10176",
+  "bookingUrl": "",
+  "displayName": "Teravista Golf Club",
+  "city": "Round Rock",
+  "state": "TX"
+}
 ]

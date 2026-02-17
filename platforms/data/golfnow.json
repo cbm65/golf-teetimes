@@ -1428,5 +1428,29 @@
     "displayName": "Westport Golf Club",
     "city": "Denver",
     "state": "NC"
-  }
+  },
+  {
+  "key": "lions-municipal",
+  "metro": "austin",
+  "facilityId": 834,
+  "displayName": "Lions Municipal Golf Course",
+  "city": "Austin",
+  "state": "TX"
+},
+  {
+  "key": "lost-pines",
+  "metro": "austin",
+  "facilityId": 2007,
+  "displayName": "Lost Pines Golf Club",
+  "city": "Cedar Creek",
+  "state": "TX"
+},
+  {
+  "key": "star-ranch",
+  "metro": "austin",
+  "facilityId": 151,
+  "displayName": "The Golf Club Star Ranch",
+  "city": "Hutto",
+  "state": "TX"
+}
 ]

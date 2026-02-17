@@ -108,5 +108,15 @@
     "displayName": "Reidy Creek Golf Course",
     "city": "Escondido",
     "state": "CA"
-  }
+  },
+  {
+  "key": "riverside",
+  "metro": "austin",
+  "subdomain": "riverside",
+  "courseId": "RIVERSIDE",
+  "bookingUrl": "https://riverside.totaleintegrated.net",
+  "displayName": "Riverside Golf Course",
+  "city": "Austin",
+  "state": "TX"
+}
 ]

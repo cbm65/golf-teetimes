@@ -847,5 +847,37 @@
     "city": "Tega Cay",
     "state": "SC",
     "timezone": "America/New_York"
-  }
+  },
+  {
+  "key": "plum-creek",
+  "metro": "austin",
+  "baseUrl": "https://foresightplumcreek.cps.golf",
+  "apiKey": "",
+  "websiteId": "0ad3857d-1704-43be-9703-08da6f83475a",
+  "siteId": "1",
+  "courseIds": "",
+  "bookingUrl": "https://foresightplumcreek.cps.golf/onlineresweb/search-teetime",
+  "names": {
+    "Plum Creek": "Plum Creek Golf Course"
+  },
+  "city": "Kyle",
+  "state": "TX",
+  "timezone": "America/Chicago"
+},
+  {
+  "key": "double-j-ranch",
+  "metro": "austin",
+  "baseUrl": "https://doublejranch.cps.golf",
+  "apiKey": "",
+  "websiteId": "0c68af11-ba27-4d32-c550-08daf8b161e6",
+  "siteId": "1",
+  "courseIds": "",
+  "bookingUrl": "https://doublejranch.cps.golf/onlineresweb/search-teetime",
+  "names": {
+    "My Course": "Double J Ranch Golf Club"
+  },
+  "city": "San Marcos",
+  "state": "TX",
+  "timezone": "America/Chicago"
+}
 ]

@@ -1,0 +1,1021 @@
+{
+  "confirmed": 2,
+  "elapsed": "1m37.777693417s",
+  "listedOnly": 20,
+  "misses": 17,
+  "platform": "chronogolf",
+  "results": [
+    {
+      "input": "Lions Municipal Golf Course",
+      "city": "Austin",
+      "slug": "lions-municipal-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "40841161-bdf3-4cff-831c-2062b0342be3",
+        "id": 13747,
+        "name": "Lions Municipal Golf Club",
+        "slug": "lions-municipal-golf-club",
+        "city": "Austin",
+        "province": "Texas",
+        "country": "United States",
+        "address": "2901 Enfield Rd",
+        "phone": "(512) 477-6963",
+        "website": "",
+        "postcode": "78703",
+        "defaultAffiliationTypeId": 55810,
+        "location": {
+          "lat": 30.295509,
+          "lon": -97.782331
+        },
+        "courses": [
+          {
+            "id": 15758,
+            "name": "Lions Municipal",
+            "holes": 18,
+            "uuid": "9f416272-1bb9-4b10-a77f-952211eee084"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Jimmy Clay Golf Course",
+      "city": "Austin",
+      "slug": "jimmy-clay-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "92d310d1-ad48-46ad-8c61-bc476452f622",
+        "id": 13705,
+        "name": "Jimmy Clay Golf Club",
+        "slug": "jimmy-clay-golf-club",
+        "city": "Austin",
+        "province": "Texas",
+        "country": "United States",
+        "address": "5400 Jimmy Clay Dr",
+        "phone": "(512) 444-0999",
+        "website": "http://www.ci.austin.tx.us",
+        "postcode": "78744",
+        "defaultAffiliationTypeId": 55642,
+        "location": {
+          "lat": 30.190007,
+          "lon": -97.733061
+        },
+        "courses": [
+          {
+            "id": 15715,
+            "name": "Roy Kizer",
+            "holes": 18,
+            "uuid": "cd3a8410-20a7-4cca-9781-b897d2bdffac"
+          },
+          {
+            "id": 15714,
+            "name": "Jimmy Clay",
+            "holes": 18,
+            "uuid": "a889deea-681e-46aa-a8a6-b1aeb328e05a"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Roy Kizer Golf Course",
+      "city": "Austin",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Morris Williams Golf Course",
+      "city": "Austin",
+      "slug": "morris-williams-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "e6c3cbda-4ec2-4078-9df9-92a8ef9aac61",
+        "id": 13801,
+        "name": "Morris Williams Golf Course",
+        "slug": "morris-williams-golf-course",
+        "city": "Austin",
+        "province": "Texas",
+        "country": "United States",
+        "address": "4305 Manor Rd",
+        "phone": "(512) 926-1298",
+        "website": "http://www.ci.austin.tx.us",
+        "postcode": "78723",
+        "defaultAffiliationTypeId": 56026,
+        "location": {
+          "lat": 30.289444,
+          "lon": -97.697874
+        },
+        "courses": [
+          {
+            "id": 15819,
+            "name": "Morris Williams",
+            "holes": 18,
+            "uuid": "cc71a91f-50a0-4e77-8f5c-777bc851e4d4"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Hancock Golf Course",
+      "city": "Austin",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Grey Rock Golf Club",
+      "city": "Austin",
+      "slug": "grey-rock-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "31e631e1-840e-4fc0-9e1e-b368d6441910",
+        "id": 13645,
+        "name": "Grey Rock Golf Club",
+        "slug": "grey-rock-golf-club",
+        "city": "Austin",
+        "province": "Texas",
+        "country": "United States",
+        "address": "7401 Hwy 45",
+        "phone": "(512) 288-4297",
+        "website": "http://www.greyrockgolfclub.com",
+        "postcode": "78739",
+        "defaultAffiliationTypeId": 55402,
+        "location": {
+          "lat": 30.187091,
+          "lon": -97.912452
+        },
+        "courses": [
+          {
+            "id": 15637,
+            "name": "Grey Rock",
+            "holes": 18,
+            "uuid": "88749ef1-4a02-4ce2-8e09-b35c1d0e024e"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Harvey Penick Golf Campus",
+      "city": "Austin",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Avery Ranch Golf Club",
+      "city": "Austin",
+      "slug": "avery-ranch-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "877565fe-787e-46dc-a7b0-da1ad92d8b79",
+        "id": 13429,
+        "name": "Avery Ranch Golf Club",
+        "slug": "avery-ranch-golf-club",
+        "city": "Austin",
+        "province": "Texas",
+        "country": "United States",
+        "address": "10500 Avery Club Dr",
+        "phone": "(512) 248-2442",
+        "website": "http://www.averyranchgolf.com",
+        "postcode": "78717",
+        "defaultAffiliationTypeId": 54538,
+        "location": {
+          "lat": 30.504163846122285,
+          "lon": -97.77064621534042
+        },
+        "courses": []
+      }
+    },
+    {
+      "input": "Forest Creek Golf Club",
+      "city": "Round Rock",
+      "slug": "forest-creek-golf-club-texas",
+      "slugSource": "name+state",
+      "status": "confirmed",
+      "club": {
+        "uuid": "76008de9-7eee-405f-bee4-9d66243be4ed",
+        "id": 13600,
+        "name": "Forest Creek Golf Club",
+        "slug": "forest-creek-golf-club-texas",
+        "city": "Round Rock",
+        "province": "Texas",
+        "country": "United States",
+        "address": "99 Twin Ridge Pkwy",
+        "phone": "(512) 388-2874",
+        "website": "http://www.forestcreek.com",
+        "postcode": "78664",
+        "defaultAffiliationTypeId": 139028,
+        "location": {
+          "lat": 30.500962,
+          "lon": -97.6741
+        },
+        "courses": [
+          {
+            "id": 15579,
+            "name": "Forest Creek",
+            "holes": 18,
+            "uuid": "b7169df1-7c8e-4c80-b2ff-f68a3f98c00c"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        24,
+        21,
+        24
+      ]
+    },
+    {
+      "input": "Teravista Golf Club",
+      "city": "Round Rock",
+      "slug": "teravista-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "4b03381a-d5cc-4390-bf2d-8584380ab4e8",
+        "id": 14018,
+        "name": "Teravista Golf Club",
+        "slug": "teravista-golf-club",
+        "city": "Round Rock",
+        "province": "Texas",
+        "country": "United States",
+        "address": "4333 Teravista Club Dr",
+        "phone": "(512) 651-9850",
+        "website": "http://www.teravistagolf.com",
+        "postcode": "78664",
+        "defaultAffiliationTypeId": 56894,
+        "location": {
+          "lat": 30.5717521,
+          "lon": -97.6717023
+        },
+        "courses": []
+      }
+    },
+    {
+      "input": "The Golf Club at Star Ranch",
+      "city": "Hutto",
+      "slug": "the-golf-club-at-star-ranch",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "06d35216-71f4-462c-974e-bcc3119e6eff",
+        "id": 14043,
+        "name": "The Golf Club at Star Ranch",
+        "slug": "the-golf-club-at-star-ranch",
+        "city": "Hutto",
+        "province": "Texas",
+        "country": "United States",
+        "address": "2500 FM 685",
+        "phone": "(512) 252-4653",
+        "website": "http://www.starranchgolf.com",
+        "postcode": "78634",
+        "defaultAffiliationTypeId": 56994,
+        "location": {
+          "lat": 30.506338,
+          "lon": -97.578571
+        },
+        "courses": [
+          {
+            "id": 16113,
+            "name": "Star Ranch",
+            "holes": 18,
+            "uuid": "2e406c32-2353-42e7-a7d1-aea58cdcb6f5"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Blackhawk Golf Club",
+      "city": "Pflugerville",
+      "slug": "blackhawk-golf-club-texas",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "47887050-d0b5-4fe2-bf49-947df1cf451c",
+        "id": 13457,
+        "name": "Blackhawk Golf Club",
+        "slug": "blackhawk-golf-club-texas",
+        "city": "Austin",
+        "province": "Texas",
+        "country": "United States",
+        "address": "2714 Kelly Ln",
+        "phone": "(512) 251-9000",
+        "website": "http://www.blackhawkgolf.com",
+        "postcode": "78660",
+        "defaultAffiliationTypeId": 54650,
+        "location": {
+          "lat": 30.465969,
+          "lon": -97.581367
+        },
+        "courses": [
+          {
+            "id": 15421,
+            "name": "Blackhawk",
+            "holes": 18,
+            "uuid": "b1ef2957-15fb-4be9-80d0-e4cfbf797dde"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Shadow Glen Golf Club",
+      "city": "Manor",
+      "slug": "shadow-glen-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "cd8e594e-145c-4d27-99ab-efe0674a4ad8",
+        "id": 13961,
+        "name": "Shadow Glen Golf Club",
+        "slug": "shadow-glen-golf-club",
+        "city": "Manor",
+        "province": "Texas",
+        "country": "United States",
+        "address": "12801 Lexington St",
+        "phone": "(512) 278-1304",
+        "website": "http://www.shadowglengolf.com",
+        "postcode": "78653",
+        "defaultAffiliationTypeId": 56666,
+        "location": {
+          "lat": 30.3526195,
+          "lon": -97.5570185
+        },
+        "courses": [
+          {
+            "id": 16016,
+            "name": "Shadow Glen",
+            "holes": 18,
+            "uuid": "ed68ee54-eeb4-4af2-bc33-f997cf4bcb07"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Crystal Falls Golf Club",
+      "city": "Leander",
+      "slug": "crystal-falls-golf-course",
+      "slugSource": "swap-golf-course",
+      "status": "listed_only",
+      "club": {
+        "uuid": "7b184715-bda2-4204-8d05-04feb3644a00",
+        "id": 13548,
+        "name": "Crystal Falls Golf Course",
+        "slug": "crystal-falls-golf-course",
+        "city": "Leander",
+        "province": "Texas",
+        "country": "United States",
+        "address": "3400 Crystal Falls Pkwy",
+        "phone": "(512) 259-5855",
+        "website": "http://www.golfclubatcrystalfalls.com",
+        "postcode": "78641",
+        "defaultAffiliationTypeId": 55014,
+        "location": {
+          "lat": 30.536685,
+          "lon": -97.879987
+        },
+        "courses": [
+          {
+            "id": 15519,
+            "name": "Crystal Falls",
+            "holes": 18,
+            "uuid": "cc2cab80-a763-4ae9-b7f7-9430147b1fe8"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Sun City Texas - Legacy Hills",
+      "city": "Georgetown",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Sun City Texas - White Wing",
+      "city": "Georgetown",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Sun City Texas - Cowan Creek",
+      "city": "Georgetown",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Falconhead Golf Club",
+      "city": "Lakeway",
+      "slug": "falconhead-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "e869ec0f-9305-429a-8d64-29856a4a0380",
+        "id": 13592,
+        "name": "Falconhead Golf Club",
+        "slug": "falconhead-golf-club",
+        "city": "Austin",
+        "province": "Texas",
+        "country": "United States",
+        "address": "15201 Falconhead Blvd",
+        "phone": "(512) 402-1558",
+        "website": "http://www.falconheadaustin.com",
+        "postcode": "78738",
+        "defaultAffiliationTypeId": 55190,
+        "location": {
+          "lat": 30.3181862,
+          "lon": -97.991986
+        },
+        "courses": []
+      }
+    },
+    {
+      "input": "Yaupon Golf Course",
+      "city": "Lakeway",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Live Oak Golf Course",
+      "city": "Lakeway",
+      "slug": "live-oak-country-club-texas--2",
+      "slugSource": "swap-country-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "26410fca-9891-44fd-9aab-956ea6ebd2c9",
+        "id": 13750,
+        "name": "Live Oak Country Club",
+        "slug": "live-oak-country-club-texas--2",
+        "city": "Weatherford",
+        "province": "Texas",
+        "country": "United States",
+        "address": "1734 Bethel Rd",
+        "phone": "(817) 594-7596",
+        "website": "",
+        "postcode": "76086",
+        "defaultAffiliationTypeId": 55822,
+        "location": {
+          "lat": 32.737646,
+          "lon": -97.798641
+        },
+        "courses": [
+          {
+            "id": 15761,
+            "name": "Live Oak",
+            "holes": 9,
+            "uuid": "f50ac24a-f92d-455f-96d4-2ac0286714ba"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Lago Vista Golf Course",
+      "city": "Lago Vista",
+      "slug": "lago-vista-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "e7cc34e4-2629-4b35-be13-3d970110e89a",
+        "id": 13722,
+        "name": "Lago Vista Golf Course",
+        "slug": "lago-vista-golf-course",
+        "city": "Lago Vista",
+        "province": "Texas",
+        "country": "United States",
+        "address": "4616 Rimrock Dr",
+        "phone": "+1 512-237-7272",
+        "website": "http://www.lagovistagc.com",
+        "postcode": "78645-6142",
+        "defaultAffiliationTypeId": 55710,
+        "location": {
+          "lat": 30.4467304,
+          "lon": -98.005881
+        },
+        "courses": []
+      }
+    },
+    {
+      "input": "Point Venture Golf Club",
+      "city": "Leander",
+      "slug": "point-venture-country-club",
+      "slugSource": "swap-country-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "2a2c4498-77bc-4bd9-abc7-357604cf9d27",
+        "id": 13887,
+        "name": "Point Venture Country Club",
+        "slug": "point-venture-country-club",
+        "city": "Leander",
+        "province": "Texas",
+        "country": "United States",
+        "address": "422 Venture Blvd S",
+        "phone": "(512) 267-2768",
+        "website": "",
+        "postcode": "78645",
+        "defaultAffiliationTypeId": 56370,
+        "location": {
+          "lat": 30.386934,
+          "lon": -97.99051
+        },
+        "courses": [
+          {
+            "id": 15924,
+            "name": "Point Venture",
+            "holes": 9,
+            "uuid": "8a5bae6e-1557-44f3-8ee2-da4bc259a1ea"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Plum Creek Golf Course",
+      "city": "Kyle",
+      "slug": "plum-creek-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "92ebbbeb-2f81-4e9b-8532-7bfd3dd94c85",
+        "id": 13886,
+        "name": "Plum Creek Golf Club",
+        "slug": "plum-creek-golf-club",
+        "city": "Kyle",
+        "province": "Texas",
+        "country": "United States",
+        "address": "750 Kohlers Crossing Rd",
+        "phone": "(512) 262-5555",
+        "website": "http://www.plumcreekgolf.com",
+        "postcode": "78640",
+        "defaultAffiliationTypeId": 56366,
+        "location": {
+          "lat": 30.028012,
+          "lon": -97.882502
+        },
+        "courses": [
+          {
+            "id": 15923,
+            "name": "18 Hole",
+            "holes": 18,
+            "uuid": "e80df908-08d0-44db-8177-d35801cb929d"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Kissing Tree Golf Club",
+      "city": "San Marcos",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Onion Creek Club",
+      "city": "Austin",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Omni Barton Creek - Fazio Canyons",
+      "city": "Austin",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Omni Barton Creek - Fazio Foothills",
+      "city": "Austin",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Omni Barton Creek - Crenshaw Cliffside",
+      "city": "Austin",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Omni Barton Creek - Palmer Lakeside",
+      "city": "Spicewood",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Wolfdancer Golf Club",
+      "city": "Cedar Creek",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "ColoVista Golf Club",
+      "city": "Bastrop",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Pine Forest Golf Club",
+      "city": "Bastrop",
+      "slug": "pine-forest-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "fd74e68a-a68c-4452-bab7-37af23dccc15",
+        "id": 13876,
+        "name": "Pine Forest Golf Club",
+        "slug": "pine-forest-golf-club",
+        "city": "Bastrop",
+        "province": "Texas",
+        "country": "United States",
+        "address": "2509 Riverside Dr",
+        "phone": "(361) 321-1181",
+        "website": "",
+        "postcode": "78602",
+        "defaultAffiliationTypeId": 56326,
+        "location": {
+          "lat": 30.067942,
+          "lon": -97.294238
+        },
+        "courses": [
+          {
+            "id": 15913,
+            "name": "Pine Forest",
+            "holes": 18,
+            "uuid": "52629c69-04c2-4d1f-9cab-26015007283f"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Lost Pines Golf Club",
+      "city": "Bastrop",
+      "slug": "lost-pines-golf-course",
+      "slugSource": "swap-golf-course",
+      "status": "listed_only",
+      "club": {
+        "uuid": "fd56c624-89e2-4b42-ba66-e44c851de244",
+        "id": 13764,
+        "name": "Lost Pines Golf Course",
+        "slug": "lost-pines-golf-course",
+        "city": "Bastrop",
+        "province": "Texas",
+        "country": "United States",
+        "address": "Park Rd 1-A Bastrop Park",
+        "phone": "(512) 303-1368",
+        "website": "http://www.lostpinesgolfclub.com",
+        "postcode": "78602",
+        "defaultAffiliationTypeId": 55878,
+        "location": {
+          "lat": 30.114166,
+          "lon": -97.2598913
+        },
+        "courses": [
+          {
+            "id": 15777,
+            "name": "Lost Pines",
+            "holes": 18,
+            "uuid": "76e00f96-8185-4ed6-8090-b7442706bceb"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Vaaler Creek Golf Club",
+      "city": "Blanco",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Delaware Springs Golf Course",
+      "city": "Burnet",
+      "slug": "delaware-springs-golf-course",
+      "slugSource": "name+state",
+      "status": "confirmed",
+      "club": {
+        "uuid": "d3000481-7469-490e-bf3c-6d9795388f32",
+        "id": 13560,
+        "name": "Delaware Springs Golf Course",
+        "slug": "delaware-springs-golf-course",
+        "city": "Burnet",
+        "province": "Texas",
+        "country": "United States",
+        "address": "600 Delaware Springs Blvd",
+        "phone": "5127568471",
+        "website": "http://www.golfclubsusa.com/delsprings",
+        "postcode": "78611-3584",
+        "defaultAffiliationTypeId": 55062,
+        "location": {
+          "lat": 31.049818,
+          "lon": -98.181618
+        },
+        "courses": [
+          {
+            "id": 15534,
+            "name": "Delaware Springs",
+            "holes": 18,
+            "uuid": "bab0e48e-c1a3-49c1-bf5a-4788374104aa"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "input": "Double J Ranch Golf Club",
+      "city": "Wimberley",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Lockhart State Park Golf Course",
+      "city": "Lockhart",
+      "slug": "lockhart-state-park-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "a466a306-6d8f-42bc-9c05-938d5c6c55d2",
+        "id": 13754,
+        "name": "Lockhart State Park Golf Course",
+        "slug": "lockhart-state-park-golf-course",
+        "city": "Lockhart",
+        "province": "Texas",
+        "country": "United States",
+        "address": "Route 3",
+        "phone": "(512) 398-3479",
+        "website": "",
+        "postcode": "78644",
+        "defaultAffiliationTypeId": 55838,
+        "location": {
+          "lat": 29.875227,
+          "lon": -97.6632
+        },
+        "courses": [
+          {
+            "id": 15765,
+            "name": "Lockhart State Park",
+            "holes": 18,
+            "uuid": "c4e5bd2f-8376-4953-baa1-579ddd427234"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Mustang Creek Golf Course",
+      "city": "Taylor",
+      "slug": "mustang-creek-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "144893b6-156f-4083-b2d9-3acdb1336790",
+        "id": 13808,
+        "name": "Mustang Creek Golf Course",
+        "slug": "mustang-creek-golf-course",
+        "city": "Taylor",
+        "province": "Texas",
+        "country": "United States",
+        "address": "Gano \u0026 Wabash",
+        "phone": "(512) 365-1332",
+        "website": "http://www.mustangcreektaylor.com",
+        "postcode": "76574",
+        "defaultAffiliationTypeId": 56054,
+        "location": {
+          "lat": 30.555564,
+          "lon": -97.412462
+        },
+        "courses": [
+          {
+            "id": 15826,
+            "name": "Mustang Creek",
+            "holes": 9,
+            "uuid": "0503485e-a6eb-4cda-a372-85810a9d93bc"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Riverside Golf Course",
+      "city": "Austin",
+      "slug": "riverside-golf-course-texas",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "d6c3e3f8-7b57-46f5-99be-d778c2fb564f",
+        "id": 13934,
+        "name": "Riverside Golf Course",
+        "slug": "riverside-golf-course-texas",
+        "city": "Austin",
+        "province": "Texas",
+        "country": "United States",
+        "address": "1020 Grove Blvd",
+        "phone": "(512) 386-7077",
+        "website": "http://www.riverside-gc.com",
+        "postcode": "78741",
+        "defaultAffiliationTypeId": 56558,
+        "location": {
+          "lat": 30.236507,
+          "lon": -97.703407
+        },
+        "courses": [
+          {
+            "id": 15984,
+            "name": "Riverside",
+            "holes": 18,
+            "uuid": "5c2dba55-44b1-4227-afef-67a7e7bc8295"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "state": "TX",
+  "timestamp": "2026-02-17T11:40:14-07:00",
+  "totalInput": 39,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-21",
+    "2026-02-28"
+  ],
+  "wrongState": 0
+}

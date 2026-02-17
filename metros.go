@@ -102,6 +102,12 @@ var Metros = map[string]Metro{
 		State:   "CA",
 		Tagline: "Year-Round Golf Across San Diego County",
 	},
+	"austin": {
+		Name:    "Austin",
+		Slug:    "austin",
+		State:   "TX",
+		Tagline: "Public Courses Across the Texas Hill Country",
+	},
 }
 
 func init() {

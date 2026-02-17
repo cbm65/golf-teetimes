@@ -239,5 +239,17 @@
     "displayName": "Sunset Hills Golf Course",
     "city": "Charlotte",
     "state": "NC"
-  }
+  },
+  {
+  "key": "kissing-tree",
+  "metro": "austin",
+  "courseIds": [
+    "5244ceab-e41e-410f-9dfa-ad6023a30159"
+  ],
+  "slug": "kissing-tree-golf-club",
+  "bookingUrl": "https://golfwithaccess.com/course/kissing-tree-golf-club/reserve-tee-time",
+  "displayName": "Kissing Tree Golf Club",
+  "city": "San Marcos",
+  "state": "TX"
+}
 ]

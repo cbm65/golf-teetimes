@@ -1,0 +1,643 @@
+{
+  "confirmed": 0,
+  "elapsed": "50.958856s",
+  "listedOnly": 1,
+  "misses": 38,
+  "platform": "cpsgolf",
+  "results": [
+    {
+      "input": "Lions Municipal Golf Course",
+      "city": "Austin",
+      "status": "miss",
+      "slugsTried": [
+        "lionsmunicipal",
+        "lionsmunicipalgolfcourse",
+        "lionsmunicipalgolf",
+        "lionsmunicipalgolfclub",
+        "lionsmunicipalcc",
+        "lions-municipal",
+        "lionsmunicipalaustin",
+        "lions-municipal-golf-course"
+      ]
+    },
+    {
+      "input": "Jimmy Clay Golf Course",
+      "city": "Austin",
+      "status": "miss",
+      "slugsTried": [
+        "jimmyclay",
+        "jimmyclaygolfcourse",
+        "jimmyclaygolf",
+        "jimmyclaygolfclub",
+        "jimmyclaycc",
+        "jimmy-clay",
+        "jimmyclayaustin",
+        "jimmy-clay-golf-course"
+      ]
+    },
+    {
+      "input": "Roy Kizer Golf Course",
+      "city": "Austin",
+      "status": "miss",
+      "slugsTried": [
+        "roykizer",
+        "roykizergolfcourse",
+        "roykizergolf",
+        "roykizergolfclub",
+        "roykizercc",
+        "roy-kizer",
+        "roykizeraustin",
+        "roy-kizer-golf-course"
+      ]
+    },
+    {
+      "input": "Morris Williams Golf Course",
+      "city": "Austin",
+      "status": "miss",
+      "slugsTried": [
+        "morriswilliams",
+        "morriswilliamsgolfcourse",
+        "morriswilliamsgolf",
+        "morriswilliamsgolfclub",
+        "morriswilliamscc",
+        "morris-williams",
+        "morriswilliamsaustin",
+        "morris-williams-golf-course"
+      ]
+    },
+    {
+      "input": "Hancock Golf Course",
+      "city": "Austin",
+      "status": "miss",
+      "slugsTried": [
+        "hancock",
+        "hancockgolfcourse",
+        "hancockgolf",
+        "hancockgolfclub",
+        "hancockcc",
+        "hancockaustin",
+        "hancock-golf-course"
+      ]
+    },
+    {
+      "input": "Grey Rock Golf Club",
+      "city": "Austin",
+      "status": "miss",
+      "slugsTried": [
+        "greyrock",
+        "greyrockgolfclub",
+        "greyrockgolf",
+        "greyrockgolfcourse",
+        "greyrockcc",
+        "grey-rock",
+        "greyrockaustin",
+        "grey-rock-golf-club"
+      ]
+    },
+    {
+      "input": "Harvey Penick Golf Campus",
+      "city": "Austin",
+      "status": "miss",
+      "slugsTried": [
+        "harveypenickgolfcampus",
+        "harveypenickgolfcampusgolf",
+        "harveypenickgolfcampusgolfclub",
+        "harveypenickgolfcampusgolfcourse",
+        "harveypenickgolfcampuscc",
+        "harvey-penick-golf-campus",
+        "harveypenickgolfcampusaustin"
+      ]
+    },
+    {
+      "input": "Avery Ranch Golf Club",
+      "city": "Austin",
+      "status": "miss",
+      "slugsTried": [
+        "averyranch",
+        "averyranchgolfclub",
+        "averyranchgolf",
+        "averyranchgolfcourse",
+        "averyranchcc",
+        "avery-ranch",
+        "averyranchaustin",
+        "avery-ranch-golf-club"
+      ]
+    },
+    {
+      "input": "Forest Creek Golf Club",
+      "city": "Round Rock",
+      "status": "miss",
+      "slugsTried": [
+        "forestcreek",
+        "forestcreekgolfclub",
+        "forestcreekgolf",
+        "forestcreekgolfcourse",
+        "forestcreekcc",
+        "forest-creek",
+        "forestcreekroundrock",
+        "forest-creek-golf-club"
+      ]
+    },
+    {
+      "input": "Teravista Golf Club",
+      "city": "Round Rock",
+      "status": "miss",
+      "slugsTried": [
+        "teravista",
+        "teravistagolfclub",
+        "teravistagolf",
+        "teravistagolfcourse",
+        "teravistacc",
+        "teravistaroundrock",
+        "teravista-golf-club"
+      ]
+    },
+    {
+      "input": "The Golf Club at Star Ranch",
+      "city": "Hutto",
+      "status": "miss",
+      "slugsTried": [
+        "golfclubatstarranch",
+        "thegolfclubatstarranch",
+        "golfclubatstarranchgolf",
+        "golfclubatstarranchgolfclub",
+        "golfclubatstarranchgolfcourse",
+        "golfclubatstarranchcc",
+        "golf-club-at-star-ranch",
+        "golfclubatstarranchhutto",
+        "the-golf-club-at-star-ranch"
+      ]
+    },
+    {
+      "input": "Blackhawk Golf Club",
+      "city": "Pflugerville",
+      "status": "listed_only",
+      "slug": "blackhawk",
+      "slugSource": "core",
+      "config": {
+        "clientId": "",
+        "production": true,
+        "onlineApi": "https://blackhawk.cps.golf/onlineres/onlineapi/api/v1/onlinereservation",
+        "siteName": "blackhawk",
+        "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+        "buildNumber": "25.1.9.61297\n",
+        "BaseURL": "https://blackhawk.cps.golf",
+        "WebSiteID": "f55c14be-4001-4a09-f182-08daf8a55a21",
+        "SiteID": 1
+      },
+      "courses": [
+        {
+          "websiteId": "f55c14be-4001-4a09-f182-08daf8a55a21",
+          "timezoneId": "",
+          "storeId": 0,
+          "courseId": 1,
+          "courseName": "Black Hawk",
+          "siteId": 1,
+          "holes": 18,
+          "active": true
+        }
+      ],
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Shadow Glen Golf Club",
+      "city": "Manor",
+      "status": "miss",
+      "slugsTried": [
+        "shadowglen",
+        "shadowglengolfclub",
+        "shadowglengolf",
+        "shadowglengolfcourse",
+        "shadowglencc",
+        "shadow-glen",
+        "shadowglenmanor",
+        "shadow-glen-golf-club"
+      ]
+    },
+    {
+      "input": "Crystal Falls Golf Club",
+      "city": "Leander",
+      "status": "miss",
+      "slugsTried": [
+        "crystalfalls",
+        "crystalfallsgolfclub",
+        "crystalfallsgolf",
+        "crystalfallsgolfcourse",
+        "crystalfallscc",
+        "crystal-falls",
+        "crystalfallsleander",
+        "crystal-falls-golf-club"
+      ]
+    },
+    {
+      "input": "Sun City Texas - Legacy Hills",
+      "city": "Georgetown",
+      "status": "miss",
+      "slugsTried": [
+        "suncitytexaslegacyhills",
+        "suncitytexaslegacyhillsgolf",
+        "suncitytexaslegacyhillsgolfclub",
+        "suncitytexaslegacyhillsgolfcourse",
+        "suncitytexaslegacyhillscc",
+        "sun-city-texas---legacy-hills",
+        "suncitytexas",
+        "suncitytexasgolf",
+        "suncitytexasgolfclub",
+        "suncitytexasgolfcourse",
+        "suncitytexaslegacyhillsgeorgetown",
+        "suncitytexasgeorgetown"
+      ]
+    },
+    {
+      "input": "Sun City Texas - White Wing",
+      "city": "Georgetown",
+      "status": "miss",
+      "slugsTried": [
+        "suncitytexaswhitewing",
+        "suncitytexaswhitewinggolf",
+        "suncitytexaswhitewinggolfclub",
+        "suncitytexaswhitewinggolfcourse",
+        "suncitytexaswhitewingcc",
+        "sun-city-texas---white-wing",
+        "suncitytexas",
+        "suncitytexasgolf",
+        "suncitytexasgolfclub",
+        "suncitytexasgolfcourse",
+        "suncitytexaswhitewinggeorgetown",
+        "suncitytexasgeorgetown"
+      ]
+    },
+    {
+      "input": "Sun City Texas - Cowan Creek",
+      "city": "Georgetown",
+      "status": "miss",
+      "slugsTried": [
+        "suncitytexascowancreek",
+        "suncitytexascowancreekgolf",
+        "suncitytexascowancreekgolfclub",
+        "suncitytexascowancreekgolfcourse",
+        "suncitytexascowancreekcc",
+        "sun-city-texas---cowan-creek",
+        "suncitytexas",
+        "suncitytexasgolf",
+        "suncitytexasgolfclub",
+        "suncitytexasgolfcourse",
+        "suncitytexascowancreekgeorgetown",
+        "suncitytexasgeorgetown"
+      ]
+    },
+    {
+      "input": "Falconhead Golf Club",
+      "city": "Lakeway",
+      "status": "miss",
+      "slugsTried": [
+        "falconhead",
+        "falconheadgolfclub",
+        "falconheadgolf",
+        "falconheadgolfcourse",
+        "falconheadcc",
+        "falconheadlakeway",
+        "falconhead-golf-club"
+      ]
+    },
+    {
+      "input": "Yaupon Golf Course",
+      "city": "Lakeway",
+      "status": "miss",
+      "slugsTried": [
+        "yaupon",
+        "yaupongolfcourse",
+        "yaupongolf",
+        "yaupongolfclub",
+        "yauponcc",
+        "yauponlakeway",
+        "yaupon-golf-course"
+      ]
+    },
+    {
+      "input": "Live Oak Golf Course",
+      "city": "Lakeway",
+      "status": "miss",
+      "slugsTried": [
+        "liveoak",
+        "liveoakgolfcourse",
+        "liveoakgolf",
+        "liveoakgolfclub",
+        "liveoakcc",
+        "live-oak",
+        "liveoaklakeway",
+        "live-oak-golf-course"
+      ]
+    },
+    {
+      "input": "Lago Vista Golf Course",
+      "city": "Lago Vista",
+      "status": "miss",
+      "slugsTried": [
+        "lagovista",
+        "lagovistagolfcourse",
+        "lagovistagolf",
+        "lagovistagolfclub",
+        "lagovistacc",
+        "lago-vista",
+        "lagovistalagovista",
+        "lago-vista-golf-course"
+      ]
+    },
+    {
+      "input": "Point Venture Golf Club",
+      "city": "Leander",
+      "status": "miss",
+      "slugsTried": [
+        "pointventure",
+        "pointventuregolfclub",
+        "pointventuregolf",
+        "pointventuregolfcourse",
+        "pointventurecc",
+        "point-venture",
+        "pointventureleander",
+        "point-venture-golf-club"
+      ]
+    },
+    {
+      "input": "Plum Creek Golf Course",
+      "city": "Kyle",
+      "status": "miss",
+      "slugsTried": [
+        "plumcreek",
+        "plumcreekgolfcourse",
+        "plumcreekgolf",
+        "plumcreekgolfclub",
+        "plumcreekcc",
+        "plum-creek",
+        "plumcreekkyle",
+        "plum-creek-golf-course"
+      ]
+    },
+    {
+      "input": "Kissing Tree Golf Club",
+      "city": "San Marcos",
+      "status": "miss",
+      "slugsTried": [
+        "kissingtree",
+        "kissingtreegolfclub",
+        "kissingtreegolf",
+        "kissingtreegolfcourse",
+        "kissingtreecc",
+        "kissing-tree",
+        "kissingtreesanmarcos",
+        "kissing-tree-golf-club"
+      ]
+    },
+    {
+      "input": "Onion Creek Club",
+      "city": "Austin",
+      "status": "miss",
+      "slugsTried": [
+        "onioncreekclub",
+        "onioncreekclubgolf",
+        "onioncreekclubgolfclub",
+        "onioncreekclubgolfcourse",
+        "onioncreekclubcc",
+        "onion-creek-club",
+        "onioncreekclubaustin"
+      ]
+    },
+    {
+      "input": "Omni Barton Creek - Fazio Canyons",
+      "city": "Austin",
+      "status": "miss",
+      "slugsTried": [
+        "omnibartoncreekfaziocanyons",
+        "omnibartoncreekfaziocanyonsgolf",
+        "omnibartoncreekfaziocanyonsgolfclub",
+        "omnibartoncreekfaziocanyonsgolfcourse",
+        "omnibartoncreekfaziocanyonscc",
+        "omni-barton-creek---fazio-canyons",
+        "omnibartoncreek",
+        "omnibartoncreekgolf",
+        "omnibartoncreekgolfclub",
+        "omnibartoncreekgolfcourse",
+        "omnibartoncreekfaziocanyonsaustin",
+        "omnibartoncreekaustin"
+      ]
+    },
+    {
+      "input": "Omni Barton Creek - Fazio Foothills",
+      "city": "Austin",
+      "status": "miss",
+      "slugsTried": [
+        "omnibartoncreekfaziofoothills",
+        "omnibartoncreekfaziofoothillsgolf",
+        "omnibartoncreekfaziofoothillsgolfclub",
+        "omnibartoncreekfaziofoothillsgolfcourse",
+        "omnibartoncreekfaziofoothillscc",
+        "omni-barton-creek---fazio-foothills",
+        "omnibartoncreek",
+        "omnibartoncreekgolf",
+        "omnibartoncreekgolfclub",
+        "omnibartoncreekgolfcourse",
+        "omnibartoncreekfaziofoothillsaustin",
+        "omnibartoncreekaustin"
+      ]
+    },
+    {
+      "input": "Omni Barton Creek - Crenshaw Cliffside",
+      "city": "Austin",
+      "status": "miss",
+      "slugsTried": [
+        "omnibartoncreekcrenshawcliffside",
+        "omnibartoncreekcrenshawcliffsidegolf",
+        "omnibartoncreekcrenshawcliffsidegolfclub",
+        "omnibartoncreekcrenshawcliffsidegolfcourse",
+        "omnibartoncreekcrenshawcliffsidecc",
+        "omni-barton-creek---crenshaw-cliffside",
+        "omnibartoncreek",
+        "omnibartoncreekgolf",
+        "omnibartoncreekgolfclub",
+        "omnibartoncreekgolfcourse",
+        "omnibartoncreekcrenshawcliffsideaustin",
+        "omnibartoncreekaustin"
+      ]
+    },
+    {
+      "input": "Omni Barton Creek - Palmer Lakeside",
+      "city": "Spicewood",
+      "status": "miss",
+      "slugsTried": [
+        "omnibartoncreekpalmerlakeside",
+        "omnibartoncreekpalmerlakesidegolf",
+        "omnibartoncreekpalmerlakesidegolfclub",
+        "omnibartoncreekpalmerlakesidegolfcourse",
+        "omnibartoncreekpalmerlakesidecc",
+        "omni-barton-creek---palmer-lakeside",
+        "omnibartoncreek",
+        "omnibartoncreekgolf",
+        "omnibartoncreekgolfclub",
+        "omnibartoncreekgolfcourse",
+        "omnibartoncreekpalmerlakesidespicewood",
+        "omnibartoncreekspicewood"
+      ]
+    },
+    {
+      "input": "Wolfdancer Golf Club",
+      "city": "Cedar Creek",
+      "status": "miss",
+      "slugsTried": [
+        "wolfdancer",
+        "wolfdancergolfclub",
+        "wolfdancergolf",
+        "wolfdancergolfcourse",
+        "wolfdancercc",
+        "wolfdancercedarcreek",
+        "wolfdancer-golf-club"
+      ]
+    },
+    {
+      "input": "ColoVista Golf Club",
+      "city": "Bastrop",
+      "status": "miss",
+      "slugsTried": [
+        "colovista",
+        "colovistagolfclub",
+        "colovistagolf",
+        "colovistagolfcourse",
+        "colovistacc",
+        "colovistabastrop",
+        "colovista-golf-club"
+      ]
+    },
+    {
+      "input": "Pine Forest Golf Club",
+      "city": "Bastrop",
+      "status": "miss",
+      "slugsTried": [
+        "pineforest",
+        "pineforestgolfclub",
+        "pineforestgolf",
+        "pineforestgolfcourse",
+        "pineforestcc",
+        "pine-forest",
+        "pineforestbastrop",
+        "pine-forest-golf-club"
+      ]
+    },
+    {
+      "input": "Lost Pines Golf Club",
+      "city": "Bastrop",
+      "status": "miss",
+      "slugsTried": [
+        "lostpines",
+        "lostpinesgolfclub",
+        "lostpinesgolf",
+        "lostpinesgolfcourse",
+        "lostpinescc",
+        "lost-pines",
+        "lostpinesbastrop",
+        "lost-pines-golf-club"
+      ]
+    },
+    {
+      "input": "Vaaler Creek Golf Club",
+      "city": "Blanco",
+      "status": "miss",
+      "slugsTried": [
+        "vaalercreek",
+        "vaalercreekgolfclub",
+        "vaalercreekgolf",
+        "vaalercreekgolfcourse",
+        "vaalercreekcc",
+        "vaaler-creek",
+        "vaalercreekblanco",
+        "vaaler-creek-golf-club"
+      ]
+    },
+    {
+      "input": "Delaware Springs Golf Course",
+      "city": "Burnet",
+      "status": "miss",
+      "slugsTried": [
+        "delawaresprings",
+        "delawarespringsgolfcourse",
+        "delawarespringsgolf",
+        "delawarespringsgolfclub",
+        "delawarespringscc",
+        "delaware-springs",
+        "delawarespringsburnet",
+        "delaware-springs-golf-course"
+      ]
+    },
+    {
+      "input": "Double J Ranch Golf Club",
+      "city": "Wimberley",
+      "status": "miss",
+      "slugsTried": [
+        "doublejranch",
+        "doublejranchgolfclub",
+        "doublejranchgolf",
+        "doublejranchgolfcourse",
+        "doublejranchcc",
+        "double-j-ranch",
+        "doublejranchwimberley",
+        "double-j-ranch-golf-club"
+      ]
+    },
+    {
+      "input": "Lockhart State Park Golf Course",
+      "city": "Lockhart",
+      "status": "miss",
+      "slugsTried": [
+        "lockhartstatepark",
+        "lockhartstateparkgolfcourse",
+        "lockhartstateparkgolf",
+        "lockhartstateparkgolfclub",
+        "lockhartstateparkcc",
+        "lockhart-state-park",
+        "lockhartstateparklockhart",
+        "lockhart-state-park-golf-course"
+      ]
+    },
+    {
+      "input": "Mustang Creek Golf Course",
+      "city": "Taylor",
+      "status": "miss",
+      "slugsTried": [
+        "mustangcreek",
+        "mustangcreekgolfcourse",
+        "mustangcreekgolf",
+        "mustangcreekgolfclub",
+        "mustangcreekcc",
+        "mustang-creek",
+        "mustangcreektaylor",
+        "mustang-creek-golf-course"
+      ]
+    },
+    {
+      "input": "Riverside Golf Course",
+      "city": "Austin",
+      "status": "miss",
+      "slugsTried": [
+        "riverside",
+        "riversidegolfcourse",
+        "riversidegolf",
+        "riversidegolfclub",
+        "riversidecc",
+        "riversideaustin",
+        "riverside-golf-course"
+      ]
+    }
+  ],
+  "state": "TX",
+  "timestamp": "2026-02-17T11:41:51-07:00",
+  "total": 39,
+  "wrongState": 0
+}

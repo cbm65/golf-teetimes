@@ -1,0 +1,786 @@
+{
+  "confirmed": 10,
+  "elapsed": "1m50.942708042s",
+  "errors": 0,
+  "listedOnly": 10,
+  "misses": 19,
+  "platform": "teeitup",
+  "results": [
+    {
+      "input": "Lions Municipal Golf Course",
+      "city": "Austin",
+      "alias": "lions-municipal-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 834,
+        "courseId": "54f14b9b0c8ad60378b0129d",
+        "name": "Lions Municipal Golf Course",
+        "address": "2901 Enfield Road, Austin, TX 78703 US",
+        "locality": "Austin",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.773846,
+          30.291338
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Jimmy Clay Golf Course",
+      "city": "Austin",
+      "alias": "jimmy-clay-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 759,
+        "courseId": "54f14b930c8ad60378b011e3",
+        "name": "Jimmy Clay Golf Course",
+        "address": "5400 Jimmy Clay Drive, Austin, TX 78744 US",
+        "locality": "Austin",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.731496,
+          30.185899
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        21,
+        9,
+        0
+      ]
+    },
+    {
+      "input": "Roy Kizer Golf Course",
+      "city": "Austin",
+      "alias": "roy-kizer-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 590,
+        "courseId": "54f14b770c8ad60378b01092",
+        "name": "Roy Kizer Golf Course",
+        "address": "5400 Jimmy Clay Drive, Austin, TX 78744 US",
+        "locality": "Austin",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.733496,
+          30.186899
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        20,
+        9,
+        0
+      ]
+    },
+    {
+      "input": "Morris Williams Golf Course",
+      "city": "Austin",
+      "alias": "morris-williams-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 620,
+        "courseId": "54f14b7a0c8ad60378b010c4",
+        "name": "Morris Williams Golf Course",
+        "address": "3851 Manor Road, Austin, TX 78723 US",
+        "locality": "Austin",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.690512,
+          30.291412
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        18,
+        9,
+        0
+      ]
+    },
+    {
+      "input": "Hancock Golf Course",
+      "city": "Austin",
+      "alias": "hancock-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 10870,
+        "courseId": "54f14f820c8ad60378b06837",
+        "name": "Hancock Golf Course",
+        "address": "811 E 41st St, Austin, TX 78751 US",
+        "locality": "Austin",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.723941,
+          30.300532
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Grey Rock Golf Club",
+      "city": "Austin",
+      "alias": "grey-rock-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 166,
+        "courseId": "54f14b410c8ad60378b00cc5",
+        "name": "Grey Rock Golf Club",
+        "address": "7401 Highway 45, Austin, TX 78739 US",
+        "locality": "Austin",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.922805,
+          30.196365
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "input": "Harvey Penick Golf Campus",
+      "city": "Austin",
+      "alias": "harvey-penick-golf-campus",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1020,
+        "courseId": "54f14bac0c8ad60378b0141b",
+        "name": "Harvey Penick Golf Campus",
+        "address": "Home of The First Tee of Greater Austin, Austin, TX 78723, US",
+        "locality": "Austin",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.663531,
+          30.29301
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        59,
+        40,
+        0
+      ]
+    },
+    {
+      "input": "Avery Ranch Golf Club",
+      "city": "Austin",
+      "alias": "avery-ranch-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 206,
+        "courseId": "54f14b460c8ad60378b00d2a",
+        "name": "Avery Ranch Golf Club",
+        "address": "10500 Avery Club Dr., Austin, TX 78717, US",
+        "locality": "Austin",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.76979,
+          30.489833
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Forest Creek Golf Club",
+      "city": "Round Rock",
+      "alias": "forest-creek-gc",
+      "aliasSource": "swap-gc",
+      "status": "confirmed",
+      "facility": {
+        "id": 896,
+        "courseId": "54f14ba10c8ad60378b01328",
+        "name": "Forest Creek GC",
+        "address": "99 Twin Ridge Parkway, Round Rock, TX 78664, US",
+        "locality": "Round Rock",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.601441,
+          30.518452
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        21,
+        11,
+        21
+      ]
+    },
+    {
+      "input": "Teravista Golf Club",
+      "city": "Round Rock",
+      "alias": "teravista-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 99,
+        "courseId": "54f14b370c8ad60378b00c23",
+        "name": "Teravista Golf Club",
+        "address": "4333 Teravista Club Drive, Round Rock, TX 78664, US",
+        "locality": "Round Rock",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.666579,
+          30.56533
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Golf Club at Star Ranch",
+      "city": "Hutto",
+      "alias": "the-golf-club-at-star-ranch",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Blackhawk Golf Club",
+      "city": "Pflugerville",
+      "alias": "blackhawk-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 139,
+        "courseId": "54f14b3c0c8ad60378b00c78",
+        "name": "Blackhawk Golf Club",
+        "address": "2714 Kelly Lane, Pflugerville, TX 78660 US",
+        "locality": "Pflugerville",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.578723,
+          30.464834
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        72,
+        61,
+        0
+      ]
+    },
+    {
+      "input": "Shadow Glen Golf Club",
+      "city": "Manor",
+      "alias": "shadow-glen-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Crystal Falls Golf Club",
+      "city": "Leander",
+      "alias": "crystal-falls-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Sun City Texas - Legacy Hills",
+      "city": "Georgetown",
+      "alias": "sun-city-texas-legacy-hills",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Sun City Texas - White Wing",
+      "city": "Georgetown",
+      "alias": "sun-city-texas-white-wing",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Sun City Texas - Cowan Creek",
+      "city": "Georgetown",
+      "alias": "sun-city-texas-cowan-creek",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Falconhead Golf Club",
+      "city": "Lakeway",
+      "alias": "falconhead-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 321,
+        "courseId": "54f14b560c8ad60378b00e42",
+        "name": "Falconhead Golf Club",
+        "address": "15201 Falconhead Blvd., Austin, TX 78738, US",
+        "locality": "Austin",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.968114,
+          30.321087
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Yaupon Golf Course",
+      "city": "Lakeway",
+      "alias": "yaupon-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Live Oak Golf Course",
+      "city": "Lakeway",
+      "alias": "live-oak-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Lago Vista Golf Course",
+      "city": "Lago Vista",
+      "alias": "lago-vista-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Point Venture Golf Club",
+      "city": "Leander",
+      "alias": "point-venture-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 3498,
+        "courseId": "54f14c820c8ad60378b02736",
+        "name": "Point Venture Golf Club",
+        "address": "422 Venture Blvd South, Point Venture, TX 78645 US",
+        "locality": "Point Venture",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.997794,
+          30.382392
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        37,
+        36,
+        0
+      ]
+    },
+    {
+      "input": "Plum Creek Golf Course",
+      "city": "Kyle",
+      "alias": "plum-creek-golf-club",
+      "aliasSource": "swap-golf-club",
+      "status": "listed_only",
+      "facility": {
+        "id": 205,
+        "courseId": "54f14b450c8ad60378b00d25",
+        "name": "Plum Creek Golf Club",
+        "address": "750 Kohler's Crossing, Kyle, TX 78640 US",
+        "locality": "Kyle",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.882357,
+          30.027848
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Kissing Tree Golf Club",
+      "city": "San Marcos",
+      "alias": "kissing-tree-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Onion Creek Club",
+      "city": "Austin",
+      "alias": "onion-creek-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 3827,
+        "courseId": "54f14ca00c8ad60378b029e4",
+        "name": "Onion Creek Club",
+        "address": "2510 Onion Creek Parkway, Austin, TX 78747 US",
+        "locality": "Austin",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.790481,
+          30.136331
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Omni Barton Creek - Fazio Canyons",
+      "city": "Austin",
+      "alias": "omni-barton-creek-fazio-canyons",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Omni Barton Creek - Fazio Foothills",
+      "city": "Austin",
+      "alias": "omni-barton-creek-fazio-foothills",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Omni Barton Creek - Crenshaw Cliffside",
+      "city": "Austin",
+      "alias": "omni-barton-creek-crenshaw-cliffside",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Omni Barton Creek - Palmer Lakeside",
+      "city": "Spicewood",
+      "alias": "omni-barton-creek-palmer-lakeside",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Wolfdancer Golf Club",
+      "city": "Cedar Creek",
+      "alias": "wolfdancer-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "ColoVista Golf Club",
+      "city": "Bastrop",
+      "alias": "colovista-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 592,
+        "courseId": "54f14b780c8ad60378b01098",
+        "name": "ColoVista Country Club and Resort",
+        "address": "100 Country Club Drive, Bastrop, TX 78602, US",
+        "locality": "Bastrop",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.26688139999999,
+          30.0543837
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Pine Forest Golf Club",
+      "city": "Bastrop",
+      "alias": "pine-forest-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Lost Pines Golf Club",
+      "city": "Bastrop",
+      "alias": "lost-pines-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 381,
+        "courseId": "54f14b5e0c8ad60378b00ec1",
+        "name": "Lost Pines Golf Club",
+        "address": "Park Road 1A, Bastrop, TX 78602 US",
+        "locality": "Bastrop",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.27464,
+          30.1158
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Vaaler Creek Golf Club",
+      "city": "Blanco",
+      "alias": "vaaler-creek-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 5199,
+        "courseId": "54f14d370c8ad60378b03756",
+        "name": "Vaaler Creek Golf Club",
+        "address": "228 Jeff Vaughn, Blanco, TX 78606 US",
+        "locality": "Blanco",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -98.382911,
+          30.042795
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        27,
+        20,
+        4
+      ]
+    },
+    {
+      "input": "Delaware Springs Golf Course",
+      "city": "Burnet",
+      "alias": "delaware-springs-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 64,
+        "courseId": "54f14b330c8ad60378b00bdd",
+        "name": "Delaware Springs Golf Course",
+        "address": "600 Delaware Springs Boulevard, Burnet, TX 78611 US",
+        "locality": "Burnet",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -98.252282,
+          30.718973
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        49,
+        33,
+        38
+      ]
+    },
+    {
+      "input": "Double J Ranch Golf Club",
+      "city": "Wimberley",
+      "alias": "double-j-ranch-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Lockhart State Park Golf Course",
+      "city": "Lockhart",
+      "alias": "lockhart-state-park-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Mustang Creek Golf Course",
+      "city": "Taylor",
+      "alias": "mustang-creek-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 5640,
+        "courseId": "54f14d670c8ad60378b03bca",
+        "name": "Mustang Creek Golf Course",
+        "address": "US 79, Taylor, TX 76574 US",
+        "locality": "Taylor",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -97.412444,
+          30.555464
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Riverside Golf Course",
+      "city": "Austin",
+      "alias": "riverside-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    }
+  ],
+  "state": "TX",
+  "timestamp": "2026-02-17T11:39:52-07:00",
+  "totalInput": 39,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-21",
+    "2026-02-28"
+  ]
+}
