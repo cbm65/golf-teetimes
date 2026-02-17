@@ -1784,5 +1784,23 @@
     "displayName": "Twelve Stones Golf Club",
     "city": "Goodlettsville",
     "state": "TN"
+  },
+  {
+    "key": "marty-sanchez-links-de-santa-fe",
+    "metro": "albuquerque",
+    "alias": "marty-sanchez-links-de-santa-fe",
+    "facilityId": "11522",
+    "displayName": "Marty Sanchez Links de Santa Fe",
+    "city": "Santa Fe",
+    "state": "NM"
+  },
+  {
+    "key": "paradise-hills",
+    "metro": "albuquerque",
+    "alias": "paradise-hills-golf-course",
+    "facilityId": "1396",
+    "displayName": "Paradise Hills Golf Course",
+    "city": "Albuquerque",
+    "state": "NM"
   }
 ]

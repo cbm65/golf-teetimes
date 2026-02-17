@@ -8,5 +8,15 @@
     "displayName": "Sundance Golf Club",
     "city": "Buckeye",
     "state": "AZ"
+  },
+  {
+    "key": "tierra-del-sol",
+    "metro": "albuquerque",
+    "subdomain": "golftierradelsol",
+    "courseId": "507",
+    "bookingUrl": "https://golftierradelsol.teesnap.net",
+    "displayName": "Tierra del Sol Golf Club",
+    "city": "Rio Communities",
+    "state": "NM"
   }
 ]

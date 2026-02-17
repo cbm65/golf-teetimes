@@ -66,6 +66,12 @@ var Metros = map[string]Metro{
 		State:   "CA",
 		Tagline: "Public Courses Across the Bay Area",
 	},
+	"albuquerque": {
+		Name:    "Albuquerque & Santa Fe",
+		Slug:    "albuquerque",
+		State:   "NM",
+		Tagline: "High Desert Golf Along the Rio Grande",
+	},
 }
 
 func init() {

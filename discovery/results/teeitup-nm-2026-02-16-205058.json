@@ -1,0 +1,375 @@
+{
+  "confirmed": 2,
+  "elapsed": "2m35.191278083s",
+  "errors": 0,
+  "listedOnly": 8,
+  "misses": 6,
+  "platform": "teeitup",
+  "results": [
+    {
+      "input": "Marty Sanchez Links de Santa Fe",
+      "city": "Santa Fe",
+      "alias": "marty-sanchez-links-de-santa-fe",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 11522,
+        "courseId": "54f14fc10c8ad60378b06e38",
+        "name": "Marty Sanchez Links de Santa Fe",
+        "address": "205 Caja del Rio, Santa Fe, NM 87507, US",
+        "locality": "Santa Fe",
+        "region": "NM",
+        "country": "US",
+        "location": [
+          -106.064597,
+          35.661689
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        28,
+        26,
+        31
+      ]
+    },
+    {
+      "input": "Santa Fe Country Club",
+      "city": "Santa Fe",
+      "alias": "santa-fe-country-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Towa Golf Club",
+      "city": "Pojoaque",
+      "alias": "towa-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 8878,
+        "courseId": "54f14ec70c8ad60378b05654",
+        "name": "Towa Golf Club",
+        "address": "40 Buffalo Thunder Trail, Santa Fe, NM 87506, USA",
+        "locality": "Santa Fe",
+        "region": "NM",
+        "country": "US",
+        "location": [
+          -105.99382120000001,
+          35.86402749999999
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Black Mesa Golf Club",
+      "city": "La Mesilla",
+      "alias": "black-mesa-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 2727,
+        "courseId": "54f14c420c8ad60378b02194",
+        "name": "Black Mesa Golf Club",
+        "address": "115 State Road 399, Espanola, NM 87532 US",
+        "locality": "Espanola",
+        "region": "NM",
+        "country": "US",
+        "location": [
+          -106.05154,
+          35.958
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Cochiti Golf Club",
+      "city": "Cochiti Lake",
+      "alias": "cochiti-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 478,
+        "courseId": "54f14b6b0c8ad60378b00fac",
+        "name": "Cochiti Golf Club",
+        "address": "5200 Cochiti Highway, Cochiti Lake, NM 87083 US",
+        "locality": "Cochiti Lake",
+        "region": "NM",
+        "country": "US",
+        "location": [
+          -106.353106,
+          35.669116
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Twin Warriors Golf Club",
+      "city": "Santa Ana Pueblo",
+      "alias": "twin-warriors",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 363,
+        "courseId": "54f14b5b0c8ad60378b00e9c",
+        "name": "Twin Warriors",
+        "address": "1301 Tuyuna Trail, Santa Ana Pueblo, NM 87004 US",
+        "locality": "Santa Ana Pueblo",
+        "region": "NM",
+        "country": "US",
+        "location": [
+          -106.547127,
+          35.350976
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Santa Ana Golf Club",
+      "city": "Santa Ana Pueblo",
+      "alias": "santa-ana",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 360,
+        "courseId": "54f14b5b0c8ad60378b00e93",
+        "name": "Santa Ana",
+        "address": "288 Prairie Star Road, Santa Ana Pueblo, NM 87004 US",
+        "locality": "Santa Ana Pueblo",
+        "region": "NM",
+        "country": "US",
+        "location": [
+          -106.564379,
+          35.334873
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Paako Ridge Golf Club",
+      "city": "Sandia Park",
+      "alias": "paako-ridge-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Sandia Golf Club",
+      "city": "Albuquerque",
+      "alias": "sandia-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 4273,
+        "courseId": "54f14cce0c8ad60378b02e04",
+        "name": "Sandia Golf Club",
+        "address": "30 Rainbow Rd, Albuquerque, NM 87113, US",
+        "locality": "Albuquerque",
+        "region": "NM",
+        "country": "US",
+        "location": [
+          -106.59824,
+          35.176697
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "UNM Championship Golf Course",
+      "city": "Albuquerque",
+      "alias": "unm-championship-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Arroyo del Oso Golf Course",
+      "city": "Albuquerque",
+      "alias": "arroyo-del-oso-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Ladera Golf Course",
+      "city": "Albuquerque",
+      "alias": "ladera-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1496,
+        "courseId": "54f14bda0c8ad60378b0180e",
+        "name": "Ladera Golf Course",
+        "address": "3401 Ladera Drive NW, Albuquerque, NM 87120 US",
+        "locality": "Albuquerque",
+        "region": "NM",
+        "country": "US",
+        "location": [
+          -106.708488,
+          35.121593
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Los Altos Golf Course",
+      "city": "Albuquerque",
+      "alias": "los-altos-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Puerto del Sol Golf Course",
+      "city": "Albuquerque",
+      "alias": "puerto-del-sol-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Paradise Hills Golf Course",
+      "city": "Albuquerque",
+      "alias": "paradise-hills-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1396,
+        "courseId": "54f14bd00c8ad60378b01724",
+        "name": "Paradise Hills Golf Course",
+        "address": "10035 Country Club Lane, Albuquerque, NM 87114 US",
+        "locality": "Albuquerque",
+        "region": "NM",
+        "country": "US",
+        "location": [
+          -106.683254,
+          35.197238
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        38,
+        37,
+        0
+      ]
+    },
+    {
+      "input": "Isleta Eagle Golf Course",
+      "city": "Albuquerque",
+      "alias": "isleta-eagle-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 2451,
+        "courseId": "54f14c300c8ad60378b01fe0",
+        "name": "Isleta Eagle Golf Course",
+        "address": "4001 Highway 47 SE, Albuquerque, NM 87105 US",
+        "locality": "Albuquerque",
+        "region": "NM",
+        "country": "US",
+        "location": [
+          -106.695545,
+          35.045125
+        ],
+        "timeZone": "America/Denver"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "state": "NM",
+  "timestamp": "2026-02-16T20:50:58-07:00",
+  "totalInput": 16,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-21",
+    "2026-02-28"
+  ]
+}

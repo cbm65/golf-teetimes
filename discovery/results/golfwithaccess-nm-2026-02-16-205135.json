@@ -1,0 +1,243 @@
+{
+  "confirmed": 1,
+  "elapsed": "23.08139725s",
+  "listedOnly": 0,
+  "missed": 15,
+  "platform": "golfwithaccess",
+  "results": [
+    {
+      "input": "Marty Sanchez Links de Santa Fe",
+      "city": "Santa Fe",
+      "status": "miss",
+      "slugsTried": [
+        "marty-sanchez-links-de-santa-fe",
+        "marty-sanchez-links-de-santa-fe-golf-club",
+        "marty-sanchez-links-de-santa-fe-golf-course",
+        "marty-sanchez-links-de-santa-fe-golf-resort",
+        "marty-sanchez-links-de-santa-fe-country-club",
+        "marty-sanchez-links-de-santa-fe-golf",
+        "the-marty-sanchez-links-de-santa-fe-golf-club"
+      ]
+    },
+    {
+      "input": "Santa Fe Country Club",
+      "city": "Santa Fe",
+      "status": "miss",
+      "slugsTried": [
+        "santa-fe-country-club",
+        "santa-fe-golf-club",
+        "santa-fe-golf-course",
+        "santa-fe-golf-resort",
+        "santa-fe-golf",
+        "santa-fe",
+        "the-santa-fe-golf-club"
+      ]
+    },
+    {
+      "input": "Towa Golf Club",
+      "city": "Pojoaque",
+      "status": "miss",
+      "slugsTried": [
+        "towa-golf-club",
+        "towa-golf-course",
+        "towa-golf-resort",
+        "towa-country-club",
+        "towa-golf",
+        "towa",
+        "the-towa-golf-club"
+      ]
+    },
+    {
+      "input": "Black Mesa Golf Club",
+      "city": "La Mesilla",
+      "status": "miss",
+      "slugsTried": [
+        "black-mesa-golf-club",
+        "black-mesa-golf-course",
+        "black-mesa-golf-resort",
+        "black-mesa-country-club",
+        "black-mesa-golf",
+        "black-mesa",
+        "the-black-mesa-golf-club"
+      ]
+    },
+    {
+      "input": "Cochiti Golf Club",
+      "city": "Cochiti Lake",
+      "status": "miss",
+      "slugsTried": [
+        "cochiti-golf-club",
+        "cochiti-golf-course",
+        "cochiti-golf-resort",
+        "cochiti-country-club",
+        "cochiti-golf",
+        "cochiti",
+        "the-cochiti-golf-club"
+      ]
+    },
+    {
+      "input": "Twin Warriors Golf Club",
+      "city": "Santa Ana Pueblo",
+      "status": "miss",
+      "slugsTried": [
+        "twin-warriors-golf-club",
+        "twin-warriors-golf-course",
+        "twin-warriors-golf-resort",
+        "twin-warriors-country-club",
+        "twin-warriors-golf",
+        "twin-warriors",
+        "the-twin-warriors-golf-club"
+      ]
+    },
+    {
+      "input": "Santa Ana Golf Club",
+      "city": "Santa Ana Pueblo",
+      "status": "miss",
+      "slugsTried": [
+        "santa-ana-golf-club",
+        "santa-ana-golf-course",
+        "santa-ana-golf-resort",
+        "santa-ana-country-club",
+        "santa-ana-golf",
+        "santa-ana",
+        "the-santa-ana-golf-club"
+      ]
+    },
+    {
+      "input": "Paako Ridge Golf Club",
+      "city": "Sandia Park",
+      "status": "miss",
+      "slugsTried": [
+        "paako-ridge-golf-club",
+        "paako-ridge-golf-course",
+        "paako-ridge-golf-resort",
+        "paako-ridge-country-club",
+        "paako-ridge-golf",
+        "paako-ridge",
+        "the-paako-ridge-golf-club"
+      ]
+    },
+    {
+      "input": "Sandia Golf Club",
+      "city": "Albuquerque",
+      "status": "confirmed",
+      "slug": "sandia-golf-club",
+      "courseId": "21354a5d-2a1a-42ac-987e-8faa076fe466",
+      "foundCity": "Albuquerque",
+      "foundState": "NM",
+      "courseName": "Sandia Golf Club",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        30,
+        22,
+        25
+      ]
+    },
+    {
+      "input": "UNM Championship Golf Course",
+      "city": "Albuquerque",
+      "status": "miss",
+      "slugsTried": [
+        "unm-championship-golf-course",
+        "unm-championship-golf-club",
+        "unm-championship-golf-resort",
+        "unm-championship-country-club",
+        "unm-championship-golf",
+        "unm-championship",
+        "the-unm-championship-golf-club"
+      ]
+    },
+    {
+      "input": "Arroyo del Oso Golf Course",
+      "city": "Albuquerque",
+      "status": "miss",
+      "slugsTried": [
+        "arroyo-del-oso-golf-course",
+        "arroyo-del-oso-golf-club",
+        "arroyo-del-oso-golf-resort",
+        "arroyo-del-oso-country-club",
+        "arroyo-del-oso-golf",
+        "arroyo-del-oso",
+        "the-arroyo-del-oso-golf-club"
+      ]
+    },
+    {
+      "input": "Ladera Golf Course",
+      "city": "Albuquerque",
+      "status": "miss",
+      "slugsTried": [
+        "ladera-golf-course",
+        "ladera-golf-club",
+        "ladera-golf-resort",
+        "ladera-country-club",
+        "ladera-golf",
+        "ladera",
+        "the-ladera-golf-club"
+      ]
+    },
+    {
+      "input": "Los Altos Golf Course",
+      "city": "Albuquerque",
+      "status": "miss",
+      "slugsTried": [
+        "los-altos-golf-course",
+        "los-altos-golf-club",
+        "los-altos-golf-resort",
+        "los-altos-country-club",
+        "los-altos-golf",
+        "los-altos",
+        "the-los-altos-golf-club"
+      ]
+    },
+    {
+      "input": "Puerto del Sol Golf Course",
+      "city": "Albuquerque",
+      "status": "miss",
+      "slugsTried": [
+        "puerto-del-sol-golf-course",
+        "puerto-del-sol-golf-club",
+        "puerto-del-sol-golf-resort",
+        "puerto-del-sol-country-club",
+        "puerto-del-sol-golf",
+        "puerto-del-sol",
+        "the-puerto-del-sol-golf-club"
+      ]
+    },
+    {
+      "input": "Paradise Hills Golf Course",
+      "city": "Albuquerque",
+      "status": "miss",
+      "slugsTried": [
+        "paradise-hills-golf-course",
+        "paradise-hills-golf-club",
+        "paradise-hills-golf-resort",
+        "paradise-hills-country-club",
+        "paradise-hills-golf",
+        "paradise-hills",
+        "the-paradise-hills-golf-club"
+      ]
+    },
+    {
+      "input": "Isleta Eagle Golf Course",
+      "city": "Albuquerque",
+      "status": "miss",
+      "slugsTried": [
+        "isleta-eagle-golf-course",
+        "isleta-eagle-golf-club",
+        "isleta-eagle-golf-resort",
+        "isleta-eagle-country-club",
+        "isleta-eagle-golf",
+        "isleta-eagle",
+        "the-isleta-eagle-golf-club"
+      ]
+    }
+  ],
+  "state": "NM",
+  "timestamp": "2026-02-16T20:51:35-07:00",
+  "total": 16,
+  "wrongState": 0
+}

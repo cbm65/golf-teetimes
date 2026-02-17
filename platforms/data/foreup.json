@@ -327,5 +327,49 @@
     "displayName": "Oak Hills Golf Course",
     "city": "Greenbrier",
     "state": "TN"
+  },
+  {
+    "key": "santa-fe",
+    "metro": "albuquerque",
+    "courseId": "20064",
+    "bookingClass": "4985",
+    "scheduleId": "3443",
+    "bookingUrl": "",
+    "displayName": "Santa Fe Country Club",
+    "city": "Santa Fe",
+    "state": "NM"
+  },
+  {
+    "key": "towa",
+    "metro": "albuquerque",
+    "courseId": "20484",
+    "bookingClass": "5107",
+    "scheduleId": "4776",
+    "bookingUrl": "",
+    "displayName": "Towa Golf Club",
+    "city": "Santa Fe",
+    "state": "NM"
+  },
+  {
+    "key": "twin-warriors",
+    "metro": "albuquerque",
+    "courseId": "22386",
+    "bookingClass": "48752",
+    "scheduleId": "10619",
+    "bookingUrl": "",
+    "displayName": "Twin Warriors Golf Club",
+    "city": "Santa Ana Pueblo",
+    "state": "NM"
+  },
+  {
+    "key": "santa-ana",
+    "metro": "albuquerque",
+    "courseId": "22385",
+    "bookingClass": "14647",
+    "scheduleId": "10629",
+    "bookingUrl": "",
+    "displayName": "Santa Ana Golf Club",
+    "city": "Santa Ana Pueblo",
+    "state": "NM"
   }
 ]

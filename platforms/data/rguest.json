@@ -78,5 +78,53 @@
     "displayName": "Biltmore Golf Course",
     "city": "Coral Gables",
     "state": "FL"
+  },
+  {
+    "key": "black-mesa",
+    "metro": "albuquerque",
+    "tenantId": "1280",
+    "propertyId": "Black-Mesa-Golf-Club",
+    "courseId": "1",
+    "playerTypeId": "11",
+    "bookingUrl": "https://book.rguest.com/onecart/golf/courses/1280/Black-Mesa-Golf-Club",
+    "displayName": "Black Mesa Golf Club",
+    "city": "Espanola",
+    "state": "NM"
+  },
+  {
+    "key": "isleta-eagle-mesa-lakes",
+    "metro": "albuquerque",
+    "tenantId": "1241",
+    "propertyId": "Isleta-Golf-Club",
+    "courseId": "1",
+    "playerTypeId": "10",
+    "bookingUrl": "https://book.rguest.com/onecart/golf/courses/1241/Isleta-Golf-Club",
+    "displayName": "Isleta Eagle Golf Course - Mesa/Lakes",
+    "city": "Albuquerque",
+    "state": "NM"
+  },
+  {
+    "key": "isleta-eagle-lakes-arroyo",
+    "metro": "albuquerque",
+    "tenantId": "1241",
+    "propertyId": "Isleta-Golf-Club",
+    "courseId": "2",
+    "playerTypeId": "10",
+    "bookingUrl": "https://book.rguest.com/onecart/golf/courses/1241/Isleta-Golf-Club",
+    "displayName": "Isleta Eagle Golf Course - Lakes/Arroyo",
+    "city": "Albuquerque",
+    "state": "NM"
+  },
+  {
+    "key": "isleta-eagle-arroyo-mesa",
+    "metro": "albuquerque",
+    "tenantId": "1241",
+    "propertyId": "Isleta-Golf-Club",
+    "courseId": "3",
+    "playerTypeId": "10",
+    "bookingUrl": "https://book.rguest.com/onecart/golf/courses/1241/Isleta-Golf-Club",
+    "displayName": "Isleta Eagle Golf Course - Arroyo/Mesa",
+    "city": "Albuquerque",
+    "state": "NM"
   }
 ]

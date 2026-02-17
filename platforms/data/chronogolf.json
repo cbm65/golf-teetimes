@@ -426,5 +426,19 @@
     },
     "city": "Vallejo",
     "state": "CA"
+  },
+  {
+    "key": "unm-championship",
+    "metro": "albuquerque",
+    "courseIds": "a4224ffb-b9dd-4d61-bc67-a3f34f44e018",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "75540",
+    "bookingUrl": "https://www.chronogolf.com/club/university-of-new-mexico-golf-courses",
+    "names": {
+      "Championship Course": "UNM Championship Golf Course"
+    },
+    "city": "Albuquerque",
+    "state": "NM"
   }
 ]

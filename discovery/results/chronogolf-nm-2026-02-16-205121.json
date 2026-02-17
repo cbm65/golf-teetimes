@@ -1,0 +1,426 @@
+{
+  "confirmed": 0,
+  "elapsed": "51.04140675s",
+  "listedOnly": 0,
+  "misses": 6,
+  "platform": "chronogolf",
+  "results": [
+    {
+      "input": "Marty Sanchez Links de Santa Fe",
+      "city": "Santa Fe",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Santa Fe Country Club",
+      "city": "Santa Fe",
+      "slug": "santa-fe-country-club-new-mexico",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "e6b71ef7-0359-4ff7-b382-a453ede88121",
+        "id": 10160,
+        "name": "Santa Fe Country Club",
+        "slug": "santa-fe-country-club",
+        "city": "Santa Fe",
+        "province": "New Mexico",
+        "country": "United States",
+        "address": "3950 Country Club Road",
+        "phone": "(505) 471-0601",
+        "website": "https://www.santafecountryclub.com/",
+        "postcode": "87505",
+        "defaultAffiliationTypeId": 41462,
+        "location": {
+          "lat": 35.635818,
+          "lon": -106.044024
+        },
+        "courses": [
+          {
+            "id": 11663,
+            "name": "Santa Fe",
+            "holes": 18,
+            "uuid": "9dccc442-5f21-4429-b2f3-46085387f2f0"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Towa Golf Club",
+      "city": "Pojoaque",
+      "slug": "towa-golf-resort",
+      "slugSource": "swap-golf-resort",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "b85794d1-c209-4eae-9086-29759c1ddb0d",
+        "id": 10174,
+        "name": "Towa Golf Club",
+        "slug": "towa-golf-resort",
+        "city": "Santa Fe",
+        "province": "New Mexico",
+        "country": "United States",
+        "address": "40 Buffalo Thunder Trail",
+        "phone": "(505) 455-9000 ext. 8",
+        "website": "http://www.hiltonbuffalothunder.com/golf.html",
+        "postcode": "87506",
+        "defaultAffiliationTypeId": 41518,
+        "location": {
+          "lat": 35.861423,
+          "lon": -105.9540964
+        },
+        "courses": [
+          {
+            "id": 20557,
+            "name": "Towa",
+            "holes": 18,
+            "uuid": "c4418cf0-5d7d-4472-a4a5-54a755c28dbc"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Black Mesa Golf Club",
+      "city": "La Mesilla",
+      "slug": "black-mesa-golf-club-new-mexico",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "55257e51-937e-4498-99a0-9c59eb1a5a3d",
+        "id": 10114,
+        "name": "Black Mesa Golf Club",
+        "slug": "black-mesa-golf-club",
+        "city": "Espanola",
+        "province": "New Mexico",
+        "country": "United States",
+        "address": "115 State Rd 399",
+        "phone": "(505) 747-8946",
+        "website": "http://www.blackmesagolfclub.com",
+        "postcode": "87532",
+        "defaultAffiliationTypeId": 41278,
+        "location": {
+          "lat": 35.962809,
+          "lon": -106.063734
+        },
+        "courses": [
+          {
+            "id": 11606,
+            "name": "Black Mesa",
+            "holes": 18,
+            "uuid": "98f1b0c9-3bd6-44d7-b0dd-d513dcefad99"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Cochiti Golf Club",
+      "city": "Cochiti Lake",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Twin Warriors Golf Club",
+      "city": "Santa Ana Pueblo",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Santa Ana Golf Club",
+      "city": "Santa Ana Pueblo",
+      "slug": "santa-ana-golf-club-new-mexico",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "1746d422-e467-4587-a9b6-c8178ce4ba45",
+        "id": 10159,
+        "name": "Santa Ana Golf Club",
+        "slug": "santa-ana-golf-club",
+        "city": "Bernalillo",
+        "province": "New Mexico",
+        "country": "United States",
+        "address": "288 Prairie Star Rd",
+        "phone": "(505) 867-9464",
+        "website": "http://www.santaanagolf.com",
+        "postcode": "87004",
+        "defaultAffiliationTypeId": 41458,
+        "location": {
+          "lat": 35.334958,
+          "lon": -106.56365
+        },
+        "courses": [
+          {
+            "id": 11661,
+            "name": "Tamaya /Star",
+            "holes": 18,
+            "uuid": "9865db6b-2aa2-49d2-bf77-03e2f71ee85c"
+          },
+          {
+            "id": 11662,
+            "name": "Tamaya/Cheena",
+            "holes": 18,
+            "uuid": "d875de2a-f666-4b73-958d-bf3cf6509e19"
+          },
+          {
+            "id": 11660,
+            "name": "Cheena/Star",
+            "holes": 18,
+            "uuid": "a9273e40-96e0-413f-b85c-9c19fe551f14"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Paako Ridge Golf Club",
+      "city": "Sandia Park",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Sandia Golf Club",
+      "city": "Albuquerque",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "UNM Championship Golf Course",
+      "city": "Albuquerque",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Arroyo del Oso Golf Course",
+      "city": "Albuquerque",
+      "slug": "arroyo-del-oso-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "4313ecee-64fc-46e0-9607-8cf60600012b",
+        "id": 10112,
+        "name": "Arroyo del Oso Golf Club",
+        "slug": "arroyo-del-oso-golf-club",
+        "city": "Albuquerque",
+        "province": "New Mexico",
+        "country": "United States",
+        "address": "7001 Osuna Rd NE",
+        "phone": "(505) 884-7505",
+        "website": "http://www.cabq.gov/parksandrecreation/recreation/golf/arroyo-del-oso-golf-course",
+        "postcode": "87109",
+        "defaultAffiliationTypeId": 41270,
+        "location": {
+          "lat": 35.138405,
+          "lon": -106.568661
+        },
+        "courses": [
+          {
+            "id": 11604,
+            "name": "Championship",
+            "holes": 18,
+            "uuid": "9aa9f823-66c5-456e-8bb7-e8d9965fb6fc"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Ladera Golf Course",
+      "city": "Albuquerque",
+      "slug": "ladera-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "85824796-0f83-4c50-a44b-9b08832e279a",
+        "id": 10132,
+        "name": "Ladera Golf Club",
+        "slug": "ladera-golf-club",
+        "city": "Albuquerque",
+        "province": "New Mexico",
+        "country": "United States",
+        "address": "3401 Ladera Dr NW",
+        "phone": "(505) 836-4449",
+        "website": "http://www.cabq.gov",
+        "postcode": "87120",
+        "defaultAffiliationTypeId": 41350,
+        "location": {
+          "lat": 35.121487,
+          "lon": -106.708247
+        },
+        "courses": [
+          {
+            "id": 11629,
+            "name": "Championship",
+            "holes": 18,
+            "uuid": "757550c5-f65f-4f21-b308-3cb19d7805bf"
+          },
+          {
+            "id": 11630,
+            "name": "Executive",
+            "holes": 9,
+            "uuid": "b6d25d0a-5fdc-4ded-98ea-d50c9269dc58"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Los Altos Golf Course",
+      "city": "Albuquerque",
+      "slug": "los-altos-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "066a45d8-a11b-4423-a58c-6643f9130fce",
+        "id": 10138,
+        "name": "Los Altos Golf Club",
+        "slug": "los-altos-golf-club",
+        "city": "Albuquerque",
+        "province": "New Mexico",
+        "country": "United States",
+        "address": "9717 Copper Ave NE",
+        "phone": "(505) 298-1897",
+        "website": "http://www.cabq.gov",
+        "postcode": "87123",
+        "defaultAffiliationTypeId": 41374,
+        "location": {
+          "lat": 35.080075,
+          "lon": -106.540263
+        },
+        "courses": [
+          {
+            "id": 11637,
+            "name": "Executive",
+            "holes": 9,
+            "uuid": "54946cf6-ba2c-48c9-9496-ee140805e4b7"
+          },
+          {
+            "id": 11638,
+            "name": "Los Altos",
+            "holes": 18,
+            "uuid": "1b939c43-fbcb-4692-84ed-8771946f09bf"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Puerto del Sol Golf Course",
+      "city": "Albuquerque",
+      "slug": "puerto-del-sol-golf-course-new-mexico",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "18752776-bce7-4305-91e1-7c64a04de7f4",
+        "id": 10152,
+        "name": "Puerto del Sol Golf Course",
+        "slug": "puerto-del-sol-golf-course",
+        "city": "Albuquerque",
+        "province": "New Mexico",
+        "country": "United States",
+        "address": "1800 Girard Blvd SE",
+        "phone": "(505) 265-5636",
+        "website": "http://www.cabq.gov",
+        "postcode": "87106",
+        "defaultAffiliationTypeId": 41430,
+        "location": {
+          "lat": 35.0621,
+          "lon": -106.61093
+        },
+        "courses": [
+          {
+            "id": 11653,
+            "name": "Puerto del Sol",
+            "holes": 9,
+            "uuid": "f0e21280-708f-4313-9fdc-8f47dae7a2a7"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Paradise Hills Golf Course",
+      "city": "Albuquerque",
+      "slug": "paradise-hills-golf-course",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "982b75f4-2722-421f-8c00-797fb7118a21",
+        "id": 11427,
+        "name": "Paradise Hills Golf Course",
+        "slug": "paradise-hills-golf-course-ohio--2",
+        "city": "Rayland",
+        "province": "Ohio",
+        "country": "United States",
+        "address": "Rd 2 Upland Heights",
+        "phone": "(740) 859-5028",
+        "website": "",
+        "postcode": "43943",
+        "defaultAffiliationTypeId": 46530,
+        "location": {
+          "lat": 40.187958,
+          "lon": -80.689905
+        },
+        "courses": [
+          {
+            "id": 13104,
+            "name": "Paradise Hills",
+            "holes": 18,
+            "uuid": "6ef525c8-6f98-40e1-861c-c08025a174b4"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Isleta Eagle Golf Course",
+      "city": "Albuquerque",
+      "slug": "isleta-eagle-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "22eb3fea-4106-4c76-a542-80199068abe1",
+        "id": 10131,
+        "name": "Isleta Eagle Golf Club",
+        "slug": "isleta-eagle-golf-club",
+        "city": "Albuquerque",
+        "province": "New Mexico",
+        "country": "United States",
+        "address": "4001 Hwy 47 SE",
+        "phone": "(505) 869-0950",
+        "website": "http://www.isletaeagle.com",
+        "postcode": "87105",
+        "defaultAffiliationTypeId": 41346,
+        "location": {
+          "lat": 35.002105,
+          "lon": -106.6645007
+        },
+        "courses": [
+          {
+            "id": 11628,
+            "name": "Lakes/Mesa",
+            "holes": 18,
+            "uuid": "aff772c4-0b59-48ad-80df-451c63aa4bc9"
+          },
+          {
+            "id": 11627,
+            "name": "Lakes/Arroyo",
+            "holes": 18,
+            "uuid": "1c8841d3-83d3-44ff-a927-a2558c16a9a2"
+          },
+          {
+            "id": 11626,
+            "name": "Mesa/Arroyo",
+            "holes": 18,
+            "uuid": "fc685f58-c73d-41ca-808a-4b9d8648ef09"
+          }
+        ]
+      }
+    }
+  ],
+  "state": "NM",
+  "timestamp": "2026-02-16T20:51:21-07:00",
+  "totalInput": 16,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-21",
+    "2026-02-28"
+  ],
+  "wrongState": 10
+}

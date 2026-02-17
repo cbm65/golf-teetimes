@@ -118,5 +118,17 @@
     "displayName": "Hiddenbrooke Golf Club",
     "city": "Vallejo",
     "state": "CA"
+  },
+  {
+    "key": "sandia",
+    "metro": "albuquerque",
+    "courseIds": [
+      "21354a5d-2a1a-42ac-987e-8faa076fe466"
+    ],
+    "slug": "sandia-golf-club",
+    "bookingUrl": "https://golfwithaccess.com/course/sandia-golf-club/reserve-tee-time",
+    "displayName": "Sandia Golf Club",
+    "city": "Albuquerque",
+    "state": "NM"
   }
 ]

@@ -25,7 +25,10 @@ import (
 //
 // Discovery approach:
 //   1. For each course, generates multiple alias candidates (suffix swaps, core name, etc.)
-//   2. Probes Kenna /facilities endpoint with x-be-alias header for each candidate
+//   2. For each candidate, probes three sources in order:
+//      a. Kenna /facilities endpoint with x-be-alias header
+//      b. {alias}.book.teeitup.com booking site HTML
+//      c. {alias}.book-v2.teeitup.golf booking site HTML
 //   3. On hit: validates state, fuzzy-matches facility name, checks siblings
 //   4. Validates with tee time checks on 3 dates (Wed, Sat, Sat+7)
 //   5. Deduplicates by facility ID to avoid double-counting
@@ -408,8 +411,15 @@ var (
 // This catches courses where the Kenna /facilities API returns 404 but the
 // booking site works (e.g. Stone Mountain). Extracts facility IDs and names
 // from embedded RSC/JSON data in the HTML.
-func probeBookingSite(alias string) ([]Facility, string, error) {
-	url := "https://" + alias + ".book.teeitup.com/"
+// bookingSiteDomains are the known TeeItUp booking site domains.
+// Some courses use .book.teeitup.com, others use .book-v2.teeitup.golf.
+var bookingSiteDomains = []string{
+	"book.teeitup.com",
+	"book-v2.teeitup.golf",
+}
+
+func probeBookingSite(alias, domain string) ([]Facility, string, error) {
+	url := "https://" + alias + "." + domain + "/"
 	client := &http.Client{Timeout: 10 * time.Second}
 	resp, err := client.Get(url)
 	if err != nil {
@@ -651,18 +661,36 @@ func main() {
 					continue
 				}
 				if statusCode != 200 || len(facilities) == 0 {
-					deadAliases[c.alias] = true
 					if c.source == "exact" {
 						exactStatus = statusCode
-						log("  %s (%s): MISS (status %d)", c.alias, c.source, statusCode)
+						log("  %s (%s): Kenna MISS (status %d), trying booking sites...", c.alias, c.source, statusCode)
 					}
-					time.Sleep(100 * time.Millisecond)
-					continue
-				}
-				aliasCache[c.alias] = facilities
-				log("  %s (%s): HIT — %d facility(ies)", c.alias, c.source, len(facilities))
-				for _, f := range facilities {
-					log("    FID:%d  %s  (%s, %s)", f.ID, f.Name, f.Locality, f.Region)
+					// Try booking site domains before giving up on this alias
+					for _, domain := range bookingSiteDomains {
+						bsFacilities, confirmedAlias, bsErr := probeBookingSite(c.alias, domain)
+						if bsErr != nil || len(bsFacilities) == 0 {
+							time.Sleep(100 * time.Millisecond)
+							continue
+						}
+						log("  %s (%s): HIT via %s — alias=%s, %d facility(ies)", c.alias, c.source, domain, confirmedAlias, len(bsFacilities))
+						for _, f := range bsFacilities {
+							log("    FID:%d  %s  (%s, %s)", f.ID, f.Name, f.Locality, f.Region)
+						}
+						facilities = bsFacilities
+						aliasCache[c.alias] = facilities
+						break
+					}
+					if len(facilities) == 0 {
+						deadAliases[c.alias] = true
+						time.Sleep(100 * time.Millisecond)
+						continue
+					}
+				} else {
+					aliasCache[c.alias] = facilities
+					log("  %s (%s): HIT — %d facility(ies)", c.alias, c.source, len(facilities))
+					for _, f := range facilities {
+						log("    FID:%d  %s  (%s, %s)", f.ID, f.Name, f.Locality, f.Region)
+					}
 				}
 			}
 
@@ -704,65 +732,6 @@ func main() {
 				break
 			}
 			time.Sleep(100 * time.Millisecond)
-		}
-
-		// Booking site HTML fallback — try when Kenna API missed.
-		// Catches courses where the Kenna /facilities endpoint returns 404 but
-		// the booking site works (e.g. Stone Mountain had a valid booking page
-		// at stone-mountain.book.teeitup.com but Kenna API returned 404).
-		if !found && !discoveredByName[strings.ToLower(input.Name)] {
-			// Only try the most likely aliases to limit requests
-			fallbackAliases := []string{slugify(coreName(input.Name)), slugify(input.Name)}
-			seen := map[string]bool{}
-			for _, fa := range fallbackAliases {
-				if fa == "" || seen[fa] {
-					continue
-				}
-				seen[fa] = true
-				log("  Trying booking site fallback: %s.book.teeitup.com", fa)
-				facilities, confirmedAlias, err := probeBookingSite(fa)
-				if err != nil || len(facilities) == 0 {
-					time.Sleep(200 * time.Millisecond)
-					continue
-				}
-				log("  ↳ Booking site HIT — alias=%s, %d facility(ies)", confirmedAlias, len(facilities))
-				for _, f := range facilities {
-					log("    FID:%d  %s  (%s, %s)", f.ID, f.Name, f.Locality, f.Region)
-				}
-				// Cache and process like normal Kenna results
-				aliasCache[confirmedAlias] = facilities
-				for _, f := range facilities {
-					if fuzzyMatchWithCity(input.Name, f.Name, input.City) {
-						validateAndRecord(f, confirmedAlias, "booking-site-fallback", input.Name, input.City, state, dates,
-							&results, discoveredByFID, discoveredByName, &confirmedCount, &listedOnlyCount)
-						if discoveredByName[strings.ToLower(input.Name)] {
-							found = true
-						}
-					}
-				}
-				// Multi-facility: check siblings
-				if len(facilities) > 1 {
-					for _, f := range facilities {
-						if discoveredByFID[f.ID] {
-							continue
-						}
-						for _, other := range inputs {
-							if discoveredByName[strings.ToLower(other.Name)] {
-								continue
-							}
-							if fuzzyMatchWithCity(other.Name, f.Name, other.City) {
-								log("  ↳ Sibling match (fallback): FID:%d %q ↔ input %q", f.ID, f.Name, other.Name)
-								validateAndRecord(f, confirmedAlias, "booking-site-fallback/sibling", other.Name, other.City, state, dates,
-									&results, discoveredByFID, discoveredByName, &confirmedCount, &listedOnlyCount)
-							}
-						}
-					}
-				}
-				if found {
-					break
-				}
-				time.Sleep(200 * time.Millisecond)
-			}
 		}
 
 		if !found && !discoveredByName[strings.ToLower(input.Name)] {
