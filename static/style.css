@@ -547,6 +547,7 @@ tr:hover td {
     border-radius: 6px;
     text-decoration: none;
     transition: background 0.2s, color 0.2s;
+    white-space: nowrap;
 }
 
 .book-link:hover {
@@ -1046,6 +1047,7 @@ tr:hover td {
     border-radius: 6px;
     text-decoration: none;
     transition: background 0.2s, color 0.2s;
+    white-space: nowrap;
 }
 
 /* Mobile */
