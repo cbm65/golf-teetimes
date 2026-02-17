@@ -1758,5 +1758,32 @@
     "displayName": "Miami Springs Golf & Country Club",
     "city": "Miami",
     "state": "FL"
+  },
+  {
+    "key": "nashboro",
+    "metro": "nashville",
+    "alias": "nashboro-golf-club",
+    "facilityId": "1400",
+    "displayName": "Nashboro Golf Club",
+    "city": "Nashville",
+    "state": "TN"
+  },
+  {
+    "key": "pebble-brook",
+    "metro": "nashville",
+    "alias": "pebble-brook-golf-course",
+    "facilityId": "11051",
+    "displayName": "Pebble Brook Golf Course",
+    "city": "Greenbrier",
+    "state": "TN"
+  },
+  {
+    "key": "twelve-stones",
+    "metro": "nashville",
+    "alias": "twelve-stones-crossing-golf-club",
+    "facilityId": "3188",
+    "displayName": "Twelve Stones Golf Club",
+    "city": "Goodlettsville",
+    "state": "TN"
   }
 ]

@@ -97,5 +97,16 @@
     "displayName": "Shoreline Golf Links",
     "city": "Mountain View",
     "state": "CA"
+  },
+  {
+    "key": "cheekwood",
+    "metro": "nashville",
+    "baseUrl": "https://apimanager-cc37.clubcaddie.com",
+    "apiKey": "gafdabab",
+    "courseId": "103407",
+    "bookingUrl": "https://apimanager-cc37.clubcaddie.com/webapi/view/gafdabab",
+    "displayName": "Cheekwood Golf Club",
+    "city": "Franklin",
+    "state": "TN"
   }
 ]

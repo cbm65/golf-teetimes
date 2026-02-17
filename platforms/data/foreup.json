@@ -316,5 +316,16 @@
     "displayName": "Davie Golf Club",
     "city": "Fort Lauderdale",
     "state": "FL"
+  },
+  {
+    "key": "oak-hills",
+    "metro": "nashville",
+    "courseId": "20206",
+    "bookingClass": "3518",
+    "scheduleId": "3956",
+    "bookingUrl": "",
+    "displayName": "Oak Hills Golf Course",
+    "city": "Greenbrier",
+    "state": "TN"
   }
 ]
