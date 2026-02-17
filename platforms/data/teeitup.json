@@ -627,12 +627,11 @@
   {
     "key": "boulder-city",
     "metro": "lasvegas",
-    "subdomain": "boulder-city-golf-course",
     "facilityId": "463",
-    "bookingUrl": "https://boulder-city-golf-course.book.teeitup.com",
     "displayName": "Boulder City Golf Course",
     "city": "Boulder City",
-    "state": "NV"
+    "state": "NV",
+    "alias": "boulder-city-golf-course"
   },
   {
     "key": "bobby-jones",
