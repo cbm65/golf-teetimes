@@ -1018,5 +1018,115 @@
     "displayName": "Palms at Palm Aire",
     "city": "Pompano Beach",
     "state": "FL"
+  },
+  {
+    "key": "arroyo-at-red-rock",
+    "metro": "lasvegas",
+    "facilityId": 371,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/371/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/371/search",
+    "displayName": "Arroyo Golf Club at Red Rock",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "eagle-crest",
+    "metro": "lasvegas",
+    "facilityId": 2075,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/2075/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/2075/search",
+    "displayName": "Eagle Crest Golf Course",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "las-vegas",
+    "metro": "lasvegas",
+    "facilityId": 1293,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1293/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1293/search",
+    "displayName": "Las Vegas Golf Club",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "painted-desert",
+    "metro": "lasvegas",
+    "facilityId": 764,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/764/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/764/search",
+    "displayName": "Painted Desert Golf Club",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "paiute-snow",
+    "metro": "lasvegas",
+    "facilityId": 132,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/132/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/132/search",
+    "displayName": "Paiute Golf Resort - Snow",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "paiute-sun",
+    "metro": "lasvegas",
+    "facilityId": 6331,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/6331/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6331/search",
+    "displayName": "Paiute Golf Resort - Sun",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "paiute-wolf",
+    "metro": "lasvegas",
+    "facilityId": 6332,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/6332/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6332/search",
+    "displayName": "Paiute Golf Resort - Wolf",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "palm-valley",
+    "metro": "lasvegas",
+    "facilityId": 2074,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/2074/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/2074/search",
+    "displayName": "Palm Valley Golf Course",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "revere-concord",
+    "metro": "lasvegas",
+    "facilityId": 4241,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/4241/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/4241/search",
+    "displayName": "Revere Golf Club - Concord",
+    "city": "Henderson",
+    "state": "NV"
+  },
+  {
+    "key": "revere-lexington",
+    "metro": "lasvegas",
+    "facilityId": 188,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/188/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/188/search",
+    "displayName": "Revere Golf Club - Lexington",
+    "city": "Henderson",
+    "state": "NV"
+  },
+  {
+    "key": "the-legacy-henderson",
+    "metro": "lasvegas",
+    "facilityId": 247,
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/247/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/247/search",
+    "displayName": "The Legacy Golf Club",
+    "city": "Henderson",
+    "state": "NV"
   }
 ]
