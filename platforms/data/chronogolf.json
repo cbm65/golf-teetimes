@@ -440,5 +440,33 @@
     },
     "city": "Albuquerque",
     "state": "NM"
+  },
+  {
+    "key": "kickingbird",
+    "metro": "oklahomacity",
+    "courseIds": "58488069-2ed2-40e2-a9d8-4f320bc40b66",
+    "clubId": "",
+    "numericCourseId": "13471",
+    "affiliationTypeId": "47846",
+    "bookingUrl": "https://www.chronogolf.com/club/kicking-bird-golf-club",
+    "names": {
+      "KickingBird Golf": "Kickingbird Golf Club"
+    },
+    "city": "Edmond",
+    "state": "OK"
+  },
+  {
+    "key": "winter-creek",
+    "metro": "oklahomacity",
+    "courseIds": "41793651-42f6-44bb-acf9-5f2a68afe112",
+    "clubId": "",
+    "numericCourseId": "23729",
+    "affiliationTypeId": "120804",
+    "bookingUrl": "https://www.chronogolf.com/club/winter-creek-golf-country-club",
+    "names": {
+      "Winter Creek": "Winter Creek Golf & Country Club"
+    },
+    "city": "Blanchard",
+    "state": "OK"
   }
 ]

@@ -1802,5 +1802,36 @@
     "displayName": "Paradise Hills Golf Course",
     "city": "Albuquerque",
     "state": "NM"
+  },
+  {
+    "key": "choctaw-creek",
+    "metro": "oklahomacity",
+    "alias": "choctaw-creek-golf-course",
+    "facilityId": "2717",
+    "displayName": "Choctaw Creek Golf Course",
+    "city": "Choctaw",
+    "state": "OK"
+  },
+  {
+    "key": "cobblestone-creek",
+    "metro": "oklahomacity",
+    "alias": "cobblestone-creek-golf-club",
+    "facilityId": "14146",
+    "displayName": "Cobblestone Creek Golf Course",
+    "city": "Norman",
+    "state": "OK"
+  },
+  {
+    "key": "cimarron-national",
+    "metro": "oklahomacity",
+    "alias": "cimarron-national",
+    "facilityId": "",
+    "displayName": "Cimarron National Golf Club",
+    "names": {
+      "54f14e5e0c8ad60378b04e70": "Cimarron National Golf Club",
+      "54f14e5e0c8ad60378b04e73": "Cimarron National Golf Club - Aqua Canyon Course"
+    },
+    "city": "Guthrie",
+    "state": "OK"
   }
 ]

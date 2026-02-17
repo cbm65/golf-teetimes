@@ -157,7 +157,7 @@ func coreName(name string) string {
 
 // buildSlugs generates candidate CPS Golf subdomains from a course name.
 // CPS Golf uses simple lowercase joined slugs (e.g. "indiantree" for Indian Tree Golf Club).
-func buildSlugs(name string) []struct{ slug, source string } {
+func buildSlugs(name, city string) []struct{ slug, source string } {
 	seen := map[string]bool{}
 	var slugs []struct{ slug, source string }
 	add := func(s, source string) {
@@ -215,8 +215,49 @@ func buildSlugs(name string) []struct{ slug, source string } {
 		add(strings.Join(coreWords, "-"), "core-hyphenated")
 	}
 
-	// 10. Hyphenated full: indian-tree-golf-club
+	// 10. Base facility name when " - " present: "Earlywine Golf Club - North" → earlywine
+	if idx := strings.Index(name, " - "); idx > 0 {
+		base := strings.TrimSpace(name[:idx])
+		baseCore := coreName(base)
+		baseCoreAlpha := joinAlpha(baseCore)
+		add(baseCoreAlpha, "base-core")
+		add(joinAlpha(base), "base-full")
+		add(baseCoreAlpha+"golf", "base-core+golf")
+		add(baseCoreAlpha+"golfclub", "base-core+golfclub")
+		add(baseCoreAlpha+"golfcourse", "base-core+golfcourse")
+	}
+
+	// 11. Hyphenated full: indian-tree-golf-club
 	words := strings.Fields(strings.ToLower(name))
+
+	// 12. City-suffix variants: lincolnpark → lincolnparkokc
+	if city != "" {
+		cityAlpha := joinAlpha(city)
+		// Common abbreviations for well-known cities
+		abbrevs := []string{cityAlpha}
+		switch strings.ToLower(city) {
+		case "oklahoma city":
+			abbrevs = append(abbrevs, "okc")
+		case "new york":
+			abbrevs = append(abbrevs, "nyc")
+		case "kansas city":
+			abbrevs = append(abbrevs, "kc")
+		case "salt lake city":
+			abbrevs = append(abbrevs, "slc")
+		case "los angeles":
+			abbrevs = append(abbrevs, "la")
+		}
+		for _, ca := range abbrevs {
+			add(coreAlpha+ca, "core+city")
+			// Also try base name + city for " - " courses
+			if idx := strings.Index(name, " - "); idx > 0 {
+				base := strings.TrimSpace(name[:idx])
+				add(joinAlpha(coreName(base))+ca, "base-core+city")
+			}
+		}
+	}
+
+	// 13. Hyphenated full: indian-tree-golf-club
 	cleaned := make([]string, 0, len(words))
 	for _, w := range words {
 		w = strings.ReplaceAll(w, "'", "")
@@ -560,7 +601,7 @@ func main() {
 	deadSlugs := map[string]bool{}
 
 	for i, c := range courses {
-		slugs := buildSlugs(c.Name)
+		slugs := buildSlugs(c.Name, c.City)
 
 		// Filter known-dead slugs
 		var live []struct{ slug, source string }

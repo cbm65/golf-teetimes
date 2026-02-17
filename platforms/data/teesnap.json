@@ -18,5 +18,25 @@
     "displayName": "Tierra del Sol Golf Club",
     "city": "Rio Communities",
     "state": "NM"
+  },
+  {
+    "key": "golfedmond",
+    "metro": "oklahomacity",
+    "subdomain": "golfedmond",
+    "courseId": "92",
+    "bookingUrl": "https://golfedmond.teesnap.net",
+    "displayName": "Golf Club of Edmond",
+    "city": "Edmond",
+    "state": "OK"
+  },
+  {
+    "key": "crimsoncreekgolf",
+    "metro": "oklahomacity",
+    "subdomain": "crimsoncreekgolf",
+    "courseId": "1108",
+    "bookingUrl": "https://crimsoncreekgolf.teesnap.net",
+    "displayName": "Crimson Creek Golf Club",
+    "city": "El Reno",
+    "state": "OK"
   }
 ]

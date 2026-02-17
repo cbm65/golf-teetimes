@@ -1128,5 +1128,35 @@
     "displayName": "The Legacy Golf Club",
     "city": "Henderson",
     "state": "NV"
+  },
+  {
+    "key": "the-links-at-oklahoma-city",
+    "metro": "oklahomacity",
+    "facilityId": 15751,
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/15751/search",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/15751/search",
+    "displayName": "The Links At Oklahoma City",
+    "city": "Oklahoma City",
+    "state": "OK"
+  },
+  {
+    "key": "the-links-at-mustang-creek",
+    "metro": "oklahomacity",
+    "facilityId": 15902,
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/15902/search",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/15902/search",
+    "displayName": "The Links At Mustang Creek",
+    "city": "Yukon",
+    "state": "OK"
+  },
+  {
+    "key": "the-links-at-norman",
+    "metro": "oklahomacity",
+    "facilityId": 14296,
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/14296/search",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/14296/search",
+    "displayName": "The Links At Norman",
+    "city": "Norman",
+    "state": "OK"
   }
 ]

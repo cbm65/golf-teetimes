@@ -405,5 +405,120 @@
     "city": "Brentwood",
     "state": "CA",
     "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "trosper",
+    "metro": "oklahomacity",
+    "baseUrl": "https://trosper.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "b5c1549e-6d1c-46a0-44e0-08dbf84ad30b",
+    "siteId": "5",
+    "courseIds": "",
+    "bookingUrl": "https://trosper.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Trosper": "Trosper Golf Club"
+    },
+    "city": "Oklahoma City",
+    "state": "OK",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "james-e-stewart",
+    "metro": "oklahomacity",
+    "baseUrl": "https://jamesestewart.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "a017dd90-bb2f-4479-9716-08dc02682d03",
+    "siteId": "2",
+    "courseIds": "",
+    "bookingUrl": "https://jamesestewart.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "James E. Stewart": "James E. Stewart Golf Course"
+    },
+    "city": "Oklahoma City",
+    "state": "OK",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "pebble-creek",
+    "metro": "oklahomacity",
+    "baseUrl": "https://pebblecreek.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "9df38f87-d46d-40f9-562d-08dd616b8614",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://pebblecreek.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Creek Side": "Pebble Creek Golf Course"
+    },
+    "city": "Mustang",
+    "state": "OK",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "earlywine",
+    "metro": "oklahomacity",
+    "baseUrl": "https://earlywine.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "76095c35-080d-436e-9fde-08dbc69b5717",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://earlywine.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "North Course": "Earlywine Golf Club - North",
+      "The Lakes Course": "Earlywine Golf Club - Lakes"
+    },
+    "city": "Oklahoma City",
+    "state": "OK",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "lakehefner",
+    "metro": "oklahomacity",
+    "baseUrl": "https://lakehefner.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "48a32412-dfb1-43fb-d3fd-08dbdd3ae9da",
+    "siteId": "3",
+    "courseIds": "",
+    "bookingUrl": "https://lakehefner.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "North Course": "Lake Hefner Golf Club - North",
+      "South Course": "Lake Hefner Golf Club - South"
+    },
+    "city": "Oklahoma City",
+    "state": "OK",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "lincolnparkokc",
+    "metro": "oklahomacity",
+    "baseUrl": "https://lincolnparkokc.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "c2bf2732-ba51-4ddd-d294-08dbbdf3fb91",
+    "siteId": "4",
+    "courseIds": "",
+    "bookingUrl": "https://lincolnparkokc.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "EAST COURSE": "Lincoln Park Golf Course - East",
+      "WEST COURSE": "Lincoln Park Golf Course - West"
+    },
+    "city": "Oklahoma City",
+    "state": "OK",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "westwoodpark",
+    "metro": "oklahomacity",
+    "baseUrl": "https://westwoodpark.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "271d241a-0883-4376-c085-08db4b4a7ef9",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://westwoodpark.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Westwood": "Westwood Golf Course"
+    },
+    "city": "Norman",
+    "state": "OK",
+    "timezone": "America/Chicago"
   }
 ]

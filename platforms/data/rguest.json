@@ -126,5 +126,18 @@
     "displayName": "Isleta Eagle Golf Course - Arroyo/Mesa",
     "city": "Albuquerque",
     "state": "NM"
+  },
+  {
+    "key": "firelake",
+    "metro": "oklahomacity",
+    "tenantId": "1845",
+    "propertyId": "GrandResortOk",
+    "courseId": "107",
+    "playerTypeId": "481",
+    "bookingUrl": "https://book.rguest.com/onecart/golf/courses/1845/GrandResortOk",
+    "displayName": "Firelake Golf Course",
+    "city": "Shawnee",
+    "state": "OK",
+    "timezone": "America/Chicago"
   }
 ]

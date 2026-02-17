@@ -371,5 +371,16 @@
     "displayName": "Santa Ana Golf Club",
     "city": "Santa Ana Pueblo",
     "state": "NM"
+  },
+  {
+    "key": "surrey-hills",
+    "metro": "oklahomacity",
+    "courseId": "22643",
+    "bookingClass": "50305",
+    "scheduleId": "11434",
+    "bookingUrl": "",
+    "displayName": "Surrey Hills Golf Club",
+    "city": "Yukon",
+    "state": "OK"
   }
 ]

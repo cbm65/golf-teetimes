@@ -1,0 +1,693 @@
+{
+  "confirmed": 7,
+  "elapsed": "1m13.467779333s",
+  "listedOnly": 0,
+  "misses": 25,
+  "platform": "cpsgolf",
+  "results": [
+    {
+      "input": "Earlywine Golf Club - North",
+      "city": "Oklahoma City",
+      "status": "confirmed",
+      "slug": "earlywine",
+      "slugSource": "base-core",
+      "config": {
+        "clientId": "onlineresweb",
+        "production": true,
+        "onlineApi": "https://earlywine.cps.golf/onlineres/onlineapi/api/v1/onlinereservation",
+        "siteName": "earlywine",
+        "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+        "buildNumber": "25.3.4.21239412485\n",
+        "BaseURL": "https://earlywine.cps.golf",
+        "WebSiteID": "76095c35-080d-436e-9fde-08dbc69b5717",
+        "SiteID": 1
+      },
+      "courses": [
+        {
+          "websiteId": "76095c35-080d-436e-9fde-08dbc69b5717",
+          "timezoneId": "America/Chicago",
+          "storeId": 2,
+          "courseId": 1,
+          "courseName": "North Course",
+          "siteId": 1,
+          "holes": 18,
+          "active": true
+        },
+        {
+          "websiteId": "76095c35-080d-436e-9fde-08dbc69b5717",
+          "timezoneId": "America/Chicago",
+          "storeId": 2,
+          "courseId": 6,
+          "courseName": "The Lakes Course",
+          "siteId": 1,
+          "holes": 18,
+          "active": true
+        }
+      ],
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        126,
+        130,
+        0
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "Earlywine Golf Club - Lakes",
+      "city": "Oklahoma City",
+      "status": "confirmed",
+      "slug": "earlywine",
+      "slugSource": "base-core",
+      "config": {
+        "clientId": "onlineresweb",
+        "production": true,
+        "onlineApi": "https://earlywine.cps.golf/onlineres/onlineapi/api/v1/onlinereservation",
+        "siteName": "earlywine",
+        "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+        "buildNumber": "25.3.4.21239412485\n",
+        "BaseURL": "https://earlywine.cps.golf",
+        "WebSiteID": "76095c35-080d-436e-9fde-08dbc69b5717",
+        "SiteID": 1
+      },
+      "courses": [
+        {
+          "websiteId": "76095c35-080d-436e-9fde-08dbc69b5717",
+          "timezoneId": "America/Chicago",
+          "storeId": 2,
+          "courseId": 1,
+          "courseName": "North Course",
+          "siteId": 1,
+          "holes": 18,
+          "active": true
+        },
+        {
+          "websiteId": "76095c35-080d-436e-9fde-08dbc69b5717",
+          "timezoneId": "America/Chicago",
+          "storeId": 2,
+          "courseId": 6,
+          "courseName": "The Lakes Course",
+          "siteId": 1,
+          "holes": 18,
+          "active": true
+        }
+      ],
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        126,
+        130,
+        0
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "Lake Hefner Golf Club - North",
+      "city": "Oklahoma City",
+      "status": "confirmed",
+      "slug": "lakehefner",
+      "slugSource": "base-core",
+      "config": {
+        "clientId": "",
+        "production": true,
+        "onlineApi": "https://lakehefner.cps.golf/onlineres/onlineapi/api/v1/onlinereservation",
+        "siteName": "lakehefner",
+        "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+        "buildNumber": "25.1.9.61297\n",
+        "BaseURL": "https://lakehefner.cps.golf",
+        "WebSiteID": "48a32412-dfb1-43fb-d3fd-08dbdd3ae9da",
+        "SiteID": 3
+      },
+      "courses": [
+        {
+          "websiteId": "48a32412-dfb1-43fb-d3fd-08dbdd3ae9da",
+          "timezoneId": "America/Chicago",
+          "storeId": 6,
+          "courseId": 3,
+          "courseName": "North Course",
+          "siteId": 3,
+          "holes": 18,
+          "active": true
+        },
+        {
+          "websiteId": "48a32412-dfb1-43fb-d3fd-08dbdd3ae9da",
+          "timezoneId": "America/Chicago",
+          "storeId": 6,
+          "courseId": 6,
+          "courseName": "South Course",
+          "siteId": 3,
+          "holes": 18,
+          "active": true
+        }
+      ],
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        108,
+        120,
+        150
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "Lake Hefner Golf Club - South",
+      "city": "Oklahoma City",
+      "status": "confirmed",
+      "slug": "lakehefner",
+      "slugSource": "base-core",
+      "config": {
+        "clientId": "",
+        "production": true,
+        "onlineApi": "https://lakehefner.cps.golf/onlineres/onlineapi/api/v1/onlinereservation",
+        "siteName": "lakehefner",
+        "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+        "buildNumber": "25.1.9.61297\n",
+        "BaseURL": "https://lakehefner.cps.golf",
+        "WebSiteID": "48a32412-dfb1-43fb-d3fd-08dbdd3ae9da",
+        "SiteID": 3
+      },
+      "courses": [
+        {
+          "websiteId": "48a32412-dfb1-43fb-d3fd-08dbdd3ae9da",
+          "timezoneId": "America/Chicago",
+          "storeId": 6,
+          "courseId": 3,
+          "courseName": "North Course",
+          "siteId": 3,
+          "holes": 18,
+          "active": true
+        },
+        {
+          "websiteId": "48a32412-dfb1-43fb-d3fd-08dbdd3ae9da",
+          "timezoneId": "America/Chicago",
+          "storeId": 6,
+          "courseId": 6,
+          "courseName": "South Course",
+          "siteId": 3,
+          "holes": 18,
+          "active": true
+        }
+      ],
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        108,
+        120,
+        150
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "Lincoln Park Golf Course - East",
+      "city": "Oklahoma City",
+      "status": "miss",
+      "slugsTried": [
+        "lincolnparkgolfcourseeast",
+        "lincolnparkgolfcourseeastgolf",
+        "lincolnparkgolfcourseeastgolfclub",
+        "lincolnparkgolfcourseeastgolfcourse",
+        "lincolnparkgolfcourseeastcc",
+        "lincoln-park-golf-course---east",
+        "lincolnpark",
+        "lincolnparkgolfcourse",
+        "lincolnparkgolf",
+        "lincolnparkgolfclub"
+      ]
+    },
+    {
+      "input": "Lincoln Park Golf Course - West",
+      "city": "Oklahoma City",
+      "status": "miss",
+      "slugsTried": [
+        "lincolnparkgolfcoursewest",
+        "lincolnparkgolfcoursewestgolf",
+        "lincolnparkgolfcoursewestgolfclub",
+        "lincolnparkgolfcoursewestgolfcourse",
+        "lincolnparkgolfcoursewestcc",
+        "lincoln-park-golf-course---west",
+        "lincolnpark",
+        "lincolnparkgolfcourse",
+        "lincolnparkgolf",
+        "lincolnparkgolfclub"
+      ]
+    },
+    {
+      "input": "Trosper Golf Club",
+      "city": "Oklahoma City",
+      "status": "confirmed",
+      "slug": "trosper",
+      "slugSource": "core",
+      "config": {
+        "clientId": "onlineresweb",
+        "production": true,
+        "onlineApi": "https://trosper.cps.golf/onlineres/onlineapi/api/v1/onlinereservation",
+        "siteName": "trosper",
+        "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+        "buildNumber": "25.3.4.21239412485\n",
+        "BaseURL": "https://trosper.cps.golf",
+        "WebSiteID": "b5c1549e-6d1c-46a0-44e0-08dbf84ad30b",
+        "SiteID": 5
+      },
+      "courses": [
+        {
+          "websiteId": "b5c1549e-6d1c-46a0-44e0-08dbf84ad30b",
+          "timezoneId": "America/Chicago",
+          "storeId": 10,
+          "courseId": 5,
+          "courseName": "Trosper",
+          "siteId": 5,
+          "holes": 18,
+          "active": true
+        }
+      ],
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        64,
+        66,
+        112
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "James E. Stewart Golf Course",
+      "city": "Oklahoma City",
+      "status": "confirmed",
+      "slug": "jamesestewart",
+      "slugSource": "core",
+      "config": {
+        "clientId": "onlineresweb",
+        "production": true,
+        "onlineApi": "https://jamesestewart.cps.golf/onlineres/onlineapi/api/v1/onlinereservation",
+        "siteName": "jamesestewart",
+        "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+        "buildNumber": "25.3.4.21239412485\n",
+        "BaseURL": "https://jamesestewart.cps.golf",
+        "WebSiteID": "a017dd90-bb2f-4479-9716-08dc02682d03",
+        "SiteID": 2
+      },
+      "courses": [
+        {
+          "websiteId": "a017dd90-bb2f-4479-9716-08dc02682d03",
+          "timezoneId": "America/Chicago",
+          "storeId": 4,
+          "courseId": 2,
+          "courseName": "James E. Stewart",
+          "siteId": 2,
+          "holes": 9,
+          "active": true
+        }
+      ],
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        40,
+        44,
+        56
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "The Links at Oklahoma City Golf \u0026 Athletic Club",
+      "city": "Oklahoma City",
+      "status": "miss",
+      "slugsTried": [
+        "linksatoklahomacitygolfandathleticclub",
+        "thelinksatoklahomacitygolfandathleticclub",
+        "linksatoklahomacitygolfandathleticclubgolf",
+        "linksatoklahomacitygolfandathleticclubgolfclub",
+        "linksatoklahomacitygolfandathleticclubgolfcourse",
+        "linksatoklahomacitygolfandathleticclubcc",
+        "links-at-oklahoma-city-golf-\u0026-athletic-club",
+        "the-links-at-oklahoma-city-golf-\u0026-athletic-club"
+      ]
+    },
+    {
+      "input": "Kickingbird Golf Club",
+      "city": "Edmond",
+      "status": "miss",
+      "slugsTried": [
+        "kickingbird",
+        "kickingbirdgolfclub",
+        "kickingbirdgolf",
+        "kickingbirdgolfcourse",
+        "kickingbirdcc",
+        "kickingbird-golf-club"
+      ]
+    },
+    {
+      "input": "Golf Club of Edmond",
+      "city": "Edmond",
+      "status": "miss",
+      "slugsTried": [
+        "edmond",
+        "golfclubofedmond",
+        "edmondgolf",
+        "edmondgolfclub",
+        "edmondgolfcourse",
+        "edmondcc",
+        "golf-club-of-edmond"
+      ]
+    },
+    {
+      "input": "Coffee Creek Golf Club",
+      "city": "Edmond",
+      "status": "miss",
+      "slugsTried": [
+        "coffeecreek",
+        "coffeecreekgolfclub",
+        "coffeecreekgolf",
+        "coffeecreekgolfcourse",
+        "coffeecreekcc",
+        "coffee-creek",
+        "coffee-creek-golf-club"
+      ]
+    },
+    {
+      "input": "Rose Creek Golf Club",
+      "city": "Edmond",
+      "status": "miss",
+      "slugsTried": [
+        "rosecreek",
+        "rosecreekgolfclub",
+        "rosecreekgolf",
+        "rosecreekgolfcourse",
+        "rosecreekcc",
+        "rose-creek",
+        "rose-creek-golf-club"
+      ]
+    },
+    {
+      "input": "Jimmie Austin OU Golf Club",
+      "city": "Norman",
+      "status": "miss",
+      "slugsTried": [
+        "jimmieaustinou",
+        "jimmieaustinougolfclub",
+        "jimmieaustinougolf",
+        "jimmieaustinougolfcourse",
+        "jimmieaustinoucc",
+        "jimmie-austin-ou",
+        "jimmie-austin-ou-golf-club"
+      ]
+    },
+    {
+      "input": "Westwood Golf Course",
+      "city": "Norman",
+      "status": "miss",
+      "slugsTried": [
+        "westwood",
+        "westwoodgolfcourse",
+        "westwoodgolf",
+        "westwoodgolfclub",
+        "westwoodcc",
+        "westwood-golf-course"
+      ]
+    },
+    {
+      "input": "The Trails Golf Club",
+      "city": "Norman",
+      "status": "miss",
+      "slugsTried": [
+        "trails",
+        "thetrailsgolfclub",
+        "trailsgolf",
+        "trailsgolfclub",
+        "trailsgolfcourse",
+        "trailscc",
+        "the-trails-golf-club"
+      ]
+    },
+    {
+      "input": "Cobblestone Creek Golf Course",
+      "city": "Norman",
+      "status": "miss",
+      "slugsTried": [
+        "cobblestonecreek",
+        "cobblestonecreekgolfcourse",
+        "cobblestonecreekgolf",
+        "cobblestonecreekgolfclub",
+        "cobblestonecreekcc",
+        "cobblestone-creek",
+        "cobblestone-creek-golf-course"
+      ]
+    },
+    {
+      "input": "Belmar Golf Club",
+      "city": "Norman",
+      "status": "miss",
+      "slugsTried": [
+        "belmar",
+        "belmargolfclub",
+        "belmargolf",
+        "belmargolfcourse",
+        "belmarcc",
+        "belmar-golf-club"
+      ]
+    },
+    {
+      "input": "John Conrad Regional Golf Course",
+      "city": "Midwest City",
+      "status": "miss",
+      "slugsTried": [
+        "johnconradregional",
+        "johnconradregionalgolfcourse",
+        "johnconradregionalgolf",
+        "johnconradregionalgolfclub",
+        "johnconradregionalcc",
+        "john-conrad-regional",
+        "john-conrad-regional-golf-course"
+      ]
+    },
+    {
+      "input": "Moore Golf \u0026 Athletic Club",
+      "city": "Moore",
+      "status": "miss",
+      "slugsTried": [
+        "mooregolfandathleticclub",
+        "mooregolfandathleticclubgolf",
+        "mooregolfandathleticclubgolfclub",
+        "mooregolfandathleticclubgolfcourse",
+        "mooregolfandathleticclubcc",
+        "moore-golf-\u0026-athletic-club"
+      ]
+    },
+    {
+      "input": "Choctaw Creek Golf Course",
+      "city": "Choctaw",
+      "status": "miss",
+      "slugsTried": [
+        "choctawcreek",
+        "choctawcreekgolfcourse",
+        "choctawcreekgolf",
+        "choctawcreekgolfclub",
+        "choctawcreekcc",
+        "choctaw-creek",
+        "choctaw-creek-golf-course"
+      ]
+    },
+    {
+      "input": "Pebble Creek Golf Course",
+      "city": "Mustang",
+      "status": "confirmed",
+      "slug": "pebblecreek",
+      "slugSource": "core",
+      "config": {
+        "clientId": "",
+        "production": true,
+        "onlineApi": "https://pebblecreek.cps.golf/onlineres/onlineapi/api/v1/onlinereservation",
+        "siteName": "pebblecreek",
+        "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+        "buildNumber": "25.1.9.61297\n",
+        "BaseURL": "https://pebblecreek.cps.golf",
+        "WebSiteID": "9df38f87-d46d-40f9-562d-08dd616b8614",
+        "SiteID": 1
+      },
+      "courses": [
+        {
+          "websiteId": "9df38f87-d46d-40f9-562d-08dd616b8614",
+          "timezoneId": "",
+          "storeId": 0,
+          "courseId": 2,
+          "courseName": "Creek Side",
+          "siteId": 1,
+          "holes": 18,
+          "active": true
+        }
+      ],
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        32,
+        32,
+        0
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "Surrey Hills Golf Club",
+      "city": "Yukon",
+      "status": "miss",
+      "slugsTried": [
+        "surreyhills",
+        "surreyhillsgolfclub",
+        "surreyhillsgolf",
+        "surreyhillsgolfcourse",
+        "surreyhillscc",
+        "surrey-hills",
+        "surrey-hills-golf-club"
+      ]
+    },
+    {
+      "input": "Winter Creek Golf \u0026 Country Club",
+      "city": "Blanchard",
+      "status": "miss",
+      "slugsTried": [
+        "wintercreekgolfand",
+        "wintercreekgolfandcountryclub",
+        "wintercreekgolfandgolf",
+        "wintercreekgolfandgolfclub",
+        "wintercreekgolfandgolfcourse",
+        "wintercreekgolfandcc",
+        "winter-creek-golf-\u0026",
+        "winter-creek-golf-\u0026-country-club"
+      ]
+    },
+    {
+      "input": "Cedar Valley Golf Club",
+      "city": "Guthrie",
+      "status": "miss",
+      "slugsTried": [
+        "cedarvalley",
+        "cedarvalleygolfclub",
+        "cedarvalleygolf",
+        "cedarvalleygolfcourse",
+        "cedarvalleycc",
+        "cedar-valley",
+        "cedar-valley-golf-club"
+      ]
+    },
+    {
+      "input": "Cimarron National Golf Club",
+      "city": "Guthrie",
+      "status": "miss",
+      "slugsTried": [
+        "cimarronnational",
+        "cimarronnationalgolfclub",
+        "cimarronnationalgolf",
+        "cimarronnationalgolfcourse",
+        "cimarronnationalcc",
+        "cimarron-national",
+        "cimarron-national-golf-club"
+      ]
+    },
+    {
+      "input": "Firelake Golf Course",
+      "city": "Shawnee",
+      "status": "miss",
+      "slugsTried": [
+        "firelake",
+        "firelakegolfcourse",
+        "firelakegolf",
+        "firelakegolfclub",
+        "firelakecc",
+        "firelake-golf-course"
+      ]
+    },
+    {
+      "input": "Crimson Creek Golf Club",
+      "city": "El Reno",
+      "status": "miss",
+      "slugsTried": [
+        "crimsoncreek",
+        "crimsoncreekgolfclub",
+        "crimsoncreekgolf",
+        "crimsoncreekgolfcourse",
+        "crimsoncreekcc",
+        "crimson-creek",
+        "crimson-creek-golf-club"
+      ]
+    },
+    {
+      "input": "Brent Bruehl Memorial Golf Course",
+      "city": "Purcell",
+      "status": "miss",
+      "slugsTried": [
+        "brentbruehlmemorial",
+        "brentbruehlmemorialgolfcourse",
+        "brentbruehlmemorialgolf",
+        "brentbruehlmemorialgolfclub",
+        "brentbruehlmemorialcc",
+        "brent-bruehl-memorial",
+        "brent-bruehl-memorial-golf-course"
+      ]
+    },
+    {
+      "input": "Chickasha Golf \u0026 Country Club",
+      "city": "Chickasha",
+      "status": "miss",
+      "slugsTried": [
+        "chickashagolfand",
+        "chickashagolfandcountryclub",
+        "chickashagolfandgolf",
+        "chickashagolfandgolfclub",
+        "chickashagolfandgolfcourse",
+        "chickashagolfandcc",
+        "chickasha-golf-\u0026",
+        "chickasha-golf-\u0026-country-club"
+      ]
+    },
+    {
+      "input": "Lakeside Memorial Golf Course",
+      "city": "Stillwater",
+      "status": "miss",
+      "slugsTried": [
+        "lakesidememorial",
+        "lakesidememorialgolfcourse",
+        "lakesidememorialgolf",
+        "lakesidememorialgolfclub",
+        "lakesidememorialcc",
+        "lakeside-memorial",
+        "lakeside-memorial-golf-course"
+      ]
+    },
+    {
+      "input": "Chandler Golf Course",
+      "city": "Chandler",
+      "status": "miss",
+      "slugsTried": [
+        "chandler",
+        "chandlergolfcourse",
+        "chandlergolf",
+        "chandlergolfclub",
+        "chandlercc",
+        "chandler-golf-course"
+      ]
+    }
+  ],
+  "state": "OK",
+  "timestamp": "2026-02-16T23:10:21-07:00",
+  "total": 32,
+  "wrongState": 0
+}

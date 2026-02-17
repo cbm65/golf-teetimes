@@ -1,0 +1,472 @@
+{
+  "confirmed": 0,
+  "elapsed": "1m18.725344125s",
+  "listedOnly": 0,
+  "missed": 32,
+  "platform": "quick18",
+  "results": [
+    {
+      "input": "Earlywine Golf Club - North",
+      "city": "Oklahoma City",
+      "status": "miss",
+      "slugsTried": [
+        "earlywinegolfclubnorth",
+        "earlywinegolfclubnorthgolf",
+        "earlywinegolfclubnorthgolfclub",
+        "earlywinegolfclubnorthgolfcourse",
+        "earlywinegolfclubnorthcc",
+        "earlywine-golf-club---north",
+        "earlywine",
+        "earlywinegolfclub",
+        "earlywinegolf"
+      ]
+    },
+    {
+      "input": "Earlywine Golf Club - South",
+      "city": "Oklahoma City",
+      "status": "miss",
+      "slugsTried": [
+        "earlywinegolfclubsouth",
+        "earlywinegolfclubsouthgolf",
+        "earlywinegolfclubsouthgolfclub",
+        "earlywinegolfclubsouthgolfcourse",
+        "earlywinegolfclubsouthcc",
+        "earlywine-golf-club---south",
+        "earlywine",
+        "earlywinegolfclub",
+        "earlywinegolf"
+      ]
+    },
+    {
+      "input": "Lake Hefner Golf Club - North",
+      "city": "Oklahoma City",
+      "status": "miss",
+      "slugsTried": [
+        "lakehefnergolfclubnorth",
+        "lakehefnergolfclubnorthgolf",
+        "lakehefnergolfclubnorthgolfclub",
+        "lakehefnergolfclubnorthgolfcourse",
+        "lakehefnergolfclubnorthcc",
+        "lake-hefner-golf-club---north",
+        "lakehefner",
+        "lakehefnergolfclub",
+        "lakehefnergolf"
+      ]
+    },
+    {
+      "input": "Lake Hefner Golf Club - South",
+      "city": "Oklahoma City",
+      "status": "miss",
+      "slugsTried": [
+        "lakehefnergolfclubsouth",
+        "lakehefnergolfclubsouthgolf",
+        "lakehefnergolfclubsouthgolfclub",
+        "lakehefnergolfclubsouthgolfcourse",
+        "lakehefnergolfclubsouthcc",
+        "lake-hefner-golf-club---south",
+        "lakehefner",
+        "lakehefnergolfclub",
+        "lakehefnergolf"
+      ]
+    },
+    {
+      "input": "Lincoln Park Golf Course - East",
+      "city": "Oklahoma City",
+      "status": "miss",
+      "slugsTried": [
+        "lincolnparkgolfcourseeast",
+        "lincolnparkgolfcourseeastgolf",
+        "lincolnparkgolfcourseeastgolfclub",
+        "lincolnparkgolfcourseeastgolfcourse",
+        "lincolnparkgolfcourseeastcc",
+        "lincoln-park-golf-course---east",
+        "lincolnpark",
+        "lincolnparkgolfcourse",
+        "lincolnparkgolf",
+        "lincolnparkgolfclub"
+      ]
+    },
+    {
+      "input": "Lincoln Park Golf Course - West",
+      "city": "Oklahoma City",
+      "status": "miss",
+      "slugsTried": [
+        "lincolnparkgolfcoursewest",
+        "lincolnparkgolfcoursewestgolf",
+        "lincolnparkgolfcoursewestgolfclub",
+        "lincolnparkgolfcoursewestgolfcourse",
+        "lincolnparkgolfcoursewestcc",
+        "lincoln-park-golf-course---west",
+        "lincolnpark",
+        "lincolnparkgolfcourse",
+        "lincolnparkgolf",
+        "lincolnparkgolfclub"
+      ]
+    },
+    {
+      "input": "Trosper Golf Club",
+      "city": "Oklahoma City",
+      "status": "miss",
+      "slugsTried": [
+        "trosper",
+        "trospergolfclub",
+        "trospergolf",
+        "trospergolfcourse",
+        "trospercc",
+        "trosper-golf-club"
+      ]
+    },
+    {
+      "input": "James E. Stewart Golf Course",
+      "city": "Oklahoma City",
+      "status": "miss",
+      "slugsTried": [
+        "jamesestewart",
+        "jamesestewartgolfcourse",
+        "jamesestewartgolf",
+        "jamesestewartgolfclub",
+        "jamesestewartcc",
+        "james-e-stewart-golf-course",
+        "james-e.-stewart"
+      ]
+    },
+    {
+      "input": "The Links at Oklahoma City Golf \u0026 Athletic Club",
+      "city": "Oklahoma City",
+      "status": "miss",
+      "slugsTried": [
+        "linksatoklahomacitygolfandathleticclub",
+        "thelinksatoklahomacitygolfandathleticclub",
+        "linksatoklahomacitygolfandathleticclubgolf",
+        "linksatoklahomacitygolfandathleticclubgolfclub",
+        "linksatoklahomacitygolfandathleticclubgolfcourse",
+        "linksatoklahomacitygolfandathleticclubcc",
+        "the-links-at-oklahoma-city-golf-\u0026-athletic-club",
+        "links-at-oklahoma-city-golf-\u0026-athletic-club"
+      ]
+    },
+    {
+      "input": "Kickingbird Golf Club",
+      "city": "Edmond",
+      "status": "miss",
+      "slugsTried": [
+        "kickingbird",
+        "kickingbirdgolfclub",
+        "kickingbirdgolf",
+        "kickingbirdgolfcourse",
+        "kickingbirdcc",
+        "kickingbird-golf-club"
+      ]
+    },
+    {
+      "input": "Golf Club of Edmond",
+      "city": "Edmond",
+      "status": "miss",
+      "slugsTried": [
+        "edmond",
+        "golfclubofedmond",
+        "edmondgolf",
+        "edmondgolfclub",
+        "edmondgolfcourse",
+        "edmondcc",
+        "golf-club-of-edmond"
+      ]
+    },
+    {
+      "input": "Coffee Creek Golf Club",
+      "city": "Edmond",
+      "status": "miss",
+      "slugsTried": [
+        "coffeecreek",
+        "coffeecreekgolfclub",
+        "coffeecreekgolf",
+        "coffeecreekgolfcourse",
+        "coffeecreekcc",
+        "coffee-creek-golf-club",
+        "coffee-creek"
+      ]
+    },
+    {
+      "input": "Rose Creek Golf Club",
+      "city": "Edmond",
+      "status": "miss",
+      "slugsTried": [
+        "rosecreek",
+        "rosecreekgolfclub",
+        "rosecreekgolf",
+        "rosecreekgolfcourse",
+        "rosecreekcc",
+        "rose-creek-golf-club",
+        "rose-creek"
+      ]
+    },
+    {
+      "input": "Jimmie Austin OU Golf Club",
+      "city": "Norman",
+      "status": "miss",
+      "slugsTried": [
+        "jimmieaustinou",
+        "jimmieaustinougolfclub",
+        "jimmieaustinougolf",
+        "jimmieaustinougolfcourse",
+        "jimmieaustinoucc",
+        "jimmie-austin-ou-golf-club",
+        "jimmie-austin-ou"
+      ]
+    },
+    {
+      "input": "Westwood Golf Course",
+      "city": "Norman",
+      "status": "miss",
+      "slugsTried": [
+        "westwood",
+        "westwoodgolfcourse",
+        "westwoodgolf",
+        "westwoodgolfclub",
+        "westwoodcc",
+        "westwood-golf-course"
+      ]
+    },
+    {
+      "input": "The Trails Golf Club",
+      "city": "Norman",
+      "status": "miss",
+      "slugsTried": [
+        "trails",
+        "thetrailsgolfclub",
+        "trailsgolf",
+        "trailsgolfclub",
+        "trailsgolfcourse",
+        "trailscc",
+        "the-trails-golf-club",
+        "trailsgolfclubgolf"
+      ]
+    },
+    {
+      "input": "Cobblestone Creek Golf Course",
+      "city": "Norman",
+      "status": "miss",
+      "slugsTried": [
+        "cobblestonecreek",
+        "cobblestonecreekgolfcourse",
+        "cobblestonecreekgolf",
+        "cobblestonecreekgolfclub",
+        "cobblestonecreekcc",
+        "cobblestone-creek-golf-course",
+        "cobblestone-creek"
+      ]
+    },
+    {
+      "input": "Belmar Golf Club",
+      "city": "Norman",
+      "status": "miss",
+      "slugsTried": [
+        "belmar",
+        "belmargolfclub",
+        "belmargolf",
+        "belmargolfcourse",
+        "belmarcc",
+        "belmar-golf-club"
+      ]
+    },
+    {
+      "input": "John Conrad Regional Golf Course",
+      "city": "Midwest City",
+      "status": "miss",
+      "slugsTried": [
+        "johnconradregional",
+        "johnconradregionalgolfcourse",
+        "johnconradregionalgolf",
+        "johnconradregionalgolfclub",
+        "johnconradregionalcc",
+        "john-conrad-regional-golf-course",
+        "john-conrad-regional"
+      ]
+    },
+    {
+      "input": "Moore Golf \u0026 Athletic Club",
+      "city": "Moore",
+      "status": "miss",
+      "slugsTried": [
+        "mooregolfandathleticclub",
+        "mooregolfandathleticclubgolf",
+        "mooregolfandathleticclubgolfclub",
+        "mooregolfandathleticclubgolfcourse",
+        "mooregolfandathleticclubcc",
+        "moore-golf-\u0026-athletic-club"
+      ]
+    },
+    {
+      "input": "Choctaw Creek Golf Course",
+      "city": "Choctaw",
+      "status": "miss",
+      "slugsTried": [
+        "choctawcreek",
+        "choctawcreekgolfcourse",
+        "choctawcreekgolf",
+        "choctawcreekgolfclub",
+        "choctawcreekcc",
+        "choctaw-creek-golf-course",
+        "choctaw-creek"
+      ]
+    },
+    {
+      "input": "Pebble Creek Golf Course",
+      "city": "Mustang",
+      "status": "miss",
+      "slugsTried": [
+        "pebblecreek",
+        "pebblecreekgolfcourse",
+        "pebblecreekgolf",
+        "pebblecreekgolfclub",
+        "pebblecreekcc",
+        "pebble-creek-golf-course",
+        "pebble-creek"
+      ]
+    },
+    {
+      "input": "Surrey Hills Golf Club",
+      "city": "Yukon",
+      "status": "miss",
+      "slugsTried": [
+        "surreyhills",
+        "surreyhillsgolfclub",
+        "surreyhillsgolf",
+        "surreyhillsgolfcourse",
+        "surreyhillscc",
+        "surrey-hills-golf-club",
+        "surrey-hills"
+      ]
+    },
+    {
+      "input": "Winter Creek Golf \u0026 Country Club",
+      "city": "Blanchard",
+      "status": "miss",
+      "slugsTried": [
+        "wintercreekgolfand",
+        "wintercreekgolfandcountryclub",
+        "wintercreekgolfandgolf",
+        "wintercreekgolfandgolfclub",
+        "wintercreekgolfandgolfcourse",
+        "wintercreekgolfandcc",
+        "winter-creek-golf-\u0026-country-club",
+        "winter-creek-golf-\u0026"
+      ]
+    },
+    {
+      "input": "Cedar Valley Golf Club",
+      "city": "Guthrie",
+      "status": "miss",
+      "slugsTried": [
+        "cedarvalley",
+        "cedarvalleygolfclub",
+        "cedarvalleygolf",
+        "cedarvalleygolfcourse",
+        "cedarvalleycc",
+        "cedar-valley-golf-club",
+        "cedar-valley"
+      ]
+    },
+    {
+      "input": "Cimarron National Golf Club",
+      "city": "Guthrie",
+      "status": "miss",
+      "slugsTried": [
+        "cimarronnational",
+        "cimarronnationalgolfclub",
+        "cimarronnationalgolf",
+        "cimarronnationalgolfcourse",
+        "cimarronnationalcc",
+        "cimarron-national-golf-club",
+        "cimarron-national"
+      ]
+    },
+    {
+      "input": "Firelake Golf Course",
+      "city": "Shawnee",
+      "status": "miss",
+      "slugsTried": [
+        "firelake",
+        "firelakegolfcourse",
+        "firelakegolf",
+        "firelakegolfclub",
+        "firelakecc",
+        "firelake-golf-course"
+      ]
+    },
+    {
+      "input": "Crimson Creek Golf Club",
+      "city": "El Reno",
+      "status": "miss",
+      "slugsTried": [
+        "crimsoncreek",
+        "crimsoncreekgolfclub",
+        "crimsoncreekgolf",
+        "crimsoncreekgolfcourse",
+        "crimsoncreekcc",
+        "crimson-creek-golf-club",
+        "crimson-creek"
+      ]
+    },
+    {
+      "input": "Brent Bruehl Memorial Golf Course",
+      "city": "Purcell",
+      "status": "miss",
+      "slugsTried": [
+        "brentbruehlmemorial",
+        "brentbruehlmemorialgolfcourse",
+        "brentbruehlmemorialgolf",
+        "brentbruehlmemorialgolfclub",
+        "brentbruehlmemorialcc",
+        "brent-bruehl-memorial-golf-course",
+        "brent-bruehl-memorial"
+      ]
+    },
+    {
+      "input": "Chickasha Golf \u0026 Country Club",
+      "city": "Chickasha",
+      "status": "miss",
+      "slugsTried": [
+        "chickashagolfand",
+        "chickashagolfandcountryclub",
+        "chickashagolfandgolf",
+        "chickashagolfandgolfclub",
+        "chickashagolfandgolfcourse",
+        "chickashagolfandcc",
+        "chickasha-golf-\u0026-country-club",
+        "chickasha-golf-\u0026"
+      ]
+    },
+    {
+      "input": "Lakeside Memorial Golf Course",
+      "city": "Stillwater",
+      "status": "miss",
+      "slugsTried": [
+        "lakesidememorial",
+        "lakesidememorialgolfcourse",
+        "lakesidememorialgolf",
+        "lakesidememorialgolfclub",
+        "lakesidememorialcc",
+        "lakeside-memorial-golf-course",
+        "lakeside-memorial"
+      ]
+    },
+    {
+      "input": "Chandler Golf Course",
+      "city": "Chandler",
+      "status": "miss",
+      "slugsTried": [
+        "chandler",
+        "chandlergolfcourse",
+        "chandlergolf",
+        "chandlergolfclub",
+        "chandlercc",
+        "chandler-golf-course"
+      ]
+    }
+  ],
+  "state": "OK",
+  "timestamp": "2026-02-16T22:52:13-07:00",
+  "total": 32,
+  "wrongState": 0
+}

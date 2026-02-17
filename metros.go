@@ -72,6 +72,12 @@ var Metros = map[string]Metro{
 		State:   "NM",
 		Tagline: "High Desert Golf Along the Rio Grande",
 	},
+	"oklahomacity": {
+		Name:    "Oklahoma City",
+		Slug:    "oklahomacity",
+		State:   "OK",
+		Tagline: "Public Courses Across Metro OKC",
+	},
 }
 
 func init() {
