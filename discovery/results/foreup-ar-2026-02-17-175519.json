@@ -1,0 +1,113 @@
+{
+  "confirmed": 2,
+  "listedOnly": 1,
+  "platform": "foreup",
+  "results": {
+    "Country Club of Arkansas": {
+      "courseId": 21044,
+      "scheduleId": 6608,
+      "bookingClass": "",
+      "name": "The Country Club of Arkansas",
+      "city": "Maumelle ",
+      "state": "AR",
+      "address": "3 Country Club Circle",
+      "postal": "72113",
+      "phone": "5018510095",
+      "website": "www.countryclubofarkansas.com",
+      "timezone": "America/Chicago",
+      "holes": 18,
+      "bookingClassId": "8112",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        57,
+        26,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "Cypress Creek Golf Club": {
+      "courseId": 19329,
+      "scheduleId": 1443,
+      "bookingClass": "",
+      "name": "Cypress Creek Golf Course",
+      "city": "Cabot",
+      "state": "AR",
+      "address": "34 Cypress Creek Crossing",
+      "phone": "(501) 605-8000",
+      "website": "http://www.golfcypresscreek.com/",
+      "timezone": "America/Chicago",
+      "holes": 18,
+      "bookingClassId": "",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": null,
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "Greystone Country Club": {
+      "courseId": 21421,
+      "scheduleId": 7665,
+      "bookingClass": "",
+      "name": "Greystone Country Club",
+      "city": "Cabot",
+      "state": "AR",
+      "address": "57 Greystone Blvd",
+      "postal": "72023",
+      "phone": "5019414444",
+      "website": "golfgreystonecc.com",
+      "timezone": "America/Chicago",
+      "holes": 18,
+      "bookingClassId": "9696",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        54,
+        52,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    }
+  },
+  "state": "AR",
+  "timestamp": "2026-02-17T17:55:19-07:00",
+  "totalInput": 25,
+  "unmatched": [
+    "Rebsamen Park Golf Course",
+    "War Memorial Golf Course",
+    "First Tee of Central Arkansas",
+    "Eagle Hill Golf \u0026 Athletic Club",
+    "Burns Park Golf Course",
+    "The Links at The Rock Golf \u0026 Country Club",
+    "The Greens at North Hills",
+    "Pine Valley Golf Course",
+    "Hickory Creek Golf Course",
+    "Nutters Chapel Golf \u0026 Country Club",
+    "The Links at Cadron Valley Golf \u0026 Country Club",
+    "Longhills Golf Course",
+    "Hurricane Golf \u0026 Country Club",
+    "Persimmon Ridge Golf Club",
+    "Isabella Golf Club",
+    "Ponce de Leon Golf Club",
+    "Granada Golf Club",
+    "Balboa Golf Club",
+    "Cortez Golf Course",
+    "DeSoto Golf Course",
+    "Coronado Golf Course",
+    "Hot Springs Country Club"
+  ]
+}

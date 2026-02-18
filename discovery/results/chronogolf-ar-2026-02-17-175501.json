@@ -1,0 +1,622 @@
+{
+  "confirmed": 0,
+  "elapsed": "1m9.503392542s",
+  "listedOnly": 9,
+  "misses": 12,
+  "platform": "chronogolf",
+  "results": [
+    {
+      "input": "Rebsamen Park Golf Course",
+      "city": "Little Rock",
+      "slug": "rebsamen-park-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "f0469dd0-6139-4f6b-84a7-bcbe93b5c8bf",
+        "id": 2100,
+        "name": "Rebsamen Park Golf Course ",
+        "slug": "rebsamen-park-golf-course",
+        "city": "Little Rock",
+        "province": "Arkansas",
+        "country": "United States",
+        "address": "3400 Rebsamen Park Rd",
+        "phone": "(501)666-7965",
+        "website": "http://www.littlerock.org/ParksRecreation/golfcourses/",
+        "postcode": "72202",
+        "defaultAffiliationTypeId": 9222,
+        "location": {
+          "lat": 34.779655,
+          "lon": -92.319098
+        },
+        "courses": [
+          {
+            "id": 2421,
+            "name": "Executive ",
+            "holes": 9,
+            "uuid": "4f3cf54b-4d19-4dc0-a2de-272ae4df6420"
+          },
+          {
+            "id": 2420,
+            "name": "Championship",
+            "holes": 18,
+            "uuid": "402aee16-c58f-4432-9ed7-d17cdf2c9859"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "War Memorial Golf Course",
+      "city": "Little Rock",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "First Tee of Central Arkansas",
+      "city": "Little Rock",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Eagle Hill Golf \u0026 Athletic Club",
+      "city": "Little Rock",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Burns Park Golf Course",
+      "city": "North Little Rock",
+      "slug": "burns-park-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "49438e9f-8e95-434c-8f22-21a062622ab2",
+        "id": 2006,
+        "name": "Burns Park Golf Course ",
+        "slug": "burns-park-golf-course",
+        "city": "North Little Rock",
+        "province": "Arkansas",
+        "country": "United States",
+        "address": "30 Championship Dr",
+        "phone": "(501)758-5800",
+        "website": "",
+        "postcode": "72118",
+        "defaultAffiliationTypeId": 8846,
+        "location": {
+          "lat": 34.802492,
+          "lon": -92.311432
+        },
+        "courses": [
+          {
+            "id": 2312,
+            "name": "Championship",
+            "holes": 18,
+            "uuid": "521f71f6-a143-4722-9db6-ac6c20210da0"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Links at The Rock Golf \u0026 Country Club",
+      "city": "North Little Rock",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "The Greens at North Hills",
+      "city": "Sherwood",
+      "slug": "the-greens-at-north-hills",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "72c162a3-86ac-4b5c-b3ca-f88ec14a897f",
+        "id": 2131,
+        "name": "The Greens At North Hills",
+        "slug": "the-greens-at-north-hills",
+        "city": "Sherwood",
+        "province": "Arkansas",
+        "country": "United States",
+        "address": "7400 Highway 107",
+        "phone": "501-833-3790",
+        "website": "http://www.thegreensatnorthhills.net",
+        "postcode": "72120",
+        "defaultAffiliationTypeId": 9346,
+        "location": {
+          "lat": 34.821572,
+          "lon": -92.231276
+        },
+        "courses": []
+      }
+    },
+    {
+      "input": "Pine Valley Golf Course",
+      "city": "Sherwood",
+      "slug": "pine-valley-golf-course-arkansas",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "89bf7cae-fa15-44c5-89b2-367808a27ebe",
+        "id": 2092,
+        "name": "Pine Valley Golf Course",
+        "slug": "pine-valley-golf-course-arkansas",
+        "city": "North Little Rock",
+        "province": "Arkansas",
+        "country": "United States",
+        "address": "9311 Tom Box Rd",
+        "phone": "(501) 835-3424",
+        "website": "http://www.myspace.com/pinevalley",
+        "postcode": "72120",
+        "defaultAffiliationTypeId": 9190,
+        "location": {
+          "lat": 34.913729,
+          "lon": -92.204796
+        },
+        "courses": [
+          {
+            "id": 2411,
+            "name": "Pine Valley",
+            "holes": 18,
+            "uuid": "b2d56985-6d81-4d84-b9ed-57d95b0fe508"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Hickory Creek Golf Course",
+      "city": "Jacksonville",
+      "slug": "hickory-creek-golf-course",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "d976a5ae-1b15-441e-bf2d-a3a1377dbe6d",
+        "id": 5747,
+        "name": "Hickory Creek Golf Course",
+        "slug": "hickory-creek-golf-course",
+        "city": "Frankfort",
+        "province": "Illinois",
+        "country": "United States",
+        "address": "786l W Saint Francis Rd",
+        "phone": "(815) 469-1717",
+        "website": "",
+        "postcode": "60423",
+        "defaultAffiliationTypeId": 23810,
+        "location": {
+          "lat": 41.521668,
+          "lon": -87.820151
+        },
+        "courses": [
+          {
+            "id": 6688,
+            "name": "Hickory Creek",
+            "holes": 9,
+            "uuid": "fb69ec4e-645f-4ff3-bfcc-50713af21788"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Cypress Creek Golf Club",
+      "city": "Cabot",
+      "slug": "cypress-creek-golf-club-arkansas",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "a158a43b-6550-4274-a80c-00c4d57dc43f",
+        "id": 2023,
+        "name": "Cypress Creek Golf Club",
+        "slug": "cypress-creek-golf-club-arkansas",
+        "city": "Cabot",
+        "province": "Arkansas",
+        "country": "United States",
+        "address": "34, Cypress Creek Crossing",
+        "phone": "+1 (501) 605-8000",
+        "website": "http://www.golfcypresscreek.com",
+        "postcode": "72023",
+        "defaultAffiliationTypeId": 8914,
+        "location": {
+          "lat": 35.025574,
+          "lon": -92.032742
+        },
+        "courses": [
+          {
+            "id": 2331,
+            "name": "Cypress Creek",
+            "holes": 18,
+            "uuid": "46f1eb4b-f404-4634-b907-3b86a043de92"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Greystone Country Club",
+      "city": "Cabot",
+      "slug": "greystone-country-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "13b1afe7-97e6-43ab-bb34-33a3735c9a97",
+        "id": 2045,
+        "name": "Greystone Country Club ",
+        "slug": "greystone-country-club",
+        "city": "Cabot",
+        "province": "Arkansas",
+        "country": "United States",
+        "address": "57 Greystone Blvd",
+        "phone": "(501) 941-4441",
+        "website": "http://www.golfgreystonecc.com",
+        "postcode": "72023",
+        "defaultAffiliationTypeId": 9002,
+        "location": {
+          "lat": 35.0225683,
+          "lon": -92.0633505
+        },
+        "courses": [
+          {
+            "id": 2353,
+            "name": "Greystone",
+            "holes": 18,
+            "uuid": "18456b91-106b-4322-9ec5-ccaae5099c2b"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Nutters Chapel Golf \u0026 Country Club",
+      "city": "Conway",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "The Links at Cadron Valley Golf \u0026 Country Club",
+      "city": "Conway",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Longhills Golf Course",
+      "city": "Benton",
+      "slug": "longhills-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "39e4c05d-cf81-42be-a844-8e8712dff828",
+        "id": 2068,
+        "name": "Longhills Golf Course",
+        "slug": "longhills-golf-course",
+        "city": "Benton",
+        "province": "Arkansas",
+        "country": "United States",
+        "address": "327 Hwy 5 N",
+        "phone": "(501) 316-3000",
+        "website": "",
+        "postcode": "72015",
+        "defaultAffiliationTypeId": 9094,
+        "location": {
+          "lat": 34.6004095,
+          "lon": -92.5518659
+        },
+        "courses": [
+          {
+            "id": 2386,
+            "name": "Longhills",
+            "holes": 18,
+            "uuid": "b238b63e-3193-4db0-8507-15dc1cd19afa"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Hurricane Golf \u0026 Country Club",
+      "city": "Bryant",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Country Club of Arkansas",
+      "city": "Maumelle",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Persimmon Ridge Golf Club",
+      "city": "Greenbrier",
+      "slug": "persimmon-ridge-golf-club-arkansas",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "db91c7a0-0308-41af-ac31-64793baf5440",
+        "id": 2088,
+        "name": "Persimmon Ridge Golf Club",
+        "slug": "persimmon-ridge-golf-club-arkansas",
+        "city": "Greenbrier",
+        "province": "Arkansas",
+        "country": "United States",
+        "address": "1 Fairway Dr",
+        "phone": "(501) 679-5423",
+        "website": "http://www.persimmonridgegolfcourse.com",
+        "postcode": "72058",
+        "defaultAffiliationTypeId": 9174,
+        "location": {
+          "lat": 34.937946,
+          "lon": -91.987029
+        },
+        "courses": [
+          {
+            "id": 2407,
+            "name": "Persimmon Ridge",
+            "holes": 9,
+            "uuid": "74ad9f70-0e0b-4587-abc1-4d5047e1ffa5"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Isabella Golf Club",
+      "city": "Hot Springs Village",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Ponce de Leon Golf Club",
+      "city": "Hot Springs Village",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Granada Golf Club",
+      "city": "Hot Springs Village",
+      "slug": "granada-golf-course",
+      "slugSource": "swap-golf-course",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "319d4605-1a3c-4161-b135-d307d047d46a",
+        "id": 3936,
+        "name": "Granada Golf Course",
+        "slug": "granada-golf-course",
+        "city": "Coral Gables",
+        "province": "Florida",
+        "country": "United States",
+        "address": "2001 Granada Blvd",
+        "phone": "(305) 460-5367",
+        "website": "http://www.coralgables.com/index.aspx?page=722",
+        "postcode": "33134",
+        "defaultAffiliationTypeId": 16566,
+        "location": {
+          "lat": 25.740965,
+          "lon": -80.280974
+        },
+        "courses": [
+          {
+            "id": 4524,
+            "name": "Granada",
+            "holes": 18,
+            "uuid": "09c8d0a9-4325-4e3d-9dea-ad721ff22517"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Balboa Golf Club",
+      "city": "Hot Springs Village",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Cortez Golf Course",
+      "city": "Hot Springs Village",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "DeSoto Golf Course",
+      "city": "Hot Springs Village",
+      "slug": "desoto-country-club",
+      "slugSource": "swap-country-club",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "c7d803be-45eb-42db-a337-66b71e03b871",
+        "id": 1846,
+        "name": "DeSoto Country Club",
+        "slug": "desoto-country-club",
+        "city": "Fort Payne",
+        "province": "Alabama",
+        "country": "United States",
+        "address": "502 Crystal Lake Rd",
+        "phone": "(256) 845-2571",
+        "website": "http://www.fortpayne.org/index.php?option=com_content\u0026view=article\u0026id=57\u0026Itemid=97",
+        "postcode": "35967",
+        "defaultAffiliationTypeId": 8206,
+        "location": {
+          "lat": 34.462674,
+          "lon": -85.692624
+        },
+        "courses": [
+          {
+            "id": 2124,
+            "name": "DeSoto",
+            "holes": 9,
+            "uuid": "36d5a725-c7ed-40d7-b889-fc978193240e"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Coronado Golf Course",
+      "city": "Hot Springs Village",
+      "slug": "coronado-golf-course",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "5bdf2ab3-5571-4db9-b0ee-3ba958353c32",
+        "id": 2199,
+        "name": "Coronado Golf Course",
+        "slug": "coronado-golf-course",
+        "city": "Scottsdale",
+        "province": "Arizona",
+        "country": "United States",
+        "address": "2829 N Miller Rd",
+        "phone": "(480) 947-8364",
+        "website": "http://www.coronadogolfscottsdale.com",
+        "postcode": "85257",
+        "defaultAffiliationTypeId": 9618,
+        "location": {
+          "lat": 33.478752,
+          "lon": -111.917544
+        },
+        "courses": [
+          {
+            "id": 2523,
+            "name": "Coronado",
+            "holes": 9,
+            "uuid": "f9235b26-3b79-431e-8dec-f44faaec488e"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Hot Springs Country Club",
+      "city": "Hot Springs",
+      "slug": "hot-springs-country-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "46826490-de43-4952-8f22-0c566862d7c7",
+        "id": 2053,
+        "name": "Hot Springs Country Club",
+        "slug": "hot-springs-country-club",
+        "city": "Hot Springs",
+        "province": "Arkansas",
+        "country": "United States",
+        "address": "101 Country Club Dr",
+        "phone": "(501) 624-2661",
+        "website": "http://www.hotspringscc.com",
+        "postcode": "71901",
+        "defaultAffiliationTypeId": 9034,
+        "location": {
+          "lat": 34.480767,
+          "lon": -93.029586
+        },
+        "courses": [
+          {
+            "id": 2363,
+            "name": "Pineview ",
+            "holes": 9,
+            "uuid": "96bb7284-758d-41ae-bc83-0b5dbf54a67a"
+          },
+          {
+            "id": 2362,
+            "name": "Park",
+            "holes": 18,
+            "uuid": "ad03007a-1bba-43fb-bcbe-a78dbd7e52b7"
+          },
+          {
+            "id": 2361,
+            "name": "Arlington ",
+            "holes": 18,
+            "uuid": "e9a38bb7-a225-4b2e-9a44-68b8bcb8bcad"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "state": "AR",
+  "timestamp": "2026-02-17T17:55:01-07:00",
+  "totalInput": 25,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-21",
+    "2026-02-28"
+  ],
+  "wrongState": 4
+}

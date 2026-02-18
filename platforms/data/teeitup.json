@@ -1835,33 +1835,6 @@
     "state": "OK"
   },
   {
-    "key": "lakewinds",
-    "metro": "montgomery",
-    "alias": "lakewinds-golf-club",
-    "facilityId": "13162",
-    "displayName": "Lakewinds Golf Club",
-    "city": "Jacksons Gap",
-    "state": "AL"
-  },
-  {
-    "key": "cottonwood",
-    "metro": "montgomery",
-    "alias": "cottonwood-golf-club-v2",
-    "facilityId": "16841",
-    "displayName": "Cottonwood Golf Club",
-    "city": "Montgomery",
-    "state": "AL"
-  },
-  {
-    "key": "emerald-mountain",
-    "metro": "montgomery",
-    "alias": "emerald-mountain-golf-club-v2",
-    "facilityId": "18637",
-    "displayName": "Emerald Mountain Golf Club",
-    "city": "Wetumpka",
-    "state": "AL"
-  },
-  {
     "alias": "balboa-golf-course",
     "metro": "losangeles",
     "displayName": "Balboa Golf Course",

@@ -1,0 +1,363 @@
+{
+  "confirmed": 0,
+  "elapsed": "1m1.60362875s",
+  "listedOnly": 0,
+  "missed": 25,
+  "platform": "quick18",
+  "results": [
+    {
+      "input": "Rebsamen Park Golf Course",
+      "city": "Little Rock",
+      "status": "miss",
+      "slugsTried": [
+        "rebsamenpark",
+        "rebsamenparkgolfcourse",
+        "rebsamenparkgolf",
+        "rebsamenparkgolfclub",
+        "rebsamenparkcc",
+        "rebsamen-park-golf-course",
+        "rebsamen-park"
+      ]
+    },
+    {
+      "input": "War Memorial Golf Course",
+      "city": "Little Rock",
+      "status": "miss",
+      "slugsTried": [
+        "warmemorial",
+        "warmemorialgolfcourse",
+        "warmemorialgolf",
+        "warmemorialgolfclub",
+        "warmemorialcc",
+        "war-memorial-golf-course",
+        "war-memorial"
+      ]
+    },
+    {
+      "input": "First Tee of Central Arkansas",
+      "city": "Little Rock",
+      "status": "miss",
+      "slugsTried": [
+        "firstteeofcentralarkansas",
+        "firstteeofcentralarkansasgolf",
+        "firstteeofcentralarkansasgolfclub",
+        "firstteeofcentralarkansasgolfcourse",
+        "firstteeofcentralarkansascc",
+        "first-tee-of-central-arkansas"
+      ]
+    },
+    {
+      "input": "Eagle Hill Golf \u0026 Athletic Club",
+      "city": "Little Rock",
+      "status": "miss",
+      "slugsTried": [
+        "eaglehillgolfandathleticclub",
+        "eaglehillgolfandathleticclubgolf",
+        "eaglehillgolfandathleticclubgolfclub",
+        "eaglehillgolfandathleticclubgolfcourse",
+        "eaglehillgolfandathleticclubcc",
+        "eagle-hill-golf-\u0026-athletic-club"
+      ]
+    },
+    {
+      "input": "Burns Park Golf Course",
+      "city": "North Little Rock",
+      "status": "miss",
+      "slugsTried": [
+        "burnspark",
+        "burnsparkgolfcourse",
+        "burnsparkgolf",
+        "burnsparkgolfclub",
+        "burnsparkcc",
+        "burns-park-golf-course",
+        "burns-park"
+      ]
+    },
+    {
+      "input": "The Links at The Rock Golf \u0026 Country Club",
+      "city": "North Little Rock",
+      "status": "miss",
+      "slugsTried": [
+        "linksattherockgolfand",
+        "thelinksattherockgolfandcountryclub",
+        "linksattherockgolfandgolf",
+        "linksattherockgolfandgolfclub",
+        "linksattherockgolfandgolfcourse",
+        "linksattherockgolfandcc",
+        "the-links-at-the-rock-golf-\u0026-country-club",
+        "links-at-the-rock-golf-\u0026",
+        "linksattherockgolfandcountryclub",
+        "linksattherockgolfandcountryclubgolf"
+      ]
+    },
+    {
+      "input": "The Greens at North Hills",
+      "city": "Sherwood",
+      "status": "miss",
+      "slugsTried": [
+        "greensatnorthhills",
+        "thegreensatnorthhills",
+        "greensatnorthhillsgolf",
+        "greensatnorthhillsgolfclub",
+        "greensatnorthhillsgolfcourse",
+        "greensatnorthhillscc",
+        "the-greens-at-north-hills",
+        "greens-at-north-hills"
+      ]
+    },
+    {
+      "input": "Pine Valley Golf Course",
+      "city": "Sherwood",
+      "status": "miss",
+      "slugsTried": [
+        "pinevalley",
+        "pinevalleygolfcourse",
+        "pinevalleygolf",
+        "pinevalleygolfclub",
+        "pinevalleycc",
+        "pine-valley-golf-course",
+        "pine-valley"
+      ]
+    },
+    {
+      "input": "Hickory Creek Golf Course",
+      "city": "Jacksonville",
+      "status": "miss",
+      "slugsTried": [
+        "hickorycreek",
+        "hickorycreekgolfcourse",
+        "hickorycreekgolf",
+        "hickorycreekgolfclub",
+        "hickorycreekcc",
+        "hickory-creek-golf-course",
+        "hickory-creek"
+      ]
+    },
+    {
+      "input": "Cypress Creek Golf Club",
+      "city": "Cabot",
+      "status": "miss",
+      "slugsTried": [
+        "cypresscreek",
+        "cypresscreekgolfclub",
+        "cypresscreekgolf",
+        "cypresscreekgolfcourse",
+        "cypresscreekcc",
+        "cypress-creek-golf-club",
+        "cypress-creek"
+      ]
+    },
+    {
+      "input": "Greystone Country Club",
+      "city": "Cabot",
+      "status": "miss",
+      "slugsTried": [
+        "greystone",
+        "greystonecountryclub",
+        "greystonegolf",
+        "greystonegolfclub",
+        "greystonegolfcourse",
+        "greystonecc",
+        "greystone-country-club"
+      ]
+    },
+    {
+      "input": "Nutters Chapel Golf \u0026 Country Club",
+      "city": "Conway",
+      "status": "miss",
+      "slugsTried": [
+        "nutterschapelgolfand",
+        "nutterschapelgolfandcountryclub",
+        "nutterschapelgolfandgolf",
+        "nutterschapelgolfandgolfclub",
+        "nutterschapelgolfandgolfcourse",
+        "nutterschapelgolfandcc",
+        "nutters-chapel-golf-\u0026-country-club",
+        "nutters-chapel-golf-\u0026"
+      ]
+    },
+    {
+      "input": "The Links at Cadron Valley Golf \u0026 Country Club",
+      "city": "Conway",
+      "status": "miss",
+      "slugsTried": [
+        "linksatcadronvalleygolfand",
+        "thelinksatcadronvalleygolfandcountryclub",
+        "linksatcadronvalleygolfandgolf",
+        "linksatcadronvalleygolfandgolfclub",
+        "linksatcadronvalleygolfandgolfcourse",
+        "linksatcadronvalleygolfandcc",
+        "the-links-at-cadron-valley-golf-\u0026-country-club",
+        "links-at-cadron-valley-golf-\u0026",
+        "linksatcadronvalleygolfandcountryclub",
+        "linksatcadronvalleygolfandcountryclubgolf"
+      ]
+    },
+    {
+      "input": "Longhills Golf Course",
+      "city": "Benton",
+      "status": "miss",
+      "slugsTried": [
+        "longhills",
+        "longhillsgolfcourse",
+        "longhillsgolf",
+        "longhillsgolfclub",
+        "longhillscc",
+        "longhills-golf-course"
+      ]
+    },
+    {
+      "input": "Hurricane Golf \u0026 Country Club",
+      "city": "Bryant",
+      "status": "miss",
+      "slugsTried": [
+        "hurricanegolfand",
+        "hurricanegolfandcountryclub",
+        "hurricanegolfandgolf",
+        "hurricanegolfandgolfclub",
+        "hurricanegolfandgolfcourse",
+        "hurricanegolfandcc",
+        "hurricane-golf-\u0026-country-club",
+        "hurricane-golf-\u0026"
+      ]
+    },
+    {
+      "input": "Country Club of Arkansas",
+      "city": "Maumelle",
+      "status": "miss",
+      "slugsTried": [
+        "countryclubofarkansas",
+        "countryclubofarkansasgolf",
+        "countryclubofarkansasgolfclub",
+        "countryclubofarkansasgolfcourse",
+        "countryclubofarkansascc",
+        "country-club-of-arkansas"
+      ]
+    },
+    {
+      "input": "Persimmon Ridge Golf Club",
+      "city": "Greenbrier",
+      "status": "miss",
+      "slugsTried": [
+        "persimmonridge",
+        "persimmonridgegolfclub",
+        "persimmonridgegolf",
+        "persimmonridgegolfcourse",
+        "persimmonridgecc",
+        "persimmon-ridge-golf-club",
+        "persimmon-ridge"
+      ]
+    },
+    {
+      "input": "Isabella Golf Club",
+      "city": "Hot Springs Village",
+      "status": "miss",
+      "slugsTried": [
+        "isabella",
+        "isabellagolfclub",
+        "isabellagolf",
+        "isabellagolfcourse",
+        "isabellacc",
+        "isabella-golf-club"
+      ]
+    },
+    {
+      "input": "Ponce de Leon Golf Club",
+      "city": "Hot Springs Village",
+      "status": "miss",
+      "slugsTried": [
+        "poncedeleon",
+        "poncedeleongolfclub",
+        "poncedeleongolf",
+        "poncedeleongolfcourse",
+        "poncedeleoncc",
+        "ponce-de-leon-golf-club",
+        "ponce-de-leon"
+      ]
+    },
+    {
+      "input": "Granada Golf Club",
+      "city": "Hot Springs Village",
+      "status": "miss",
+      "slugsTried": [
+        "granada",
+        "granadagolfclub",
+        "granadagolf",
+        "granadagolfcourse",
+        "granadacc",
+        "granada-golf-club"
+      ]
+    },
+    {
+      "input": "Balboa Golf Club",
+      "city": "Hot Springs Village",
+      "status": "miss",
+      "slugsTried": [
+        "balboa",
+        "balboagolfclub",
+        "balboagolf",
+        "balboagolfcourse",
+        "balboacc",
+        "balboa-golf-club"
+      ]
+    },
+    {
+      "input": "Cortez Golf Course",
+      "city": "Hot Springs Village",
+      "status": "miss",
+      "slugsTried": [
+        "cortez",
+        "cortezgolfcourse",
+        "cortezgolf",
+        "cortezgolfclub",
+        "cortezcc",
+        "cortez-golf-course"
+      ]
+    },
+    {
+      "input": "DeSoto Golf Course",
+      "city": "Hot Springs Village",
+      "status": "miss",
+      "slugsTried": [
+        "desoto",
+        "desotogolfcourse",
+        "desotogolf",
+        "desotogolfclub",
+        "desotocc",
+        "desoto-golf-course"
+      ]
+    },
+    {
+      "input": "Coronado Golf Course",
+      "city": "Hot Springs Village",
+      "status": "miss",
+      "slugsTried": [
+        "coronado",
+        "coronadogolfcourse",
+        "coronadogolf",
+        "coronadogolfclub",
+        "coronadocc",
+        "coronado-golf-course"
+      ]
+    },
+    {
+      "input": "Hot Springs Country Club",
+      "city": "Hot Springs",
+      "status": "miss",
+      "slugsTried": [
+        "hotsprings",
+        "hotspringscountryclub",
+        "hotspringsgolf",
+        "hotspringsgolfclub",
+        "hotspringsgolfcourse",
+        "hotspringscc",
+        "hot-springs-country-club",
+        "hot-springs"
+      ]
+    }
+  ],
+  "state": "AR",
+  "timestamp": "2026-02-17T17:56:23-07:00",
+  "total": 25,
+  "wrongState": 0
+}

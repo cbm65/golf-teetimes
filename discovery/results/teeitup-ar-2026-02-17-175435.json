@@ -1,0 +1,284 @@
+{
+  "confirmed": 1,
+  "elapsed": "1m13.579716458s",
+  "errors": 0,
+  "listedOnly": 2,
+  "misses": 22,
+  "platform": "teeitup",
+  "results": [
+    {
+      "input": "Rebsamen Park Golf Course",
+      "city": "Little Rock",
+      "alias": "rebsamen-park-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "War Memorial Golf Course",
+      "city": "Little Rock",
+      "alias": "war-memorial-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 14083,
+        "courseId": "57196d7591144f3f00008591",
+        "name": "War Memorial Golf Course",
+        "address": "5511 W Markham St, Little Rock, AR 72205, US",
+        "locality": "Little Rock",
+        "region": "AR",
+        "country": "US",
+        "location": [
+          -92.334882,
+          34.752004
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "First Tee of Central Arkansas",
+      "city": "Little Rock",
+      "alias": "first-tee-of-central-arkansas",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Eagle Hill Golf \u0026 Athletic Club",
+      "city": "Little Rock",
+      "alias": "eagle-hill-golf-and-athletic-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Burns Park Golf Course",
+      "city": "North Little Rock",
+      "alias": "burns-park-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "The Links at The Rock Golf \u0026 Country Club",
+      "city": "North Little Rock",
+      "alias": "the-links-at-the-rock-golf-and-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "The Greens at North Hills",
+      "city": "Sherwood",
+      "alias": "the-greens-at-north-hills",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 6748,
+        "courseId": "54f14deb0c8ad60378b045bd",
+        "name": "The Greens at North Hills",
+        "address": "7400 Highway 107, Sherwood, AR 72120 US",
+        "locality": "Sherwood",
+        "region": "AR",
+        "country": "US",
+        "location": [
+          -92.22913,
+          34.89207
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        30,
+        38,
+        39
+      ]
+    },
+    {
+      "input": "Pine Valley Golf Course",
+      "city": "Sherwood",
+      "alias": "pine-valley-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Hickory Creek Golf Course",
+      "city": "Jacksonville",
+      "alias": "hickory-creek-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Cypress Creek Golf Club",
+      "city": "Cabot",
+      "alias": "cypress-creek-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Greystone Country Club",
+      "city": "Cabot",
+      "alias": "greystone-country-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 12538,
+        "courseId": "54f150090c8ad60378b0751c",
+        "name": "Greystone Country Club",
+        "address": "57 Greystone Blvd, Cabot, AR 72023 US",
+        "locality": "Cabot",
+        "region": "AR",
+        "country": "US",
+        "location": [
+          -92.065924,
+          35.017878
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Nutters Chapel Golf \u0026 Country Club",
+      "city": "Conway",
+      "alias": "nutters-chapel-golf-and-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "The Links at Cadron Valley Golf \u0026 Country Club",
+      "city": "Conway",
+      "alias": "the-links-at-cadron-valley-golf-and-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Longhills Golf Course",
+      "city": "Benton",
+      "alias": "longhills-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Hurricane Golf \u0026 Country Club",
+      "city": "Bryant",
+      "alias": "hurricane-golf-and-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Country Club of Arkansas",
+      "city": "Maumelle",
+      "alias": "country-club-of-arkansas",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Persimmon Ridge Golf Club",
+      "city": "Greenbrier",
+      "alias": "persimmon-ridge-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Isabella Golf Club",
+      "city": "Hot Springs Village",
+      "alias": "isabella-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Ponce de Leon Golf Club",
+      "city": "Hot Springs Village",
+      "alias": "ponce-de-leon-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Granada Golf Club",
+      "city": "Hot Springs Village",
+      "alias": "granada-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Balboa Golf Club",
+      "city": "Hot Springs Village",
+      "alias": "balboa-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Cortez Golf Course",
+      "city": "Hot Springs Village",
+      "alias": "cortez-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "DeSoto Golf Course",
+      "city": "Hot Springs Village",
+      "alias": "desoto-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Coronado Golf Course",
+      "city": "Hot Springs Village",
+      "alias": "coronado-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Hot Springs Country Club",
+      "city": "Hot Springs",
+      "alias": "hot-springs-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    }
+  ],
+  "state": "AR",
+  "timestamp": "2026-02-17T17:54:35-07:00",
+  "totalInput": 25,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-21",
+    "2026-02-28"
+  ]
+}

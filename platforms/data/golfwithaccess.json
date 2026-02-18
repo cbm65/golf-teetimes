@@ -132,30 +132,6 @@
     "state": "NM"
   },
   {
-    "key": "lagoon-park",
-    "metro": "montgomery",
-    "courseIds": [
-      "e110e102-b69d-4ae2-b503-138d60596299"
-    ],
-    "slug": "lagoon-park-golf-course",
-    "bookingUrl": "https://golfwithaccess.com/course/lagoon-park-golf-course/reserve-tee-time",
-    "displayName": "Lagoon Park Golf Course",
-    "city": "Montgomery",
-    "state": "AL"
-  },
-  {
-    "key": "gateway-park-executive",
-    "metro": "montgomery",
-    "courseIds": [
-      "b845d607-8db8-4e7c-bf2e-ec66f6eef15d"
-    ],
-    "slug": "gateway-park-golf-course",
-    "bookingUrl": "https://golfwithaccess.com/course/gateway-park-golf-course/reserve-tee-time",
-    "displayName": "Gateway Park Executive Golf Course",
-    "city": "Montgomery",
-    "state": "AL"
-  },
-  {
     "courseId": "8ed5e9ea-a4a9-4f04-8869-02ee0a742a90",
     "metro": "losangeles",
     "displayName": "Alhambra Golf Course",
@@ -241,39 +217,39 @@
     "state": "NC"
   },
   {
-  "key": "kissing-tree",
-  "metro": "austin",
-  "courseIds": [
-    "5244ceab-e41e-410f-9dfa-ad6023a30159"
-  ],
-  "slug": "kissing-tree-golf-club",
-  "bookingUrl": "https://golfwithaccess.com/course/kissing-tree-golf-club/reserve-tee-time",
-  "displayName": "Kissing Tree Golf Club",
-  "city": "San Marcos",
-  "state": "TX"
-},
+    "key": "kissing-tree",
+    "metro": "austin",
+    "courseIds": [
+      "5244ceab-e41e-410f-9dfa-ad6023a30159"
+    ],
+    "slug": "kissing-tree-golf-club",
+    "bookingUrl": "https://golfwithaccess.com/course/kissing-tree-golf-club/reserve-tee-time",
+    "displayName": "Kissing Tree Golf Club",
+    "city": "San Marcos",
+    "state": "TX"
+  },
   {
-  "key": "dubsdread",
-  "metro": "orlando",
-  "courseIds": [
-    "9f9e5f27-4b73-4153-b410-6f2262877a19"
-  ],
-  "slug": "dubsdread-golf-course",
-  "bookingUrl": "https://golfwithaccess.com/course/dubsdread-golf-course/reserve-tee-time",
-  "displayName": "Dubsdread Golf Course",
-  "city": "Orlando",
-  "state": "FL"
-},
+    "key": "dubsdread",
+    "metro": "orlando",
+    "courseIds": [
+      "9f9e5f27-4b73-4153-b410-6f2262877a19"
+    ],
+    "slug": "dubsdread-golf-course",
+    "bookingUrl": "https://golfwithaccess.com/course/dubsdread-golf-course/reserve-tee-time",
+    "displayName": "Dubsdread Golf Course",
+    "city": "Orlando",
+    "state": "FL"
+  },
   {
-  "key": "mystic-dunes",
-  "metro": "orlando",
-  "courseIds": [
-    "81787b71-b610-4a5f-bc01-a2d55e4cd7e6"
-  ],
-  "slug": "mystic-dunes-golf-club",
-  "bookingUrl": "https://golfwithaccess.com/course/mystic-dunes-golf-club/reserve-tee-time",
-  "displayName": "Mystic Dunes Golf Club",
-  "city": "Celebration",
-  "state": "FL"
-}
+    "key": "mystic-dunes",
+    "metro": "orlando",
+    "courseIds": [
+      "81787b71-b610-4a5f-bc01-a2d55e4cd7e6"
+    ],
+    "slug": "mystic-dunes-golf-club",
+    "bookingUrl": "https://golfwithaccess.com/course/mystic-dunes-golf-club/reserve-tee-time",
+    "displayName": "Mystic Dunes Golf Club",
+    "city": "Celebration",
+    "state": "FL"
+  }
 ]

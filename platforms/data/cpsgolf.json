@@ -522,58 +522,6 @@
     "timezone": "America/Chicago"
   },
   {
-    "key": "capitol-hill",
-    "metro": "montgomery",
-    "baseUrl": "https://rtjmainal.cps.golf",
-    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
-    "websiteId": "32b36cae-fcb8-477b-da2b-08d8ce98e37d",
-    "siteId": "9",
-    "courseIds": "29,30,31",
-    "bookingUrl": "https://rtjmainal.cps.golf/onlineresweb/search-teetime",
-    "names": {
-      "Capitol Hill-Judge": "Capitol Hill - Judge",
-      "Capitol Hill-Legislator": "Capitol Hill - Legislator",
-      "Capitol Hill-Senator": "Capitol Hill - Senator"
-    },
-    "city": "Prattville",
-    "state": "AL",
-    "timezone": "America/Chicago"
-  },
-  {
-    "key": "cambrian-ridge",
-    "metro": "montgomery",
-    "baseUrl": "https://rtjmainal.cps.golf",
-    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
-    "websiteId": "32b36cae-fcb8-477b-da2b-08d8ce98e37d",
-    "siteId": "2",
-    "courseIds": "1,2,3",
-    "bookingUrl": "https://rtjmainal.cps.golf/onlineresweb/search-teetime",
-    "names": {
-      "Cambrian Ridge-Canyon/Loblolly": "Cambrian Ridge - Canyon/Loblolly",
-      "Cambrian Ridge-Loblolly/Sherling": "Cambrian Ridge - Loblolly/Sherling",
-      "Cambrian Ridge-Sherling/Canyon": "Cambrian Ridge - Sherling/Canyon"
-    },
-    "city": "Greenville",
-    "state": "AL",
-    "timezone": "America/Chicago"
-  },
-  {
-    "key": "stillwaters",
-    "metro": "montgomery",
-    "baseUrl": "https://stillwater.cps.golf",
-    "apiKey": "",
-    "websiteId": "43069c3a-d1e9-4064-ad17-08db37a17745",
-    "siteId": "1",
-    "courseIds": "1",
-    "bookingUrl": "https://stillwater.cps.golf/onlineresweb/search-teetime",
-    "names": {
-      "Stillwaters Golf": "StillWaters Golf Course"
-    },
-    "city": "Dadeville",
-    "state": "AL",
-    "timezone": "America/Chicago"
-  },
-  {
     "key": "rio-hondo",
     "metro": "losangeles",
     "baseUrl": "https://riohondo.cps.golf",
@@ -849,51 +797,51 @@
     "timezone": "America/New_York"
   },
   {
-  "key": "plum-creek",
-  "metro": "austin",
-  "baseUrl": "https://foresightplumcreek.cps.golf",
-  "apiKey": "",
-  "websiteId": "0ad3857d-1704-43be-9703-08da6f83475a",
-  "siteId": "1",
-  "courseIds": "",
-  "bookingUrl": "https://foresightplumcreek.cps.golf/onlineresweb/search-teetime",
-  "names": {
-    "Plum Creek": "Plum Creek Golf Course"
+    "key": "plum-creek",
+    "metro": "austin",
+    "baseUrl": "https://foresightplumcreek.cps.golf",
+    "apiKey": "",
+    "websiteId": "0ad3857d-1704-43be-9703-08da6f83475a",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://foresightplumcreek.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Plum Creek": "Plum Creek Golf Course"
+    },
+    "city": "Kyle",
+    "state": "TX",
+    "timezone": "America/Chicago"
   },
-  "city": "Kyle",
-  "state": "TX",
-  "timezone": "America/Chicago"
-},
   {
-  "key": "double-j-ranch",
-  "metro": "austin",
-  "baseUrl": "https://doublejranch.cps.golf",
-  "apiKey": "",
-  "websiteId": "0c68af11-ba27-4d32-c550-08daf8b161e6",
-  "siteId": "1",
-  "courseIds": "",
-  "bookingUrl": "https://doublejranch.cps.golf/onlineresweb/search-teetime",
-  "names": {
-    "My Course": "Double J Ranch Golf Club"
+    "key": "double-j-ranch",
+    "metro": "austin",
+    "baseUrl": "https://doublejranch.cps.golf",
+    "apiKey": "",
+    "websiteId": "0c68af11-ba27-4d32-c550-08daf8b161e6",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://doublejranch.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "My Course": "Double J Ranch Golf Club"
+    },
+    "city": "San Marcos",
+    "state": "TX",
+    "timezone": "America/Chicago"
   },
-  "city": "San Marcos",
-  "state": "TX",
-  "timezone": "America/Chicago"
-},
   {
-  "key": "southern-dunes",
-  "metro": "orlando",
-  "baseUrl": "https://southerndunes.cps.golf",
-  "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
-  "websiteId": "184196d2-136c-4c64-65a1-08da89d75382",
-  "siteId": "1",
-  "courseIds": "",
-  "bookingUrl": "https://southerndunes.cps.golf/onlineresweb/search-teetime",
-  "names": {
-    "Southern Dunes": "Southern Dunes Golf Club"
-  },
-  "city": "Haines City",
-  "state": "FL",
-  "timezone": "America/New_York"
-}
+    "key": "southern-dunes",
+    "metro": "orlando",
+    "baseUrl": "https://southerndunes.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "184196d2-136c-4c64-65a1-08da89d75382",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://southerndunes.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Southern Dunes": "Southern Dunes Golf Club"
+    },
+    "city": "Haines City",
+    "state": "FL",
+    "timezone": "America/New_York"
+  }
 ]
