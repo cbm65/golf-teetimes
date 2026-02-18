@@ -37,10 +37,10 @@ var Metros = map[string]Metro{
 		Tagline: "Public Courses Across Metro Atlanta",
 	},
 	"dallas": {
-		Name:    "Dallas",
+		Name:    "DFW",
 		Slug:    "dallas",
 		State:   "TX",
-		Tagline: "Public Courses Across DFW",
+		Tagline: "Public Courses Across the Dallas-Fort Worth Metroplex",
 	},
 	"neworleans": {
 		Name:    "New Orleans",
@@ -55,16 +55,16 @@ var Metros = map[string]Metro{
 		Tagline: "Public Courses Across Middle Tennessee",
 	},
 	"miami": {
-		Name:    "Miami",
+		Name:    "South Florida",
 		Slug:    "miami",
 		State:   "FL",
-		Tagline: "Public Courses Across South Florida",
+		Tagline: "Public Courses from Miami to Fort Lauderdale",
 	},
 	"sanfrancisco": {
-		Name:    "San Francisco",
+		Name:    "Bay Area",
 		Slug:    "sanfrancisco",
 		State:   "CA",
-		Tagline: "Public Courses Across the Bay Area",
+		Tagline: "Public Courses from San Francisco to San Jose",
 	},
 	"albuquerque": {
 		Name:    "Albuquerque & Santa Fe",
@@ -79,16 +79,16 @@ var Metros = map[string]Metro{
 		Tagline: "Public Courses Across Metro OKC",
 	},
 	"losangeles": {
-		Name:    "Los Angeles",
+		Name:    "LA & Orange County",
 		Slug:    "losangeles",
 		State:   "CA",
-		Tagline: "Public Courses Across LA County",
+		Tagline: "Public Courses Across Los Angeles and Orange County",
 	},
 	"charlotte": {
-		Name:    "Charlotte",
+		Name:    "Greater Charlotte",
 		Slug:    "charlotte",
 		State:   "NC",
-		Tagline: "Public Courses Across the Queen City",
+		Tagline: "Public Courses Across the Carolinas' Queen City",
 	},
 	"sandiego": {
 		Name:    "San Diego",
