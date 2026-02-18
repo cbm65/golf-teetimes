@@ -3074,4 +3074,149 @@
     "city": "Davenport",
     "state": "FL"
   }
+,
+  {
+  "key": "wildcat-highlands",
+  "metro": "houston",
+  "alias": "wildcat-golf-club-v2",
+  "facilityId": "11401",
+  "displayName": "Wildcat Golf Club - Highlands",
+  "city": "Houston",
+  "state": "TX"
+},
+  {
+  "key": "jersey-meadow",
+  "metro": "houston",
+  "alias": "jersey-meadow-golf-club",
+  "facilityId": "1304",
+  "displayName": "Jersey Meadow Golf Course",
+  "city": "Jersey Village",
+  "state": "TX"
+},
+  {
+  "key": "bay-forest",
+  "metro": "houston",
+  "alias": "bay-forest-golf-club",
+  "facilityId": "771",
+  "displayName": "Bay Forest Golf Course",
+  "city": "La Porte",
+  "state": "TX"
+},
+  {
+  "key": "cinco-ranch",
+  "metro": "houston",
+  "alias": "golf-club-at-cinco-ranch",
+  "facilityId": "1370",
+  "displayName": "Golf Club at Cinco Ranch",
+  "city": "Katy",
+  "state": "TX"
+},
+  {
+  "key": "bayou",
+  "metro": "houston",
+  "alias": "bayou-golf-club",
+  "facilityId": "2858",
+  "displayName": "Bayou Golf Course",
+  "city": "Texas City",
+  "state": "TX"
+},
+  {
+  "key": "moody-gardens",
+  "metro": "houston",
+  "alias": "moody-gardens-golf-course",
+  "facilityId": "6844",
+  "displayName": "Moody Gardens Golf Course",
+  "city": "Galveston",
+  "state": "TX"
+},
+  {
+  "key": "panorama",
+  "metro": "houston",
+  "alias": "panorama-golf-club",
+  "facilityId": "2759",
+  "displayName": "Panorama Golf Club",
+  "city": "Conroe",
+  "state": "TX"
+},
+  {
+  "key": "houston",
+  "metro": "houston",
+  "alias": "golf-club-of-houston",
+  "facilityId": "1373",
+  "displayName": "Golf Club of Houston",
+  "city": "Humble",
+  "state": "TX"
+},
+  {
+  "key": "stonebridge-at-newport",
+  "metro": "houston",
+  "alias": "newport-golf-club",
+  "facilityId": "1154",
+  "displayName": "Stonebridge at Newport Golf Club",
+  "city": "Crosby",
+  "state": "TX"
+},
+  {
+  "key": "tour-18-houston",
+  "metro": "houston",
+  "alias": "tour-18-golf-course",
+  "facilityId": "584",
+  "displayName": "Tour 18 Houston",
+  "city": "Humble",
+  "state": "TX"
+},
+  {
+  "key": "wildcat-lakes",
+  "metro": "houston",
+  "alias": "wildcat-golf-club-v3",
+  "facilityId": "632",
+  "displayName": "Wildcat Golf Club - Lakes",
+  "city": "Houston",
+  "state": "TX"
+},
+  {
+  "key": "atascocita",
+  "metro": "houston",
+  "alias": "golf-preserve-of-atascocita",
+  "facilityId": "13680",
+  "displayName": "Atascocita Golf Club",
+  "city": "Humble",
+  "state": "TX"
+},
+  {
+  "key": "greatwood",
+  "metro": "houston",
+  "alias": "greatwood-golf-club",
+  "facilityId": "10232",
+  "displayName": "Greatwood Golf Club",
+  "city": "Sugar Land",
+  "state": "TX"
+},
+  {
+  "key": "houston-national",
+  "metro": "houston",
+  "alias": "houston-national-golf-club",
+  "facilityId": "2030",
+  "displayName": "Houston National Golf Club",
+  "city": "Houston",
+  "state": "TX"
+},
+  {
+  "key": "southwyck",
+  "metro": "houston",
+  "alias": "southwyck-golf-club",
+  "facilityId": "4947",
+  "displayName": "Southwyck Golf Club",
+  "city": "Pearland",
+  "state": "TX"
+},
+  {
+  "key": "longwood",
+  "metro": "houston",
+  "alias": "longwood-golf-club",
+  "facilityId": "1970",
+  "displayName": "The Golf Club at Longwood",
+  "city": "Cypress",
+  "state": "TX"
+}
 ]

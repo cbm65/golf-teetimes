@@ -31,12 +31,12 @@ var metroCoords = map[string][3]float64{
 	"miami":        {25.7617, -80.1918, 35},
 	"sanfrancisco": {37.5585, -122.2711, 45},
 	"oklahomacity": {35.4676, -97.5164, 35},
-	"montgomery":   {32.3668, -86.3000, 35},
 	"losangeles":   {34.0522, -118.2437, 35},
 	"sandiego":     {32.7157, -117.1611, 40},
 	"charlotte":    {35.2271, -80.8431, 35},
 	"austin":       {30.2672, -97.7431, 40},
 	"orlando":      {28.5383, -81.3792, 40},
+	"houston":      {29.7604, -95.3698, 45},
 }
 
 type searchRequest struct {

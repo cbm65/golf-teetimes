@@ -118,5 +118,15 @@
   "displayName": "Riverside Golf Course",
   "city": "Austin",
   "state": "TX"
+},
+  {
+  "key": "meadowbrook-farms",
+  "metro": "houston",
+  "subdomain": "meadowbrookfarms",
+  "courseId": "MEADOWBROOKFARMS",
+  "bookingUrl": "https://meadowbrookfarms.totaleintegrated.com",
+  "displayName": "Meadowbrook Farms Golf Club",
+  "city": "Katy",
+  "state": "TX"
 }
 ]

@@ -1,0 +1,1226 @@
+{
+  "confirmed": 1,
+  "elapsed": "1m42.435457917s",
+  "listedOnly": 21,
+  "misses": 13,
+  "platform": "chronogolf",
+  "results": [
+    {
+      "input": "Memorial Park Golf Course",
+      "city": "Houston",
+      "slug": "memorial-park-golf-course-texas",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "64464f5e-1f7c-446c-a34e-8bb3bc8f2ffe",
+        "id": 13787,
+        "name": "Memorial Park Golf Course",
+        "slug": "memorial-park-golf-course-texas",
+        "city": "Houston",
+        "province": "Texas",
+        "country": "United States",
+        "address": "1001 Memorial Loop Dr E",
+        "phone": "(713) 862-4033",
+        "website": "http://www.memorialparkgolf.com",
+        "postcode": "77007",
+        "defaultAffiliationTypeId": 55970,
+        "location": {
+          "lat": 29.770964,
+          "lon": -95.43093
+        },
+        "courses": [
+          {
+            "id": 15803,
+            "name": "Memorial Park",
+            "holes": 18,
+            "uuid": "e5ea1f85-c8f7-46a7-9903-d271d6afa8f4"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Hermann Park Golf Course",
+      "city": "Houston",
+      "slug": "hermann-park-golf-course",
+      "slugSource": "name+state",
+      "status": "confirmed",
+      "club": {
+        "uuid": "5a50cdcd-3ba6-475a-8de6-b114ebf9a364",
+        "id": 13660,
+        "name": "Hermann Park Golf Course",
+        "slug": "hermann-park-golf-course",
+        "city": "Houston",
+        "province": "Texas",
+        "country": "United States",
+        "address": "2155 N McGregor Way",
+        "phone": "(713) 526-0077",
+        "website": "http://www.hermannparkgc.com",
+        "postcode": "77030",
+        "defaultAffiliationTypeId": 55462,
+        "location": {
+          "lat": 30.410557854647,
+          "lon": -94.69928526962777
+        },
+        "courses": [
+          {
+            "id": 15657,
+            "name": "Hermann Park",
+            "holes": 18,
+            "uuid": "b69f305f-c6e8-4db3-aead-501638c07351"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        18,
+        9,
+        24
+      ]
+    },
+    {
+      "input": "Gus Wortham Park Golf Course",
+      "city": "Houston",
+      "slug": "gus-wortham-park-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "a68d5fe8-e147-4e47-87e1-ab4304648f19",
+        "id": 13647,
+        "name": "Gus Wortham Park Golf Club",
+        "slug": "gus-wortham-park-golf-club",
+        "city": "Houston",
+        "province": "Texas",
+        "country": "United States",
+        "address": "7000 Capitol St",
+        "phone": "(713) 921-3227",
+        "website": "http://www.houstonmunicipalgolf.org",
+        "postcode": "77011",
+        "defaultAffiliationTypeId": 55410,
+        "location": {
+          "lat": 29.734479,
+          "lon": -95.302844
+        },
+        "courses": [
+          {
+            "id": 15639,
+            "name": "Gus Wortham Park",
+            "holes": 18,
+            "uuid": "340c3639-175e-4dff-8571-983e7f568be8"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Sharpstown Golf Course",
+      "city": "Houston",
+      "slug": "sharpstown-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "81e495d8-5d02-46c2-80dc-43d2ed5b7625",
+        "id": 13969,
+        "name": "Sharpstown Golf Course",
+        "slug": "sharpstown-golf-course",
+        "city": "Houston",
+        "province": "Texas",
+        "country": "United States",
+        "address": "6600 Harbor Town Dr",
+        "phone": "(713) 988-2099",
+        "website": "",
+        "postcode": "77036",
+        "defaultAffiliationTypeId": 56698,
+        "location": {
+          "lat": 29.708651,
+          "lon": -95.527841
+        },
+        "courses": [
+          {
+            "id": 16024,
+            "name": "Sharpstown",
+            "holes": 18,
+            "uuid": "3f3c08fa-0b08-459f-b3b6-043753e1a581"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Wildcat Golf Club",
+      "city": "Houston",
+      "slug": "wildcat-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "2c107275-9d0f-4959-a4cc-3a34cb34fa34",
+        "id": 14123,
+        "name": "Wildcat Golf Club",
+        "slug": "wildcat-golf-club",
+        "city": "Houston",
+        "province": "Texas",
+        "country": "United States",
+        "address": "12000 Almeda Rd",
+        "phone": "(713) 413-3400",
+        "website": "http://www.wildcatgolfclub.com",
+        "postcode": "77045",
+        "defaultAffiliationTypeId": 57314,
+        "location": {
+          "lat": 29.630352,
+          "lon": -95.412893
+        },
+        "courses": [
+          {
+            "id": 16209,
+            "name": "Lakes",
+            "holes": 18,
+            "uuid": "6c24f280-d598-4e59-9934-1e1c9024a075"
+          },
+          {
+            "id": 16208,
+            "name": "Highlands",
+            "holes": 18,
+            "uuid": "80a85da3-29cb-4e41-a69e-b8b5d39fe6eb"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "World Houston Golf Club",
+      "city": "Houston",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Clear Creek Golf Club",
+      "city": "Houston",
+      "slug": "clear-creek-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "a93d6eea-461b-4bec-9345-7e51911e158c",
+        "id": 8838,
+        "name": "Clear Creek Golf Club",
+        "slug": "clear-creek-golf-club-mississippi",
+        "city": "Vicksburg",
+        "province": "Mississippi",
+        "country": "United States",
+        "address": "1566 Tiffenton Rd",
+        "phone": "(601) 638-9395",
+        "website": "http://www.clearcreekgolf.com",
+        "postcode": "39183",
+        "defaultAffiliationTypeId": 36174,
+        "location": {
+          "lat": 32.363735,
+          "lon": -90.719055
+        },
+        "courses": [
+          {
+            "id": 10190,
+            "name": "Clear Creek",
+            "holes": 18,
+            "uuid": "0cb5695c-2622-4ff0-a190-864b99dc2e08"
+          }
+        ]
+      }
+    },
+    {
+      "input": "High Meadow Ranch Golf Club",
+      "city": "Houston",
+      "slug": "high-meadow-ranch-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "1b64c3c5-b97f-4c2a-b6e8-72344442cfed",
+        "id": 13668,
+        "name": "High Meadow Ranch Golf Club",
+        "slug": "high-meadow-ranch-golf-club",
+        "city": "Magnolia",
+        "province": "Texas",
+        "country": "United States",
+        "address": "37300 Golf Club Trail",
+        "phone": "(281) 356-7700",
+        "website": "http://www.highmeadowranchgolf.com",
+        "postcode": "77355",
+        "defaultAffiliationTypeId": 55494,
+        "location": {
+          "lat": 30.1639657,
+          "lon": -95.7333312
+        },
+        "courses": [
+          {
+            "id": 15666,
+            "name": "High Meadow Ranch",
+            "holes": 18,
+            "uuid": "2b7d2294-b070-4eb6-8d3e-6c25e01f6258"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Jersey Meadow Golf Course",
+      "city": "Jersey Village",
+      "slug": "jersey-meadow-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "d5dda832-24af-49e9-8f44-b93bb4f7b59c",
+        "id": 13703,
+        "name": "Jersey Meadow Golf Club",
+        "slug": "jersey-meadow-golf-club",
+        "city": "Houston",
+        "province": "Texas",
+        "country": "United States",
+        "address": "8502 Rio Grande St",
+        "phone": "(713) 896-0900",
+        "website": "http://www.jerseymeadow.com",
+        "postcode": "77040",
+        "defaultAffiliationTypeId": 55634,
+        "location": {
+          "lat": 29.894867,
+          "lon": -95.572491
+        },
+        "courses": [
+          {
+            "id": 15711,
+            "name": "White/Blue",
+            "holes": 18,
+            "uuid": "7ebd071c-26ac-47b6-9df4-3dd899cb0647"
+          },
+          {
+            "id": 15710,
+            "name": "Blue/Red",
+            "holes": 18,
+            "uuid": "3f5fa494-c266-4491-b8d3-37eb880114df"
+          },
+          {
+            "id": 15712,
+            "name": "Red/White",
+            "holes": 18,
+            "uuid": "4c203db6-8444-4bab-bf11-007d1a5271df"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Pasadena Municipal Golf Course",
+      "city": "Pasadena",
+      "slug": "pasadena-municipal-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "e1930bb5-3ea7-4144-9ab4-fa959262808b",
+        "id": 13856,
+        "name": "Pasadena Municipal Golf Club",
+        "slug": "pasadena-municipal-golf-club",
+        "city": "Houston",
+        "province": "Texas",
+        "country": "United States",
+        "address": "1000 Duffer Ln",
+        "phone": "(281) 481-0834",
+        "website": "",
+        "postcode": "77034",
+        "defaultAffiliationTypeId": 56246,
+        "location": {
+          "lat": 29.626745,
+          "lon": -95.179353
+        },
+        "courses": [
+          {
+            "id": 15887,
+            "name": "Pasadena Municipal",
+            "holes": 18,
+            "uuid": "af87eb89-8b8a-4f22-8f6a-fd0354cd0b71"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Battleground Golf Course",
+      "city": "Deer Park",
+      "slug": "battleground-country-club",
+      "slugSource": "swap-country-club",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "369783b2-2965-4af1-b0ba-a74f5287a9a2",
+        "id": 9850,
+        "name": "Battleground Country Club",
+        "slug": "battleground-country-club",
+        "city": "Tennent",
+        "province": "New Jersey",
+        "country": "United States",
+        "address": "100 Millhurst Rd",
+        "phone": "(732) 462-7466",
+        "website": "http://www.battlegroundcc.com",
+        "postcode": "7763",
+        "defaultAffiliationTypeId": 40222,
+        "location": {
+          "lat": 40.264422,
+          "lon": -74.340627
+        },
+        "courses": [
+          {
+            "id": 11291,
+            "name": "Battleground",
+            "holes": 18,
+            "uuid": "410f3935-c3f1-4728-ba43-c7150dd9c22c"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Bay Forest Golf Course",
+      "city": "La Porte",
+      "slug": "bay-forest-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "3d78d1a5-0918-44da-aa64-49538f15c17a",
+        "id": 13435,
+        "name": "Bay Forest Golf Course",
+        "slug": "bay-forest-golf-course",
+        "city": "La Porte",
+        "province": "Texas",
+        "country": "United States",
+        "address": "201 Bay Forest Dr",
+        "phone": "(281) 471-4653",
+        "website": "http://bayforestgolf.com",
+        "postcode": "77571",
+        "defaultAffiliationTypeId": 54562,
+        "location": {
+          "lat": 29.642115,
+          "lon": -95.019572
+        },
+        "courses": [
+          {
+            "id": 15394,
+            "name": "Bay Forest",
+            "holes": 18,
+            "uuid": "e4270252-12f6-496d-b74a-2623f9cd2f04"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "BlackHorse Golf Club",
+      "city": "Cypress",
+      "slug": "blackhorse-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "f5c616dd-151f-42e3-8186-772a9a37e1e9",
+        "id": 13458,
+        "name": "BlackHorse Golf Club",
+        "slug": "blackhorse-golf-club",
+        "city": "Cypress ",
+        "province": "Texas",
+        "country": "United States",
+        "address": "12205 Fry Rd",
+        "phone": "(281) 304-1747",
+        "website": "http://www.blackhorsegolfclub.com",
+        "postcode": "77429",
+        "defaultAffiliationTypeId": 54654,
+        "location": {
+          "lat": 29.954772,
+          "lon": -95.703499
+        },
+        "courses": [
+          {
+            "id": 15423,
+            "name": "South",
+            "holes": 18,
+            "uuid": "7680c586-d430-46aa-a11a-0f4c15283e80"
+          },
+          {
+            "id": 15422,
+            "name": "North",
+            "holes": 18,
+            "uuid": "a273edbb-f784-4e7f-942b-bf8fec5f6c9e"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Golf Club at Cinco Ranch",
+      "city": "Katy",
+      "slug": "golf-club-at-cinco-ranch",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "0dc90ba9-d33d-4205-856d-5079b9210d7e",
+        "id": 13628,
+        "name": "Golf Club at Cinco Ranch",
+        "slug": "golf-club-at-cinco-ranch",
+        "city": "Katy",
+        "province": "Texas",
+        "country": "United States",
+        "address": "23030 Cinco Ranch Blvd",
+        "phone": "(281) 395-4653",
+        "website": "http://www.golfclubatcincoranch.com",
+        "postcode": "77450",
+        "defaultAffiliationTypeId": 55334,
+        "location": {
+          "lat": 29.7442134,
+          "lon": -95.767217
+        },
+        "courses": [
+          {
+            "id": 15611,
+            "name": "Course at Cinco Ranch",
+            "holes": 18,
+            "uuid": "944d9a1a-9238-4ece-8184-b2e4bf2a98a1"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Meadowbrook Farms Golf Club",
+      "city": "Katy",
+      "slug": "meadowbrook-farms-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "7335a964-450f-493a-8a76-1b71a0e27c24",
+        "id": 13782,
+        "name": "Meadowbrook Farms Golf Club",
+        "slug": "meadowbrook-farms-golf-club",
+        "city": "Katy",
+        "province": "Texas",
+        "country": "United States",
+        "address": "9595 South Fry Rd",
+        "phone": "(281) 693-4653",
+        "website": "http://www.meadowbrookfarms.com",
+        "postcode": "77494",
+        "defaultAffiliationTypeId": 55950,
+        "location": {
+          "lat": 29.713874,
+          "lon": -95.791045
+        },
+        "courses": [
+          {
+            "id": 15797,
+            "name": "Meadowbrook Farms",
+            "holes": 18,
+            "uuid": "dd6912fb-31ba-4a8c-8703-5feefb13eaf2"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Quail Valley Golf Club",
+      "city": "Missouri City",
+      "slug": "quail-valley-country-club",
+      "slugSource": "swap-country-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "b36113ec-a812-4fca-be7a-e5dead942eda",
+        "id": 13898,
+        "name": "Quail Valley Country Club ",
+        "slug": "quail-valley-country-club",
+        "city": "Missouri City",
+        "province": "Texas",
+        "country": "United States",
+        "address": "2880 La Quinta Drive",
+        "phone": "(281) 437-8277",
+        "website": "http://www.golfquailvalley.com",
+        "postcode": "77459",
+        "defaultAffiliationTypeId": 56414,
+        "location": {
+          "lat": 29.579042,
+          "lon": -95.551282
+        },
+        "courses": [
+          {
+            "id": 15937,
+            "name": "El Dorado",
+            "holes": 18,
+            "uuid": "3abfb3a5-5aff-4c42-9886-151e808a4f0a"
+          },
+          {
+            "id": 15936,
+            "name": "Quail Valley",
+            "holes": 18,
+            "uuid": "23a06812-d4fa-415a-b1e1-2bc4c57a9f0f"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Riverbend Country Club",
+      "city": "Sugar Land",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Pearland Golf Club at Country Place",
+      "city": "Pearland",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Timber Creek Golf Club",
+      "city": "Friendswood",
+      "slug": "timber-creek-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "e1b50a3b-75b0-45c2-84a0-7fe85c76ce12",
+        "id": 14075,
+        "name": "Timber Creek Golf Club",
+        "slug": "timber-creek-golf-club",
+        "city": "Friendswood",
+        "province": "Texas",
+        "country": "United States",
+        "address": "4554 FM 2351 Rd",
+        "phone": "(281) 993-1140",
+        "website": "http://www.timbercreekgolfclub.com",
+        "postcode": "77546",
+        "defaultAffiliationTypeId": 57122,
+        "location": {
+          "lat": 29.55091,
+          "lon": -95.187044
+        },
+        "courses": [
+          {
+            "id": 16155,
+            "name": "Timber Trails/Creekside",
+            "holes": 18,
+            "uuid": "f5fea76b-6e17-416f-93c8-46a214567ce6"
+          },
+          {
+            "id": 16153,
+            "name": "Pines 9",
+            "holes": 9,
+            "uuid": "ec67e0fd-00b1-4ac5-8590-f91169248af6"
+          },
+          {
+            "id": 16154,
+            "name": "Pines/Timber Trails",
+            "holes": 18,
+            "uuid": "9a3167fe-e203-4676-93be-fb2539996ddb"
+          },
+          {
+            "id": 16152,
+            "name": "Creekside 9",
+            "holes": 9,
+            "uuid": "d85d8325-3266-427b-8dc7-6e9f38b7dcff"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Magnolia Creek Golf Club",
+      "city": "League City",
+      "slug": "magnolia-creek-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "9439db98-471c-4acc-a81c-8f16b04d512c",
+        "id": 13769,
+        "name": "Magnolia Creek Golf Club",
+        "slug": "magnolia-creek-golf-club",
+        "city": "League City",
+        "province": "Texas",
+        "country": "United States",
+        "address": "1501 Bay Area Blvd",
+        "phone": "(281) 557-0555",
+        "website": "http://www.magnoliacreekgolf.com",
+        "postcode": "77573",
+        "defaultAffiliationTypeId": 55898,
+        "location": {
+          "lat": 29.477944,
+          "lon": -95.145967
+        },
+        "courses": [
+          {
+            "id": 15784,
+            "name": "Scotland/Ireland",
+            "holes": 18,
+            "uuid": "84d778d0-468c-4f4a-8b28-11ff539b57d5"
+          },
+          {
+            "id": 15783,
+            "name": "England/Scotland",
+            "holes": 18,
+            "uuid": "0ab4991c-a639-4744-a139-b0076d0d7226"
+          },
+          {
+            "id": 15782,
+            "name": "England/Ireland",
+            "holes": 18,
+            "uuid": "1916b9c5-a701-4f7e-89b5-4a9ef182d55f"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Beacon Lakes Golf Club",
+      "city": "Dickinson",
+      "slug": "beacon-lakes-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "ddbf09ae-3402-4032-affe-3e4d647143c8",
+        "id": 13440,
+        "name": "Beacon Lakes Golf Club",
+        "slug": "beacon-lakes-golf-club",
+        "city": "Dickinson",
+        "province": "Texas",
+        "country": "United States",
+        "address": "801 FM646",
+        "phone": "(281) 337-1459",
+        "website": "http://www.beaconlakesgolf.com",
+        "postcode": "77539",
+        "defaultAffiliationTypeId": 54582,
+        "location": {
+          "lat": 29.464729,
+          "lon": -95.092866
+        },
+        "courses": [
+          {
+            "id": 15400,
+            "name": "Beacon Lakes",
+            "holes": 18,
+            "uuid": "cbdc8bd3-0775-42a8-b325-195f167c00b3"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Bayou Golf Course",
+      "city": "Texas City",
+      "slug": "bayou-golf-club-texas",
+      "slugSource": "swap-golf-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "c7ab53da-fcdb-4a38-b87f-562008af5c82",
+        "id": 13438,
+        "name": "Bayou Golf Club",
+        "slug": "bayou-golf-club-texas",
+        "city": "Texas City",
+        "province": "Texas",
+        "country": "United States",
+        "address": "2800 Ted Dudley Dr",
+        "phone": "(409) 643-5850",
+        "website": "http://www.bayougc.com/",
+        "postcode": "77590",
+        "defaultAffiliationTypeId": 54574,
+        "location": {
+          "lat": 29.4140096,
+          "lon": -94.9737243
+        },
+        "courses": [
+          {
+            "id": 15398,
+            "name": "Bayou",
+            "holes": 18,
+            "uuid": "435dbd4d-7b72-4348-aa43-34a8a938261b"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Moody Gardens Golf Course",
+      "city": "Galveston",
+      "slug": "moody-gardens-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "02e0f324-e6ac-4be6-8b31-133710a5908e",
+        "id": 13800,
+        "name": "Moody Gardens Golf Club",
+        "slug": "moody-gardens-golf-club",
+        "city": "Galveston",
+        "province": "Texas",
+        "country": "United States",
+        "address": "1700 Sydnor Ln",
+        "phone": "(409) 683-4653",
+        "website": "http://www.moodygardensgolf.com",
+        "postcode": "77554",
+        "defaultAffiliationTypeId": 56022,
+        "location": {
+          "lat": 29.298086,
+          "lon": -94.920133
+        },
+        "courses": [
+          {
+            "id": 15818,
+            "name": "Moody Gardens",
+            "holes": 18,
+            "uuid": "3266c53d-055b-4a1a-a741-425be7b01288"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Newport Golf and Country Club",
+      "city": "Crosby",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Cypresswood Golf Club",
+      "city": "Spring",
+      "slug": "cypresswood-country-club",
+      "slugSource": "swap-country-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "3004f0e1-d61e-42b2-b614-77f1963e9ab8",
+        "id": 13552,
+        "name": "Cypresswood Country Club ",
+        "slug": "cypresswood-country-club",
+        "city": "Spring",
+        "province": "Texas",
+        "country": "United States",
+        "address": "21602 Cypresswood Dr",
+        "phone": "(281) 821-6300",
+        "website": "http://www.cypresswood.com",
+        "postcode": "77373",
+        "defaultAffiliationTypeId": 55030,
+        "location": {
+          "lat": 30.030612,
+          "lon": -95.330054
+        },
+        "courses": [
+          {
+            "id": 15525,
+            "name": "Tradition",
+            "holes": 18,
+            "uuid": "01385f11-db1a-44f0-b787-100265043a91"
+          },
+          {
+            "id": 15524,
+            "name": "Creek",
+            "holes": 18,
+            "uuid": "28fe26f3-6b46-4eda-86cc-529da3be5e00"
+          },
+          {
+            "id": 15523,
+            "name": "Cypress",
+            "holes": 18,
+            "uuid": "40584c8b-54f1-4dcd-a297-3f85378014f7"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Windrose Golf Club",
+      "city": "Spring",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Augusta Pines Golf Club",
+      "city": "Spring",
+      "slug": "augusta-pines-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "7c95943e-0159-463f-8d0f-c90a89e4d03f",
+        "id": 13426,
+        "name": "Augusta Pines Golf Club",
+        "slug": "augusta-pines-golf-club",
+        "city": "Spring",
+        "province": "Texas",
+        "country": "United States",
+        "address": "18 Augusta Pines Dr",
+        "phone": "(832) 381-1000",
+        "website": "http://www.tour18.com/augusta-pines-home",
+        "postcode": "77389",
+        "defaultAffiliationTypeId": 54526,
+        "location": {
+          "lat": 30.130158,
+          "lon": -95.539052
+        },
+        "courses": [
+          {
+            "id": 15381,
+            "name": "Augusta Pines",
+            "holes": 18,
+            "uuid": "cbf71982-d044-4080-b06e-da500c184ddc"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Panther Trail Golf Course",
+      "city": "The Woodlands",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "The Oaks Course at The Woodlands",
+      "city": "The Woodlands",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Wedgewood Golf Course",
+      "city": "Conroe",
+      "slug": "wedgewood-golf-course-texas",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "3c35d94e-8277-47e1-847c-c287b0f0f0d9",
+        "id": 14111,
+        "name": "Wedgewood Golf Course",
+        "slug": "wedgewood-golf-course-texas",
+        "city": "Conroe",
+        "province": "Texas",
+        "country": "United States",
+        "address": "5454 Hwy 105 W",
+        "phone": "(936) 441-4653",
+        "website": "http://www.wedgewoodgolfclub.com",
+        "postcode": "77304",
+        "defaultAffiliationTypeId": 57266,
+        "location": {
+          "lat": 30.329523,
+          "lon": -95.555125
+        },
+        "courses": [
+          {
+            "id": 16195,
+            "name": "Wedgewood",
+            "holes": 18,
+            "uuid": "842c2463-6e71-4944-a354-3e099eac1228"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "West Fork Golf \u0026 Country Club",
+      "city": "Conroe",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Panorama Golf Club",
+      "city": "Conroe",
+      "slug": "panorama-golf-course",
+      "slugSource": "swap-golf-course",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "971d1c7e-74dc-428f-b825-db7ea0c4b9af",
+        "id": 12441,
+        "name": "Panorama Golf Course",
+        "slug": "panorama-golf-course",
+        "city": "Forest City",
+        "province": "Pennsylvania",
+        "country": "United States",
+        "address": "Route 247",
+        "phone": "(570) 222-3525",
+        "website": "http://www.panoramagc.com",
+        "postcode": "18421",
+        "defaultAffiliationTypeId": 50586,
+        "location": {
+          "lat": 41.648121,
+          "lon": -75.510672
+        },
+        "courses": [
+          {
+            "id": 14231,
+            "name": "Panorama",
+            "holes": 18,
+            "uuid": "80e6c3d1-b80d-4a01-811f-70ec7933776d"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Woodforest Golf Club",
+      "city": "Montgomery",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Walden on Lake Conroe Golf Club",
+      "city": "Montgomery",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Golf Club of Houston",
+      "city": "Humble",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Tour 18 Houston",
+      "city": "Humble",
+      "slug": "tour-18-houston",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "6fcb35c5-247b-423e-8c76-a11379d47ff3",
+        "id": 14081,
+        "name": "Tour 18 - Houston",
+        "slug": "tour-18-houston",
+        "city": "Humble",
+        "province": "Texas",
+        "country": "United States",
+        "address": "3102 Farm to Market 1960 E",
+        "phone": "(281) 540-1818",
+        "website": "http://www.tour18.com",
+        "postcode": "77338",
+        "defaultAffiliationTypeId": 57146,
+        "location": {
+          "lat": 30.020478,
+          "lon": -95.380877
+        },
+        "courses": [
+          {
+            "id": 16162,
+            "name": "Houston",
+            "holes": 18,
+            "uuid": "ae9ddb1e-558e-4db2-ac65-0acbcf13050e"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Highland Pines Golf Club",
+      "city": "Porter",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "The Wilderness Golf Course",
+      "city": "Lake Jackson",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    }
+  ],
+  "state": "TX",
+  "timestamp": "2026-02-17T18:50:06-07:00",
+  "totalInput": 38,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-21",
+    "2026-02-28"
+  ],
+  "wrongState": 3
+}

@@ -19,4 +19,15 @@
     "state": "TX",
     "bookingUrl": "https://teetimes.teequest.com/57?paymentTab=pay-at-course"
   }
+,
+  {
+  "key": "west-fork",
+  "metro": "houston",
+  "siteId": "132",
+  "courseTag": "132-1",
+  "displayName": "West Fork Golf & Country Club",
+  "city": "Conroe",
+  "state": "TX",
+  "bookingUrl": "https://bookateetime.teequest.com/search/132-1"
+}
 ]

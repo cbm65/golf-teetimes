@@ -1,0 +1,539 @@
+{
+  "confirmed": 0,
+  "elapsed": "1m36.877408125s",
+  "listedOnly": 1,
+  "missed": 37,
+  "platform": "quick18",
+  "results": [
+    {
+      "input": "Memorial Park Golf Course",
+      "city": "Houston",
+      "status": "miss",
+      "slugsTried": [
+        "memorialpark",
+        "memorialparkgolfcourse",
+        "memorialparkgolf",
+        "memorialparkgolfclub",
+        "memorialparkcc",
+        "memorial-park-golf-course",
+        "memorial-park"
+      ]
+    },
+    {
+      "input": "Hermann Park Golf Course",
+      "city": "Houston",
+      "status": "miss",
+      "slugsTried": [
+        "hermannpark",
+        "hermannparkgolfcourse",
+        "hermannparkgolf",
+        "hermannparkgolfclub",
+        "hermannparkcc",
+        "hermann-park-golf-course",
+        "hermann-park"
+      ]
+    },
+    {
+      "input": "Gus Wortham Park Golf Course",
+      "city": "Houston",
+      "status": "miss",
+      "slugsTried": [
+        "gusworthampark",
+        "gusworthamparkgolfcourse",
+        "gusworthamparkgolf",
+        "gusworthamparkgolfclub",
+        "gusworthamparkcc",
+        "gus-wortham-park-golf-course",
+        "gus-wortham-park"
+      ]
+    },
+    {
+      "input": "Sharpstown Golf Course",
+      "city": "Houston",
+      "status": "miss",
+      "slugsTried": [
+        "sharpstown",
+        "sharpstowngolfcourse",
+        "sharpstowngolf",
+        "sharpstowngolfclub",
+        "sharpstowncc",
+        "sharpstown-golf-course"
+      ]
+    },
+    {
+      "input": "Wildcat Golf Club",
+      "city": "Houston",
+      "status": "miss",
+      "slugsTried": [
+        "wildcat",
+        "wildcatgolfclub",
+        "wildcatgolf",
+        "wildcatgolfcourse",
+        "wildcatcc",
+        "wildcat-golf-club"
+      ]
+    },
+    {
+      "input": "World Houston Golf Club",
+      "city": "Houston",
+      "status": "miss",
+      "slugsTried": [
+        "worldhouston",
+        "worldhoustongolfclub",
+        "worldhoustongolf",
+        "worldhoustongolfcourse",
+        "worldhoustoncc",
+        "world-houston-golf-club",
+        "world-houston"
+      ]
+    },
+    {
+      "input": "Clear Creek Golf Club",
+      "city": "Houston",
+      "status": "miss",
+      "slugsTried": [
+        "clearcreek",
+        "clearcreekgolfclub",
+        "clearcreekgolf",
+        "clearcreekgolfcourse",
+        "clearcreekcc",
+        "clear-creek-golf-club",
+        "clear-creek"
+      ]
+    },
+    {
+      "input": "High Meadow Ranch Golf Club",
+      "city": "Houston",
+      "status": "miss",
+      "slugsTried": [
+        "highmeadowranch",
+        "highmeadowranchgolfclub",
+        "highmeadowranchgolf",
+        "highmeadowranchgolfcourse",
+        "highmeadowranchcc",
+        "high-meadow-ranch-golf-club",
+        "high-meadow-ranch"
+      ]
+    },
+    {
+      "input": "Jersey Meadow Golf Course",
+      "city": "Jersey Village",
+      "status": "miss",
+      "slugsTried": [
+        "jerseymeadow",
+        "jerseymeadowgolfcourse",
+        "jerseymeadowgolf",
+        "jerseymeadowgolfclub",
+        "jerseymeadowcc",
+        "jersey-meadow-golf-course",
+        "jersey-meadow"
+      ]
+    },
+    {
+      "input": "Pasadena Municipal Golf Course",
+      "city": "Pasadena",
+      "status": "miss",
+      "slugsTried": [
+        "pasadenamunicipal",
+        "pasadenamunicipalgolfcourse",
+        "pasadenamunicipalgolf",
+        "pasadenamunicipalgolfclub",
+        "pasadenamunicipalcc",
+        "pasadena-municipal-golf-course",
+        "pasadena-municipal"
+      ]
+    },
+    {
+      "input": "Battleground Golf Course",
+      "city": "Deer Park",
+      "status": "miss",
+      "slugsTried": [
+        "battleground",
+        "battlegroundgolfcourse",
+        "battlegroundgolf",
+        "battlegroundgolfclub",
+        "battlegroundcc",
+        "battleground-golf-course"
+      ]
+    },
+    {
+      "input": "Bay Forest Golf Course",
+      "city": "La Porte",
+      "status": "miss",
+      "slugsTried": [
+        "bayforest",
+        "bayforestgolfcourse",
+        "bayforestgolf",
+        "bayforestgolfclub",
+        "bayforestcc",
+        "bay-forest-golf-course",
+        "bay-forest"
+      ]
+    },
+    {
+      "input": "BlackHorse Golf Club",
+      "city": "Cypress",
+      "status": "miss",
+      "slugsTried": [
+        "blackhorse",
+        "blackhorsegolfclub",
+        "blackhorsegolf",
+        "blackhorsegolfcourse",
+        "blackhorsecc",
+        "blackhorse-golf-club"
+      ]
+    },
+    {
+      "input": "Golf Club at Cinco Ranch",
+      "city": "Katy",
+      "status": "listed_only",
+      "subdomain": "cincoranch",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Meadowbrook Farms Golf Club",
+      "city": "Katy",
+      "status": "miss",
+      "slugsTried": [
+        "meadowbrookfarms",
+        "meadowbrookfarmsgolfclub",
+        "meadowbrookfarmsgolf",
+        "meadowbrookfarmsgolfcourse",
+        "meadowbrookfarmscc",
+        "meadowbrook-farms-golf-club",
+        "meadowbrook-farms"
+      ]
+    },
+    {
+      "input": "Quail Valley Golf Club",
+      "city": "Missouri City",
+      "status": "miss",
+      "slugsTried": [
+        "quailvalley",
+        "quailvalleygolfclub",
+        "quailvalleygolf",
+        "quailvalleygolfcourse",
+        "quailvalleycc",
+        "quail-valley-golf-club",
+        "quail-valley"
+      ]
+    },
+    {
+      "input": "Riverbend Country Club",
+      "city": "Sugar Land",
+      "status": "miss",
+      "slugsTried": [
+        "riverbend",
+        "riverbendcountryclub",
+        "riverbendgolf",
+        "riverbendgolfclub",
+        "riverbendgolfcourse",
+        "riverbendcc",
+        "riverbend-country-club"
+      ]
+    },
+    {
+      "input": "Pearland Golf Club at Country Place",
+      "city": "Pearland",
+      "status": "miss",
+      "slugsTried": [
+        "pearlandgolfclubatcountryplace",
+        "pearlandgolfclubatcountryplacegolf",
+        "pearlandgolfclubatcountryplacegolfclub",
+        "pearlandgolfclubatcountryplacegolfcourse",
+        "pearlandgolfclubatcountryplacecc",
+        "pearland-golf-club-at-country-place"
+      ]
+    },
+    {
+      "input": "Timber Creek Golf Club",
+      "city": "Friendswood",
+      "status": "miss",
+      "slugsTried": [
+        "timbercreek",
+        "timbercreekgolfclub",
+        "timbercreekgolf",
+        "timbercreekgolfcourse",
+        "timbercreekcc",
+        "timber-creek-golf-club",
+        "timber-creek"
+      ]
+    },
+    {
+      "input": "Magnolia Creek Golf Club",
+      "city": "League City",
+      "status": "miss",
+      "slugsTried": [
+        "magnoliacreek",
+        "magnoliacreekgolfclub",
+        "magnoliacreekgolf",
+        "magnoliacreekgolfcourse",
+        "magnoliacreekcc",
+        "magnolia-creek-golf-club",
+        "magnolia-creek"
+      ]
+    },
+    {
+      "input": "Beacon Lakes Golf Club",
+      "city": "Dickinson",
+      "status": "miss",
+      "slugsTried": [
+        "beaconlakes",
+        "beaconlakesgolfclub",
+        "beaconlakesgolf",
+        "beaconlakesgolfcourse",
+        "beaconlakescc",
+        "beacon-lakes-golf-club",
+        "beacon-lakes"
+      ]
+    },
+    {
+      "input": "Bayou Golf Course",
+      "city": "Texas City",
+      "status": "miss",
+      "slugsTried": [
+        "bayou",
+        "bayougolfcourse",
+        "bayougolf",
+        "bayougolfclub",
+        "bayoucc",
+        "bayou-golf-course"
+      ]
+    },
+    {
+      "input": "Moody Gardens Golf Course",
+      "city": "Galveston",
+      "status": "miss",
+      "slugsTried": [
+        "moodygardens",
+        "moodygardensgolfcourse",
+        "moodygardensgolf",
+        "moodygardensgolfclub",
+        "moodygardenscc",
+        "moody-gardens-golf-course",
+        "moody-gardens"
+      ]
+    },
+    {
+      "input": "Newport Golf and Country Club",
+      "city": "Crosby",
+      "status": "miss",
+      "slugsTried": [
+        "newportgolfand",
+        "newportgolfandcountryclub",
+        "newportgolfandgolf",
+        "newportgolfandgolfclub",
+        "newportgolfandgolfcourse",
+        "newportgolfandcc",
+        "newport-golf-and-country-club",
+        "newport-golf-and"
+      ]
+    },
+    {
+      "input": "Cypresswood Golf Club",
+      "city": "Spring",
+      "status": "miss",
+      "slugsTried": [
+        "cypresswood",
+        "cypresswoodgolfclub",
+        "cypresswoodgolf",
+        "cypresswoodgolfcourse",
+        "cypresswoodcc",
+        "cypresswood-golf-club"
+      ]
+    },
+    {
+      "input": "Windrose Golf Club",
+      "city": "Spring",
+      "status": "miss",
+      "slugsTried": [
+        "windrose",
+        "windrosegolfclub",
+        "windrosegolf",
+        "windrosegolfcourse",
+        "windrosecc",
+        "windrose-golf-club"
+      ]
+    },
+    {
+      "input": "Augusta Pines Golf Club",
+      "city": "Spring",
+      "status": "miss",
+      "slugsTried": [
+        "augustapines",
+        "augustapinesgolfclub",
+        "augustapinesgolf",
+        "augustapinesgolfcourse",
+        "augustapinescc",
+        "augusta-pines-golf-club",
+        "augusta-pines"
+      ]
+    },
+    {
+      "input": "Panther Trail Golf Course",
+      "city": "The Woodlands",
+      "status": "miss",
+      "slugsTried": [
+        "panthertrail",
+        "panthertrailgolfcourse",
+        "panthertrailgolf",
+        "panthertrailgolfclub",
+        "panthertrailcc",
+        "panther-trail-golf-course",
+        "panther-trail"
+      ]
+    },
+    {
+      "input": "The Oaks Course at The Woodlands",
+      "city": "The Woodlands",
+      "status": "miss",
+      "slugsTried": [
+        "oakscourseatthewoodlands",
+        "theoakscourseatthewoodlands",
+        "oakscourseatthewoodlandsgolf",
+        "oakscourseatthewoodlandsgolfclub",
+        "oakscourseatthewoodlandsgolfcourse",
+        "oakscourseatthewoodlandscc",
+        "the-oaks-course-at-the-woodlands",
+        "oaks-course-at-the-woodlands"
+      ]
+    },
+    {
+      "input": "Wedgewood Golf Course",
+      "city": "Conroe",
+      "status": "miss",
+      "slugsTried": [
+        "wedgewood",
+        "wedgewoodgolfcourse",
+        "wedgewoodgolf",
+        "wedgewoodgolfclub",
+        "wedgewoodcc",
+        "wedgewood-golf-course"
+      ]
+    },
+    {
+      "input": "West Fork Golf \u0026 Country Club",
+      "city": "Conroe",
+      "status": "miss",
+      "slugsTried": [
+        "westforkgolfand",
+        "westforkgolfandcountryclub",
+        "westforkgolfandgolf",
+        "westforkgolfandgolfclub",
+        "westforkgolfandgolfcourse",
+        "westforkgolfandcc",
+        "west-fork-golf-\u0026-country-club",
+        "west-fork-golf-\u0026"
+      ]
+    },
+    {
+      "input": "Panorama Golf Club",
+      "city": "Conroe",
+      "status": "miss",
+      "slugsTried": [
+        "panorama",
+        "panoramagolfclub",
+        "panoramagolf",
+        "panoramagolfcourse",
+        "panoramacc",
+        "panorama-golf-club"
+      ]
+    },
+    {
+      "input": "Woodforest Golf Club",
+      "city": "Montgomery",
+      "status": "miss",
+      "slugsTried": [
+        "woodforest",
+        "woodforestgolfclub",
+        "woodforestgolf",
+        "woodforestgolfcourse",
+        "woodforestcc",
+        "woodforest-golf-club"
+      ]
+    },
+    {
+      "input": "Walden on Lake Conroe Golf Club",
+      "city": "Montgomery",
+      "status": "miss",
+      "slugsTried": [
+        "waldenonlakeconroe",
+        "waldenonlakeconroegolfclub",
+        "waldenonlakeconroegolf",
+        "waldenonlakeconroegolfcourse",
+        "waldenonlakeconroecc",
+        "walden-on-lake-conroe-golf-club",
+        "walden-on-lake-conroe"
+      ]
+    },
+    {
+      "input": "Golf Club of Houston",
+      "city": "Humble",
+      "status": "miss",
+      "slugsTried": [
+        "houston",
+        "golfclubofhouston",
+        "houstongolf",
+        "houstongolfclub",
+        "houstongolfcourse",
+        "houstoncc",
+        "golf-club-of-houston"
+      ]
+    },
+    {
+      "input": "Tour 18 Houston",
+      "city": "Humble",
+      "status": "miss",
+      "slugsTried": [
+        "tour18houston",
+        "tour18houstongolf",
+        "tour18houstongolfclub",
+        "tour18houstongolfcourse",
+        "tour18houstoncc",
+        "tour-18-houston"
+      ]
+    },
+    {
+      "input": "Highland Pines Golf Club",
+      "city": "Porter",
+      "status": "miss",
+      "slugsTried": [
+        "highlandpines",
+        "highlandpinesgolfclub",
+        "highlandpinesgolf",
+        "highlandpinesgolfcourse",
+        "highlandpinescc",
+        "highland-pines-golf-club",
+        "highland-pines"
+      ]
+    },
+    {
+      "input": "The Wilderness Golf Course",
+      "city": "Lake Jackson",
+      "status": "miss",
+      "slugsTried": [
+        "wilderness",
+        "thewildernessgolfcourse",
+        "wildernessgolf",
+        "wildernessgolfclub",
+        "wildernessgolfcourse",
+        "wildernesscc",
+        "the-wilderness-golf-course",
+        "wildernessgolfcoursegolf"
+      ]
+    }
+  ],
+  "state": "TX",
+  "timestamp": "2026-02-17T18:52:06-07:00",
+  "total": 38,
+  "wrongState": 0
+}

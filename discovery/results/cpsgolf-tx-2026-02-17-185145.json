@@ -1,0 +1,732 @@
+{
+  "confirmed": 0,
+  "elapsed": "53.351887709s",
+  "listedOnly": 4,
+  "misses": 33,
+  "platform": "cpsgolf",
+  "results": [
+    {
+      "input": "Memorial Park Golf Course",
+      "city": "Houston",
+      "status": "miss",
+      "slugsTried": [
+        "memorialpark",
+        "memorialparkgolfcourse",
+        "memorialparkgolf",
+        "memorialparkgolfclub",
+        "memorialparkcc",
+        "memorial-park",
+        "memorialparkhouston",
+        "memorial-park-golf-course"
+      ]
+    },
+    {
+      "input": "Hermann Park Golf Course",
+      "city": "Houston",
+      "status": "miss",
+      "slugsTried": [
+        "hermannpark",
+        "hermannparkgolfcourse",
+        "hermannparkgolf",
+        "hermannparkgolfclub",
+        "hermannparkcc",
+        "hermann-park",
+        "hermannparkhouston",
+        "hermann-park-golf-course"
+      ]
+    },
+    {
+      "input": "Gus Wortham Park Golf Course",
+      "city": "Houston",
+      "status": "miss",
+      "slugsTried": [
+        "gusworthampark",
+        "gusworthamparkgolfcourse",
+        "gusworthamparkgolf",
+        "gusworthamparkgolfclub",
+        "gusworthamparkcc",
+        "gus-wortham-park",
+        "gusworthamparkhouston",
+        "gus-wortham-park-golf-course"
+      ]
+    },
+    {
+      "input": "Sharpstown Golf Course",
+      "city": "Houston",
+      "status": "miss",
+      "slugsTried": [
+        "sharpstown",
+        "sharpstowngolfcourse",
+        "sharpstowngolf",
+        "sharpstowngolfclub",
+        "sharpstowncc",
+        "sharpstownhouston",
+        "sharpstown-golf-course"
+      ]
+    },
+    {
+      "input": "Wildcat Golf Club",
+      "city": "Houston",
+      "status": "miss",
+      "slugsTried": [
+        "wildcat",
+        "wildcatgolfclub",
+        "wildcatgolf",
+        "wildcatgolfcourse",
+        "wildcatcc",
+        "wildcathouston",
+        "wildcat-golf-club"
+      ]
+    },
+    {
+      "input": "World Houston Golf Club",
+      "city": "Houston",
+      "status": "miss",
+      "slugsTried": [
+        "worldhouston",
+        "worldhoustongolfclub",
+        "worldhoustongolf",
+        "worldhoustongolfcourse",
+        "worldhoustoncc",
+        "world-houston",
+        "worldhoustonhouston",
+        "world-houston-golf-club"
+      ]
+    },
+    {
+      "input": "Clear Creek Golf Club",
+      "city": "Houston",
+      "status": "miss",
+      "slugsTried": [
+        "clearcreek",
+        "clearcreekgolfclub",
+        "clearcreekgolf",
+        "clearcreekgolfcourse",
+        "clearcreekcc",
+        "clear-creek",
+        "clearcreekhouston",
+        "clear-creek-golf-club"
+      ]
+    },
+    {
+      "input": "High Meadow Ranch Golf Club",
+      "city": "Houston",
+      "status": "miss",
+      "slugsTried": [
+        "highmeadowranch",
+        "highmeadowranchgolfclub",
+        "highmeadowranchgolf",
+        "highmeadowranchgolfcourse",
+        "highmeadowranchcc",
+        "high-meadow-ranch",
+        "highmeadowranchhouston",
+        "high-meadow-ranch-golf-club"
+      ]
+    },
+    {
+      "input": "Jersey Meadow Golf Course",
+      "city": "Jersey Village",
+      "status": "miss",
+      "slugsTried": [
+        "jerseymeadow",
+        "jerseymeadowgolfcourse",
+        "jerseymeadowgolf",
+        "jerseymeadowgolfclub",
+        "jerseymeadowcc",
+        "jersey-meadow",
+        "jerseymeadowjerseyvillage",
+        "jersey-meadow-golf-course"
+      ]
+    },
+    {
+      "input": "Pasadena Municipal Golf Course",
+      "city": "Pasadena",
+      "status": "miss",
+      "slugsTried": [
+        "pasadenamunicipal",
+        "pasadenamunicipalgolfcourse",
+        "pasadenamunicipalgolf",
+        "pasadenamunicipalgolfclub",
+        "pasadenamunicipalcc",
+        "pasadena-municipal",
+        "pasadenamunicipalpasadena",
+        "pasadena-municipal-golf-course"
+      ]
+    },
+    {
+      "input": "Battleground Golf Course",
+      "city": "Deer Park",
+      "status": "miss",
+      "slugsTried": [
+        "battleground",
+        "battlegroundgolfcourse",
+        "battlegroundgolf",
+        "battlegroundgolfclub",
+        "battlegroundcc",
+        "battlegrounddeerpark",
+        "battleground-golf-course"
+      ]
+    },
+    {
+      "input": "Bay Forest Golf Course",
+      "city": "La Porte",
+      "status": "miss",
+      "slugsTried": [
+        "bayforest",
+        "bayforestgolfcourse",
+        "bayforestgolf",
+        "bayforestgolfclub",
+        "bayforestcc",
+        "bay-forest",
+        "bayforestlaporte",
+        "bay-forest-golf-course"
+      ]
+    },
+    {
+      "input": "BlackHorse Golf Club",
+      "city": "Cypress",
+      "status": "miss",
+      "slugsTried": [
+        "blackhorse",
+        "blackhorsegolfclub",
+        "blackhorsegolf",
+        "blackhorsegolfcourse",
+        "blackhorsecc",
+        "blackhorsecypress",
+        "blackhorse-golf-club"
+      ]
+    },
+    {
+      "input": "Golf Club at Cinco Ranch",
+      "city": "Katy",
+      "status": "miss",
+      "slugsTried": [
+        "cincoranch",
+        "golfclubatcincoranch",
+        "cincoranchgolf",
+        "cincoranchgolfclub",
+        "cincoranchgolfcourse",
+        "cincoranchcc",
+        "cinco-ranch",
+        "cincoranchkaty",
+        "golf-club-at-cinco-ranch"
+      ]
+    },
+    {
+      "input": "Meadowbrook Farms Golf Club",
+      "city": "Katy",
+      "status": "miss",
+      "slugsTried": [
+        "meadowbrookfarms",
+        "meadowbrookfarmsgolfclub",
+        "meadowbrookfarmsgolf",
+        "meadowbrookfarmsgolfcourse",
+        "meadowbrookfarmscc",
+        "meadowbrook-farms",
+        "meadowbrookfarmskaty",
+        "meadowbrook-farms-golf-club"
+      ]
+    },
+    {
+      "input": "Quail Valley Golf Club",
+      "city": "Missouri City",
+      "status": "wrong_state",
+      "slug": "quailvalley",
+      "slugSource": "core",
+      "config": {
+        "clientId": "onlineresweb",
+        "production": true,
+        "onlineApi": "https://quailvalley.cps.golf/onlineres/onlineapi/api/v1/onlinereservation",
+        "siteName": "quailvalley",
+        "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+        "buildNumber": "25.3.4.21239412485\n",
+        "BaseURL": "https://quailvalley.cps.golf",
+        "WebSiteID": "958181c2-61b4-40ea-4f8c-08dd575acfa8",
+        "SiteID": 1
+      },
+      "courses": [
+        {
+          "websiteId": "958181c2-61b4-40ea-4f8c-08dd575acfa8",
+          "timezoneId": "America/New_York",
+          "storeId": 2,
+          "courseId": 1,
+          "courseName": "Quail Valley Golf Club",
+          "siteId": 1,
+          "holes": 18,
+          "active": true
+        }
+      ]
+    },
+    {
+      "input": "Riverbend Country Club",
+      "city": "Sugar Land",
+      "status": "miss",
+      "slugsTried": [
+        "riverbend",
+        "riverbendcountryclub",
+        "riverbendgolf",
+        "riverbendgolfclub",
+        "riverbendgolfcourse",
+        "riverbendcc",
+        "riverbendsugarland",
+        "riverbend-country-club"
+      ]
+    },
+    {
+      "input": "Pearland Golf Club at Country Place",
+      "city": "Pearland",
+      "status": "miss",
+      "slugsTried": [
+        "pearlandgolfclubatcountryplace",
+        "pearlandgolfclubatcountryplacegolf",
+        "pearlandgolfclubatcountryplacegolfclub",
+        "pearlandgolfclubatcountryplacegolfcourse",
+        "pearlandgolfclubatcountryplacecc",
+        "pearland-golf-club-at-country-place",
+        "pearlandgolfclubatcountryplacepearland"
+      ]
+    },
+    {
+      "input": "Timber Creek Golf Club",
+      "city": "Friendswood",
+      "status": "miss",
+      "slugsTried": [
+        "timbercreek",
+        "timbercreekgolfclub",
+        "timbercreekgolf",
+        "timbercreekgolfcourse",
+        "timbercreekcc",
+        "timber-creek",
+        "timbercreekfriendswood",
+        "timber-creek-golf-club"
+      ]
+    },
+    {
+      "input": "Magnolia Creek Golf Club",
+      "city": "League City",
+      "status": "miss",
+      "slugsTried": [
+        "magnoliacreek",
+        "magnoliacreekgolfclub",
+        "magnoliacreekgolf",
+        "magnoliacreekgolfcourse",
+        "magnoliacreekcc",
+        "magnolia-creek",
+        "magnoliacreekleaguecity",
+        "magnolia-creek-golf-club"
+      ]
+    },
+    {
+      "input": "Beacon Lakes Golf Club",
+      "city": "Dickinson",
+      "status": "miss",
+      "slugsTried": [
+        "beaconlakes",
+        "beaconlakesgolfclub",
+        "beaconlakesgolf",
+        "beaconlakesgolfcourse",
+        "beaconlakescc",
+        "beacon-lakes",
+        "beaconlakesdickinson",
+        "beacon-lakes-golf-club"
+      ]
+    },
+    {
+      "input": "Bayou Golf Course",
+      "city": "Texas City",
+      "status": "miss",
+      "slugsTried": [
+        "bayou",
+        "bayougolfcourse",
+        "bayougolf",
+        "bayougolfclub",
+        "bayoucc",
+        "bayoutexascity",
+        "bayou-golf-course"
+      ]
+    },
+    {
+      "input": "Moody Gardens Golf Course",
+      "city": "Galveston",
+      "status": "miss",
+      "slugsTried": [
+        "moodygardens",
+        "moodygardensgolfcourse",
+        "moodygardensgolf",
+        "moodygardensgolfclub",
+        "moodygardenscc",
+        "moody-gardens",
+        "moodygardensgalveston",
+        "moody-gardens-golf-course"
+      ]
+    },
+    {
+      "input": "Newport Golf and Country Club",
+      "city": "Crosby",
+      "status": "miss",
+      "slugsTried": [
+        "newportgolfand",
+        "newportgolfandcountryclub",
+        "newportgolfandgolf",
+        "newportgolfandgolfclub",
+        "newportgolfandgolfcourse",
+        "newportgolfandcc",
+        "newportgolfcountryclub",
+        "newportgolf",
+        "newport-golf-and",
+        "newportgolfandcrosby",
+        "newport-golf-and-country-club"
+      ]
+    },
+    {
+      "input": "Cypresswood Golf Club",
+      "city": "Spring",
+      "status": "miss",
+      "slugsTried": [
+        "cypresswood",
+        "cypresswoodgolfclub",
+        "cypresswoodgolf",
+        "cypresswoodgolfcourse",
+        "cypresswoodcc",
+        "cypresswoodspring",
+        "cypresswood-golf-club"
+      ]
+    },
+    {
+      "input": "Windrose Golf Club",
+      "city": "Spring",
+      "status": "miss",
+      "slugsTried": [
+        "windrose",
+        "windrosegolfclub",
+        "windrosegolf",
+        "windrosegolfcourse",
+        "windrosecc",
+        "windrosespring",
+        "windrose-golf-club"
+      ]
+    },
+    {
+      "input": "Augusta Pines Golf Club",
+      "city": "Spring",
+      "status": "listed_only",
+      "slug": "augustapines",
+      "slugSource": "core",
+      "config": {
+        "clientId": "",
+        "production": true,
+        "onlineApi": "https://augustapines.cps.golf/onlineres/onlineapi/api/v1/onlinereservation",
+        "siteName": "augustapines",
+        "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+        "buildNumber": "v4-3.106.9000.7034",
+        "BaseURL": "https://augustapines.cps.golf",
+        "WebSiteID": "53c5d1ab-bb96-4df3-e1a9-08dbbabe909d",
+        "SiteID": 1
+      },
+      "courses": [
+        {
+          "websiteId": "53c5d1ab-bb96-4df3-e1a9-08dbbabe909d",
+          "timezoneId": "America/Chicago",
+          "storeId": 2,
+          "courseId": 5,
+          "courseName": "Augusta Pines",
+          "siteId": 1,
+          "holes": 18,
+          "active": true
+        },
+        {
+          "websiteId": "53c5d1ab-bb96-4df3-e1a9-08dbbabe909d",
+          "timezoneId": "America/Chicago",
+          "storeId": 3,
+          "courseId": 2,
+          "courseName": "Gleannloch Pines Back 9",
+          "siteId": 1,
+          "holes": 18,
+          "active": true
+        },
+        {
+          "websiteId": "53c5d1ab-bb96-4df3-e1a9-08dbbabe909d",
+          "timezoneId": "America/Chicago",
+          "storeId": 3,
+          "courseId": 1,
+          "courseName": "Gleannloch Pines Front 9",
+          "siteId": 1,
+          "holes": 18,
+          "active": true
+        },
+        {
+          "websiteId": "53c5d1ab-bb96-4df3-e1a9-08dbbabe909d",
+          "timezoneId": "America/Chicago",
+          "storeId": 4,
+          "courseId": 4,
+          "courseName": "Highland Pines",
+          "siteId": 1,
+          "holes": 18,
+          "active": true
+        }
+      ],
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Panther Trail Golf Course",
+      "city": "The Woodlands",
+      "status": "miss",
+      "slugsTried": [
+        "panthertrail",
+        "panthertrailgolfcourse",
+        "panthertrailgolf",
+        "panthertrailgolfclub",
+        "panthertrailcc",
+        "panther-trail",
+        "panthertrailthewoodlands",
+        "panther-trail-golf-course"
+      ]
+    },
+    {
+      "input": "The Oaks Course at The Woodlands",
+      "city": "The Woodlands",
+      "status": "miss",
+      "slugsTried": [
+        "oakscourseatthewoodlands",
+        "theoakscourseatthewoodlands",
+        "oakscourseatthewoodlandsgolf",
+        "oakscourseatthewoodlandsgolfclub",
+        "oakscourseatthewoodlandsgolfcourse",
+        "oakscourseatthewoodlandscc",
+        "oaks-course-at-the-woodlands",
+        "oakscourseatthewoodlandsthewoodlands",
+        "the-oaks-course-at-the-woodlands"
+      ]
+    },
+    {
+      "input": "Wedgewood Golf Course",
+      "city": "Conroe",
+      "status": "listed_only",
+      "slug": "wedgewood",
+      "slugSource": "core",
+      "config": {
+        "clientId": "onlineresweb",
+        "production": true,
+        "onlineApi": "https://wedgewood.cps.golf/onlineres/onlineapi/api/v1/onlinereservation",
+        "siteName": "wedgewood",
+        "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+        "buildNumber": "25.3.4.21239412485\n",
+        "BaseURL": "https://wedgewood.cps.golf",
+        "WebSiteID": "53165bfc-ba0e-4a11-f9f9-08da8ac6656b",
+        "SiteID": 1
+      }
+    },
+    {
+      "input": "West Fork Golf \u0026 Country Club",
+      "city": "Conroe",
+      "status": "miss",
+      "slugsTried": [
+        "westforkgolfand",
+        "westforkgolfandcountryclub",
+        "westforkgolfandgolf",
+        "westforkgolfandgolfclub",
+        "westforkgolfandgolfcourse",
+        "westforkgolfandcc",
+        "west-fork-golf-\u0026",
+        "westforkgolfandconroe",
+        "west-fork-golf-\u0026-country-club"
+      ]
+    },
+    {
+      "input": "Panorama Golf Club",
+      "city": "Conroe",
+      "status": "listed_only",
+      "slug": "panorama",
+      "slugSource": "core",
+      "config": {
+        "clientId": "",
+        "production": true,
+        "onlineApi": "https://panorama.cps.golf/onlineres/onlineapi/api/v1/onlinereservation",
+        "siteName": "panorama",
+        "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+        "buildNumber": "v4-3.106.9000.7034",
+        "BaseURL": "https://panorama.cps.golf",
+        "WebSiteID": "df63e569-6706-4053-fa35-08db3464f28b",
+        "SiteID": 1
+      },
+      "courses": [
+        {
+          "websiteId": "df63e569-6706-4053-fa35-08db3464f28b",
+          "timezoneId": "",
+          "storeId": 0,
+          "courseId": 1,
+          "courseName": "Panorama Golf Course",
+          "siteId": 1,
+          "holes": 18,
+          "active": true
+        }
+      ],
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Woodforest Golf Club",
+      "city": "Montgomery",
+      "status": "miss",
+      "slugsTried": [
+        "woodforest",
+        "woodforestgolfclub",
+        "woodforestgolf",
+        "woodforestgolfcourse",
+        "woodforestcc",
+        "woodforestmontgomery",
+        "woodforest-golf-club"
+      ]
+    },
+    {
+      "input": "Walden on Lake Conroe Golf Club",
+      "city": "Montgomery",
+      "status": "miss",
+      "slugsTried": [
+        "waldenonlakeconroe",
+        "waldenonlakeconroegolfclub",
+        "waldenonlakeconroegolf",
+        "waldenonlakeconroegolfcourse",
+        "waldenonlakeconroecc",
+        "walden-on-lake-conroe",
+        "waldenonlakeconroemontgomery",
+        "walden-on-lake-conroe-golf-club"
+      ]
+    },
+    {
+      "input": "Golf Club of Houston",
+      "city": "Humble",
+      "status": "miss",
+      "slugsTried": [
+        "houston",
+        "golfclubofhouston",
+        "houstongolf",
+        "houstongolfclub",
+        "houstongolfcourse",
+        "houstoncc",
+        "houstonhumble",
+        "golf-club-of-houston"
+      ]
+    },
+    {
+      "input": "Tour 18 Houston",
+      "city": "Humble",
+      "status": "miss",
+      "slugsTried": [
+        "tour18houston",
+        "tour18houstongolf",
+        "tour18houstongolfclub",
+        "tour18houstongolfcourse",
+        "tour18houstoncc",
+        "tour-18-houston",
+        "tour18houstonhumble"
+      ]
+    },
+    {
+      "input": "Highland Pines Golf Club",
+      "city": "Porter",
+      "status": "listed_only",
+      "slug": "highlandpines",
+      "slugSource": "core",
+      "config": {
+        "clientId": "",
+        "production": true,
+        "onlineApi": "https://highlandpines.cps.golf/onlineres/onlineapi/api/v1/onlinereservation",
+        "siteName": "highlandpines",
+        "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+        "buildNumber": "v4-3.106.9000.7034",
+        "BaseURL": "https://highlandpines.cps.golf",
+        "WebSiteID": "95366a62-8bda-4ea3-e1ab-08dbbabe909d",
+        "SiteID": 1
+      },
+      "courses": [
+        {
+          "websiteId": "95366a62-8bda-4ea3-e1ab-08dbbabe909d",
+          "timezoneId": "America/Chicago",
+          "storeId": 2,
+          "courseId": 5,
+          "courseName": "Augusta Pines",
+          "siteId": 1,
+          "holes": 18,
+          "active": true
+        },
+        {
+          "websiteId": "95366a62-8bda-4ea3-e1ab-08dbbabe909d",
+          "timezoneId": "America/Chicago",
+          "storeId": 3,
+          "courseId": 2,
+          "courseName": "Gleannloch Pines Back 9",
+          "siteId": 1,
+          "holes": 18,
+          "active": true
+        },
+        {
+          "websiteId": "95366a62-8bda-4ea3-e1ab-08dbbabe909d",
+          "timezoneId": "America/Chicago",
+          "storeId": 3,
+          "courseId": 1,
+          "courseName": "Gleannloch Pines Front 9",
+          "siteId": 1,
+          "holes": 18,
+          "active": true
+        },
+        {
+          "websiteId": "95366a62-8bda-4ea3-e1ab-08dbbabe909d",
+          "timezoneId": "America/Chicago",
+          "storeId": 4,
+          "courseId": 4,
+          "courseName": "Highland Pines",
+          "siteId": 1,
+          "holes": 18,
+          "active": true
+        }
+      ],
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Wilderness Golf Course",
+      "city": "Lake Jackson",
+      "status": "miss",
+      "slugsTried": [
+        "wilderness",
+        "thewildernessgolfcourse",
+        "wildernessgolf",
+        "wildernessgolfclub",
+        "wildernessgolfcourse",
+        "wildernesscc",
+        "wildernesslakejackson",
+        "the-wilderness-golf-course"
+      ]
+    }
+  ],
+  "state": "TX",
+  "timestamp": "2026-02-17T18:51:45-07:00",
+  "total": 38,
+  "wrongState": 1
+}

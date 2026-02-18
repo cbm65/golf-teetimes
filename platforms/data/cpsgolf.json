@@ -844,4 +844,38 @@
     "state": "FL",
     "timezone": "America/New_York"
   }
+,
+  {
+  "key": "high-meadow-ranch",
+  "metro": "houston",
+  "baseUrl": "https://highmeadowranch.cps.golf",
+  "apiKey": "",
+  "websiteId": "8c01bbf9-ef1d-43d2-2fc0-08dcb5544507",
+  "siteId": "1",
+  "courseIds": "1",
+  "bookingUrl": "https://highmeadowranch.cps.golf/onlineresweb/search-teetime",
+  "names": {
+    "High Meadow Ranch": "High Meadow Ranch Golf Club"
+  },
+  "city": "Magnolia",
+  "state": "TX",
+  "timezone": "America/Chicago"
+},
+  {
+  "key": "cypresswood",
+  "metro": "houston",
+  "baseUrl": "https://foresightcypress.cps.golf",
+  "apiKey": "",
+  "websiteId": "b2d1a40a-0795-45d0-9701-08da6f83475a",
+  "siteId": "1",
+  "courseIds": "11,14",
+  "bookingUrl": "https://foresightcypress.cps.golf/onlineresweb/search-teetime",
+  "names": {
+    "Cypress": "Cypresswood Golf Club - Cypress",
+    "Tradition": "Cypresswood Golf Club - Tradition"
+  },
+  "city": "Spring",
+  "state": "TX",
+  "timezone": "America/Chicago"
+}
 ]

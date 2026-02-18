@@ -252,4 +252,14 @@
     "city": "Celebration",
     "state": "FL"
   }
+,
+  {
+  "key": "grand-lake",
+  "metro": "houston",
+  "courseId": "4b0ff8a2-2573-4c5a-ab2d-43c3b7de3487",
+  "slug": "grand-lake-golf-club",
+  "displayName": "Grand Lake Golf Club",
+  "city": "Montgomery",
+  "state": "TX"
+}
 ]

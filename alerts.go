@@ -576,7 +576,7 @@ func parseTimeToMinutes(timeStr string) int {
 	if len(parts) != 2 {
 		return 0
 	}
-	var period string = parts[1]
+	var period string = strings.ToUpper(parts[1])
 	var timeParts []string = strings.Split(parts[0], ":")
 	if len(timeParts) != 2 {
 		return 0

@@ -1,0 +1,319 @@
+{
+  "confirmed": 5,
+  "listedOnly": 6,
+  "platform": "foreup",
+  "results": {
+    "Bayou Golf Course": {
+      "courseId": 21463,
+      "scheduleId": 0,
+      "bookingClass": "",
+      "name": "Bayou Din Golf Club",
+      "city": "Beaumont",
+      "state": "TX",
+      "address": "8537 LaBelle Road",
+      "postal": "77705",
+      "phone": "409-796-1327",
+      "website": "www.bayoudin.com",
+      "timezone": "America/Chicago",
+      "bookingClassId": "",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": null,
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "Gus Wortham Park Golf Course": {
+      "courseId": 19269,
+      "scheduleId": 1369,
+      "bookingClass": "",
+      "name": "Gus Wortham Park Golf Course",
+      "city": "Houston",
+      "state": "TX",
+      "address": "7000 Capitol St",
+      "postal": "77011",
+      "phone": "713-928-4260",
+      "timezone": "America/Chicago",
+      "holes": 18,
+      "bookingClassId": "3025",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        11,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "Hermann Park Golf Course": {
+      "courseId": 20669,
+      "scheduleId": 0,
+      "bookingClass": "",
+      "name": "Hermann Park Golf Course",
+      "city": "Houston",
+      "state": "TX",
+      "address": "2155 N. MacGregor Way",
+      "postal": "77030",
+      "phone": "(713) 526-0077",
+      "website": "http://hermannparkgc.com/contact/",
+      "timezone": "America/Chicago",
+      "bookingClassId": "",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": null,
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "High Meadow Ranch Golf Club": {
+      "courseId": 22167,
+      "scheduleId": 0,
+      "bookingClass": "",
+      "name": "High Meadow Ranch Golf Club",
+      "city": "Magnolia",
+      "state": "TX",
+      "address": "37300 Golf Club Trail",
+      "postal": "77355",
+      "phone": "281-356-7700",
+      "timezone": "America/Chicago",
+      "bookingClassId": "",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": null,
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "Memorial Park Golf Course": {
+      "courseId": 20945,
+      "scheduleId": 6282,
+      "bookingClass": "",
+      "name": "Memorial Park Golf Course",
+      "city": "Houston",
+      "state": "TX",
+      "address": "1001 E Memorial Loop Dr",
+      "postal": "77007",
+      "phone": "(832)968-7486",
+      "website": "https://www.houstonmunigolf.com/",
+      "timezone": "America/Chicago",
+      "holes": 18,
+      "bookingClassId": "7527",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ],
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "Pearland Golf Club at Country Place": {
+      "courseId": 22132,
+      "scheduleId": 9900,
+      "bookingClass": "",
+      "name": "Pearland Golf Club",
+      "city": "Pearland",
+      "state": "TX",
+      "address": "3123 Flower Field Ln",
+      "postal": "77584",
+      "phone": "713-773-9603",
+      "website": "www.pearlandgolfclub.com",
+      "timezone": "America/Chicago",
+      "holes": 18,
+      "bookingClassId": "13430",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        29,
+        18,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "Sharpstown Golf Course": {
+      "courseId": 20954,
+      "scheduleId": 6291,
+      "bookingClass": "",
+      "name": "Sharpstown Park Golf Course",
+      "city": "Houston",
+      "state": "TX",
+      "address": "6600 Harbor Town",
+      "postal": "77036",
+      "phone": "713-988-2099",
+      "website": "https://www.houstonmunigolf.com/",
+      "timezone": "America/Chicago",
+      "holes": 18,
+      "bookingClassId": "7648",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        14,
+        16,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "Timber Creek Golf Club": {
+      "courseId": 20696,
+      "scheduleId": 5512,
+      "bookingClass": "",
+      "name": "Timber Creek Golf Club",
+      "city": "Friendswood",
+      "state": "TX",
+      "address": "4554 FM 2351",
+      "postal": "77546",
+      "phone": "(281) 993-1140",
+      "website": "http://www.timbercreekgolfclub.com/index.htm",
+      "timezone": "America/Chicago",
+      "holes": 27,
+      "bookingClassId": "7835",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        25,
+        31,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "West Fork Golf \u0026 Country Club": {
+      "courseId": 20282,
+      "scheduleId": 0,
+      "bookingClass": "",
+      "name": "West Fork Golf Club",
+      "city": "Conroe",
+      "state": "TX",
+      "address": "One Golf Ridge Drive",
+      "postal": "77304",
+      "phone": "(936) 760-1776",
+      "website": "https://www.westforkgolf.com/",
+      "timezone": "America/Chicago",
+      "bookingClassId": "",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": null,
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "Wildcat Golf Club": {
+      "courseId": 18959,
+      "scheduleId": 0,
+      "bookingClass": "",
+      "name": "Wildcat Golf Course",
+      "city": "Palestine",
+      "state": "TX",
+      "address": "2230 Country Club Road",
+      "phone": "903-922-1700",
+      "website": "https://www.facebook.com/wildcatgolfcourse2014/",
+      "timezone": "America/Chicago",
+      "bookingClassId": "",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": null,
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "Windrose Golf Club": {
+      "courseId": 20204,
+      "scheduleId": 3955,
+      "bookingClass": "",
+      "name": "Windrose Golf Club",
+      "city": "Spring",
+      "state": "TX",
+      "address": "6235 Pine Lakes Blvd.",
+      "postal": "77379",
+      "phone": "(281) 370-8900",
+      "website": "http://windrosegolfclub.com/golf/proto/windrosegolfclub/",
+      "timezone": "America/Chicago",
+      "holes": 18,
+      "bookingClassId": "3635",
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        21,
+        0,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    }
+  },
+  "state": "TX",
+  "timestamp": "2026-02-17T18:50:33-07:00",
+  "totalInput": 38,
+  "unmatched": [
+    "World Houston Golf Club",
+    "Clear Creek Golf Club",
+    "Jersey Meadow Golf Course",
+    "Pasadena Municipal Golf Course",
+    "Battleground Golf Course",
+    "Bay Forest Golf Course",
+    "BlackHorse Golf Club",
+    "Golf Club at Cinco Ranch",
+    "Meadowbrook Farms Golf Club",
+    "Quail Valley Golf Club",
+    "Riverbend Country Club",
+    "Magnolia Creek Golf Club",
+    "Beacon Lakes Golf Club",
+    "Moody Gardens Golf Course",
+    "Newport Golf and Country Club",
+    "Cypresswood Golf Club",
+    "Augusta Pines Golf Club",
+    "Panther Trail Golf Course",
+    "The Oaks Course at The Woodlands",
+    "Wedgewood Golf Course",
+    "Panorama Golf Club",
+    "Woodforest Golf Club",
+    "Walden on Lake Conroe Golf Club",
+    "Golf Club of Houston",
+    "Tour 18 Houston",
+    "Highland Pines Golf Club",
+    "The Wilderness Golf Course"
+  ]
+}

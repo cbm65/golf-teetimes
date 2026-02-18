@@ -1,0 +1,939 @@
+{
+  "confirmed": 8,
+  "elapsed": "2m1.178446833s",
+  "errors": 0,
+  "listedOnly": 19,
+  "misses": 11,
+  "platform": "teeitup",
+  "results": [
+    {
+      "input": "Memorial Park Golf Course",
+      "city": "Houston",
+      "alias": "memorial-park-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Hermann Park Golf Course",
+      "city": "Houston",
+      "alias": "hermann-park-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 817,
+        "courseId": "54f14b990c8ad60378b01270",
+        "name": "Hermann Park Golf Course",
+        "address": "2155 N. MacGregor, Houston, TX 77030 US",
+        "locality": "Houston",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.382796,
+          29.713918
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Gus Wortham Park Golf Course",
+      "city": "Houston",
+      "alias": "gus-wortham-park-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 9862,
+        "courseId": "54f14f230c8ad60378b05ee4",
+        "name": "Gus Wortham Park Golf Course",
+        "address": "7000 Capitol St, Houston, TX 77011 US",
+        "locality": "Houston",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.308478,
+          29.742027
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Sharpstown Golf Course",
+      "city": "Houston",
+      "alias": "sharpstown-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Wildcat Golf Club",
+      "city": "Houston",
+      "alias": "wildcat-golf-club-v2",
+      "aliasSource": "exact+v2",
+      "status": "confirmed",
+      "facility": {
+        "id": 11401,
+        "courseId": "54f14fb40c8ad60378b06cff",
+        "name": "Wildcat Golf Club - Highlands",
+        "address": "12000 Almeda, Houston, TX 77045 US",
+        "locality": "Houston",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.42675,
+          29.63411
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        28,
+        65
+      ]
+    },
+    {
+      "input": "World Houston Golf Club",
+      "city": "Houston",
+      "alias": "world-houston-golf-course",
+      "aliasSource": "swap-golf-course",
+      "status": "listed_only",
+      "facility": {
+        "id": 6187,
+        "courseId": "54f14da50c8ad60378b040c1",
+        "name": "World Houston Golf Course",
+        "address": "4000 Greens Rd, Houston, TX 77032 US",
+        "locality": "Houston",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.324105,
+          29.951856
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Clear Creek Golf Club",
+      "city": "Houston",
+      "alias": "clear-creek-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "High Meadow Ranch Golf Club",
+      "city": "Houston",
+      "alias": "high-meadow-ranch",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 767,
+        "courseId": "54f14b930c8ad60378b011f3",
+        "name": "High Meadow Ranch Golf Club",
+        "address": "37300 Golf Club Trail, Magnolia, TX 77355 US",
+        "locality": "Magnolia",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.7422,
+          30.1081
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Jersey Meadow Golf Course",
+      "city": "Jersey Village",
+      "alias": "jersey-meadow-golf-club",
+      "aliasSource": "swap-golf-club",
+      "status": "confirmed",
+      "facility": {
+        "id": 1304,
+        "courseId": "54f14bc60c8ad60378b01654",
+        "name": "Jersey Meadow Golf Club",
+        "address": "8502 Rio Grande Street, Houston, TX 77040 US",
+        "locality": "Houston",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.572564,
+          29.894929
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        19,
+        25,
+        0
+      ]
+    },
+    {
+      "input": "Pasadena Municipal Golf Course",
+      "city": "Pasadena",
+      "alias": "pasadena-municipal-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 5263,
+        "courseId": "54f14d3e0c8ad60378b03808",
+        "name": "Pasadena Municipal Golf Course",
+        "address": "1000 Duffer Ln, Houston, TX 77034 US",
+        "locality": "Houston",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.179279,
+          29.625447
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Battleground Golf Course",
+      "city": "Deer Park",
+      "alias": "battleground-deer-park",
+      "aliasSource": "core+city",
+      "status": "listed_only",
+      "facility": {
+        "id": 685,
+        "courseId": "54f14b8b0c8ad60378b01144",
+        "name": "Battleground-Deer Park",
+        "address": "1600 Georgia Ave, Deer Park, TX 77536 US",
+        "locality": "Deer Park",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.134984,
+          29.696878
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Bay Forest Golf Course",
+      "city": "La Porte",
+      "alias": "bay-forest-golf-club",
+      "aliasSource": "swap-golf-club",
+      "status": "confirmed",
+      "facility": {
+        "id": 771,
+        "courseId": "54f14b940c8ad60378b011fd",
+        "name": "Bay Forest Golf Club",
+        "address": "201 Bay Forest Drive, La Porte, TX 77571 US",
+        "locality": "La Porte",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.0221,
+          29.6525
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        10,
+        12,
+        0
+      ]
+    },
+    {
+      "input": "BlackHorse Golf Club",
+      "city": "Cypress",
+      "alias": "blackhorse-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Golf Club at Cinco Ranch",
+      "city": "Katy",
+      "alias": "golf-club-at-cinco-ranch",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1370,
+        "courseId": "54f14bcd0c8ad60378b016ed",
+        "name": "Golf Club at Cinco Ranch",
+        "address": "23030 Cinco Ranch Blvd., Katy, TX 77450, US",
+        "locality": "Katy",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.750685,
+          29.740431
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "input": "Meadowbrook Farms Golf Club",
+      "city": "Katy",
+      "alias": "meadowbrook-farms-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1372,
+        "courseId": "54f14bcd0c8ad60378b016ef",
+        "name": "Meadowbrook Farms Golf Club",
+        "address": "23230 Meadowbrook Farms Club Drive, Katy, TX 77494 US",
+        "locality": "Katy",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.791964,
+          29.712255
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Quail Valley Golf Club",
+      "city": "Missouri City",
+      "alias": "quail-valley-country-club",
+      "aliasSource": "swap-country-club",
+      "status": "listed_only",
+      "facility": {
+        "id": 1217,
+        "courseId": "54f14bbe0c8ad60378b0158f",
+        "name": "Quail Valley Golf Club - El Dorado",
+        "address": "2880 La Quinta Drive, Missouri City, TX 77459, US",
+        "locality": "Missouri City",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.54944,
+          29.577374
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Riverbend Country Club",
+      "city": "Sugar Land",
+      "alias": "riverbend-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Pearland Golf Club at Country Place",
+      "city": "Pearland",
+      "alias": "pearland-golf-club-at-country-place",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Timber Creek Golf Club",
+      "city": "Friendswood",
+      "alias": "timber-creek-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1374,
+        "courseId": "54f14bcd0c8ad60378b016f5",
+        "name": "Timber Creek Golf Club",
+        "address": "4554 FM 2351, Friendswood, TX 77546 US",
+        "locality": "Friendswood",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.186949,
+          29.551102
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Magnolia Creek Golf Club",
+      "city": "League City",
+      "alias": "magnolia-creek-golf-links",
+      "aliasSource": "swap-golf-links",
+      "status": "listed_only",
+      "facility": {
+        "id": 2061,
+        "courseId": "54f14c0e0c8ad60378b01cdf",
+        "name": "Magnolia Creek Golf Links",
+        "address": "1501 Bay area blvd, League City, TX 77573 US",
+        "locality": "League City",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.140743,
+          29.472705
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Beacon Lakes Golf Club",
+      "city": "Dickinson",
+      "alias": "beacon-lakes-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1365,
+        "courseId": "63c03552bd7aa1fdeb3a1d7e",
+        "name": "Beacon Lakes Golf Club",
+        "address": "801 FM 646 West , Dickinson, TX 77539, US",
+        "locality": "Dickinson",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.07995,
+          29.477905
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Bayou Golf Course",
+      "city": "Texas City",
+      "alias": "bayou-golf-club",
+      "aliasSource": "swap-golf-club",
+      "status": "confirmed",
+      "facility": {
+        "id": 2858,
+        "courseId": "54f37a51a6f5040bb05645ed",
+        "name": "Bayou Golf Course",
+        "address": "2800 Ted Dudley Drive, Texas City, TX 77591, US",
+        "locality": "Texas City",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -94.97547399999996,
+          29.41622899999999
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        18,
+        14,
+        36
+      ]
+    },
+    {
+      "input": "Moody Gardens Golf Course",
+      "city": "Galveston",
+      "alias": "moody-gardens-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 6844,
+        "courseId": "54f14df70c8ad60378b046a7",
+        "name": "Moody Gardens Golf Course",
+        "address": "1700 Sydnor Ln, Galveston, TX 77554, US",
+        "locality": "Galveston",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -94.869426,
+          29.266034
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        37,
+        33,
+        36
+      ]
+    },
+    {
+      "input": "Newport Golf and Country Club",
+      "city": "Crosby",
+      "alias": "newport-golf-and-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Cypresswood Golf Club",
+      "city": "Spring",
+      "alias": "cypresswood-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 680,
+        "courseId": "54f14b8b0c8ad60378b01135",
+        "name": "Cypresswood Golf Club",
+        "address": "21602 Cypresswood Drive, Spring, TX 77373 US",
+        "locality": "Spring",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -80.12333,
+          26.72733
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Windrose Golf Club",
+      "city": "Spring",
+      "alias": "windrose-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 789,
+        "courseId": "54f14b960c8ad60378b01232",
+        "name": "WindRose Golf Club",
+        "address": "6235 Pine Lakes Blvd., Houston, TX 77379 US",
+        "locality": "Houston",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.519356,
+          30.058841
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Augusta Pines Golf Club",
+      "city": "Spring",
+      "alias": "augusta-pines-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 19759,
+        "courseId": "6852d0f15fe3e259da32cfa7",
+        "name": "Augusta Pines Golf Club",
+        "address": "Spring, TX 77389, US",
+        "locality": "Spring",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.536509,
+          30.129805
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Panther Trail Golf Course",
+      "city": "The Woodlands",
+      "alias": "panther-trail-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "The Oaks Course at The Woodlands",
+      "city": "The Woodlands",
+      "alias": "the-oaks-course-at-the-woodlands",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Wedgewood Golf Course",
+      "city": "Conroe",
+      "alias": "wedgewood-golf-club",
+      "aliasSource": "swap-golf-club",
+      "status": "listed_only",
+      "facility": {
+        "id": 3099,
+        "courseId": "54f14c5e0c8ad60378b023f3",
+        "name": "Wedgewood Golf Club",
+        "address": "5454 Highway 105 West, Conroe, TX 77304 US",
+        "locality": "Conroe",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.519993,
+          30.339155
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "West Fork Golf \u0026 Country Club",
+      "city": "Conroe",
+      "alias": "west-fork-golf-and-country-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Panorama Golf Club",
+      "city": "Conroe",
+      "alias": "panorama-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 2759,
+        "courseId": "54f14c450c8ad60378b021c5",
+        "name": "Panorama Golf Club",
+        "address": "73 Greenbriar Dr., Panorama Village, TX 77304, US",
+        "locality": "Panorama Village",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.492785,
+          30.377176
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        21,
+        20,
+        0
+      ]
+    },
+    {
+      "input": "Woodforest Golf Club",
+      "city": "Montgomery",
+      "alias": "woodforest-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1260,
+        "courseId": "54f14bc20c8ad60378b015f7",
+        "name": "Woodforest Golf Club",
+        "address": "1199 Fish Creek Thoroughfare, Montgomery, TX 77316 US",
+        "locality": "Montgomery",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.565326,
+          30.267667
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Walden on Lake Conroe Golf Club",
+      "city": "Montgomery",
+      "alias": "walden-on-lake-conroe-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Golf Club of Houston",
+      "city": "Humble",
+      "alias": "golf-club-of-houston",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1373,
+        "courseId": "54f14bcd0c8ad60378b016f2",
+        "name": "Golf Club of Houston",
+        "address": "5860 Wilson Road, Humble, TX 77396, US",
+        "locality": "Humble",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.258252,
+          29.926188
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        32,
+        21,
+        53
+      ]
+    },
+    {
+      "input": "Tour 18 Houston",
+      "city": "Humble",
+      "alias": "tour-18-houston",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 4946,
+        "courseId": "54f14d1b0c8ad60378b034d6",
+        "name": "Tour 18 Houston",
+        "address": "3102 FM 1960, Humble, TX 77338, USA",
+        "locality": "Humble",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.3799712,
+          30.020209
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Highland Pines Golf Club",
+      "city": "Porter",
+      "alias": "highland-pines-gc",
+      "aliasSource": "swap-gc",
+      "status": "listed_only",
+      "facility": {
+        "id": 19765,
+        "courseId": "6859c799c9a4f8d0e7bafd0f",
+        "name": "Highland Pines GC",
+        "address": "Porter, TX 77365, US",
+        "locality": "Porter",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.329173,
+          30.133975
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Wilderness Golf Course",
+      "city": "Lake Jackson",
+      "alias": "the-wilderness-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 871,
+        "courseId": "54f14b9f0c8ad60378b012f3",
+        "name": "The Wilderness Golf Course",
+        "address": "501 W. Highway 332, Lake Jackson, TX 77566 US",
+        "locality": "Lake Jackson",
+        "region": "TX",
+        "country": "US",
+        "location": [
+          -95.448401,
+          29.037907
+        ],
+        "timeZone": "America/Chicago"
+      },
+      "datesChecked": [
+        "2026-02-18",
+        "2026-02-21",
+        "2026-02-28"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "state": "TX",
+  "timestamp": "2026-02-17T18:49:43-07:00",
+  "totalInput": 38,
+  "validationDates": [
+    "2026-02-18",
+    "2026-02-21",
+    "2026-02-28"
+  ]
+}

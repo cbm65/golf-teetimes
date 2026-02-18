@@ -102,6 +102,12 @@ var Metros = map[string]Metro{
 		State:   "TX",
 		Tagline: "Public Courses Across the Texas Hill Country",
 	},
+	"houston": {
+		Name:    "Houston",
+		Slug:    "houston",
+		State:   "TX",
+		Tagline: "Public Courses Across Greater Houston",
+	},
 	"orlando": {
 		Name:    "Orlando",
 		Slug:    "orlando",

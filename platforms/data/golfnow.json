@@ -1532,5 +1532,85 @@
     "displayName": "Winter Park Pines Golf Club",
     "city": "Winter Park",
     "state": "FL"
+  },
+  {
+    "key": "battleground",
+    "metro": "houston",
+    "facilityId": 685,
+    "displayName": "Battleground Golf Course at Deer Park",
+    "city": "Deer Park",
+    "state": "TX",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/685/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/685/search"
+  },
+  {
+    "key": "blackhorse-north",
+    "metro": "houston",
+    "facilityId": 1326,
+    "displayName": "BlackHorse Golf Club - North",
+    "city": "Cypress",
+    "state": "TX",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1326/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1326/search"
+  },
+  {
+    "key": "clear-creek",
+    "metro": "houston",
+    "facilityId": 5232,
+    "displayName": "Clear Creek Golf Club",
+    "city": "Houston",
+    "state": "TX",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/5232/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/5232/search"
+  },
+  {
+    "key": "quail-valley-el-dorado",
+    "metro": "houston",
+    "facilityId": 1217,
+    "displayName": "Quail Valley Golf Club - El Dorado",
+    "city": "Missouri City",
+    "state": "TX",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1217/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1217/search"
+  },
+  {
+    "key": "walden-lake-houston",
+    "metro": "houston",
+    "facilityId": 1163,
+    "displayName": "Walden Golf & Country Club Lake Houston",
+    "city": "Humble",
+    "state": "TX",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1163/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1163/search"
+  },
+  {
+    "key": "sienna",
+    "metro": "houston",
+    "facilityId": 2033,
+    "displayName": "Sienna Golf Club",
+    "city": "Missouri City",
+    "state": "TX",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/2033/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/2033/search"
+  },
+  {
+    "key": "pecan-grove",
+    "metro": "houston",
+    "facilityId": 16048,
+    "displayName": "The Club at Pecan Grove",
+    "city": "Richmond",
+    "state": "TX",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/16048/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/16048/search"
+  },
+  {
+    "key": "spring-country-club",
+    "metro": "houston",
+    "facilityId": 16036,
+    "displayName": "The Spring Country Club",
+    "city": "Spring",
+    "state": "TX",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/16036/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/16036/search"
   }
 ]

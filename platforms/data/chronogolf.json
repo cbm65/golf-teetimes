@@ -608,5 +608,49 @@
   },
   "city": "Davenport",
   "state": "FL"
+},
+  {
+  "key": "hermann-park",
+  "metro": "houston",
+  "courseIds": "b69f305f-c6e8-4db3-aead-501638c07351",
+  "clubId": "",
+  "numericCourseId": "",
+  "affiliationTypeId": "55462",
+  "bookingUrl": "https://www.chronogolf.com/club/hermann-park-golf-course",
+  "names": {
+    "Hermann Park": "Hermann Park Golf Course"
+  },
+  "city": "Houston",
+  "state": "TX"
+},
+  {
+  "key": "wilderness",
+  "metro": "houston",
+  "courseIds": "35211481-4ee0-4459-a528-e71e3876c941",
+  "clubId": "",
+  "numericCourseId": "",
+  "affiliationTypeId": "57086",
+  "bookingUrl": "https://www.chronogolf.com/club/the-wilderness-at-lake-jackson",
+  "names": {
+    "The Wilderness at Lake Jackson": "The Wilderness Golf Course"
+  },
+  "city": "Lake Jackson",
+  "state": "TX"
+},
+  {
+  "key": "gleannloch",
+  "metro": "houston",
+  "courseIds": "2a124e95-fa94-46c4-907b-b6f7d2bf9020,c5e3609e-9d1e-42fe-ad3e-7d67bce96305,8a7ee28c-0ffd-4daa-a9a1-6fa455c24c6b",
+  "clubId": "",
+  "numericCourseId": "",
+  "affiliationTypeId": "140640",
+  "bookingUrl": "https://www.chronogolf.com/club/gleannloch-pines-golf-club",
+  "names": {
+    "Pines/Gleann": "Gleannloch Golf Club - Pines/Gleann",
+    "Gleann/Loch": "Gleannloch Golf Club - Gleann/Loch",
+    "Loch/Pines": "Gleannloch Golf Club - Loch/Pines"
+  },
+  "city": "Spring",
+  "state": "TX"
 }
 ]
