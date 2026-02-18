@@ -68,5 +68,25 @@
     "displayName": "Forest Lake Golf Club",
     "city": "Apopka",
     "state": "FL"
+  },
+  {
+    "key": "moccasin-wallow",
+    "metro": "tampa",
+    "subdomain": "moccasinwallowgc",
+    "courseId": "174",
+    "bookingUrl": "https://moccasinwallowgc.teesnap.net/",
+    "displayName": "Moccasin Wallow Golf Club",
+    "city": "Parrish",
+    "state": "FL"
+  },
+  {
+    "key": "scotland-yards",
+    "metro": "tampa",
+    "subdomain": "scotlandyardsgolf",
+    "courseId": "1601",
+    "bookingUrl": "https://scotlandyardsgolf.teesnap.net/",
+    "displayName": "Scotland Yards Golf Club",
+    "city": "Dade City",
+    "state": "FL"
   }
 ]

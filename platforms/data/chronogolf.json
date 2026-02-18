@@ -554,103 +554,159 @@
     "state": "NC"
   },
   {
-  "key": "forest-creek",
-  "metro": "austin",
-  "courseIds": "b7169df1-7c8e-4c80-b2ff-f68a3f98c00c",
-  "clubId": "",
-  "numericCourseId": "",
-  "affiliationTypeId": "139028",
-  "bookingUrl": "https://www.chronogolf.com/club/forest-creek-golf-club-texas",
-  "names": {
-    "Forest Creek": "Forest Creek Golf Club"
+    "key": "forest-creek",
+    "metro": "austin",
+    "courseIds": "b7169df1-7c8e-4c80-b2ff-f68a3f98c00c",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "139028",
+    "bookingUrl": "https://www.chronogolf.com/club/forest-creek-golf-club-texas",
+    "names": {
+      "Forest Creek": "Forest Creek Golf Club"
+    },
+    "city": "Round Rock",
+    "state": "TX"
   },
-  "city": "Round Rock",
-  "state": "TX"
-},
   {
-  "key": "delaware-springs",
-  "metro": "austin",
-  "courseIds": "bab0e48e-c1a3-49c1-bf5a-4788374104aa",
-  "clubId": "",
-  "numericCourseId": "",
-  "affiliationTypeId": "55062",
-  "bookingUrl": "https://www.chronogolf.com/club/delaware-springs-golf-course",
-  "names": {
-    "Delaware Springs": "Delaware Springs Golf Course"
+    "key": "delaware-springs",
+    "metro": "austin",
+    "courseIds": "bab0e48e-c1a3-49c1-bf5a-4788374104aa",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "55062",
+    "bookingUrl": "https://www.chronogolf.com/club/delaware-springs-golf-course",
+    "names": {
+      "Delaware Springs": "Delaware Springs Golf Course"
+    },
+    "city": "Burnet",
+    "state": "TX"
   },
-  "city": "Burnet",
-  "state": "TX"
-},
   {
-  "key": "shingle-creek",
-  "metro": "orlando",
-  "courseIds": "15c6ec1b-4794-4cec-91c1-ab8c9fb36b27",
-  "clubId": "",
-  "numericCourseId": "",
-  "affiliationTypeId": "18294",
-  "bookingUrl": "https://www.chronogolf.com/club/shingle-creek-golf-club",
-  "names": {
-    "Shingle Creek": "Shingle Creek Golf Club"
+    "key": "shingle-creek",
+    "metro": "orlando",
+    "courseIds": "15c6ec1b-4794-4cec-91c1-ab8c9fb36b27",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "18294",
+    "bookingUrl": "https://www.chronogolf.com/club/shingle-creek-golf-club",
+    "names": {
+      "Shingle Creek": "Shingle Creek Golf Club"
+    },
+    "city": "Orlando",
+    "state": "FL"
   },
-  "city": "Orlando",
-  "state": "FL"
-},
   {
-  "key": "highlands-reserve",
-  "metro": "orlando",
-  "courseIds": "b8fea7f3-8122-42c9-95e5-ec869b1283d1",
-  "clubId": "",
-  "numericCourseId": "",
-  "affiliationTypeId": "143394",
-  "bookingUrl": "https://www.chronogolf.com/club/walden-highlands-reserve-golf-club",
-  "names": {
-    "Highlands Reserve Golf Club": "Highlands Reserve Golf Club"
+    "key": "highlands-reserve",
+    "metro": "orlando",
+    "courseIds": "b8fea7f3-8122-42c9-95e5-ec869b1283d1",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "143394",
+    "bookingUrl": "https://www.chronogolf.com/club/walden-highlands-reserve-golf-club",
+    "names": {
+      "Highlands Reserve Golf Club": "Highlands Reserve Golf Club"
+    },
+    "city": "Davenport",
+    "state": "FL"
   },
-  "city": "Davenport",
-  "state": "FL"
-},
   {
-  "key": "hermann-park",
-  "metro": "houston",
-  "courseIds": "b69f305f-c6e8-4db3-aead-501638c07351",
-  "clubId": "",
-  "numericCourseId": "",
-  "affiliationTypeId": "55462",
-  "bookingUrl": "https://www.chronogolf.com/club/hermann-park-golf-course",
-  "names": {
-    "Hermann Park": "Hermann Park Golf Course"
+    "key": "hermann-park",
+    "metro": "houston",
+    "courseIds": "b69f305f-c6e8-4db3-aead-501638c07351",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "55462",
+    "bookingUrl": "https://www.chronogolf.com/club/hermann-park-golf-course",
+    "names": {
+      "Hermann Park": "Hermann Park Golf Course"
+    },
+    "city": "Houston",
+    "state": "TX"
   },
-  "city": "Houston",
-  "state": "TX"
-},
   {
-  "key": "wilderness",
-  "metro": "houston",
-  "courseIds": "35211481-4ee0-4459-a528-e71e3876c941",
-  "clubId": "",
-  "numericCourseId": "",
-  "affiliationTypeId": "57086",
-  "bookingUrl": "https://www.chronogolf.com/club/the-wilderness-at-lake-jackson",
-  "names": {
-    "The Wilderness at Lake Jackson": "The Wilderness Golf Course"
+    "key": "wilderness",
+    "metro": "houston",
+    "courseIds": "35211481-4ee0-4459-a528-e71e3876c941",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "57086",
+    "bookingUrl": "https://www.chronogolf.com/club/the-wilderness-at-lake-jackson",
+    "names": {
+      "The Wilderness at Lake Jackson": "The Wilderness Golf Course"
+    },
+    "city": "Lake Jackson",
+    "state": "TX"
   },
-  "city": "Lake Jackson",
-  "state": "TX"
-},
   {
-  "key": "gleannloch",
-  "metro": "houston",
-  "courseIds": "2a124e95-fa94-46c4-907b-b6f7d2bf9020,c5e3609e-9d1e-42fe-ad3e-7d67bce96305,8a7ee28c-0ffd-4daa-a9a1-6fa455c24c6b",
-  "clubId": "",
-  "numericCourseId": "",
-  "affiliationTypeId": "140640",
-  "bookingUrl": "https://www.chronogolf.com/club/gleannloch-pines-golf-club",
-  "names": {
-    "Pines/Gleann": "Gleannloch Golf Club - Pines/Gleann",
-    "Gleann/Loch": "Gleannloch Golf Club - Gleann/Loch",
-    "Loch/Pines": "Gleannloch Golf Club - Loch/Pines"
+    "key": "gleannloch",
+    "metro": "houston",
+    "courseIds": "2a124e95-fa94-46c4-907b-b6f7d2bf9020,c5e3609e-9d1e-42fe-ad3e-7d67bce96305,8a7ee28c-0ffd-4daa-a9a1-6fa455c24c6b",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "140640",
+    "bookingUrl": "https://www.chronogolf.com/club/gleannloch-pines-golf-club",
+    "names": {
+      "Pines/Gleann": "Gleannloch Golf Club - Pines/Gleann",
+      "Gleann/Loch": "Gleannloch Golf Club - Gleann/Loch",
+      "Loch/Pines": "Gleannloch Golf Club - Loch/Pines"
+    },
+    "city": "Spring",
+    "state": "TX"
   },
-  "city": "Spring",
-  "state": "TX"
-}
+  {
+    "key": "buffalo-creek",
+    "metro": "tampa",
+    "courseIds": "8a1447a8-b2c5-4a41-af46-8c927085163e",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "138631",
+    "bookingUrl": "https://www.chronogolf.com/club/buffalo-creek-golf-course-florida-palmetto",
+    "names": {
+      "Buffalo Creek Golf Course": "Buffalo Creek Golf Course"
+    },
+    "city": "Palmetto",
+    "state": "FL"
+  },
+  {
+    "key": "diamond-hill",
+    "metro": "tampa",
+    "courseIds": "1f5b4715-6235-4c47-9abe-218a3f1c1b14",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "16210",
+    "bookingUrl": "https://www.chronogolf.com/club/diamond-hill-golf-country-club",
+    "names": {
+      "Diamond Hill Golf Club": "Diamond Hill Golf Club"
+    },
+    "city": "Dover",
+    "state": "FL"
+  },
+  {
+    "key": "meadow-oaks",
+    "metro": "tampa",
+    "courseIds": "c3066357-1765-4ac8-ae6a-f04ba538b24a",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "148799",
+    "bookingUrl": "https://www.chronogolf.com/club/meadow-oaks-golf-country-club",
+    "names": {
+      "Meadow Oaks Golf & Country Club": "Meadow Oaks Golf and Country Club"
+    },
+    "city": "Hudson",
+    "state": "FL"
+  },
+  {
+    "key": "manatee-county",
+    "metro": "tampa",
+    "courseIds": "f0f0acb5-cfb8-4d91-98ea-088a5259c224",
+    "clubId": "",
+    "numericCourseId": "",
+    "affiliationTypeId": "138635",
+    "bookingUrl": "https://www.chronogolf.com/club/manatee-golf-course",
+    "names": {
+      "Manatee County": "Manatee County Golf Course"
+    },
+    "city": "Bradenton",
+    "state": "FL"
+  }
 ]

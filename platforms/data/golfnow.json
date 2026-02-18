@@ -1612,5 +1612,145 @@
     "state": "TX",
     "searchUrl": "https://www.golfnow.com/tee-times/facility/16036/search",
     "bookingUrl": "https://www.golfnow.com/tee-times/facility/16036/search"
+  },
+  {
+    "key": "summerfield-crossings",
+    "metro": "tampa",
+    "facilityId": 695,
+    "displayName": "Summerfield Crossings Golf Club",
+    "city": "Riverview",
+    "state": "FL",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/695/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/695/search"
+  },
+  {
+    "key": "saddlebrook-resort",
+    "metro": "tampa",
+    "facilityId": 6560,
+    "displayName": "Saddlebrook Resort Golf Course",
+    "city": "Wesley Chapel",
+    "state": "FL",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/6560/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6560/search"
+  },
+  {
+    "key": "club-renaissance",
+    "metro": "tampa",
+    "facilityId": 7216,
+    "displayName": "Club Renaissance",
+    "city": "Sun City Center",
+    "state": "FL",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/7216/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/7216/search"
+  },
+  {
+    "key": "chi-chi-rodriguez",
+    "metro": "tampa",
+    "facilityId": 4238,
+    "displayName": "Chi Chi Rodriguez Golf Club",
+    "city": "Clearwater",
+    "state": "FL",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/4238/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/4238/search"
+  },
+  {
+    "key": "wentworth",
+    "metro": "tampa",
+    "facilityId": 6961,
+    "displayName": "Wentworth Golf Club",
+    "city": "Tarpon Springs",
+    "state": "FL",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/6961/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6961/search"
+  },
+  {
+    "key": "tampa-bay",
+    "metro": "tampa",
+    "facilityId": 1065,
+    "displayName": "Tampa Bay Golf and Country Club",
+    "city": "San Antonio",
+    "state": "FL",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1065/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1065/search"
+  },
+  {
+    "key": "lake-jovita-north",
+    "metro": "tampa",
+    "facilityId": 3781,
+    "displayName": "Lake Jovita Golf and Country Club - North",
+    "city": "Dade City",
+    "state": "FL",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/3781/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/3781/search"
+  },
+  {
+    "key": "lake-jovita-south",
+    "metro": "tampa",
+    "facilityId": 6382,
+    "displayName": "Lake Jovita Golf and Country Club - South",
+    "city": "Dade City",
+    "state": "FL",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/6382/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6382/search"
+  },
+  {
+    "key": "river-wilderness",
+    "metro": "tampa",
+    "facilityId": 7114,
+    "displayName": "River Wilderness Country Club",
+    "city": "Parrish",
+    "state": "FL",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/7114/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/7114/search"
+  },
+  {
+    "key": "eagles-forest",
+    "metro": "tampa",
+    "facilityId": 1221,
+    "displayName": "The Eagles Golf Club - Forest",
+    "city": "Odessa",
+    "state": "FL",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/1221/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/1221/search"
+  },
+  {
+    "key": "eagles-lakes",
+    "metro": "tampa",
+    "facilityId": 6117,
+    "displayName": "The Eagles Golf Club - Lakes",
+    "city": "Odessa",
+    "state": "FL",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/6117/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/6117/search"
+  },
+  {
+    "key": "tarpon-woods",
+    "metro": "tampa",
+    "facilityId": 960,
+    "displayName": "Tarpon Woods Golf Club",
+    "city": "Palm Harbor",
+    "state": "FL",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/960/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/960/search"
+  },
+  {
+    "key": "river-hills",
+    "metro": "tampa",
+    "facilityId": 18259,
+    "displayName": "River Hills Country Club",
+    "city": "Valrico",
+    "state": "FL",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/18259/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/18259/search"
+  },
+  {
+    "key": "img-academy",
+    "metro": "tampa",
+    "facilityId": 4554,
+    "displayName": "IMG Academy Golf Club",
+    "city": "Bradenton",
+    "state": "FL",
+    "searchUrl": "https://www.golfnow.com/tee-times/facility/4554/search",
+    "bookingUrl": "https://www.golfnow.com/tee-times/facility/4554/search"
   }
 ]

@@ -843,39 +843,70 @@
     "city": "Haines City",
     "state": "FL",
     "timezone": "America/New_York"
+  },
+  {
+    "key": "high-meadow-ranch",
+    "metro": "houston",
+    "baseUrl": "https://highmeadowranch.cps.golf",
+    "apiKey": "",
+    "websiteId": "8c01bbf9-ef1d-43d2-2fc0-08dcb5544507",
+    "siteId": "1",
+    "courseIds": "1",
+    "bookingUrl": "https://highmeadowranch.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "High Meadow Ranch": "High Meadow Ranch Golf Club"
+    },
+    "city": "Magnolia",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "cypresswood",
+    "metro": "houston",
+    "baseUrl": "https://foresightcypress.cps.golf",
+    "apiKey": "",
+    "websiteId": "b2d1a40a-0795-45d0-9701-08da6f83475a",
+    "siteId": "1",
+    "courseIds": "11,14",
+    "bookingUrl": "https://foresightcypress.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Cypress": "Cypresswood Golf Club - Cypress",
+      "Tradition": "Cypresswood Golf Club - Tradition"
+    },
+    "city": "Spring",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "pebble-creek",
+    "metro": "tampa",
+    "baseUrl": "https://pebblecreek.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "9df38f87-d46d-40f9-562d-08dd616b8614",
+    "siteId": "1",
+    "courseIds": "2",
+    "bookingUrl": "https://pebblecreek.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Creek Side": "Pebble Creek Golf Club"
+    },
+    "city": "Tampa",
+    "state": "FL",
+    "timezone": "America/New_York"
+  },
+  {
+    "key": "tarpon-springs",
+    "metro": "tampa",
+    "baseUrl": "https://tarponsprings.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "2c246ac8-37b1-472a-3b67-08dd5cd66366",
+    "siteId": "1",
+    "courseIds": "1",
+    "bookingUrl": "https://tarponsprings.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Front 9": "Tarpon Springs Golf Course"
+    },
+    "city": "Tarpon Springs",
+    "state": "FL",
+    "timezone": "America/New_York"
   }
-,
-  {
-  "key": "high-meadow-ranch",
-  "metro": "houston",
-  "baseUrl": "https://highmeadowranch.cps.golf",
-  "apiKey": "",
-  "websiteId": "8c01bbf9-ef1d-43d2-2fc0-08dcb5544507",
-  "siteId": "1",
-  "courseIds": "1",
-  "bookingUrl": "https://highmeadowranch.cps.golf/onlineresweb/search-teetime",
-  "names": {
-    "High Meadow Ranch": "High Meadow Ranch Golf Club"
-  },
-  "city": "Magnolia",
-  "state": "TX",
-  "timezone": "America/Chicago"
-},
-  {
-  "key": "cypresswood",
-  "metro": "houston",
-  "baseUrl": "https://foresightcypress.cps.golf",
-  "apiKey": "",
-  "websiteId": "b2d1a40a-0795-45d0-9701-08da6f83475a",
-  "siteId": "1",
-  "courseIds": "11,14",
-  "bookingUrl": "https://foresightcypress.cps.golf/onlineresweb/search-teetime",
-  "names": {
-    "Cypress": "Cypresswood Golf Club - Cypress",
-    "Tradition": "Cypresswood Golf Club - Tradition"
-  },
-  "city": "Spring",
-  "state": "TX",
-  "timezone": "America/Chicago"
-}
 ]

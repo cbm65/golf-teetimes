@@ -108,6 +108,12 @@ var Metros = map[string]Metro{
 		State:   "TX",
 		Tagline: "Public Courses Across Greater Houston",
 	},
+	"tampa": {
+		Name:    "Tampa Bay",
+		Slug:    "tampa",
+		State:   "FL",
+		Tagline: "Public Courses Across the Tampa Bay Area",
+	},
 	"orlando": {
 		Name:    "Orlando",
 		Slug:    "orlando",
