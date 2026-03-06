@@ -4360,5 +4360,14 @@
     "displayName": "Date Palm Country Club",
     "city": "Cathedral City",
     "state": "CA"
-  }
+  },
+  {
+  "key": "pine-forest",
+  "metro": "charleston",
+  "alias": "the-club-at-pine-forest",
+  "facilityId": "8812",
+  "displayName": "Pine Forest Country Club",
+  "city": "Summerville",
+  "state": "SC"
+}
 ]

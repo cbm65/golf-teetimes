@@ -204,5 +204,70 @@
     "displayName": "JW Marriott Desert Springs - Valley Course",
     "city": "Palm Desert",
     "state": "CA"
-  }
+  },
+  {
+  "key": "kiawah-cougar-point",
+  "metro": "charleston",
+  "tenantId": "711",
+  "propertyId": "Kiawah-Island-Golf",
+  "courseId": "4",
+  "playerTypeId": "26",
+  "bookingUrl": "https://book.rguest.com/onecart/golf/courses/711/Kiawah-Island-Golf",
+  "displayName": "Kiawah Island Resort - Cougar Point",
+  "city": "Kiawah Island",
+  "state": "SC",
+  "timezone": "America/New_York"
+},
+  {
+  "key": "kiawah-oak-point",
+  "metro": "charleston",
+  "tenantId": "711",
+  "propertyId": "Kiawah-Island-Golf",
+  "courseId": "5",
+  "playerTypeId": "26",
+  "bookingUrl": "https://book.rguest.com/onecart/golf/courses/711/Kiawah-Island-Golf",
+  "displayName": "Kiawah Island Resort - Oak Point",
+  "city": "Johns Island",
+  "state": "SC",
+  "timezone": "America/New_York"
+},
+  {
+  "key": "kiawah-osprey-point",
+  "metro": "charleston",
+  "tenantId": "711",
+  "propertyId": "Kiawah-Island-Golf",
+  "courseId": "1",
+  "playerTypeId": "26",
+  "bookingUrl": "https://book.rguest.com/onecart/golf/courses/711/Kiawah-Island-Golf",
+  "displayName": "Kiawah Island Resort - Osprey Point",
+  "city": "Kiawah Island",
+  "state": "SC",
+  "timezone": "America/New_York"
+},
+  {
+  "key": "kiawah-ocean-course",
+  "metro": "charleston",
+  "tenantId": "711",
+  "propertyId": "Kiawah-Island-Golf",
+  "courseId": "2",
+  "playerTypeId": "26",
+  "bookingUrl": "https://book.rguest.com/onecart/golf/courses/711/Kiawah-Island-Golf",
+  "displayName": "Kiawah Island Resort - Ocean Course",
+  "city": "Kiawah Island",
+  "state": "SC",
+  "timezone": "America/New_York"
+},
+  {
+  "key": "kiawah-turtle-point",
+  "metro": "charleston",
+  "tenantId": "711",
+  "propertyId": "Kiawah-Island-Golf",
+  "courseId": "3",
+  "playerTypeId": "26",
+  "bookingUrl": "https://book.rguest.com/onecart/golf/courses/711/Kiawah-Island-Golf",
+  "displayName": "Kiawah Island Resort - Turtle Point",
+  "city": "Kiawah Island",
+  "state": "SC",
+  "timezone": "America/New_York"
+}
 ]

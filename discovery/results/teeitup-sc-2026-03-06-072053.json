@@ -1,0 +1,500 @@
+{
+  "confirmed": 0,
+  "elapsed": "1m33.718079208s",
+  "errors": 0,
+  "listedOnly": 11,
+  "misses": 18,
+  "platform": "teeitup",
+  "results": [
+    {
+      "input": "Charleston Municipal Golf Course",
+      "city": "Charleston",
+      "alias": "charleston-municipal-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 6169,
+        "courseId": "54f14da20c8ad60378b04090",
+        "name": "Charleston Municipal Golf Course",
+        "address": "2110 Maybank Hwy, Charleston, SC 29412 US",
+        "locality": "Charleston",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -79.95108,
+          32.71926
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Shadowmoss Plantation Golf Club",
+      "city": "Charleston",
+      "alias": "shadowmoss-plantation",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 10302,
+        "courseId": "54f14f500c8ad60378b0635e",
+        "name": "Shadowmoss Plantation",
+        "address": "20 Dunvegan Dr, Charleston, SC 29414 US",
+        "locality": "Charleston",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.054526,
+          32.819726
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Patriots Point Links",
+      "city": "Mount Pleasant",
+      "alias": "patriots-point-links",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Charleston National Golf Club",
+      "city": "Mount Pleasant",
+      "alias": "charleston-national-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 7077,
+        "courseId": "54f14e100c8ad60378b04870",
+        "name": "Charleston National Golf Club",
+        "address": "1360 National Drive, Mount Pleasant, SC 29466 US",
+        "locality": "Mount Pleasant",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -79.862778,
+          32.793889
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Dunes West Golf Club",
+      "city": "Mount Pleasant",
+      "alias": "dunes-west-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "RiverTowne Country Club",
+      "city": "Mount Pleasant",
+      "alias": "rivertowne-country-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 6843,
+        "courseId": "54f14df70c8ad60378b046a5",
+        "name": "RiverTowne Country Club",
+        "address": "1700 Rivertowne Country Club Dr, Mount Pleasant, SC 29466 US",
+        "locality": "Mount Pleasant",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -79.825905,
+          32.880239
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Wild Dunes Resort - Links Course",
+      "city": "Isle of Palms",
+      "alias": "wild-dunes-resort-links-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Wild Dunes Resort - Harbor Course",
+      "city": "Isle of Palms",
+      "alias": "wild-dunes-resort-harbor-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Coosaw Creek Country Club",
+      "city": "North Charleston",
+      "alias": "coosaw-creek-country-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 3996,
+        "courseId": "54f14cb40c8ad60378b02bcb",
+        "name": "Coosaw Creek Country Club",
+        "address": "4110 Club Course Drive, North Charleston, SC 29420, US",
+        "locality": "North Charleston",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.0943,
+          32.9289
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Coosaw Creek Country Club",
+      "city": "North Charleston",
+      "alias": "coosaw-creek-country-club-v2",
+      "aliasSource": "exact+v2",
+      "status": "listed_only",
+      "facility": {
+        "id": 17986,
+        "courseId": "62e13803c0204a3c9efd00ec",
+        "name": "Coosaw Creek Country Club",
+        "address": "North Charleston, SC 29420, US",
+        "locality": "North Charleston",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.109459,
+          32.936176
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Eagle Landing Golf Club",
+      "city": "Hanahan",
+      "alias": "eagle-landing-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Wrenwoods Golf Course",
+      "city": "Joint Base Charleston",
+      "alias": "wrenwoods-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Crowfield Golf and Country Club",
+      "city": "Goose Creek",
+      "alias": "crowfield-golf-and-country-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 3997,
+        "courseId": "54f14cb40c8ad60378b02bce",
+        "name": "Crowfield Golf and Country Club",
+        "address": "300 Hamlet Circle, Goose Creek, SC 29445 US",
+        "locality": "Goose Creek",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.04732,
+          33.02808
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Oaks Golf and Country Club",
+      "city": "Goose Creek",
+      "alias": "the-oaks-golf-and-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Redbank Plantation Golf Course",
+      "city": "Goose Creek",
+      "alias": "redbank-plantation-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Legend Oaks Golf Club",
+      "city": "Summerville",
+      "alias": "legend-oaks-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 4000,
+        "courseId": "54f14cb50c8ad60378b02bd8",
+        "name": "Legend Oaks Golf Club",
+        "address": "118 Legend Oaks Way, Summerville, SC 29485 US",
+        "locality": "Summerville",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.181206,
+          32.977191
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Golf Club at Wescott Plantation",
+      "city": "Summerville",
+      "alias": "the-golf-club-at-wescott-plantation",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Summerville Country Club",
+      "city": "Summerville",
+      "alias": "summerville-country-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Pine Forest Country Club",
+      "city": "Summerville",
+      "alias": "pine-forest-country-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Berkeley Country Club",
+      "city": "Moncks Corner",
+      "alias": "berkeley-country-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 6322,
+        "courseId": "54f14db70c8ad60378b041e9",
+        "name": "Berkeley Country Club",
+        "address": "772 Exeter Plantation Road, Moncks Corner, SC 29461 US",
+        "locality": "Moncks Corner",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.027645,
+          33.14898
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Links at Stono Ferry",
+      "city": "Hollywood",
+      "alias": "the-links-at-stono-ferry",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 17440,
+        "courseId": "5ee4ed4ad9e692010037a597",
+        "name": "The Links at Stono Ferry",
+        "address": "Hollywood, SC 29449, US",
+        "locality": "Hollywood",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.161326,
+          32.756135
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Oak Point Golf Course",
+      "city": "Johns Island",
+      "alias": "oak-point-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Kiawah Island Resort - Ocean Course",
+      "city": "Kiawah Island",
+      "alias": "kiawah-island-resort-ocean-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Kiawah Island Resort - Osprey Point",
+      "city": "Kiawah Island",
+      "alias": "kiawah-island-resort-osprey-point",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Kiawah Island Resort - Turtle Point",
+      "city": "Kiawah Island",
+      "alias": "kiawah-island-resort-turtle-point",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Kiawah Island Resort - Cougar Point",
+      "city": "Kiawah Island",
+      "alias": "kiawah-island-resort-cougar-point",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Seabrook Island Club - Crooked Oaks",
+      "city": "Seabrook Island",
+      "alias": "seabrook-island-club-crooked-oaks",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Seabrook Island Club - Ocean Winds",
+      "city": "Seabrook Island",
+      "alias": "seabrook-island-club-ocean-winds",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "The Plantation Course at Edisto",
+      "city": "Edisto Island",
+      "alias": "the-plantation-course-at-edisto",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 17441,
+        "courseId": "5ee4ee39d9e692010037a632",
+        "name": "The Plantation Course at Edisto",
+        "address": "Edisto Island, SC 29438, US",
+        "locality": "Edisto Island",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.334333,
+          32.486564
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "state": "SC",
+  "timestamp": "2026-03-06T07:20:53-07:00",
+  "totalInput": 28,
+  "validationDates": [
+    "2026-03-11",
+    "2026-03-07",
+    "2026-03-14"
+  ]
+}

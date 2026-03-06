@@ -44,6 +44,7 @@ var metroCoords = map[string][3]float64{
 	"palmsprings":   {33.8303, -116.5453, 35},
 	"sanantonio":    {29.4200, -98.4900, 40},
 	"sacramento":    {38.5816, -121.4944, 40},
+	"charleston":    {32.7765, -79.9311, 40},
 }
 
 type searchRequest struct {

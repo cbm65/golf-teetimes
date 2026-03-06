@@ -134,6 +134,11 @@ var Metros = map[string]Metro{
 		Tagline: "Public Courses Across the Sacramento Valley",
 		Lat: 38.58, Lng: -121.49,
 	},
+	"charleston": {
+		Name: "Charleston", Slug: "charleston", State: "SC",
+		Tagline: "Lowcountry Public Golf from Kiawah to Summerville",
+		Lat: 32.78, Lng: -79.93,
+	},
 }
 
 func init() {

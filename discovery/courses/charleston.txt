@@ -1,0 +1,54 @@
+# Charleston Metro Public Golf Courses
+# Format: Course Name | City
+# Includes public, municipal, semi-private, and resort courses within ~1 hour of downtown Charleston
+# All courses in SC
+
+# === Charleston / James Island ===
+Charleston Municipal Golf Course | Charleston
+Shadowmoss Plantation Golf Club | Charleston
+
+# === Mount Pleasant ===
+Patriots Point Links | Mount Pleasant
+Charleston National Golf Club | Mount Pleasant
+Dunes West Golf Club | Mount Pleasant
+RiverTowne Country Club | Mount Pleasant
+
+# === Isle of Palms ===
+Wild Dunes Resort - Links Course | Isle of Palms
+Wild Dunes Resort - Harbor Course | Isle of Palms
+
+# === North Charleston / Hanahan ===
+Coosaw Creek Country Club | North Charleston
+Eagle Landing Golf Club | Hanahan
+Wrenwoods Golf Course | Joint Base Charleston
+
+# === Goose Creek ===
+Crowfield Golf and Country Club | Goose Creek
+The Oaks Golf and Country Club | Goose Creek
+Redbank Plantation Golf Course | Goose Creek
+
+# === Summerville ===
+Legend Oaks Golf Club | Summerville
+The Golf Club at Wescott Plantation | Summerville
+Summerville Country Club | Summerville
+Pine Forest Country Club | Summerville
+
+# === Moncks Corner ===
+Berkeley Country Club | Moncks Corner
+
+# === Hollywood / Johns Island ===
+The Links at Stono Ferry | Hollywood
+Oak Point Golf Course | Johns Island
+
+# === Kiawah Island Resort (public resort courses) ===
+Kiawah Island Resort - Ocean Course | Kiawah Island
+Kiawah Island Resort - Osprey Point | Kiawah Island
+Kiawah Island Resort - Turtle Point | Kiawah Island
+Kiawah Island Resort - Cougar Point | Kiawah Island
+
+# === Seabrook Island (resort guest access) ===
+Seabrook Island Club - Crooked Oaks | Seabrook Island
+Seabrook Island Club - Ocean Winds | Seabrook Island
+
+# === Edisto Island ===
+The Plantation Course at Edisto | Edisto Island

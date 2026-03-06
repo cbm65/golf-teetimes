@@ -1,0 +1,616 @@
+{
+  "confirmed": 0,
+  "elapsed": "1m42.172795375s",
+  "listedOnly": 0,
+  "misses": 13,
+  "platform": "chronogolf",
+  "results": [
+    {
+      "input": "Charleston Municipal Golf Course",
+      "city": "Charleston",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Shadowmoss Plantation Golf Club",
+      "city": "Charleston",
+      "slug": "shadowmoss-plantation-golf-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "4e830ab4-bd92-4110-b7ed-7991805f5c35",
+        "id": 12979,
+        "name": "Shadowmoss Plantation Golf Club",
+        "slug": "shadowmoss-plantation-golf-club",
+        "city": "Charleston",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "20 Dunvagen Drive",
+        "phone": "(843) 556-8251",
+        "website": "http://shadowmossgolf.com",
+        "postcode": "29414",
+        "defaultAffiliationTypeId": 52738,
+        "location": {
+          "lat": 32.843099,
+          "lon": -80.074258
+        },
+        "courses": [
+          {
+            "id": 14879,
+            "name": "Shadowmoss Plantation",
+            "holes": 18,
+            "uuid": "e8e658bf-ce20-4300-a92b-6e9890d6976f"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Patriots Point Links",
+      "city": "Mount Pleasant",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Charleston National Golf Club",
+      "city": "Mount Pleasant",
+      "slug": "charleston-national-country-club",
+      "slugSource": "swap-country-club",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "fc0dfa1e-fb76-430f-9a8d-199ae2662171",
+        "id": 12791,
+        "name": "Charleston National Country Club",
+        "slug": "charleston-national-country-club",
+        "city": "Mt. Pleasant",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "1360 National Drive",
+        "phone": "843-884-4653",
+        "website": "http://www.charlestonnationalgolf.com",
+        "postcode": "29466",
+        "defaultAffiliationTypeId": 51986,
+        "location": {
+          "lat": 32.869279,
+          "lon": -79.76708
+        },
+        "courses": [
+          {
+            "id": 14631,
+            "name": "Charleston National",
+            "holes": 18,
+            "uuid": "8923d2ea-9c4c-4248-a390-3be20efe8227"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Dunes West Golf Club",
+      "city": "Mount Pleasant",
+      "slug": "dunes-west-golf-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "cd753f67-1e6c-421e-99f9-8557337bf7fd",
+        "id": 12830,
+        "name": "Dunes West Golf Club",
+        "slug": "dunes-west-golf-club",
+        "city": "Mt. Pleasant",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "3535 Wando Plantation Way",
+        "phone": "843-856-9000",
+        "website": "http://www.duneswestgolfclub.com",
+        "postcode": "29466",
+        "defaultAffiliationTypeId": 52142,
+        "location": {
+          "lat": 32.911617,
+          "lon": -79.800809
+        },
+        "courses": [
+          {
+            "id": 14686,
+            "name": "Dunes West",
+            "holes": 18,
+            "uuid": "6f891fbe-74b5-4bb6-a54f-30163fe2da56"
+          }
+        ]
+      }
+    },
+    {
+      "input": "RiverTowne Country Club",
+      "city": "Mount Pleasant",
+      "slug": "rivertowne-country-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "020702aa-38e5-45d4-a250-5ea25611bdf9",
+        "id": 12962,
+        "name": "RiverTowne Country Club",
+        "slug": "rivertowne-country-club",
+        "city": "Mt. Pleasant",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "1700 Rivertowne Country Club Drive",
+        "phone": "(843) 849-2400",
+        "website": "http://www.rivertownecountryclub.com",
+        "postcode": "29466",
+        "defaultAffiliationTypeId": 52670,
+        "location": {
+          "lat": 32.879725,
+          "lon": -79.824304
+        },
+        "courses": [
+          {
+            "id": 14857,
+            "name": "RiverTowne",
+            "holes": 18,
+            "uuid": "703fe9be-98d0-4f43-aac6-5a5babf7ac91"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Wild Dunes Resort - Links Course",
+      "city": "Isle of Palms",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Wild Dunes Resort - Harbor Course",
+      "city": "Isle of Palms",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Coosaw Creek Country Club",
+      "city": "North Charleston",
+      "slug": "coosaw-creek-country-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "f43d9752-8799-4333-a642-35a7b7d1edff",
+        "id": 12807,
+        "name": "Coosaw Creek Country Club",
+        "slug": "coosaw-creek-country-club",
+        "city": "North Charleston",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "4210 Club Course Dr",
+        "phone": "(843) 767-9000",
+        "website": "http://www.coosawcreek.com",
+        "postcode": "29420",
+        "defaultAffiliationTypeId": 52050,
+        "location": {
+          "lat": 32.935595,
+          "lon": -80.108789
+        },
+        "courses": [
+          {
+            "id": 14661,
+            "name": "Coosaw Creek",
+            "holes": 18,
+            "uuid": "ec966158-8cc7-4e9c-92a0-875c8bf36bb9"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Eagle Landing Golf Club",
+      "city": "Hanahan",
+      "slug": "eagle-landing-golf-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "87594d8c-882e-4c98-8e3a-7c79d8b9fc9f",
+        "id": 12832,
+        "name": "Eagle Landing Golf Club",
+        "slug": "eagle-landing-golf-club",
+        "city": "Hanahan",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "1500 Eagle Landing Blvd",
+        "phone": "(843) 797-1667",
+        "website": "",
+        "postcode": "29406",
+        "defaultAffiliationTypeId": 52150,
+        "location": {
+          "lat": 32.946033,
+          "lon": -80.035986
+        },
+        "courses": [
+          {
+            "id": 14688,
+            "name": "Eagle Landing",
+            "holes": 18,
+            "uuid": "ee925ca5-d047-4f33-ad7e-a798c21bd32d"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Wrenwoods Golf Course",
+      "city": "Joint Base Charleston",
+      "slug": "wrenwoods-golf-course-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "ee3d1259-e9c1-4725-87f3-363850950d3f",
+        "id": 12790,
+        "name": "Wrenwoods Golf Course",
+        "slug": "wrenwoods-golf-course",
+        "city": "Charleston",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "100 Cusabee Trail Bld 601",
+        "phone": "843-963-1833",
+        "website": "http://www.jbcharleston.com/recreation/air-base/golf",
+        "postcode": "29404",
+        "defaultAffiliationTypeId": 51982,
+        "location": {
+          "lat": 32.902773,
+          "lon": -80.053759
+        },
+        "courses": [
+          {
+            "id": 14630,
+            "name": "Wrenwoods",
+            "holes": 18,
+            "uuid": "467c0188-efca-4aa4-b4b7-4e4b825f20b2"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Crowfield Golf and Country Club",
+      "city": "Goose Creek",
+      "slug": "crowfield-golf-country-club-south-carolina",
+      "slugSource": "no-and+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "d2b5a42f-f9f3-4dfb-92eb-f0de218771aa",
+        "id": 12819,
+        "name": "Crowfield Golf \u0026 Country Club",
+        "slug": "crowfield-golf-country-club",
+        "city": "Goose Creek",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "300 Hamlet Circle",
+        "phone": "(843) 764-4618",
+        "website": "http://www.crowfieldgolf.com",
+        "postcode": "29445",
+        "defaultAffiliationTypeId": 52098,
+        "location": {
+          "lat": 33.003199,
+          "lon": -80.077998
+        },
+        "courses": [
+          {
+            "id": 14673,
+            "name": "Crowfield",
+            "holes": 18,
+            "uuid": "65149900-d378-47ef-ad9d-ca21b7e73fd6"
+          }
+        ]
+      }
+    },
+    {
+      "input": "The Oaks Golf and Country Club",
+      "city": "Goose Creek",
+      "slug": "the-oaks-golf-country-club",
+      "slugSource": "no-and",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "8353ff2f-c723-448d-9aeb-8b7a3997f256",
+        "id": 1330,
+        "name": "The Oaks Golf \u0026 Country Club",
+        "slug": "the-oaks-golf-country-club-ontario--2",
+        "city": "Delaware",
+        "province": "Ontario",
+        "country": "Canada",
+        "address": "1552 Gideon Dr",
+        "phone": "(519) 652-1762",
+        "website": "http://www.oaksgolf.com",
+        "postcode": "N0L 1E0",
+        "defaultAffiliationTypeId": 6037,
+        "location": {
+          "lat": 42.933914,
+          "lon": -81.413509
+        },
+        "courses": [
+          {
+            "id": 1500,
+            "name": "The Oaks",
+            "holes": 18,
+            "uuid": "9e4922c6-1cd9-4d65-ac8a-18cae45ab9d5"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Redbank Plantation Golf Course",
+      "city": "Goose Creek",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Legend Oaks Golf Club",
+      "city": "Summerville",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "The Golf Club at Wescott Plantation",
+      "city": "Summerville",
+      "slug": "the-golf-club-at-wescott-plantation-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "4c88c29c-31d1-4f99-b33f-15a7557cdba2",
+        "id": 13011,
+        "name": "The Golf Club at Wescott Plantation",
+        "slug": "the-golf-club-at-wescott-plantation",
+        "city": "Summerville",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "5000 Wescott Club Drive",
+        "phone": "(843) 871-2135",
+        "website": "http://www.wescottgolfclub.com",
+        "postcode": "29485",
+        "defaultAffiliationTypeId": 52866,
+        "location": {
+          "lat": 32.945586,
+          "lon": -80.138197
+        },
+        "courses": [
+          {
+            "id": 14916,
+            "name": "Wescott Course #1",
+            "holes": 18,
+            "uuid": "34aa754b-b61f-4ef8-a344-638c3869e771"
+          },
+          {
+            "id": 14918,
+            "name": "Wescott Course #2",
+            "holes": 18,
+            "uuid": "cd83e5a1-ba1b-4705-bf38-08c43ac67448"
+          },
+          {
+            "id": 14917,
+            "name": "Wescott Course #3",
+            "holes": 18,
+            "uuid": "6fec8d46-8a09-4dd4-b55b-3e97a8a0d9a3"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Summerville Country Club",
+      "city": "Summerville",
+      "slug": "summerville-country-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "95e3bab0-8eb2-4f74-a2ac-faf60d999475",
+        "id": 12910,
+        "name": "Summerville Country Club",
+        "slug": "summerville-country-club",
+        "city": "Summerville",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "400 Country Club Blvd",
+        "phone": "(843) 873-2210",
+        "website": "http://www.summervillecountryclub.com/",
+        "postcode": "29483",
+        "defaultAffiliationTypeId": 52462,
+        "location": {
+          "lat": 32.9985,
+          "lon": -80.20199
+        },
+        "courses": [
+          {
+            "id": 14793,
+            "name": "Miler",
+            "holes": 18,
+            "uuid": "74d8f42f-635d-4878-a0a3-b46588345c18"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Pine Forest Country Club",
+      "city": "Summerville",
+      "slug": "pine-forest-country-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "000bbbc0-b6bc-4ce5-a39d-0fec82c0e465",
+        "id": 12942,
+        "name": "Pine Forest Country Club",
+        "slug": "pine-forest-country-club-south-carolina",
+        "city": "Summerville",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "1000 Congressional Blvd",
+        "phone": "(843) 851-1193",
+        "website": "http://www.pineforestcountryclub.com",
+        "postcode": "29483",
+        "defaultAffiliationTypeId": 52590,
+        "location": {
+          "lat": 33.030026,
+          "lon": -80.231853
+        },
+        "courses": [
+          {
+            "id": 14833,
+            "name": "Pine Forest",
+            "holes": 18,
+            "uuid": "39b23c76-53d7-42d2-b37b-1890817f3a17"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Berkeley Country Club",
+      "city": "Moncks Corner",
+      "slug": "berkeley-country-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "b151eb05-6a63-4ce6-8204-de163a489898",
+        "id": 12766,
+        "name": "Berkeley Country Club",
+        "slug": "berkeley-country-club",
+        "city": "Moncks Corner",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "77 Exeter Plantation Road",
+        "phone": "843-761-5871",
+        "website": "http://www.berkeleycc.com",
+        "postcode": "29461",
+        "defaultAffiliationTypeId": 51886,
+        "location": {
+          "lat": 33.152078,
+          "lon": -80.019297
+        },
+        "courses": [
+          {
+            "id": 14602,
+            "name": "Berkeley",
+            "holes": 18,
+            "uuid": "0b78b538-97c2-49c0-b307-3adc8c63b95b"
+          }
+        ]
+      }
+    },
+    {
+      "input": "The Links at Stono Ferry",
+      "city": "Hollywood",
+      "slug": "the-links-at-stono-ferry-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "aa3e4fed-4af6-401d-a8b7-b5b867d63979",
+        "id": 13017,
+        "name": "The Links at Stono Ferry",
+        "slug": "the-links-at-stono-ferry",
+        "city": "Hollywood",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "4812 Stono Links Drive",
+        "phone": "(843) 763-1817",
+        "website": "http://www.stonoferrygolf.com",
+        "postcode": "29449",
+        "defaultAffiliationTypeId": 52890,
+        "location": {
+          "lat": 32.756312,
+          "lon": -80.16063
+        },
+        "courses": [
+          {
+            "id": 14924,
+            "name": "Stono Ferry",
+            "holes": 18,
+            "uuid": "73e39980-7730-47fa-8860-0d35781f35b9"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Oak Point Golf Course",
+      "city": "Johns Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Kiawah Island Resort - Ocean Course",
+      "city": "Kiawah Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Kiawah Island Resort - Osprey Point",
+      "city": "Kiawah Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Kiawah Island Resort - Turtle Point",
+      "city": "Kiawah Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Kiawah Island Resort - Cougar Point",
+      "city": "Kiawah Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Seabrook Island Club - Crooked Oaks",
+      "city": "Seabrook Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Seabrook Island Club - Ocean Winds",
+      "city": "Seabrook Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "The Plantation Course at Edisto",
+      "city": "Edisto Island",
+      "slug": "the-plantation-course-at-edisto-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "656b016d-6ee9-4bb5-8a41-9b329c617cf6",
+        "id": 13018,
+        "name": "The Plantation Course at Edisto ",
+        "slug": "the-plantation-course-at-edisto",
+        "city": "Edisto Island",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "19 Fairway Drive",
+        "phone": "(843) 869-1111",
+        "website": "http://www.theplantationcourseatedisto.com",
+        "postcode": "29438",
+        "defaultAffiliationTypeId": 52894,
+        "location": {
+          "lat": 32.486423,
+          "lon": -80.336525
+        },
+        "courses": [
+          {
+            "id": 14925,
+            "name": "The Plantation at Edisto ",
+            "holes": 18,
+            "uuid": "15fcf371-4bce-4510-866e-08d28def1446"
+          }
+        ]
+      }
+    }
+  ],
+  "state": "SC",
+  "timestamp": "2026-03-06T07:21:03-07:00",
+  "totalInput": 28,
+  "validationDates": [
+    "2026-03-11",
+    "2026-03-07",
+    "2026-03-14"
+  ],
+  "wrongState": 15
+}

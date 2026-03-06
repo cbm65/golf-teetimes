@@ -2282,5 +2282,35 @@
     "displayName": "Hemet Golf Club",
     "city": "Hemet",
     "state": "CA"
-  }
+  },
+  {
+  "key": "patriots-point",
+  "metro": "charleston",
+  "facilityId": 83,
+  "searchUrl": "https://www.golfnow.com/tee-times/facility/83/search",
+  "bookingUrl": "https://www.golfnow.com/tee-times/facility/83/search",
+  "displayName": "Patriots Point Links",
+  "city": "Mount Pleasant",
+  "state": "SC"
+},
+  {
+  "key": "wild-dunes-links",
+  "metro": "charleston",
+  "facilityId": 14228,
+  "searchUrl": "https://www.golfnow.com/tee-times/facility/14228/search",
+  "bookingUrl": "https://www.golfnow.com/tee-times/facility/14228/search",
+  "displayName": "Wild Dunes Resort - Links Course",
+  "city": "Isle of Palms",
+  "state": "SC"
+},
+  {
+  "key": "wild-dunes-harbor",
+  "metro": "charleston",
+  "facilityId": 14229,
+  "searchUrl": "https://www.golfnow.com/tee-times/facility/14229/search",
+  "bookingUrl": "https://www.golfnow.com/tee-times/facility/14229/search",
+  "displayName": "Wild Dunes Resort - Harbor Course",
+  "city": "Isle of Palms",
+  "state": "SC"
+}
 ]

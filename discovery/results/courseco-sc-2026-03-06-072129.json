@@ -1,0 +1,360 @@
+{
+  "confirmed": 0,
+  "elapsed": "7.505172583s",
+  "listedOnly": 0,
+  "missed": 28,
+  "platform": "courseco",
+  "results": [
+    {
+      "input": "Charleston Municipal Golf Course",
+      "city": "Charleston",
+      "status": "miss",
+      "slugsTried": [
+        "charlestonmunicipal",
+        "charlestonmunicipalgolfcourse",
+        "charlestonmunicipalgolf",
+        "charlestonmunicipalgolfclub",
+        "charlestonmunicipalcc"
+      ]
+    },
+    {
+      "input": "Shadowmoss Plantation Golf Club",
+      "city": "Charleston",
+      "status": "miss",
+      "slugsTried": [
+        "shadowmossplantation",
+        "shadowmossplantationgolfclub",
+        "shadowmossplantationgolf",
+        "shadowmossplantationgolfcourse",
+        "shadowmossplantationcc"
+      ]
+    },
+    {
+      "input": "Patriots Point Links",
+      "city": "Mount Pleasant",
+      "status": "miss",
+      "slugsTried": [
+        "patriotspointlinks",
+        "patriotspointlinksgolf",
+        "patriotspointlinksgolfclub",
+        "patriotspointlinksgolfcourse",
+        "patriotspointlinkscc"
+      ]
+    },
+    {
+      "input": "Charleston National Golf Club",
+      "city": "Mount Pleasant",
+      "status": "miss",
+      "slugsTried": [
+        "charlestonnational",
+        "charlestonnationalgolfclub",
+        "charlestonnationalgolf",
+        "charlestonnationalgolfcourse",
+        "charlestonnationalcc"
+      ]
+    },
+    {
+      "input": "Dunes West Golf Club",
+      "city": "Mount Pleasant",
+      "status": "miss",
+      "slugsTried": [
+        "duneswest",
+        "duneswestgolfclub",
+        "duneswestgolf",
+        "duneswestgolfcourse",
+        "duneswestcc"
+      ]
+    },
+    {
+      "input": "RiverTowne Country Club",
+      "city": "Mount Pleasant",
+      "status": "miss",
+      "slugsTried": [
+        "rivertowne",
+        "rivertownecountryclub",
+        "rivertownegolf",
+        "rivertownegolfclub",
+        "rivertownegolfcourse",
+        "rivertownecc"
+      ]
+    },
+    {
+      "input": "Wild Dunes Resort - Links Course",
+      "city": "Isle of Palms",
+      "status": "miss",
+      "slugsTried": [
+        "wilddunesresortlinkscourse",
+        "wilddunesresortlinkscoursegolf",
+        "wilddunesresortlinkscoursegolfclub",
+        "wilddunesresortlinkscoursegolfcourse",
+        "wilddunesresortlinkscoursecc"
+      ]
+    },
+    {
+      "input": "Wild Dunes Resort - Harbor Course",
+      "city": "Isle of Palms",
+      "status": "miss",
+      "slugsTried": [
+        "wilddunesresortharborcourse",
+        "wilddunesresortharborcoursegolf",
+        "wilddunesresortharborcoursegolfclub",
+        "wilddunesresortharborcoursegolfcourse",
+        "wilddunesresortharborcoursecc"
+      ]
+    },
+    {
+      "input": "Coosaw Creek Country Club",
+      "city": "North Charleston",
+      "status": "miss",
+      "slugsTried": [
+        "coosawcreek",
+        "coosawcreekcountryclub",
+        "coosawcreekgolf",
+        "coosawcreekgolfclub",
+        "coosawcreekgolfcourse",
+        "coosawcreekcc"
+      ]
+    },
+    {
+      "input": "Eagle Landing Golf Club",
+      "city": "Hanahan",
+      "status": "miss",
+      "slugsTried": [
+        "eaglelanding",
+        "eaglelandinggolfclub",
+        "eaglelandinggolf",
+        "eaglelandinggolfcourse",
+        "eaglelandingcc"
+      ]
+    },
+    {
+      "input": "Wrenwoods Golf Course",
+      "city": "Joint Base Charleston",
+      "status": "miss",
+      "slugsTried": [
+        "wrenwoods",
+        "wrenwoodsgolfcourse",
+        "wrenwoodsgolf",
+        "wrenwoodsgolfclub",
+        "wrenwoodscc"
+      ]
+    },
+    {
+      "input": "Crowfield Golf and Country Club",
+      "city": "Goose Creek",
+      "status": "miss",
+      "slugsTried": [
+        "crowfieldgolfand",
+        "crowfieldgolfandcountryclub",
+        "crowfieldgolfandgolf",
+        "crowfieldgolfandgolfclub",
+        "crowfieldgolfandgolfcourse",
+        "crowfieldgolfandcc"
+      ]
+    },
+    {
+      "input": "The Oaks Golf and Country Club",
+      "city": "Goose Creek",
+      "status": "miss",
+      "slugsTried": [
+        "oaksgolfand",
+        "theoaksgolfandcountryclub",
+        "oaksgolfandgolf",
+        "oaksgolfandgolfclub",
+        "oaksgolfandgolfcourse",
+        "oaksgolfandcc",
+        "oaksgolfandcountryclub",
+        "oaksgolfandcountryclubgolf"
+      ]
+    },
+    {
+      "input": "Redbank Plantation Golf Course",
+      "city": "Goose Creek",
+      "status": "miss",
+      "slugsTried": [
+        "redbankplantation",
+        "redbankplantationgolfcourse",
+        "redbankplantationgolf",
+        "redbankplantationgolfclub",
+        "redbankplantationcc"
+      ]
+    },
+    {
+      "input": "Legend Oaks Golf Club",
+      "city": "Summerville",
+      "status": "miss",
+      "slugsTried": [
+        "legendoaks",
+        "legendoaksgolfclub",
+        "legendoaksgolf",
+        "legendoaksgolfcourse",
+        "legendoakscc"
+      ]
+    },
+    {
+      "input": "The Golf Club at Wescott Plantation",
+      "city": "Summerville",
+      "status": "miss",
+      "slugsTried": [
+        "golfclubatwescottplantation",
+        "thegolfclubatwescottplantation",
+        "golfclubatwescottplantationgolf",
+        "golfclubatwescottplantationgolfclub",
+        "golfclubatwescottplantationgolfcourse",
+        "golfclubatwescottplantationcc"
+      ]
+    },
+    {
+      "input": "Summerville Country Club",
+      "city": "Summerville",
+      "status": "miss",
+      "slugsTried": [
+        "summerville",
+        "summervillecountryclub",
+        "summervillegolf",
+        "summervillegolfclub",
+        "summervillegolfcourse",
+        "summervillecc"
+      ]
+    },
+    {
+      "input": "Pine Forest Country Club",
+      "city": "Summerville",
+      "status": "miss",
+      "slugsTried": [
+        "pineforest",
+        "pineforestcountryclub",
+        "pineforestgolf",
+        "pineforestgolfclub",
+        "pineforestgolfcourse",
+        "pineforestcc"
+      ]
+    },
+    {
+      "input": "Berkeley Country Club",
+      "city": "Moncks Corner",
+      "status": "miss",
+      "slugsTried": [
+        "berkeley",
+        "berkeleycountryclub",
+        "berkeleygolf",
+        "berkeleygolfclub",
+        "berkeleygolfcourse",
+        "berkeleycc"
+      ]
+    },
+    {
+      "input": "The Links at Stono Ferry",
+      "city": "Hollywood",
+      "status": "miss",
+      "slugsTried": [
+        "linksatstonoferry",
+        "thelinksatstonoferry",
+        "linksatstonoferrygolf",
+        "linksatstonoferrygolfclub",
+        "linksatstonoferrygolfcourse",
+        "linksatstonoferrycc"
+      ]
+    },
+    {
+      "input": "Oak Point Golf Course",
+      "city": "Johns Island",
+      "status": "miss",
+      "slugsTried": [
+        "oakpoint",
+        "oakpointgolfcourse",
+        "oakpointgolf",
+        "oakpointgolfclub",
+        "oakpointcc"
+      ]
+    },
+    {
+      "input": "Kiawah Island Resort - Ocean Course",
+      "city": "Kiawah Island",
+      "status": "miss",
+      "slugsTried": [
+        "kiawahislandresortoceancourse",
+        "kiawahislandresortoceancoursegolf",
+        "kiawahislandresortoceancoursegolfclub",
+        "kiawahislandresortoceancoursegolfcourse",
+        "kiawahislandresortoceancoursecc"
+      ]
+    },
+    {
+      "input": "Kiawah Island Resort - Osprey Point",
+      "city": "Kiawah Island",
+      "status": "miss",
+      "slugsTried": [
+        "kiawahislandresortospreypoint",
+        "kiawahislandresortospreypointgolf",
+        "kiawahislandresortospreypointgolfclub",
+        "kiawahislandresortospreypointgolfcourse",
+        "kiawahislandresortospreypointcc"
+      ]
+    },
+    {
+      "input": "Kiawah Island Resort - Turtle Point",
+      "city": "Kiawah Island",
+      "status": "miss",
+      "slugsTried": [
+        "kiawahislandresortturtlepoint",
+        "kiawahislandresortturtlepointgolf",
+        "kiawahislandresortturtlepointgolfclub",
+        "kiawahislandresortturtlepointgolfcourse",
+        "kiawahislandresortturtlepointcc"
+      ]
+    },
+    {
+      "input": "Kiawah Island Resort - Cougar Point",
+      "city": "Kiawah Island",
+      "status": "miss",
+      "slugsTried": [
+        "kiawahislandresortcougarpoint",
+        "kiawahislandresortcougarpointgolf",
+        "kiawahislandresortcougarpointgolfclub",
+        "kiawahislandresortcougarpointgolfcourse",
+        "kiawahislandresortcougarpointcc"
+      ]
+    },
+    {
+      "input": "Seabrook Island Club - Crooked Oaks",
+      "city": "Seabrook Island",
+      "status": "miss",
+      "slugsTried": [
+        "seabrookislandclubcrookedoaks",
+        "seabrookislandclubcrookedoaksgolf",
+        "seabrookislandclubcrookedoaksgolfclub",
+        "seabrookislandclubcrookedoaksgolfcourse",
+        "seabrookislandclubcrookedoakscc"
+      ]
+    },
+    {
+      "input": "Seabrook Island Club - Ocean Winds",
+      "city": "Seabrook Island",
+      "status": "miss",
+      "slugsTried": [
+        "seabrookislandcluboceanwinds",
+        "seabrookislandcluboceanwindsgolf",
+        "seabrookislandcluboceanwindsgolfclub",
+        "seabrookislandcluboceanwindsgolfcourse",
+        "seabrookislandcluboceanwindscc"
+      ]
+    },
+    {
+      "input": "The Plantation Course at Edisto",
+      "city": "Edisto Island",
+      "status": "miss",
+      "slugsTried": [
+        "plantationcourseatedisto",
+        "theplantationcourseatedisto",
+        "plantationcourseatedistogolf",
+        "plantationcourseatedistogolfclub",
+        "plantationcourseatedistogolfcourse",
+        "plantationcourseatedistocc"
+      ]
+    }
+  ],
+  "state": "SC",
+  "timestamp": "2026-03-06T07:21:29-07:00",
+  "total": 28
+}

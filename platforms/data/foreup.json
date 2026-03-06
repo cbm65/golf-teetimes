@@ -1108,5 +1108,71 @@
     "displayName": "Woodhaven Country Club",
     "city": "Palm Desert",
     "state": "CA"
-  }
+  },
+  {
+  "key": "shadowmoss",
+  "metro": "charleston",
+  "courseId": "21766",
+  "bookingClass": "11334",
+  "scheduleId": "8813",
+  "bookingUrl": "",
+  "displayName": "Shadowmoss Plantation Golf Club",
+  "city": "Charleston",
+  "state": "SC"
+},
+  {
+  "key": "charleston-national",
+  "metro": "charleston",
+  "courseId": "21415",
+  "bookingClass": "9877",
+  "scheduleId": "7624",
+  "bookingUrl": "",
+  "displayName": "Charleston National Golf Club",
+  "city": "Mount Pleasant",
+  "state": "SC"
+},
+  {
+  "key": "legend-oaks",
+  "metro": "charleston",
+  "courseId": "22667",
+  "bookingClass": "50425",
+  "scheduleId": "11562",
+  "bookingUrl": "",
+  "displayName": "Legend Oaks Golf Club",
+  "city": "Summerville",
+  "state": "SC"
+},
+  {
+  "key": "berkeley",
+  "metro": "charleston",
+  "courseId": "22452",
+  "bookingClass": "49319",
+  "scheduleId": "10899",
+  "bookingUrl": "",
+  "displayName": "Berkeley Country Club",
+  "city": "Moncks Corner",
+  "state": "SC"
+},
+  {
+  "key": "stono-ferry",
+  "metro": "charleston",
+  "courseId": "20188",
+  "bookingClass": "3511",
+  "scheduleId": "3903",
+  "bookingUrl": "",
+  "displayName": "The Links at Stono Ferry",
+  "city": "Hollywood",
+  "state": "SC"
+},
+  {
+  "key": "plantation-at-edisto",
+  "metro": "charleston",
+  "courseId": "20349",
+  "bookingClass": "3847",
+  "scheduleId": "4332",
+  "bookingUrl": "",
+  "displayName": "The Plantation Course at Edisto",
+  "city": "Edisto Island",
+  "state": "SC"
+}
 ]

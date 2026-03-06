@@ -613,5 +613,23 @@
     "displayName": "Trilogy Golf Club at La Quinta",
     "city": "La Quinta",
     "state": "CA"
-  }
+  },
+  {
+  "key": "dunes-west",
+  "metro": "charleston",
+  "subdomain": "duneswest",
+  "bookingUrl": "https://duneswest.quick18.com",
+  "displayName": "Dunes West Golf Club",
+  "city": "Mount Pleasant",
+  "state": "SC"
+},
+  {
+  "key": "rivertowne",
+  "metro": "charleston",
+  "subdomain": "rivertowne",
+  "bookingUrl": "https://rivertowne.quick18.com",
+  "displayName": "RiverTowne Country Club",
+  "city": "Mount Pleasant",
+  "state": "SC"
+}
 ]

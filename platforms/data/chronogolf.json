@@ -764,5 +764,21 @@
     },
     "city": "Palm Desert",
     "state": "CA"
-  }
+  },
+  {
+  "key": "wescott-plantation",
+  "metro": "charleston",
+  "courseIds": "34aa754b-b61f-4ef8-a344-638c3869e771,cd83e5a1-ba1b-4705-bf38-08c43ac67448,6fec8d46-8a09-4dd4-b55b-3e97a8a0d9a3",
+  "clubId": "",
+  "numericCourseId": "",
+  "affiliationTypeId": "52866",
+  "bookingUrl": "https://www.chronogolf.com/club/the-golf-club-at-wescott-plantation",
+  "names": {
+    "Wescott Course #1": "Wescott Plantation - Oak Forest",
+    "Wescott Course #2": "Wescott Plantation - Burn Kill",
+    "Wescott Course #3": "Wescott Plantation - Black Robin"
+  },
+  "city": "Summerville",
+  "state": "SC"
+}
 ]
