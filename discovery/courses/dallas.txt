@@ -1,0 +1,85 @@
+# Dallas-Fort Worth Metro Public Golf Courses
+# Compiled Feb 2026 from D Magazine, AvidGolfer, CultureMap, GolfPass, GolfLink, GolfDigest
+# Format: Course Name | City
+
+# === Dallas City Municipal (6 courses) ===
+Stevens Park Golf Course | Dallas
+Cedar Crest Golf Course | Dallas
+Keeton Park Golf Course | Dallas
+Luna Vista Golf Course | Dallas
+Tenison Park Golf Club - Glen | Dallas
+Tenison Park Golf Club - Highlands | Dallas
+
+# === Fort Worth Municipal (4 courses) ===
+Meadowbrook Golf Course | Fort Worth
+Pecan Valley Golf Course - River | Fort Worth
+Pecan Valley Golf Course - Hills | Fort Worth
+Rockwood Park Golf Course | Fort Worth
+
+# === PGA Frisco / Resort ===
+Fields Ranch - East | Frisco
+Fields Ranch - West | Frisco
+Cowboys Golf Club | Grapevine
+The Tribute Golf Club | The Colony
+Old American Golf Club | The Colony
+
+# === North Dallas / Plano / Richardson / McKinney ===
+Sherrill Park Golf Course | Richardson
+Pecan Hollow Golf Course | Plano
+The Courses at Watters Creek | Plano
+Heritage Ranch Golf and Country Club | McKinney
+Chase Oaks Golf Club | Plano
+Stonebridge Ranch Country Club | McKinney
+Frisco Lakes Golf Club | Frisco
+Eldorado Country Club | McKinney
+
+# === Carrollton / Irving / Grapevine ===
+Indian Creek Golf Club - Creek | Carrollton
+Indian Creek Golf Club - Lake | Carrollton
+Irving Golf Club | Irving
+Grapevine Golf Course | Grapevine
+Bear Creek Golf Club - East | Dallas
+Bear Creek Golf Club - West | Dallas
+Hackberry Creek Country Club | Irving
+Riverside Golf Club | Grand Prairie
+
+# === Arlington / Grand Prairie / Cedar Hill ===
+Tierra Verde Golf Club | Arlington
+Lake Arlington Golf Course | Arlington
+Tangle Ridge Golf Club | Grand Prairie
+Cedar Crest Golf Club | Cedar Hill
+The Golf Club at Champions Circle | Fort Worth
+
+# === Fort Worth Area / Keller / Southlake ===
+Waterchase Golf Club | Fort Worth
+Sky Creek Ranch Golf Club | Keller
+Iron Horse Golf Course | North Richland Hills
+Texas Star Golf Course | Euless
+Fossil Creek Golf Club | Fort Worth
+Hawk's Creek Golf Club | Westworth Village
+
+# === East / Garland / Mesquite / Rockwall ===
+Firewheel Golf Park | Garland
+Duck Creek Golf Club | Garland
+Mesquite Golf Course | Mesquite
+The Golf Club of Dallas | Dallas
+Buffalo Creek Golf Club | Rockwall
+Waterview Golf Club | Rowlett
+
+# === South / Mansfield / Midlothian / Waxahachie ===
+Mansfield National Golf Club | Mansfield
+Midlothian Golf Club | Midlothian
+Waxahachie Country Club | Waxahachie
+Teal Bend Golf Club | Mansfield
+
+# === Denton / Lewisville / Flower Mound ===
+Robson Ranch Golf Club | Denton
+Tour 18 Golf Course | Flower Mound
+Lake Park Golf Course | Lewisville
+Bridlewood Golf Club | Flower Mound
+
+# === Misc Suburbs ===
+The Golf Club at Castle Hills | Lewisville
+Woodbridge Golf Club | Wylie
+Trophy Club Country Club | Trophy Club
+Gentle Creek Golf Club | Prosper

@@ -1,0 +1,78 @@
+# Charlotte Metro Public Golf Courses
+# Format: Course Name | City
+# Includes public, municipal, semi-private, and resort courses within ~1 hour of Uptown Charlotte
+# Spans NC and SC (York, Lancaster, Chester counties in SC)
+
+# === City of Charlotte / Mecklenburg County Municipal ===
+Harry L. Jones Sr. Golf Course | Charlotte
+Charles T. Myers Golf Club | Charlotte
+Dr. Charles L. Sifford Golf Course | Charlotte
+Sunset Hills Golf Course | Charlotte
+
+# === Charlotte City Proper / Mecklenburg County ===
+Highland Creek Golf Club | Charlotte
+Olde Sycamore Golf Plantation | Charlotte
+The Tradition Golf Club | Charlotte
+The Divide Golf Club | Matthews
+Emerald Lake Golf Club | Matthews
+Charlotte National Golf Club | Indian Trail
+
+# === North Metro (Huntersville / Cornelius / Davidson) ===
+Birkdale Golf Club | Huntersville
+Skybrook Golf Club | Huntersville
+
+# === Lake Norman Area (Mooresville / Denver / Statesville) ===
+Mooresville Golf Club | Mooresville
+Lake Norman Golf Club | Mooresville
+Mallard Head Country Club | Mooresville
+Verdict Ridge Golf & Country Club | Denver
+Westport Golf Course | Denver
+The 500 Club | Statesville
+River Oaks Golf Club | Statesville
+Twin Oaks Golf Club | Statesville
+Lakewood Golf Club | Statesville
+
+# === Northeast (Concord / Kannapolis / China Grove / Salisbury) ===
+Rocky River Golf Club | Concord
+Warrior Golf Club | China Grove
+The Revival Golf Club at the Crescent | Salisbury
+Corbin Hills Golf Course | Salisbury
+McCanless Golf Club | Salisbury
+Rolling Hills Golf Club | Salisbury
+Sapona Country Club | Lexington
+
+# === East (Monroe / Marshville / Locust) ===
+Monroe Country Club | Monroe
+Stonebridge Golf Club | Monroe
+Eagle Chase Golf Club | Marshville
+Red Bridge Golf & Country Club | Locust
+
+# === West (Gastonia / Kings Mountain / Shelby / Lincolnton) ===
+Catawba Creek Golf Course | Gastonia
+Crowders Mountain Golf Club | Kings Mountain
+Kings Mountain Country Club | Kings Mountain
+Woodbridge Golf Links | Kings Mountain
+Deer Brook Golf Club | Shelby
+River Bend YMCA Golf Course | Shelby
+Lincoln Country Club | Lincolnton
+Glen Oaks Golf Club | Maiden
+
+# === South Carolina — Fort Mill / Tega Cay / Indian Land ===
+Springfield Golf Club | Fort Mill
+Fort Mill Golf Club | Fort Mill
+Tega Cay Golf Club | Tega Cay
+Carolina Lakes Golf Club | Indian Land
+
+# === South Carolina — Rock Hill / York / Lancaster / Chester ===
+Waterford Golf Club | Rock Hill
+Pinetuck Golf Club | Rock Hill
+Edgewater Golf Club | Lancaster
+Lancaster Golf Club | Lancaster
+Chester Golf Club | Chester
+Spring Lake Country Club | York
+
+# === Far North (~1 hour) ===
+Rock Barn Golf & Spa | Conover
+
+# === Far East (~1 hour) ===
+Tillery Tradition Country Club | Mt Gilead

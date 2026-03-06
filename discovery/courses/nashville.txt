@@ -1,0 +1,36 @@
+# Nashville Metro Area - Public & Semi-Private Golf Courses
+# Format: Course Name | City
+
+# --- Metro Nashville Municipal ---
+Harpeth Hills Golf Course | Nashville
+Two Rivers Golf Course | Nashville
+McCabe Golf Course | Nashville
+Shelby Golf Course | Nashville
+Ted Rhodes Golf Course | Nashville
+Percy Warner Golf Course | Nashville
+
+# --- Nashville / Davidson County ---
+Gaylord Springs Golf Links | Nashville
+Hermitage Golf Course - President's Reserve | Old Hickory
+Hermitage Golf Course - General's Retreat | Old Hickory
+
+# --- North (Gallatin / Hendersonville / Springfield / Goodlettsville) ---
+Long Hollow Golf Course | Gallatin
+Country Hills Golf Course | Hendersonville
+Nashville National Golf Links | Pleasant View
+The Legacy Golf Course | Springfield
+
+# --- East (Mt. Juliet / Lebanon) ---
+Pine Creek Golf Course | Mt. Juliet
+
+# --- South (Franklin / Brentwood / Murfreesboro / Smyrna) ---
+Franklin Bridge Golf Club | Franklin
+Forrest Crossing Golf Course | Franklin
+Old Fort Golf Club | Murfreesboro
+Indian Hills Golf Club | Murfreesboro
+Cedar Crest Golf Club | Murfreesboro
+Smyrna Municipal Golf Course | Smyrna
+
+# --- West (Dickson / Kingston Springs) ---
+Greystone Golf Club | Dickson
+Montgomery Bell State Park Golf Course | Burns

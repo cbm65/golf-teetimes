@@ -1,0 +1,33 @@
+[
+  {
+    "key": "indian-creek-creek",
+    "metro": "dallas",
+    "siteId": "57",
+    "courseTag": "57-1",
+    "displayName": "Indian Creek Golf Club - Creek",
+    "city": "Carrollton",
+    "state": "TX",
+    "bookingUrl": "https://teetimes.teequest.com/57?paymentTab=pay-at-course"
+  },
+  {
+    "key": "indian-creek-lakes",
+    "metro": "dallas",
+    "siteId": "57",
+    "courseTag": "57-2",
+    "displayName": "Indian Creek Golf Club - Lakes",
+    "city": "Carrollton",
+    "state": "TX",
+    "bookingUrl": "https://teetimes.teequest.com/57?paymentTab=pay-at-course"
+  }
+,
+  {
+  "key": "west-fork",
+  "metro": "houston",
+  "siteId": "132",
+  "courseTag": "132-1",
+  "displayName": "West Fork Golf & Country Club",
+  "city": "Conroe",
+  "state": "TX",
+  "bookingUrl": "https://bookateetime.teequest.com/search/132-1"
+}
+]

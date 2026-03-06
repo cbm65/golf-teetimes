@@ -1,0 +1,264 @@
+{
+  "confirmed": 5,
+  "listedOnly": 3,
+  "platform": "foreup",
+  "results": {
+    "Bradshaw Ranch Golf Course": {
+      "courseId": 18745,
+      "scheduleId": 354,
+      "bookingClass": "",
+      "name": "Bradshaw Ranch Golf Course",
+      "city": "Sacramento",
+      "state": "CA",
+      "address": "7350 Bradshaw Rd",
+      "postal": "95829",
+      "phone": "916-363-6549",
+      "website": "www.bradshawranchgolf.com",
+      "timezone": "America/Los_Angeles",
+      "holes": 9,
+      "bookingClassId": "14936",
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        102,
+        52,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "Davis Municipal Golf Course": {
+      "courseId": 19745,
+      "scheduleId": 2379,
+      "bookingClass": "",
+      "name": "Davis Municipal Golf Course",
+      "city": "Davis",
+      "state": "CA",
+      "address": "24439 Fairway Dr.",
+      "postal": "95616",
+      "phone": "530-756-4010",
+      "website": "www.davisgolfcourse.com",
+      "timezone": "America/Los_Angeles",
+      "holes": 18,
+      "bookingClassId": "14881",
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ],
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "Dry Creek Ranch Golf Course": {
+      "courseId": 22382,
+      "scheduleId": 10594,
+      "bookingClass": "",
+      "name": "Dry Creek Ranch Golf Course",
+      "city": "Galt",
+      "state": "CA",
+      "address": "809 Crystal Way",
+      "postal": "95632",
+      "phone": "209-745-2330",
+      "website": "drycreekgolf.com",
+      "timezone": "America/Los_Angeles",
+      "holes": 18,
+      "bookingClassId": "48613",
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        54,
+        56,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "Indian Creek Golf Club": {
+      "courseId": 10256,
+      "scheduleId": 162,
+      "bookingClass": "",
+      "name": "Indian Creek Country Club",
+      "city": "Loomis",
+      "state": "CA",
+      "address": "4487 Barton Rd",
+      "postal": "95650",
+      "phone": "(916) 652-5546",
+      "website": "golfindiancreek.com",
+      "timezone": "America/Los_Angeles",
+      "holes": 9,
+      "bookingClassId": "5185",
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        35,
+        26,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "Morgan Creek Golf Club": {
+      "courseId": 21467,
+      "scheduleId": 7840,
+      "bookingClass": "",
+      "name": "Morgan Creek Golf Club",
+      "city": "Roseville",
+      "state": "CA",
+      "address": "8791 Morgan Creek Lane",
+      "postal": "95747",
+      "phone": "916-786-4653",
+      "website": "http://www.morgancreekclub.com/Default.aspx?tabid=8491",
+      "timezone": "America/Los_Angeles",
+      "holes": 18,
+      "bookingClassId": "10242",
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        70,
+        70,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    },
+    "The Ridge Golf Club": {
+      "courseId": 20101,
+      "scheduleId": 3588,
+      "bookingClass": "",
+      "name": "River Ridge Golf Club",
+      "city": "Oxnard",
+      "state": "CA",
+      "address": "2401 W Vineyard Ave",
+      "postal": "93036",
+      "phone": "(805) 983-4653",
+      "website": "http://www.riverridge-golfclub.com",
+      "timezone": "America/Los_Angeles",
+      "holes": 18,
+      "bookingClassId": "14694",
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ],
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "WildHawk Golf Club": {
+      "courseId": 22201,
+      "scheduleId": 0,
+      "bookingClass": "",
+      "name": "WildHawk Golf Club",
+      "city": "Sacramento",
+      "state": "CA",
+      "address": "7713 Vineyard Rd",
+      "postal": "95829",
+      "phone": "9166884653",
+      "timezone": "America/Los_Angeles",
+      "bookingClassId": "",
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": null,
+      "hasPrice": false,
+      "hasThirdParty": false,
+      "status": "listed_only"
+    },
+    "Wildhorse Golf Club": {
+      "courseId": 20717,
+      "scheduleId": 5517,
+      "bookingClass": "",
+      "name": "Wildhorse Golf Club",
+      "city": "Davis",
+      "state": "CA",
+      "address": "2323 Rockwell Drive",
+      "postal": "95618",
+      "phone": "5307534900",
+      "website": "www.wildhorsegolfclub.com",
+      "timezone": "America/Los_Angeles",
+      "holes": 18,
+      "bookingClassId": "14834",
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        43,
+        53,
+        0
+      ],
+      "hasPrice": true,
+      "hasThirdParty": false,
+      "status": "confirmed"
+    }
+  },
+  "state": "CA",
+  "timestamp": "2026-03-06T00:02:58-07:00",
+  "totalInput": 42,
+  "unmatched": [
+    "Haggin Oaks - Alister MacKenzie Course",
+    "Haggin Oaks - Arcade Creek Course",
+    "Bing Maloney Golf Course",
+    "Bartley Cavanaugh Golf Course",
+    "William Land Golf Course",
+    "Teal Bend Golf Club",
+    "Campus Commons Golf Course",
+    "Ancil Hoffman Golf Course",
+    "Cherry Island Golf Course",
+    "Mather Golf Course",
+    "Cordova Golf Course",
+    "Woodcreek Golf Club",
+    "Diamond Oaks Golf Course",
+    "Timber Creek Golf Course",
+    "Sierra Pines Golf Course",
+    "Whitney Oaks Golf Club",
+    "Lincoln Hills Golf Club - Hills Course",
+    "Lincoln Hills Golf Club - Orchard Course",
+    "Turkey Creek Golf Club",
+    "Twelve Bridges Golf Club",
+    "DarkHorse Golf Club",
+    "Auburn Valley Golf Club",
+    "Black Oak Golf Course",
+    "Empire Ranch Golf Club",
+    "Wild Wings Golf Club",
+    "Yocha Dehe Golf Club",
+    "Emerald Lakes Golf Course",
+    "Antelope Greens Golf Course",
+    "River Oaks Golf Club",
+    "Apple Mountain Golf Resort",
+    "Camino Heights Golf Course",
+    "Micke Grove Golf Links",
+    "Plumas Lake Golf \u0026 Country Club",
+    "Rolling Greens Golf Course"
+  ]
+}

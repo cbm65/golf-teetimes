@@ -1,0 +1,22 @@
+[
+  {
+    "key": "fields-ranch-east",
+    "metro": "dallas",
+    "baseUrl": "https://omnipgafriscoexperiences.com",
+    "courseId": "002",
+    "displayName": "Fields Ranch East",
+    "city": "Frisco",
+    "state": "TX",
+    "bookingUrl": "https://omnipgafriscoexperiences.com"
+  },
+  {
+    "key": "fields-ranch-west",
+    "metro": "dallas",
+    "baseUrl": "https://omnipgafriscoexperiences.com",
+    "courseId": "001",
+    "displayName": "Fields Ranch West",
+    "city": "Frisco",
+    "state": "TX",
+    "bookingUrl": "https://omnipgafriscoexperiences.com"
+  }
+]

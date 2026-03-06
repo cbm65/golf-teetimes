@@ -1,0 +1,28 @@
+# Santa Fe, NM — Public Golf Courses (within ~1 hour)
+# Format: Course Name | City
+
+# === Santa Fe (0-20 min) ===
+Marty Sanchez Links de Santa Fe | Santa Fe
+Santa Fe Country Club | Santa Fe
+
+# === North of Santa Fe (20-40 min) ===
+Towa Golf Club | Pojoaque
+Black Mesa Golf Club | La Mesilla
+
+# === Between Santa Fe & Albuquerque (30-50 min) ===
+Cochiti Golf Club | Cochiti Lake
+Twin Warriors Golf Club | Santa Ana Pueblo
+Santa Ana Golf Club | Santa Ana Pueblo
+
+# === East of Albuquerque (50-60 min from SF) ===
+Paako Ridge Golf Club | Sandia Park
+
+# === Albuquerque (50-65 min from SF) ===
+Sandia Golf Club | Albuquerque
+UNM Championship Golf Course | Albuquerque
+Arroyo del Oso Golf Course | Albuquerque
+Ladera Golf Course | Albuquerque
+Los Altos Golf Course | Albuquerque
+Puerto del Sol Golf Course | Albuquerque
+Paradise Hills Golf Course | Albuquerque
+Isleta Eagle Golf Course | Albuquerque

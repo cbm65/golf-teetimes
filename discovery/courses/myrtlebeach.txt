@@ -1,0 +1,96 @@
+# Myrtle Beach / Grand Strand - Public Golf Courses
+# Spans from Georgetown, SC to Sunset Beach, NC (~60 mile corridor)
+# States: SC (Horry County, Georgetown County) and NC (Brunswick County)
+
+# === South End (Georgetown County - Pawleys Island / Murrells Inlet) ===
+Caledonia Golf & Fish Club | Pawleys Island
+True Blue Golf Club | Pawleys Island
+Heritage Club | Pawleys Island
+Pawleys Plantation Golf & Country Club | Pawleys Island
+Litchfield Country Club | Pawleys Island
+Willbrook Plantation Golf Club | Pawleys Island
+Tradition Club | Pawleys Island
+Founders Club at Pawleys Island | Pawleys Island
+River Club | Litchfield Beach
+TPC Myrtle Beach | Murrells Inlet
+Blackmoor Golf Club | Murrells Inlet
+Wachesaw Plantation East | Murrells Inlet
+Indian Wells Golf Club | Garden City
+Wedgefield Country Club | Georgetown
+
+# === Central Myrtle Beach (Horry County) ===
+Dunes Golf & Beach Club | Myrtle Beach
+Pine Lakes Country Club | Myrtle Beach
+Arcadian Shores Golf Club | Myrtle Beach
+Grande Dunes Resort Club | Myrtle Beach
+Myrtlewood Golf Club - PineHills | Myrtle Beach
+Myrtlewood Golf Club - Palmetto | Myrtle Beach
+Myrtle Beach National - King's North | Myrtle Beach
+Myrtle Beach National - SouthCreek | Myrtle Beach
+Myrtle Beach National - West Course | Myrtle Beach
+Legends Resort - Heathland | Myrtle Beach
+Legends Resort - Moorland | Myrtle Beach
+Legends Resort - Parkland | Myrtle Beach
+Whispering Pines Golf Club | Myrtle Beach
+Arrowhead Country Club | Myrtle Beach
+Prestwick Country Club | Myrtle Beach
+River Oaks Golf Plantation | Myrtle Beach
+Man O' War Golf Club | Myrtle Beach
+The Wizard Golf Course | Myrtle Beach
+World Tour Golf Links | Myrtle Beach
+Eastport Golf Club | Little River
+Colonial Charters Golf Club | Longs
+Wild Wing Plantation | Conway
+The Witch Golf Course | Conway
+Burning Ridge Golf Club | Conway
+Shaftesbury Glen Golf & Fish Club | Conway
+General Hackler Course at CCU | Conway
+Indigo Creek Golf Club | Murrells Inlet
+Diamondback Golf Club | Loris
+
+# === North End (North Myrtle Beach / Little River, SC) ===
+Tidewater Golf Club | North Myrtle Beach
+Barefoot Resort - Dye Course | North Myrtle Beach
+Barefoot Resort - Fazio Course | North Myrtle Beach
+Barefoot Resort - Love Course | North Myrtle Beach
+Barefoot Resort - Norman Course | North Myrtle Beach
+Beachwood Golf Club | North Myrtle Beach
+Possum Trot Golf Club | North Myrtle Beach
+Glen Dornoch Golf Club | Little River
+Heather Glen Golf Links | Little River
+River Hills Golf & Country Club | Little River
+Eagle Nest Golf Club | Little River
+Long Bay Golf Club | Longs
+Aberdeen Country Club | Longs
+Black Bear Golf Club | Longs
+Crown Park Golf Club | Longs
+Surf Golf & Beach Club | North Myrtle Beach
+Azalea Sands Golf Club | North Myrtle Beach
+
+# === Brunswick County, NC ===
+Rivers Edge Golf Club | Shallotte
+Leopard's Chase Golf Links | Ocean Isle Beach
+Panthers Run Golf Club | Ocean Isle Beach
+Tigers Eye Golf Links | Ocean Isle Beach
+Lions Paw Golf Links | Ocean Isle Beach
+Oyster Bay Golf Links | Sunset Beach
+Sea Trail Golf Resort - Byrd Course | Sunset Beach
+Sea Trail Golf Resort - Jones Course | Sunset Beach
+Sea Trail Golf Resort - Maples Course | Sunset Beach
+Pearl Golf Links - East | Calabash
+Pearl Golf Links - West | Calabash
+Thistle Golf Club | Sunset Beach
+Crow Creek Golf Club | Calabash
+Brunswick Plantation Golf Resort | Calabash
+Meadowlands Golf Club | Calabash
+Carolina Shores Golf & Country Club | Calabash
+Cape Fear National Golf Club | Brunswick County
+Carolina National Golf Club | Bolivia
+Lockwood Folly Country Club | Holden Beach
+Brick Landing Plantation Golf Club | Ocean Isle Beach
+Magnolia Greens Golf Club | Leland
+Sandpiper Bay Golf Club | Sunset Beach
+Farmstead Golf Links | Calabash
+Brierwood Golf Club | Shallotte
+Oak Island Golf Club | Caswell Beach
+Compass Pointe Golf Club | Leland

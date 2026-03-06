@@ -1,0 +1,81 @@
+# San Francisco Bay Area Public Golf Courses
+# Source: golfpass.com, playgolfbayarea.com, yelp.com, local knowledge
+# Format: Course Name | City
+
+# === San Francisco ===
+Harding Park Golf Course | San Francisco
+Fleming 9 Golf Course | San Francisco
+Lincoln Park Golf Course | San Francisco
+Presidio Golf Course | San Francisco
+Gleneagles Golf Course | San Francisco
+Sharp Park Golf Course | Pacifica
+
+# === Peninsula (San Mateo County) ===
+Crystal Springs Golf Course | Burlingame
+Poplar Creek Golf Course | San Mateo
+Half Moon Bay Golf Links - Ocean Course | Half Moon Bay
+Half Moon Bay Golf Links - Old Course | Half Moon Bay
+San Mateo Golf Course | San Mateo
+Mariners Point Golf Center | Foster City
+Palo Alto Hills Golf & Country Club | Palo Alto
+Bay Meadows Golf Course | San Mateo
+
+# === South Bay (Santa Clara County) ===
+Baylands Golf Links | Palo Alto
+Sunnyvale Golf Course | Sunnyvale
+Santa Clara Golf & Tennis Club | Santa Clara
+San Jose Municipal Golf Course | San Jose
+Cinnabar Hills Golf Club | San Jose
+Coyote Creek Golf Club | San Jose
+Los Lagos Golf Course | San Jose
+The Ranch Golf Club | San Jose
+Rancho del Pueblo Golf Course | San Jose
+Spring Valley Golf Course | Milpitas
+Summitpointe Golf Club | Milpitas
+Pruneridge Golf Club | Santa Clara
+Deep Cliff Golf Course | Cupertino
+Sunken Gardens Golf Course | Sunnyvale
+Moffett Field Golf Course | Mountain View
+
+# === East Bay (Alameda / Contra Costa County) ===
+Tilden Park Golf Course | Berkeley
+Lake Chabot Golf Course | Oakland
+Chuck Corica Golf Complex - Earl Fry Course | Alameda
+Chuck Corica Golf Complex - Jack Clark Course | Alameda
+Metropolitan Golf Links | Oakland
+Tony Lema Golf Course | San Leandro
+Monarch Bay Golf Club | San Leandro
+Skywest Golf Course | Hayward
+Willow Park Golf Course | Castro Valley
+Redwood Canyon Golf Course | Castro Valley
+Sunol Valley Golf Club | Sunol
+Mission Hills of Hayward Golf Course | Hayward
+Canyon Lakes Golf Club | San Ramon
+San Ramon Royal Vista Golf Club | San Ramon
+Boundary Oak Golf Course | Walnut Creek
+Diablo Creek Golf Course | Concord
+Contra Costa Country Club | Pleasant Hill
+Buchanan Fields Golf Course | Concord
+Lone Tree Golf & Event Center | Antioch
+Roddy Ranch Golf Club | Antioch
+Delta View Golf Course | Pittsburg
+The Bridges Golf Club | San Ramon
+Oakhurst Country Club | Clayton
+Callippe Preserve Golf Course | Pleasanton
+Castlewood Country Club | Pleasanton
+
+# === North Bay (Marin / Sonoma / Napa) ===
+Peacock Gap Golf Club | San Rafael
+StoneTree Golf Club | Novato
+Indian Valley Golf Club | Novato
+San Geronimo Golf Course | San Geronimo
+Marin Country Club | Novato
+Mill Valley Golf Course | Mill Valley
+Rooster Run Golf Club | Petaluma
+Adobe Creek Golf Course | Petaluma
+Sonoma Golf Club | Sonoma
+Vintners Golf Club | Yountville
+Chardonnay Golf Club | Napa
+Eagle Vines Golf Club | Napa
+Silverado Resort - North Course | Napa
+Silverado Resort - South Course | Napa

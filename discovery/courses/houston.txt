@@ -1,0 +1,80 @@
+# Houston Metro - Public & Semi-Private Golf Courses
+# Phase 1 Course List
+
+# === Houston (City) ===
+Memorial Park Golf Course | Houston
+Hermann Park Golf Course | Houston
+Gus Wortham Park Golf Course | Houston
+Sharpstown Golf Course | Houston
+Wildcat Golf Club | Houston
+World Houston Golf Club | Houston
+Clear Creek Golf Club | Houston
+High Meadow Ranch Golf Club | Magnolia
+
+# === Inner Suburbs ===
+Jersey Meadow Golf Course | Jersey Village
+Pasadena Municipal Golf Course | Pasadena
+Battleground Golf Course | Deer Park
+Bay Forest Golf Course | La Porte
+
+# === West (Katy / Cypress) ===
+BlackHorse Golf Club | Cypress
+Golf Club at Cinco Ranch | Katy
+Meadowbrook Farms Golf Club | Katy
+
+# === Southwest (Sugar Land / Missouri City) ===
+Quail Valley Golf Club | Missouri City
+Riverbend Country Club | Sugar Land
+
+# === South (Pearland / Alvin / League City) ===
+Pearland Golf Club at Country Place | Pearland
+Timber Creek Golf Club | Friendswood
+Magnolia Creek Golf Club | League City
+Beacon Lakes Golf Club | Dickinson
+Bayou Golf Course | Texas City
+Moody Gardens Golf Course | Galveston
+
+# === Southeast (Crosby / Baytown) ===
+Newport Golf and Country Club | Crosby
+
+# === North (Spring / The Woodlands) ===
+Cypresswood Golf Club | Spring
+Windrose Golf Club | Spring
+Augusta Pines Golf Club | Spring
+Panther Trail Golf Course | The Woodlands
+The Oaks Course at The Woodlands | The Woodlands
+
+# === Far North (Conroe / Montgomery) ===
+Wedgewood Golf Course | Conroe
+West Fork Golf & Country Club | Conroe
+Panorama Golf Club | Conroe
+Woodforest Golf Club | Montgomery
+Walden on Lake Conroe Golf Club | Montgomery
+
+# === Northeast (Humble / Porter) ===
+Golf Club of Houston | Humble
+Tour 18 Houston | Humble
+Highland Pines Golf Club | Porter
+
+# === South (Lake Jackson) ===
+The Wilderness Golf Course | Lake Jackson
+
+# Excluded - Private:
+# Champions Golf Club, River Oaks CC, Lakeside CC, Houston CC
+# Carlton Woods (Nicklaus & Fazio), Woodlands CC (Tournament/Palmer/Player)
+# BraeBurn CC, Westwood CC, Pine Forest CC, Texaco CC
+# Shadow Hawk GC, Falcon Point, Hearthstone CC
+# Willow Creek GC (Spring), Lake Windcrest GC, River Plantation CC
+# South Shore Harbour CC, Bay Oaks CC, Goose Creek CC
+# Sugar Creek CC, Sweetwater CC, Kingwood CC
+#
+# Excluded - Closed:
+# Cypress Lakes Golf Club (closed July 2025)
+# Evergreen Point Golf Club (Baytown, closed)
+#
+# Excluded - Par-3 / Executive / Non-standard:
+# Melrose Golf Course (18-hole par-3)
+# Spring Valley Golf and Disc Golf Club (short course)
+# Hillcrest Golf Course, Alvin (9 holes)
+# San Jacinto College Golf Course (9 holes)
+# Indian Shores Golf Course, Crosby (9 holes)

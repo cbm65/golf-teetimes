@@ -1,0 +1,718 @@
+{
+  "confirmed": 0,
+  "elapsed": "55.754950833s",
+  "listedOnly": 2,
+  "misses": 40,
+  "platform": "cpsgolf",
+  "results": [
+    {
+      "input": "Haggin Oaks - Alister MacKenzie Course",
+      "city": "Sacramento",
+      "status": "miss",
+      "slugsTried": [
+        "hagginoaksalistermackenziecourse",
+        "hagginoaksalistermackenziecoursegolf",
+        "hagginoaksalistermackenziecoursegolfclub",
+        "hagginoaksalistermackenziecoursegolfcourse",
+        "hagginoaksalistermackenziecoursecc",
+        "haggin-oaks---alister-mackenzie-course",
+        "hagginoaks",
+        "hagginoaksgolf",
+        "hagginoaksgolfclub",
+        "hagginoaksgolfcourse",
+        "hagginoaksalistermackenziecoursesacramento",
+        "hagginoakssacramento"
+      ]
+    },
+    {
+      "input": "Haggin Oaks - Arcade Creek Course",
+      "city": "Sacramento",
+      "status": "miss",
+      "slugsTried": [
+        "hagginoaksarcadecreekcourse",
+        "hagginoaksarcadecreekcoursegolf",
+        "hagginoaksarcadecreekcoursegolfclub",
+        "hagginoaksarcadecreekcoursegolfcourse",
+        "hagginoaksarcadecreekcoursecc",
+        "haggin-oaks---arcade-creek-course",
+        "hagginoaks",
+        "hagginoaksgolf",
+        "hagginoaksgolfclub",
+        "hagginoaksgolfcourse",
+        "hagginoaksarcadecreekcoursesacramento",
+        "hagginoakssacramento"
+      ]
+    },
+    {
+      "input": "Bing Maloney Golf Course",
+      "city": "Sacramento",
+      "status": "miss",
+      "slugsTried": [
+        "bingmaloney",
+        "bingmaloneygolfcourse",
+        "bingmaloneygolf",
+        "bingmaloneygolfclub",
+        "bingmaloneycc",
+        "bing-maloney",
+        "bingmaloneysacramento",
+        "bing-maloney-golf-course"
+      ]
+    },
+    {
+      "input": "Bartley Cavanaugh Golf Course",
+      "city": "Sacramento",
+      "status": "miss",
+      "slugsTried": [
+        "bartleycavanaugh",
+        "bartleycavanaughgolfcourse",
+        "bartleycavanaughgolf",
+        "bartleycavanaughgolfclub",
+        "bartleycavanaughcc",
+        "bartley-cavanaugh",
+        "bartleycavanaughsacramento",
+        "bartley-cavanaugh-golf-course"
+      ]
+    },
+    {
+      "input": "William Land Golf Course",
+      "city": "Sacramento",
+      "status": "miss",
+      "slugsTried": [
+        "williamland",
+        "williamlandgolfcourse",
+        "williamlandgolf",
+        "williamlandgolfclub",
+        "williamlandcc",
+        "william-land",
+        "williamlandsacramento",
+        "william-land-golf-course"
+      ]
+    },
+    {
+      "input": "Teal Bend Golf Club",
+      "city": "Sacramento",
+      "status": "miss",
+      "slugsTried": [
+        "tealbend",
+        "tealbendgolfclub",
+        "tealbendgolf",
+        "tealbendgolfcourse",
+        "tealbendcc",
+        "teal-bend",
+        "tealbendsacramento",
+        "teal-bend-golf-club"
+      ]
+    },
+    {
+      "input": "WildHawk Golf Club",
+      "city": "Sacramento",
+      "status": "miss",
+      "slugsTried": [
+        "wildhawk",
+        "wildhawkgolfclub",
+        "wildhawkgolf",
+        "wildhawkgolfcourse",
+        "wildhawkcc",
+        "wildhawksacramento",
+        "wildhawk-golf-club"
+      ]
+    },
+    {
+      "input": "Bradshaw Ranch Golf Course",
+      "city": "Sacramento",
+      "status": "miss",
+      "slugsTried": [
+        "bradshawranch",
+        "bradshawranchgolfcourse",
+        "bradshawranchgolf",
+        "bradshawranchgolfclub",
+        "bradshawranchcc",
+        "bradshaw-ranch",
+        "bradshawranchsacramento",
+        "bradshaw-ranch-golf-course"
+      ]
+    },
+    {
+      "input": "Campus Commons Golf Course",
+      "city": "Sacramento",
+      "status": "miss",
+      "slugsTried": [
+        "campuscommons",
+        "campuscommonsgolfcourse",
+        "campuscommonsgolf",
+        "campuscommonsgolfclub",
+        "campuscommonscc",
+        "campus-commons",
+        "campuscommonssacramento",
+        "campus-commons-golf-course"
+      ]
+    },
+    {
+      "input": "Ancil Hoffman Golf Course",
+      "city": "Carmichael",
+      "status": "miss",
+      "slugsTried": [
+        "ancilhoffman",
+        "ancilhoffmangolfcourse",
+        "ancilhoffmangolf",
+        "ancilhoffmangolfclub",
+        "ancilhoffmancc",
+        "ancil-hoffman",
+        "ancilhoffmancarmichael",
+        "ancil-hoffman-golf-course"
+      ]
+    },
+    {
+      "input": "Cherry Island Golf Course",
+      "city": "Elverta",
+      "status": "miss",
+      "slugsTried": [
+        "cherryisland",
+        "cherryislandgolfcourse",
+        "cherryislandgolf",
+        "cherryislandgolfclub",
+        "cherryislandcc",
+        "cherry-island",
+        "cherryislandelverta",
+        "cherry-island-golf-course"
+      ]
+    },
+    {
+      "input": "Mather Golf Course",
+      "city": "Mather",
+      "status": "miss",
+      "slugsTried": [
+        "mather",
+        "mathergolfcourse",
+        "mathergolf",
+        "mathergolfclub",
+        "mathercc",
+        "mathermather",
+        "mather-golf-course"
+      ]
+    },
+    {
+      "input": "Cordova Golf Course",
+      "city": "Sacramento",
+      "status": "miss",
+      "slugsTried": [
+        "cordova",
+        "cordovagolfcourse",
+        "cordovagolf",
+        "cordovagolfclub",
+        "cordovacc",
+        "cordovasacramento",
+        "cordova-golf-course"
+      ]
+    },
+    {
+      "input": "Woodcreek Golf Club",
+      "city": "Roseville",
+      "status": "miss",
+      "slugsTried": [
+        "woodcreek",
+        "woodcreekgolfclub",
+        "woodcreekgolf",
+        "woodcreekgolfcourse",
+        "woodcreekcc",
+        "woodcreekroseville",
+        "woodcreek-golf-club"
+      ]
+    },
+    {
+      "input": "Diamond Oaks Golf Course",
+      "city": "Roseville",
+      "status": "miss",
+      "slugsTried": [
+        "diamondoaks",
+        "diamondoaksgolfcourse",
+        "diamondoaksgolf",
+        "diamondoaksgolfclub",
+        "diamondoakscc",
+        "diamond-oaks",
+        "diamondoaksroseville",
+        "diamond-oaks-golf-course"
+      ]
+    },
+    {
+      "input": "Timber Creek Golf Course",
+      "city": "Roseville",
+      "status": "miss",
+      "slugsTried": [
+        "timbercreek",
+        "timbercreekgolfcourse",
+        "timbercreekgolf",
+        "timbercreekgolfclub",
+        "timbercreekcc",
+        "timber-creek",
+        "timbercreekroseville",
+        "timber-creek-golf-course"
+      ]
+    },
+    {
+      "input": "Sierra Pines Golf Course",
+      "city": "Roseville",
+      "status": "miss",
+      "slugsTried": [
+        "sierrapines",
+        "sierrapinesgolfcourse",
+        "sierrapinesgolf",
+        "sierrapinesgolfclub",
+        "sierrapinescc",
+        "sierra-pines",
+        "sierrapinesroseville",
+        "sierra-pines-golf-course"
+      ]
+    },
+    {
+      "input": "Morgan Creek Golf Club",
+      "city": "Roseville",
+      "status": "miss",
+      "slugsTried": [
+        "morgancreek",
+        "morgancreekgolfclub",
+        "morgancreekgolf",
+        "morgancreekgolfcourse",
+        "morgancreekcc",
+        "morgan-creek",
+        "morgancreekroseville",
+        "morgan-creek-golf-club"
+      ]
+    },
+    {
+      "input": "Whitney Oaks Golf Club",
+      "city": "Rocklin",
+      "status": "miss",
+      "slugsTried": [
+        "whitneyoaks",
+        "whitneyoaksgolfclub",
+        "whitneyoaksgolf",
+        "whitneyoaksgolfcourse",
+        "whitneyoakscc",
+        "whitney-oaks",
+        "whitneyoaksrocklin",
+        "whitney-oaks-golf-club"
+      ]
+    },
+    {
+      "input": "Lincoln Hills Golf Club - Hills Course",
+      "city": "Lincoln",
+      "status": "listed_only",
+      "slug": "lincolnhills",
+      "slugSource": "base-core",
+      "config": {
+        "clientId": "onlineresweb",
+        "production": true,
+        "onlineApi": "https://lincolnhills.cps.golf/onlineres/onlineapi/api/v1/onlinereservation",
+        "siteName": "lincolnhills",
+        "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+        "buildNumber": "25.2.5.56816\n",
+        "BaseURL": "https://lincolnhills.cps.golf",
+        "WebSiteID": "9d928382-df81-49ad-9d25-08db23ca79e3",
+        "SiteID": 1
+      },
+      "courses": [
+        {
+          "websiteId": "9d928382-df81-49ad-9d25-08db23ca79e3",
+          "timezoneId": "",
+          "storeId": 0,
+          "courseId": 1,
+          "courseName": "Lincoln Hills",
+          "siteId": 1,
+          "holes": 9,
+          "active": true
+        },
+        {
+          "websiteId": "9d928382-df81-49ad-9d25-08db23ca79e3",
+          "timezoneId": "",
+          "storeId": 0,
+          "courseId": 2,
+          "courseName": "Springdale",
+          "siteId": 2,
+          "holes": 9,
+          "active": true
+        }
+      ],
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Lincoln Hills Golf Club - Orchard Course",
+      "city": "Lincoln",
+      "status": "listed_only",
+      "slug": "lincolnhills",
+      "slugSource": "base-core",
+      "config": {
+        "clientId": "onlineresweb",
+        "production": true,
+        "onlineApi": "https://lincolnhills.cps.golf/onlineres/onlineapi/api/v1/onlinereservation",
+        "siteName": "lincolnhills",
+        "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+        "buildNumber": "25.2.5.56816\n",
+        "BaseURL": "https://lincolnhills.cps.golf",
+        "WebSiteID": "9d928382-df81-49ad-9d25-08db23ca79e3",
+        "SiteID": 1
+      },
+      "courses": [
+        {
+          "websiteId": "9d928382-df81-49ad-9d25-08db23ca79e3",
+          "timezoneId": "",
+          "storeId": 0,
+          "courseId": 1,
+          "courseName": "Lincoln Hills",
+          "siteId": 1,
+          "holes": 9,
+          "active": true
+        },
+        {
+          "websiteId": "9d928382-df81-49ad-9d25-08db23ca79e3",
+          "timezoneId": "",
+          "storeId": 0,
+          "courseId": 2,
+          "courseName": "Springdale",
+          "siteId": 2,
+          "holes": 9,
+          "active": true
+        }
+      ],
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Turkey Creek Golf Club",
+      "city": "Lincoln",
+      "status": "miss",
+      "slugsTried": [
+        "turkeycreek",
+        "turkeycreekgolfclub",
+        "turkeycreekgolf",
+        "turkeycreekgolfcourse",
+        "turkeycreekcc",
+        "turkey-creek",
+        "turkeycreeklincoln",
+        "turkey-creek-golf-club"
+      ]
+    },
+    {
+      "input": "Twelve Bridges Golf Club",
+      "city": "Lincoln",
+      "status": "miss",
+      "slugsTried": [
+        "twelvebridges",
+        "twelvebridgesgolfclub",
+        "twelvebridgesgolf",
+        "twelvebridgesgolfcourse",
+        "twelvebridgescc",
+        "twelve-bridges",
+        "twelvebridgeslincoln",
+        "twelve-bridges-golf-club"
+      ]
+    },
+    {
+      "input": "DarkHorse Golf Club",
+      "city": "Auburn",
+      "status": "miss",
+      "slugsTried": [
+        "darkhorse",
+        "darkhorsegolfclub",
+        "darkhorsegolf",
+        "darkhorsegolfcourse",
+        "darkhorsecc",
+        "darkhorseauburn",
+        "darkhorse-golf-club"
+      ]
+    },
+    {
+      "input": "The Ridge Golf Club",
+      "city": "Auburn",
+      "status": "miss",
+      "slugsTried": [
+        "ridge",
+        "theridgegolfclub",
+        "ridgegolf",
+        "ridgegolfclub",
+        "ridgegolfcourse",
+        "ridgecc",
+        "ridgeauburn",
+        "the-ridge-golf-club"
+      ]
+    },
+    {
+      "input": "Auburn Valley Golf Club",
+      "city": "Auburn",
+      "status": "miss",
+      "slugsTried": [
+        "auburnvalley",
+        "auburnvalleygolfclub",
+        "auburnvalleygolf",
+        "auburnvalleygolfcourse",
+        "auburnvalleycc",
+        "auburn-valley",
+        "auburnvalleyauburn",
+        "auburn-valley-golf-club"
+      ]
+    },
+    {
+      "input": "Black Oak Golf Course",
+      "city": "Auburn",
+      "status": "miss",
+      "slugsTried": [
+        "blackoak",
+        "blackoakgolfcourse",
+        "blackoakgolf",
+        "blackoakgolfclub",
+        "blackoakcc",
+        "black-oak",
+        "blackoakauburn",
+        "black-oak-golf-course"
+      ]
+    },
+    {
+      "input": "Empire Ranch Golf Club",
+      "city": "Folsom",
+      "status": "miss",
+      "slugsTried": [
+        "empireranch",
+        "empireranchgolfclub",
+        "empireranchgolf",
+        "empireranchgolfcourse",
+        "empireranchcc",
+        "empire-ranch",
+        "empireranchfolsom",
+        "empire-ranch-golf-club"
+      ]
+    },
+    {
+      "input": "Wildhorse Golf Club",
+      "city": "Davis",
+      "status": "miss",
+      "slugsTried": [
+        "wildhorse",
+        "wildhorsegolfclub",
+        "wildhorsegolf",
+        "wildhorsegolfcourse",
+        "wildhorsecc",
+        "wildhorsedavis",
+        "wildhorse-golf-club"
+      ]
+    },
+    {
+      "input": "Davis Municipal Golf Course",
+      "city": "Davis",
+      "status": "miss",
+      "slugsTried": [
+        "davismunicipal",
+        "davismunicipalgolfcourse",
+        "davismunicipalgolf",
+        "davismunicipalgolfclub",
+        "davismunicipalcc",
+        "davis-municipal",
+        "davismunicipaldavis",
+        "davis-municipal-golf-course"
+      ]
+    },
+    {
+      "input": "Wild Wings Golf Club",
+      "city": "Woodland",
+      "status": "miss",
+      "slugsTried": [
+        "wildwings",
+        "wildwingsgolfclub",
+        "wildwingsgolf",
+        "wildwingsgolfcourse",
+        "wildwingscc",
+        "wild-wings",
+        "wildwingswoodland",
+        "wild-wings-golf-club"
+      ]
+    },
+    {
+      "input": "Yocha Dehe Golf Club",
+      "city": "Brooks",
+      "status": "miss",
+      "slugsTried": [
+        "yochadehe",
+        "yochadehegolfclub",
+        "yochadehegolf",
+        "yochadehegolfcourse",
+        "yochadehecc",
+        "yocha-dehe",
+        "yochadehebrooks",
+        "yocha-dehe-golf-club"
+      ]
+    },
+    {
+      "input": "Emerald Lakes Golf Course",
+      "city": "Elk Grove",
+      "status": "miss",
+      "slugsTried": [
+        "emeraldlakes",
+        "emeraldlakesgolfcourse",
+        "emeraldlakesgolf",
+        "emeraldlakesgolfclub",
+        "emeraldlakescc",
+        "emerald-lakes",
+        "emeraldlakeselkgrove",
+        "emerald-lakes-golf-course"
+      ]
+    },
+    {
+      "input": "Dry Creek Ranch Golf Course",
+      "city": "Galt",
+      "status": "miss",
+      "slugsTried": [
+        "drycreekranch",
+        "drycreekranchgolfcourse",
+        "drycreekranchgolf",
+        "drycreekranchgolfclub",
+        "drycreekranchcc",
+        "dry-creek-ranch",
+        "drycreekranchgalt",
+        "dry-creek-ranch-golf-course"
+      ]
+    },
+    {
+      "input": "Antelope Greens Golf Course",
+      "city": "Antelope",
+      "status": "miss",
+      "slugsTried": [
+        "antelopegreens",
+        "antelopegreensgolfcourse",
+        "antelopegreensgolf",
+        "antelopegreensgolfclub",
+        "antelopegreenscc",
+        "antelope-greens",
+        "antelopegreensantelope",
+        "antelope-greens-golf-course"
+      ]
+    },
+    {
+      "input": "River Oaks Golf Club",
+      "city": "Nicolaus",
+      "status": "miss",
+      "slugsTried": [
+        "riveroaks",
+        "riveroaksgolfclub",
+        "riveroaksgolf",
+        "riveroaksgolfcourse",
+        "riveroakscc",
+        "river-oaks",
+        "riveroaksnicolaus",
+        "river-oaks-golf-club"
+      ]
+    },
+    {
+      "input": "Indian Creek Golf Club",
+      "city": "Loomis",
+      "status": "miss",
+      "slugsTried": [
+        "indiancreek",
+        "indiancreekgolfclub",
+        "indiancreekgolf",
+        "indiancreekgolfcourse",
+        "indiancreekcc",
+        "indian-creek",
+        "indiancreekloomis",
+        "indian-creek-golf-club"
+      ]
+    },
+    {
+      "input": "Apple Mountain Golf Resort",
+      "city": "Camino",
+      "status": "miss",
+      "slugsTried": [
+        "applemountain",
+        "applemountaingolfresort",
+        "applemountaingolf",
+        "applemountaingolfclub",
+        "applemountaingolfcourse",
+        "applemountaincc",
+        "apple-mountain",
+        "applemountaincamino",
+        "apple-mountain-golf-resort"
+      ]
+    },
+    {
+      "input": "Camino Heights Golf Course",
+      "city": "Camino",
+      "status": "miss",
+      "slugsTried": [
+        "caminoheights",
+        "caminoheightsgolfcourse",
+        "caminoheightsgolf",
+        "caminoheightsgolfclub",
+        "caminoheightscc",
+        "camino-heights",
+        "caminoheightscamino",
+        "camino-heights-golf-course"
+      ]
+    },
+    {
+      "input": "Micke Grove Golf Links",
+      "city": "Lodi",
+      "status": "miss",
+      "slugsTried": [
+        "mickegrove",
+        "mickegrovegolflinks",
+        "mickegrovegolf",
+        "mickegrovegolfclub",
+        "mickegrovegolfcourse",
+        "mickegrovecc",
+        "micke-grove",
+        "mickegrovelodi",
+        "micke-grove-golf-links"
+      ]
+    },
+    {
+      "input": "Plumas Lake Golf \u0026 Country Club",
+      "city": "Olivehurst",
+      "status": "miss",
+      "slugsTried": [
+        "plumaslakegolfand",
+        "plumaslakegolfandcountryclub",
+        "plumaslakegolfandgolf",
+        "plumaslakegolfandgolfclub",
+        "plumaslakegolfandgolfcourse",
+        "plumaslakegolfandcc",
+        "plumas-lake-golf-\u0026",
+        "plumaslakegolfandolivehurst",
+        "plumas-lake-golf-\u0026-country-club"
+      ]
+    },
+    {
+      "input": "Rolling Greens Golf Course",
+      "city": "Granite Bay",
+      "status": "miss",
+      "slugsTried": [
+        "rollinggreens",
+        "rollinggreensgolfcourse",
+        "rollinggreensgolf",
+        "rollinggreensgolfclub",
+        "rollinggreenscc",
+        "rolling-greens",
+        "rollinggreensgranitebay",
+        "rolling-greens-golf-course"
+      ]
+    }
+  ],
+  "state": "CA",
+  "timestamp": "2026-03-06T00:03:58-07:00",
+  "total": 42,
+  "wrongState": 0
+}

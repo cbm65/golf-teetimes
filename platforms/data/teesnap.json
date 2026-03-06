@@ -1,0 +1,112 @@
+[
+  {
+    "key": "sundance",
+    "metro": "phoenix",
+    "subdomain": "sundancegolfclub",
+    "courseId": "1801",
+    "bookingUrl": "https://sundancegolfclub.teesnap.net",
+    "displayName": "Sundance Golf Club",
+    "city": "Buckeye",
+    "state": "AZ"
+  },
+  {
+    "key": "tierra-del-sol",
+    "metro": "albuquerque",
+    "subdomain": "golftierradelsol",
+    "courseId": "507",
+    "bookingUrl": "https://golftierradelsol.teesnap.net",
+    "displayName": "Tierra del Sol Golf Club",
+    "city": "Rio Communities",
+    "state": "NM"
+  },
+  {
+    "key": "golfedmond",
+    "metro": "oklahomacity",
+    "subdomain": "golfedmond",
+    "courseId": "92",
+    "bookingUrl": "https://golfedmond.teesnap.net",
+    "displayName": "Golf Club of Edmond",
+    "city": "Edmond",
+    "state": "OK"
+  },
+  {
+    "key": "crimsoncreekgolf",
+    "metro": "oklahomacity",
+    "subdomain": "crimsoncreekgolf",
+    "courseId": "1108",
+    "bookingUrl": "https://crimsoncreekgolf.teesnap.net",
+    "displayName": "Crimson Creek Golf Club",
+    "city": "El Reno",
+    "state": "OK"
+  },
+  {
+    "key": "sand-canyon",
+    "metro": "losangeles",
+    "subdomain": "sandcanyoncc",
+    "courseId": "1333",
+    "bookingUrl": "https://sandcanyoncc.teesnap.net",
+    "displayName": "Sand Canyon Country Club",
+    "city": "Santa Clarita",
+    "state": "CA"
+  },
+  {
+    "key": "mustang-creek",
+    "metro": "austin",
+    "subdomain": "golfmustangcreek",
+    "courseId": "1034",
+    "bookingUrl": "https://golfmustangcreek.teesnap.net",
+    "displayName": "Mustang Creek Golf Course",
+    "city": "Taylor",
+    "state": "TX"
+  },
+  {
+    "key": "forest-lake",
+    "metro": "orlando",
+    "subdomain": "forestlakegolf",
+    "courseId": "555",
+    "bookingUrl": "https://forestlakegolf.teesnap.net/",
+    "displayName": "Forest Lake Golf Club",
+    "city": "Apopka",
+    "state": "FL"
+  },
+  {
+    "key": "moccasin-wallow",
+    "metro": "tampa",
+    "subdomain": "moccasinwallowgc",
+    "courseId": "174",
+    "bookingUrl": "https://moccasinwallowgc.teesnap.net/",
+    "displayName": "Moccasin Wallow Golf Club",
+    "city": "Parrish",
+    "state": "FL"
+  },
+  {
+    "key": "scotland-yards",
+    "metro": "tampa",
+    "subdomain": "scotlandyardsgolf",
+    "courseId": "1601",
+    "bookingUrl": "https://scotlandyardsgolf.teesnap.net/",
+    "displayName": "Scotland Yards Golf Club",
+    "city": "Dade City",
+    "state": "FL"
+  },
+  {
+    "key": "devine",
+    "metro": "sanantonio",
+    "subdomain": "devinegolfcourse",
+    "courseId": "1155",
+    "bookingUrl": "https://devinegolfcourse.teesnap.net",
+    "displayName": "Devine Golf Course",
+    "city": "Devine",
+    "state": "TX"
+  },
+  {
+    "key": "black-oak",
+    "metro": "sacramento",
+    "subdomain": "blackoakgolf",
+    "courseId": "651",
+    "bookingUrl": "https://blackoakgolf.teesnap.net",
+    "displayName": "Black Oak Golf Course",
+    "city": "Auburn",
+    "state": "CA"
+  }
+]

@@ -1,0 +1,40 @@
+# New Orleans Metro Area Public & Semi-Private Golf Courses
+# Format: Course Name | City
+
+# New Orleans proper
+Audubon Park Golf Course | New Orleans
+Bayou Oaks at City Park - South | New Orleans
+Bayou Oaks at City Park - North | New Orleans
+Joseph M. Bartholomew Golf Course | New Orleans
+Lakewood Golf Club | New Orleans
+Brechtel Memorial Park Municipal Golf Course | New Orleans
+English Turn Golf & Country Club | New Orleans
+
+# West Bank / Jefferson Parish
+Stonebridge Golf Club of New Orleans | Gretna
+Timberlane Golf & Recreation | Gretna
+TPC Louisiana | Avondale
+
+# St. Charles Parish
+Grand Ridge Golf Club | Luling
+Cypress Lakes Country Club | Destrehan
+Fashion Golf & Country Club | Hahnville
+
+# New Orleans East
+Eastover Country Club | New Orleans
+
+# St. John the Baptist Parish
+Belle Terre Country Club | LaPlace
+Riverlands Golf & Country Club | LaPlace
+
+# Lafourche Parish
+LaTour Golf Club | Mathews
+
+# North Shore - Slidell area
+Oak Harbor Golf Club | Slidell
+Royal Golf Club | Slidell
+Pinewood Country Club | Slidell
+
+# North Shore - Covington / Abita Springs / Mandeville
+Abita Springs Golf & Country Club | Abita Springs
+Covington Country Club | Covington

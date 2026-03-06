@@ -1,0 +1,46 @@
+# Albuquerque & Santa Fe, NM — Public Golf Courses
+# Format: Course Name | City
+
+# === Santa Fe (0-20 min) ===
+Marty Sanchez Links de Santa Fe | Santa Fe
+Santa Fe Country Club | Santa Fe
+
+# === North of Santa Fe (20-40 min) ===
+Towa Golf Club | Pojoaque
+Black Mesa Golf Club | La Mesilla
+Los Alamos County Golf Course | Los Alamos
+
+# === Between Santa Fe & Albuquerque (30-50 min) ===
+Cochiti Golf Club | Cochiti Lake
+Twin Warriors Golf Club | Santa Ana Pueblo
+Santa Ana Golf Club | Santa Ana Pueblo
+
+# === East of Albuquerque (30-60 min) ===
+Paako Ridge Golf Club | Sandia Park
+
+# === Albuquerque ===
+Sandia Golf Club | Albuquerque
+UNM Championship Golf Course | Albuquerque
+Arroyo del Oso Golf Course | Albuquerque
+Ladera Golf Course | Albuquerque
+Los Altos Golf Course | Albuquerque
+Puerto del Sol Golf Course | Albuquerque
+Paradise Hills Golf Course | Albuquerque
+Isleta Eagle Golf Course | Albuquerque
+
+# === South of Albuquerque (30 min) ===
+Tierra del Sol Golf Club | Rio Communities
+
+# === EXCLUDED ===
+# Tijeras Arroyo Golf Course — Military (Kirtland AFB)
+# Canyon Club at Four Hills — Private
+# Albuquerque Country Club — Private
+# Las Campanas (Sunrise/Sunset) — Private
+# Quail Run Golf Course — Private
+# Taos Country Club — Too far (~2.5 hrs from ABQ)
+
+# === NO ONLINE BOOKING ===
+# Arroyo del Oso Golf Course — Phone/walk-up only (ABQ muni)
+# Ladera Golf Course — Phone/walk-up only (ABQ muni)
+# Los Altos Golf Course — Phone/walk-up only (ABQ muni)
+# Puerto del Sol Golf Course — Walk-up only (ABQ muni)

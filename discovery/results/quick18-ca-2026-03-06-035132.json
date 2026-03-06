@@ -1,0 +1,880 @@
+{
+  "confirmed": 4,
+  "elapsed": "2m19.68860525s",
+  "listedOnly": 1,
+  "missed": 51,
+  "platform": "quick18",
+  "results": [
+    {
+      "input": "Escena Golf Club",
+      "city": "Palm Springs",
+      "status": "confirmed",
+      "subdomain": "escena",
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        44,
+        32,
+        28
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "Indian Canyons Golf Resort - North Course",
+      "city": "Palm Springs",
+      "status": "miss",
+      "slugsTried": [
+        "indiancanyonsgolfresortnorthcourse",
+        "indiancanyonsgolfresortnorthcoursegolf",
+        "indiancanyonsgolfresortnorthcoursegolfclub",
+        "indiancanyonsgolfresortnorthcoursegolfcourse",
+        "indiancanyonsgolfresortnorthcoursecc",
+        "indian-canyons-golf-resort---north-course",
+        "indiancanyons",
+        "indiancanyonsgolfresort",
+        "indiancanyonsgolf",
+        "indiancanyonsgolfclub"
+      ]
+    },
+    {
+      "input": "Indian Canyons Golf Resort - South Course",
+      "city": "Palm Springs",
+      "status": "miss",
+      "slugsTried": [
+        "indiancanyonsgolfresortsouthcourse",
+        "indiancanyonsgolfresortsouthcoursegolf",
+        "indiancanyonsgolfresortsouthcoursegolfclub",
+        "indiancanyonsgolfresortsouthcoursegolfcourse",
+        "indiancanyonsgolfresortsouthcoursecc",
+        "indian-canyons-golf-resort---south-course",
+        "indiancanyons",
+        "indiancanyonsgolfresort",
+        "indiancanyonsgolf",
+        "indiancanyonsgolfclub"
+      ]
+    },
+    {
+      "input": "Tahquitz Creek Golf Resort - Resort Course",
+      "city": "Palm Springs",
+      "status": "miss",
+      "slugsTried": [
+        "tahquitzcreekgolfresortresortcourse",
+        "tahquitzcreekgolfresortresortcoursegolf",
+        "tahquitzcreekgolfresortresortcoursegolfclub",
+        "tahquitzcreekgolfresortresortcoursegolfcourse",
+        "tahquitzcreekgolfresortresortcoursecc",
+        "tahquitz-creek-golf-resort---resort-course",
+        "tahquitzcreek",
+        "tahquitzcreekgolfresort",
+        "tahquitzcreekgolf",
+        "tahquitzcreekgolfclub"
+      ]
+    },
+    {
+      "input": "Tahquitz Creek Golf Resort - Legend Course",
+      "city": "Palm Springs",
+      "status": "miss",
+      "slugsTried": [
+        "tahquitzcreekgolfresortlegendcourse",
+        "tahquitzcreekgolfresortlegendcoursegolf",
+        "tahquitzcreekgolfresortlegendcoursegolfclub",
+        "tahquitzcreekgolfresortlegendcoursegolfcourse",
+        "tahquitzcreekgolfresortlegendcoursecc",
+        "tahquitz-creek-golf-resort---legend-course",
+        "tahquitzcreek",
+        "tahquitzcreekgolfresort",
+        "tahquitzcreekgolf",
+        "tahquitzcreekgolfclub"
+      ]
+    },
+    {
+      "input": "O'Donnell Golf Club",
+      "city": "Palm Springs",
+      "status": "miss",
+      "slugsTried": [
+        "odonnell",
+        "odonnellgolfclub",
+        "odonnellgolf",
+        "odonnellgolfcourse",
+        "odonnellcc",
+        "odonnell-golf-club"
+      ]
+    },
+    {
+      "input": "Desert Princess Country Club",
+      "city": "Cathedral City",
+      "status": "confirmed",
+      "subdomain": "desertprincess",
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        54,
+        45,
+        0
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "Cathedral Canyon Golf Club",
+      "city": "Cathedral City",
+      "status": "miss",
+      "slugsTried": [
+        "cathedralcanyon",
+        "cathedralcanyongolfclub",
+        "cathedralcanyongolf",
+        "cathedralcanyongolfcourse",
+        "cathedralcanyoncc",
+        "cathedral-canyon-golf-club",
+        "cathedral-canyon"
+      ]
+    },
+    {
+      "input": "Cimarron Golf Resort - Boulder Course",
+      "city": "Cathedral City",
+      "status": "miss",
+      "slugsTried": [
+        "cimarrongolfresortbouldercourse",
+        "cimarrongolfresortbouldercoursegolf",
+        "cimarrongolfresortbouldercoursegolfclub",
+        "cimarrongolfresortbouldercoursegolfcourse",
+        "cimarrongolfresortbouldercoursecc",
+        "cimarron-golf-resort---boulder-course",
+        "cimarron",
+        "cimarrongolfresort",
+        "cimarrongolf",
+        "cimarrongolfclub"
+      ]
+    },
+    {
+      "input": "Cimarron Golf Resort - Pebble Course",
+      "city": "Cathedral City",
+      "status": "miss",
+      "slugsTried": [
+        "cimarrongolfresortpebblecourse",
+        "cimarrongolfresortpebblecoursegolf",
+        "cimarrongolfresortpebblecoursegolfclub",
+        "cimarrongolfresortpebblecoursegolfcourse",
+        "cimarrongolfresortpebblecoursecc",
+        "cimarron-golf-resort---pebble-course",
+        "cimarron",
+        "cimarrongolfresort",
+        "cimarrongolf",
+        "cimarrongolfclub"
+      ]
+    },
+    {
+      "input": "Date Palm Country Club",
+      "city": "Cathedral City",
+      "status": "miss",
+      "slugsTried": [
+        "datepalm",
+        "datepalmcountryclub",
+        "datepalmgolf",
+        "datepalmgolfclub",
+        "datepalmgolfcourse",
+        "datepalmcc",
+        "date-palm-country-club",
+        "date-palm"
+      ]
+    },
+    {
+      "input": "Desert Dunes Golf Course",
+      "city": "Desert Hot Springs",
+      "status": "miss",
+      "slugsTried": [
+        "desertdunes",
+        "desertdunesgolfcourse",
+        "desertdunesgolf",
+        "desertdunesgolfclub",
+        "desertdunescc",
+        "desert-dunes-golf-course",
+        "desert-dunes"
+      ]
+    },
+    {
+      "input": "Mission Lakes Country Club",
+      "city": "Desert Hot Springs",
+      "status": "miss",
+      "slugsTried": [
+        "missionlakes",
+        "missionlakescountryclub",
+        "missionlakesgolf",
+        "missionlakesgolfclub",
+        "missionlakesgolfcourse",
+        "missionlakescc",
+        "mission-lakes-country-club",
+        "mission-lakes"
+      ]
+    },
+    {
+      "input": "Sands RV \u0026 Golf Resort",
+      "city": "Desert Hot Springs",
+      "status": "miss",
+      "slugsTried": [
+        "sandsrvand",
+        "sandsrvandgolfresort",
+        "sandsrvandgolf",
+        "sandsrvandgolfclub",
+        "sandsrvandgolfcourse",
+        "sandsrvandcc",
+        "sands-rv-\u0026-golf-resort",
+        "sands-rv-\u0026"
+      ]
+    },
+    {
+      "input": "Hidden Springs Country Club",
+      "city": "Desert Hot Springs",
+      "status": "miss",
+      "slugsTried": [
+        "hiddensprings",
+        "hiddenspringscountryclub",
+        "hiddenspringsgolf",
+        "hiddenspringsgolfclub",
+        "hiddenspringsgolfcourse",
+        "hiddenspringscc",
+        "hidden-springs-country-club",
+        "hidden-springs"
+      ]
+    },
+    {
+      "input": "Desert Crest Country Club",
+      "city": "Desert Hot Springs",
+      "status": "miss",
+      "slugsTried": [
+        "desertcrest",
+        "desertcrestcountryclub",
+        "desertcrestgolf",
+        "desertcrestgolfclub",
+        "desertcrestgolfcourse",
+        "desertcrestcc",
+        "desert-crest-country-club",
+        "desert-crest"
+      ]
+    },
+    {
+      "input": "Desert Willow Golf Resort - Firecliff Course",
+      "city": "Palm Desert",
+      "status": "confirmed",
+      "subdomain": "desertwillow",
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        5,
+        8,
+        0
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "Desert Willow Golf Resort - Mountain View Course",
+      "city": "Palm Desert",
+      "status": "confirmed",
+      "subdomain": "desertwillow",
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        5,
+        8,
+        0
+      ],
+      "hasPrice": true
+    },
+    {
+      "input": "Classic Club",
+      "city": "Palm Desert",
+      "status": "miss",
+      "slugsTried": [
+        "classicclub",
+        "classicclubgolf",
+        "classicclubgolfclub",
+        "classicclubgolfcourse",
+        "classicclubcc",
+        "classic-club"
+      ]
+    },
+    {
+      "input": "Shadow Mountain Golf Club",
+      "city": "Palm Desert",
+      "status": "miss",
+      "slugsTried": [
+        "shadowmountain",
+        "shadowmountaingolfclub",
+        "shadowmountaingolf",
+        "shadowmountaingolfcourse",
+        "shadowmountaincc",
+        "shadow-mountain-golf-club",
+        "shadow-mountain"
+      ]
+    },
+    {
+      "input": "Palm Desert Resort Country Club",
+      "city": "Palm Desert",
+      "status": "miss",
+      "slugsTried": [
+        "palmdesertresort",
+        "palmdesertresortcountryclub",
+        "palmdesertresortgolf",
+        "palmdesertresortgolfclub",
+        "palmdesertresortgolfcourse",
+        "palmdesertresortcc",
+        "palm-desert-resort-country-club",
+        "palm-desert-resort"
+      ]
+    },
+    {
+      "input": "Woodhaven Country Club",
+      "city": "Palm Desert",
+      "status": "miss",
+      "slugsTried": [
+        "woodhaven",
+        "woodhavencountryclub",
+        "woodhavengolf",
+        "woodhavengolfclub",
+        "woodhavengolfcourse",
+        "woodhavencc",
+        "woodhaven-country-club"
+      ]
+    },
+    {
+      "input": "Marriott's Shadow Ridge Golf Club",
+      "city": "Palm Desert",
+      "status": "miss",
+      "slugsTried": [
+        "marriottsshadowridge",
+        "marriottsshadowridgegolfclub",
+        "marriottsshadowridgegolf",
+        "marriottsshadowridgegolfcourse",
+        "marriottsshadowridgecc",
+        "marriotts-shadow-ridge-golf-club",
+        "marriott's-shadow-ridge"
+      ]
+    },
+    {
+      "input": "JW Marriott Desert Springs - Palms Course",
+      "city": "Palm Desert",
+      "status": "miss",
+      "slugsTried": [
+        "jwmarriottdesertspringspalmscourse",
+        "jwmarriottdesertspringspalmscoursegolf",
+        "jwmarriottdesertspringspalmscoursegolfclub",
+        "jwmarriottdesertspringspalmscoursegolfcourse",
+        "jwmarriottdesertspringspalmscoursecc",
+        "jw-marriott-desert-springs---palms-course",
+        "jwmarriottdesertsprings",
+        "jwmarriottdesertspringsgolf",
+        "jwmarriottdesertspringsgolfclub"
+      ]
+    },
+    {
+      "input": "JW Marriott Desert Springs - Valley Course",
+      "city": "Palm Desert",
+      "status": "miss",
+      "slugsTried": [
+        "jwmarriottdesertspringsvalleycourse",
+        "jwmarriottdesertspringsvalleycoursegolf",
+        "jwmarriottdesertspringsvalleycoursegolfclub",
+        "jwmarriottdesertspringsvalleycoursegolfcourse",
+        "jwmarriottdesertspringsvalleycoursecc",
+        "jw-marriott-desert-springs---valley-course",
+        "jwmarriottdesertsprings",
+        "jwmarriottdesertspringsgolf",
+        "jwmarriottdesertspringsgolfclub"
+      ]
+    },
+    {
+      "input": "Suncrest Country Club",
+      "city": "Palm Desert",
+      "status": "miss",
+      "slugsTried": [
+        "suncrest",
+        "suncrestcountryclub",
+        "suncrestgolf",
+        "suncrestgolfclub",
+        "suncrestgolfcourse",
+        "suncrestcc",
+        "suncrest-country-club"
+      ]
+    },
+    {
+      "input": "Palm Desert Greens Golf Course",
+      "city": "Palm Desert",
+      "status": "miss",
+      "slugsTried": [
+        "palmdesertgreens",
+        "palmdesertgreensgolfcourse",
+        "palmdesertgreensgolf",
+        "palmdesertgreensgolfclub",
+        "palmdesertgreenscc",
+        "palm-desert-greens-golf-course",
+        "palm-desert-greens"
+      ]
+    },
+    {
+      "input": "Desert Falls Country Club",
+      "city": "Palm Desert",
+      "status": "miss",
+      "slugsTried": [
+        "desertfalls",
+        "desertfallscountryclub",
+        "desertfallsgolf",
+        "desertfallsgolfclub",
+        "desertfallsgolfcourse",
+        "desertfallscc",
+        "desert-falls-country-club",
+        "desert-falls"
+      ]
+    },
+    {
+      "input": "Mission Hills - Gary Player Signature Course",
+      "city": "Rancho Mirage",
+      "status": "miss",
+      "slugsTried": [
+        "missionhillsgaryplayersignaturecourse",
+        "missionhillsgaryplayersignaturecoursegolf",
+        "missionhillsgaryplayersignaturecoursegolfclub",
+        "missionhillsgaryplayersignaturecoursegolfcourse",
+        "missionhillsgaryplayersignaturecoursecc",
+        "mission-hills---gary-player-signature-course",
+        "missionhills",
+        "missionhillsgolf",
+        "missionhillsgolfclub"
+      ]
+    },
+    {
+      "input": "Westin Mission Hills - Pete Dye Resort Course",
+      "city": "Rancho Mirage",
+      "status": "miss",
+      "slugsTried": [
+        "westinmissionhillspetedyeresortcourse",
+        "westinmissionhillspetedyeresortcoursegolf",
+        "westinmissionhillspetedyeresortcoursegolfclub",
+        "westinmissionhillspetedyeresortcoursegolfcourse",
+        "westinmissionhillspetedyeresortcoursecc",
+        "westin-mission-hills---pete-dye-resort-course",
+        "westinmissionhills",
+        "westinmissionhillsgolf",
+        "westinmissionhillsgolfclub"
+      ]
+    },
+    {
+      "input": "Omni Rancho Las Palmas Country Club",
+      "city": "Rancho Mirage",
+      "status": "miss",
+      "slugsTried": [
+        "omnirancholaspalmas",
+        "omnirancholaspalmascountryclub",
+        "omnirancholaspalmasgolf",
+        "omnirancholaspalmasgolfclub",
+        "omnirancholaspalmasgolfcourse",
+        "omnirancholaspalmascc",
+        "omni-rancho-las-palmas-country-club",
+        "omni-rancho-las-palmas"
+      ]
+    },
+    {
+      "input": "Indian Wells Golf Resort - Celebrity Course",
+      "city": "Indian Wells",
+      "status": "miss",
+      "slugsTried": [
+        "indianwellsgolfresortcelebritycourse",
+        "indianwellsgolfresortcelebritycoursegolf",
+        "indianwellsgolfresortcelebritycoursegolfclub",
+        "indianwellsgolfresortcelebritycoursegolfcourse",
+        "indianwellsgolfresortcelebritycoursecc",
+        "indian-wells-golf-resort---celebrity-course",
+        "indianwells",
+        "indianwellsgolfresort",
+        "indianwellsgolf",
+        "indianwellsgolfclub"
+      ]
+    },
+    {
+      "input": "Indian Wells Golf Resort - Players Course",
+      "city": "Indian Wells",
+      "status": "miss",
+      "slugsTried": [
+        "indianwellsgolfresortplayerscourse",
+        "indianwellsgolfresortplayerscoursegolf",
+        "indianwellsgolfresortplayerscoursegolfclub",
+        "indianwellsgolfresortplayerscoursegolfcourse",
+        "indianwellsgolfresortplayerscoursecc",
+        "indian-wells-golf-resort---players-course",
+        "indianwells",
+        "indianwellsgolfresort",
+        "indianwellsgolf",
+        "indianwellsgolfclub"
+      ]
+    },
+    {
+      "input": "Golf Club at Terra Lago - North Course",
+      "city": "Indio",
+      "status": "miss",
+      "slugsTried": [
+        "terralagonorthcourse",
+        "golfclubatterralagonorthcourse",
+        "terralagonorthcoursegolf",
+        "terralagonorthcoursegolfclub",
+        "terralagonorthcoursegolfcourse",
+        "terralagonorthcoursecc",
+        "golf-club-at-terra-lago---north-course",
+        "terra-lago---north-course",
+        "terralago",
+        "golfclubatterralago",
+        "terralagogolf",
+        "terralagogolfclub"
+      ]
+    },
+    {
+      "input": "Golf Club at Terra Lago - South Course",
+      "city": "Indio",
+      "status": "miss",
+      "slugsTried": [
+        "terralagosouthcourse",
+        "golfclubatterralagosouthcourse",
+        "terralagosouthcoursegolf",
+        "terralagosouthcoursegolfclub",
+        "terralagosouthcoursegolfcourse",
+        "terralagosouthcoursecc",
+        "golf-club-at-terra-lago---south-course",
+        "terra-lago---south-course",
+        "terralago",
+        "golfclubatterralago",
+        "terralagogolf",
+        "terralagogolfclub"
+      ]
+    },
+    {
+      "input": "PGA West - Stadium Course",
+      "city": "La Quinta",
+      "status": "miss",
+      "slugsTried": [
+        "pgaweststadiumcourse",
+        "pgaweststadiumcoursegolf",
+        "pgaweststadiumcoursegolfclub",
+        "pgaweststadiumcoursegolfcourse",
+        "pgaweststadiumcoursecc",
+        "pga-west---stadium-course",
+        "pgawest",
+        "pgawestgolf",
+        "pgawestgolfclub"
+      ]
+    },
+    {
+      "input": "PGA West - Mountain Course",
+      "city": "La Quinta",
+      "status": "miss",
+      "slugsTried": [
+        "pgawestmountaincourse",
+        "pgawestmountaincoursegolf",
+        "pgawestmountaincoursegolfclub",
+        "pgawestmountaincoursegolfcourse",
+        "pgawestmountaincoursecc",
+        "pga-west---mountain-course",
+        "pgawest",
+        "pgawestgolf",
+        "pgawestgolfclub"
+      ]
+    },
+    {
+      "input": "PGA West - Dunes Course",
+      "city": "La Quinta",
+      "status": "miss",
+      "slugsTried": [
+        "pgawestdunescourse",
+        "pgawestdunescoursegolf",
+        "pgawestdunescoursegolfclub",
+        "pgawestdunescoursegolfcourse",
+        "pgawestdunescoursecc",
+        "pga-west---dunes-course",
+        "pgawest",
+        "pgawestgolf",
+        "pgawestgolfclub"
+      ]
+    },
+    {
+      "input": "PGA West - Greg Norman Course",
+      "city": "La Quinta",
+      "status": "miss",
+      "slugsTried": [
+        "pgawestgregnormancourse",
+        "pgawestgregnormancoursegolf",
+        "pgawestgregnormancoursegolfclub",
+        "pgawestgregnormancoursegolfcourse",
+        "pgawestgregnormancoursecc",
+        "pga-west---greg-norman-course",
+        "pgawest",
+        "pgawestgolf",
+        "pgawestgolfclub"
+      ]
+    },
+    {
+      "input": "PGA West - Nicklaus Tournament Course",
+      "city": "La Quinta",
+      "status": "miss",
+      "slugsTried": [
+        "pgawestnicklaustournamentcourse",
+        "pgawestnicklaustournamentcoursegolf",
+        "pgawestnicklaustournamentcoursegolfclub",
+        "pgawestnicklaustournamentcoursegolfcourse",
+        "pgawestnicklaustournamentcoursecc",
+        "pga-west---nicklaus-tournament-course",
+        "pgawest",
+        "pgawestgolf",
+        "pgawestgolfclub"
+      ]
+    },
+    {
+      "input": "SilverRock Resort",
+      "city": "La Quinta",
+      "status": "miss",
+      "slugsTried": [
+        "silverrockresort",
+        "silverrockresortgolf",
+        "silverrockresortgolfclub",
+        "silverrockresortgolfcourse",
+        "silverrockresortcc",
+        "silverrock-resort"
+      ]
+    },
+    {
+      "input": "La Quinta Resort - Mountain Course",
+      "city": "La Quinta",
+      "status": "miss",
+      "slugsTried": [
+        "laquintaresortmountaincourse",
+        "laquintaresortmountaincoursegolf",
+        "laquintaresortmountaincoursegolfclub",
+        "laquintaresortmountaincoursegolfcourse",
+        "laquintaresortmountaincoursecc",
+        "la-quinta-resort---mountain-course",
+        "laquintaresort",
+        "laquintaresortgolf",
+        "laquintaresortgolfclub"
+      ]
+    },
+    {
+      "input": "La Quinta Resort - Dunes Course",
+      "city": "La Quinta",
+      "status": "miss",
+      "slugsTried": [
+        "laquintaresortdunescourse",
+        "laquintaresortdunescoursegolf",
+        "laquintaresortdunescoursegolfclub",
+        "laquintaresortdunescoursegolfcourse",
+        "laquintaresortdunescoursecc",
+        "la-quinta-resort---dunes-course",
+        "laquintaresort",
+        "laquintaresortgolf",
+        "laquintaresortgolfclub"
+      ]
+    },
+    {
+      "input": "Palm Royale Country Club",
+      "city": "La Quinta",
+      "status": "miss",
+      "slugsTried": [
+        "palmroyale",
+        "palmroyalecountryclub",
+        "palmroyalegolf",
+        "palmroyalegolfclub",
+        "palmroyalegolfcourse",
+        "palmroyalecc",
+        "palm-royale-country-club",
+        "palm-royale"
+      ]
+    },
+    {
+      "input": "Golf Club at La Quinta",
+      "city": "La Quinta",
+      "status": "miss",
+      "slugsTried": [
+        "laquinta",
+        "golfclubatlaquinta",
+        "laquintagolf",
+        "laquintagolfclub",
+        "laquintagolfcourse",
+        "laquintacc",
+        "golf-club-at-la-quinta",
+        "la-quinta"
+      ]
+    },
+    {
+      "input": "Trilogy Golf Club at La Quinta",
+      "city": "La Quinta",
+      "status": "miss",
+      "slugsTried": [
+        "trilogygolfclubatlaquinta",
+        "trilogygolfclubatlaquintagolf",
+        "trilogygolfclubatlaquintagolfclub",
+        "trilogygolfclubatlaquintagolfcourse",
+        "trilogygolfclubatlaquintacc",
+        "trilogy-golf-club-at-la-quinta"
+      ]
+    },
+    {
+      "input": "Heritage Palms Golf Club",
+      "city": "Indio",
+      "status": "miss",
+      "slugsTried": [
+        "heritagepalms",
+        "heritagepalmsgolfclub",
+        "heritagepalmsgolf",
+        "heritagepalmsgolfcourse",
+        "heritagepalmscc",
+        "heritage-palms-golf-club",
+        "heritage-palms"
+      ]
+    },
+    {
+      "input": "Eagle Falls Golf Course",
+      "city": "Indio",
+      "status": "miss",
+      "slugsTried": [
+        "eaglefalls",
+        "eaglefallsgolfcourse",
+        "eaglefallsgolf",
+        "eaglefallsgolfclub",
+        "eaglefallscc",
+        "eagle-falls-golf-course",
+        "eagle-falls"
+      ]
+    },
+    {
+      "input": "Shadow Hills Golf Club - North Course",
+      "city": "Indio",
+      "status": "miss",
+      "slugsTried": [
+        "shadowhillsgolfclubnorthcourse",
+        "shadowhillsgolfclubnorthcoursegolf",
+        "shadowhillsgolfclubnorthcoursegolfclub",
+        "shadowhillsgolfclubnorthcoursegolfcourse",
+        "shadowhillsgolfclubnorthcoursecc",
+        "shadow-hills-golf-club---north-course",
+        "shadowhills",
+        "shadowhillsgolfclub",
+        "shadowhillsgolf"
+      ]
+    },
+    {
+      "input": "Shadow Hills Golf Club - South Course",
+      "city": "Indio",
+      "status": "miss",
+      "slugsTried": [
+        "shadowhillsgolfclubsouthcourse",
+        "shadowhillsgolfclubsouthcoursegolf",
+        "shadowhillsgolfclubsouthcoursegolfclub",
+        "shadowhillsgolfclubsouthcoursegolfcourse",
+        "shadowhillsgolfclubsouthcoursecc",
+        "shadow-hills-golf-club---south-course",
+        "shadowhills",
+        "shadowhillsgolfclub",
+        "shadowhillsgolf"
+      ]
+    },
+    {
+      "input": "Indian Palms Country Club",
+      "city": "Indio",
+      "status": "listed_only",
+      "subdomain": "indianpalms",
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Indian Springs Golf Club",
+      "city": "Indio",
+      "status": "miss",
+      "slugsTried": [
+        "indiansprings",
+        "indianspringsgolfclub",
+        "indianspringsgolf",
+        "indianspringsgolfcourse",
+        "indianspringscc",
+        "indian-springs-golf-club",
+        "indian-springs"
+      ]
+    },
+    {
+      "input": "Plantation Golf Club",
+      "city": "Indio",
+      "status": "miss",
+      "slugsTried": [
+        "plantation",
+        "plantationgolfclub",
+        "plantationgolf",
+        "plantationgolfcourse",
+        "plantationcc",
+        "plantation-golf-club"
+      ]
+    },
+    {
+      "input": "The Lights at Indio Golf Course",
+      "city": "Indio",
+      "status": "miss",
+      "slugsTried": [
+        "lightsatindio",
+        "thelightsatindiogolfcourse",
+        "lightsatindiogolf",
+        "lightsatindiogolfclub",
+        "lightsatindiogolfcourse",
+        "lightsatindiocc",
+        "the-lights-at-indio-golf-course",
+        "lights-at-indio",
+        "lightsatindiogolfcoursegolf"
+      ]
+    },
+    {
+      "input": "Ivey Ranch Country Club",
+      "city": "Thousand Palms",
+      "status": "miss",
+      "slugsTried": [
+        "iveyranch",
+        "iveyranchcountryclub",
+        "iveyranchgolf",
+        "iveyranchgolfclub",
+        "iveyranchgolfcourse",
+        "iveyranchcc",
+        "ivey-ranch-country-club",
+        "ivey-ranch"
+      ]
+    },
+    {
+      "input": "The Vineyards Golf Course",
+      "city": "Coachella",
+      "status": "miss",
+      "slugsTried": [
+        "vineyards",
+        "thevineyardsgolfcourse",
+        "vineyardsgolf",
+        "vineyardsgolfclub",
+        "vineyardsgolfcourse",
+        "vineyardscc",
+        "the-vineyards-golf-course",
+        "vineyardsgolfcoursegolf"
+      ]
+    }
+  ],
+  "state": "CA",
+  "timestamp": "2026-03-06T03:51:32-07:00",
+  "total": 56,
+  "wrongState": 0
+}

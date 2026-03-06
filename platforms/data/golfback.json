@@ -1,0 +1,83 @@
+[
+  {
+    "key": "orange-lake-legends",
+    "metro": "orlando",
+    "courseId": "80ba7e9c-daeb-4289-9107-4d965dce3f74",
+    "bookingUrl": "https://golfback.com/?utm_source=orange-lake&utm_medium=website&utm_campaign=tee-times",
+    "displayName": "Orange Lake Resort - The Legends",
+    "city": "Kissimmee",
+    "state": "FL"
+  },
+  {
+    "key": "orange-lake-reserve",
+    "metro": "orlando",
+    "courseId": "a1fdad6d-4034-40ba-81f4-cfc9c2239a87",
+    "bookingUrl": "https://golfback.com/?utm_source=orange-lake&utm_medium=website&utm_campaign=tee-times",
+    "displayName": "Orange Lake Resort - The Reserve",
+    "city": "Kissimmee",
+    "state": "FL"
+  },
+  {
+    "key": "carolina-national",
+    "metro": "myrtle-beach",
+    "courseId": "07ecaa4e-aa13-4a03-87c1-865dfae08331",
+    "bookingUrl": "https://golfback.com/course/07ecaa4e-aa13-4a03-87c1-865dfae08331/",
+    "displayName": "Carolina National Golf Club",
+    "city": "Bolivia",
+    "state": "NC"
+  },
+  {
+    "key": "windsor-parke",
+    "metro": "jacksonville",
+    "courseId": "5a90fb0c-b928-43f0-9486-d5d43c03d25d",
+    "bookingUrl": "https://golfback.com/?utm_source=windsor-parke&utm_medium=website&utm_campaign=tee-times",
+    "displayName": "Windsor Parke Golf Club",
+    "city": "Jacksonville",
+    "state": "FL"
+  },
+  {
+    "key": "julington-creek",
+    "metro": "jacksonville",
+    "courseId": "e52fc334-4363-4d53-8b13-3b2e60c49087",
+    "bookingUrl": "https://golfback.com/?utm_source=julington-creek&utm_medium=website&utm_campaign=tee-times",
+    "displayName": "Julington Creek Golf Club",
+    "city": "Jacksonville",
+    "state": "FL"
+  },
+  {
+    "key": "golf-club-of-texas",
+    "metro": "sanantonio",
+    "courseId": "5ae8e3e6-4da2-4bef-9069-d74b4d16ae17",
+    "bookingUrl": "https://golfback.com/?utm_source=gctexas-website&utm_medium=tee-times-page&utm_campaign=tee-time",
+    "displayName": "Golf Club of Texas",
+    "city": "San Antonio",
+    "state": "TX"
+  },
+  {
+    "key": "alsatian",
+    "metro": "sanantonio",
+    "courseId": "769f7c11-22a3-46cc-884e-9d9857fae797",
+    "bookingUrl": "https://golfback.com/course/769f7c11-22a3-46cc-884e-9d9857fae797/",
+    "displayName": "Alsatian Golf Club",
+    "city": "Castroville",
+    "state": "TX"
+  },
+  {
+    "key": "micke-grove",
+    "metro": "sacramento",
+    "courseId": "a21a6311-56cf-4df0-a92f-b887c3a7110c",
+    "bookingUrl": "https://golfback.com/?utm_source=micke-grove&utm_medium=website&utm_campaign=tee-times",
+    "displayName": "Micke Grove Golf Links",
+    "city": "Lodi",
+    "state": "CA"
+  },
+  {
+    "key": "plumas-lake",
+    "metro": "sacramento",
+    "courseId": "b4533b95-d9ae-41c8-a544-92eb693a61d2",
+    "bookingUrl": "https://golfback.com/?utm_source=plumas-lake&utm_medium=website&utm_campaign=tee-times",
+    "displayName": "Plumas Lake Golf Club",
+    "city": "Olivehurst",
+    "state": "CA"
+  }
+]

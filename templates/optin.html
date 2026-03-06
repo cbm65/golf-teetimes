@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SMS Alerts Opt-In - birdiealerts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,300&family=Sora:wght@300;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-inner">
+            <div class="header-top">
+                <div>
+                    <a href="/" class="header-brand"><span class="brand-birdie">birdie</span><span class="brand-alerts">alerts</span></a>
+                    <h1>SMS Tee Time Alerts</h1>
+                    <p>Get a text when a tee time opens up</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card form-card">
+            <h2 class="card-title">How It Works</h2>
+            <p class="card-subtitle">Pick a course and date on any of our <a href="/">metro tee time pages</a>. When you find a course you want to watch, fill out the alert form — enter your phone number, choose a time window, and check the consent box. We'll send you a single SMS when a matching tee time becomes available.</p>
+
+            <div class="optin-example">
+                <h3 class="optin-example-title">Alert Sign-Up Form</h3>
+                <p class="card-subtitle">Below is the form users complete to create an alert. A specific course and date are selected on the tee times page before this form appears.</p>
+
+                <div class="alert-form-row">
+                    <div class="filter-group alert-phone-group">
+                        <label>Phone Number</label>
+                        <input type="tel" placeholder="(303) 555-1234" disabled>
+                    </div>
+                    <div class="alert-time-row">
+                        <div class="filter-group">
+                            <label>Between</label>
+                            <select disabled>
+                                <option>10:00 AM</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label>And</label>
+                            <select disabled>
+                                <option>5:00 PM</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="alert-time-row">
+                        <div class="filter-group">
+                            <label>Min Players</label>
+                            <select disabled>
+                                <option>Any</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label>Holes</label>
+                            <select disabled>
+                                <option>Any</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="consent-checkbox">
+                    <label><input type="checkbox" disabled> I agree to receive SMS tee time alerts from FreeTeeTimeAlerts at the phone number provided. Message frequency varies. Msg &amp; data rates may apply. Reply STOP to unsubscribe. Reply HELP for help. See our <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms of Service</a>.</label>
+                </div>
+                <div class="filter-group btn-group">
+                    <button class="btn" disabled>Create Alert</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card form-card">
+            <h2 class="card-title">Message Details</h2>
+            <p class="card-subtitle">When a matching tee time is found, you'll receive a single SMS like this:</p>
+            <div class="optin-sample-msg">⛳ Tee time alert! City Park on 2026-03-15: 10:30 AM (2 openings) - $33 Book now: https://app.membersports.com Reply STOP to unsubscribe</div>
+            <p class="card-subtitle" style="margin-top: 1rem;"><strong>Program name:</strong> FreeTeeTimeAlerts<br>
+            <strong>Message frequency:</strong> Varies based on tee time availability. One message per alert match.<br>
+            <strong>Message &amp; data rates may apply.</strong><br>
+            <strong>Reply STOP</strong> to unsubscribe at any time.<br>
+            <strong>Reply HELP</strong> for help.<br>
+            <strong>Contact:</strong> support@freeteetimealerts.com</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-inner">
+            <div class="footer-links">
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

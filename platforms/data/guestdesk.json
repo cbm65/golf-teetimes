@@ -1,0 +1,35 @@
+[
+  {
+    "key": "ocean-ridge-plantation",
+    "metro": "myrtle-beach",
+    "accountSlug": "OceanridgePlantation",
+    "packageId": 22002,
+    "bookingUrl": "https://reservations.guestdesk.com/sites/oceanridgeplantation",
+    "courses": [
+      {
+        "courseId": 330,
+        "displayName": "Leopard's Chase Golf Links",
+        "city": "Sunset Beach",
+        "state": "NC"
+      },
+      {
+        "courseId": 327,
+        "displayName": "Lions Paw Golf Links",
+        "city": "Ocean Isle Beach",
+        "state": "NC"
+      },
+      {
+        "courseId": 328,
+        "displayName": "Panthers Run Golf Club",
+        "city": "Ocean Isle Beach",
+        "state": "NC"
+      },
+      {
+        "courseId": 329,
+        "displayName": "Tigers Eye Golf Links",
+        "city": "Ocean Isle Beach",
+        "state": "NC"
+      }
+    ]
+  }
+]

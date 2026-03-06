@@ -1,0 +1,68 @@
+# Austin, TX — Public Golf Courses
+# Within approximately 1 hour of downtown Austin
+# Format: Course Name | City
+
+# === Golf ATX (City of Austin Municipal) ===
+Lions Municipal Golf Course | Austin
+Jimmy Clay Golf Course | Austin
+Roy Kizer Golf Course | Austin
+Morris Williams Golf Course | Austin
+Hancock Golf Course | Austin
+Grey Rock Golf Club | Austin
+Harvey Penick Golf Campus | Austin
+
+# === Austin Metro - North ===
+Avery Ranch Golf Club | Austin
+Forest Creek Golf Club | Round Rock
+Teravista Golf Club | Round Rock
+The Golf Club at Star Ranch | Hutto
+Blackhawk Golf Club | Pflugerville
+Shadow Glen Golf Club | Manor
+Crystal Falls Golf Club | Leander
+
+# === Austin Metro - Georgetown / Sun City ===
+Sun City Texas - Legacy Hills | Georgetown
+Sun City Texas - White Wing | Georgetown
+Sun City Texas - Cowan Creek | Georgetown
+
+# === Austin Metro - West / Lakeway ===
+Falconhead Golf Club | Lakeway
+Yaupon Golf Course | Lakeway
+Live Oak Golf Course | Lakeway
+Lago Vista Golf Course | Lago Vista
+Point Venture Golf Club | Leander
+
+# === Austin Metro - South ===
+Plum Creek Golf Course | Kyle
+Kissing Tree Golf Club | San Marcos
+Onion Creek Club | Austin
+
+# === Omni Barton Creek Resort ===
+Omni Barton Creek - Fazio Canyons | Austin
+Omni Barton Creek - Fazio Foothills | Austin
+Omni Barton Creek - Crenshaw Cliffside | Austin
+Omni Barton Creek - Palmer Lakeside | Spicewood
+
+# === Bastrop / Lost Pines Area ===
+Wolfdancer Golf Club | Cedar Creek
+ColoVista Golf Club | Bastrop
+Pine Forest Golf Club | Bastrop
+Lost Pines Golf Club | Bastrop
+
+# === Hill Country (within ~1 hour) ===
+Vaaler Creek Golf Club | Blanco
+Delaware Springs Golf Course | Burnet
+Double J Ranch Golf Club | Wimberley
+Lockhart State Park Golf Course | Lockhart
+Mustang Creek Golf Course | Taylor
+
+# === Other ===
+Riverside Golf Course | Austin
+
+# === Excluded ===
+# Bluebonnet Hill Golf Course — CLOSED (2019)
+# Butler Pitch & Putt — Par 3, walk-up only, no tee times
+# Harvey Penick Golf Campus — 9-hole par 30 (included above, borderline)
+# Kurth-Landrum Golf Course Georgetown — CLOSED
+# Horseshoe Bay Resort — ~1.5 hours, too far
+# Legends Golf Course Kingsland — ~1.5 hours, too far

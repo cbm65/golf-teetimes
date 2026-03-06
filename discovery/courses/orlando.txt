@@ -1,0 +1,64 @@
+# Orlando Metro Golf Courses
+# Phase 1: Compiled from web search
+
+# Downtown / Central Orlando
+Dubsdread Golf Course
+MetroWest Golf Club
+Shingle Creek Golf Club
+Ritz-Carlton Golf Club Grande Lakes
+
+# Winter Park / North
+Winter Park Golf Course
+
+# East / Lake Nona
+Eagle Creek Golf Club
+North Shore Golf Club
+Stoneybrook East Golf Club
+Wedgefield Golf Course
+
+# South / Kissimmee
+Celebration Golf Club
+Falcon's Fire Golf Club
+Remington Golf Club
+Kissimmee Bay Country Club
+Hunter's Creek Golf Club
+
+# Disney Area / Lake Buena Vista
+Disney's Magnolia Golf Course
+Disney's Palm Golf Course
+Disney's Lake Buena Vista Golf Course
+Waldorf Astoria Golf Club
+Tranquilo Golf Club at Four Seasons
+
+# West / Winter Garden / Clermont
+Orange County National - Panther Lake
+Orange County National - Crooked Cat
+Stoneybrook West Golf Club
+Legends Golf and Country Club
+Kings Ridge Golf Club
+Clermont National Golf Club
+Sanctuary Ridge Golf Club
+
+# ChampionsGate / Davenport / Haines City
+ChampionsGate Golf Club - International
+ChampionsGate Golf Club - National
+Reunion Resort - Palmer
+Reunion Resort - Watson
+Reunion Resort - Nicklaus
+Mystic Dunes Golf Club
+Highlands Reserve Golf Club
+Southern Dunes Golf Club
+Diamondback Golf Club
+Providence Golf Club
+
+# Orange Lake Resort
+Orange Lake Resort - The Legends
+Orange Lake Resort - The Reserve
+
+# Stonegate / Poinciana
+Stonegate Golf Club - Cypress
+Stonegate Golf Club - Oaks
+
+# Apopka / North
+Forest Lake Golf Club
+Wekiva Golf Club

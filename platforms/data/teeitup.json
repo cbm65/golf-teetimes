@@ -1,0 +1,4364 @@
+[
+  {
+    "key": "marty-sanchez-links-de-santa-fe",
+    "metro": "albuquerque",
+    "alias": "marty-sanchez-links-de-santa-fe",
+    "facilityId": "11522",
+    "displayName": "Marty Sanchez Links de Santa Fe",
+    "city": "Santa Fe",
+    "state": "NM"
+  },
+  {
+    "key": "paradise-hills",
+    "metro": "albuquerque",
+    "alias": "paradise-hills-golf-course",
+    "facilityId": "1396",
+    "displayName": "Paradise Hills Golf Course",
+    "city": "Albuquerque",
+    "state": "NM"
+  },
+  {
+    "key": "sandia",
+    "metro": "albuquerque",
+    "alias": "sandia-golf-club",
+    "facilityId": "4273",
+    "displayName": "Sandia Golf Club",
+    "city": "Albuquerque",
+    "state": "NM"
+  },
+  {
+    "key": "alfred-tup-holmes",
+    "metro": "atlanta",
+    "alias": "alfred-tup-holmes",
+    "facilityId": "1743",
+    "displayName": "Alfred Tup Holmes Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "key": "ashton-hills",
+    "metro": "atlanta",
+    "alias": "ashton-hills-golf-club",
+    "facilityId": "3760",
+    "displayName": "Ashton Hills Golf Club",
+    "city": "Covington",
+    "state": "GA"
+  },
+  {
+    "key": "bear-creek-ga",
+    "metro": "atlanta",
+    "alias": "bear-creek-golf-club-ga",
+    "facilityId": "3737",
+    "displayName": "Bear Creek Golf Club",
+    "city": "Monroe",
+    "state": "GA"
+  },
+  {
+    "key": "bears-best-atlanta",
+    "metro": "atlanta",
+    "alias": "bears-best",
+    "facilityId": "4275",
+    "displayName": "Bear's Best Atlanta",
+    "city": "Suwanee",
+    "state": "GA"
+  },
+  {
+    "key": "bobby-jones",
+    "metro": "atlanta",
+    "alias": "bobby-jones-golf-course",
+    "facilityId": "1624",
+    "displayName": "Bobby Jones Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "key": "bridgemill",
+    "metro": "atlanta",
+    "alias": "bridgemill-athletic-club",
+    "facilityId": "2330",
+    "displayName": "BridgeMill Athletic Club",
+    "city": "Canton",
+    "state": "GA"
+  },
+  {
+    "key": "browns-mill",
+    "metro": "atlanta",
+    "alias": "browns-mill-golf-course",
+    "facilityId": "1745",
+    "displayName": "Browns Mill Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "key": "candler-park",
+    "metro": "atlanta",
+    "alias": "candler-park-golf-course",
+    "facilityId": "17609",
+    "displayName": "Candler Park Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "key": "charlie-yates",
+    "metro": "atlanta",
+    "alias": "charlie-yates-golf-course",
+    "facilityId": "3742",
+    "displayName": "Charlie Yates Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "key": "chateau-elan",
+    "metro": "atlanta",
+    "alias": "chateau-elan-v2",
+    "facilityId": "3196",
+    "displayName": "Chateau Elan Golf Club",
+    "city": "Braselton",
+    "state": "GA"
+  },
+  {
+    "key": "cherokee-run",
+    "metro": "atlanta",
+    "alias": "cherokee-run",
+    "facilityId": "3744",
+    "displayName": "Cherokee Run Golf Club",
+    "city": "Conyers",
+    "state": "GA"
+  },
+  {
+    "key": "city-club-marietta",
+    "metro": "atlanta",
+    "alias": "city-club-marietta",
+    "facilityId": "2219",
+    "displayName": "City Club Marietta",
+    "city": "Marietta",
+    "state": "GA"
+  },
+  {
+    "key": "cobblestone",
+    "metro": "atlanta",
+    "alias": "cobblestone-golf-course-3",
+    "facilityId": "5901",
+    "displayName": "Cobblestone Golf Course",
+    "city": "Acworth",
+    "state": "GA"
+  },
+  {
+    "key": "college-park",
+    "metro": "atlanta",
+    "alias": "c70350ae-111b-4722-b4d0-c74be760d7ec",
+    "facilityId": "16099",
+    "displayName": "College Park Golf Course",
+    "city": "College Park",
+    "state": "GA"
+  },
+  {
+    "key": "collins-hill",
+    "metro": "atlanta",
+    "alias": "collins-hill-golf-club",
+    "facilityId": "2876",
+    "displayName": "Collins Hill Golf Club",
+    "city": "Lawrenceville",
+    "state": "GA"
+  },
+  {
+    "key": "coweta-club-at-arbor-springs",
+    "metro": "atlanta",
+    "alias": "coweta-club-at-arbor-springs",
+    "facilityId": "3747",
+    "displayName": "Coweta Club at Arbor Springs",
+    "city": "Newnan",
+    "state": "GA"
+  },
+  {
+    "key": "creek-at-hard-labor",
+    "metro": "atlanta",
+    "alias": "the-creek-at-hard-labor",
+    "facilityId": "4794",
+    "displayName": "The Creek at Hard Labor",
+    "city": "Social Circle",
+    "state": "GA"
+  },
+  {
+    "key": "crystal-lake",
+    "metro": "atlanta",
+    "alias": "crystal-lake-golf-and-country-club",
+    "facilityId": "3750",
+    "displayName": "Crystal Lake Golf and Country Club",
+    "city": "Hampton",
+    "state": "GA"
+  },
+  {
+    "key": "echelon",
+    "metro": "atlanta",
+    "alias": "echelon-golf-club",
+    "facilityId": "5185",
+    "displayName": "Echelon Golf Club",
+    "city": "Alpharetta",
+    "state": "GA"
+  },
+  {
+    "key": "fox-creek",
+    "metro": "atlanta",
+    "alias": "fox-creek-golf-club-ga",
+    "facilityId": "2257",
+    "displayName": "Fox Creek Golf Club",
+    "city": "Smyrna",
+    "state": "GA"
+  },
+  {
+    "key": "hampton",
+    "metro": "atlanta",
+    "alias": "hampton-golf-village",
+    "facilityId": "2287",
+    "displayName": "Hampton Golf Club",
+    "city": "Hampton",
+    "state": "GA"
+  },
+  {
+    "key": "heritage-golf-links",
+    "metro": "atlanta",
+    "alias": "heritage-golf-links",
+    "facilityId": "3741",
+    "displayName": "Heritage Golf Links",
+    "city": "Tucker",
+    "state": "GA"
+  },
+  {
+    "key": "john-a-white",
+    "metro": "atlanta",
+    "alias": "john-a-white-park-golf-course",
+    "facilityId": "3761",
+    "displayName": "John A White Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "key": "lake-arrowhead",
+    "metro": "atlanta",
+    "alias": "lake-arrowhead",
+    "facilityId": "2331",
+    "displayName": "Lake Arrowhead Yacht & Country Club",
+    "city": "Waleska",
+    "state": "GA"
+  },
+  {
+    "key": "lake-spivey",
+    "metro": "atlanta",
+    "alias": "lake-spivey",
+    "facilityId": "3764",
+    "displayName": "Lake Spivey Golf Club",
+    "city": "Jonesboro",
+    "state": "GA"
+  },
+  {
+    "key": "legacy-golf-links",
+    "metro": "atlanta",
+    "alias": "legacy-golf-links",
+    "facilityId": "2256",
+    "displayName": "Legacy Golf Links",
+    "city": "Smyrna",
+    "state": "GA"
+  },
+  {
+    "key": "mystery-valley",
+    "metro": "atlanta",
+    "alias": "mystery-valley-golf-course",
+    "facilityId": "5319",
+    "displayName": "Mystery Valley Golf Club",
+    "city": "Lithonia",
+    "state": "GA"
+  },
+  {
+    "key": "north-fulton",
+    "metro": "atlanta",
+    "alias": "chastain-park",
+    "facilityId": "1741",
+    "displayName": "North Fulton Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "key": "reunion",
+    "metro": "atlanta",
+    "alias": "reunion-country-club",
+    "facilityId": "3777",
+    "displayName": "Reunion Country Club",
+    "city": "Hoschton",
+    "state": "GA"
+  },
+  {
+    "key": "southland",
+    "metro": "atlanta",
+    "alias": "southland-golf-club",
+    "facilityId": "3783",
+    "displayName": "Southland Golf & Country Club",
+    "city": "Stone Mountain",
+    "state": "GA"
+  },
+  {
+    "key": "st-marlo",
+    "metro": "atlanta",
+    "alias": "st-marlo-country-club",
+    "facilityId": "3197",
+    "displayName": "St. Marlo Country Club",
+    "city": "Duluth",
+    "state": "GA"
+  },
+  {
+    "key": "stone-mountain-lakemont",
+    "metro": "atlanta",
+    "alias": "stone-mountain",
+    "facilityId": "8712",
+    "displayName": "Stone Mountain Golf Club - Lakemont",
+    "city": "Stone Mountain",
+    "state": "GA"
+  },
+  {
+    "key": "stone-mountain-stonemont",
+    "metro": "atlanta",
+    "alias": "stone-mountain",
+    "facilityId": "2222",
+    "displayName": "Stone Mountain Golf Club - Stonemont",
+    "city": "Stone Mountain",
+    "state": "GA"
+  },
+  {
+    "key": "sugar-creek",
+    "metro": "atlanta",
+    "alias": "sugar-creek-golf-and-tennis",
+    "facilityId": "9428",
+    "displayName": "Sugar Creek Golf Course",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "key": "sugar-hill",
+    "metro": "atlanta",
+    "alias": "sugar-hill-golf-club",
+    "facilityId": "4653",
+    "displayName": "Sugar Hill Golf Club",
+    "city": "Sugar Hill",
+    "state": "GA"
+  },
+  {
+    "key": "the-frog",
+    "metro": "atlanta",
+    "alias": "frog-at-the-georgian",
+    "facilityId": "2319",
+    "displayName": "The Frog Golf Club",
+    "city": "Villa Rica",
+    "state": "GA"
+  },
+  {
+    "key": "towne-lake-hills",
+    "metro": "atlanta",
+    "alias": "towne-lake-hills-golf-club",
+    "facilityId": "2220",
+    "displayName": "Towne Lake Hills Golf Club",
+    "city": "Woodstock",
+    "state": "GA"
+  },
+  {
+    "key": "trophy-club-of-apalachee",
+    "metro": "atlanta",
+    "alias": "trophy-club-of-apalachee",
+    "facilityId": "1740",
+    "displayName": "Trophy Club of Apalachee",
+    "city": "Dacula",
+    "state": "GA"
+  },
+  {
+    "key": "west-pines",
+    "metro": "atlanta",
+    "alias": "west-pines-golf-club",
+    "facilityId": "2329",
+    "displayName": "West Pines Golf Club",
+    "city": "Douglasville",
+    "state": "GA"
+  },
+  {
+    "key": "blackhawk",
+    "metro": "austin",
+    "alias": "blackhawk-golf-club",
+    "facilityId": "139",
+    "displayName": "Blackhawk Golf Club",
+    "city": "Pflugerville",
+    "state": "TX"
+  },
+  {
+    "key": "crystal-falls",
+    "metro": "austin",
+    "alias": "crystal-falls-golf-club-2",
+    "facilityId": "5741",
+    "displayName": "Crystal Falls Golf Club",
+    "city": "Leander",
+    "state": "TX"
+  },
+  {
+    "key": "grey-rock",
+    "metro": "austin",
+    "alias": "grey-rock-golf-club",
+    "facilityId": "166",
+    "displayName": "Grey Rock Golf Club",
+    "city": "Austin",
+    "state": "TX"
+  },
+  {
+    "key": "harvey-penick",
+    "metro": "austin",
+    "alias": "harvey-penick-golf-campus",
+    "facilityId": "1020",
+    "displayName": "Harvey Penick Golf Campus",
+    "city": "Austin",
+    "state": "TX"
+  },
+  {
+    "key": "jimmy-clay",
+    "metro": "austin",
+    "alias": "jimmy-clay-golf-course",
+    "facilityId": "759",
+    "displayName": "Jimmy Clay Golf Course",
+    "city": "Austin",
+    "state": "TX"
+  },
+  {
+    "key": "lago-vista",
+    "metro": "austin",
+    "alias": "lago-vista-golf-course",
+    "facilityId": "145",
+    "displayName": "Lago Vista Golf Course",
+    "city": "Lago Vista",
+    "state": "TX"
+  },
+  {
+    "key": "morris-williams",
+    "metro": "austin",
+    "alias": "morris-williams-golf-course",
+    "facilityId": "620",
+    "displayName": "Morris Williams Golf Course",
+    "city": "Austin",
+    "state": "TX"
+  },
+  {
+    "key": "pine-forest",
+    "metro": "austin",
+    "alias": "pine-forest-gc",
+    "facilityId": "223",
+    "displayName": "Pine Forest Golf Club",
+    "city": "Bastrop",
+    "state": "TX"
+  },
+  {
+    "key": "point-venture",
+    "metro": "austin",
+    "alias": "point-venture-golf-club",
+    "facilityId": "3498",
+    "displayName": "Point Venture Golf Club",
+    "city": "Point Venture",
+    "state": "TX"
+  },
+  {
+    "key": "roy-kizer",
+    "metro": "austin",
+    "alias": "roy-kizer-golf-course",
+    "facilityId": "590",
+    "displayName": "Roy Kizer Golf Course",
+    "city": "Austin",
+    "state": "TX"
+  },
+  {
+    "key": "shadow-glen",
+    "metro": "austin",
+    "alias": "shadowglen-golf-club",
+    "facilityId": "591",
+    "displayName": "Shadow Glen Golf Club",
+    "city": "Manor",
+    "state": "TX"
+  },
+  {
+    "key": "vaaler-creek",
+    "metro": "austin",
+    "alias": "vaaler-creek-golf-club",
+    "facilityId": "5199",
+    "displayName": "Vaaler Creek Golf Club",
+    "city": "Blanco",
+    "state": "TX"
+  },
+  {
+    "key": "charles-t-myers",
+    "metro": "charlotte",
+    "alias": "meck-county-golf-booking-engine",
+    "facilityId": "1560",
+    "displayName": "Charles T. Myers Golf Course",
+    "city": "Charlotte",
+    "state": "NC"
+  },
+  {
+    "key": "charlotte-national",
+    "metro": "charlotte",
+    "alias": "charlotte-national-golf-club",
+    "facilityId": "19620",
+    "displayName": "Charlotte National Golf Club",
+    "city": "Indian Trail",
+    "state": "NC"
+  },
+  {
+    "key": "deer-brook",
+    "metro": "charlotte",
+    "alias": "deer-brook-golf-club",
+    "facilityId": "5498",
+    "displayName": "Deer Brook Golf Club",
+    "city": "Shelby",
+    "state": "NC"
+  },
+  {
+    "key": "edgewater",
+    "metro": "charlotte",
+    "alias": "edgewater-golf-club",
+    "facilityId": "4987",
+    "displayName": "Edgewater Golf Club",
+    "city": "Lancaster",
+    "state": "SC"
+  },
+  {
+    "key": "harry-l-jones-sr",
+    "metro": "charlotte",
+    "alias": "meck-county-golf-booking-engine",
+    "facilityId": "1557",
+    "displayName": "Harry L. Jones Sr. Golf Course",
+    "city": "Charlotte",
+    "state": "NC"
+  },
+  {
+    "key": "monroe",
+    "metro": "charlotte",
+    "alias": "monroe-country-club",
+    "facilityId": "1702",
+    "displayName": "Monroe Country Club",
+    "city": "Monroe",
+    "state": "NC"
+  },
+  {
+    "key": "olde-sycamore",
+    "metro": "charlotte",
+    "alias": "olde-sycamore-golf-club",
+    "facilityId": "1623",
+    "displayName": "Olde Sycamore Golf Plantation",
+    "city": "Charlotte",
+    "state": "NC"
+  },
+  {
+    "key": "pinetuck",
+    "metro": "charlotte",
+    "alias": "pinetuck-golf-club",
+    "facilityId": "3837",
+    "displayName": "Pinetuck Golf Club",
+    "city": "Rock Hill",
+    "state": "SC"
+  },
+  {
+    "key": "river-bend-ymca",
+    "metro": "charlotte",
+    "alias": "river-bend-ymca-golf-club",
+    "facilityId": "7423",
+    "displayName": "River Bend YMCA Golf Club",
+    "city": "Shelby",
+    "state": "NC"
+  },
+  {
+    "key": "river-oaks",
+    "metro": "charlotte",
+    "alias": "river-oaks-golf-club",
+    "facilityId": "3216",
+    "displayName": "River Oaks Golf Club",
+    "city": "Statesville",
+    "state": "NC"
+  },
+  {
+    "key": "rock-barn-jackson",
+    "metro": "charlotte",
+    "alias": "rock-barn-golf-and-spa-jackson-course",
+    "facilityId": "6790",
+    "displayName": "Rock Barn Golf & Spa - Jackson Course",
+    "city": "Conover",
+    "state": "NC"
+  },
+  {
+    "key": "rocky-river",
+    "metro": "charlotte",
+    "alias": "rocky-river-golf-club",
+    "facilityId": "1632",
+    "displayName": "Rocky River Golf Club",
+    "city": "Concord",
+    "state": "NC"
+  },
+  {
+    "key": "spring-lake",
+    "metro": "charlotte",
+    "alias": "spring-lake-country-club",
+    "facilityId": "1932",
+    "displayName": "Spring Lake Country Club",
+    "city": "York",
+    "state": "SC"
+  },
+  {
+    "key": "sunset-hills",
+    "metro": "charlotte",
+    "alias": "sunset-hills-golf-course",
+    "facilityId": "3686",
+    "displayName": "Sunset Hills Golf Course",
+    "city": "Charlotte",
+    "state": "NC"
+  },
+  {
+    "key": "twin-oaks",
+    "metro": "charlotte",
+    "alias": "twin-oaks-golf-club",
+    "facilityId": "1810",
+    "displayName": "Twin Oaks Golf Club",
+    "city": "Statesville",
+    "state": "NC"
+  },
+  {
+    "key": "champions-circle",
+    "metro": "dallas",
+    "alias": "golf-club-at-champions-circle",
+    "facilityId": "1280",
+    "displayName": "The Golf Club at Champions Circle",
+    "city": "Fort Worth",
+    "state": "TX"
+  },
+  {
+    "key": "coyote-ridge",
+    "metro": "dallas",
+    "alias": "coyote-ridge-golf-club",
+    "facilityId": "1261",
+    "displayName": "Coyote Ridge Golf Club",
+    "city": "Carrollton",
+    "state": "TX"
+  },
+  {
+    "key": "duck-creek",
+    "metro": "dallas",
+    "alias": "duck-creek-golf-club",
+    "facilityId": "10769",
+    "displayName": "Duck Creek Golf Club",
+    "city": "Garland",
+    "state": "TX"
+  },
+  {
+    "key": "firewheel",
+    "metro": "dallas",
+    "alias": "firewheel-golf-park-v2",
+    "facilityId": "9413",
+    "displayName": "Firewheel Golf Park - Bridges",
+    "city": "Garland",
+    "state": "TX"
+  },
+  {
+    "key": "firewheel-lakes",
+    "metro": "dallas",
+    "alias": "firewheel-golf-park-v2",
+    "facilityId": "9415",
+    "displayName": "Firewheel Golf Park - Lakes Course",
+    "city": "Garland",
+    "state": "TX"
+  },
+  {
+    "key": "firewheel-old",
+    "metro": "dallas",
+    "alias": "firewheel-golf-park-v2",
+    "facilityId": "9414",
+    "displayName": "Firewheel Golf Park - Old Course",
+    "city": "Garland",
+    "state": "TX"
+  },
+  {
+    "key": "irving",
+    "metro": "dallas",
+    "alias": "irving-golf-club",
+    "facilityId": "3186",
+    "displayName": "Irving Golf Club",
+    "city": "Irving",
+    "state": "TX"
+  },
+  {
+    "key": "oak-hollow",
+    "metro": "dallas",
+    "alias": "oak-hollow-golf-course",
+    "facilityId": "42",
+    "displayName": "Oak Hollow Golf Course",
+    "city": "McKinney",
+    "state": "TX"
+  },
+  {
+    "key": "old-brickyard",
+    "metro": "dallas",
+    "alias": "old-brickyard-golf-course",
+    "facilityId": "43",
+    "displayName": "Old Brickyard Golf Course",
+    "city": "Ferris",
+    "state": "TX"
+  },
+  {
+    "key": "pecan-hollow",
+    "metro": "dallas",
+    "alias": "pecan-hollow-golf-course",
+    "facilityId": "1307",
+    "displayName": "Pecan Hollow Golf Course",
+    "city": "Plano",
+    "state": "TX"
+  },
+  {
+    "key": "prairie-lakes",
+    "metro": "dallas",
+    "alias": "prairie-lakes-golf-course",
+    "facilityId": "1311",
+    "displayName": "Prairie Lakes Golf Course",
+    "city": "Grand Prairie",
+    "state": "TX"
+  },
+  {
+    "key": "ridgeview-ranch",
+    "metro": "dallas",
+    "alias": "ridgeview-ranch-golf-club",
+    "facilityId": "4654",
+    "displayName": "Ridgeview Ranch Golf Club",
+    "city": "Plano",
+    "state": "TX"
+  },
+  {
+    "key": "stewart-peninsula",
+    "metro": "dallas",
+    "alias": "stewart-peninsula-golf-course",
+    "facilityId": "41",
+    "displayName": "Stewart Peninsula Golf Course",
+    "city": "The Colony",
+    "state": "TX"
+  },
+  {
+    "key": "tangle-ridge",
+    "metro": "dallas",
+    "alias": "tangle-ridge-golf-club",
+    "facilityId": "846",
+    "displayName": "Tangle Ridge Golf Club",
+    "city": "Grand Prairie",
+    "state": "TX"
+  },
+  {
+    "key": "thorntree",
+    "metro": "dallas",
+    "alias": "thorntree-golf-club",
+    "facilityId": "15985",
+    "displayName": "Thorntree Golf Club",
+    "city": "DeSoto",
+    "state": "TX"
+  },
+  {
+    "key": "tour-18-dallas",
+    "metro": "dallas",
+    "alias": "tour-18-dallas",
+    "facilityId": "1391",
+    "displayName": "Tour 18 Dallas Golf Course",
+    "city": "Flower Mound",
+    "state": "TX"
+  },
+  {
+    "key": "trails-of-frisco",
+    "metro": "dallas",
+    "alias": "the-trails-of-frisco",
+    "facilityId": "33",
+    "displayName": "The Trails of Frisco Golf Club",
+    "city": "Frisco",
+    "state": "TX"
+  },
+  {
+    "key": "waterchase",
+    "metro": "dallas",
+    "alias": "waterchase-golf-club",
+    "facilityId": "48",
+    "displayName": "Waterchase Golf Club",
+    "city": "Fort Worth",
+    "state": "TX"
+  },
+  {
+    "key": "waterview",
+    "metro": "dallas",
+    "alias": "waterview-golf-club",
+    "facilityId": "32",
+    "displayName": "Waterview Golf Club",
+    "city": "Rowlett",
+    "state": "TX"
+  },
+  {
+    "key": "waxahachie",
+    "metro": "dallas",
+    "alias": "waxahachie-golf-club",
+    "facilityId": "17738",
+    "displayName": "Waxahachie Golf Club",
+    "city": "Waxahachie",
+    "state": "TX"
+  },
+  {
+    "key": "westdale-hills",
+    "metro": "dallas",
+    "alias": "westdale-hills-golf-course",
+    "facilityId": "9503",
+    "displayName": "Westdale Hills Golf Course",
+    "city": "Euless",
+    "state": "TX"
+  },
+  {
+    "key": "wildhorse-at-robson-ranch",
+    "metro": "dallas",
+    "alias": "wildhorse-at-robson-ranch",
+    "facilityId": "3793",
+    "displayName": "Wildhorse Golf Club at Robson Ranch",
+    "city": "Denton",
+    "state": "TX"
+  },
+  {
+    "key": "aurora-hills",
+    "metro": "denver",
+    "alias": "aurora-hills-golf-course",
+    "facilityId": "17878",
+    "displayName": "Aurora Hills Golf Course",
+    "city": "Aurora",
+    "state": "CO"
+  },
+  {
+    "key": "buffalo-run",
+    "metro": "denver",
+    "alias": "buffalo-run-golf-course",
+    "facilityId": "513",
+    "displayName": "Buffalo Run Golf Course",
+    "city": "Commerce City",
+    "state": "CO"
+  },
+  {
+    "key": "colorado-national",
+    "metro": "denver",
+    "alias": "colorado-national-golf-club",
+    "facilityId": "1719",
+    "displayName": "Colorado National Golf Club",
+    "city": "Erie",
+    "state": "CO"
+  },
+  {
+    "key": "commonground",
+    "metro": "denver",
+    "alias": "commonground-golf-course",
+    "facilityId": "5275",
+    "displayName": "CommonGround Golf Course",
+    "city": "Aurora",
+    "state": "CO"
+  },
+  {
+    "key": "greenway-park",
+    "metro": "denver",
+    "alias": "greenway-park-golf-course",
+    "facilityId": "11455",
+    "displayName": "Greenway Park Golf Course",
+    "city": "Broomfield",
+    "state": "CO"
+  },
+  {
+    "key": "hyland-hills",
+    "metro": "denver",
+    "alias": "hyland-hills-park-recreation-district",
+    "facilityId": "9201,9202,9203",
+    "displayName": "Hyland Hills Golf Course",
+    "city": "Westminster",
+    "state": "CO",
+    "names": {
+      "54f14ee20c8ad60378b058ce": "Hyland Hills - Gold Course",
+      "54f14ee20c8ad60378b058d0": "Hyland Hills - Blue Course",
+      "54f14ee20c8ad60378b058d3": "Hyland Hills - South Par 3"
+    }
+  },
+  {
+    "key": "meadow-hills",
+    "metro": "denver",
+    "alias": "meadow-hills-golf-course",
+    "facilityId": "17880",
+    "displayName": "Meadow Hills Golf Course",
+    "city": "Aurora",
+    "state": "CO"
+  },
+  {
+    "key": "murphy-creek",
+    "metro": "denver",
+    "alias": "murphy-creek-golf-course",
+    "facilityId": "17879",
+    "displayName": "Murphy Creek Golf Course",
+    "city": "Aurora",
+    "state": "CO"
+  },
+  {
+    "key": "omni-interlocken",
+    "metro": "denver",
+    "facilityId": "594",
+    "alias": "interlocken-golf-club",
+    "bookingUrl": "https://omni-interlocken-resort-golf-club.book.teeitup.com",
+    "displayName": "Omni Interlocken Resort Golf Club",
+    "city": "Broomfield",
+    "state": "CO"
+  },
+  {
+    "key": "plum-creek",
+    "metro": "denver",
+    "facilityId": "4137",
+    "alias": "plum-creek-golf-club-3",
+    "bookingUrl": "https://plum-creek-golf-club-3.book.teeitup.com",
+    "displayName": "Plum Creek Golf Club",
+    "city": "Castle Rock",
+    "state": "CO"
+  },
+  {
+    "key": "raccoon-creek",
+    "metro": "denver",
+    "alias": "raccoon-creek-golf-course",
+    "facilityId": "515",
+    "displayName": "Raccoon Creek Golf Course",
+    "city": "Littleton",
+    "state": "CO"
+  },
+  {
+    "key": "riverdale-dunes",
+    "metro": "denver",
+    "facilityId": "1016",
+    "alias": "riverdale",
+    "bookingUrl": "https://riverdale.book.teeitup.com",
+    "displayName": "Riverdale Dunes Golf Course",
+    "city": "Brighton",
+    "state": "CO"
+  },
+  {
+    "key": "riverdale-knolls",
+    "metro": "denver",
+    "facilityId": "1017",
+    "alias": "riverdale",
+    "bookingUrl": "https://riverdale.book.teeitup.com",
+    "displayName": "Riverdale Knolls Golf Course",
+    "city": "Brighton",
+    "state": "CO"
+  },
+  {
+    "key": "saddle-rock",
+    "metro": "denver",
+    "alias": "saddle-rock-golf-course",
+    "facilityId": "17877",
+    "displayName": "Saddle Rock Golf Course",
+    "city": "Aurora",
+    "state": "CO"
+  },
+  {
+    "key": "stoney-creek",
+    "metro": "denver",
+    "alias": "stoney-creek-golf-course",
+    "facilityId": "13099",
+    "displayName": "Stoney Creek Golf Course",
+    "city": "Arvada",
+    "state": "CO"
+  },
+  {
+    "key": "todd-creek",
+    "metro": "denver",
+    "alias": "todd-creek-golf-club",
+    "facilityId": "9130",
+    "displayName": "Todd Creek Golf Club",
+    "city": "Thornton",
+    "state": "CO"
+  },
+  {
+    "key": "atascocita",
+    "metro": "houston",
+    "alias": "golf-preserve-of-atascocita",
+    "facilityId": "13680",
+    "displayName": "Atascocita Golf Club",
+    "city": "Humble",
+    "state": "TX"
+  },
+  {
+    "key": "bay-forest",
+    "metro": "houston",
+    "alias": "bay-forest-golf-club",
+    "facilityId": "771",
+    "displayName": "Bay Forest Golf Course",
+    "city": "La Porte",
+    "state": "TX"
+  },
+  {
+    "key": "bayou",
+    "metro": "houston",
+    "alias": "bayou-golf-club",
+    "facilityId": "2858",
+    "displayName": "Bayou Golf Course",
+    "city": "Texas City",
+    "state": "TX"
+  },
+  {
+    "key": "cinco-ranch",
+    "metro": "houston",
+    "alias": "golf-club-at-cinco-ranch",
+    "facilityId": "1370",
+    "displayName": "Golf Club at Cinco Ranch",
+    "city": "Katy",
+    "state": "TX"
+  },
+  {
+    "key": "grand-lake",
+    "metro": "houston",
+    "alias": "grand-lake-golf-club",
+    "facilityId": "4488",
+    "displayName": "Grand Lake Golf Club",
+    "city": "Montgomery",
+    "state": "TX"
+  },
+  {
+    "key": "greatwood",
+    "metro": "houston",
+    "alias": "greatwood-golf-club",
+    "facilityId": "10232",
+    "displayName": "Greatwood Golf Club",
+    "city": "Sugar Land",
+    "state": "TX"
+  },
+  {
+    "key": "houston",
+    "metro": "houston",
+    "alias": "golf-club-of-houston",
+    "facilityId": "1373",
+    "displayName": "Golf Club of Houston",
+    "city": "Humble",
+    "state": "TX"
+  },
+  {
+    "key": "houston-national",
+    "metro": "houston",
+    "alias": "houston-national-golf-club",
+    "facilityId": "2030",
+    "displayName": "Houston National Golf Club",
+    "city": "Houston",
+    "state": "TX"
+  },
+  {
+    "key": "jersey-meadow",
+    "metro": "houston",
+    "alias": "jersey-meadow-golf-club",
+    "facilityId": "1304",
+    "displayName": "Jersey Meadow Golf Course",
+    "city": "Jersey Village",
+    "state": "TX"
+  },
+  {
+    "key": "longwood",
+    "metro": "houston",
+    "alias": "longwood-golf-club",
+    "facilityId": "1970",
+    "displayName": "The Golf Club at Longwood",
+    "city": "Cypress",
+    "state": "TX"
+  },
+  {
+    "key": "moody-gardens",
+    "metro": "houston",
+    "alias": "moody-gardens-golf-course",
+    "facilityId": "6844",
+    "displayName": "Moody Gardens Golf Course",
+    "city": "Galveston",
+    "state": "TX"
+  },
+  {
+    "key": "panorama",
+    "metro": "houston",
+    "alias": "panorama-golf-club",
+    "facilityId": "2759",
+    "displayName": "Panorama Golf Club",
+    "city": "Conroe",
+    "state": "TX"
+  },
+  {
+    "key": "southwyck",
+    "metro": "houston",
+    "alias": "southwyck-golf-club",
+    "facilityId": "4947",
+    "displayName": "Southwyck Golf Club",
+    "city": "Pearland",
+    "state": "TX"
+  },
+  {
+    "key": "stonebridge-at-newport",
+    "metro": "houston",
+    "alias": "newport-golf-club",
+    "facilityId": "1154",
+    "displayName": "Stonebridge at Newport Golf Club",
+    "city": "Crosby",
+    "state": "TX"
+  },
+  {
+    "key": "tour-18-houston",
+    "metro": "houston",
+    "alias": "tour-18-golf-course",
+    "facilityId": "584",
+    "displayName": "Tour 18 Houston",
+    "city": "Humble",
+    "state": "TX"
+  },
+  {
+    "key": "wildcat-highlands",
+    "metro": "houston",
+    "alias": "wildcat-golf-club-v2",
+    "facilityId": "11401",
+    "displayName": "Wildcat Golf Club - Highlands",
+    "city": "Houston",
+    "state": "TX"
+  },
+  {
+    "key": "wildcat-lakes",
+    "metro": "houston",
+    "alias": "wildcat-golf-club-v3",
+    "facilityId": "632",
+    "displayName": "Wildcat Golf Club - Lakes",
+    "city": "Houston",
+    "state": "TX"
+  },
+  {
+    "key": "amelia-river",
+    "metro": "jacksonville",
+    "alias": "amelia-river-golf-club",
+    "facilityId": "3669",
+    "displayName": "Amelia River Golf Club",
+    "city": "Fernandina Beach",
+    "state": "FL"
+  },
+  {
+    "key": "bent-creek",
+    "metro": "jacksonville",
+    "alias": "bent-creek-golf-course",
+    "facilityId": "1251",
+    "displayName": "Bent Creek Golf Course",
+    "city": "Jacksonville",
+    "state": "FL"
+  },
+  {
+    "key": "brentwood-jax",
+    "metro": "jacksonville",
+    "alias": "brentwood-golf-course",
+    "facilityId": "1762",
+    "displayName": "Brentwood Golf Course",
+    "city": "Jacksonville",
+    "state": "FL"
+  },
+  {
+    "key": "cimarrone",
+    "metro": "jacksonville",
+    "alias": "cimarrone-golf-club",
+    "facilityId": "1341",
+    "displayName": "Cimarrone Golf Club",
+    "city": "Jacksonville",
+    "state": "FL"
+  },
+  {
+    "key": "cypress-knoll",
+    "metro": "jacksonville",
+    "alias": "cypress-knoll-golf-course",
+    "facilityId": "9167",
+    "displayName": "Cypress Knoll Golf Course",
+    "city": "Palm Coast",
+    "state": "FL"
+  },
+  {
+    "key": "eagle-harbor",
+    "metro": "jacksonville",
+    "alias": "eagle-harbor-golf-club",
+    "facilityId": "13138",
+    "displayName": "Eagle Harbor Golf Club",
+    "city": "Orange Park",
+    "state": "FL"
+  },
+  {
+    "key": "eagle-landing",
+    "metro": "jacksonville",
+    "alias": "eagle-landing-golf-club",
+    "facilityId": "3678",
+    "displayName": "Eagle Landing Golf Club",
+    "city": "Orange Park",
+    "state": "FL"
+  },
+  {
+    "key": "fernandina-beach",
+    "metro": "jacksonville",
+    "alias": "fernandina-beach-golf-club",
+    "facilityId": "1931",
+    "displayName": "Fernandina Beach Golf Club",
+    "city": "Fernandina Beach",
+    "state": "FL"
+  },
+  {
+    "key": "hidden-hills-jax",
+    "metro": "jacksonville",
+    "alias": "hidden-hills-golf-club",
+    "facilityId": "15493",
+    "displayName": "Hidden Hills Golf Club",
+    "city": "Jacksonville",
+    "state": "FL"
+  },
+  {
+    "key": "omni-amelia-island-ocean-links",
+    "metro": "jacksonville",
+    "alias": "omni-amelia-island-plantation-ocean-links-course",
+    "facilityId": "4487",
+    "displayName": "Omni Amelia Island Ocean Links",
+    "city": "Amelia Island",
+    "state": "FL"
+  },
+  {
+    "key": "palm-valley",
+    "metro": "jacksonville",
+    "alias": "palm-valley-golf-club",
+    "facilityId": "9148",
+    "displayName": "Palm Valley Golf Club",
+    "city": "Ponte Vedra",
+    "state": "FL"
+  },
+  {
+    "key": "pine-royale",
+    "metro": "jacksonville",
+    "alias": "pine-royale-golf-club",
+    "facilityId": "20160",
+    "displayName": "Pine Royale Golf Club",
+    "city": "Callahan",
+    "state": "FL"
+  },
+  {
+    "key": "royal-st-augustine",
+    "metro": "jacksonville",
+    "alias": "royal-st-augustine-golf-and-country-club",
+    "facilityId": "1344",
+    "displayName": "Royal St. Augustine Golf & Country Club",
+    "city": "St. Augustine",
+    "state": "FL"
+  },
+  {
+    "key": "south-hampton",
+    "metro": "jacksonville",
+    "alias": "golf-club-at-south-hampton",
+    "facilityId": "7471",
+    "displayName": "Golf Club at South Hampton",
+    "city": "St. Augustine",
+    "state": "FL"
+  },
+  {
+    "key": "aliante",
+    "metro": "lasvegas",
+    "alias": "aliante-golf-club",
+    "facilityId": "377",
+    "displayName": "Aliante Golf Club",
+    "city": "North Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "bali-hai",
+    "metro": "lasvegas",
+    "alias": "bali-hai",
+    "facilityId": "5359",
+    "displayName": "Bali Hai Golf Club",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "boulder-city",
+    "metro": "lasvegas",
+    "facilityId": "463",
+    "displayName": "Boulder City Golf Course",
+    "city": "Boulder City",
+    "state": "NV",
+    "alias": "boulder-city-golf-course"
+  },
+  {
+    "key": "boulder-creek",
+    "metro": "lasvegas",
+    "alias": "boulder-creek-golf-club",
+    "facilityId": "157",
+    "displayName": "Boulder Creek Golf Club",
+    "city": "Boulder City",
+    "state": "NV"
+  },
+  {
+    "key": "chimera",
+    "metro": "lasvegas",
+    "alias": "chimera-golf-club",
+    "facilityId": "761",
+    "displayName": "Chimera Golf Club",
+    "city": "Henderson",
+    "state": "NV"
+  },
+  {
+    "key": "desert-pines",
+    "metro": "lasvegas",
+    "alias": "desert-pines-gc",
+    "facilityId": "5380",
+    "displayName": "Desert Pines Golf Club",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "desert-willow",
+    "metro": "lasvegas",
+    "alias": "desert-willow-golf-course",
+    "facilityId": "1336",
+    "displayName": "Desert Willow Golf Course",
+    "city": "Henderson",
+    "state": "NV"
+  },
+  {
+    "key": "durango-hills",
+    "metro": "lasvegas",
+    "alias": "durango-hills-golf-club",
+    "facilityId": "9934",
+    "displayName": "Durango Hills Golf Club",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "highland-falls",
+    "metro": "lasvegas",
+    "alias": "highland-falls",
+    "facilityId": "1972",
+    "displayName": "Highland Falls Golf Course",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "los-prados",
+    "metro": "lasvegas",
+    "alias": "los-prados-golf-course",
+    "facilityId": "1920",
+    "displayName": "Los Prados Golf Course",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "reflection-bay",
+    "metro": "lasvegas",
+    "alias": "reflection-bay",
+    "facilityId": "881",
+    "displayName": "Reflection Bay Golf Club",
+    "city": "Henderson",
+    "state": "NV"
+  },
+  {
+    "key": "rhodes-ranch",
+    "metro": "lasvegas",
+    "alias": "rhodes-ranch-golf-club",
+    "facilityId": "762",
+    "displayName": "Rhodes Ranch Golf Club",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "siena",
+    "metro": "lasvegas",
+    "alias": "siena-golf-club",
+    "facilityId": "370",
+    "displayName": "Siena Golf Club",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "stallion-mountain",
+    "metro": "lasvegas",
+    "alias": "stallion-mountain-golf-club",
+    "facilityId": "5",
+    "displayName": "Stallion Mountain Golf Club",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "wildhorse",
+    "metro": "lasvegas",
+    "alias": "wildhorse",
+    "facilityId": "1111",
+    "displayName": "Wildhorse Golf Club",
+    "city": "Henderson",
+    "state": "NV"
+  },
+  {
+    "alias": "alondra-park-golf-courses",
+    "metro": "losangeles",
+    "displayName": "Alondra Golf Course",
+    "city": "Lawndale",
+    "state": "CA",
+    "holes": 18,
+    "key": "alondra-park-golf-courses"
+  },
+  {
+    "alias": "alondra-park-par-3-golf-course",
+    "metro": "losangeles",
+    "displayName": "Alondra Park Par 3 Golf Course",
+    "city": "Lawndale",
+    "state": "CA",
+    "holes": 9,
+    "key": "alondra-park-par-3-golf-course"
+  },
+  {
+    "alias": "american-golf-long-beach-public",
+    "metro": "losangeles",
+    "displayName": "Recreation Park Golf Course",
+    "city": "Long Beach",
+    "state": "CA",
+    "holes": 18,
+    "key": "american-golf-long-beach-public"
+  },
+  {
+    "alias": "anaheim-hills-golf-course",
+    "metro": "losangeles",
+    "displayName": "Anaheim Hills Golf Course",
+    "city": "Anaheim",
+    "state": "CA",
+    "holes": 18,
+    "key": "anaheim-hills-golf-course"
+  },
+  {
+    "alias": "angeles-national-golf-club",
+    "metro": "losangeles",
+    "displayName": "Angeles National Golf Club",
+    "city": "Sunland",
+    "state": "CA",
+    "holes": 18,
+    "key": "angeles-national-golf-club"
+  },
+  {
+    "alias": "arroyo-seco-golf-course",
+    "metro": "losangeles",
+    "displayName": "Arroyo Seco Golf Course",
+    "city": "South Pasadena",
+    "state": "CA",
+    "holes": 18,
+    "key": "arroyo-seco-golf-course"
+  },
+  {
+    "alias": "balboa-golf-course",
+    "metro": "losangeles",
+    "displayName": "Balboa Golf Course",
+    "city": "Encino",
+    "state": "CA",
+    "holes": 18,
+    "key": "balboa-golf-course"
+  },
+  {
+    "alias": "birch-hills-golf-course",
+    "metro": "losangeles",
+    "displayName": "Birch Hills Golf Course",
+    "city": "Brea",
+    "state": "CA",
+    "holes": 18,
+    "key": "birch-hills-golf-course"
+  },
+  {
+    "alias": "bixby-village-golf-course",
+    "metro": "losangeles",
+    "displayName": "Bixby Village Golf Course",
+    "city": "Long Beach",
+    "state": "CA",
+    "holes": 18,
+    "key": "bixby-village-golf-course"
+  },
+  {
+    "alias": "black-gold-golf-club",
+    "metro": "losangeles",
+    "displayName": "Black Gold Golf Club",
+    "city": "Yorba Linda",
+    "state": "CA",
+    "holes": 18,
+    "key": "black-gold-golf-club"
+  },
+  {
+    "alias": "brea-creek-golf-course",
+    "metro": "losangeles",
+    "displayName": "Brea Creek Golf Course",
+    "city": "Brea",
+    "state": "CA",
+    "holes": 18,
+    "key": "brea-creek-golf-course"
+  },
+  {
+    "alias": "chester-washington-golf-course",
+    "metro": "losangeles",
+    "displayName": "Chester Washington Golf Course",
+    "city": "Los Angeles",
+    "state": "CA",
+    "holes": 18,
+    "key": "chester-washington-golf-course"
+  },
+  {
+    "alias": "costa-mesa-country-club",
+    "facilityId": "12885",
+    "metro": "losangeles",
+    "displayName": "Costa Mesa Country Club - Los Lagos",
+    "city": "Costa Mesa",
+    "state": "CA",
+    "holes": 18,
+    "key": "costa-mesa-los-lagos"
+  },
+  {
+    "alias": "costa-mesa-country-club",
+    "facilityId": "12886",
+    "metro": "losangeles",
+    "displayName": "Costa Mesa Country Club - Mesa Linda",
+    "city": "Costa Mesa",
+    "state": "CA",
+    "holes": 18,
+    "key": "costa-mesa-mesa-linda"
+  },
+  {
+    "alias": "coyote-hills-golf-course",
+    "metro": "losangeles",
+    "displayName": "Coyote Hills Golf Course",
+    "city": "Fullerton",
+    "state": "CA",
+    "holes": 18,
+    "key": "coyote-hills-golf-course"
+  },
+  {
+    "alias": "dad-miller-golf-course",
+    "metro": "losangeles",
+    "displayName": "Dad Miller Golf Course",
+    "city": "Anaheim",
+    "state": "CA",
+    "holes": 18,
+    "key": "dad-miller-golf-course"
+  },
+  {
+    "alias": "david-l-baker-golf-course",
+    "metro": "losangeles",
+    "displayName": "David L. Baker Golf Course",
+    "city": "Fountain Valley",
+    "state": "CA",
+    "holes": 18,
+    "key": "david-l-baker-golf-course"
+  },
+  {
+    "alias": "diamond-bar-golf-course",
+    "metro": "losangeles",
+    "displayName": "Diamond Bar Golf Course",
+    "city": "Diamond Bar",
+    "state": "CA",
+    "holes": 18,
+    "key": "diamond-bar-golf-course"
+  },
+  {
+    "alias": "don-knabe-golf-center-junior-academy-formerly-norwalk",
+    "metro": "losangeles",
+    "displayName": "Don Knabe Golf Course",
+    "city": "Norwalk",
+    "state": "CA",
+    "holes": 18,
+    "key": "don-knabe-golf-center-junior-academy-formerly-norwalk"
+  },
+  {
+    "alias": "el-cariso-golf",
+    "metro": "losangeles",
+    "displayName": "El Cariso Golf Course",
+    "city": "Sylmar",
+    "state": "CA",
+    "holes": 18,
+    "key": "el-cariso-golf"
+  },
+  {
+    "alias": "el-dorado-park-golf-course",
+    "metro": "losangeles",
+    "displayName": "El Dorado Park Golf Course",
+    "city": "Long Beach",
+    "state": "CA",
+    "holes": 18,
+    "key": "el-dorado-park-golf-course"
+  },
+  {
+    "alias": "el-prado-golf-course-butterfield-stage",
+    "metro": "losangeles",
+    "displayName": "El Prado Golf Course - Butterfield Stage",
+    "city": "Chino",
+    "state": "CA",
+    "holes": 18,
+    "key": "el-prado-golf-course-butterfield-stage"
+  },
+  {
+    "alias": "el-prado-golf-course-chino-creek",
+    "metro": "losangeles",
+    "displayName": "El Prado Golf Course - Chino Creek",
+    "city": "Chino",
+    "state": "CA",
+    "holes": 18,
+    "key": "el-prado-golf-course-chino-creek"
+  },
+  {
+    "alias": "fullerton-golf-course",
+    "metro": "losangeles",
+    "displayName": "Fullerton Golf Course",
+    "city": "Fullerton",
+    "state": "CA",
+    "holes": 18,
+    "key": "fullerton-golf-course"
+  },
+  {
+    "alias": "glen-oaks-golf-and-learning-center",
+    "metro": "losangeles",
+    "displayName": "Glen Oaks Golf and Learning Center",
+    "city": "Glendora",
+    "state": "CA",
+    "holes": 18,
+    "key": "glen-oaks-golf-and-learning-center"
+  },
+  {
+    "alias": "heartwell-golf-course",
+    "metro": "losangeles",
+    "displayName": "Heartwell Golf Course",
+    "city": "Long Beach",
+    "state": "CA",
+    "holes": 18,
+    "key": "heartwell-golf-course"
+  },
+  {
+    "alias": "industry-hills-golf-club-babe-course",
+    "metro": "losangeles",
+    "displayName": "Industry Hills Golf Club - Zaharias",
+    "city": "City of Industry",
+    "state": "CA",
+    "holes": 18,
+    "key": "industry-hills-golf-club-babe-course"
+  },
+  {
+    "alias": "industry-hills-golf-club-ike-course",
+    "metro": "losangeles",
+    "displayName": "Industry Hills Golf Club - Ike",
+    "city": "City of Industry",
+    "state": "CA",
+    "holes": 18,
+    "key": "industry-hills-golf-club-ike-course"
+  },
+  {
+    "alias": "knollwood-golf-course",
+    "metro": "losangeles",
+    "displayName": "Knollwood Country Club",
+    "city": "Granada Hills",
+    "state": "CA",
+    "holes": 18,
+    "key": "knollwood-golf-course"
+  },
+  {
+    "alias": "la-mirada-golf-club",
+    "metro": "losangeles",
+    "displayName": "La Mirada Golf Course",
+    "city": "La Mirada",
+    "state": "CA",
+    "holes": 18,
+    "key": "la-mirada-golf-club"
+  },
+  {
+    "alias": "lake-forest-golf-and-practice-center",
+    "metro": "losangeles",
+    "displayName": "Lake Forest Golf and Practice Center",
+    "city": "Lake Forest",
+    "state": "CA",
+    "holes": 18,
+    "key": "lake-forest-golf-and-practice-center"
+  },
+  {
+    "alias": "lakewood-country-club-public",
+    "metro": "losangeles",
+    "displayName": "Lakewood Golf Course",
+    "city": "Lakewood",
+    "state": "CA",
+    "holes": 18,
+    "key": "lakewood-country-club-public"
+  },
+  {
+    "alias": "los-amigos-golf-course",
+    "metro": "losangeles",
+    "displayName": "Los Amigos Golf Course",
+    "city": "Downey",
+    "state": "CA",
+    "holes": 18,
+    "key": "los-amigos-golf-course"
+  },
+  {
+    "alias": "los-robles-greens-golf-course",
+    "metro": "losangeles",
+    "displayName": "Los Robles Greens Golf Course",
+    "city": "Thousand Oaks",
+    "state": "CA",
+    "holes": 18,
+    "key": "los-robles-greens-golf-course"
+  },
+  {
+    "alias": "los-verdes-golf-course",
+    "metro": "losangeles",
+    "displayName": "Los Verdes Golf Course",
+    "city": "Rancho Palos Verdes",
+    "state": "CA",
+    "holes": 18,
+    "key": "los-verdes-golf-course"
+  },
+  {
+    "alias": "maggie-hathaway-golf-course",
+    "metro": "losangeles",
+    "displayName": "Maggie Hathaway Golf Course",
+    "city": "Los Angeles",
+    "state": "CA",
+    "holes": 9,
+    "key": "maggie-hathaway-golf-course"
+  },
+  {
+    "alias": "marshall-canyon-golf-course",
+    "metro": "losangeles",
+    "displayName": "Marshall Canyon Golf Course",
+    "city": "La Verne",
+    "state": "CA",
+    "holes": 18,
+    "key": "marshall-canyon-golf-course"
+  },
+  {
+    "alias": "meadowlark-golf-club",
+    "metro": "losangeles",
+    "displayName": "Meadowlark Golf Club",
+    "city": "Huntington Beach",
+    "state": "CA",
+    "holes": 18,
+    "key": "meadowlark-golf-club"
+  },
+  {
+    "key": "monarch-beach-golf-links",
+    "metro": "losangeles",
+    "alias": "monarch-beach-golf-links",
+    "facilityId": "4522",
+    "displayName": "Monarch Beach Golf Links",
+    "city": "Dana Point",
+    "state": "CA"
+  },
+  {
+    "alias": "monterey-park-golf-course",
+    "metro": "losangeles",
+    "displayName": "Monterey Park Golf Course",
+    "city": "Monterey Park",
+    "state": "CA",
+    "holes": 18,
+    "key": "monterey-park-golf-course"
+  },
+  {
+    "alias": "mountain-meadows-golf-course",
+    "metro": "losangeles",
+    "displayName": "Mountain Meadows Golf Course",
+    "city": "Pomona",
+    "state": "CA",
+    "holes": 18,
+    "key": "mountain-meadows-golf-course"
+  },
+  {
+    "alias": "navy-golf-seal-beach-destroyer-course",
+    "metro": "losangeles",
+    "displayName": "Navy Golf Seal Beach - Destroyer Course",
+    "city": "Cypress",
+    "state": "CA",
+    "holes": 18,
+    "key": "navy-golf-seal-beach-destroyer-course"
+  },
+  {
+    "alias": "newport-beach-golf-course",
+    "metro": "losangeles",
+    "displayName": "Newport Beach Golf Course",
+    "city": "Newport Beach",
+    "state": "CA",
+    "holes": 18,
+    "key": "newport-beach-golf-course"
+  },
+  {
+    "alias": "oso-creek-golf-course",
+    "metro": "losangeles",
+    "displayName": "Oso Creek Golf Course",
+    "city": "Mission Viejo",
+    "state": "CA",
+    "holes": 18,
+    "key": "oso-creek-golf-course"
+  },
+  {
+    "alias": "rancho-duarte-golf-course",
+    "metro": "losangeles",
+    "displayName": "Rancho Duarte Golf Course",
+    "city": "Duarte",
+    "state": "CA",
+    "holes": 18,
+    "key": "rancho-duarte-golf-course"
+  },
+  {
+    "alias": "rancho-san-joaquin-golf-club",
+    "metro": "losangeles",
+    "displayName": "Rancho San Joaquin Golf Course",
+    "city": "Irvine",
+    "state": "CA",
+    "holes": 18,
+    "key": "rancho-san-joaquin-golf-club"
+  },
+  {
+    "alias": "recreation-park-golf-course-9",
+    "metro": "losangeles",
+    "displayName": "Recreation Park Golf Course 9",
+    "city": "Long Beach",
+    "state": "CA",
+    "holes": 9,
+    "key": "recreation-park-golf-course-9"
+  },
+  {
+    "alias": "river-view-golf-club",
+    "metro": "losangeles",
+    "displayName": "River View Golf Course",
+    "city": "Santa Ana",
+    "state": "CA",
+    "holes": 18,
+    "key": "river-view-golf-club"
+  },
+  {
+    "alias": "san-dimas-canyon-golf-club",
+    "metro": "losangeles",
+    "displayName": "San Dimas Canyon Golf Club",
+    "city": "San Dimas",
+    "state": "CA",
+    "holes": 18,
+    "key": "san-dimas-canyon-golf-club"
+  },
+  {
+    "alias": "santa-anita-golf-course",
+    "metro": "losangeles",
+    "displayName": "Santa Anita Golf Course",
+    "city": "Arcadia",
+    "state": "CA",
+    "holes": 18,
+    "key": "santa-anita-golf-course"
+  },
+  {
+    "alias": "scholl-canyon-golf-and-tennis-club",
+    "metro": "losangeles",
+    "displayName": "Scholl Canyon Golf & Tennis Club",
+    "city": "Glendale",
+    "state": "CA",
+    "holes": 18,
+    "key": "scholl-canyon-golf-and-tennis-club"
+  },
+  {
+    "alias": "skylinks-golf-course",
+    "metro": "losangeles",
+    "displayName": "Skylinks Golf Course",
+    "city": "Long Beach",
+    "state": "CA",
+    "holes": 18,
+    "key": "skylinks-golf-course"
+  },
+  {
+    "alias": "strawberry-farms-golf",
+    "metro": "losangeles",
+    "displayName": "Strawberry Farms Golf Club",
+    "city": "Irvine",
+    "state": "CA",
+    "holes": 18,
+    "key": "strawberry-farms-golf"
+  },
+  {
+    "alias": "the-lakes-at-el-segundo",
+    "metro": "losangeles",
+    "displayName": "The Lakes at El Segundo",
+    "city": "El Segundo",
+    "state": "CA",
+    "holes": 18,
+    "key": "the-lakes-at-el-segundo"
+  },
+  {
+    "alias": "the-montebello-9-at-bella-verde",
+    "metro": "losangeles",
+    "displayName": "Montebello Country Club",
+    "city": "Montebello",
+    "state": "CA",
+    "holes": 9,
+    "key": "the-montebello-9-at-bella-verde"
+  },
+  {
+    "alias": "the-signature-par-3-at-bella-verde",
+    "metro": "losangeles",
+    "displayName": "Bella Verde Par 3",
+    "city": "Montebello",
+    "state": "CA",
+    "holes": 9,
+    "key": "the-signature-par-3-at-bella-verde"
+  },
+  {
+    "alias": "tijeras-creek",
+    "metro": "losangeles",
+    "displayName": "Tijeras Creek Golf Club",
+    "city": "Rancho Santa Margarita",
+    "state": "CA",
+    "holes": 18,
+    "key": "tijeras-creek"
+  },
+  {
+    "alias": "tustin-ranch-golf-club",
+    "metro": "losangeles",
+    "displayName": "Tustin Ranch Golf Club",
+    "city": "Tustin",
+    "state": "CA",
+    "holes": 18,
+    "key": "tustin-ranch-golf-club"
+  },
+  {
+    "alias": "van-nuys-18-hole-par-3-gc",
+    "metro": "losangeles",
+    "displayName": "Van Nuys Golf Course - 18-Hole Par-3",
+    "city": "Van Nuys",
+    "state": "CA",
+    "holes": 18,
+    "key": "van-nuys-18-hole-par-3-gc"
+  },
+  {
+    "alias": "victoria-golf-course",
+    "metro": "losangeles",
+    "displayName": "Victoria Golf Course",
+    "city": "Carson",
+    "state": "CA",
+    "holes": 18,
+    "key": "victoria-golf-course"
+  },
+  {
+    "alias": "westchester-golf-course",
+    "metro": "losangeles",
+    "displayName": "Westchester Golf Course",
+    "city": "Los Angeles",
+    "state": "CA",
+    "holes": 18,
+    "key": "westchester-golf-course"
+  },
+  {
+    "alias": "westridge-golf-club",
+    "metro": "losangeles",
+    "displayName": "Westridge Golf Club",
+    "city": "La Habra",
+    "state": "CA",
+    "holes": 18,
+    "key": "westridge-golf-club"
+  },
+  {
+    "alias": "whittier-narrows-golf-course",
+    "metro": "losangeles",
+    "displayName": "Whittier Narrows Golf Course",
+    "city": "Rosemead",
+    "state": "CA",
+    "holes": 18,
+    "key": "whittier-narrows-golf-course"
+  },
+  {
+    "alias": "willowick-golf-course",
+    "metro": "losangeles",
+    "displayName": "Willowick Golf Course",
+    "city": "Santa Ana",
+    "state": "CA",
+    "holes": 18,
+    "key": "willowick-golf-course"
+  },
+  {
+    "alias": "woodley-lakes-golf-course",
+    "metro": "losangeles",
+    "displayName": "Woodley Lakes Golf Course",
+    "city": "Van Nuys",
+    "state": "CA",
+    "holes": 18,
+    "key": "woodley-lakes-golf-course"
+  },
+  {
+    "key": "bonaventure",
+    "metro": "miami",
+    "alias": "bonaventure-country-club-east-course",
+    "facilityId": "682",
+    "displayName": "Bonaventure Country Club",
+    "city": "Weston",
+    "state": "FL"
+  },
+  {
+    "key": "bridges-springtree",
+    "metro": "miami",
+    "facility": "6442",
+    "alias": "the-bridges-at-springtree-golf-club",
+    "displayName": "The Bridges at Springtree Golf Club",
+    "city": "Sunrise",
+    "state": "FL"
+  },
+  {
+    "key": "cc-coral-springs",
+    "metro": "miami",
+    "facility": "4572",
+    "alias": "country-club-of-coral-springs",
+    "displayName": "Country Club of Coral Springs",
+    "city": "Coral Springs",
+    "state": "FL"
+  },
+  {
+    "key": "colony-west",
+    "metro": "miami",
+    "facility": "2852",
+    "alias": "colony-west",
+    "displayName": "Colony West Golf Club",
+    "city": "Tamarac",
+    "state": "FL"
+  },
+  {
+    "key": "costa-del-sol",
+    "metro": "miami",
+    "facility": "848",
+    "alias": "costa-del-sol-golf-club",
+    "displayName": "Costa Del Sol Golf Club",
+    "city": "Doral",
+    "state": "FL"
+  },
+  {
+    "key": "crandon",
+    "metro": "miami",
+    "facility": "3648",
+    "alias": "crandon-golf-at-key-biscayne",
+    "displayName": "Crandon Golf at Key Biscayne",
+    "city": "Key Biscayne",
+    "state": "FL"
+  },
+  {
+    "key": "emerald-hills",
+    "metro": "miami",
+    "alias": "the-club-at-emerald-hills",
+    "facilityId": "10977",
+    "displayName": "The Club at Emerald Hills",
+    "city": "Hollywood",
+    "state": "FL"
+  },
+  {
+    "key": "flamingo-lakes",
+    "metro": "miami",
+    "alias": "flamingo-lakes-country-club",
+    "facilityId": "973",
+    "displayName": "Flamingo Lakes Country Club",
+    "city": "Pembroke Pines",
+    "state": "FL"
+  },
+  {
+    "key": "grand-palms",
+    "metro": "miami",
+    "facility": "999",
+    "alias": "grand-palms-golf-resort",
+    "displayName": "Grand Palms Golf Club",
+    "city": "Pembroke Pines",
+    "state": "FL"
+  },
+  {
+    "key": "killian-greens",
+    "metro": "miami",
+    "facility": "849",
+    "alias": "killian-greens-golf-club",
+    "displayName": "Killian Greens Golf Club",
+    "city": "Miami",
+    "state": "FL"
+  },
+  {
+    "key": "miami-springs",
+    "metro": "miami",
+    "alias": "miami-springs-golf-and-country-club",
+    "facilityId": "7277",
+    "displayName": "Miami Springs Golf & Country Club",
+    "city": "Miami",
+    "state": "FL"
+  },
+  {
+    "key": "orangebrook",
+    "metro": "miami",
+    "alias": "orangebrook-golf-country-club",
+    "facilityId": "4482,6661",
+    "displayName": "Orangebrook Golf & Country Club",
+    "city": "Hollywood",
+    "state": "FL",
+    "names": {
+      "54f14ce50c8ad60378b02ff6": "Orangebrook Golf - East Course",
+      "54f14ddf0c8ad60378b044e0": "Orangebrook Golf - West Course"
+    }
+  },
+  {
+    "key": "redland",
+    "metro": "miami",
+    "facility": "4446",
+    "alias": "redland-golf-and-country-club",
+    "displayName": "Redland Golf & Country Club",
+    "city": "Homestead",
+    "state": "FL"
+  },
+  {
+    "key": "azalea-sands",
+    "metro": "myrtle-beach",
+    "alias": "azalea-sands",
+    "facilityId": "5347",
+    "displayName": "Azalea Sands Golf Club",
+    "city": "North Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "key": "beachwood",
+    "metro": "myrtle-beach",
+    "alias": "beachwood-golf-club",
+    "facilityId": "5352",
+    "displayName": "Beachwood Golf Club",
+    "city": "North Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "key": "brick-landing",
+    "metro": "myrtle-beach",
+    "alias": "the-links-at-brick-landing",
+    "facilityId": "12639",
+    "displayName": "Brick Landing Plantation Golf Club",
+    "city": "Ocean Isle Beach",
+    "state": "NC"
+  },
+  {
+    "key": "brunswick-plantation",
+    "metro": "myrtle-beach",
+    "alias": "brunswick-plantation",
+    "facilityId": "5090",
+    "displayName": "Brunswick Plantation Golf Resort",
+    "city": "Calabash",
+    "state": "NC"
+  },
+  {
+    "key": "crown-park",
+    "metro": "myrtle-beach",
+    "alias": "crown-park",
+    "facilityId": "5355",
+    "displayName": "Crown Park Golf Club",
+    "city": "Longs",
+    "state": "SC"
+  },
+  {
+    "key": "eastport",
+    "metro": "myrtle-beach",
+    "alias": "valley-at-eastport-golf-club",
+    "facilityId": "6779",
+    "displayName": "Eastport Golf Club",
+    "city": "Little River",
+    "state": "SC"
+  },
+  {
+    "key": "glen-dornoch",
+    "metro": "myrtle-beach",
+    "alias": "glen-dornoch",
+    "facilityId": "5358",
+    "displayName": "Glen Dornoch Golf Club",
+    "city": "Little River",
+    "state": "SC"
+  },
+  {
+    "key": "indigo-creek",
+    "metro": "myrtle-beach",
+    "alias": "indigo-creek-golf-club",
+    "facilityId": "5420",
+    "displayName": "Indigo Creek Golf Club",
+    "city": "Murrells Inlet",
+    "state": "SC"
+  },
+  {
+    "key": "meadowlands",
+    "metro": "myrtle-beach",
+    "alias": "meadowlands-golf-club",
+    "facilityId": "5363",
+    "displayName": "Meadowlands Golf Club",
+    "city": "Calabash",
+    "state": "NC"
+  },
+  {
+    "key": "tupelo-bay",
+    "metro": "myrtle-beach",
+    "alias": "tupelo-bay-complex-executive-course",
+    "facilityId": "15723",
+    "displayName": "Tupelo Bay Golf Complex",
+    "city": "Murrells Inlet",
+    "state": "SC"
+  },
+  {
+    "key": "whispering-pines",
+    "metro": "myrtle-beach",
+    "alias": "whispering-pines-gc",
+    "facilityId": "5615",
+    "displayName": "Whispering Pines Golf Club",
+    "city": "Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "key": "wizard",
+    "metro": "myrtle-beach",
+    "alias": "the-wizard-golf-club",
+    "facilityId": "5412",
+    "displayName": "The Wizard Golf Course",
+    "city": "Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "key": "cedar-crest",
+    "metro": "nashville",
+    "alias": "cedar-crest-golf-club",
+    "facilityId": "5287",
+    "displayName": "Cedar Crest Golf Club",
+    "city": "Murfreesboro",
+    "state": "TN"
+  },
+  {
+    "key": "indian-hills",
+    "metro": "nashville",
+    "alias": "indian-hills-gc",
+    "facilityId": "7612",
+    "displayName": "Indian Hills Golf Club",
+    "city": "Murfreesboro",
+    "state": "TN"
+  },
+  {
+    "key": "nashboro",
+    "metro": "nashville",
+    "alias": "nashboro-golf-club",
+    "facilityId": "1400",
+    "displayName": "Nashboro Golf Club",
+    "city": "Nashville",
+    "state": "TN"
+  },
+  {
+    "key": "pebble-brook",
+    "metro": "nashville",
+    "alias": "pebble-brook-golf-course",
+    "facilityId": "11051",
+    "displayName": "Pebble Brook Golf Course",
+    "city": "Greenbrier",
+    "state": "TN"
+  },
+  {
+    "key": "pine-creek",
+    "metro": "nashville",
+    "alias": "pine-creek-golf-club",
+    "facilityId": "3286",
+    "displayName": "Pine Creek Golf Club",
+    "city": "Mt. Juliet",
+    "state": "TN"
+  },
+  {
+    "key": "smyrna-municipal",
+    "metro": "nashville",
+    "alias": "smyrna-golf-course",
+    "facilityId": "15222",
+    "displayName": "Smyrna Municipal Golf Course",
+    "city": "Smyrna",
+    "state": "TN"
+  },
+  {
+    "key": "the-legacy",
+    "metro": "nashville",
+    "alias": "the-legacy-of-springfield",
+    "facilityId": "1259",
+    "displayName": "The Legacy Golf Course",
+    "city": "Springfield",
+    "state": "TN"
+  },
+  {
+    "key": "twelve-stones",
+    "metro": "nashville",
+    "alias": "twelve-stones-crossing-golf-club",
+    "facilityId": "3188",
+    "displayName": "Twelve Stones Golf Club",
+    "city": "Goodlettsville",
+    "state": "TN"
+  },
+  {
+    "key": "audubon-park",
+    "metro": "neworleans",
+    "alias": "audubon-park-golf-club",
+    "facilityId": "1225",
+    "displayName": "Audubon Park Golf Club",
+    "city": "New Orleans",
+    "state": "LA"
+  },
+  {
+    "key": "belle-terre",
+    "metro": "neworleans",
+    "alias": "belle-terre-country-club",
+    "facilityId": "424",
+    "displayName": "Belle Terre Country Club",
+    "city": "LaPlace",
+    "state": "LA"
+  },
+  {
+    "key": "cypress-lakes",
+    "metro": "neworleans",
+    "alias": "cypress-lakes-cc",
+    "facilityId": "442",
+    "displayName": "Cypress Lakes Country Club",
+    "city": "Destrehan",
+    "state": "LA"
+  },
+  {
+    "key": "joseph-bartholomew",
+    "metro": "neworleans",
+    "alias": "joseph-bartholomew-golf-course",
+    "facilityId": "12794",
+    "displayName": "Joseph M. Bartholomew Golf Course",
+    "city": "New Orleans",
+    "state": "LA"
+  },
+  {
+    "key": "lakewood",
+    "metro": "neworleans",
+    "alias": "lakewood-golf-club",
+    "facilityId": "441",
+    "displayName": "Lakewood Golf Club",
+    "city": "New Orleans",
+    "state": "LA"
+  },
+  {
+    "key": "oak-harbor",
+    "metro": "neworleans",
+    "alias": "oak-harbor-golf-club",
+    "facilityId": "779",
+    "displayName": "Oak Harbor Golf Club",
+    "city": "Slidell",
+    "state": "LA"
+  },
+  {
+    "key": "choctaw-creek",
+    "metro": "oklahomacity",
+    "alias": "choctaw-creek-golf-course",
+    "facilityId": "2717",
+    "displayName": "Choctaw Creek Golf Course",
+    "city": "Choctaw",
+    "state": "OK"
+  },
+  {
+    "key": "cimarron-national",
+    "metro": "oklahomacity",
+    "alias": "cimarron-national",
+    "facilityId": "",
+    "displayName": "Cimarron National Golf Club",
+    "names": {
+      "54f14e5e0c8ad60378b04e70": "Cimarron National Golf Club",
+      "54f14e5e0c8ad60378b04e73": "Cimarron National Golf Club - Aqua Canyon Course"
+    },
+    "city": "Guthrie",
+    "state": "OK"
+  },
+  {
+    "key": "cobblestone-creek",
+    "metro": "oklahomacity",
+    "alias": "cobblestone-creek-golf-club",
+    "facilityId": "14146",
+    "displayName": "Cobblestone Creek Golf Course",
+    "city": "Norman",
+    "state": "OK"
+  },
+  {
+    "key": "celebration",
+    "metro": "orlando",
+    "alias": "celebration-golf-club",
+    "facilityId": "1806",
+    "displayName": "Celebration Golf Club",
+    "city": "Celebration",
+    "state": "FL"
+  },
+  {
+    "key": "championsgate-international",
+    "metro": "orlando",
+    "alias": "championsgate-golf-club",
+    "facilityId": "3707",
+    "displayName": "ChampionsGate Golf Club - International",
+    "city": "ChampionsGate",
+    "state": "FL"
+  },
+  {
+    "key": "championsgate-national",
+    "metro": "orlando",
+    "alias": "championsgate-golf-club",
+    "facilityId": "254",
+    "displayName": "ChampionsGate Golf Club - National",
+    "city": "ChampionsGate",
+    "state": "FL"
+  },
+  {
+    "key": "clermont-national",
+    "metro": "orlando",
+    "alias": "the-grove-at-clermont-national",
+    "facilityId": "1499",
+    "displayName": "Clermont National Golf Club",
+    "city": "Clermont",
+    "state": "FL"
+  },
+  {
+    "key": "disney-magnolia",
+    "metro": "orlando",
+    "alias": "disneys-magnolia-golf-course",
+    "facilityId": "3813",
+    "displayName": "Disney's Magnolia Golf Course",
+    "city": "Lake Buena Vista",
+    "state": "FL"
+  },
+  {
+    "key": "disney-palm",
+    "metro": "orlando",
+    "alias": "disneys-palm-golf-course",
+    "facilityId": "3809",
+    "displayName": "Disney's Palm Golf Course",
+    "city": "Lake Buena Vista",
+    "state": "FL"
+  },
+  {
+    "key": "dubsdread",
+    "metro": "orlando",
+    "alias": "dubsdread",
+    "facilityId": "877",
+    "displayName": "Dubsdread Golf Course",
+    "city": "Orlando",
+    "state": "FL"
+  },
+  {
+    "key": "eagle-creek",
+    "metro": "orlando",
+    "alias": "eagle-creek-golf-club-fl",
+    "facilityId": "2134",
+    "displayName": "Eagle Creek Golf Club",
+    "city": "Orlando",
+    "state": "FL"
+  },
+  {
+    "key": "falcons-fire",
+    "metro": "orlando",
+    "alias": "falcons-fire-golf-club",
+    "facilityId": "4673",
+    "displayName": "Falcon's Fire Golf Club",
+    "city": "Kissimmee",
+    "state": "FL"
+  },
+  {
+    "key": "harmony-golf-preserve",
+    "metro": "orlando",
+    "alias": "harmony-golf-preserve",
+    "facilityId": "673",
+    "displayName": "Harmony Golf Preserve",
+    "city": "Harmony",
+    "state": "FL"
+  },
+  {
+    "key": "kings-ridge",
+    "metro": "orlando",
+    "alias": "kings-ridge-v2",
+    "facilityId": "2035",
+    "displayName": "Kings Ridge Golf Club",
+    "city": "Clermont",
+    "state": "FL"
+  },
+  {
+    "key": "kissimmee-bay",
+    "metro": "orlando",
+    "alias": "kissimmee-bay-country-club",
+    "facilityId": "9093",
+    "displayName": "Kissimmee Bay Country Club",
+    "city": "Kissimmee",
+    "state": "FL"
+  },
+  {
+    "key": "legends",
+    "metro": "orlando",
+    "alias": "legends-golf-and-country-club",
+    "facilityId": "1844",
+    "displayName": "Legends Golf and Country Club",
+    "city": "Clermont",
+    "state": "FL"
+  },
+  {
+    "key": "metrowest",
+    "metro": "orlando",
+    "alias": "metrowest-golf-club",
+    "facilityId": "4062",
+    "displayName": "MetroWest Golf Club",
+    "city": "Orlando",
+    "state": "FL"
+  },
+  {
+    "key": "mystic-dunes",
+    "metro": "orlando",
+    "alias": "mystic-dunes-golf-club",
+    "facilityId": "466",
+    "displayName": "Mystic Dunes Golf Club",
+    "city": "Celebration",
+    "state": "FL"
+  },
+  {
+    "key": "north-shore",
+    "metro": "orlando",
+    "alias": "north-shore-golf-club-fl",
+    "facilityId": "3385",
+    "displayName": "North Shore Golf Club",
+    "city": "Orlando",
+    "state": "FL"
+  },
+  {
+    "key": "orange-county-national-crooked-cat",
+    "metro": "orlando",
+    "alias": "orange-county-national-v2",
+    "facilityId": "6019",
+    "displayName": "Orange County National - Crooked Cat",
+    "city": "Winter Garden",
+    "state": "FL"
+  },
+  {
+    "key": "orange-county-national-panther-lake",
+    "metro": "orlando",
+    "alias": "orange-county-national-v2",
+    "facilityId": "552",
+    "displayName": "Orange County National - Panther Lake",
+    "city": "Winter Garden",
+    "state": "FL"
+  },
+  {
+    "key": "providence",
+    "metro": "orlando",
+    "alias": "providence-golf-club",
+    "facilityId": "4407",
+    "displayName": "Providence Golf Club",
+    "city": "Davenport",
+    "state": "FL"
+  },
+  {
+    "key": "remington",
+    "metro": "orlando",
+    "alias": "remington-golf-club",
+    "facilityId": "1996",
+    "displayName": "Remington Golf Club",
+    "city": "Kissimmee",
+    "state": "FL"
+  },
+  {
+    "key": "rio-pinar",
+    "metro": "orlando",
+    "alias": "rio-pinar-country-club",
+    "facilityId": "4356",
+    "displayName": "Rio Pinar Golf Club",
+    "city": "Orlando",
+    "state": "FL"
+  },
+  {
+    "key": "stonegate-cypress",
+    "metro": "orlando",
+    "alias": "stonegate-golf-club-cypress-course",
+    "facilityId": "2021",
+    "displayName": "Stonegate Golf Club - Cypress",
+    "city": "Kissimmee",
+    "state": "FL"
+  },
+  {
+    "key": "stonegate-oaks",
+    "metro": "orlando",
+    "alias": "stonegate-golf-club-oaks-course",
+    "facilityId": "6333",
+    "displayName": "Stonegate Golf Club - Oaks",
+    "city": "Kissimmee",
+    "state": "FL"
+  },
+  {
+    "key": "stoneybrook-east",
+    "metro": "orlando",
+    "alias": "stoneybrook-east",
+    "facilityId": "1748",
+    "displayName": "Stoneybrook East Golf Club",
+    "city": "Orlando",
+    "state": "FL"
+  },
+  {
+    "key": "stoneybrook-west",
+    "metro": "orlando",
+    "alias": "stoneybrook-west",
+    "facilityId": "1943",
+    "displayName": "Stoneybrook West Golf Club",
+    "city": "Winter Garden",
+    "state": "FL"
+  },
+  {
+    "key": "sweetwater",
+    "metro": "orlando",
+    "alias": "sweetwater-golf-and-country-club",
+    "facilityId": "4272",
+    "displayName": "Sweetwater Golf & Country Club",
+    "city": "Apopka",
+    "state": "FL"
+  },
+  {
+    "key": "swiss-fairways",
+    "metro": "orlando",
+    "alias": "swiss-fairways-golf-club",
+    "facilityId": "2162",
+    "displayName": "Swiss Fairways Golf Club",
+    "city": "Clermont",
+    "state": "FL"
+  },
+  {
+    "key": "twin-rivers",
+    "metro": "orlando",
+    "alias": "twin-rivers-golf-club",
+    "facilityId": "263",
+    "displayName": "Twin Rivers Golf Club",
+    "city": "Oviedo",
+    "state": "FL"
+  },
+  {
+    "key": "ventura-cc",
+    "metro": "orlando",
+    "alias": "ventura-country-club",
+    "facilityId": "1791",
+    "displayName": "Ventura Country Club",
+    "city": "Orlando",
+    "state": "FL"
+  },
+  {
+    "key": "waldorf-astoria",
+    "metro": "orlando",
+    "alias": "waldorf-astoria-golf-club",
+    "facilityId": "4853",
+    "displayName": "Waldorf Astoria Golf Club",
+    "city": "Orlando",
+    "state": "FL"
+  },
+  {
+    "key": "wedgefield",
+    "metro": "orlando",
+    "alias": "wedgefield-golf-club",
+    "facilityId": "6179",
+    "displayName": "Wedgefield Golf Course",
+    "city": "Orlando",
+    "state": "FL"
+  },
+  {
+    "key": "wekiva",
+    "metro": "orlando",
+    "alias": "wekiva-golf-club",
+    "facilityId": "3824",
+    "displayName": "Wekiva Golf Club",
+    "city": "Longwood",
+    "state": "FL"
+  },
+  {
+    "key": "white-heron",
+    "metro": "orlando",
+    "alias": "white-heron-golf-club",
+    "facilityId": "2298",
+    "displayName": "White Heron Golf Club",
+    "city": "Davenport",
+    "state": "FL"
+  },
+  {
+    "key": "winter-park",
+    "metro": "orlando",
+    "alias": "winter-park-country-club",
+    "facilityId": "3217",
+    "displayName": "Winter Park Golf Course",
+    "city": "Winter Park",
+    "state": "FL"
+  },
+  {
+    "key": "aguila",
+    "metro": "phoenix",
+    "alias": "aguila-golf-course",
+    "facilityId": "287",
+    "displayName": "Aguila Golf Course",
+    "city": "Laveen",
+    "state": "AZ"
+  },
+  {
+    "key": "ahwatukee",
+    "metro": "phoenix",
+    "alias": "ahwatukee-golf-club",
+    "facilityId": "1294",
+    "displayName": "Ahwatukee Golf Club",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "ahwatukee-lakes",
+    "metro": "phoenix",
+    "alias": "ahwatukee-lakes-golf-club",
+    "facilityId": "556",
+    "displayName": "The Lakes at Ahwatukee Golf Club",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "ak-chin-southern-dunes",
+    "metro": "phoenix",
+    "alias": "ak-chin-southern-dunes-golf-club",
+    "facilityId": "3608",
+    "displayName": "Ak-Chin Southern Dunes Golf Club",
+    "city": "Maricopa",
+    "state": "AZ"
+  },
+  {
+    "key": "arizona-grand",
+    "metro": "phoenix",
+    "alias": "arizona-grand-golf-course",
+    "facilityId": "12",
+    "displayName": "Arizona Grand Golf Course",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "arizona-traditions",
+    "metro": "phoenix",
+    "alias": "arizona-traditions-golf-club",
+    "facilityId": "56",
+    "displayName": "Arizona Traditions Golf Club",
+    "city": "Surprise",
+    "state": "AZ"
+  },
+  {
+    "key": "bellair-golf-park",
+    "metro": "phoenix",
+    "alias": "bellair-golf-park",
+    "facilityId": "4505",
+    "displayName": "Bellair Golf Park",
+    "city": "Glendale",
+    "state": "AZ"
+  },
+  {
+    "key": "cave-creek",
+    "metro": "phoenix",
+    "alias": "cave-creek-golf-course",
+    "facilityId": "288",
+    "displayName": "Cave Creek Golf Course",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "cimarron",
+    "metro": "phoenix",
+    "alias": "cimarron-golf-course",
+    "facilityId": "5216",
+    "displayName": "Cimarron Golf Course",
+    "city": "Surprise",
+    "state": "AZ"
+  },
+  {
+    "key": "coldwater",
+    "metro": "phoenix",
+    "alias": "coldwater-golf-club",
+    "facilityId": "26",
+    "displayName": "Coldwater Golf Club",
+    "city": "Avondale",
+    "state": "AZ"
+  },
+  {
+    "key": "copper-canyon",
+    "metro": "phoenix",
+    "alias": "copper-canyon-golf-club",
+    "facilityId": "2042",
+    "displayName": "Copper Canyon Golf Club",
+    "city": "Buckeye",
+    "state": "AZ"
+  },
+  {
+    "key": "coronado",
+    "metro": "phoenix",
+    "alias": "coronado-golf-course",
+    "facilityId": "5042",
+    "displayName": "Coronado Golf Course",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "corte-bella",
+    "metro": "phoenix",
+    "alias": "corte-bella-golf-club",
+    "facilityId": "3",
+    "displayName": "Corte Bella Golf Club",
+    "city": "Sun City West",
+    "state": "AZ"
+  },
+  {
+    "key": "desert-sands",
+    "metro": "phoenix",
+    "alias": "desert-sands-golf-course",
+    "facilityId": "4283",
+    "displayName": "Desert Sands Golf Course",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "desert-springs",
+    "metro": "phoenix",
+    "alias": "desert-springs-golf-course",
+    "facilityId": "164",
+    "displayName": "Desert Springs Golf Course",
+    "city": "Surprise",
+    "state": "AZ"
+  },
+  {
+    "key": "dobson-ranch",
+    "metro": "phoenix",
+    "alias": "dobson-ranch",
+    "facilityId": "6501",
+    "displayName": "Dobson Ranch Golf Course",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "dove-valley-ranch",
+    "metro": "phoenix",
+    "alias": "dove-valley-ranch",
+    "facilityId": "115",
+    "displayName": "Dove Valley Ranch Golf Club",
+    "city": "Cave Creek",
+    "state": "AZ"
+  },
+  {
+    "key": "eagle-mountain",
+    "metro": "phoenix",
+    "alias": "eagle-mountain-golf-club",
+    "facilityId": "2",
+    "displayName": "Eagle Mountain Golf Club",
+    "city": "Fountain Hills",
+    "state": "AZ"
+  },
+  {
+    "key": "encanto",
+    "metro": "phoenix",
+    "alias": "encanto-golf-course",
+    "facilityId": "289",
+    "displayName": "Encanto Golf Course",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "estrella",
+    "metro": "phoenix",
+    "alias": "golf-club-of-estrella",
+    "facilityId": "51",
+    "displayName": "Golf Club of Estrella",
+    "city": "Goodyear",
+    "state": "AZ"
+  },
+  {
+    "key": "foothills",
+    "metro": "phoenix",
+    "alias": "foothills-golf-club",
+    "facilityId": "430",
+    "displayName": "Foothills Golf Club",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "golden-hills",
+    "metro": "phoenix",
+    "alias": "golden-hills-golf-club-az",
+    "facilityId": "1295",
+    "displayName": "Golden Hills Golf Club",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "grand-canyon-university",
+    "metro": "phoenix",
+    "alias": "grand-canyon-university-golf-course",
+    "facilityId": "290",
+    "displayName": "Grand Canyon University Golf Course",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "granite-falls-north",
+    "metro": "phoenix",
+    "alias": "granite-falls-golf-course-north",
+    "facilityId": "167",
+    "displayName": "Granite Falls Golf Course - North",
+    "city": "Surprise",
+    "state": "AZ"
+  },
+  {
+    "key": "granite-falls-south",
+    "metro": "phoenix",
+    "alias": "granite-falls-golf-course-south",
+    "facilityId": "11485",
+    "displayName": "Granite Falls Golf Course - South",
+    "city": "Surprise",
+    "state": "AZ"
+  },
+  {
+    "key": "greenfield-lakes",
+    "metro": "phoenix",
+    "alias": "greenfield-lakes-golf-course",
+    "facilityId": "4481",
+    "displayName": "Greenfield Lakes Golf Course",
+    "city": "Gilbert",
+    "state": "AZ"
+  },
+  {
+    "key": "hillcrest",
+    "metro": "phoenix",
+    "alias": "hillcrest-golf",
+    "facilityId": "1296",
+    "displayName": "Hillcrest Golf Course",
+    "city": "Sun City West",
+    "state": "AZ"
+  },
+  {
+    "key": "ironwood",
+    "metro": "phoenix",
+    "alias": "ironwood-golf-club",
+    "facilityId": "3505",
+    "displayName": "Ironwood Golf Club",
+    "city": "Chandler",
+    "state": "AZ"
+  },
+  {
+    "key": "kokopelli",
+    "metro": "phoenix",
+    "alias": "kokopelli-golf-club",
+    "facilityId": "121",
+    "displayName": "Kokopelli Golf Club",
+    "city": "Gilbert",
+    "state": "AZ"
+  },
+  {
+    "key": "las-colinas",
+    "metro": "phoenix",
+    "alias": "las-colinas-golf-club",
+    "facilityId": "1381",
+    "displayName": "Las Colinas Golf Club",
+    "city": "Queen Creek",
+    "state": "AZ"
+  },
+  {
+    "key": "las-sendas",
+    "metro": "phoenix",
+    "alias": "las-sendas-golf-club",
+    "facilityId": "21",
+    "displayName": "Las Sendas Golf Club",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "legacy",
+    "metro": "phoenix",
+    "alias": "the-legacy-golf-club",
+    "facilityId": "57",
+    "displayName": "The Legacy Golf Club",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "legend-trail",
+    "metro": "phoenix",
+    "alias": "legend-trail-golf-club",
+    "facilityId": "111",
+    "displayName": "Legend Trail Golf Club",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "lone-tree",
+    "metro": "phoenix",
+    "alias": "lone-tree-golf-club",
+    "facilityId": "1349",
+    "displayName": "Lone Tree Golf Club",
+    "city": "Chandler",
+    "state": "AZ"
+  },
+  {
+    "key": "longbow",
+    "metro": "phoenix",
+    "alias": "longbow-golf-club",
+    "facilityId": "3021",
+    "displayName": "Longbow Golf Club",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "lookout-mountain",
+    "metro": "phoenix",
+    "alias": "lookout-mountain-gc",
+    "facilityId": "285",
+    "displayName": "Lookout Mountain Golf Club",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "mountain-brook",
+    "metro": "phoenix",
+    "alias": "mountain-brook-golf-club",
+    "facilityId": "3173",
+    "displayName": "Mountain Brook Golf Club",
+    "city": "Gold Canyon",
+    "state": "AZ"
+  },
+  {
+    "key": "mountain-shadows",
+    "metro": "phoenix",
+    "alias": "mountain-shadows-golf-club",
+    "facilityId": "147",
+    "displayName": "Mountain Shadows Golf Course",
+    "city": "Paradise Valley",
+    "state": "AZ"
+  },
+  {
+    "key": "oakwood",
+    "metro": "phoenix",
+    "alias": "oakwood-golf-club-2",
+    "facilityId": "3506",
+    "displayName": "Oakwood Golf Club",
+    "city": "Sun Lakes",
+    "state": "AZ"
+  },
+  {
+    "key": "palo-verde",
+    "metro": "phoenix",
+    "alias": "palo-verde",
+    "facilityId": "3209",
+    "displayName": "Palo Verde Golf Course",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "paradise-valley",
+    "metro": "phoenix",
+    "alias": "paradise-valley-golf",
+    "facilityId": "6749",
+    "displayName": "Paradise Valley Golf Course",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "peoria-pines",
+    "metro": "phoenix",
+    "alias": "peoria-pines",
+    "facilityId": "5570",
+    "displayName": "Peoria Pines Golf Course",
+    "city": "Peoria",
+    "state": "AZ"
+  },
+  {
+    "key": "phoenician",
+    "metro": "phoenix",
+    "alias": "the-phoenician",
+    "facilityId": "1106",
+    "displayName": "The Phoenician Golf Club",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "pueblo-el-mirage",
+    "metro": "phoenix",
+    "alias": "pueblo-el-mirage-golf-course",
+    "facilityId": "6914",
+    "displayName": "Pueblo El Mirage Golf Course",
+    "city": "El Mirage",
+    "state": "AZ"
+  },
+  {
+    "key": "quintero",
+    "metro": "phoenix",
+    "alias": "quintero-golf-club",
+    "facilityId": "6388",
+    "displayName": "Quintero Golf Club",
+    "city": "Peoria",
+    "state": "AZ"
+  },
+  {
+    "key": "rancho-manana",
+    "metro": "phoenix",
+    "alias": "rancho-manana-golf-club",
+    "facilityId": "2914",
+    "displayName": "Rancho Manana Golf Club",
+    "city": "Cave Creek",
+    "state": "AZ"
+  },
+  {
+    "key": "red-mountain-ranch",
+    "metro": "phoenix",
+    "alias": "red-mountain-ranch-country-club",
+    "facilityId": "4678",
+    "displayName": "Red Mountain Ranch Country Club",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "san-marcos",
+    "metro": "phoenix",
+    "alias": "san-marcos-golf-resort",
+    "facilityId": "1383",
+    "displayName": "San Marcos Golf Resort",
+    "city": "Chandler",
+    "state": "AZ"
+  },
+  {
+    "key": "san-tan-highlands",
+    "metro": "phoenix",
+    "alias": "san-tan-highlands",
+    "facilityId": "58",
+    "displayName": "San Tan Highlands Golf Club",
+    "city": "San Tan Valley",
+    "state": "AZ"
+  },
+  {
+    "key": "scottsdale-silverado",
+    "metro": "phoenix",
+    "alias": "silverado-golf-club",
+    "facilityId": "59",
+    "displayName": "Scottsdale Silverado Golf Club",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "starfire",
+    "metro": "phoenix",
+    "alias": "starfire-golf-club",
+    "facilityId": "6",
+    "displayName": "Starfire Golf Club",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "starfire-18",
+    "metro": "phoenix",
+    "alias": "starfire-golf-club-scottsdale",
+    "facilityId": "6",
+    "displayName": "Starfire Golf Club - 18 Holes",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "starfire-mulligan",
+    "metro": "phoenix",
+    "alias": "starfire-golf-club-scottsdale",
+    "facilityId": "14452",
+    "displayName": "Starfire Golf Club - Mulligan 9",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "stonecreek",
+    "metro": "phoenix",
+    "alias": "stonecreek-golf-club",
+    "facilityId": "122",
+    "displayName": "Stonecreek Golf Club",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "sun-city-country-club",
+    "metro": "phoenix",
+    "alias": "sun-city-country-club",
+    "facilityId": "3602",
+    "displayName": "Sun City Country Club",
+    "city": "Sun City",
+    "state": "AZ"
+  },
+  {
+    "key": "sunbird",
+    "metro": "phoenix",
+    "alias": "sunbird-golf-club",
+    "facilityId": "1963",
+    "displayName": "Sunbird Golf Club",
+    "city": "Chandler",
+    "state": "AZ"
+  },
+  {
+    "key": "sunland-village",
+    "metro": "phoenix",
+    "alias": "sunland-village-golf-club",
+    "facilityId": "6558",
+    "displayName": "Sunland Village Golf Club",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "superstition-springs",
+    "metro": "phoenix",
+    "alias": "superstition-springs-golf-club",
+    "facilityId": "120",
+    "displayName": "Superstition Springs Golf Club",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "talking-stick",
+    "metro": "phoenix",
+    "alias": "talking-stick-golf-club",
+    "facilityId": "814",
+    "displayName": "Talking Stick Golf Club",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "the-duke",
+    "metro": "phoenix",
+    "alias": "the-duke-at-rancho-el-dorado",
+    "facilityId": "3022",
+    "displayName": "The Duke Golf Course",
+    "city": "Maricopa",
+    "state": "AZ"
+  },
+  {
+    "key": "trilogy-at-vistancia",
+    "metro": "phoenix",
+    "alias": "trilogy-golf-club-at-vistancia",
+    "facilityId": "1327",
+    "displayName": "Trilogy Golf Club at Vistancia",
+    "city": "Peoria",
+    "state": "AZ"
+  },
+  {
+    "key": "troon-north",
+    "metro": "phoenix",
+    "alias": "troon-north-golf-club",
+    "facilityId": "813",
+    "displayName": "Troon North Golf Club",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "viewpoint",
+    "metro": "phoenix",
+    "alias": "viewpoint-golf-resort",
+    "facilityId": "169",
+    "displayName": "Viewpoint Golf Resort",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "wickenburg",
+    "metro": "phoenix",
+    "alias": "wickenburg-country-club",
+    "facilityId": "9766",
+    "displayName": "Wickenburg Country Club",
+    "city": "Wickenburg",
+    "state": "AZ"
+  },
+  {
+    "key": "wigwam",
+    "metro": "phoenix",
+    "alias": "wigwam",
+    "facilityId": "6735",
+    "displayName": "Wigwam Golf Club",
+    "city": "Litchfield Park",
+    "state": "AZ"
+  },
+  {
+    "key": "antelope-greens",
+    "metro": "sacramento",
+    "alias": "antelope-greens",
+    "facilityId": "",
+    "displayName": "Antelope Greens Golf Course",
+    "city": "Antelope",
+    "state": "CA"
+  },
+  {
+    "key": "apple-mountain",
+    "metro": "sacramento",
+    "alias": "apple-mountain-golf-resort",
+    "facilityId": "",
+    "displayName": "Apple Mountain Golf Resort",
+    "city": "Camino",
+    "state": "CA"
+  },
+  {
+    "key": "cordova",
+    "metro": "sacramento",
+    "alias": "cordova-golf-course",
+    "facilityId": "",
+    "displayName": "Cordova Golf Course",
+    "city": "Sacramento",
+    "state": "CA"
+  },
+  {
+    "key": "darkhorse",
+    "metro": "sacramento",
+    "alias": "darkhorse-golf-club",
+    "facilityId": "",
+    "displayName": "DarkHorse Golf Club",
+    "city": "Auburn",
+    "state": "CA"
+  },
+  {
+    "key": "diamond-oaks",
+    "metro": "sacramento",
+    "alias": "diamond-oaks-golf-course",
+    "facilityId": "",
+    "displayName": "Diamond Oaks Golf Course",
+    "city": "Roseville",
+    "state": "CA"
+  },
+  {
+    "key": "emerald-lakes",
+    "metro": "sacramento",
+    "alias": "emerald-lakes-golf-course",
+    "facilityId": "",
+    "displayName": "Emerald Lakes Golf Course",
+    "city": "Elk Grove",
+    "state": "CA"
+  },
+  {
+    "key": "empire-ranch",
+    "metro": "sacramento",
+    "alias": "empire-ranch-golf-club",
+    "facilityId": "",
+    "displayName": "Empire Ranch Golf Club",
+    "city": "Folsom",
+    "state": "CA"
+  },
+  {
+    "key": "river-oaks",
+    "metro": "sacramento",
+    "alias": "river-oaks-golf-club-2",
+    "facilityId": "",
+    "displayName": "River Oaks Golf Club",
+    "city": "Nicolaus",
+    "state": "CA"
+  },
+  {
+    "key": "sierra-pines",
+    "metro": "sacramento",
+    "alias": "sierra-pines-golf-course",
+    "facilityId": "",
+    "displayName": "Sierra Pines Golf Course",
+    "city": "Roseville",
+    "state": "CA"
+  },
+  {
+    "key": "teal-bend",
+    "metro": "sacramento",
+    "alias": "teal-bend-golf-course",
+    "facilityId": "",
+    "displayName": "Teal Bend Golf Club",
+    "city": "Sacramento",
+    "state": "CA"
+  },
+  {
+    "key": "timber-creek",
+    "metro": "sacramento",
+    "alias": "timber-creek-golf-course",
+    "facilityId": "",
+    "displayName": "Timber Creek Golf Course",
+    "city": "Roseville",
+    "state": "CA"
+  },
+  {
+    "key": "turkey-creek",
+    "metro": "sacramento",
+    "alias": "turkey-creek-golf-course",
+    "facilityId": "",
+    "displayName": "Turkey Creek Golf Club",
+    "city": "Lincoln",
+    "state": "CA"
+  },
+  {
+    "key": "whitney-oaks",
+    "metro": "sacramento",
+    "alias": "whitney-oaks-golf-club",
+    "facilityId": "",
+    "displayName": "Whitney Oaks Golf Club",
+    "city": "Rocklin",
+    "state": "CA"
+  },
+  {
+    "key": "woodcreek",
+    "metro": "sacramento",
+    "alias": "woodcreek-golf-club",
+    "facilityId": "",
+    "displayName": "Woodcreek Golf Club",
+    "city": "Roseville",
+    "state": "CA"
+  },
+  {
+    "key": "canyon-springs",
+    "metro": "sanantonio",
+    "alias": "canyon-springs-golf-club",
+    "facilityId": "5196",
+    "displayName": "Canyon Springs Golf Club",
+    "city": "San Antonio",
+    "state": "TX"
+  },
+  {
+    "key": "hyatt-hill-country",
+    "metro": "sanantonio",
+    "alias": "hyatt-hill-country-resort",
+    "facilityId": "475",
+    "displayName": "Hyatt Hill Country Golf Club",
+    "city": "San Antonio",
+    "state": "TX"
+  },
+  {
+    "key": "landa-park",
+    "metro": "sanantonio",
+    "alias": "landa-park-golf-course-at-comal-springs",
+    "facilityId": "6929",
+    "displayName": "Landa Park Golf Course",
+    "city": "New Braunfels",
+    "state": "TX"
+  },
+  {
+    "key": "olympia-hills",
+    "metro": "sanantonio",
+    "alias": "olympia-hills-golf-club",
+    "facilityId": "5198",
+    "displayName": "Olympia Hills Golf Course",
+    "city": "Universal City",
+    "state": "TX"
+  },
+  {
+    "key": "pleasanton",
+    "metro": "sanantonio",
+    "alias": "pleasanton-country-club",
+    "facilityId": "7893",
+    "displayName": "Pleasanton Country Club",
+    "city": "Pleasanton",
+    "state": "TX"
+  },
+  {
+    "key": "river-bend",
+    "metro": "sanantonio",
+    "alias": "river-bend-gc-san-antonio",
+    "facilityId": "7892",
+    "displayName": "River Bend Golf Club",
+    "city": "Floresville",
+    "state": "TX"
+  },
+  {
+    "key": "silverhorn",
+    "metro": "sanantonio",
+    "alias": "silverhorn-golf-club-2",
+    "facilityId": "5074",
+    "displayName": "SilverHorn Golf Club",
+    "city": "San Antonio",
+    "state": "TX"
+  },
+  {
+    "key": "aviara",
+    "metro": "sandiego",
+    "alias": "aviara-golf-club",
+    "facilityId": "4082",
+    "displayName": "Aviara Golf Club",
+    "city": "Carlsbad",
+    "state": "CA"
+  },
+  {
+    "key": "carlton-oaks",
+    "metro": "sandiego",
+    "alias": "carlton-oaks-golf-club",
+    "facilityId": "2129",
+    "displayName": "Carlton Oaks Golf Club",
+    "city": "Santee",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "castle-creek",
+    "metro": "sandiego",
+    "alias": "castle-creek-country-club",
+    "facilityId": "1988",
+    "displayName": "Castle Creek Country Club",
+    "city": "Escondido",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "colina-park",
+    "metro": "sandiego",
+    "alias": "colina-park-golf-course",
+    "facilityId": "10641",
+    "displayName": "Colina Park Golf Course",
+    "city": "San Diego",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "coronado",
+    "metro": "sandiego",
+    "alias": "coronado-gc-3-14-be",
+    "facilityId": "10985",
+    "displayName": "Coronado Golf Course",
+    "city": "Coronado",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "enagic-at-eastlake",
+    "metro": "sandiego",
+    "alias": "eastlake-country-club",
+    "facilityId": "245",
+    "displayName": "Enagic Golf Club at Eastlake",
+    "city": "Chula Vista",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "lomas-santa-fe",
+    "metro": "sandiego",
+    "alias": "lomas-santa-fe-executive-golf-course",
+    "facilityId": "1241",
+    "displayName": "Lomas Santa Fe Executive Golf Course",
+    "city": "Solana Beach",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "maderas",
+    "metro": "sandiego",
+    "alias": "maderas-golf-club-v2",
+    "facilityId": "3069",
+    "displayName": "Maderas Golf Club",
+    "city": "Poway",
+    "state": "CA"
+  },
+  {
+    "key": "mission-trails",
+    "metro": "sandiego",
+    "alias": "mission-trails-golf-course",
+    "facilityId": "221",
+    "displayName": "Mission Trails Golf Course",
+    "city": "San Diego",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "mt-woodson",
+    "metro": "sandiego",
+    "alias": "mt-woodson-golf-club",
+    "facilityId": "4078",
+    "displayName": "Mt. Woodson Golf Club",
+    "city": "Ramona",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "national-city",
+    "metro": "sandiego",
+    "alias": "national-city-golf-course",
+    "facilityId": "3056",
+    "displayName": "National City Golf Course",
+    "city": "National City",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "native-oaks",
+    "metro": "sandiego",
+    "alias": "native-oaks-golf-club",
+    "facilityId": "1815",
+    "displayName": "Native Oaks Golf Club",
+    "city": "Valley Center",
+    "state": "CA"
+  },
+  {
+    "key": "pala-mesa",
+    "metro": "sandiego",
+    "alias": "pala-mesa-resort",
+    "facilityId": "1301",
+    "displayName": "Pala Mesa Golf Resort",
+    "city": "Fallbrook",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "riverwalk",
+    "metro": "sandiego",
+    "alias": "riverwalk-golf-club",
+    "facilityId": "171",
+    "displayName": "Riverwalk Golf Club",
+    "city": "San Diego",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "steele-canyon",
+    "metro": "sandiego",
+    "alias": "steele-canyon-golf-course",
+    "facilityId": "176",
+    "displayName": "Steele Canyon Golf Club",
+    "city": "Jamul",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "temeku-hills",
+    "metro": "sandiego",
+    "alias": "the-legends-golf-club",
+    "facilityId": "1244",
+    "displayName": "Temeku Hills Golf Club",
+    "city": "Temecula",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "vineyard-at-escondido",
+    "metro": "sandiego",
+    "alias": "the-vineyard-at-escondido",
+    "facilityId": "242",
+    "displayName": "The Vineyard at Escondido",
+    "city": "Escondido",
+    "state": "CA",
+    "holes": 18
+  },
+  {
+    "key": "blackberry-farm",
+    "metro": "sanfrancisco",
+    "alias": "blackberry-farm-golf-course",
+    "facilityId": "8616",
+    "displayName": "Blackberry Farm Golf Course",
+    "city": "Cupertino",
+    "state": "CA"
+  },
+  {
+    "key": "brentwood",
+    "metro": "sanfrancisco",
+    "alias": "the-golf-club-at-brentwood",
+    "facilityId": "1603",
+    "displayName": "Brentwood Golf Club",
+    "city": "Brentwood",
+    "state": "CA"
+  },
+  {
+    "key": "buchanan-fields",
+    "metro": "sanfrancisco",
+    "alias": "buchanan-fields-golf-course",
+    "facilityId": "5696",
+    "displayName": "Buchanan Fields Golf Course",
+    "city": "Concord",
+    "state": "CA"
+  },
+  {
+    "key": "crystal-springs",
+    "metro": "sanfrancisco",
+    "alias": "crystal-springs-golf-course",
+    "facilityId": "130",
+    "displayName": "Crystal Springs Golf Course",
+    "city": "Burlingame",
+    "state": "CA"
+  },
+  {
+    "key": "eagle-vines",
+    "metro": "sanfrancisco",
+    "alias": "eagle-vines-golf-club-2",
+    "facilityId": "10706",
+    "displayName": "Eagle Vines Golf Club",
+    "city": "Napa",
+    "state": "CA"
+  },
+  {
+    "key": "franklin-canyon",
+    "metro": "sanfrancisco",
+    "alias": "franklin-canyon-golf-course",
+    "facilityId": "455",
+    "displayName": "Franklin Canyon Golf Course",
+    "city": "Hercules",
+    "state": "CA"
+  },
+  {
+    "key": "gleneagles",
+    "metro": "sanfrancisco",
+    "alias": "gleneagles-gc-mclaren-park",
+    "facilityId": "3801",
+    "displayName": "Gleneagles Golf Course",
+    "city": "San Francisco",
+    "state": "CA"
+  },
+  {
+    "key": "hiddenbrooke",
+    "metro": "sanfrancisco",
+    "alias": "hiddenbrooke-golf-club",
+    "facilityId": "585",
+    "displayName": "Hiddenbrooke Golf Club",
+    "city": "Vallejo",
+    "state": "CA"
+  },
+  {
+    "key": "lake-chabot",
+    "metro": "sanfrancisco",
+    "alias": "lake-chabot-golf-course",
+    "facilityId": "1490",
+    "displayName": "Lake Chabot Golf Course",
+    "city": "Oakland",
+    "state": "CA"
+  },
+  {
+    "key": "los-lagos",
+    "metro": "sanfrancisco",
+    "alias": "los-lagos-golf-course",
+    "facilityId": "1450",
+    "displayName": "Los Lagos Golf Course",
+    "city": "San Jose",
+    "state": "CA"
+  },
+  {
+    "key": "monarch-bay",
+    "metro": "sanfrancisco",
+    "alias": "monarch-bay-golf-courses",
+    "facilityId": "458",
+    "displayName": "Monarch Bay - Lema 18",
+    "city": "San Leandro",
+    "state": "CA"
+  },
+  {
+    "key": "monarch-bay-marina",
+    "metro": "sanfrancisco",
+    "alias": "monarch-bay-golf-courses",
+    "facilityId": "16194",
+    "displayName": "Monarch Bay - Marina 9",
+    "city": "San Leandro",
+    "state": "CA"
+  },
+  {
+    "key": "pasatiempo",
+    "metro": "sanfrancisco",
+    "alias": "pasatiempo-golf-club",
+    "facilityId": "4759",
+    "displayName": "Pasatiempo Golf Club",
+    "city": "Santa Cruz",
+    "state": "CA"
+  },
+  {
+    "key": "peacock-gap",
+    "metro": "sanfrancisco",
+    "alias": "peacock-gap-golf-club",
+    "facilityId": "237",
+    "displayName": "Peacock Gap Golf Club",
+    "city": "San Rafael",
+    "state": "CA"
+  },
+  {
+    "key": "pleasanton-golf-center",
+    "metro": "sanfrancisco",
+    "alias": "pleasanton-golf-center",
+    "facilityId": "586",
+    "displayName": "Pleasanton Golf Center",
+    "city": "Pleasanton",
+    "state": "CA"
+  },
+  {
+    "key": "spring-valley",
+    "metro": "sanfrancisco",
+    "alias": "spring-valley-golf-course",
+    "facilityId": "160",
+    "displayName": "Spring Valley Golf Course",
+    "city": "Milpitas",
+    "state": "CA"
+  },
+  {
+    "key": "the-bridges",
+    "metro": "sanfrancisco",
+    "alias": "the-bridges-golf-club-2",
+    "facilityId": "5141",
+    "displayName": "The Bridges Golf Club",
+    "city": "San Ramon",
+    "state": "CA"
+  },
+  {
+    "key": "wente-vineyards",
+    "metro": "sanfrancisco",
+    "alias": "the-course-at-wente-vineyards",
+    "facilityId": "432",
+    "displayName": "The Course at Wente Vineyards",
+    "city": "Livermore",
+    "state": "CA"
+  },
+  {
+    "key": "babe-zaharias",
+    "metro": "tampa",
+    "alias": "babe-zaharias-golf-course-tampa",
+    "facilityId": "890",
+    "displayName": "Babe Zaharias Golf Course",
+    "city": "Tampa",
+    "state": "FL"
+  },
+  {
+    "key": "bardmoor",
+    "metro": "tampa",
+    "alias": "bardmoor-golf-and-tennis-club",
+    "facilityId": "596",
+    "displayName": "Bardmoor Golf and Tennis Club",
+    "city": "Seminole",
+    "state": "FL"
+  },
+  {
+    "key": "bloomingdale-golfers",
+    "metro": "tampa",
+    "alias": "bloomingdale-golfers-club",
+    "facilityId": "1180",
+    "displayName": "Bloomingdale Golfers Club",
+    "city": "Valrico",
+    "state": "FL"
+  },
+  {
+    "key": "clearwater",
+    "metro": "tampa",
+    "alias": "clearwater-country-club",
+    "facilityId": "1066",
+    "displayName": "Clearwater Country Club",
+    "city": "Clearwater",
+    "state": "FL"
+  },
+  {
+    "key": "countryway",
+    "metro": "tampa",
+    "alias": "countryway-golf-club",
+    "facilityId": "8829",
+    "displayName": "Countryway Golf Club",
+    "city": "Tampa",
+    "state": "FL"
+  },
+  {
+    "key": "cove-cay",
+    "metro": "tampa",
+    "alias": "cove-cay-country-club",
+    "facilityId": "2291",
+    "displayName": "Cove Cay Golf Club",
+    "city": "Clearwater",
+    "state": "FL"
+  },
+  {
+    "key": "crescent-oaks",
+    "metro": "tampa",
+    "alias": "crescent-oaks-country-club",
+    "facilityId": "3708",
+    "displayName": "Crescent Oaks Country Club",
+    "city": "Tarpon Springs",
+    "state": "FL"
+  },
+  {
+    "key": "cypress-creek",
+    "metro": "tampa",
+    "alias": "cypress-creek-golf-club",
+    "facilityId": "674",
+    "displayName": "Cypress Creek Golf Club",
+    "city": "Ruskin",
+    "state": "FL"
+  },
+  {
+    "key": "fox-hollow",
+    "metro": "tampa",
+    "alias": "fox-hollow-gc",
+    "facilityId": "1124",
+    "displayName": "Fox Hollow Golf Club",
+    "city": "Trinity",
+    "state": "FL"
+  },
+  {
+    "key": "greenfield-plantation",
+    "metro": "tampa",
+    "alias": "the-links-at-greenfield-plantation",
+    "facilityId": "2348",
+    "displayName": "The Links at Greenfield Plantation",
+    "city": "Bradenton",
+    "state": "FL"
+  },
+  {
+    "key": "heritage-harbor",
+    "metro": "tampa",
+    "alias": "heritage-harbor-golf-and-country-club",
+    "facilityId": "4276",
+    "displayName": "Heritage Harbor Golf and Country Club",
+    "city": "Lutz",
+    "state": "FL"
+  },
+  {
+    "key": "heritage-harbour",
+    "metro": "tampa",
+    "alias": "heritage-harbour-golf-club",
+    "facilityId": "4104",
+    "displayName": "Heritage Harbour Golf Club",
+    "city": "Bradenton",
+    "state": "FL"
+  },
+  {
+    "key": "heritage-isles",
+    "metro": "tampa",
+    "alias": "heritage-isles-golf-and-cc",
+    "facilityId": "3130",
+    "displayName": "Heritage Isles Golf and Country Club",
+    "city": "Tampa",
+    "state": "FL"
+  },
+  {
+    "key": "hernando-oaks",
+    "metro": "tampa",
+    "alias": "hernando-oaks-golf-and-country-club",
+    "facilityId": "3689",
+    "displayName": "Hernando Oaks Golf and Country Club",
+    "city": "Brooksville",
+    "state": "FL"
+  },
+  {
+    "key": "landings-clearwater",
+    "metro": "tampa",
+    "alias": "the-landings-golf-club-of-clearwater",
+    "facilityId": "7844",
+    "displayName": "The Landings Golf Club of Clearwater",
+    "city": "Clearwater",
+    "state": "FL"
+  },
+  {
+    "key": "lansbrook",
+    "metro": "tampa",
+    "alias": "lansbrook-golf-club",
+    "facilityId": "2250",
+    "displayName": "Lansbrook Golf Club",
+    "city": "Palm Harbor",
+    "state": "FL"
+  },
+  {
+    "key": "lexington-oaks",
+    "metro": "tampa",
+    "alias": "lexington-oaks-golf-club",
+    "facilityId": "2077",
+    "displayName": "Lexington Oaks Golf Club",
+    "city": "Wesley Chapel",
+    "state": "FL"
+  },
+  {
+    "key": "links-of-lake-bernadette",
+    "metro": "tampa",
+    "alias": "links-of-lake-bernadette",
+    "facilityId": "1794",
+    "displayName": "Links of Lake Bernadette",
+    "city": "Zephyrhills",
+    "state": "FL"
+  },
+  {
+    "key": "peridia",
+    "metro": "tampa",
+    "alias": "peridia-golf-and-country-club",
+    "facilityId": "8959",
+    "displayName": "Peridia Golf and Country Club",
+    "city": "Bradenton",
+    "state": "FL"
+  },
+  {
+    "key": "pinebrook-ironwood",
+    "metro": "tampa",
+    "alias": "pinebrookironwood-golf-club",
+    "facilityId": "5549",
+    "displayName": "Pinebrook Ironwood Golf Club",
+    "city": "Bradenton",
+    "state": "FL"
+  },
+  {
+    "key": "plantation-palms",
+    "metro": "tampa",
+    "alias": "plantation-palms-golf-club",
+    "facilityId": "2823",
+    "displayName": "Plantation Palms Golf Club",
+    "city": "Land O Lakes",
+    "state": "FL"
+  },
+  {
+    "key": "preserve-at-tara",
+    "metro": "tampa",
+    "alias": "the-preserve-golf-club-at-tara",
+    "facilityId": "3722",
+    "displayName": "The Preserve Golf Club at Tara",
+    "city": "Bradenton",
+    "state": "FL"
+  },
+  {
+    "key": "river-club",
+    "metro": "tampa",
+    "alias": "the-river-club",
+    "facilityId": "1873",
+    "displayName": "The River Club Golf Course",
+    "city": "Bradenton",
+    "state": "FL"
+  },
+  {
+    "key": "river-run",
+    "metro": "tampa",
+    "alias": "river-run-golf-links",
+    "facilityId": "5072",
+    "displayName": "River Run Golf Links",
+    "city": "Bradenton",
+    "state": "FL"
+  },
+  {
+    "key": "rocky-point",
+    "metro": "tampa",
+    "alias": "rocky-point-golf-course",
+    "facilityId": "907",
+    "displayName": "Rocky Point Golf Course",
+    "city": "Tampa",
+    "state": "FL"
+  },
+  {
+    "key": "rogers-park",
+    "metro": "tampa",
+    "alias": "rogers-park-golf-course",
+    "facilityId": "910",
+    "displayName": "Rogers Park Golf Course",
+    "city": "Tampa",
+    "state": "FL"
+  },
+  {
+    "key": "rosedale",
+    "metro": "tampa",
+    "alias": "rosedale-golf-and-country-club",
+    "facilityId": "3629",
+    "displayName": "Rosedale Golf and Country Club",
+    "city": "Bradenton",
+    "state": "FL"
+  },
+  {
+    "key": "seven-springs-champion",
+    "metro": "tampa",
+    "alias": "seven-springs-golf-and-country-club-v2",
+    "facilityId": "5782",
+    "displayName": "Seven Springs Golf and Country Club - Champion",
+    "city": "New Port Richey",
+    "state": "FL"
+  },
+  {
+    "key": "seven-springs-little-course",
+    "metro": "tampa",
+    "alias": "seven-springs-golf-and-country-club-v2",
+    "facilityId": "6280",
+    "displayName": "Seven Springs Golf and Country Club - The Little Course",
+    "city": "New Port Richey",
+    "state": "FL"
+  },
+  {
+    "key": "sherman-hills",
+    "metro": "tampa",
+    "alias": "sherman-hills-golf-club",
+    "facilityId": "3718",
+    "displayName": "Sherman Hills Golf Club",
+    "city": "Brooksville",
+    "state": "FL"
+  },
+  {
+    "key": "silver-dollar",
+    "metro": "tampa",
+    "alias": "silver-dollar-golf-club",
+    "facilityId": "4427",
+    "displayName": "Silver Dollar Golf Club",
+    "city": "Odessa",
+    "state": "FL"
+  },
+  {
+    "key": "silverthorn",
+    "metro": "tampa",
+    "alias": "silverthorn-country-club",
+    "facilityId": "2822",
+    "displayName": "Silverthorn Country Club",
+    "city": "Spring Hill",
+    "state": "FL"
+  },
+  {
+    "key": "southport-springs",
+    "metro": "tampa",
+    "alias": "southport-springs-golf-club",
+    "facilityId": "16128",
+    "displayName": "Southport Springs Golf and Country Club",
+    "city": "Zephyrhills",
+    "state": "FL"
+  },
+  {
+    "key": "temple-terrace",
+    "metro": "tampa",
+    "alias": "temple-terrace-country-club",
+    "facilityId": "9604",
+    "displayName": "Temple Terrace Golf and Country Club",
+    "city": "Temple Terrace",
+    "state": "FL"
+  },
+  {
+    "key": "terra-ceia-bay",
+    "metro": "tampa",
+    "alias": "terra-ceia-bay",
+    "facilityId": "10479",
+    "displayName": "Terra Ceia Bay Golf Club",
+    "city": "Palmetto",
+    "state": "FL"
+  },
+  {
+    "key": "the-groves",
+    "metro": "tampa",
+    "alias": "the-groves-golf-and-country-club",
+    "facilityId": "2788",
+    "displayName": "The Groves Golf and Country Club",
+    "city": "Land O Lakes",
+    "state": "FL"
+  },
+  {
+    "key": "tpc-tampa-bay",
+    "metro": "tampa",
+    "alias": "tpc-tampa-bay",
+    "facilityId": "7539",
+    "displayName": "TPC Tampa Bay",
+    "city": "Lutz",
+    "state": "FL"
+  },
+  {
+    "key": "waterlefe",
+    "metro": "tampa",
+    "alias": "waterlefe-golf-and-river-club",
+    "facilityId": "3797",
+    "displayName": "Waterlefe Golf and River Club",
+    "city": "Bradenton",
+    "state": "FL"
+  },
+  {
+    "key": "arizona-national",
+    "metro": "tucson",
+    "alias": "arizona-national",
+    "facilityId": "297",
+    "displayName": "Arizona National Golf Club",
+    "city": "Tucson",
+    "state": "AZ"
+  },
+  {
+    "key": "canoa-ranch",
+    "metro": "tucson",
+    "alias": "canoa-ranch-golf-club",
+    "facilityId": "800",
+    "displayName": "Canoa Ranch Golf Club",
+    "city": "Green Valley",
+    "state": "AZ"
+  },
+  {
+    "key": "crooked-tree",
+    "metro": "tucson",
+    "alias": "crooked-tree-gc",
+    "facilityId": "3799",
+    "displayName": "Crooked Tree Golf Course",
+    "city": "Tucson",
+    "state": "AZ"
+  },
+  {
+    "key": "del-lago",
+    "metro": "tucson",
+    "alias": "del-lago",
+    "facilityId": "391",
+    "displayName": "Del Lago Golf Club",
+    "city": "Vail",
+    "state": "AZ"
+  },
+  {
+    "key": "el-conquistador",
+    "metro": "tucson",
+    "alias": "el-conquistador",
+    "facilityId": "270",
+    "displayName": "El Conquistador Golf & Tennis",
+    "city": "Oro Valley",
+    "state": "AZ"
+  },
+  {
+    "key": "forty-niner",
+    "metro": "tucson",
+    "alias": "forty-niner-country-club",
+    "facilityId": "302",
+    "displayName": "Forty Niner Country Club",
+    "city": "Tucson",
+    "state": "AZ"
+  },
+  {
+    "key": "haven",
+    "metro": "tucson",
+    "alias": "haven-golf-course",
+    "facilityId": "3568",
+    "displayName": "Haven Golf Course",
+    "city": "Green Valley",
+    "state": "AZ"
+  },
+  {
+    "key": "san-ignacio",
+    "metro": "tucson",
+    "alias": "san-ignacio-golf-club",
+    "facilityId": "299",
+    "displayName": "San Ignacio Golf Club",
+    "city": "Green Valley",
+    "state": "AZ"
+  },
+  {
+    "key": "torres-blancas",
+    "metro": "tucson",
+    "alias": "torres-blancas-golf-club",
+    "facilityId": "872",
+    "displayName": "Torres Blancas Golf Club",
+    "city": "Green Valley",
+    "state": "AZ"
+  },
+  {
+    "key": "tubac",
+    "metro": "tucson",
+    "alias": "tubac-golf-resort",
+    "facilityId": "390",
+    "displayName": "Tubac Golf Resort",
+    "city": "Tubac",
+    "state": "AZ"
+  },
+  {
+    "key": "tucson-national",
+    "metro": "tucson",
+    "alias": "omni-tucson-national-resort-sp6a",
+    "facilityId": "465",
+    "displayName": "Omni Tucson National Resort",
+    "city": "Tucson",
+    "state": "AZ"
+  },
+  {
+    "key": "ventana-canyon",
+    "metro": "tucson",
+    "alias": "ventana-canyon-guest",
+    "facilityId": "464",
+    "displayName": "Ventana Canyon Golf Club",
+    "city": "Tucson",
+    "state": "AZ"
+  },
+  {
+    "key": "tahquitz-creek-resort",
+    "metro": "palmsprings",
+    "alias": "tahquitz-creek-golf-resort-resort-course",
+    "facilityId": "6427",
+    "displayName": "Tahquitz Creek Golf Resort - Resort Course",
+    "city": "Palm Springs",
+    "state": "CA"
+  },
+  {
+    "key": "tahquitz-creek-legend",
+    "metro": "palmsprings",
+    "alias": "tahquitz-creek-golf-resort-legend-course",
+    "facilityId": "2930",
+    "displayName": "Tahquitz Creek Golf Resort - Legend Course",
+    "city": "Palm Springs",
+    "state": "CA"
+  },
+  {
+    "key": "mission-lakes",
+    "metro": "palmsprings",
+    "alias": "mission-lakes-country-club",
+    "facilityId": "6940",
+    "displayName": "Mission Lakes Country Club",
+    "city": "Desert Hot Springs",
+    "state": "CA"
+  },
+  {
+    "key": "classic-club",
+    "metro": "palmsprings",
+    "alias": "classic-club",
+    "facilityId": "1662",
+    "displayName": "Classic Club",
+    "city": "Palm Desert",
+    "state": "CA"
+  },
+  {
+    "key": "palm-desert-resort",
+    "metro": "palmsprings",
+    "alias": "palm-desert-resort-country-club",
+    "facilityId": "1388",
+    "displayName": "Palm Desert Resort Country Club",
+    "city": "Palm Desert",
+    "state": "CA"
+  },
+  {
+    "key": "suncrest",
+    "metro": "palmsprings",
+    "alias": "suncrest-country-club",
+    "facilityId": "19694",
+    "displayName": "Suncrest Country Club",
+    "city": "Palm Desert",
+    "state": "CA"
+  },
+  {
+    "key": "desert-falls",
+    "metro": "palmsprings",
+    "alias": "desert-falls-country-club",
+    "facilityId": "2028",
+    "displayName": "Desert Falls Country Club",
+    "city": "Palm Desert",
+    "state": "CA"
+  },
+  {
+    "key": "pga-west-stadium",
+    "metro": "palmsprings",
+    "alias": "pga-west-stadium-course",
+    "facilityId": "3155",
+    "displayName": "PGA West - Stadium Course",
+    "city": "La Quinta",
+    "state": "CA"
+  },
+  {
+    "key": "pga-west-greg-norman",
+    "metro": "palmsprings",
+    "alias": "pga-west-greg-norman-course",
+    "facilityId": "3154",
+    "displayName": "PGA West - Greg Norman Course",
+    "city": "La Quinta",
+    "state": "CA"
+  },
+  {
+    "key": "silverrock",
+    "metro": "palmsprings",
+    "alias": "silverrock-resort",
+    "facilityId": "1913",
+    "displayName": "SilverRock Resort",
+    "city": "La Quinta",
+    "state": "CA"
+  },
+  {
+    "key": "palm-royale",
+    "metro": "palmsprings",
+    "alias": "palm-royale-country-club",
+    "facilityId": "1918",
+    "displayName": "Palm Royale Country Club",
+    "city": "La Quinta",
+    "state": "CA"
+  },
+  {
+    "key": "shadow-hills-north",
+    "metro": "palmsprings",
+    "alias": "shadow-hills-golf-club-north-course",
+    "facilityId": "6136",
+    "displayName": "Shadow Hills Golf Club - North Course",
+    "city": "Indio",
+    "state": "CA"
+  },
+  {
+    "key": "indian-palms",
+    "metro": "palmsprings",
+    "alias": "indian-palms-country-club",
+    "facilityId": "524",
+    "displayName": "Indian Palms Country Club",
+    "city": "Indio",
+    "state": "CA"
+  },
+  {
+    "key": "indian-springs",
+    "metro": "palmsprings",
+    "alias": "indian-springs-golf-club",
+    "facilityId": "1266",
+    "displayName": "Indian Springs Golf Club",
+    "city": "Indio",
+    "state": "CA"
+  },
+  {
+    "key": "lights-at-indio",
+    "metro": "palmsprings",
+    "alias": "the-lights-at-indio-golf-course",
+    "facilityId": "8880",
+    "displayName": "The Lights at Indio Golf Course",
+    "city": "Indio",
+    "state": "CA"
+  },
+  {
+    "key": "date-palm",
+    "metro": "palmsprings",
+    "alias": "date-palm-country-club",
+    "facilityId": "5478",
+    "displayName": "Date Palm Country Club",
+    "city": "Cathedral City",
+    "state": "CA"
+  }
+]

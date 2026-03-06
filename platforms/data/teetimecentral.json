@@ -1,0 +1,74 @@
+[
+  {
+    "key": "tpc-myrtle-beach",
+    "metro": "myrtle-beach",
+    "courseCode": "TPCM",
+    "bookingUrl": "https://tpconline.teetimecentralonline.com/",
+    "displayName": "TPC Myrtle Beach",
+    "city": "Murrells Inlet",
+    "state": "SC"
+  },
+  {
+    "key": "burning-ridge",
+    "metro": "myrtle-beach",
+    "courseCode": "BURI",
+    "bookingUrl": "https://burningridge.teetimecentralonline.com/",
+    "displayName": "Burning Ridge Golf Club",
+    "city": "Conway",
+    "state": "SC"
+  },
+  {
+    "key": "wild-wing-avocet",
+    "metro": "myrtle-beach",
+    "courseCode": "WWAV",
+    "bookingUrl": "https://wildwing.teetimecentralonline.com/",
+    "displayName": "Wild Wing Avocet",
+    "city": "Conway",
+    "state": "SC"
+  },
+  {
+    "key": "mbn-kings-north",
+    "metro": "myrtle-beach",
+    "courseCode": "KING",
+    "bookingUrl": "https://mbnkingsnorth.teetimecentralonline.com/",
+    "displayName": "MB National - King's North",
+    "city": "Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "key": "mbn-southcreek",
+    "metro": "myrtle-beach",
+    "courseCode": "MBNS",
+    "bookingUrl": "https://mbnsouthcreek.teetimecentralonline.com/",
+    "displayName": "MB National - SouthCreek",
+    "city": "Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "key": "mbn-west",
+    "metro": "myrtle-beach",
+    "courseCode": "MBNW",
+    "bookingUrl": "https://mbnwest.teetimecentralonline.com/",
+    "displayName": "MB National - West",
+    "city": "Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "key": "myrtlewood-palmetto",
+    "metro": "myrtle-beach",
+    "courseCode": "MWPA",
+    "bookingUrl": "https://myrtlewoodpalmetto.teetimecentralonline.com/",
+    "displayName": "Myrtlewood - Palmetto",
+    "city": "Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "key": "myrtlewood-pinehills",
+    "metro": "myrtle-beach",
+    "courseCode": "MWPI",
+    "bookingUrl": "https://myrtlewoodpinehills.teetimecentralonline.com/",
+    "displayName": "Myrtlewood - PineHills",
+    "city": "Myrtle Beach",
+    "state": "SC"
+  }
+]

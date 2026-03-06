@@ -1,0 +1,96 @@
+# Phoenix Metro — Public Golf Courses
+# Format: Course Name | City
+# Lines starting with # are ignored.
+
+Aguila Golf Course | Phoenix
+Cave Creek Golf Course | Phoenix
+Encanto Golf Course | Phoenix
+Encanto 9-Hole Golf Course | Phoenix
+Palo Verde Golf Course | Phoenix
+Papago Golf Course | Phoenix
+Maryvale Golf Course | Phoenix
+Coronado Golf Course | Scottsdale
+Continental Golf Club | Scottsdale
+Ken McDonald Golf Course | Tempe
+Rolling Hills Golf Course | Tempe
+Dobson Ranch Golf Course | Mesa
+Ak-Chin Southern Dunes Golf Club | Maricopa
+Arizona Biltmore Golf Club | Phoenix
+Arizona Grand Golf Course | Phoenix
+ASU Karsten Golf Course | Tempe
+Augusta Ranch Golf Club | Mesa
+Bear Creek Golf Complex | Chandler
+Bellair Golf Club | Glendale
+Camelback Golf Club | Scottsdale
+Coldwater Golf Club | Avondale
+Coyote Lakes Golf Club | Surprise
+Desert Canyon Golf Club | Fountain Hills
+Dove Valley Ranch Golf Club | Cave Creek
+Eagle Mountain Golf Club | Fountain Hills
+Foothills Golf Club | Phoenix
+Golf Club of Estrella | Goodyear
+Golf Club at Johnson Ranch | San Tan Valley
+Grand Canyon University Golf Course | Phoenix
+Granite Falls Golf Club | Surprise
+Grayhawk Golf Club | Scottsdale
+Greenfield Lakes Golf Course | Gilbert
+Happy Trails Golf Club | Surprise
+Hillcrest Golf Club | Sun City West
+InScape Golf | Mesa
+Ironwood Golf Course | Chandler
+Kokopelli Golf Club | Gilbert
+Las Colinas Golf Club | Queen Creek
+Las Sendas Golf Club | Mesa
+Legacy Golf Club | Phoenix
+Legend Trail Golf Club | Scottsdale
+Leisure World Golf Course | Mesa
+Lone Tree Golf Club | Chandler
+Longbow Golf Club | Mesa
+Lookout Mountain Golf Club | Phoenix
+Los Caballeros Golf Club | Wickenburg
+McCormick Ranch Golf Club | Scottsdale
+McDowell Mountain Golf Club | Scottsdale
+Mountain Brook Golf Club | Gold Canyon
+Ocotillo Golf Club | Chandler
+Orange Tree Golf Course | Scottsdale
+Painted Mountain Golf Resort | Mesa
+Palm Valley Golf Club | Goodyear
+Paradise Valley Golf Course | Phoenix
+Pueblo El Mirage Golf Course | El Mirage
+Quintero Golf Club | Peoria
+Rancho Manana Golf Club | Cave Creek
+Raven Golf Club Phoenix | Phoenix
+Red Mountain Ranch Country Club | Mesa
+Riverview Golf Course | Mesa
+Royal Palms Golf Course | Mesa
+San Marcos Golf Course | Chandler
+Scottsdale Silverado Golf Club | Scottsdale
+Shalimar Golf Club | Tempe
+Starfire Golf Club | Scottsdale
+Stonecreek Golf Club | Phoenix
+Sundance Golf Club | Buckeye
+SunRidge Canyon Golf Club | Fountain Hills
+Sunland Springs Village Golf | Mesa
+Superstition Springs Golf Club | Mesa
+Talking Stick Golf Club | Scottsdale
+Tatum Ranch Golf Club | Cave Creek
+The Phoenician Golf Club | Scottsdale
+TPC Scottsdale | Scottsdale
+Tres Rios Golf Course | Goodyear
+Trilogy Golf Club at Vistancia | Peoria
+Troon North Golf Club | Scottsdale
+Verde River Golf Club | Rio Verde
+Verrado Golf Club | Buckeye
+Viewpoint Golf Resort | Mesa
+We-Ko-Pa Golf Club | Fort McDowell
+Westin Kierland Golf Club | Scottsdale
+Westbrook Village Golf Club | Peoria
+Whirlwind Golf Club | Chandler
+Wickenburg Ranch Golf Club | Wickenburg
+Wickenburg Country Club | Wickenburg
+Wigwam Golf Club | Litchfield Park
+Wildfire Golf Club | Phoenix
+Alta Mesa Golf Club | Mesa
+Encanterra Country Club | Queen Creek
+Queen Valley Golf Course | Queen Valley
+Springfield Golf Resort | Chandler

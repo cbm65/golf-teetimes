@@ -1,0 +1,69 @@
+# San Antonio, TX — Public Golf Courses
+# Within approximately 1 hour of downtown San Antonio
+# Format: Course Name | City
+
+# === Alamo City Golf Trail (City of San Antonio Municipal) ===
+Brackenridge Park Golf Course | San Antonio
+Cedar Creek Golf Course | San Antonio
+Mission Del Lago Golf Course | San Antonio
+Northern Hills Golf Course | San Antonio
+Olmos Basin Golf Course | San Antonio
+Riverside Golf Course | San Antonio
+Willow Springs Golf Course | San Antonio
+
+# === San Antonio Metro - Daily Fee / Semi-Private ===
+The Quarry Golf Course | San Antonio
+Canyon Springs Golf Club | San Antonio
+SilverHorn Golf Club | San Antonio
+Golf Club of Texas | San Antonio
+The Republic Golf Club | San Antonio
+Olympia Hills Golf Course | Universal City
+Pecan Valley Golf Club | San Antonio
+Alamo Golf Club | San Antonio
+
+# === Resort Courses (Open to Public) ===
+La Cantera Golf Club | San Antonio
+TPC San Antonio - Oaks | San Antonio
+TPC San Antonio - Canyons | San Antonio
+Hyatt Hill Country Golf Club | San Antonio
+Tapatio Springs Golf Course | Boerne
+
+# === Hill Country / Surrounding Area ===
+The Buckhorn Golf Course | Comfort
+Alsatian Golf Club | Castroville
+The Bandit Golf Club | New Braunfels
+Landa Park Golf Course | New Braunfels
+Max Starcke Park Golf Course | Seguin
+The Club at Rebecca Creek | Spring Branch
+River Crossing Golf Club | Spring Branch
+Flying L Ranch Golf Course | Bandera
+River Bend Golf Club | Floresville
+Pleasanton Country Club | Pleasanton
+Devine Golf Course | Devine
+
+# === Military (Open to Public with Sponsored Pass) ===
+Fort Sam Houston Golf Course - La Loma | San Antonio
+Fort Sam Houston Golf Course - Salado Del Rio | San Antonio
+Randolph Oaks Golf Course | Universal City
+Gateway Hills Golf Course | San Antonio
+
+# === Excluded ===
+# San Pedro Driving Range & Par 3 — Par 3 / driving range only
+# Briggs Ranch Golf Club — Private (Dormie Network)
+# The Dominion Country Club — Private
+# Club at Sonterra — Private
+# Fair Oaks Ranch Golf & Country Club — Private
+# Northcliffe Golf Club (Cibolo) — Private
+# Oak Valley Driving Range & Par 3 (Helotes) — Par 3 / range only
+# Kissing Tree Golf Club (San Marcos) — Already in Austin metro
+# Caruso Golf Center — Driving range only
+# The Republic Golf Club — Permanently closed
+# Pecan Valley Golf Club — Permanently closed
+# Alamo Golf Club — Closed
+# TPC San Antonio - Oaks — Members only
+# TPC San Antonio - Canyons — Members only
+# Tapatio Springs Golf Course — Members only
+# River Crossing Golf Club — Members only
+# Fort Sam Houston Golf Course - La Loma — No online booking
+# Fort Sam Houston Golf Course - Salado Del Rio — No online booking
+# Gateway Hills Golf Course — No online booking

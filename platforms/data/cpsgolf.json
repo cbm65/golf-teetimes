@@ -1,0 +1,1024 @@
+[
+  {
+    "key": "indian-tree",
+    "metro": "denver",
+    "baseUrl": "https://indiantree.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "e6d9cd59-8d46-4334-8601-08dad3012d25",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://indiantree.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Regulation 18": "Indian Tree Golf Club"
+    },
+    "city": "Arvada",
+    "state": "CO",
+    "timezone": "America/Denver"
+  },
+  {
+    "key": "green-valley-ranch",
+    "metro": "denver",
+    "baseUrl": "https://greenvalleyranch.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "e6b92812-d6c4-4f86-7eea-08d9fadf154d",
+    "siteId": "2",
+    "courseIds": "",
+    "bookingUrl": "https://greenvalleyranch.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "GVR 18 Hole Course": "Green Valley Ranch Golf Club"
+    },
+    "city": "Denver",
+    "state": "CO",
+    "timezone": "America/Denver"
+  },
+  {
+    "key": "fossil-trace",
+    "metro": "denver",
+    "baseUrl": "https://fossiltrace.cps.golf",
+    "apiKey": "",
+    "websiteId": "b6c22f3a-944a-46e9-020e-08da90168fb2",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://fossiltrace.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "18 Holes": "Fossil Trace Golf Club",
+      "9 Holes": "Fossil Trace Golf Club - 9 Holes",
+      "Twilight": "Fossil Trace Golf Club - Twilight"
+    },
+    "city": "Golden",
+    "state": "CO",
+    "timezone": "America/Denver"
+  },
+  {
+    "key": "cascata",
+    "metro": "lasvegas",
+    "baseUrl": "https://caspublic.cps.golf",
+    "apiKey": "",
+    "websiteId": "79e6c87d-aaf1-4971-cb88-08dd66fe59db",
+    "siteId": "1",
+    "courseIds": "4",
+    "bookingUrl": "https://caspublic.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Cascata": "Cascata Golf Club"
+    },
+    "city": "Boulder City",
+    "state": "NV",
+    "timezone": "America/Denver"
+  },
+  {
+    "key": "serket",
+    "metro": "lasvegas",
+    "baseUrl": "https://caspublic.cps.golf",
+    "apiKey": "",
+    "websiteId": "79e6c87d-aaf1-4971-cb88-08dd66fe59db",
+    "siteId": "1",
+    "courseIds": "5",
+    "bookingUrl": "https://caspublic.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Serket": "Serket Golf Club"
+    },
+    "city": "Henderson",
+    "state": "NV",
+    "timezone": "America/Denver"
+  },
+  {
+    "key": "golf-club-of-dallas",
+    "metro": "dallas",
+    "baseUrl": "https://golfclubofdallas.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "3baf7d6b-f6d1-4281-2fc9-08daf3155433",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://golfclubofdallas.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Golf Club of Dallas": "The Golf Club of Dallas"
+    },
+    "city": "Dallas",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "stevens-park",
+    "metro": "dallas",
+    "baseUrl": "https://dallasstevenspark.cps.golf",
+    "apiKey": "",
+    "websiteId": "3fa6ba45-e411-4bd4-88dc-08dbc0319d15",
+    "siteId": "1",
+    "courseIds": "4",
+    "bookingUrl": "https://dallasstevenspark.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Stevens Park": "Stevens Park Golf Course"
+    },
+    "city": "Dallas",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "cedar-crest",
+    "metro": "dallas",
+    "baseUrl": "https://dallascedarcrest.cps.golf",
+    "apiKey": "",
+    "websiteId": "2455a144-ad49-4743-77b1-08db57d15c79",
+    "siteId": "1",
+    "courseIds": "7",
+    "bookingUrl": "https://dallascedarcrest.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Cedar Crest": "Cedar Crest Golf Course"
+    },
+    "city": "Dallas",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "tenison-glen",
+    "metro": "dallas",
+    "baseUrl": "https://dallastenison.cps.golf",
+    "apiKey": "",
+    "websiteId": "642cdd4e-2535-4fea-0899-08db47fa63b9",
+    "siteId": "6",
+    "courseIds": "5",
+    "bookingUrl": "https://dallastenison.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "TENISON GLEN": "Tenison Park Golf - Glen"
+    },
+    "city": "Dallas",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "tenison-highlands",
+    "metro": "dallas",
+    "baseUrl": "https://dallastenison.cps.golf",
+    "apiKey": "",
+    "websiteId": "642cdd4e-2535-4fea-0899-08db47fa63b9",
+    "siteId": "6",
+    "courseIds": "6",
+    "bookingUrl": "https://dallastenison.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "TENISON HIGHLANDS": "Tenison Park Golf - Highlands"
+    },
+    "city": "Dallas",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "lake-arlington",
+    "metro": "dallas",
+    "baseUrl": "https://arlington.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "e00a573e-b193-4735-fbc0-08dd6ceee947",
+    "siteId": "1",
+    "courseIds": "2",
+    "bookingUrl": "https://arlington.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Lake Arlington": "Lake Arlington Golf Course"
+    },
+    "city": "Arlington",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "meadowbrook-park",
+    "metro": "dallas",
+    "baseUrl": "https://arlington.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "e00a573e-b193-4735-fbc0-08dd6ceee947",
+    "siteId": "1",
+    "courseIds": "4",
+    "bookingUrl": "https://arlington.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Meadowbrook Park": "Meadowbrook Park Golf Course"
+    },
+    "city": "Arlington",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "texas-rangers",
+    "metro": "dallas",
+    "baseUrl": "https://arlington.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "e00a573e-b193-4735-fbc0-08dd6ceee947",
+    "siteId": "1",
+    "courseIds": "6",
+    "bookingUrl": "https://arlington.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Texas Rangers": "Texas Rangers Golf Club"
+    },
+    "city": "Arlington",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "latour",
+    "metro": "neworleans",
+    "baseUrl": "https://latour.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "25a74e3a-3bf9-40c2-d1fb-08db08539446",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://latour.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "LaTour Golf Club": "LaTour Golf Club"
+    },
+    "city": "Mathews",
+    "state": "LA",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "old-fort",
+    "metro": "nashville",
+    "baseUrl": "https://oldfort.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "43595181-b9cf-4106-a585-08db42676ca0",
+    "siteId": "6",
+    "courseIds": "",
+    "bookingUrl": "https://oldfort.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Old Fort Golf Club": "Old Fort Golf Club"
+    },
+    "city": "Murfreesboro",
+    "state": "TN",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "miami-lakes",
+    "metro": "miami",
+    "baseUrl": "https://miamilakes.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "d2d549a8-f235-433a-6291-08daf5ccc931",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://miamilakes.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Miami Lakes Golf Club": "Miami Lakes Golf Club"
+    },
+    "city": "Miami Lakes",
+    "state": "FL",
+    "timezone": "America/New_York"
+  },
+  {
+    "key": "oriole",
+    "metro": "miami",
+    "baseUrl": "https://oriolegc.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "18dda4e6-5af0-4b47-ef1e-08daa629da2f",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://oriolegc.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Oriole Golf Club": "Oriole Golf Club"
+    },
+    "city": "Margate",
+    "state": "FL",
+    "timezone": "America/New_York"
+  },
+  {
+    "key": "emerald-greens",
+    "metro": "denver",
+    "baseUrl": "https://emeraldgreens.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "b81ba1ee-d9d0-4f1c-8325-08db37856ea4",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://emeraldgreens.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Emerald Greens Golf Club": "Emerald Greens Golf Club"
+    },
+    "city": "Denver",
+    "state": "CO",
+    "timezone": "America/Denver"
+  },
+  {
+    "key": "eagle-trace",
+    "metro": "denver",
+    "baseUrl": "https://eagletrace.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "5837be69-9780-4b6c-4fa5-08da05be9a74",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://eagletrace.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Eagle Trace Golf Club": "Eagle Trace Golf Club"
+    },
+    "city": "Broomfield",
+    "state": "CO",
+    "timezone": "America/Denver"
+  },
+  {
+    "key": "flatirons",
+    "metro": "denver",
+    "baseUrl": "https://flatironsgolf.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "d0c1d3f9-28c7-4f79-8ee1-08d926a72623",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://flatironsgolf.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "FLATIRONS": "Flatirons Golf Course"
+    },
+    "city": "Boulder",
+    "state": "CO",
+    "timezone": "America/Denver"
+  },
+  {
+    "key": "westminster",
+    "metro": "denver",
+    "baseUrl": "https://cityofwestminster.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "be7f2728-0758-4a72-fe80-08d97849167d",
+    "siteId": "1",
+    "courseIds": "1,4,2",
+    "bookingUrl": "https://cityofwestminster.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Legacy Ridge Golf Course": "Legacy Ridge",
+      "LR Back 9 - 9 Holes Only": "Legacy Ridge - Back 9",
+      "Walnut Creek": "Walnut Creek Golf Preserve"
+    },
+    "city": "Westminster",
+    "state": "CO",
+    "timezone": "America/Denver"
+  },
+  {
+    "key": "indian-peaks",
+    "metro": "denver",
+    "baseUrl": "https://indianpeaks.cps.golf",
+    "apiKey": "",
+    "websiteId": "f04abbc1-368f-40f4-096d-08d89aea9574",
+    "siteId": "1",
+    "courseIds": "10,11",
+    "bookingUrl": "https://indianpeaks.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Indian Peaks Golf Course": "Indian Peaks Golf Course",
+      "IP 9-Holes": "Indian Peaks Golf Course - 9 Holes",
+      "9-Holes Back 9": "Indian Peaks Golf Course - 9 Holes"
+    },
+    "city": "Lafayette",
+    "state": "CO",
+    "timezone": "America/Denver"
+  },
+  {
+    "key": "diablo-creek",
+    "metro": "sanfrancisco",
+    "baseUrl": "https://diablocreek.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "f9c22207-c783-4756-7620-08dc654d08ad",
+    "siteId": "4",
+    "courseIds": "2,3",
+    "bookingUrl": "https://diablocreek.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Diablo Creek Golf Course": "Diablo Creek - 18 Holes",
+      "Back 9": "Diablo Creek - Back 9"
+    },
+    "city": "Concord",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "stone-river",
+    "metro": "dallas",
+    "baseUrl": "https://stonerivertx.cps.golf",
+    "apiKey": "",
+    "websiteId": "d3fce869-f477-4506-4c4e-08d9b68084bc",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://stonerivertx.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Stone River": "Stone River Golf Club"
+    },
+    "city": "Royse City",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "shadow-lakes",
+    "metro": "sanfrancisco",
+    "baseUrl": "https://jcgslpub.cps.golf",
+    "apiKey": "",
+    "websiteId": "304254b5-3d56-4ee8-2f2f-08d9a9a945d4",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://jcgslpub.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Shadow Lakes": "Shadow Lakes Golf Club"
+    },
+    "city": "Brentwood",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "trosper",
+    "metro": "oklahomacity",
+    "baseUrl": "https://trosper.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "b5c1549e-6d1c-46a0-44e0-08dbf84ad30b",
+    "siteId": "5",
+    "courseIds": "",
+    "bookingUrl": "https://trosper.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Trosper": "Trosper Golf Club"
+    },
+    "city": "Oklahoma City",
+    "state": "OK",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "james-e-stewart",
+    "metro": "oklahomacity",
+    "baseUrl": "https://jamesestewart.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "a017dd90-bb2f-4479-9716-08dc02682d03",
+    "siteId": "2",
+    "courseIds": "",
+    "bookingUrl": "https://jamesestewart.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "James E. Stewart": "James E. Stewart Golf Course"
+    },
+    "city": "Oklahoma City",
+    "state": "OK",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "pebble-creek",
+    "metro": "oklahomacity",
+    "baseUrl": "https://pebblecreek.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "9df38f87-d46d-40f9-562d-08dd616b8614",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://pebblecreek.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Creek Side": "Pebble Creek Golf Course"
+    },
+    "city": "Mustang",
+    "state": "OK",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "earlywine",
+    "metro": "oklahomacity",
+    "baseUrl": "https://earlywine.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "76095c35-080d-436e-9fde-08dbc69b5717",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://earlywine.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "North Course": "Earlywine Golf Club - North",
+      "The Lakes Course": "Earlywine Golf Club - Lakes"
+    },
+    "city": "Oklahoma City",
+    "state": "OK",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "lakehefner",
+    "metro": "oklahomacity",
+    "baseUrl": "https://lakehefner.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "48a32412-dfb1-43fb-d3fd-08dbdd3ae9da",
+    "siteId": "3",
+    "courseIds": "",
+    "bookingUrl": "https://lakehefner.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "North Course": "Lake Hefner Golf Club - North",
+      "South Course": "Lake Hefner Golf Club - South"
+    },
+    "city": "Oklahoma City",
+    "state": "OK",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "lincolnparkokc",
+    "metro": "oklahomacity",
+    "baseUrl": "https://lincolnparkokc.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "c2bf2732-ba51-4ddd-d294-08dbbdf3fb91",
+    "siteId": "4",
+    "courseIds": "",
+    "bookingUrl": "https://lincolnparkokc.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "EAST COURSE": "Lincoln Park Golf Course - East",
+      "WEST COURSE": "Lincoln Park Golf Course - West"
+    },
+    "city": "Oklahoma City",
+    "state": "OK",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "westwoodpark",
+    "metro": "oklahomacity",
+    "baseUrl": "https://westwoodpark.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "271d241a-0883-4376-c085-08db4b4a7ef9",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://westwoodpark.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Westwood": "Westwood Golf Course"
+    },
+    "city": "Norman",
+    "state": "OK",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "rio-hondo",
+    "metro": "losangeles",
+    "baseUrl": "https://riohondo.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "d904ddb6-dfe7-4692-35e1-08dd2902d4f6",
+    "siteId": "1",
+    "courseIds": "1",
+    "bookingUrl": "https://riohondo.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Rio Hondo Golf Club": "Rio Hondo Golf Club"
+    },
+    "city": "Downey",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "los-serranos",
+    "metro": "losangeles",
+    "baseUrl": "https://jcglspub.cps.golf",
+    "apiKey": "",
+    "websiteId": "04d6a0a8-00b3-4eb7-f183-08d8d908e0a0",
+    "siteId": "1",
+    "courseIds": "1,2",
+    "bookingUrl": "https://jcglspub.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "North Course": "Los Serranos Country Club - North",
+      "South Course": "Los Serranos Country Club - South"
+    },
+    "city": "Chino Hills",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "san-juan-hills",
+    "metro": "losangeles",
+    "baseUrl": "https://sanjuanhillsca.cps.golf",
+    "apiKey": "",
+    "websiteId": "763e627c-d735-4cc7-909a-08db8f5f2f98",
+    "siteId": "1",
+    "courseIds": "3",
+    "bookingUrl": "https://sanjuanhillsca.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "San Juan Hills Golf": "San Juan Hills Golf Club"
+    },
+    "city": "San Juan Capistrano",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "oaks-north",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub3.cps.golf",
+    "apiKey": "",
+    "websiteId": "590f1416-72c3-4623-52f9-08d8d8f9344f",
+    "siteId": "3",
+    "courseIds": "10,13,11",
+    "bookingUrl": "https://jcgpub3.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Oaks North": "Oaks North Golf Course"
+    },
+    "city": "San Diego",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "welk-fountains",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub3.cps.golf",
+    "apiKey": "",
+    "websiteId": "590f1416-72c3-4623-52f9-08d8d8f9344f",
+    "siteId": "11",
+    "courseIds": "18",
+    "bookingUrl": "https://jcgpub3.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "The Welk - Fountains": "Welk Resort - Fountains Course"
+    },
+    "city": "Escondido",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "welk-oaks",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub3.cps.golf",
+    "apiKey": "",
+    "websiteId": "590f1416-72c3-4623-52f9-08d8d8f9344f",
+    "siteId": "11",
+    "courseIds": "17",
+    "bookingUrl": "https://jcgpub3.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "The Welk - Oaks": "Welk Resort - Oaks Course"
+    },
+    "city": "Escondido",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "crosscreek",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub29.cps.golf",
+    "apiKey": "",
+    "websiteId": "ffa867bc-759e-4609-970e-08d8ddc92179",
+    "siteId": "18",
+    "courseIds": "25",
+    "bookingUrl": "https://jcgpub29.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Cross Creek": "CrossCreek Golf Club"
+    },
+    "city": "Temecula",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "crossings-at-carlsbad",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub29.cps.golf",
+    "apiKey": "",
+    "websiteId": "ffa867bc-759e-4609-970e-08d8ddc92179",
+    "siteId": "14",
+    "courseIds": "22",
+    "bookingUrl": "https://jcgpub29.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Crossings": "The Crossings at Carlsbad"
+    },
+    "city": "Carlsbad",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "dos-osos",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub29.cps.golf",
+    "apiKey": "",
+    "websiteId": "ffa867bc-759e-4609-970e-08d8ddc92179",
+    "siteId": "19",
+    "courseIds": "26",
+    "bookingUrl": "https://jcgpub29.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Dos Osos": "Dos Osos Golf Club"
+    },
+    "city": "Escondido",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "encinitas-ranch",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub29.cps.golf",
+    "apiKey": "",
+    "websiteId": "ffa867bc-759e-4609-970e-08d8ddc92179",
+    "siteId": "6",
+    "courseIds": "6",
+    "bookingUrl": "https://jcgpub29.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Encinitas Ranch": "Encinitas Ranch Golf Course"
+    },
+    "city": "Encinitas",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "golf-club-of-california",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub29.cps.golf",
+    "apiKey": "",
+    "websiteId": "ffa867bc-759e-4609-970e-08d8ddc92179",
+    "siteId": "19",
+    "courseIds": "23",
+    "bookingUrl": "https://jcgpub29.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Golf Club of California": "The Golf Club of California"
+    },
+    "city": "Fallbrook",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "rancho-bernardo-inn",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub29.cps.golf",
+    "apiKey": "",
+    "websiteId": "ffa867bc-759e-4609-970e-08d8ddc92179",
+    "siteId": "2",
+    "courseIds": "2",
+    "bookingUrl": "https://jcgpub29.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Rancho Bernardo Inn": "Rancho Bernardo Inn Golf Course"
+    },
+    "city": "San Diego",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "twin-oaks",
+    "metro": "sandiego",
+    "baseUrl": "https://jcgpub29.cps.golf",
+    "apiKey": "",
+    "websiteId": "ffa867bc-759e-4609-970e-08d8ddc92179",
+    "siteId": "4",
+    "courseIds": "4",
+    "bookingUrl": "https://jcgpub29.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Twin Oaks": "Twin Oaks Golf Course"
+    },
+    "city": "San Marcos",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "temecula-creek-inn",
+    "metro": "sandiego",
+    "baseUrl": "https://temeculacreek.cps.golf",
+    "apiKey": "",
+    "websiteId": "21053180-002f-4266-3549-08dcb2e61ff3",
+    "siteId": "5",
+    "courseIds": "9,8,12",
+    "bookingUrl": "https://temeculacreek.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Creek/Stonehouse": "Temecula Creek Inn - Creek/Stonehouse",
+      "Oaks/Creek": "Temecula Creek Inn - Oaks/Creek",
+      "Stonehouse/Oaks": "Temecula Creek Inn - Stonehouse/Oaks"
+    },
+    "city": "Temecula",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "emerald-lake",
+    "metro": "charlotte",
+    "baseUrl": "https://emeraldlake.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "b65d4a17-afe5-4264-2a16-08da8b5dcc8e",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://emeraldlake.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Emerald Lake": "Emerald Lake Golf Club"
+    },
+    "city": "Matthews",
+    "state": "NC",
+    "timezone": "America/New_York"
+  },
+  {
+    "key": "birkdale",
+    "metro": "charlotte",
+    "baseUrl": "https://birkdale.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "627dfd65-35af-4a85-9fdd-08dbc69b5717",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://birkdale.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Birkdale Golf Club": "Birkdale Golf Club"
+    },
+    "city": "Huntersville",
+    "state": "NC",
+    "timezone": "America/New_York"
+  },
+  {
+    "key": "tega-cay",
+    "metro": "charlotte",
+    "baseUrl": "https://tegacay.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "28087353-41cf-4e80-623a-08dbbb757969",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://tegacay.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Carolina Pines/Grande View": "Tega Cay Golf Club"
+    },
+    "city": "Tega Cay",
+    "state": "SC",
+    "timezone": "America/New_York"
+  },
+  {
+    "key": "plum-creek",
+    "metro": "austin",
+    "baseUrl": "https://foresightplumcreek.cps.golf",
+    "apiKey": "",
+    "websiteId": "0ad3857d-1704-43be-9703-08da6f83475a",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://foresightplumcreek.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Plum Creek": "Plum Creek Golf Course"
+    },
+    "city": "Kyle",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "double-j-ranch",
+    "metro": "austin",
+    "baseUrl": "https://doublejranch.cps.golf",
+    "apiKey": "",
+    "websiteId": "0c68af11-ba27-4d32-c550-08daf8b161e6",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://doublejranch.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "My Course": "Double J Ranch Golf Club"
+    },
+    "city": "San Marcos",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "southern-dunes",
+    "metro": "orlando",
+    "baseUrl": "https://southerndunes.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "184196d2-136c-4c64-65a1-08da89d75382",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://southerndunes.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Southern Dunes": "Southern Dunes Golf Club"
+    },
+    "city": "Haines City",
+    "state": "FL",
+    "timezone": "America/New_York"
+  },
+  {
+    "key": "high-meadow-ranch",
+    "metro": "houston",
+    "baseUrl": "https://highmeadowranch.cps.golf",
+    "apiKey": "",
+    "websiteId": "8c01bbf9-ef1d-43d2-2fc0-08dcb5544507",
+    "siteId": "1",
+    "courseIds": "1",
+    "bookingUrl": "https://highmeadowranch.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "High Meadow Ranch": "High Meadow Ranch Golf Club"
+    },
+    "city": "Magnolia",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "cypresswood",
+    "metro": "houston",
+    "baseUrl": "https://foresightcypress.cps.golf",
+    "apiKey": "",
+    "websiteId": "b2d1a40a-0795-45d0-9701-08da6f83475a",
+    "siteId": "1",
+    "courseIds": "11,14",
+    "bookingUrl": "https://foresightcypress.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Cypress": "Cypresswood Golf Club - Cypress",
+      "Tradition": "Cypresswood Golf Club - Tradition"
+    },
+    "city": "Spring",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "pebble-creek",
+    "metro": "tampa",
+    "baseUrl": "https://pebblecreek.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "9df38f87-d46d-40f9-562d-08dd616b8614",
+    "siteId": "1",
+    "courseIds": "2",
+    "bookingUrl": "https://pebblecreek.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Creek Side": "Pebble Creek Golf Club"
+    },
+    "city": "Tampa",
+    "state": "FL",
+    "timezone": "America/New_York"
+  },
+  {
+    "key": "tarpon-springs",
+    "metro": "tampa",
+    "baseUrl": "https://tarponsprings.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "2c246ac8-37b1-472a-3b67-08dd5cd66366",
+    "siteId": "1",
+    "courseIds": "1",
+    "bookingUrl": "https://tarponsprings.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Front 9": "Tarpon Springs Golf Course"
+    },
+    "city": "Tarpon Springs",
+    "state": "FL",
+    "timezone": "America/New_York"
+  },
+  {
+    "key": "man-o-war",
+    "metro": "myrtle-beach",
+    "baseUrl": "https://manowar.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "7b7ca697-54ee-4d4f-bc04-08dadc553eee",
+    "siteId": "3",
+    "courseIds": "3",
+    "bookingUrl": "https://manowar.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Man O'War": "Man O' War Golf Club"
+    },
+    "city": "Myrtle Beach",
+    "state": "SC",
+    "timezone": "America/New_York"
+  },
+  {
+    "key": "sewailo",
+    "metro": "tucson",
+    "baseUrl": "https://sewailo.cps.golf",
+    "apiKey": "",
+    "websiteId": "a719a286-7fcc-4c03-d59b-08db1f359d2a",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://sewailo.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Sewailo": "Sewailo Golf Club"
+    },
+    "city": "Tucson",
+    "state": "AZ",
+    "timezone": "America/Phoenix"
+  },
+  {
+    "key": "randolph-oaks",
+    "metro": "sanantonio",
+    "baseUrl": "https://randolphoaks.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "c4047db5-a4bf-4c2c-0d14-08d97210fc7c",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://randolphoaks.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Randolph Oaks": "Randolph Oaks Golf Course"
+    },
+    "city": "Universal City",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "buckhorn",
+    "metro": "sanantonio",
+    "baseUrl": "https://foresightbuckhorn.cps.golf",
+    "apiKey": "",
+    "websiteId": "79b7a72a-5454-4ec3-e04f-08da7ba671c0",
+    "siteId": "2",
+    "courseIds": "",
+    "bookingUrl": "https://foresightbuckhorn.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Buckhorn": "The Buckhorn Golf Course"
+    },
+    "city": "Comfort",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "bandit",
+    "metro": "sanantonio",
+    "baseUrl": "https://foresightbandit.cps.golf",
+    "apiKey": "",
+    "websiteId": "3cf76e52-b209-4901-8197-08d83966d532",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://foresightbandit.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "The Bandit": "The Bandit Golf Club"
+    },
+    "city": "New Braunfels",
+    "state": "TX",
+    "timezone": "America/Chicago"
+  },
+  {
+    "key": "wildhawk",
+    "metro": "sacramento",
+    "baseUrl": "https://wildhawkgc.cps.golf",
+    "apiKey": "8ea2914e-cac2-48a7-a3e5-e0f41350bf3a",
+    "websiteId": "8da9315c-f15a-4534-35e0-08dd2902d4f6",
+    "siteId": "1",
+    "courseIds": "",
+    "bookingUrl": "https://wildhawkgc.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "WildHawk Golf Club": "WildHawk Golf Club"
+    },
+    "city": "Sacramento",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "key": "cathedral-canyon",
+    "metro": "palmsprings",
+    "baseUrl": "https://jcgpub23.cps.golf",
+    "apiKey": "",
+    "websiteId": "1a0ab534-5a0c-4294-b221-08d8de809d52",
+    "siteId": "1",
+    "courseIds": "16",
+    "bookingUrl": "https://jcgpub23.cps.golf/onlineresweb/search-teetime",
+    "names": {
+      "Cathedral Canyon Country Club": "Cathedral Canyon Golf Club"
+    },
+    "city": "Cathedral City",
+    "state": "CA",
+    "timezone": "America/Los_Angeles"
+  }
+]

@@ -1,0 +1,1355 @@
+{
+  "confirmed": 1,
+  "elapsed": "1m45.980357833s",
+  "listedOnly": 24,
+  "misses": 12,
+  "platform": "chronogolf",
+  "results": [
+    {
+      "input": "Haggin Oaks - Alister MacKenzie Course",
+      "city": "Sacramento",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Haggin Oaks - Arcade Creek Course",
+      "city": "Sacramento",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Bing Maloney Golf Course",
+      "city": "Sacramento",
+      "slug": "bing-maloney-golf-course",
+      "slugSource": "name",
+      "status": "listed_only",
+      "club": {
+        "uuid": "c9ead37f-ec1f-4834-85f5-b010f09a00c1",
+        "id": 19542,
+        "name": "Bing Maloney Golf Course DO NOT USE",
+        "slug": "bing-maloney-golf-course",
+        "city": "Sacramento",
+        "province": "California",
+        "country": "United States",
+        "address": "6801 Freeport Blvd",
+        "phone": "+19168082283",
+        "website": "https://www.bingmaloney.com/",
+        "postcode": "95822",
+        "defaultAffiliationTypeId": 138791,
+        "location": {
+          "lat": 0,
+          "lon": 0
+        },
+        "courses": []
+      }
+    },
+    {
+      "input": "Bartley Cavanaugh Golf Course",
+      "city": "Sacramento",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "William Land Golf Course",
+      "city": "Sacramento",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Teal Bend Golf Club",
+      "city": "Sacramento",
+      "slug": "teal-bend-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "aaa33829-3f00-46e0-9aca-637dde3adcd9",
+        "id": 3131,
+        "name": "Teal Bend Golf Club",
+        "slug": "teal-bend-golf-club",
+        "city": "Sacramento",
+        "province": "California",
+        "country": "United States",
+        "address": "7200 Garden Hwy",
+        "phone": "(916) 922-5209",
+        "website": "http://www.tealbendgolf.com",
+        "postcode": "95837",
+        "defaultAffiliationTypeId": 13346,
+        "location": {
+          "lat": 38.715893,
+          "lon": -121.606416
+        },
+        "courses": [
+          {
+            "id": 3540,
+            "name": "Teal Bend",
+            "holes": 18,
+            "uuid": "de5900f1-fa8d-47fd-bc07-98c6f5502604"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "WildHawk Golf Club",
+      "city": "Sacramento",
+      "slug": "wildhawk-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "e84139ca-3afc-4f7e-8a7d-abf6080e0272",
+        "id": 3214,
+        "name": "Wildhawk Golf Club",
+        "slug": "wildhawk-golf-club",
+        "city": "Sacramento",
+        "province": "California",
+        "country": "United States",
+        "address": "7713 Vineyard Rd",
+        "phone": "(916) 688-4653",
+        "website": "http://www.wildhawkgolf.com",
+        "postcode": "95829",
+        "defaultAffiliationTypeId": 13678,
+        "location": {
+          "lat": 38.480234,
+          "lon": -121.316018
+        },
+        "courses": [
+          {
+            "id": 3632,
+            "name": "Wildhawk",
+            "holes": 18,
+            "uuid": "e821dabc-4187-4e28-a220-472fb22bbe6b"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Bradshaw Ranch Golf Course",
+      "city": "Sacramento",
+      "slug": "bradshaw-ranch-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "7c2f09cb-98ca-4b2e-b2d0-7d0a773bd854",
+        "id": 2528,
+        "name": "Bradshaw Ranch Golf Course",
+        "slug": "bradshaw-ranch-golf-course",
+        "city": "Sacramento",
+        "province": "California",
+        "country": "United States",
+        "address": "7350 Bradshaw Rd",
+        "phone": "(916) 363-6549",
+        "website": "http://www.bradshawranchgolf.com",
+        "postcode": "95829",
+        "defaultAffiliationTypeId": 10934,
+        "location": {
+          "lat": 38.49445,
+          "lon": -121.33496
+        },
+        "courses": [
+          {
+            "id": 2910,
+            "name": "Bradshaw Ranch",
+            "holes": 9,
+            "uuid": "6288c690-10ae-4897-a3ee-32e7958356c1"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Campus Commons Golf Course",
+      "city": "Sacramento",
+      "slug": "campus-commons-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "4ced39e8-74ad-461d-a749-752894921fa4",
+        "id": 2548,
+        "name": "Campus Commons Golf Course",
+        "slug": "campus-commons-golf-course",
+        "city": "Sacramento",
+        "province": "California",
+        "country": "United States",
+        "address": "2 Cadillac Dr",
+        "phone": "(916) 922-5861",
+        "website": "http://www.campuscommonsgolf.com",
+        "postcode": "95825",
+        "defaultAffiliationTypeId": 11014,
+        "location": {
+          "lat": 38.57096,
+          "lon": -121.41874
+        },
+        "courses": [
+          {
+            "id": 2930,
+            "name": "Campus Commons",
+            "holes": 9,
+            "uuid": "cf4cdcc6-fb97-4774-bfba-efee357bd3bf"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Ancil Hoffman Golf Course",
+      "city": "Carmichael",
+      "slug": "ancil-hoffman-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "9a801ce8-1808-49c9-8857-5adaea482ee1",
+        "id": 2473,
+        "name": "Ancil Hoffman Golf Course",
+        "slug": "ancil-hoffman-golf-course",
+        "city": "Carmichael",
+        "province": "California",
+        "country": "United States",
+        "address": "6700 Tarshes Dr",
+        "phone": "(916) 482-3284",
+        "website": "http://www.empiregolf.com",
+        "postcode": "95608",
+        "defaultAffiliationTypeId": 10714,
+        "location": {
+          "lat": 38.6114461,
+          "lon": -121.3178976
+        },
+        "courses": [
+          {
+            "id": 2855,
+            "name": "Ancil Hoffman",
+            "holes": 18,
+            "uuid": "86316912-8563-44c0-a3eb-e0b02f510abc"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Cherry Island Golf Course",
+      "city": "Elverta",
+      "slug": "cherry-island-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "cfa72a55-60eb-4ec4-9f50-8bbdec4157f4",
+        "id": 2569,
+        "name": "Cherry Island Golf Course",
+        "slug": "cherry-island-golf-course",
+        "city": "Elverta",
+        "province": "California",
+        "country": "United States",
+        "address": "2360 Elverta Rd",
+        "phone": "(916) 991-7293",
+        "website": "http://www.empiregolf.com",
+        "postcode": "95626",
+        "defaultAffiliationTypeId": 11098,
+        "location": {
+          "lat": 38.71436,
+          "lon": -121.409599
+        },
+        "courses": [
+          {
+            "id": 2951,
+            "name": "Cherry Island",
+            "holes": 18,
+            "uuid": "8ec89624-cf85-412c-8174-e35415e18b37"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Mather Golf Course",
+      "city": "Mather",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Cordova Golf Course",
+      "city": "Sacramento",
+      "slug": "cordova-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "2ffc72b0-ef42-4ec5-9deb-c08a8652c92e",
+        "id": 2587,
+        "name": "Cordova Golf Course",
+        "slug": "cordova-golf-course",
+        "city": "Sacramento",
+        "province": "California",
+        "country": "United States",
+        "address": "9425 Jackson Rd",
+        "phone": "(916) 362-1196",
+        "website": "http://www.cordovagc.com",
+        "postcode": "95826",
+        "defaultAffiliationTypeId": 11170,
+        "location": {
+          "lat": 38.532394,
+          "lon": -121.348325
+        },
+        "courses": [
+          {
+            "id": 2973,
+            "name": "Cordova",
+            "holes": 18,
+            "uuid": "67dd21a0-979e-418e-b60b-ab8fcb2c4fd5"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Woodcreek Golf Club",
+      "city": "Roseville",
+      "slug": "woodcreek-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "36d04b77-0afa-464a-9391-d935c5289cd7",
+        "id": 3225,
+        "name": "Woodcreek Golf Club ",
+        "slug": "woodcreek-golf-club",
+        "city": "Roseville",
+        "province": "California",
+        "country": "United States",
+        "address": "5880 Woodcreek Oaks Blvd",
+        "phone": "(916) 771-4653",
+        "website": "http://www.golfroseville.com/woodcreek",
+        "postcode": "95747",
+        "defaultAffiliationTypeId": 13722,
+        "location": {
+          "lat": 38.777323,
+          "lon": -121.333322
+        },
+        "courses": [
+          {
+            "id": 3643,
+            "name": "Oaks",
+            "holes": 18,
+            "uuid": "263d790f-4b3c-4f49-aec8-910bcabcb2a7"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Diamond Oaks Golf Course",
+      "city": "Roseville",
+      "slug": "diamond-oaks-country-club",
+      "slugSource": "swap-country-club",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "d500cf6e-e6ad-4303-a65c-f784cd74f32e",
+        "id": 13565,
+        "name": "Diamond Oaks Country Club",
+        "slug": "diamond-oaks-country-club",
+        "city": "Fort Worth",
+        "province": "Texas",
+        "country": "United States",
+        "address": "5821 Diamond Oaks Dr N",
+        "phone": "(817) 834-6261",
+        "website": "http://www.diamondoaksclub.com",
+        "postcode": "76117",
+        "defaultAffiliationTypeId": 55082,
+        "location": {
+          "lat": 32.825441,
+          "lon": -97.259863
+        },
+        "courses": [
+          {
+            "id": 15539,
+            "name": "Diamond Oaks",
+            "holes": 18,
+            "uuid": "f5932e28-71da-4159-bc4a-383aa641a1a7"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Timber Creek Golf Course",
+      "city": "Roseville",
+      "slug": "timber-creek-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "e1b50a3b-75b0-45c2-84a0-7fe85c76ce12",
+        "id": 14075,
+        "name": "Timber Creek Golf Club",
+        "slug": "timber-creek-golf-club",
+        "city": "Friendswood",
+        "province": "Texas",
+        "country": "United States",
+        "address": "4554 FM 2351 Rd",
+        "phone": "(281) 993-1140",
+        "website": "http://www.timbercreekgolfclub.com",
+        "postcode": "77546",
+        "defaultAffiliationTypeId": 57122,
+        "location": {
+          "lat": 29.55091,
+          "lon": -95.187044
+        },
+        "courses": [
+          {
+            "id": 16155,
+            "name": "Timber Trails/Creekside",
+            "holes": 18,
+            "uuid": "f5fea76b-6e17-416f-93c8-46a214567ce6"
+          },
+          {
+            "id": 16153,
+            "name": "Pines 9",
+            "holes": 9,
+            "uuid": "ec67e0fd-00b1-4ac5-8590-f91169248af6"
+          },
+          {
+            "id": 16154,
+            "name": "Pines/Timber Trails",
+            "holes": 18,
+            "uuid": "9a3167fe-e203-4676-93be-fb2539996ddb"
+          },
+          {
+            "id": 16152,
+            "name": "Creekside 9",
+            "holes": 9,
+            "uuid": "d85d8325-3266-427b-8dc7-6e9f38b7dcff"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Sierra Pines Golf Course",
+      "city": "Roseville",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Morgan Creek Golf Club",
+      "city": "Roseville",
+      "slug": "morgan-creek-golf-club-california",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "02da47ac-142b-40b3-ac3a-1d87e2051589",
+        "id": 2858,
+        "name": "Morgan Creek Golf Club",
+        "slug": "morgan-creek-golf-club-california",
+        "city": "Roseville",
+        "province": "California",
+        "country": "United States",
+        "address": "8791 Morgan Creek Ln",
+        "phone": "(916) 786-4653",
+        "website": "http://www.morgancreekclub.com",
+        "postcode": "95747",
+        "defaultAffiliationTypeId": 12254,
+        "location": {
+          "lat": 38.743426,
+          "lon": -121.35527
+        },
+        "courses": [
+          {
+            "id": 3250,
+            "name": "Morgan Creek",
+            "holes": 18,
+            "uuid": "ff566d04-08e1-41a1-bee9-872de1f4100c"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Whitney Oaks Golf Club",
+      "city": "Rocklin",
+      "slug": "whitney-oaks-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "83e02ad7-4dd6-4645-9b71-2ab73fd253ce",
+        "id": 3211,
+        "name": "Whitney Oaks Golf Club",
+        "slug": "whitney-oaks-golf-club",
+        "city": "Rocklin",
+        "province": "California",
+        "country": "United States",
+        "address": "2305 Clubhouse Dr",
+        "phone": "(916) 632-8333",
+        "website": "http://www.whitneyoaksgolf.com",
+        "postcode": "95765",
+        "defaultAffiliationTypeId": 13666,
+        "location": {
+          "lat": 38.827722,
+          "lon": -121.236658
+        },
+        "courses": [
+          {
+            "id": 3629,
+            "name": "Whitney Oaks",
+            "holes": 18,
+            "uuid": "05df2a2f-aba1-4a86-b917-70f66e57a6e5"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Lincoln Hills Golf Club - Hills Course",
+      "city": "Lincoln",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Lincoln Hills Golf Club - Orchard Course",
+      "city": "Lincoln",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Turkey Creek Golf Club",
+      "city": "Lincoln",
+      "slug": "turkey-creek-golf-club-california",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "df3ca269-92dd-4a1a-aa34-7df0ff07d968",
+        "id": 3182,
+        "name": "Turkey Creek Golf Club",
+        "slug": "turkey-creek-golf-club-california",
+        "city": "Lincoln",
+        "province": "California",
+        "country": "United States",
+        "address": "1525 State Route 193",
+        "phone": "(916) 434-9100",
+        "website": "http://www.turkeycreekgc.com",
+        "postcode": "95648",
+        "defaultAffiliationTypeId": 13550,
+        "location": {
+          "lat": 38.886555,
+          "lon": -121.267505
+        },
+        "courses": [
+          {
+            "id": 3600,
+            "name": "Turkey Creek",
+            "holes": 18,
+            "uuid": "8ce2f403-3751-47ae-b46f-2e37f1cd35cb"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Twelve Bridges Golf Club",
+      "city": "Lincoln",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "DarkHorse Golf Club",
+      "city": "Auburn",
+      "slug": "darkhorse-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "bd13a829-8f5c-4d73-9f1e-a32856b88011",
+        "id": 2607,
+        "name": "Darkhorse Golf Club",
+        "slug": "darkhorse-golf-club",
+        "city": "Auburn",
+        "province": "California",
+        "country": "United States",
+        "address": "13450 Combie Rd",
+        "phone": "(530) 269-7900",
+        "website": "http://www.darkhorsegolf.com",
+        "postcode": "95602",
+        "defaultAffiliationTypeId": 11250,
+        "location": {
+          "lat": 39.021484,
+          "lon": -121.050026
+        },
+        "courses": [
+          {
+            "id": 2994,
+            "name": "Darkhorse",
+            "holes": 18,
+            "uuid": "c8714779-41b1-42f7-8a51-c2e05d7c5ec7"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Ridge Golf Club",
+      "city": "Auburn",
+      "slug": "the-ridge-golf-course",
+      "slugSource": "swap-golf-course",
+      "status": "listed_only",
+      "club": {
+        "uuid": "f87ca3a7-c4fd-4be2-bfd6-5955da7fbfd4",
+        "id": 3162,
+        "name": "The Ridge Golf Course",
+        "slug": "the-ridge-golf-course",
+        "city": "Auburn",
+        "province": "California",
+        "country": "United States",
+        "address": "2020 Golf Course Rd",
+        "phone": "(530) 888-7888",
+        "website": "http://www.ridgegc.com",
+        "postcode": "95602",
+        "defaultAffiliationTypeId": 13470,
+        "location": {
+          "lat": 38.948971,
+          "lon": -121.076896
+        },
+        "courses": [
+          {
+            "id": 3579,
+            "name": "The Ridge",
+            "holes": 18,
+            "uuid": "ef9c0916-f0ef-463c-b568-16b7bea96ac0"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Auburn Valley Golf Club",
+      "city": "Auburn",
+      "slug": "auburn-valley-country-club",
+      "slugSource": "swap-country-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "6b7468e6-d0dd-4f16-82d6-89de9d33db42",
+        "id": 2490,
+        "name": "Auburn Valley Country Club",
+        "slug": "auburn-valley-country-club",
+        "city": "Auburn",
+        "province": "California",
+        "country": "United States",
+        "address": "8800 Auburn Valley Rd",
+        "phone": "(530) 269-1837",
+        "website": "http://www.auburnvalley.com",
+        "postcode": "95602",
+        "defaultAffiliationTypeId": 10782,
+        "location": {
+          "lat": 39.003966,
+          "lon": -121.151073
+        },
+        "courses": [
+          {
+            "id": 2872,
+            "name": "Auburn Valley",
+            "holes": 18,
+            "uuid": "1b35c182-df6c-4aae-9626-0b0b8f53cb93"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Black Oak Golf Course",
+      "city": "Auburn",
+      "slug": "black-oak-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "3bdd976d-7a54-48f1-8693-36133527cb74",
+        "id": 2519,
+        "name": "Black Oak Golf Course",
+        "slug": "black-oak-golf-course",
+        "city": "Auburn",
+        "province": "California",
+        "country": "United States",
+        "address": "2455 Black Oak Road",
+        "phone": "(530) 878-1900",
+        "website": "http://www.golfblackoak.com",
+        "postcode": "95602",
+        "defaultAffiliationTypeId": 10898,
+        "location": {
+          "lat": 38.96635,
+          "lon": -121.071042
+        },
+        "courses": [
+          {
+            "id": 2901,
+            "name": "Black Oak",
+            "holes": 9,
+            "uuid": "88c8b0ff-2757-42c9-9713-cedefa3dbdfe"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Empire Ranch Golf Club",
+      "city": "Folsom",
+      "slug": "empire-ranch-golf-club-california",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "d9dd3860-965f-4f6d-8986-c78173339e4b",
+        "id": 2666,
+        "name": "Empire Ranch Golf Club",
+        "slug": "empire-ranch-golf-club-california",
+        "city": "Folsom",
+        "province": "California",
+        "country": "United States",
+        "address": "1620 E Natomas St",
+        "phone": "(916) 817-8100",
+        "website": "http://www.empireranchgolfclub.com",
+        "postcode": "95630",
+        "defaultAffiliationTypeId": 11486,
+        "location": {
+          "lat": 38.68427,
+          "lon": -121.112601
+        },
+        "courses": [
+          {
+            "id": 3053,
+            "name": "Empire Ranch",
+            "holes": 18,
+            "uuid": "060a8621-9905-4c23-a0d6-208a05588033"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Wildhorse Golf Club",
+      "city": "Davis",
+      "slug": "wildhorse-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "ab15f4ca-b13e-4885-9dc8-8b070db59659",
+        "id": 10272,
+        "name": "Wildhorse Golf Club",
+        "slug": "wildhorse-golf-club",
+        "city": "Henderson",
+        "province": "Nevada",
+        "country": "United States",
+        "address": "2100 W Warm Springs Rd",
+        "phone": "(702) 434-9000",
+        "website": "http://www.golfwildhorse.com",
+        "postcode": "89014",
+        "defaultAffiliationTypeId": 41910,
+        "location": {
+          "lat": 36.056371,
+          "lon": -115.078236
+        },
+        "courses": [
+          {
+            "id": 11805,
+            "name": "Wild Horse",
+            "holes": 18,
+            "uuid": "f6adfb49-1f51-4589-b9e5-b46607f5d885"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Davis Municipal Golf Course",
+      "city": "Davis",
+      "slug": "davis-municipal-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "listed_only",
+      "club": {
+        "uuid": "fe29fdf4-03b3-41e0-b574-fa858ee69e76",
+        "id": 2610,
+        "name": "Davis Municipal Golf Club",
+        "slug": "davis-municipal-golf-club",
+        "city": "Davis",
+        "province": "California",
+        "country": "United States",
+        "address": "24439 Fairway Dr",
+        "phone": "(530) 756-4010",
+        "website": "http://www.davisgolfcourse.com",
+        "postcode": "95616",
+        "defaultAffiliationTypeId": 11262,
+        "location": {
+          "lat": 38.587305,
+          "lon": -121.772455
+        },
+        "courses": [
+          {
+            "id": 2997,
+            "name": "Davis Municipal",
+            "holes": 18,
+            "uuid": "e7bad8c1-d966-4f26-b5ec-85667dcc8280"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Wild Wings Golf Club",
+      "city": "Woodland",
+      "slug": "wild-wings-golf-club",
+      "slugSource": "name",
+      "status": "confirmed",
+      "club": {
+        "uuid": "77b0b0a1-3db7-47fa-8347-6268c94b1b9d",
+        "id": 18484,
+        "name": "Wild Wings Golf Club",
+        "slug": "wild-wings-golf-club",
+        "city": "Woodland",
+        "province": "California",
+        "country": "United States",
+        "address": "18540 Wild Wings Drive",
+        "phone": "(530) 661-4720",
+        "website": "https://www.wildwingsgolf.com/",
+        "postcode": "95695",
+        "defaultAffiliationTypeId": 96627,
+        "location": {
+          "lat": 38.6745,
+          "lon": -121.883999
+        },
+        "courses": [
+          {
+            "id": 21947,
+            "name": "Wild Wings",
+            "holes": 9,
+            "uuid": "3b43c664-e4fc-4c72-9b73-b2b35052000c"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "input": "Yocha Dehe Golf Club",
+      "city": "Brooks",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Emerald Lakes Golf Course",
+      "city": "Elk Grove",
+      "slug": "emerald-lakes-golf-center",
+      "slugSource": "swap-golf-center",
+      "status": "listed_only",
+      "club": {
+        "uuid": "32519395-c9d3-4f0c-b2bd-482d76b9c518",
+        "id": 2664,
+        "name": "Emerald Lakes Golf Center",
+        "slug": "emerald-lakes-golf-center",
+        "city": "Elk Grove",
+        "province": "California",
+        "country": "United States",
+        "address": "10651 E Stockton Blvd",
+        "phone": "(916) 685-4653",
+        "website": "",
+        "postcode": "95624",
+        "defaultAffiliationTypeId": 11478,
+        "location": {
+          "lat": 38.371927,
+          "lon": -121.357497
+        },
+        "courses": [
+          {
+            "id": 3051,
+            "name": "Emerald Lakes",
+            "holes": 9,
+            "uuid": "b97c69c1-8718-4cad-80be-8404504e7cc8"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Dry Creek Ranch Golf Course",
+      "city": "Galt",
+      "slug": "dry-creek-ranch-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "61203103-a329-4e4e-ba53-7f224d5a2975",
+        "id": 2640,
+        "name": "Dry Creek Ranch Golf Course",
+        "slug": "dry-creek-ranch-golf-course",
+        "city": "Galt",
+        "province": "California",
+        "country": "United States",
+        "address": "809 Crystal Way",
+        "phone": "(209) 745-2330",
+        "website": "",
+        "postcode": "95632",
+        "defaultAffiliationTypeId": 11382,
+        "location": {
+          "lat": 38.248255,
+          "lon": -121.287826
+        },
+        "courses": [
+          {
+            "id": 3027,
+            "name": "Dry Creek Ranch",
+            "holes": 18,
+            "uuid": "d9e8fe79-a49f-4e2a-8157-5f0bb0354df2"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Antelope Greens Golf Course",
+      "city": "Antelope",
+      "slug": "antelope-greens-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "114a904b-5b05-4676-bfa5-625d242b9931",
+        "id": 2477,
+        "name": "Antelope Greens Golf Course",
+        "slug": "antelope-greens-golf-course",
+        "city": "Antelope",
+        "province": "California",
+        "country": "United States",
+        "address": "2721 Elverta Rd",
+        "phone": "(916) 334-5764",
+        "website": "http://www.antelopegreensgolf.com",
+        "postcode": "95843",
+        "defaultAffiliationTypeId": 10730,
+        "location": {
+          "lat": 38.714357,
+          "lon": -121.403282
+        },
+        "courses": [
+          {
+            "id": 2859,
+            "name": "Antelope Greens",
+            "holes": 18,
+            "uuid": "aeb2209f-5337-4bc8-a3d8-fb4673e7c383"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "River Oaks Golf Club",
+      "city": "Nicolaus",
+      "slug": "river-oaks-golf-course-california",
+      "slugSource": "swap-golf-course",
+      "status": "listed_only",
+      "club": {
+        "uuid": "11e4c225-0411-4149-8734-1c71e29fe7c3",
+        "id": 2991,
+        "name": "River Oaks Golf Course",
+        "slug": "river-oaks-golf-course-california",
+        "city": "Ceres",
+        "province": "California",
+        "country": "United States",
+        "address": "3441 E Hatch Rd",
+        "phone": "(209) 537-4653",
+        "website": "",
+        "postcode": "95307",
+        "defaultAffiliationTypeId": 12786,
+        "location": {
+          "lat": 37.609299,
+          "lon": -120.93492
+        },
+        "courses": [
+          {
+            "id": 3392,
+            "name": "River Oaks",
+            "holes": 18,
+            "uuid": "92d67ed5-3fa6-4dc9-86b8-3e585740c455"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Indian Creek Golf Club",
+      "city": "Loomis",
+      "slug": "indian-creek-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "c040b030-a170-41dc-aaaf-480b46a32fd8",
+        "id": 9637,
+        "name": "Indian Creek Golf Club",
+        "slug": "indian-creek-golf-club-nebraska",
+        "city": "Elkhorn",
+        "province": "Nebraska",
+        "country": "United States",
+        "address": "20100 W Maple Rd",
+        "phone": "(402) 289-0900",
+        "website": "http://www.golfindiancreek.com",
+        "postcode": "68022",
+        "defaultAffiliationTypeId": 39370,
+        "location": {
+          "lat": 41.29195,
+          "lon": -96.230432
+        },
+        "courses": [
+          {
+            "id": 11063,
+            "name": "Red Feather/ Blackbird",
+            "holes": 18,
+            "uuid": "7dffa03a-61aa-46d5-aa2f-83309ba362a7"
+          },
+          {
+            "id": 11062,
+            "name": "Gray Hawk/Red Feather",
+            "holes": 18,
+            "uuid": "ed17e888-33b5-492a-a096-dbf1e3f581bd"
+          },
+          {
+            "id": 11061,
+            "name": "Blackbird/Gray Hawk",
+            "holes": 18,
+            "uuid": "39f6bb4d-b8fa-4c9a-887e-18b098f656cc"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Apple Mountain Golf Resort",
+      "city": "Camino",
+      "slug": "apple-mountain-golf-resort",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "7ace7cf9-ab76-449c-a1f3-2d60f5c6f82f",
+        "id": 2479,
+        "name": "Apple Mountain Golf Resort",
+        "slug": "apple-mountain-golf-resort",
+        "city": "Camino",
+        "province": "California",
+        "country": "United States",
+        "address": "3430 N Canyon",
+        "phone": "(530) 647-7400",
+        "website": "http://www.applemountaingolfresort.com",
+        "postcode": "95709",
+        "defaultAffiliationTypeId": 10738,
+        "location": {
+          "lat": 38.757584,
+          "lon": -120.70898
+        },
+        "courses": [
+          {
+            "id": 2861,
+            "name": "Apple Mountain",
+            "holes": 18,
+            "uuid": "7ebe4663-139d-4108-9faa-ca7af6629d51"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Camino Heights Golf Course",
+      "city": "Camino",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Micke Grove Golf Links",
+      "city": "Lodi",
+      "slug": "micke-grove-golf-links",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "02cfd05b-371e-4a7e-8deb-adee69459cad",
+        "id": 2836,
+        "name": "Micke Grove Golf Links",
+        "slug": "micke-grove-golf-links",
+        "city": "Lodi",
+        "province": "California",
+        "country": "United States",
+        "address": "11401 N Micke Grove Rd",
+        "phone": "(209) 369-4410",
+        "website": "http://www.mickegrove.com",
+        "postcode": "95240",
+        "defaultAffiliationTypeId": 12166,
+        "location": {
+          "lat": 38.068967,
+          "lon": -121.268966
+        },
+        "courses": [
+          {
+            "id": 3226,
+            "name": "Micke Grove",
+            "holes": 18,
+            "uuid": "fb452deb-1b82-4ae6-ac4f-9ecf90f07625"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Plumas Lake Golf \u0026 Country Club",
+      "city": "Olivehurst",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Rolling Greens Golf Course",
+      "city": "Granite Bay",
+      "slug": "rolling-greens-golf-course",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "3c818a22-e8a4-45fd-90ab-cd2092aaaa75",
+        "id": 12738,
+        "name": "Rolling Greens Golf Course",
+        "slug": "rolling-greens-golf-course-rhode-island",
+        "city": "North Kingstown",
+        "province": "Rhode Island",
+        "country": "United States",
+        "address": "1625 Ten Rod Rd",
+        "phone": "(401) 294-9859",
+        "website": "http://www.rollinggreensri.com",
+        "postcode": "2852",
+        "defaultAffiliationTypeId": 51774,
+        "location": {
+          "lat": 41.577103,
+          "lon": -71.511246
+        },
+        "courses": [
+          {
+            "id": 14566,
+            "name": "Rolling Greens",
+            "holes": 9,
+            "uuid": "808aeb38-b038-420b-a41c-d8a20b24c11a"
+          }
+        ]
+      }
+    }
+  ],
+  "state": "CA",
+  "timestamp": "2026-03-06T00:02:22-07:00",
+  "totalInput": 42,
+  "validationDates": [
+    "2026-03-11",
+    "2026-03-07",
+    "2026-03-14"
+  ],
+  "wrongState": 5
+}

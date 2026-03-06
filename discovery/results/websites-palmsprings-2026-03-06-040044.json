@@ -1,0 +1,338 @@
+{
+  "metro": "palmsprings",
+  "needsUrl": [
+    {
+      "name": "Indian Canyons Golf Resort - North Course",
+      "city": "Palm Springs",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Indian Canyons Golf Resort - South Course",
+      "city": "Palm Springs",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "O'Donnell Golf Club",
+      "city": "Palm Springs",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Cimarron Golf Resort - Boulder Course",
+      "city": "Cathedral City",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Cimarron Golf Resort - Pebble Course",
+      "city": "Cathedral City",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Date Palm Country Club",
+      "city": "Cathedral City",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Desert Dunes Golf Course",
+      "city": "Desert Hot Springs",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Sands RV \u0026 Golf Resort",
+      "city": "Desert Hot Springs",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Desert Crest Country Club",
+      "city": "Desert Hot Springs",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Marriott's Shadow Ridge Golf Club",
+      "city": "Palm Desert",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "JW Marriott Desert Springs - Palms Course",
+      "city": "Palm Desert",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "JW Marriott Desert Springs - Valley Course",
+      "city": "Palm Desert",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Palm Desert Greens Golf Course",
+      "city": "Palm Desert",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Mission Hills - Gary Player Signature Course",
+      "city": "Rancho Mirage",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Westin Mission Hills - Pete Dye Resort Course",
+      "city": "Rancho Mirage",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Omni Rancho Las Palmas Country Club",
+      "city": "Rancho Mirage",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Indian Wells Golf Resort - Celebrity Course",
+      "city": "Indian Wells",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Indian Wells Golf Resort - Players Course",
+      "city": "Indian Wells",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Golf Club at Terra Lago - North Course",
+      "city": "Indio",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Golf Club at Terra Lago - South Course",
+      "city": "Indio",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "PGA West - Mountain Course",
+      "city": "La Quinta",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "PGA West - Dunes Course",
+      "city": "La Quinta",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "PGA West - Nicklaus Tournament Course",
+      "city": "La Quinta",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "La Quinta Resort - Mountain Course",
+      "city": "La Quinta",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "La Quinta Resort - Dunes Course",
+      "city": "La Quinta",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Golf Club at La Quinta",
+      "city": "La Quinta",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Trilogy Golf Club at La Quinta",
+      "city": "La Quinta",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Eagle Falls Golf Course",
+      "city": "Indio",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Shadow Hills Golf Club - South Course",
+      "city": "Indio",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    },
+    {
+      "name": "Ivey Ranch Country Club",
+      "city": "Thousand Palms",
+      "result": {
+        "platform": "",
+        "status": "needs-url",
+        "notes": "Could not find website — add URL as 3rd column and re-run"
+      }
+    }
+  ],
+  "partial": null,
+  "ready": null,
+  "state": "CA",
+  "summary": {
+    "needsUrl": 30,
+    "partial": 0,
+    "ready": 0,
+    "total": 35,
+    "unknown": 5
+  },
+  "timestamp": "2026-03-06T04:00:44-07:00",
+  "unknown": [
+    {
+      "name": "Cathedral Canyon Golf Club",
+      "city": "Cathedral City",
+      "result": {
+        "platform": "",
+        "status": "unknown",
+        "url": "https://www.cathedral-canyon.com",
+        "notes": "No known platform found in page source — needs manual HAR"
+      }
+    },
+    {
+      "name": "Hidden Springs Country Club",
+      "city": "Desert Hot Springs",
+      "result": {
+        "platform": "",
+        "status": "unknown",
+        "url": "https://www.hidden-springs.com",
+        "notes": "No known platform found in page source — needs manual HAR"
+      }
+    },
+    {
+      "name": "Heritage Palms Golf Club",
+      "city": "Indio",
+      "result": {
+        "platform": "",
+        "status": "unknown",
+        "url": "https://www.heritagepalmsgolfclub.com",
+        "notes": "No known platform found in page source — needs manual HAR"
+      }
+    },
+    {
+      "name": "Plantation Golf Club",
+      "city": "Indio",
+      "result": {
+        "platform": "",
+        "status": "unknown",
+        "url": "https://www.ormondmanor.net/",
+        "notes": "No known platform found in page source — needs manual HAR"
+      }
+    },
+    {
+      "name": "The Vineyards Golf Course",
+      "city": "Coachella",
+      "result": {
+        "platform": "",
+        "status": "unknown",
+        "url": "https://vineyards.com/",
+        "notes": "No known platform found in page source — needs manual HAR"
+      }
+    }
+  ]
+}

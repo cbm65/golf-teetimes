@@ -1,0 +1,1086 @@
+{
+  "confirmed": 17,
+  "elapsed": "2m19.028277666s",
+  "errors": 0,
+  "listedOnly": 10,
+  "misses": 29,
+  "platform": "teeitup",
+  "results": [
+    {
+      "input": "Escena Golf Club",
+      "city": "Palm Springs",
+      "alias": "escena-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1525,
+        "courseId": "54f14bdc0c8ad60378b0183e",
+        "name": "Escena Golf Club",
+        "address": "1100 Clubhouse View Drive, Palm Springs, CA 92262 US",
+        "locality": "Palm Springs",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.506094,
+          33.838411
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Indian Canyons Golf Resort - North Course",
+      "city": "Palm Springs",
+      "alias": "indian-canyons-golf-resort-north-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 3942,
+        "courseId": "54f14cae0c8ad60378b02b37",
+        "name": "Indian Canyons Golf Resort North Course",
+        "address": "1097 E Murray Canyon Drive, Palm Springs, CA 92264 US",
+        "locality": "Palm Springs",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.533892,
+          33.783321
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Indian Canyons Golf Resort - South Course",
+      "city": "Palm Springs",
+      "alias": "indian-canyons-golf-resort-south-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1952,
+        "courseId": "54f14c040c8ad60378b01bf0",
+        "name": "Indian Canyons Golf Resort South Course",
+        "address": "1097 E. Murray Canyon Drive, Palm Springs, CA 92264 US",
+        "locality": "Palm Springs",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.533892,
+          33.783321
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Tahquitz Creek Golf Resort - Resort Course",
+      "city": "Palm Springs",
+      "alias": "tahquitz-creek-golf-resort-resort-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 6427,
+        "courseId": "54f14dc40c8ad60378b042f1",
+        "name": "Tahquitz Creek Golf Resort Resort Course",
+        "address": "1885 Golf Club Dr, Palm Springs, CA 92264-3860, US",
+        "locality": "Palm Springs",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.516605,
+          33.800492
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        37,
+        22,
+        47
+      ]
+    },
+    {
+      "input": "Tahquitz Creek Golf Resort - Legend Course",
+      "city": "Palm Springs",
+      "alias": "tahquitz-creek-golf-resort-legend-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 2930,
+        "courseId": "54f14c540c8ad60378b02308",
+        "name": "Tahquitz Creek Golf Resort Legend Course",
+        "address": "1885 Golf Club Dr, Palm Springs, CA , CA 92264-3860 US",
+        "locality": "Palm Springs, CA ",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.482782,
+          33.800496
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "input": "O'Donnell Golf Club",
+      "city": "Palm Springs",
+      "alias": "odonnell-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Desert Princess Country Club",
+      "city": "Cathedral City",
+      "alias": "desert-princess-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Cathedral Canyon Golf Club",
+      "city": "Cathedral City",
+      "alias": "cathedral-canyon-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 220,
+        "courseId": "54f14b470c8ad60378b00d4d",
+        "name": "Cathedral Canyon Golf Club",
+        "address": "68311 Paseo Real, Cathedral City, CA 92234, US",
+        "locality": "Cathedral City",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.469021,
+          33.795082
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Cimarron Golf Resort - Boulder Course",
+      "city": "Cathedral City",
+      "alias": "cimarron-golf-resort-boulder-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 525,
+        "courseId": "54f14b710c8ad60378b01017",
+        "name": "Cimarron Golf Resort - Boulder Course",
+        "address": "67603 30th Avenue, Cathedral City, CA 92234 US",
+        "locality": "Cathedral City",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.469021,
+          33.830418
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Cimarron Golf Resort - Pebble Course",
+      "city": "Cathedral City",
+      "alias": "cimarron-golf-resort-pebble-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1524,
+        "courseId": "54f14bdc0c8ad60378b0183a",
+        "name": "Cimarron Golf Resort - Pebble Course (Par 3)",
+        "address": "67603 30th Avenue, Cathedral City, CA 92234 US",
+        "locality": "Cathedral City",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.484303,
+          33.829009
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Date Palm Country Club",
+      "city": "Cathedral City",
+      "alias": "date-palm-country-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 5478,
+        "courseId": "54f14d570c8ad60378b03a47",
+        "name": "Date Palm Country Club",
+        "address": "36200 Date Palm Drive, Cathedral City, CA 92234, US",
+        "locality": "Cathedral City",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.45812000000001,
+          33.7875158
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Desert Dunes Golf Course",
+      "city": "Desert Hot Springs",
+      "alias": "desert-dunes-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Mission Lakes Country Club",
+      "city": "Desert Hot Springs",
+      "alias": "mission-lakes-country-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 6940,
+        "courseId": "54f14e020c8ad60378b04774",
+        "name": "Mission Lakes Country Club",
+        "address": "8484 Clubhouse Blvd, Desert Hot Springs, CA 92240-1100 US",
+        "locality": "Desert Hot Springs",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.536894,
+          33.983304
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        19,
+        0
+      ]
+    },
+    {
+      "input": "Sands RV \u0026 Golf Resort",
+      "city": "Desert Hot Springs",
+      "alias": "sands-rv-and-golf-resort",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Hidden Springs Country Club",
+      "city": "Desert Hot Springs",
+      "alias": "hidden-springs-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Desert Crest Country Club",
+      "city": "Desert Hot Springs",
+      "alias": "desert-crest-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Desert Willow Golf Resort - Firecliff Course",
+      "city": "Palm Desert",
+      "alias": "desert-willow-golf-resort-firecliff-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Desert Willow Golf Resort - Mountain View Course",
+      "city": "Palm Desert",
+      "alias": "desert-willow-golf-resort-mountain-view",
+      "aliasSource": "trim-trailing",
+      "status": "confirmed",
+      "facility": {
+        "id": 7379,
+        "courseId": "54f14e2f0c8ad60378b04abb",
+        "name": "Desert Willow Golf Resort Mountain View",
+        "address": "38995 Desert Willow Drive, Palm Desert, CA 92260, US",
+        "locality": "Palm Desert",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.36092,
+          33.75877
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        2,
+        5,
+        0
+      ]
+    },
+    {
+      "input": "Classic Club",
+      "city": "Palm Desert",
+      "alias": "classic-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1662,
+        "courseId": "54f14be80c8ad60378b0195d",
+        "name": "Classic Club",
+        "address": "75200 Classic Club Blvd., Palm Desert, CA 92211, US",
+        "locality": "Palm Desert",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.330491,
+          33.746188
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        22,
+        26,
+        0
+      ]
+    },
+    {
+      "input": "Shadow Mountain Golf Club",
+      "city": "Palm Desert",
+      "alias": "shadow-mountain-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 8723,
+        "courseId": "54f14eb50c8ad60378b054ec",
+        "name": "Shadow Mountain Golf Club",
+        "address": "73800 Ironwood St, Palm Desert, CA 92260, US",
+        "locality": "Palm Desert",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.378156,
+          33.714524
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Palm Desert Resort Country Club",
+      "city": "Palm Desert",
+      "alias": "palm-desert-resort-country-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1388,
+        "courseId": "54f14bce0c8ad60378b0170f",
+        "name": "Palm Desert Resort Country Club",
+        "address": "77-333 Country Club Drive, Palm Desert, CA 92211, US",
+        "locality": "Palm Desert",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.38504,
+          33.757742
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        18,
+        9,
+        36
+      ]
+    },
+    {
+      "input": "Woodhaven Country Club",
+      "city": "Palm Desert",
+      "alias": "woodhaven-country-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1953,
+        "courseId": "54f14c040c8ad60378b01bf5",
+        "name": "Woodhaven Country Club",
+        "address": "41555 Woodhaven Drive East, Palm Desert, CA 92211, US",
+        "locality": "Palm Desert",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.330491,
+          33.746188
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        6,
+        17,
+        0
+      ]
+    },
+    {
+      "input": "Marriott's Shadow Ridge Golf Club",
+      "city": "Palm Desert",
+      "alias": "marriotts-shadow-ridge-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "JW Marriott Desert Springs - Palms Course",
+      "city": "Palm Desert",
+      "alias": "jw-marriott-desert-springs-palms-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "JW Marriott Desert Springs - Valley Course",
+      "city": "Palm Desert",
+      "alias": "jw-marriott-desert-springs-valley-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Suncrest Country Club",
+      "city": "Palm Desert",
+      "alias": "suncrest-country-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 19694,
+        "courseId": "6825ed10352f842fb19f567c",
+        "name": "Suncrest Country Club",
+        "address": "Palm Desert, CA 92260, US",
+        "locality": "Palm Desert",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.383682,
+          33.761585
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        16,
+        18,
+        0
+      ]
+    },
+    {
+      "input": "Palm Desert Greens Golf Course",
+      "city": "Palm Desert",
+      "alias": "palm-desert-greens-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Desert Falls Country Club",
+      "city": "Palm Desert",
+      "alias": "desert-falls-country-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 2028,
+        "courseId": "54f14c0c0c8ad60378b01ca3",
+        "name": "Desert Falls Country Club",
+        "address": "1111 Desert Falls Parkway, Palm Desert, CA 92211, US",
+        "locality": "Palm Desert",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.349576,
+          33.760698
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        7,
+        6,
+        22
+      ]
+    },
+    {
+      "input": "Mission Hills - Gary Player Signature Course",
+      "city": "Rancho Mirage",
+      "alias": "mission-hills-gary-player-signature-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Westin Mission Hills - Pete Dye Resort Course",
+      "city": "Rancho Mirage",
+      "alias": "westin-mission-hills-pete-dye-resort-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Omni Rancho Las Palmas Country Club",
+      "city": "Rancho Mirage",
+      "alias": "omni-rancho-las-palmas-country-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Indian Wells Golf Resort - Celebrity Course",
+      "city": "Indian Wells",
+      "alias": "indian-wells-golf-resort-celebrity-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Indian Wells Golf Resort - Players Course",
+      "city": "Indian Wells",
+      "alias": "indian-wells-golf-resort-players-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Golf Club at Terra Lago - North Course",
+      "city": "Indio",
+      "alias": "golf-club-at-terra-lago-north-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Golf Club at Terra Lago - South Course",
+      "city": "Indio",
+      "alias": "golf-club-at-terra-lago-south-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "PGA West - Stadium Course",
+      "city": "La Quinta",
+      "alias": "pga-west-stadium-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 3155,
+        "courseId": "54f14c640c8ad60378b0246d",
+        "name": "PGA WEST - Pete Dye Stadium Course",
+        "address": "56-150 PGA Blvd, La Quinta, CA 92253, US",
+        "locality": "La Quinta",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.264369,
+          33.639626
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "input": "PGA West - Mountain Course",
+      "city": "La Quinta",
+      "alias": "pga-west-mountain-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "PGA West - Dunes Course",
+      "city": "La Quinta",
+      "alias": "pga-west-dunes-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "PGA West - Greg Norman Course",
+      "city": "La Quinta",
+      "alias": "pga-west-greg-norman-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 3154,
+        "courseId": "54f14c640c8ad60378b0246a",
+        "name": "PGA WEST - Greg Norman Course",
+        "address": "81-405 Kingston Heath, La Quinta, CA 92253 US",
+        "locality": "La Quinta",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.268482,
+          33.643349
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        31,
+        17,
+        29
+      ]
+    },
+    {
+      "input": "PGA West - Nicklaus Tournament Course",
+      "city": "La Quinta",
+      "alias": "pga-west-nicklaus-tournament-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "SilverRock Resort",
+      "city": "La Quinta",
+      "alias": "silverrock-resort",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1913,
+        "courseId": "54f14bff0c8ad60378b01b8a",
+        "name": "SilverRock Resort",
+        "address": "79179 Ahmanson Ln, La Quinta, CA 92253 US",
+        "locality": "La Quinta",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.310009,
+          33.663357
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        10,
+        1,
+        7
+      ]
+    },
+    {
+      "input": "La Quinta Resort - Mountain Course",
+      "city": "La Quinta",
+      "alias": "la-quinta-resort-mountain-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "La Quinta Resort - Dunes Course",
+      "city": "La Quinta",
+      "alias": "la-quinta-resort-dunes-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Palm Royale Country Club",
+      "city": "La Quinta",
+      "alias": "palm-royale-country-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1918,
+        "courseId": "54f14c000c8ad60378b01b97",
+        "name": "Palm Royale Country Club",
+        "address": "78259 Indigo, La Quinta, CA 92253 US",
+        "locality": "La Quinta",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.297622,
+          33.727159
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        63,
+        61,
+        0
+      ]
+    },
+    {
+      "input": "Golf Club at La Quinta",
+      "city": "La Quinta",
+      "alias": "golf-club-at-la-quinta",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Trilogy Golf Club at La Quinta",
+      "city": "La Quinta",
+      "alias": "trilogy-golf-club-at-la-quinta",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Heritage Palms Golf Club",
+      "city": "Indio",
+      "alias": "heritage-palms-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 3808,
+        "courseId": "54f14c9e0c8ad60378b029b5",
+        "name": "Heritage Palms Golf Club",
+        "address": "44291 South Heritage Palms Dr. , Indio, CA 92201 US",
+        "locality": "Indio",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.26254,
+          33.727848
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Eagle Falls Golf Course",
+      "city": "Indio",
+      "alias": "eagle-falls-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Shadow Hills Golf Club - North Course",
+      "city": "Indio",
+      "alias": "shadow-hills-golf-club-north-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 6136,
+        "courseId": "54f14d9e0c8ad60378b0403b",
+        "name": "Shadow Hills Golf Club - North Course",
+        "address": "81-420 N. Sun City Boulevard, Indio, CA 92203 US",
+        "locality": "Indio",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.262199,
+          33.754364
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        26,
+        26,
+        26
+      ]
+    },
+    {
+      "input": "Shadow Hills Golf Club - South Course",
+      "city": "Indio",
+      "alias": "shadow-hills-golf-club-south-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Indian Palms Country Club",
+      "city": "Indio",
+      "alias": "indian-palms-country-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 524,
+        "courseId": "54f14b700c8ad60378b01013",
+        "name": "Indian Palms Country Club",
+        "address": "48630 Monroe St., Indio, CA 92201 US",
+        "locality": "Indio",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.233933,
+          33.69605
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        58,
+        58,
+        0
+      ]
+    },
+    {
+      "input": "Indian Springs Golf Club",
+      "city": "Indio",
+      "alias": "indian-springs-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1266,
+        "courseId": "54f14bc30c8ad60378b01606",
+        "name": "Big Rock Golf Course at Indian Springs",
+        "address": "79-940 Westward Ho Dr, Indio, CA 92201 US",
+        "locality": "Indio",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.268941,
+          33.714622
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        35,
+        24,
+        0
+      ]
+    },
+    {
+      "input": "Plantation Golf Club",
+      "city": "Indio",
+      "alias": "plantation-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "The Lights at Indio Golf Course",
+      "city": "Indio",
+      "alias": "the-lights-at-indio-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 8880,
+        "courseId": "54f14ec70c8ad60378b05658",
+        "name": "The Lights at Indio Golf Course",
+        "address": "83040 Avenue 42, Indio, CA 92203, US",
+        "locality": "Indio",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.2265,
+          33.7561
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        66,
+        62,
+        69
+      ]
+    },
+    {
+      "input": "Ivey Ranch Country Club",
+      "city": "Thousand Palms",
+      "alias": "ivey-ranch-country-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 9141,
+        "courseId": "54f14edd0c8ad60378b0585c",
+        "name": "Ivey Ranch Country Club",
+        "address": "74580 Varner Rd, Thousand Palms, CA 92276 US",
+        "locality": "Thousand Palms",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -116.376571,
+          33.812529
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Vineyards Golf Course",
+      "city": "Coachella",
+      "alias": "the-vineyards-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    }
+  ],
+  "state": "CA",
+  "timestamp": "2026-03-06T03:48:44-07:00",
+  "totalInput": 56,
+  "validationDates": [
+    "2026-03-11",
+    "2026-03-07",
+    "2026-03-14"
+  ]
+}

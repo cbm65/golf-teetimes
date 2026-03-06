@@ -1,0 +1,617 @@
+[
+  {
+    "key": "augusta-ranch",
+    "metro": "phoenix",
+    "subdomain": "augustaranch",
+    "bookingUrl": "https://augustaranch.quick18.com",
+    "displayName": "Augusta Ranch Golf Club",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "key": "coyote-lakes",
+    "metro": "phoenix",
+    "subdomain": "coyotelakes",
+    "bookingUrl": "https://coyotelakes.quick18.com",
+    "displayName": "Coyote Lakes Golf Club",
+    "city": "Surprise",
+    "state": "AZ"
+  },
+  {
+    "key": "desert-canyon",
+    "metro": "phoenix",
+    "subdomain": "desertcanyon",
+    "bookingUrl": "https://desertcanyon.quick18.com",
+    "displayName": "Desert Canyon Golf Club",
+    "city": "Fountain Hills",
+    "state": "AZ"
+  },
+  {
+    "key": "grayhawk",
+    "metro": "phoenix",
+    "subdomain": "grayhawk",
+    "bookingUrl": "https://grayhawk.quick18.com",
+    "displayName": "Grayhawk Golf Club",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "orange-tree",
+    "metro": "phoenix",
+    "subdomain": "orangetree",
+    "bookingUrl": "https://orangetree.quick18.com",
+    "displayName": "Orange Tree Golf Course",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "key": "papago",
+    "metro": "phoenix",
+    "subdomain": "papago",
+    "bookingUrl": "https://papago.quick18.com",
+    "displayName": "Papago Golf Course",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "key": "springfield",
+    "metro": "phoenix",
+    "subdomain": "springfieldgolfresort",
+    "bookingUrl": "https://springfieldgolfresort.quick18.com",
+    "displayName": "Springfield Golf Resort",
+    "city": "Chandler",
+    "state": "AZ"
+  },
+  {
+    "key": "sunridge-canyon",
+    "metro": "phoenix",
+    "subdomain": "sunridgecanyon",
+    "bookingUrl": "https://sunridgecanyon.quick18.com",
+    "displayName": "SunRidge Canyon Golf Club",
+    "city": "Fountain Hills",
+    "state": "AZ"
+  },
+  {
+    "key": "thorncreek",
+    "metro": "denver",
+    "subdomain": "thorncreek",
+    "bookingUrl": "https://thorncreek.quick18.com",
+    "displayName": "Thorncreek Golf Course",
+    "city": "Thornton",
+    "state": "CO"
+  },
+  {
+    "key": "angel-park",
+    "metro": "lasvegas",
+    "subdomain": "angelpark",
+    "bookingUrl": "https://angelpark.quick18.com",
+    "displayName": "Angel Park Golf Club",
+    "namePrefix": "Angel Park Golf Club",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "key": "indian-valley",
+    "metro": "sanfrancisco",
+    "subdomain": "indianvalley",
+    "bookingUrl": "https://indianvalley.quick18.com",
+    "displayName": "Indian Valley Golf Club",
+    "city": "Novato",
+    "state": "CA"
+  },
+  {
+    "key": "gold-canyon",
+    "metro": "phoenix",
+    "subdomain": "goldcanyon",
+    "bookingUrl": "https://goldcanyon.quick18.com",
+    "displayName": "Gold Canyon Golf Resort",
+    "city": "Gold Canyon",
+    "state": "AZ"
+  },
+  {
+    "key": "palmbrook",
+    "metro": "phoenix",
+    "subdomain": "palmbrook",
+    "bookingUrl": "https://palmbrook.quick18.com",
+    "displayName": "Palmbrook Golf Club",
+    "city": "Sun City",
+    "state": "AZ"
+  },
+  {
+    "key": "union-hills",
+    "metro": "phoenix",
+    "subdomain": "unionhills",
+    "bookingUrl": "https://unionhills.quick18.com",
+    "displayName": "Union Hills Golf Club",
+    "city": "Sun City",
+    "state": "AZ"
+  },
+  {
+    "key": "delaveaga",
+    "metro": "sanfrancisco",
+    "subdomain": "delaveaga",
+    "bookingUrl": "https://delaveaga.quick18.com",
+    "displayName": "DeLaveaga Golf Course",
+    "city": "Santa Cruz",
+    "state": "CA"
+  },
+  {
+    "key": "arroyo-trabuco",
+    "metro": "losangeles",
+    "subdomain": "arroyotrabuco",
+    "bookingUrl": "https://arroyotrabuco.quick18.com",
+    "displayName": "Arroyo Trabuco Golf Club",
+    "city": "Mission Viejo",
+    "state": "CA"
+  },
+  {
+    "key": "journey-at-pechanga",
+    "metro": "sandiego",
+    "subdomain": "pechanga",
+    "bookingUrl": "https://pechanga.quick18.com",
+    "displayName": "Journey at Pechanga",
+    "city": "Temecula",
+    "state": "CA"
+  },
+  {
+    "key": "tradition",
+    "metro": "charlotte",
+    "subdomain": "tradition",
+    "bookingUrl": "https://tradition.quick18.com",
+    "displayName": "The Tradition Golf Club",
+    "city": "Charlotte",
+    "state": "NC"
+  },
+  {
+    "key": "live-oak",
+    "metro": "austin",
+    "subdomain": "liveoak",
+    "bookingUrl": "https://liveoak.quick18.com",
+    "displayName": "Live Oak Golf Course",
+    "city": "Lakeway",
+    "state": "TX"
+  },
+  {
+    "key": "caledonia",
+    "metro": "myrtle-beach",
+    "subdomain": "caledonia",
+    "domain": "omnitech.golf",
+    "bookingUrl": "https://caledonia.omnitech.golf",
+    "displayName": "Caledonia Golf & Fish Club",
+    "city": "Pawleys Island",
+    "state": "SC"
+  },
+  {
+    "key": "aberdeen",
+    "metro": "myrtle-beach",
+    "subdomain": "aberdeen",
+    "bookingUrl": "https://aberdeen.quick18.com/teetimes",
+    "displayName": "Aberdeen Country Club",
+    "city": "Longs",
+    "state": "SC"
+  },
+  {
+    "key": "litchfield",
+    "metro": "myrtle-beach",
+    "subdomain": "litchfield",
+    "bookingUrl": "https://litchfield.quick18.com/teetimes",
+    "displayName": "Litchfield Country Club",
+    "city": "Pawleys Island",
+    "state": "SC"
+  },
+  {
+    "key": "long-bay",
+    "metro": "myrtle-beach",
+    "subdomain": "longbay",
+    "bookingUrl": "https://longbay.quick18.com/teetimes",
+    "displayName": "Long Bay Golf Club",
+    "city": "Longs",
+    "state": "SC"
+  },
+  {
+    "key": "pine-lakes",
+    "metro": "myrtle-beach",
+    "subdomain": "pinelakes",
+    "bookingUrl": "https://pinelakes.quick18.com/teetimes",
+    "displayName": "Pine Lakes Country Club",
+    "city": "Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "key": "river-club",
+    "metro": "myrtle-beach",
+    "subdomain": "riverclub",
+    "bookingUrl": "https://riverclub.quick18.com/teetimes",
+    "displayName": "River Club Golf Course",
+    "city": "Pawleys Island",
+    "state": "SC"
+  },
+  {
+    "key": "willbrook",
+    "metro": "myrtle-beach",
+    "subdomain": "willbrookplantation",
+    "bookingUrl": "https://willbrookplantation.quick18.com/teetimes",
+    "displayName": "Willbrook Plantation Golf Club",
+    "city": "Pawleys Island",
+    "state": "SC"
+  },
+  {
+    "key": "pawleys-plantation",
+    "metro": "myrtle-beach",
+    "subdomain": "pawleysplantation",
+    "bookingUrl": "https://pawleysplantation.play18.com/teetimes",
+    "displayName": "Pawleys Plantation Golf & Country Club",
+    "city": "Pawleys Island",
+    "state": "SC",
+    "domain": "play18.com"
+  },
+  {
+    "key": "colonial-charters",
+    "metro": "myrtle-beach",
+    "subdomain": "colonialcharters",
+    "bookingUrl": "https://colonialcharters.play18.com/teetimes",
+    "displayName": "Colonial Charters Golf Club",
+    "city": "Longs",
+    "state": "SC",
+    "domain": "play18.com"
+  },
+  {
+    "key": "founders-club",
+    "metro": "myrtle-beach",
+    "subdomain": "foundersclub",
+    "bookingUrl": "https://foundersclub.play18.com/teetimes",
+    "displayName": "Founders Club at Pawleys Island",
+    "city": "Pawleys Island",
+    "state": "SC",
+    "domain": "play18.com"
+  },
+  {
+    "key": "grande-dunes-resort",
+    "metro": "myrtle-beach",
+    "subdomain": "grandedunes",
+    "bookingUrl": "https://grandedunes.play18.com/teetimes",
+    "displayName": "Resort Club at Grande Dunes",
+    "city": "Myrtle Beach",
+    "state": "SC",
+    "domain": "play18.com"
+  },
+  {
+    "key": "river-hills",
+    "metro": "myrtle-beach",
+    "subdomain": "riverhills",
+    "bookingUrl": "https://riverhills.play18.com/teetimes",
+    "displayName": "River Hills Golf & Country Club",
+    "city": "Little River",
+    "state": "SC",
+    "domain": "play18.com"
+  },
+  {
+    "key": "tradition-golf-club",
+    "metro": "myrtle-beach",
+    "subdomain": "tradition",
+    "bookingUrl": "https://tradition.play18.com/teetimes",
+    "displayName": "Tradition Golf Club",
+    "city": "Pawleys Island",
+    "state": "SC",
+    "domain": "play18.com"
+  },
+  {
+    "key": "world-tour",
+    "metro": "myrtle-beach",
+    "subdomain": "worldtour",
+    "bookingUrl": "https://worldtour.play18.com/teetimes",
+    "displayName": "World Tour Golf Links",
+    "city": "Myrtle Beach",
+    "state": "SC",
+    "domain": "play18.com"
+  },
+  {
+    "key": "true-blue",
+    "metro": "myrtle-beach",
+    "subdomain": "trueblue",
+    "bookingUrl": "https://trueblue.quick18.com",
+    "displayName": "True Blue Golf Club",
+    "city": "Pawleys Island",
+    "state": "SC"
+  },
+  {
+    "key": "blackmoor",
+    "metro": "myrtle-beach",
+    "subdomain": "blackmoor",
+    "bookingUrl": "https://blackmoor.quick18.com",
+    "displayName": "Blackmoor Golf Club",
+    "city": "Murrells Inlet",
+    "state": "SC"
+  },
+  {
+    "key": "arcadian-shores",
+    "metro": "myrtle-beach",
+    "subdomain": "arcadianshores",
+    "bookingUrl": "https://arcadianshores.quick18.com",
+    "displayName": "Arcadian Shores Golf Club",
+    "city": "Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "key": "arrowhead",
+    "metro": "myrtle-beach",
+    "subdomain": "arrowheadcc",
+    "bookingUrl": "https://arrowheadcc.quick18.com",
+    "displayName": "Arrowhead Country Club",
+    "city": "Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "key": "prestwick",
+    "metro": "myrtle-beach",
+    "subdomain": "prestwickcc",
+    "bookingUrl": "https://prestwickcc.quick18.com",
+    "displayName": "Prestwick Country Club",
+    "city": "Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "key": "diamondback",
+    "metro": "myrtle-beach",
+    "subdomain": "diamondback",
+    "bookingUrl": "https://diamondback.quick18.com",
+    "displayName": "Diamondback Golf Club",
+    "city": "Loris",
+    "state": "SC"
+  },
+  {
+    "key": "tidewater",
+    "metro": "myrtle-beach",
+    "subdomain": "tidewater",
+    "bookingUrl": "https://tidewater.quick18.com",
+    "displayName": "Tidewater Golf Club",
+    "city": "North Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "key": "eagle-nest",
+    "metro": "myrtle-beach",
+    "subdomain": "eaglenest",
+    "bookingUrl": "https://eaglenest.quick18.com",
+    "displayName": "Eagle Nest Golf Club",
+    "city": "Little River",
+    "state": "SC"
+  },
+  {
+    "key": "thistle",
+    "metro": "myrtle-beach",
+    "subdomain": "thistle",
+    "bookingUrl": "https://thistle.quick18.com",
+    "displayName": "Thistle Golf Club",
+    "city": "Sunset Beach",
+    "state": "NC"
+  },
+  {
+    "key": "crow-creek",
+    "metro": "myrtle-beach",
+    "subdomain": "crowcreek",
+    "bookingUrl": "https://crowcreek.quick18.com",
+    "displayName": "Crow Creek Golf Club",
+    "city": "Calabash",
+    "state": "NC"
+  },
+  {
+    "key": "lockwood-folly",
+    "metro": "myrtle-beach",
+    "subdomain": "lockwoodfolly",
+    "bookingUrl": "https://lockwoodfolly.quick18.com",
+    "displayName": "Lockwood Folly Country Club",
+    "city": "Holden Beach",
+    "state": "NC"
+  },
+  {
+    "key": "sandpiper-bay",
+    "metro": "myrtle-beach",
+    "subdomain": "sandpiperbay",
+    "bookingUrl": "https://sandpiperbay.quick18.com",
+    "displayName": "Sandpiper Bay Golf Club",
+    "city": "Sunset Beach",
+    "state": "NC"
+  },
+  {
+    "key": "wachesaw-east",
+    "metro": "myrtle-beach",
+    "subdomain": "wachesaweast",
+    "domain": "omnitech.golf",
+    "bookingUrl": "https://wachesaweast.omnitech.golf",
+    "displayName": "Wachesaw Plantation East",
+    "city": "Murrells Inlet",
+    "state": "SC"
+  },
+  {
+    "key": "dunes-golf-beach",
+    "metro": "myrtle-beach",
+    "subdomain": "thedunesdirect",
+    "domain": "omnitech.golf",
+    "bookingUrl": "https://thedunesdirect.omnitech.golf",
+    "displayName": "Dunes Golf & Beach Club",
+    "city": "Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "key": "shaftesbury-glen",
+    "metro": "myrtle-beach",
+    "subdomain": "shaftesburyglen",
+    "domain": "omnitech.golf",
+    "bookingUrl": "https://shaftesburyglen.omnitech.golf",
+    "displayName": "Shaftesbury Glen Golf & Fish Club",
+    "city": "Conway",
+    "state": "SC"
+  },
+  {
+    "key": "hackler-ccu",
+    "metro": "myrtle-beach",
+    "subdomain": "thehackler",
+    "domain": "omnitech.golf",
+    "bookingUrl": "https://thehackler.omnitech.golf",
+    "displayName": "General Hackler Course at CCU",
+    "city": "Conway",
+    "state": "SC"
+  },
+  {
+    "key": "barefoot-resort",
+    "metro": "myrtle-beach",
+    "subdomain": "barefootresort",
+    "domain": "omnitech.golf",
+    "namePrefix": "Barefoot",
+    "bookingUrl": "https://barefootresort.omnitech.golf",
+    "displayName": "Barefoot Resort",
+    "city": "North Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "key": "rivers-edge",
+    "metro": "myrtle-beach",
+    "subdomain": "riversedge",
+    "domain": "omnitech.golf",
+    "bookingUrl": "https://riversedge.omnitech.golf",
+    "displayName": "Rivers Edge Golf Club",
+    "city": "Shallotte",
+    "state": "NC"
+  },
+  {
+    "key": "sea-trail-resort",
+    "metro": "myrtle-beach",
+    "subdomain": "seatrailresort",
+    "domain": "omnitech.golf",
+    "namePrefix": "Sea Trail",
+    "bookingUrl": "https://seatrailresort.omnitech.golf",
+    "displayName": "Sea Trail Golf Resort",
+    "city": "Sunset Beach",
+    "state": "NC"
+  },
+  {
+    "key": "the-pearl",
+    "metro": "myrtle-beach",
+    "subdomain": "thepearl",
+    "domain": "omnitech.golf",
+    "namePrefix": "Pearl Golf Links",
+    "bookingUrl": "https://thepearl.omnitech.golf",
+    "displayName": "Pearl Golf Links",
+    "city": "Calabash",
+    "state": "NC"
+  },
+  {
+    "key": "international-club-mb",
+    "metro": "myrtle-beach",
+    "subdomain": "internationalclub",
+    "domain": "omnitech.golf",
+    "bookingUrl": "https://internationalclub.omnitech.golf",
+    "displayName": "International Club of Myrtle Beach",
+    "city": "Murrells Inlet",
+    "state": "SC"
+  },
+  {
+    "key": "el-rio",
+    "metro": "tucson",
+    "subdomain": "elrio",
+    "bookingUrl": "https://elrio.quick18.com",
+    "displayName": "El Rio Golf Course",
+    "city": "Tucson",
+    "state": "AZ"
+  },
+  {
+    "key": "fred-enke",
+    "metro": "tucson",
+    "subdomain": "fredenke",
+    "bookingUrl": "https://fredenke.quick18.com",
+    "displayName": "Fred Enke Golf Course",
+    "city": "Tucson",
+    "state": "AZ"
+  },
+  {
+    "key": "randolph-dell-urich",
+    "metro": "tucson",
+    "subdomain": "randolph",
+    "bookingUrl": "https://randolph.quick18.com",
+    "displayName": "Randolph Golf Complex - Dell Urich",
+    "city": "Tucson",
+    "state": "AZ"
+  },
+  {
+    "key": "randolph-north",
+    "metro": "tucson",
+    "subdomain": "randolph",
+    "bookingUrl": "https://randolph.quick18.com",
+    "displayName": "Randolph Golf Complex - North",
+    "city": "Tucson",
+    "state": "AZ"
+  },
+  {
+    "key": "silverbell",
+    "metro": "tucson",
+    "subdomain": "silverbell",
+    "bookingUrl": "https://silverbell.quick18.com",
+    "displayName": "Silverbell Golf Course",
+    "city": "Tucson",
+    "state": "AZ"
+  },
+  {
+    "key": "escena",
+    "metro": "palmsprings",
+    "subdomain": "escena",
+    "bookingUrl": "https://escena.quick18.com",
+    "displayName": "Escena Golf Club",
+    "city": "Palm Springs",
+    "state": "CA"
+  },
+  {
+    "key": "desert-princess",
+    "metro": "palmsprings",
+    "subdomain": "desertprincess",
+    "bookingUrl": "https://desertprincess.quick18.com",
+    "displayName": "Desert Princess Country Club",
+    "city": "Cathedral City",
+    "state": "CA"
+  },
+  {
+    "key": "desert-willow-firecliff",
+    "metro": "palmsprings",
+    "subdomain": "desertwillow",
+    "bookingUrl": "https://desertwillow.quick18.com",
+    "displayName": "Desert Willow Golf Resort - Firecliff Course",
+    "city": "Palm Desert",
+    "state": "CA"
+  },
+  {
+    "key": "desert-willow-mountain-view",
+    "metro": "palmsprings",
+    "subdomain": "desertwillow",
+    "bookingUrl": "https://desertwillow.quick18.com",
+    "displayName": "Desert Willow Golf Resort - Mountain View Course",
+    "city": "Palm Desert",
+    "state": "CA"
+  },
+  {
+    "key": "cimarron-boulder",
+    "metro": "palmsprings",
+    "subdomain": "cimarronboulder",
+    "bookingUrl": "https://cimarronboulder.quick18.com",
+    "displayName": "Cimarron Golf Resort - Boulder Course",
+    "city": "Cathedral City",
+    "state": "CA"
+  },
+  {
+    "key": "cimarron-pebble",
+    "metro": "palmsprings",
+    "subdomain": "cimarronpebble",
+    "bookingUrl": "https://cimarronpebble.quick18.com",
+    "displayName": "Cimarron Golf Resort - Pebble Course",
+    "city": "Cathedral City",
+    "state": "CA"
+  },
+  {
+    "key": "trilogy-at-la-quinta",
+    "metro": "palmsprings",
+    "subdomain": "trilogylaquinta",
+    "bookingUrl": "https://trilogylaquinta.quick18.com",
+    "displayName": "Trilogy Golf Club at La Quinta",
+    "city": "La Quinta",
+    "state": "CA"
+  }
+]

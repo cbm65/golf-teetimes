@@ -1,0 +1,52 @@
+[
+  {
+    "key": "haggin-oaks-mackenzie",
+    "metro": "sacramento",
+    "courseId": "8027eb72-3a2a-451b-8f77-385f44392503",
+    "holes": "18",
+    "bookingUrl": "https://mackenzie.hagginoaks.com",
+    "displayName": "Haggin Oaks - Alister MacKenzie Course",
+    "city": "Sacramento",
+    "state": "CA"
+  },
+  {
+    "key": "haggin-oaks-arcade-creek",
+    "metro": "sacramento",
+    "courseId": "bf7731ab-94da-4da1-bcc9-d50690f20ec6",
+    "holes": "18",
+    "bookingUrl": "https://arcade18.hagginoaks.com",
+    "displayName": "Haggin Oaks - Arcade Creek Course",
+    "city": "Sacramento",
+    "state": "CA"
+  },
+  {
+    "key": "bing-maloney",
+    "metro": "sacramento",
+    "courseId": "391a1ead-9374-4646-b785-cbc184fc515b",
+    "holes": "18",
+    "bookingUrl": "https://booking18.bingmaloney.com",
+    "displayName": "Bing Maloney Golf Course",
+    "city": "Sacramento",
+    "state": "CA"
+  },
+  {
+    "key": "bartley-cavanaugh",
+    "metro": "sacramento",
+    "courseId": "d7530215-0dd2-45ac-946b-6804dbbc3427",
+    "holes": "18",
+    "bookingUrl": "https://booking.bartleycavanaugh.com",
+    "displayName": "Bartley Cavanaugh Golf Course",
+    "city": "Sacramento",
+    "state": "CA"
+  },
+  {
+    "key": "william-land",
+    "metro": "sacramento",
+    "courseId": "84e8f12b-649f-44a4-8619-e1c58614b638",
+    "holes": "9",
+    "bookingUrl": "https://booking.williamlandgc.com",
+    "displayName": "William Land Golf Course",
+    "city": "Sacramento",
+    "state": "CA"
+  }
+]

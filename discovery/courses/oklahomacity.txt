@@ -1,0 +1,77 @@
+# Oklahoma City Metro — Public Golf Courses
+# Format: Course Name | City
+# Lines starting with # are ignored.
+#
+# Excludes private-only clubs: Gaillardia CC, Oklahoma City Golf & CC, Quail Creek G&CC,
+# Twin Hills G&CC, Hidden Trails CC, The Greens CC, Oak Tree National, Oak Tree CC West,
+# River Oaks GC (Edmond)
+# Excludes entertainment/simulator: Topgolf OKC, Indoor 18
+
+# --- Oklahoma City Municipal (okcgolf.com) ---
+Earlywine Golf Club - North | Oklahoma City
+Earlywine Golf Club - Lakes | Oklahoma City
+Lake Hefner Golf Club - North | Oklahoma City
+Lake Hefner Golf Club - South | Oklahoma City
+Lincoln Park Golf Course - East | Oklahoma City
+Lincoln Park Golf Course - West | Oklahoma City
+Trosper Golf Club | Oklahoma City
+James E. Stewart Golf Course | Oklahoma City
+
+# --- Oklahoma City Public ---
+The Links at Oklahoma City Golf & Athletic Club | Oklahoma City
+
+# --- Edmond ---
+Kickingbird Golf Club | Edmond
+Golf Club of Edmond | Edmond
+Coffee Creek Golf Club | Edmond
+Rose Creek Golf Club | Edmond
+
+# --- Norman ---
+Jimmie Austin OU Golf Club | Norman
+Westwood Golf Course | Norman
+The Trails Golf Club | Norman
+Cobblestone Creek Golf Course | Norman
+Belmar Golf Club | Norman
+The Links At Norman | Norman
+
+# --- Midwest City ---
+John Conrad Regional Golf Course | Midwest City
+
+# --- Moore ---
+Moore Golf & Athletic Club | Moore
+
+# --- Choctaw ---
+Choctaw Creek Golf Course | Choctaw
+
+# --- Mustang ---
+Pebble Creek Golf Course | Mustang
+
+# --- Yukon ---
+Surrey Hills Golf Club | Yukon
+The Links At Mustang Creek | Yukon
+
+# --- Blanchard (~30 min south) ---
+Winter Creek Golf & Country Club | Blanchard
+
+# --- Guthrie (~35 min north) ---
+Cedar Valley Golf Club | Guthrie
+Cimarron National Golf Club | Guthrie
+Cimarron National Golf Club - Aqua Canyon Course | Guthrie
+
+# --- Shawnee (~40 min east) ---
+Firelake Golf Course | Shawnee
+
+# --- El Reno (~30 min west) ---
+Crimson Creek Golf Club | El Reno
+
+# --- Purcell (~45 min south) ---
+Brent Bruehl Memorial Golf Course | Purcell
+
+# --- Chickasha (~50 min southwest) ---
+Chickasha Golf & Country Club | Chickasha
+
+# --- Stillwater (~1 hr north) ---
+Lakeside Memorial Golf Course | Stillwater
+
+# --- Chandler (~50 min northeast) ---
+Chandler Golf Course | Chandler

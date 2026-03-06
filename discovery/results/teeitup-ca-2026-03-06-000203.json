@@ -1,0 +1,1016 @@
+{
+  "confirmed": 17,
+  "elapsed": "1m48.727041667s",
+  "errors": 0,
+  "listedOnly": 12,
+  "misses": 13,
+  "platform": "teeitup",
+  "results": [
+    {
+      "input": "Haggin Oaks - Alister MacKenzie Course",
+      "city": "Sacramento",
+      "alias": "haggin-oaks-alister-mackenzie-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Haggin Oaks - Arcade Creek Course",
+      "city": "Sacramento",
+      "alias": "haggin-oaks-arcade-creek",
+      "aliasSource": "trim-trailing",
+      "status": "listed_only",
+      "facility": {
+        "id": 4400,
+        "courseId": "54f14cdd0c8ad60378b02f2d",
+        "name": "Haggin Oaks - Arcade Creek",
+        "address": "3645 Fulton Avenue, Sacramento, CA 95821 US",
+        "locality": "Sacramento",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.401383,
+          38.629928
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Bing Maloney Golf Course",
+      "city": "Sacramento",
+      "alias": "bing-maloney-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1938,
+        "courseId": "54f14c030c8ad60378b01bd1",
+        "name": "Bing Maloney Golf Course",
+        "address": "6801 Freeport Blvd, Sacramento, CA 95822 US",
+        "locality": "Sacramento",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.500892,
+          38.500086
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Bartley Cavanaugh Golf Course",
+      "city": "Sacramento",
+      "alias": "bartley-cavanaugh-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 1937,
+        "courseId": "54f14c030c8ad60378b01bcd",
+        "name": "Bartley Cavanaugh Golf Course",
+        "address": "8301 Freeport Blvd, Sacramento, CA 95832 US",
+        "locality": "Sacramento",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.500378,
+          38.455874
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "William Land Golf Course",
+      "city": "Sacramento",
+      "alias": "william-land-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Teal Bend Golf Club",
+      "city": "Sacramento",
+      "alias": "teal-bend-golf-course",
+      "aliasSource": "swap-golf-course",
+      "status": "confirmed",
+      "facility": {
+        "id": 423,
+        "courseId": "54f14b630c8ad60378b00f21",
+        "name": "Teal Bend Golf Club",
+        "address": "7200 Garden Highway, Sacramento, CA 95837 US",
+        "locality": "Sacramento",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.622835,
+          38.701386
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        41,
+        20,
+        36
+      ]
+    },
+    {
+      "input": "WildHawk Golf Club",
+      "city": "Sacramento",
+      "alias": "wildhawk-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 835,
+        "courseId": "54f14b9b0c8ad60378b0129f",
+        "name": "WildHawk Golf Club",
+        "address": "7713 Vineyard Road, Sacramento, CA 95829 US",
+        "locality": "Sacramento",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.316056,
+          38.478009
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Bradshaw Ranch Golf Course",
+      "city": "Sacramento",
+      "alias": "bradshaw-ranch-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 10964,
+        "courseId": "54f14f8b0c8ad60378b06904",
+        "name": "Bradshaw Ranch Golf Course",
+        "address": "7350 Bradshaw Rd, Sacramento, CA 95829 US",
+        "locality": "Sacramento",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.33485,
+          38.491299
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        61,
+        48,
+        0
+      ]
+    },
+    {
+      "input": "Campus Commons Golf Course",
+      "city": "Sacramento",
+      "alias": "campus-commons-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 12026,
+        "courseId": "54f14fdd0c8ad60378b070e5",
+        "name": "Campus Commons Golf Course",
+        "address": "2 Cadillac Drive, Sacramento, CA 95825 US",
+        "locality": "Sacramento",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.420373,
+          38.576088
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Ancil Hoffman Golf Course",
+      "city": "Carmichael",
+      "alias": "ancil-hoffman-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 180,
+        "courseId": "54f14b430c8ad60378b00cec",
+        "name": "Ancil Hoffman Golf Course",
+        "address": "6700 Tarshes Drive, Carmichael, CA 95608 US",
+        "locality": "Carmichael",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.316061,
+          38.611604
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Cherry Island Golf Course",
+      "city": "Elverta",
+      "alias": "cherry-island-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 181,
+        "courseId": "54f14b430c8ad60378b00cee",
+        "name": "Cherry Island Golf Course",
+        "address": "2360 Elverta Road, Elverta, CA 95626 US",
+        "locality": "Elverta",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.408281,
+          38.717059
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Mather Golf Course",
+      "city": "Mather",
+      "alias": "mather-golf-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Cordova Golf Course",
+      "city": "Sacramento",
+      "alias": "cordova-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1777,
+        "courseId": "54f14bf30c8ad60378b01a53",
+        "name": "Cordova Golf Course",
+        "address": "9425 Jackson Rd., Sacramento, CA 95826, US",
+        "locality": "Sacramento",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.348114,
+          38.536552
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        51,
+        34,
+        0
+      ]
+    },
+    {
+      "input": "Woodcreek Golf Club",
+      "city": "Roseville",
+      "alias": "woodcreek-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 177,
+        "courseId": "54f14b420c8ad60378b00ce4",
+        "name": "Woodcreek Golf Club",
+        "address": "5880 Woodcreek Oaks Blvd., Roseville, CA 95747, US",
+        "locality": "Roseville",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.33093,
+          38.775798
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        62,
+        35,
+        51
+      ]
+    },
+    {
+      "input": "Diamond Oaks Golf Course",
+      "city": "Roseville",
+      "alias": "diamond-oaks-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 918,
+        "courseId": "54f14ba30c8ad60378b01355",
+        "name": "Diamond Oaks Golf Course",
+        "address": "349 Diamond Oaks Rd, Roseville, CA 95678 US",
+        "locality": "Roseville",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.284844,
+          38.766847
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        47,
+        31,
+        55
+      ]
+    },
+    {
+      "input": "Timber Creek Golf Course",
+      "city": "Roseville",
+      "alias": "timber-creek-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1160,
+        "courseId": "54f14bb70c8ad60378b0150f",
+        "name": "Timber Creek Golf Course",
+        "address": "7050 Del Webb Blvd., Roseville, CA 95747 US",
+        "locality": "Roseville",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.353273,
+          38.775469
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        23,
+        16,
+        0
+      ]
+    },
+    {
+      "input": "Sierra Pines Golf Course",
+      "city": "Roseville",
+      "alias": "sierra-pines-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1161,
+        "courseId": "54f14bb70c8ad60378b01512",
+        "name": "Sierra Pines Golf Course",
+        "address": "7600 Whistlestop Way, Roseville, CA 95747, USA",
+        "locality": "Roseville",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.3467121,
+          38.7871169
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        19,
+        21,
+        0
+      ]
+    },
+    {
+      "input": "Morgan Creek Golf Club",
+      "city": "Roseville",
+      "alias": "morgan-creek-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 3798,
+        "courseId": "54f14c9d0c8ad60378b029a4",
+        "name": "Morgan Creek Golf Club",
+        "address": "8791 Morgan Creek Lane, Roseville, CA 95747, US",
+        "locality": "Roseville",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.34983,
+          38.742971
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        50,
+        32,
+        0
+      ]
+    },
+    {
+      "input": "Whitney Oaks Golf Club",
+      "city": "Rocklin",
+      "alias": "whitney-oaks-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 140,
+        "courseId": "54f14b3c0c8ad60378b00c7b",
+        "name": "Whitney Oaks Golf Club",
+        "address": "2305 Clubhouse Drive, Rocklin, CA 95765 US",
+        "locality": "Rocklin",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.239444,
+          38.828806
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        22,
+        18,
+        30
+      ]
+    },
+    {
+      "input": "Lincoln Hills Golf Club - Hills Course",
+      "city": "Lincoln",
+      "alias": "lincoln-hills-golf-club-hills-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Lincoln Hills Golf Club - Orchard Course",
+      "city": "Lincoln",
+      "alias": "lincoln-hills-golf-club-orchard-course",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Turkey Creek Golf Club",
+      "city": "Lincoln",
+      "alias": "turkey-creek-golf-course",
+      "aliasSource": "swap-golf-course",
+      "status": "confirmed",
+      "facility": {
+        "id": 174,
+        "courseId": "54f14b420c8ad60378b00cdb",
+        "name": "Turkey Creek Golf Club",
+        "address": "1525 State Highway 193, Lincoln, CA 95648, US",
+        "locality": "Lincoln",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.290589,
+          38.916934
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        35,
+        14,
+        0
+      ]
+    },
+    {
+      "input": "Twelve Bridges Golf Club",
+      "city": "Lincoln",
+      "alias": "twelve-bridges-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "DarkHorse Golf Club",
+      "city": "Auburn",
+      "alias": "darkhorse-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 384,
+        "courseId": "54f14b5e0c8ad60378b00eca",
+        "name": "DarkHorse Golf Club",
+        "address": "24150 Darkhorse Drive, Auburn, CA 95602, US",
+        "locality": "Auburn",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.04705060000003,
+          39.0264415
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        54,
+        27,
+        44
+      ]
+    },
+    {
+      "input": "The Ridge Golf Club",
+      "city": "Auburn",
+      "alias": "the-ridge-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Auburn Valley Golf Club",
+      "city": "Auburn",
+      "alias": "auburn-valley-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 3573,
+        "courseId": "54f14c880c8ad60378b027bd",
+        "name": "Auburn Valley Golf and Event Center",
+        "address": "8800 Auburn Valley Road, Auburn, CA 95602, US",
+        "locality": "Auburn",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.150847,
+          39.003867
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Black Oak Golf Course",
+      "city": "Auburn",
+      "alias": "black-oak-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 7393,
+        "courseId": "54f14e300c8ad60378b04adc",
+        "name": "Black Oak Golf Course",
+        "address": "2455 Black Oak Road, Auburn, CA 95602 US",
+        "locality": "Auburn",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.1241,
+          38.9882
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Empire Ranch Golf Club",
+      "city": "Folsom",
+      "alias": "empire-ranch-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 172,
+        "courseId": "54f14b410c8ad60378b00cd6",
+        "name": "Empire Ranch Golf Club",
+        "address": "1620 E. Natoma Street, Folsom, CA 95630 US",
+        "locality": "Folsom",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.158409,
+          38.683559
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "input": "Wildhorse Golf Club",
+      "city": "Davis",
+      "alias": "wildhorse-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 773,
+        "courseId": "54f14b940c8ad60378b01200",
+        "name": "Wildhorse Golf Club",
+        "address": "2323 Rockwell Dr, Davis, CA 95616 US",
+        "locality": "Davis",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.722787,
+          38.57438
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        25,
+        33,
+        0
+      ]
+    },
+    {
+      "input": "Davis Municipal Golf Course",
+      "city": "Davis",
+      "alias": "davis-municipal-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Wild Wings Golf Club",
+      "city": "Woodland",
+      "alias": "wild-wings-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 1125,
+        "courseId": "54f14bb30c8ad60378b014bc",
+        "name": "Wild Wings Golf Club",
+        "address": "18540 Wild Wings Dr., Woodland, CA 95695, US",
+        "locality": "Woodland",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.848679,
+          38.692879
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        32,
+        34,
+        0
+      ]
+    },
+    {
+      "input": "Yocha Dehe Golf Club",
+      "city": "Brooks",
+      "alias": "yocha-dehe",
+      "aliasSource": "base-only",
+      "status": "listed_only",
+      "facility": {
+        "id": 4423,
+        "courseId": "54f14cdf0c8ad60378b02f5c",
+        "name": "Yocha Dehe Golf Club at Cache Creek Casino",
+        "address": "14455 State Highway 16, Brooks, CA 95606 US",
+        "locality": "Brooks",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -122.143934,
+          38.733785
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Emerald Lakes Golf Course",
+      "city": "Elk Grove",
+      "alias": "emerald-lakes-golf-course",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 13628,
+        "courseId": "5638077a3759ea9900454b49",
+        "name": "Emerald Lakes Golf Course",
+        "address": "10651 E Stockton Blvd, Elk Grove, CA 32801, US",
+        "locality": "Elk Grove",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.2786,
+          38.4371
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        59,
+        39,
+        0
+      ]
+    },
+    {
+      "input": "Dry Creek Ranch Golf Course",
+      "city": "Galt",
+      "alias": "dry-creek-ranch-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Antelope Greens Golf Course",
+      "city": "Antelope",
+      "alias": "antelope-greens",
+      "aliasSource": "base-only",
+      "status": "confirmed",
+      "facility": {
+        "id": 7665,
+        "courseId": "54f14e4a0c8ad60378b04cf5",
+        "name": "Antelope Greens",
+        "address": "2721 Elverta Road, Antelope, CA 95843 US",
+        "locality": "Antelope",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.380837,
+          38.686118
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        34,
+        13,
+        0
+      ]
+    },
+    {
+      "input": "River Oaks Golf Club",
+      "city": "Nicolaus",
+      "alias": "river-oaks-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Indian Creek Golf Club",
+      "city": "Loomis",
+      "alias": "indian-creek-golf-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Apple Mountain Golf Resort",
+      "city": "Camino",
+      "alias": "apple-mountain-golf-resort",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 394,
+        "courseId": "54f14b600c8ad60378b00ee1",
+        "name": "Apple Mountain Golf Resort",
+        "address": "3455 Carson Road, Camino, CA 95709 US",
+        "locality": "Camino",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -120.696193,
+          38.740591
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        60,
+        37,
+        46
+      ]
+    },
+    {
+      "input": "Camino Heights Golf Course",
+      "city": "Camino",
+      "alias": "camino-heights-golf-course",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 9084,
+        "courseId": "54f14ed70c8ad60378b057e1",
+        "name": "Camino Heights Golf Course",
+        "address": "3020 Vista Tierra Dr., Camino, CA 95709 US",
+        "locality": "Camino",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -120.66504,
+          38.75136
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Micke Grove Golf Links",
+      "city": "Lodi",
+      "alias": "micke-grove-golf-links",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 457,
+        "courseId": "54f14b680c8ad60378b00f72",
+        "name": "Micke Grove Golf Links",
+        "address": "11401 N. Micke Grove Road, Lodi, CA 95240 US",
+        "locality": "Lodi",
+        "region": "CA",
+        "country": "US",
+        "location": [
+          -121.269058,
+          38.06892
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Plumas Lake Golf \u0026 Country Club",
+      "city": "Olivehurst",
+      "alias": "plumas-lake-golf-and-country-club",
+      "aliasSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Rolling Greens Golf Course",
+      "city": "Granite Bay",
+      "alias": "rolling-greens-golf-course",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    }
+  ],
+  "state": "CA",
+  "timestamp": "2026-03-06T00:02:03-07:00",
+  "totalInput": 42,
+  "validationDates": [
+    "2026-03-11",
+    "2026-03-07",
+    "2026-03-14"
+  ]
+}

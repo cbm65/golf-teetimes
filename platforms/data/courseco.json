@@ -1,0 +1,172 @@
+[
+  {
+    "key": "ken-mcdonald",
+    "metro": "phoenix",
+    "subdomain": "kenmcdonald",
+    "courseId": "KENMCDONALD",
+    "bookingUrl": "https://kenmcdonald.totaleintegrated.net",
+    "displayName": "Ken McDonald Golf Course",
+    "city": "Tempe",
+    "state": "AZ"
+  },
+  {
+    "key": "riverside",
+    "metro": "dallas",
+    "subdomain": "riverside",
+    "courseId": "RIVERSIDE",
+    "bookingUrl": "https://riverside.totaleintegrated.net",
+    "displayName": "Riverside Golf Club",
+    "city": "Grand Prairie",
+    "state": "TX"
+  },
+  {
+    "key": "chardonnay",
+    "metro": "sanfrancisco",
+    "subdomain": "chardonnay",
+    "courseId": "CHARDONNAY",
+    "bookingUrl": "https://chardonnay.totaleintegrated.net",
+    "displayName": "Chardonnay Golf Club",
+    "city": "Napa",
+    "state": "CA"
+  },
+  {
+    "key": "san-jose-muni",
+    "metro": "sanfrancisco",
+    "subdomain": "sanjose",
+    "courseId": "SANJOSE",
+    "bookingUrl": "https://sanjose.totaleintegrated.net/web/tee-times",
+    "displayName": "San Jose Municipal Golf Course",
+    "city": "San Jose",
+    "state": "CA"
+  },
+  {
+    "key": "rancho-del-pueblo",
+    "metro": "sanfrancisco",
+    "subdomain": "ranchodelpueblo",
+    "courseId": "RANCHO DELP",
+    "bookingUrl": "https://ranchodelpueblo.totaleintegrated.net/web/tee-times",
+    "displayName": "Rancho del Pueblo Golf Course",
+    "city": "San Jose",
+    "state": "CA"
+  },
+  {
+    "key": "deep-cliff",
+    "metro": "sanfrancisco",
+    "subdomain": "deepcliff",
+    "courseId": "DEEP CLIFF",
+    "bookingUrl": "https://deepcliff.totaleintegrated.net/web/tee-times",
+    "displayName": "Deep Cliff Golf Course",
+    "city": "Cupertino",
+    "state": "CA"
+  },
+  {
+    "key": "metropolitan",
+    "metro": "sanfrancisco",
+    "subdomain": "metro",
+    "courseId": "METROPOLITAN",
+    "bookingUrl": "https://metro.totaleintegrated.net/web/tee-times",
+    "displayName": "Metropolitan Golf Links",
+    "city": "Oakland",
+    "state": "CA"
+  },
+  {
+    "key": "boundary-oak",
+    "metro": "sanfrancisco",
+    "subdomain": "boundaryoak",
+    "courseId": "BOUNDARY OAK",
+    "bookingUrl": "https://boundaryoak.totaleintegrated.net/web/tee-times",
+    "displayName": "Boundary Oak Golf Course",
+    "city": "Walnut Creek",
+    "state": "CA"
+  },
+  {
+    "key": "callippe-preserve",
+    "metro": "sanfrancisco",
+    "subdomain": "callippe",
+    "courseId": "CALLIPPE PRES",
+    "bookingUrl": "https://callippe.totaleintegrated.net/web/tee-times",
+    "displayName": "Callippe Preserve Golf Course",
+    "city": "Pleasanton",
+    "state": "CA"
+  },
+  {
+    "key": "las-positas",
+    "metro": "sanfrancisco",
+    "subdomain": "laspositas",
+    "courseId": "LASPOSITAS",
+    "bookingUrl": "https://laspositas.totaleintegrated.net",
+    "displayName": "Las Positas Golf Course",
+    "city": "Livermore",
+    "state": "CA"
+  },
+  {
+    "key": "reidy-creek",
+    "metro": "sandiego",
+    "subdomain": "reidycreek",
+    "courseId": "REIDY_CREEK",
+    "bookingUrl": "https://reidycreek.totaleintegrated.net",
+    "displayName": "Reidy Creek Golf Course",
+    "city": "Escondido",
+    "state": "CA"
+  },
+  {
+  "key": "riverside",
+  "metro": "austin",
+  "subdomain": "riverside",
+  "courseId": "RIVERSIDE",
+  "bookingUrl": "https://riverside.totaleintegrated.net",
+  "displayName": "Riverside Golf Course",
+  "city": "Austin",
+  "state": "TX"
+},
+  {
+  "key": "meadowbrook-farms",
+  "metro": "houston",
+  "subdomain": "meadowbrookfarms",
+  "courseId": "MEADOWBROOKFARMS",
+  "bookingUrl": "https://meadowbrookfarms.totaleintegrated.com",
+  "displayName": "Meadowbrook Farms Golf Club",
+  "city": "Katy",
+  "state": "TX"
+},
+  {
+    "key": "campus-commons",
+    "metro": "sacramento",
+    "subdomain": "campuscommons",
+    "courseId": "CAMPUSCOMMONS",
+    "bookingUrl": "https://campuscommons.totaleintegrated.net",
+    "displayName": "Campus Commons Golf Course",
+    "city": "Sacramento",
+    "state": "CA"
+  },
+  {
+    "key": "cherry-island",
+    "metro": "sacramento",
+    "subdomain": "cherryisland",
+    "courseId": "CHERRYISLAND",
+    "bookingUrl": "https://cherryisland.totaleintegrated.net",
+    "displayName": "Cherry Island Golf Course",
+    "city": "Elverta",
+    "state": "CA"
+  },
+  {
+    "key": "mather",
+    "metro": "sacramento",
+    "subdomain": "mather",
+    "courseId": "MATHER",
+    "bookingUrl": "https://mather.totaleintegrated.net",
+    "displayName": "Mather Golf Course",
+    "city": "Mather",
+    "state": "CA"
+  },
+  {
+    "key": "ancil-hoffman",
+    "metro": "sacramento",
+    "subdomain": "ancilhoffman",
+    "courseId": "ANCIL",
+    "bookingUrl": "https://ancilhoffman.totaleintegrated.net",
+    "displayName": "Ancil Hoffman Golf Course",
+    "city": "Carmichael",
+    "state": "CA"
+  }
+]

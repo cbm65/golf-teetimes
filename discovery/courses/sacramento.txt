@@ -1,0 +1,73 @@
+# Sacramento Metro Public Golf Courses
+# Compiled for discovery — includes public, municipal, semi-private, resort
+# Excludes private-only clubs (Granite Bay GC, Serrano CC, Cameron Park CC, Del Paso CC, Valley Hi CC, etc.)
+
+# === City of Sacramento ===
+Haggin Oaks - Alister MacKenzie Course | Sacramento
+Haggin Oaks - Arcade Creek Course | Sacramento
+Bing Maloney Golf Course | Sacramento
+Bartley Cavanaugh Golf Course | Sacramento
+William Land Golf Course | Sacramento
+Teal Bend Golf Club | Sacramento
+WildHawk Golf Club | Sacramento
+Bradshaw Ranch Golf Course | Sacramento
+Campus Commons Golf Course | Sacramento
+
+# === Sacramento County ===
+Ancil Hoffman Golf Course | Carmichael
+Cherry Island Golf Course | Elverta
+Mather Golf Course | Mather
+Cordova Golf Course | Sacramento
+
+# === Roseville ===
+Woodcreek Golf Club | Roseville
+Diamond Oaks Golf Course | Roseville
+Timber Creek Golf Course | Roseville
+Sierra Pines Golf Course | Roseville
+Morgan Creek Golf Club | Roseville
+
+# === Rocklin ===
+Whitney Oaks Golf Club | Rocklin
+
+# === Lincoln ===
+Lincoln Hills Golf Club - Hills Course | Lincoln
+Lincoln Hills Golf Club - Orchard Course | Lincoln
+Turkey Creek Golf Club | Lincoln
+Twelve Bridges Golf Club | Lincoln
+
+# === Auburn / Foothills ===
+DarkHorse Golf Club | Auburn
+The Ridge Golf Club | Auburn
+Auburn Valley Golf Club | Auburn
+Black Oak Golf Course | Auburn
+
+# === Folsom ===
+Empire Ranch Golf Club | Folsom
+
+# === Davis / Woodland ===
+Wildhorse Golf Club | Davis
+Davis Municipal Golf Course | Davis
+Wild Wings Golf Club | Woodland
+Yocha Dehe Golf Club | Brooks
+
+# === Elk Grove / South ===
+Emerald Lakes Golf Course | Elk Grove
+Dry Creek Ranch Golf Course | Galt
+
+# === Antelope / North ===
+Antelope Greens Golf Course | Antelope
+River Oaks Golf Club | Nicolaus
+
+# === Loomis ===
+Indian Creek Golf Club | Loomis
+
+# === Foothills East ===
+Apple Mountain Golf Resort | Camino
+Camino Heights Golf Course | Camino
+
+# === Outer Ring (~1 hour) ===
+Micke Grove Golf Links | Lodi
+Plumas Lake Golf & Country Club | Olivehurst
+
+# === Rolling Greens (short course) ===
+Rolling Greens Golf Course | Granite Bay

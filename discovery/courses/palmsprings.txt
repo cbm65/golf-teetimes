@@ -1,0 +1,80 @@
+# Palm Springs / Coachella Valley - Public & Resort Golf Courses
+# Cities: Palm Springs, Cathedral City, Desert Hot Springs, Palm Desert,
+#         Rancho Mirage, Indian Wells, La Quinta, Indio, Coachella,
+#         Thousand Palms, Bermuda Dunes
+
+# Palm Springs
+Escena Golf Club | Palm Springs
+Indian Canyons Golf Resort - North Course | Palm Springs
+Indian Canyons Golf Resort - South Course | Palm Springs
+Tahquitz Creek Golf Resort - Resort Course | Palm Springs
+Tahquitz Creek Golf Resort - Legend Course | Palm Springs
+O'Donnell Golf Club | Palm Springs
+Desert Princess Country Club | Cathedral City
+
+# Cathedral City
+Cathedral Canyon Golf Club | Cathedral City
+Cimarron Golf Resort - Boulder Course | Cathedral City
+Cimarron Golf Resort - Pebble Course | Cathedral City
+Date Palm Country Club | Cathedral City
+
+# Desert Hot Springs
+Desert Dunes Golf Course | Desert Hot Springs
+Mission Lakes Country Club | Desert Hot Springs
+Sands RV & Golf Resort | Desert Hot Springs
+Hidden Springs Country Club | Desert Hot Springs
+Desert Crest Country Club | Desert Hot Springs
+
+# Palm Desert
+Desert Willow Golf Resort - Firecliff Course | Palm Desert
+Desert Willow Golf Resort - Mountain View Course | Palm Desert
+Classic Club | Palm Desert
+Shadow Mountain Golf Club | Palm Desert
+Palm Desert Resort Country Club | Palm Desert
+Woodhaven Country Club | Palm Desert
+Marriott's Shadow Ridge Golf Club | Palm Desert
+JW Marriott Desert Springs - Palms Course | Palm Desert
+JW Marriott Desert Springs - Valley Course | Palm Desert
+Suncrest Country Club | Palm Desert
+Palm Desert Greens Golf Course | Palm Desert
+Desert Falls Country Club | Palm Desert
+
+# Rancho Mirage
+Mission Hills - Gary Player Signature Course | Rancho Mirage
+Westin Mission Hills - Pete Dye Resort Course | Rancho Mirage
+Omni Rancho Las Palmas Country Club | Rancho Mirage
+
+# Indian Wells
+Indian Wells Golf Resort - Celebrity Course | Indian Wells
+Indian Wells Golf Resort - Players Course | Indian Wells
+Golf Club at Terra Lago - North Course | Indio
+Golf Club at Terra Lago - South Course | Indio
+
+# La Quinta
+PGA West - Stadium Course | La Quinta
+PGA West - Mountain Course | La Quinta
+PGA West - Dunes Course | La Quinta
+PGA West - Greg Norman Course | La Quinta
+PGA West - Nicklaus Tournament Course | La Quinta
+SilverRock Resort | La Quinta
+La Quinta Resort - Mountain Course | La Quinta
+La Quinta Resort - Dunes Course | La Quinta
+Palm Royale Country Club | La Quinta
+Golf Club at La Quinta | La Quinta
+Trilogy Golf Club at La Quinta | La Quinta
+
+# Indio
+Heritage Palms Golf Club | Indio
+Eagle Falls Golf Course | Indio
+Shadow Hills Golf Club - North Course | Indio
+Shadow Hills Golf Club - South Course | Indio
+Indian Palms Country Club | Indio
+Indian Springs Golf Club | Indio
+Plantation Golf Club | Indio
+The Lights at Indio Golf Course | Indio
+
+# Thousand Palms / Bermuda Dunes
+Ivey Ranch Country Club | Thousand Palms
+
+# Coachella
+The Vineyards Golf Course | Coachella

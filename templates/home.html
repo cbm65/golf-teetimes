@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{.Metro.Name}} Golf Tee Times</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,300&family=Sora:wght@300;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-inner">
+            <div class="header-top">
+                <div>
+                    <a href="/" class="header-brand"><span class="brand-birdie">birdie</span><span class="brand-alerts">alerts</span></a>
+                    <h1>{{.Metro.Name}} Area Golf Tee Times</h1>
+                    <p>{{.Metro.Tagline}}</p>
+                </div>
+                <nav class="nav">
+                    <a href="/{{.Metro.Slug}}" class="nav-link nav-active">Tee Times</a>
+                    <a href="/{{.Metro.Slug}}/alerts" class="nav-link">My Alerts</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <script>var METRO = "{{.Metro.Slug}}";</script>
+
+    <div class="container">
+        <div class="filters">
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label>Date</label>
+                    <input type="date" id="date" value="{{.Date}}">
+                </div>
+                <div class="filter-group">
+                    <label>Course</label>
+                    <select id="course">
+                        <option value="">All Courses</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>City</label>
+                    <select id="city">
+                        <option value="">All Cities</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Openings</label>
+                    <select id="openings">
+                        <option value="">Any</option>
+                        <option value="1">1+</option>
+                        <option value="2">2+</option>
+                        <option value="3">3+</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Holes</label>
+                    <select id="holes">
+                        <option value="">Any</option>
+                        <option value="9">9</option>
+                        <option value="18">18</option>
+                    </select>
+                </div>
+            </div>
+            <div class="time-slider-wrap">
+                <label class="time-slider-label">Time</label>
+                <div class="time-slider-display" id="timeDisplay">5:00 AM – 8:00 PM</div>
+                <div class="time-slider-container">
+                    <span class="time-slider-bound">5 AM</span>
+                    <div class="time-slider-track" id="sliderTrack">
+                        <div class="time-slider-range" id="sliderRange"></div>
+                        <input type="range" class="time-slider-input" id="timeFrom" min="5" max="20" value="5" step="1">
+                        <input type="range" class="time-slider-input" id="timeTo" min="5" max="20" value="20" step="1">
+                    </div>
+                    <span class="time-slider-bound">8 PM</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div id="results">
+                <div class="loading"><span class="loading-spinner"></span>Loading tee times...</div>
+            </div>
+        </div>
+        <p class="count" id="count"></p>
+
+        <div class="card form-card alert-section" id="alertSection">
+            <h2 class="card-title">🔔 Tee Time Alerts</h2>
+
+            <div id="alertPrompt">
+                <p class="card-subtitle">Select a course above to set up a text alert when a tee time becomes available.</p>
+            </div>
+
+            <div id="alertForm" style="display: none;">
+                <p class="card-subtitle" id="alertContext"></p>
+
+                <div class="alert-form-row">
+                    <div class="filter-group alert-phone-group">
+                        <label>Phone Number</label>
+                        <input type="tel" id="phone" placeholder="(303) 555-1234">
+                    </div>
+                    <div class="alert-time-row">
+                        <div class="filter-group">
+                            <label>Between</label>
+                            <select id="startTime">
+                            <option value="6:00 AM">6:00 AM</option>
+                            <option value="7:00 AM">7:00 AM</option>
+                            <option value="8:00 AM">8:00 AM</option>
+                            <option value="9:00 AM">9:00 AM</option>
+                            <option value="10:00 AM" selected>10:00 AM</option>
+                            <option value="11:00 AM">11:00 AM</option>
+                            <option value="12:00 PM">12:00 PM</option>
+                            <option value="1:00 PM">1:00 PM</option>
+                            <option value="2:00 PM">2:00 PM</option>
+                            <option value="3:00 PM">3:00 PM</option>
+                            <option value="4:00 PM">4:00 PM</option>
+                            <option value="5:00 PM">5:00 PM</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>And</label>
+                        <select id="endTime">
+                            <option value="6:00 AM">6:00 AM</option>
+                            <option value="7:00 AM">7:00 AM</option>
+                            <option value="8:00 AM">8:00 AM</option>
+                            <option value="9:00 AM">9:00 AM</option>
+                            <option value="10:00 AM">10:00 AM</option>
+                            <option value="11:00 AM">11:00 AM</option>
+                            <option value="12:00 PM">12:00 PM</option>
+                            <option value="1:00 PM">1:00 PM</option>
+                            <option value="2:00 PM">2:00 PM</option>
+                            <option value="3:00 PM">3:00 PM</option>
+                            <option value="4:00 PM">4:00 PM</option>
+                            <option value="5:00 PM" selected>5:00 PM</option>
+                        </select>
+                    </div>
+                    </div>
+                    <div class="alert-time-row">
+                        <div class="filter-group">
+                            <label>Min Players</label>
+                            <select id="alertOpenings">
+                                <option value="0">Any</option>
+                                <option value="1">1+</option>
+                                <option value="2">2+</option>
+                                <option value="3">3+</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label>Holes</label>
+                            <select id="alertHoles">
+                                <option value="0">Any</option>
+                                <option value="9">9</option>
+                                <option value="18">18</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="consent-checkbox">
+                        <label><input type="checkbox" id="consentCheck"> I agree to receive SMS tee time alerts from FreeTeeTimeAlerts at the phone number provided. Message frequency varies. Msg &amp; data rates may apply. Reply STOP to unsubscribe. Reply HELP for help. See our <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms of Service</a>.</label>
+                    </div>
+                    <div class="filter-group btn-group">
+                        <label>&nbsp;</label>
+                        <button class="btn" id="createBtn">Create Alert</button>
+                    </div>
+                </div>
+                <p class="form-message" id="message"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-inner">
+            <div class="footer-links">
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

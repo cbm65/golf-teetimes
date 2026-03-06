@@ -1,0 +1,167 @@
+[
+  {
+    "key": "applewood",
+    "metro": "denver",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "hbfdabab",
+    "courseId": "103418",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/hbfdabab/slots",
+    "displayName": "Applewood Golf Course",
+    "city": "Golden",
+    "state": "CO"
+  },
+  {
+    "key": "dogwood",
+    "metro": "atlanta",
+    "baseUrl": "https://apimanager-cc29.clubcaddie.com",
+    "apiKey": "igfdabab",
+    "courseId": "103469",
+    "bookingUrl": "https://apimanager-cc29.clubcaddie.com/webapi/view/igfdabab/slots",
+    "displayName": "Dogwood Golf Club",
+    "city": "Austell",
+    "state": "GA"
+  },
+  {
+    "key": "stonebridge",
+    "metro": "neworleans",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "eafdabab",
+    "courseId": "103405",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/eafdabab/slots",
+    "displayName": "Stonebridge Golf Club of New Orleans",
+    "city": "Gretna",
+    "state": "LA"
+  },
+  {
+    "key": "stonebridge-harvey",
+    "metro": "neworleans",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "dbfdabab",
+    "courseId": "103414",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/dbfdabab/slots",
+    "displayName": "Stonebridge Golf Club of New Orleans - Harvey 9",
+    "city": "Gretna",
+    "state": "LA"
+  },
+  {
+    "key": "nashville-national",
+    "metro": "nashville",
+    "baseUrl": "https://apimanager-cc20.clubcaddie.com",
+    "apiKey": "fbgdabab",
+    "courseId": "103516",
+    "bookingUrl": "https://apimanager-cc20.clubcaddie.com/webapi/view/fbgdabab/slots",
+    "displayName": "Nashville National Golf Links",
+    "city": "Pleasant View",
+    "state": "TN"
+  },
+  {
+    "key": "pruneridge",
+    "metro": "sanfrancisco",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "ijedabab",
+    "courseId": "103399",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/ijedabab/slots",
+    "displayName": "Pruneridge Golf Club",
+    "city": "Santa Clara",
+    "state": "CA"
+  },
+  {
+    "key": "mill-valley",
+    "metro": "sanfrancisco",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "iafdabab",
+    "courseId": "103409",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/iafdabab/slots",
+    "displayName": "Mill Valley Golf Course",
+    "city": "Mill Valley",
+    "state": "CA"
+  },
+  {
+    "key": "country-view",
+    "metro": "dallas",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "cafdabab",
+    "courseId": "103403",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/cafdabab",
+    "displayName": "Country View Golf Club",
+    "city": "Lancaster",
+    "state": "TX"
+  },
+  {
+    "key": "shoreline",
+    "metro": "sanfrancisco",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "bcfdabab",
+    "courseId": "103422",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/bcfdabab/slots",
+    "displayName": "Shoreline Golf Links",
+    "city": "Mountain View",
+    "state": "CA"
+  },
+  {
+    "key": "cheekwood",
+    "metro": "nashville",
+    "baseUrl": "https://apimanager-cc37.clubcaddie.com",
+    "apiKey": "gafdabab",
+    "courseId": "103407",
+    "bookingUrl": "https://apimanager-cc37.clubcaddie.com/webapi/view/gafdabab",
+    "displayName": "Cheekwood Golf Club",
+    "city": "Franklin",
+    "state": "TN"
+  },
+  {
+    "key": "debell",
+    "metro": "losangeles",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "hdfdabab",
+    "courseId": "103437",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/hdfdabab/slots",
+    "displayName": "De Bell Golf Course",
+    "city": "Burbank",
+    "state": "CA"
+  },
+  {
+    "key": "azusa-greens",
+    "metro": "losangeles",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "hcfdabab",
+    "courseId": "103427",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/hcfdabab/slots",
+    "displayName": "Azusa Greens Golf Course",
+    "city": "Azusa",
+    "state": "CA"
+  },
+  {
+    "key": "vista-valencia",
+    "metro": "losangeles",
+    "baseUrl": "https://apimanager-cc18.clubcaddie.com",
+    "apiKey": "agfdabab",
+    "courseId": "103461",
+    "bookingUrl": "https://apimanager-cc18.clubcaddie.com/webapi/view/agfdabab/slots",
+    "displayName": "Vista Valencia Golf Course",
+    "city": "Valencia",
+    "state": "CA"
+  },
+  {
+    "key": "rancho-carlsbad",
+    "metro": "sandiego",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "gjedabab",
+    "courseId": "103397",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/gjedabab/slots",
+    "displayName": "Rancho Carlsbad Golf Course",
+    "city": "Carlsbad",
+    "state": "CA"
+  },
+  {
+    "key": "chula-vista",
+    "metro": "sandiego",
+    "baseUrl": "https://apimanager-cc11.clubcaddie.com",
+    "apiKey": "jbfdabab",
+    "courseId": "103420",
+    "bookingUrl": "https://apimanager-cc11.clubcaddie.com/webapi/view/jbfdabab/slots",
+    "displayName": "Chula Vista Golf Course",
+    "city": "Bonita",
+    "state": "CA"
+  }
+]

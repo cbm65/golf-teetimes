@@ -1,0 +1,73 @@
+# Los Angeles Metro — Public & Semi-Public Golf Courses
+# Phase 1: Comprehensive course list
+# Scope: LA County core basin (~35mi from downtown)
+
+# === LA CITY COURSES (12) — managed by LA Dept of Rec & Parks ===
+Balboa Golf Course | Encino
+Encino Golf Course | Encino
+Hansen Dam Golf Course | Pacoima
+Harding Golf Course | Los Angeles
+Wilson Golf Course | Los Angeles
+Rancho Park Golf Course | Los Angeles
+Woodley Lakes Golf Course | Van Nuys
+Harbor Park Golf Course | Wilmington
+Penmar Golf Course | Venice
+Roosevelt Golf Course | Los Angeles
+Rancho Park Par 3 Golf Course | Los Angeles
+Los Feliz Golf Course | Los Angeles
+
+# === LA COUNTY COURSES (20 at 18 sites) — managed by American Golf Corp ===
+Alondra Golf Course | Lawndale
+Altadena Golf Course | Altadena
+Chester Washington Golf Course | Los Angeles
+Diamond Bar Golf Course | Diamond Bar
+Don Knabe Golf Course | Norwalk
+Eaton Canyon Golf Course | Pasadena
+El Cariso Golf Course | Sylmar
+Knollwood Country Club | Granada Hills
+La Mirada Golf Course | La Mirada
+Lakewood Golf Course | Lakewood
+Los Amigos Golf Course | Downey
+Los Verdes Golf Course | Rancho Palos Verdes
+Maggie Hathaway Golf Course | Los Angeles
+Marshall Canyon Golf Course | La Verne
+Mountain Meadows Golf Course | Pomona
+Santa Anita Golf Course | Arcadia
+Victoria Golf Course | Carson
+Whittier Narrows Golf Course | Rosemead
+
+# === PASADENA / SAN GABRIEL VALLEY ===
+Brookside Golf Club - C.W. Koiner Course | Pasadena
+Brookside Golf Club - E.O. Nay Course | Pasadena
+Alhambra Golf Course | Alhambra
+Scholl Canyon Golf & Tennis Club | Glendale
+Montebello Country Club | Montebello
+Rio Hondo Golf Club | Downey
+
+# === LONG BEACH / SOUTH BAY ===
+El Dorado Park Golf Course | Long Beach
+Recreation Park Golf Course | Long Beach
+Skylinks Golf Course | Long Beach
+Heartwell Golf Course | Long Beach
+
+# === BURBANK / GLENDALE / SAN FERNANDO VALLEY ===
+De Bell Golf Course | Burbank
+Angeles National Golf Club | Sunland
+Weddington Golf & Tennis | Studio City
+
+# === WEST LA / SOUTH BAY / PALOS VERDES ===
+Westchester Golf Course | Los Angeles
+Trump National Golf Club Los Angeles | Rancho Palos Verdes
+The Links at Terranea | Rancho Palos Verdes
+Heroes Golf Course | El Segundo
+Palos Verdes Golf Club | Palos Verdes Estates
+
+# === WHITTIER / EAST LA / CITY OF INDUSTRY ===
+Industry Hills Golf Club - Ike | City of Industry
+Industry Hills Golf Club - Zaharias | City of Industry
+Candlewood Country Club | Whittier
+
+# === SEMI-PRIVATE / RESORT ===
+MountainGate Country Club | Los Angeles
+Rustic Canyon Golf Course | Moorpark
+Los Robles Greens Golf Course | Thousand Oaks

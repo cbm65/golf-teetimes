@@ -1,0 +1,52 @@
+[
+  {
+    "key": "legends-heathland",
+    "metro": "myrtle-beach",
+    "slug": "the-legends-golf-resort-heathland-south-carolina",
+    "programId": 66,
+    "bookingUrl": "https://letsgo.golf/the-legends-golf-complex-heathland-course/the-legends-golf-resort-heathland-south-carolina",
+    "displayName": "Legends Resort - Heathland",
+    "city": "Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "key": "legends-heritage",
+    "metro": "myrtle-beach",
+    "slug": "the-legends-golf-resort-heritage-club-south-carolina",
+    "programId": 66,
+    "bookingUrl": "https://letsgo.golf/the-legends-golf-complex-heathland-course/the-legends-golf-resort-heritage-club-south-carolina",
+    "displayName": "Heritage Club",
+    "city": "Pawleys Island",
+    "state": "SC"
+  },
+  {
+    "key": "legends-moorland",
+    "metro": "myrtle-beach",
+    "slug": "the-legends-golf-resort-moorland-south-carolina",
+    "programId": 66,
+    "bookingUrl": "https://letsgo.golf/the-legends-golf-complex-heathland-course/the-legends-golf-resort-moorland-south-carolina",
+    "displayName": "Legends Resort - Moorland",
+    "city": "Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "key": "legends-parkland",
+    "metro": "myrtle-beach",
+    "slug": "the-legends-golf-resort-parkland-south-carolina",
+    "programId": 66,
+    "bookingUrl": "https://letsgo.golf/the-legends-golf-complex-heathland-course/the-legends-golf-resort-parkland-south-carolina",
+    "displayName": "Legends Resort - Parkland",
+    "city": "Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "key": "legends-oyster-bay",
+    "metro": "myrtle-beach",
+    "slug": "the-legends-golf-resort-oyster-bay-south-carolina",
+    "programId": 66,
+    "bookingUrl": "https://letsgo.golf/the-legends-golf-complex-heathland-course/the-legends-golf-resort-oyster-bay-south-carolina",
+    "displayName": "Oyster Bay Golf Links",
+    "city": "Sunset Beach",
+    "state": "NC"
+  }
+]

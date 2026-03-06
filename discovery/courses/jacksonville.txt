@@ -1,0 +1,55 @@
+# Jacksonville Metro - Public/Municipal/Semi-Private Golf Courses
+# Covers Duval, St. Johns, Clay, Nassau counties and parts of Flagler/Putnam
+
+# === Jacksonville / Duval County ===
+Blue Sky Golf Club | Jacksonville
+Bent Creek Golf Course | Jacksonville
+Blue Cypress Golf Course | Jacksonville
+Brentwood Golf Course | Jacksonville
+Hyde Park Golf Club | Jacksonville
+Windsor Parke Golf Club | Jacksonville
+Hidden Hills Golf Club | Jacksonville
+Cimarrone Golf Club | Jacksonville
+Windy Harbor Golf Club | Jacksonville
+Fiddlers Green at Cecil Field Golf Club | Jacksonville
+Jax Beach Golf Club | Jacksonville Beach
+
+# === Ponte Vedra / Nocatee ===
+TPC Sawgrass - Stadium Course | Ponte Vedra Beach
+TPC Sawgrass - Dye's Valley Course | Ponte Vedra Beach
+The Yards | Ponte Vedra Beach
+Palm Valley Golf Course | Ponte Vedra Beach
+
+# === Amelia Island / Nassau County ===
+Fernandina Beach Golf Club | Fernandina Beach
+Golf Club at North Hampton | Fernandina Beach
+Amelia River Golf Club | Fernandina Beach
+Omni Amelia Island - Oak Marsh Course | Amelia Island
+Little Sandy at Omni Amelia Island | Amelia Island
+
+# === St. Augustine / St. Johns County ===
+King & Bear at World Golf Village | St. Augustine
+Slammer & Squire at World Golf Village | St. Augustine
+Royal St. Augustine Golf Club | St. Augustine
+Golf Club at South Hampton | St. Augustine
+St. Johns Golf & Country Club | St. Augustine
+St. Johns Golf Club | Elkton
+Julington Creek Golf Club | Jacksonville
+
+# === Clay County ===
+Eagle Harbor Golf Club | Fleming Island
+Fleming Island Golf Club | Fleming Island
+Eagle Landing Golf Club | Orange Park
+Magnolia Point Golf Club | Green Cove Springs
+
+# === Palm Coast / Flagler County ===
+Hammock Beach Resort - Conservatory Course | Palm Coast
+Hammock Beach Resort - Ocean Course | Palm Coast
+Pine Lakes Golf Club | Palm Coast
+Cypress Knoll Golf Club | Palm Coast
+
+# === Putnam County ===
+Palatka Golf Club | Palatka
+
+# === Outlying ===
+Pine Royale Golf Course | Callahan

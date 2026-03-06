@@ -1,0 +1,976 @@
+{
+  "confirmed": 1,
+  "elapsed": "2m23.669410667s",
+  "listedOnly": 11,
+  "misses": 38,
+  "platform": "chronogolf",
+  "results": [
+    {
+      "input": "Escena Golf Club",
+      "city": "Palm Springs",
+      "slug": "escena-golf-club",
+      "slugSource": "name",
+      "status": "listed_only",
+      "club": {
+        "uuid": "6747cc87-7ce7-4c4f-b790-955f81393e88",
+        "id": 18042,
+        "name": "Escena Golf Club",
+        "slug": "escena-golf-club",
+        "city": "Palm Springs",
+        "province": "California",
+        "country": "United States",
+        "address": "1100 Clubhouse View Drive",
+        "phone": "(760) 778-2737",
+        "website": "http://escena.com/",
+        "postcode": "92262",
+        "defaultAffiliationTypeId": 81782,
+        "location": {
+          "lat": 0,
+          "lon": 0
+        },
+        "courses": []
+      }
+    },
+    {
+      "input": "Indian Canyons Golf Resort - North Course",
+      "city": "Palm Springs",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Indian Canyons Golf Resort - South Course",
+      "city": "Palm Springs",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Tahquitz Creek Golf Resort - Resort Course",
+      "city": "Palm Springs",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Tahquitz Creek Golf Resort - Legend Course",
+      "city": "Palm Springs",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "O'Donnell Golf Club",
+      "city": "Palm Springs",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Desert Princess Country Club",
+      "city": "Cathedral City",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Cathedral Canyon Golf Club",
+      "city": "Cathedral City",
+      "slug": "cathedral-canyon",
+      "slugSource": "core",
+      "status": "listed_only",
+      "club": {
+        "uuid": "3fc6f3b9-bf52-447c-a086-95aa3295eafe",
+        "id": 18044,
+        "name": "Cathedral Canyon",
+        "slug": "cathedral-canyon",
+        "city": "Cathedral City",
+        "province": "California",
+        "country": "United States",
+        "address": "68311 Paseo Real",
+        "phone": "(760) 328-6571",
+        "website": "http://palmsprings.com/golf/welk.html",
+        "postcode": "92234",
+        "defaultAffiliationTypeId": 81811,
+        "location": {
+          "lat": 0,
+          "lon": 0
+        },
+        "courses": []
+      }
+    },
+    {
+      "input": "Cimarron Golf Resort - Boulder Course",
+      "city": "Cathedral City",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Cimarron Golf Resort - Pebble Course",
+      "city": "Cathedral City",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Date Palm Country Club",
+      "city": "Cathedral City",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Desert Dunes Golf Course",
+      "city": "Desert Hot Springs",
+      "slug": "desert-dunes-golf-course",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "f58ecc8f-5bd0-4bdd-a75e-b8147614588a",
+        "id": 2624,
+        "name": "Desert Dunes Golf Course",
+        "slug": "desert-dunes-golf-course",
+        "city": "Desert Hot Springs",
+        "province": "California",
+        "country": "United States",
+        "address": "19-300 Palm Dr",
+        "phone": "(760) 251-5366",
+        "website": "http://www.desertdunesgolf.com",
+        "postcode": "92240",
+        "defaultAffiliationTypeId": 11318,
+        "location": {
+          "lat": 33.905419,
+          "lon": -116.501634
+        },
+        "courses": [
+          {
+            "id": 3011,
+            "name": "Desert Dunes",
+            "holes": 18,
+            "uuid": "66933447-62ec-48f8-9915-024fcd6dd5e5"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Mission Lakes Country Club",
+      "city": "Desert Hot Springs",
+      "slug": "mission-lakes-country-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "8efb2692-9349-48f2-a393-667fca3f341b",
+        "id": 2844,
+        "name": "Mission Lakes Country Club",
+        "slug": "mission-lakes-country-club",
+        "city": "Desert Hot Springs",
+        "province": "California",
+        "country": "United States",
+        "address": "8484 Clubhouse Blvd",
+        "phone": "(760) 329-8061",
+        "website": "http://www.missionlakescountryclub.com",
+        "postcode": "92240",
+        "defaultAffiliationTypeId": 12198,
+        "location": {
+          "lat": 33.98665,
+          "lon": -116.536422
+        },
+        "courses": [
+          {
+            "id": 3236,
+            "name": "Mission Lakes",
+            "holes": 18,
+            "uuid": "8701fa10-c8e1-43bd-8822-e703b6822009"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Sands RV \u0026 Golf Resort",
+      "city": "Desert Hot Springs",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Hidden Springs Country Club",
+      "city": "Desert Hot Springs",
+      "slug": "hidden-springs-golf-course",
+      "slugSource": "swap-golf-course",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "95c58a84-6c11-461a-a528-d5f0e81c398a",
+        "id": 6656,
+        "name": "Hidden Springs Golf Course",
+        "slug": "hidden-springs-golf-course",
+        "city": "Overbrook",
+        "province": "Arkansas",
+        "country": "United States",
+        "address": "16653 S Ratner Rd",
+        "phone": "(785) 665-7372",
+        "website": "",
+        "postcode": "66524",
+        "defaultAffiliationTypeId": 27446,
+        "location": {
+          "lat": 38.764868,
+          "lon": -95.574927
+        },
+        "courses": [
+          {
+            "id": 7666,
+            "name": "Hidden Springs",
+            "holes": 9,
+            "uuid": "a6fdf113-58f7-41af-9278-c95bd5469ec6"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Desert Crest Country Club",
+      "city": "Desert Hot Springs",
+      "slug": "desert-crest-country-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "424313a2-1f15-4c4e-bb03-14f8e99fe246",
+        "id": 2623,
+        "name": "Desert Crest Country Club",
+        "slug": "desert-crest-country-club",
+        "city": "Desert Hot Springs",
+        "province": "California",
+        "country": "United States",
+        "address": "69400 S Country Club Dr",
+        "phone": "(760) 329-8711",
+        "website": "http://www.desertcrest.net",
+        "postcode": "92241",
+        "defaultAffiliationTypeId": 11314,
+        "location": {
+          "lat": 33.929856,
+          "lon": -116.452629
+        },
+        "courses": [
+          {
+            "id": 3010,
+            "name": "Desert Crest",
+            "holes": 9,
+            "uuid": "d330d375-b5d4-4d5f-ad5b-5b19230b571f"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Desert Willow Golf Resort - Firecliff Course",
+      "city": "Palm Desert",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Desert Willow Golf Resort - Mountain View Course",
+      "city": "Palm Desert",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Classic Club",
+      "city": "Palm Desert",
+      "slug": "classic-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "998aa329-6a40-4e3c-931c-a37492ed9773",
+        "id": 2579,
+        "name": "Classic Club",
+        "slug": "classic-club",
+        "city": "Palm Desert",
+        "province": "California",
+        "country": "United States",
+        "address": "75200 Classic Club Blvd",
+        "phone": "(760) 601-3601",
+        "website": "http://www.classicclubgolf.com",
+        "postcode": "92211",
+        "defaultAffiliationTypeId": 11138,
+        "location": {
+          "lat": 33.754771,
+          "lon": -116.332425
+        },
+        "courses": [
+          {
+            "id": 2965,
+            "name": "The Classic Club",
+            "holes": 18,
+            "uuid": "312201f8-0758-406b-aa52-ecc84a86462a"
+          },
+          {
+            "id": 21147,
+            "name": "The S at Rancho Mirage",
+            "holes": 18,
+            "uuid": "06b53408-3b2e-4e9d-b399-e2c0d7b508ae"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Shadow Mountain Golf Club",
+      "city": "Palm Desert",
+      "slug": "shadow-mountain-golf-club",
+      "slugSource": "name+state",
+      "status": "confirmed",
+      "club": {
+        "uuid": "24494526-59f7-4f0a-82e7-b2021b35dcae",
+        "id": 3060,
+        "name": "Shadow Mountain Golf Course",
+        "slug": "shadow-mountain-golf-club",
+        "city": "Palm Desert",
+        "province": "California",
+        "country": "United States",
+        "address": "73800 Ironwood St",
+        "phone": "(760) 346-8242",
+        "website": "https://www.golfshadowmountain.com/",
+        "postcode": "92260",
+        "defaultAffiliationTypeId": 13062,
+        "location": {
+          "lat": 33.71481,
+          "lon": -116.37731
+        },
+        "courses": [
+          {
+            "id": 3467,
+            "name": "Shadow Mountain",
+            "holes": 18,
+            "uuid": "3c64d89f-f1b2-480f-9eed-9fa32596d6be"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "input": "Palm Desert Resort Country Club",
+      "city": "Palm Desert",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Woodhaven Country Club",
+      "city": "Palm Desert",
+      "slug": "woodhaven-country-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "e721e35b-078c-4f31-8807-619eeb6bc30e",
+        "id": 3631,
+        "name": "Woodhaven Country Club",
+        "slug": "woodhaven-country-club-connecticut",
+        "city": "Bethany",
+        "province": "Connecticut",
+        "country": "United States",
+        "address": "275 Miller Rd",
+        "phone": "(203) 393-3230",
+        "website": "http://www.woodhavengolf.com",
+        "postcode": "6524",
+        "defaultAffiliationTypeId": 15346,
+        "location": {
+          "lat": 41.325472,
+          "lon": -72.995185
+        },
+        "courses": [
+          {
+            "id": 4117,
+            "name": "Woodhaven",
+            "holes": 18,
+            "uuid": "4fb83e2b-4bf4-4880-9fe9-552747897392"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Marriott's Shadow Ridge Golf Club",
+      "city": "Palm Desert",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "JW Marriott Desert Springs - Palms Course",
+      "city": "Palm Desert",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "JW Marriott Desert Springs - Valley Course",
+      "city": "Palm Desert",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Suncrest Country Club",
+      "city": "Palm Desert",
+      "slug": "suncrest-country-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "79623fad-bd72-4913-942e-73f4d91454d6",
+        "id": 3113,
+        "name": "Suncrest Country Club",
+        "slug": "suncrest-country-club",
+        "city": "Palm Desert",
+        "province": "California",
+        "country": "United States",
+        "address": "73-450 Country Club Dr",
+        "phone": "(760) 340-2467",
+        "website": "",
+        "postcode": "92260",
+        "defaultAffiliationTypeId": 13274,
+        "location": {
+          "lat": 33.6872928,
+          "lon": -116.407018
+        },
+        "courses": [
+          {
+            "id": 3520,
+            "name": "Suncrest",
+            "holes": 9,
+            "uuid": "162e2379-7446-47a8-8636-02f2f4a31cc8"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Palm Desert Greens Golf Course",
+      "city": "Palm Desert",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Desert Falls Country Club",
+      "city": "Palm Desert",
+      "slug": "desert-falls-country-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "e67f0130-3fa7-4667-85a4-38ba77cf0e34",
+        "id": 2625,
+        "name": "Desert Falls Country Club",
+        "slug": "desert-falls-country-club",
+        "city": "Palm Desert",
+        "province": "California",
+        "country": "United States",
+        "address": "1111 Desert Falls Pkwy",
+        "phone": "(760) 340-4653",
+        "website": "http://www.desert-falls.com",
+        "postcode": "92211",
+        "defaultAffiliationTypeId": 11322,
+        "location": {
+          "lat": 33.7606864,
+          "lon": -116.3496118
+        },
+        "courses": [
+          {
+            "id": 3012,
+            "name": "Desert Falls",
+            "holes": 18,
+            "uuid": "85e0c504-d8c1-4460-8c7e-4339791a867d"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Mission Hills - Gary Player Signature Course",
+      "city": "Rancho Mirage",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Westin Mission Hills - Pete Dye Resort Course",
+      "city": "Rancho Mirage",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Omni Rancho Las Palmas Country Club",
+      "city": "Rancho Mirage",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Indian Wells Golf Resort - Celebrity Course",
+      "city": "Indian Wells",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Indian Wells Golf Resort - Players Course",
+      "city": "Indian Wells",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Golf Club at Terra Lago - North Course",
+      "city": "Indio",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Golf Club at Terra Lago - South Course",
+      "city": "Indio",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "PGA West - Stadium Course",
+      "city": "La Quinta",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "PGA West - Mountain Course",
+      "city": "La Quinta",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "PGA West - Dunes Course",
+      "city": "La Quinta",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "PGA West - Greg Norman Course",
+      "city": "La Quinta",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "PGA West - Nicklaus Tournament Course",
+      "city": "La Quinta",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "SilverRock Resort",
+      "city": "La Quinta",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "La Quinta Resort - Mountain Course",
+      "city": "La Quinta",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "La Quinta Resort - Dunes Course",
+      "city": "La Quinta",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Palm Royale Country Club",
+      "city": "La Quinta",
+      "slug": "palm-royale-country-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "8e0e6af7-c7ce-46b7-b1a3-00e14d058d30",
+        "id": 2913,
+        "name": "Palm Royale Country Club",
+        "slug": "palm-royale-country-club",
+        "city": "La Quinta",
+        "province": "California",
+        "country": "United States",
+        "address": "78259 Indigo Dr",
+        "phone": "(760) 345-9701",
+        "website": "http://www.familygolf.com",
+        "postcode": "92253",
+        "defaultAffiliationTypeId": 12474,
+        "location": {
+          "lat": 33.727877,
+          "lon": -116.300622
+        },
+        "courses": [
+          {
+            "id": 3306,
+            "name": "Palm Royale",
+            "holes": 18,
+            "uuid": "01daf724-8ec1-4c2b-8b29-14a6a6edd149"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Golf Club at La Quinta",
+      "city": "La Quinta",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Trilogy Golf Club at La Quinta",
+      "city": "La Quinta",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Heritage Palms Golf Club",
+      "city": "Indio",
+      "slug": "heritage-palms-golf-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "f42da0ff-d408-4984-98ca-d7af9a57a527",
+        "id": 2722,
+        "name": "Heritage Palms Golf Club",
+        "slug": "heritage-palms-golf-club",
+        "city": "Indio",
+        "province": "California",
+        "country": "United States",
+        "address": "44291 Heritage Palms Dr S",
+        "phone": "(760) 772-7334",
+        "website": "http://www.westerngolfproperties.com",
+        "postcode": "92201",
+        "defaultAffiliationTypeId": 11710,
+        "location": {
+          "lat": 33.725201,
+          "lon": -116.259466
+        },
+        "courses": [
+          {
+            "id": 3109,
+            "name": "Heritage Palms",
+            "holes": 18,
+            "uuid": "6873bad5-30d0-4939-bb12-7587e4419168"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Eagle Falls Golf Course",
+      "city": "Indio",
+      "slug": "eagle-falls-golf-club",
+      "slugSource": "swap-golf-club",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "63f43cd5-4e34-423a-bf51-8b8c71e3b634",
+        "id": 8938,
+        "name": "Eagle Falls Golf Club",
+        "slug": "eagle-falls-golf-club",
+        "city": "Great Falls",
+        "province": "Montana",
+        "country": "United States",
+        "address": "25th St \u0026 River Dr N",
+        "phone": "(406) 761-1078",
+        "website": "http://www.greatfallsmt.cnet",
+        "postcode": "59401",
+        "defaultAffiliationTypeId": 36574,
+        "location": {
+          "lat": 47.505106,
+          "lon": -111.264256
+        },
+        "courses": [
+          {
+            "id": 10294,
+            "name": "Eagle Falls",
+            "holes": 18,
+            "uuid": "a56ae398-5b3c-4856-a629-de8130f2ffc3"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Shadow Hills Golf Club - North Course",
+      "city": "Indio",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Shadow Hills Golf Club - South Course",
+      "city": "Indio",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Indian Palms Country Club",
+      "city": "Indio",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Indian Springs Golf Club",
+      "city": "Indio",
+      "slug": "indian-springs-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "2f10d1b4-763c-4696-95b8-64a33a367c3f",
+        "id": 4020,
+        "name": "Indian Springs Golf Club",
+        "slug": "indian-springs-golf-club-florida",
+        "city": "Marianna",
+        "province": "Florida",
+        "country": "United States",
+        "address": "5248 Clubhouse Dr",
+        "phone": "(850) 482-8787",
+        "website": "http://www.indianspringsgolfcourse.net/",
+        "postcode": "32446",
+        "defaultAffiliationTypeId": 16902,
+        "location": {
+          "lat": 30.767076,
+          "lon": -85.202541
+        },
+        "courses": [
+          {
+            "id": 4644,
+            "name": "Indian Springs",
+            "holes": 18,
+            "uuid": "abc99a31-0497-4333-bb8f-1d8126978bba"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Plantation Golf Club",
+      "city": "Indio",
+      "slug": "plantation-golf-club",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "b6a5d68a-df95-4dec-b82d-3177aedc7179",
+        "id": 5493,
+        "name": "Plantation Golf Club",
+        "slug": "plantation-golf-club-idaho",
+        "city": "Boise",
+        "province": "Idaho",
+        "country": "United States",
+        "address": "6515 W State St",
+        "phone": "(208) 853-4793",
+        "website": "http://www.plantationcc.com",
+        "postcode": "83703",
+        "defaultAffiliationTypeId": 22794,
+        "location": {
+          "lat": 43.64749,
+          "lon": -116.246151
+        },
+        "courses": [
+          {
+            "id": 6408,
+            "name": "Plantation",
+            "holes": 18,
+            "uuid": "ac1e9e9f-a99f-4923-8375-bb3272e855ae"
+          }
+        ]
+      }
+    },
+    {
+      "input": "The Lights at Indio Golf Course",
+      "city": "Indio",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Ivey Ranch Country Club",
+      "city": "Thousand Palms",
+      "slug": "ivey-ranch-country-club",
+      "slugSource": "name+state",
+      "status": "listed_only",
+      "club": {
+        "uuid": "9dbaab1a-8aba-498e-b4e7-629f8050c5e1",
+        "id": 2737,
+        "name": "Ivey Ranch Country Club",
+        "slug": "ivey-ranch-country-club",
+        "city": "Thousand Palms",
+        "province": "California",
+        "country": "United States",
+        "address": "74580 Varner Rd",
+        "phone": "(760) 343-2013",
+        "website": "http://www.palmsprings.com",
+        "postcode": "92276",
+        "defaultAffiliationTypeId": 11770,
+        "location": {
+          "lat": 33.792028,
+          "lon": -116.364733
+        },
+        "courses": [
+          {
+            "id": 3124,
+            "name": "Ivey Ranch",
+            "holes": 9,
+            "uuid": "34e0ff7e-fa74-4fa2-907e-4a8e58afe565"
+          }
+        ]
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "The Vineyards Golf Course",
+      "city": "Coachella",
+      "slug": "the-vineyards-country-club",
+      "slugSource": "swap-country-club",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "60fc6b4a-a987-4bc7-bdeb-c16ff4d103f1",
+        "id": 4513,
+        "name": "The Vineyards Country Club",
+        "slug": "the-vineyards-country-club",
+        "city": "Naples",
+        "province": "Florida",
+        "country": "United States",
+        "address": "400 Vineyards Blvd",
+        "phone": "(239)353-0505",
+        "website": "http://www.vineyardscountryclub.net",
+        "postcode": "34119",
+        "defaultAffiliationTypeId": 18874,
+        "location": {
+          "lat": 26.228791,
+          "lon": -81.73196
+        },
+        "courses": [
+          {
+            "id": 5298,
+            "name": "South",
+            "holes": 18,
+            "uuid": "2ee64d04-bb61-4d74-9e3c-d4544e17857b"
+          },
+          {
+            "id": 5297,
+            "name": "North",
+            "holes": 18,
+            "uuid": "b682f364-79f9-49a4-b74d-053bafb35c40"
+          }
+        ]
+      }
+    }
+  ],
+  "state": "CA",
+  "timestamp": "2026-03-06T03:48:53-07:00",
+  "totalInput": 56,
+  "validationDates": [
+    "2026-03-11",
+    "2026-03-07",
+    "2026-03-14"
+  ],
+  "wrongState": 6
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "key": "mariners-point",
+    "metro": "sanfrancisco",
+    "courseCode": "MARN",
+    "courseGroupId": "10341",
+    "displayName": "Mariners Point Golf Center",
+    "city": "Foster City",
+    "state": "CA",
+    "bookingUrl": "https://tee-on.com/PubGolf/servlet/com.teeon.teesheet.servlets.golfersection.WebBookingAllTimesLanding?CourseCode=MARN&CourseGroupID=10341"
+  }
+]

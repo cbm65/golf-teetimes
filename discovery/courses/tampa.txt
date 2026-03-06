@@ -1,0 +1,81 @@
+# Tampa Bay Metro - Public/Semi-Private Golf Courses
+# Covers Hillsborough, Pinellas, Pasco, Hernando, and parts of Manatee/Polk counties
+
+# === Tampa / Hillsborough County ===
+Rogers Park Golf Course | Tampa
+Babe Zaharias Golf Course | Tampa
+Rocky Point Golf Course | Tampa
+Westchase Golf Club | Tampa
+Northdale Golf and Tennis Club | Tampa
+The Claw at USF | Tampa
+Countryway Golf Club | Tampa
+Heritage Isles Golf and Country Club | Tampa
+Pebble Creek Golf Club | Tampa
+Temple Terrace Golf and Country Club | Temple Terrace
+Terrace Hill Golf Club | Temple Terrace
+TPC Tampa Bay | Lutz
+Bloomingdale Golfers Club | Valrico
+Buckhorn Springs Golf and Country Club | Valrico
+Summerfield Crossings Golf Club | Riverview
+Diamond Hill Golf Club | Dover
+Saddlebrook Golf Club | Wesley Chapel
+
+# === South Hillsborough / Sun City Center ===
+Club Renaissance | Sun City Center
+Apollo Beach Golf Club | Apollo Beach
+Cypress Creek Golf Club | Ruskin
+
+# === Pinellas County ===
+Mangrove Bay Golf Course | St. Petersburg
+Bardmoor Golf and Tennis Club | Seminole
+Seminole Lake Country Club | Seminole
+East Bay Golf Club | Largo
+Largo Golf Course | Largo
+Chi Chi Rodriguez Golf Club | Clearwater
+Clearwater Country Club | Clearwater
+Cove Cay Golf Club | Clearwater
+Dunedin Golf Club | Dunedin
+Tarpon Springs Golf Course | Tarpon Springs
+Wentworth Golf Club | Tarpon Springs
+Lansbrook Golf Club | Palm Harbor
+Innisbrook Resort - Copperhead Course | Palm Harbor
+Innisbrook Resort - Island Course | Palm Harbor
+Innisbrook Resort - North Course | Palm Harbor
+Innisbrook Resort - South Course | Palm Harbor
+Mainlands Golf Club | Pinellas Park
+Vinoy Golf Club | St. Petersburg
+
+# === Pasco County ===
+Fox Hollow Golf Club | Trinity
+Seven Springs Golf and Country Club | New Port Richey
+Crescent Oaks Golf Club | New Port Richey
+River Ridge Golf Club | New Port Richey
+Meadow Oaks Golf Club | New Port Richey
+Beacon Woods Golf Club | New Port Richey
+Lexington Oaks Golf Club | Wesley Chapel
+Plantation Palms Golf Club | Land O Lakes
+Silver Dollar Golf Club | Odessa
+Tampa Bay Golf and Country Club | San Antonio
+Lake Jovita Golf and Country Club | Dade City
+Links of Lake Bernadette | Zephyrhills
+Southport Springs Golf Club | Zephyrhills
+The Groves Golf and Country Club | Land O Lakes
+
+# === Hernando County (edge of metro) ===
+World Woods Golf Club - Pine Barrens | Brooksville
+World Woods Golf Club - Rolling Oaks | Brooksville
+Southern Hills Plantation Club | Brooksville
+Hernando Oaks Golf and Country Club | Brooksville
+Silverthorn Country Club | Spring Hill
+Sherman Hills Golf Club | Brooksville
+
+# === Manatee County (south edge) ===
+Manatee County Golf Course | Bradenton
+Waterlefe Golf and River Club | Bradenton
+Heritage Harbour Golf Club | Bradenton
+Buffalo Creek Golf Course | Palmetto
+Imperial Lakewoods Golf Club | Palmetto
+Rosedale Golf and Country Club | Bradenton
+Moccasin Wallow Golf Club | Parrish
+Terra Ceia Bay Golf Club | Palmetto
+River Wilderness Country Club | Parrish

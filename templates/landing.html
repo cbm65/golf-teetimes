@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>birdiealerts — Free Tee Time Alerts for Your City</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,300&family=Sora:wght@300;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="landing-hero">
+        <div class="landing-hero-inner">
+            <div class="landing-logo">
+                <span class="landing-logo-birdie">birdie</span><span class="landing-logo-alerts">alerts</span>
+            </div>
+            <p class="landing-tagline">Free tee time alerts for your city</p>
+            <h1 class="landing-title">Find Your Tee Time</h1>
+            <p class="landing-subtitle">We search every municipal and public course booking system so you don't have to. Pick your metro, pick your date, and see every available tee time in one place.</p>
+        </div>
+    </div>
+
+    <div class="landing-how">
+        <div class="landing-how-inner">
+            <div class="landing-step">
+                <div class="landing-step-num">1</div>
+                <div class="landing-step-title">Choose your area</div>
+                <div class="landing-step-desc">Select a metro region below to see all courses in that area.</div>
+            </div>
+            <div class="landing-step-arrow">→</div>
+            <div class="landing-step">
+                <div class="landing-step-num">2</div>
+                <div class="landing-step-title">Filter &amp; find</div>
+                <div class="landing-step-desc">Pick a date, adjust time, openings, and holes to find exactly what you need.</div>
+            </div>
+            <div class="landing-step-arrow">→</div>
+            <div class="landing-step">
+                <div class="landing-step-num">3</div>
+                <div class="landing-step-title">Book directly</div>
+                <div class="landing-step-desc">Click through to book directly with the course — no middleman, no markup.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="landing-alerts">
+        <div class="landing-alerts-inner">
+            <div class="landing-alerts-content">
+                <h2 class="landing-alerts-title">Never Miss a Tee Time</h2>
+                <p class="landing-alerts-desc">Can't find the time you want? Set an alert and we'll text you the moment one opens up. Pick a course, choose your date and time window, enter your phone number — that's it.</p>
+                <div class="landing-alerts-steps">
+                    <div class="landing-alerts-step">
+                        <span class="landing-alerts-icon">🔔</span>
+                        <div>
+                            <strong>Set an alert</strong>
+                            <p>Choose a course, date, and time range on the tee times page. Enter your phone number and we'll watch for openings.</p>
+                        </div>
+                    </div>
+                    <div class="landing-alerts-step">
+                        <span class="landing-alerts-icon">📱</span>
+                        <div>
+                            <strong>Get a text</strong>
+                            <p>When a tee time opens up that matches your alert, you'll get an SMS with the details and a link to book.</p>
+                        </div>
+                    </div>
+                    <div class="landing-alerts-step">
+                        <span class="landing-alerts-icon">📋</span>
+                        <div>
+                            <strong>Manage anytime</strong>
+                            <p>Check or delete your alerts anytime from the My Alerts page — just enter your phone number to look them up.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="landing-alerts-sidebar">
+                <div class="landing-alerts-badge">No account needed</div>
+                <p class="landing-alerts-privacy">We don't require a login, an account, or an email address. Your phone number is only used to send you the alerts you create — nothing else. No data collection, no marketing, no spam.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="landing-metros">
+        <h2 class="landing-section-title">Available Regions</h2>
+        <div class="landing-map-wrap">
+            <div class="landing-map" id="metro-map">
+                <img class="map-usa" src="/static/us-map.svg" alt="US Map">
+                {{range .}}
+                <a href="/{{.Slug}}" class="map-dot" data-lat="{{printf "%.2f" .Lat}}" data-lng="{{printf "%.2f" .Lng}}" data-courses="{{.CourseCount}}">
+                    <span class="map-dot-ping"></span>
+                    <span class="map-dot-core"></span>
+                    <div class="map-tip">
+                        <strong>{{.Name}}</strong>
+                        <span class="map-tip-state">{{.State}}</span>
+                        <span class="map-tip-stats">{{.CourseCount}} courses · {{.CityCount}} cities</span>
+                        <span class="map-tip-cta">Browse Tee Times →</span>
+                    </div>
+                </a>
+                {{end}}
+            </div>
+        </div>
+        <div class="landing-metro-list">
+            <div class="metro-filters" id="metro-filters">
+                <button class="metro-filter active" data-state="all">All</button>
+            </div>
+            <div class="metro-list-grid" id="metro-list-grid">
+            {{range .}}
+            <a href="/{{.Slug}}" class="metro-list-item" data-state="{{.State}}">
+                <div class="metro-list-top">
+                    <span class="metro-list-name">{{.Name}}</span>
+                    <span class="metro-list-state">{{.State}}</span>
+                </div>
+                <div class="metro-list-bottom">
+                    <span class="metro-list-stats">{{.CourseCount}} courses · {{.CityCount}} cities</span>
+                    <span class="metro-list-arrow">→</span>
+                </div>
+            </a>
+            {{end}}
+            </div>
+        </div>
+    </div>
+
+    <script>
+    document.querySelectorAll('.map-dot').forEach(function(dot) {
+        var lat = parseFloat(dot.dataset.lat) * Math.PI / 180;
+        var lng = parseFloat(dot.dataset.lng) * Math.PI / 180;
+        var lng0 = -96 * Math.PI / 180, sp1 = 29.5 * Math.PI / 180, sp2 = 45.5 * Math.PI / 180, lat0 = 23 * Math.PI / 180;
+        var n = 0.5 * (Math.sin(sp1) + Math.sin(sp2));
+        var C = Math.pow(Math.cos(sp1), 2) + 2 * n * Math.sin(sp1);
+        var rho0 = Math.sqrt(C - 2 * n * Math.sin(lat0)) / n;
+        var rho = Math.sqrt(C - 2 * n * Math.sin(lat)) / n;
+        var theta = n * (lng - lng0);
+        var x = rho * Math.sin(theta);
+        var y = rho0 - rho * Math.cos(theta);
+        dot.style.left = ((2469.07 * x + 989.93) / 1880 * 100) + '%';
+        dot.style.top = ((-2452.57 * y + 1234.06) / 1100 * 100) + '%';
+    });
+
+    // Color dots by course count on a continuous multi-color scale
+    var dots = document.querySelectorAll('.map-dot');
+    var counts = Array.from(dots).map(function(d) { return parseInt(d.dataset.courses) || 0; });
+    var min = Math.min.apply(null, counts), max = Math.max.apply(null, counts);
+    var stops = [
+        [0, 100, 200, 235],   // bright blue
+        [0.3, 30, 180, 100],  // vivid green
+        [0.6, 240, 180, 30],  // bold amber
+        [1, 210, 50, 40]      // strong red
+    ];
+    function lerpColor(t) {
+        var i = 0;
+        for (var s = 1; s < stops.length; s++) { if (t <= stops[s][0]) { i = s - 1; break; } }
+        var lo = stops[i], hi = stops[i + 1];
+        var f = (t - lo[0]) / (hi[0] - lo[0]);
+        return 'rgb(' + Math.round(lo[1] + f * (hi[1] - lo[1])) + ',' +
+               Math.round(lo[2] + f * (hi[2] - lo[2])) + ',' +
+               Math.round(lo[3] + f * (hi[3] - lo[3])) + ')';
+    }
+    dots.forEach(function(dot) {
+        var c = parseInt(dot.dataset.courses) || 0;
+        var t = max > min ? (c - min) / (max - min) : 0.5;
+        var color = lerpColor(t);
+        dot.querySelector('.map-dot-core').style.background = color;
+        dot.querySelector('.map-dot-ping').style.background = color.replace('rgb', 'rgba').replace(')', ',0.25)');
+    });
+
+    // Build state filter pills from data
+    var states = {};
+    document.querySelectorAll('.metro-list-item').forEach(function(item) {
+        states[item.dataset.state] = (states[item.dataset.state] || 0) + 1;
+    });
+    var filtersEl = document.getElementById('metro-filters');
+    Object.keys(states).sort().forEach(function(st) {
+        var btn = document.createElement('button');
+        btn.className = 'metro-filter';
+        btn.dataset.state = st;
+        btn.textContent = st;
+        filtersEl.appendChild(btn);
+    });
+
+    filtersEl.addEventListener('click', function(e) {
+        var btn = e.target.closest('.metro-filter');
+        if (!btn) return;
+        filtersEl.querySelectorAll('.metro-filter').forEach(function(b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        var st = btn.dataset.state;
+        document.querySelectorAll('.metro-list-item').forEach(function(item) {
+            item.style.display = (st === 'all' || item.dataset.state === st) ? '' : 'none';
+        });
+    });
+    </script>
+
+    <div class="footer">
+        <div class="footer-inner">
+            <p class="footer-about">We aggregate tee times from every public and municipal course booking system so you can find your round in one place. No accounts, no fees, no data collection — just tee times.</p>
+            <div class="footer-links">
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

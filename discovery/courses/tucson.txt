@@ -1,0 +1,40 @@
+# Tucson Metro — Public Golf Courses
+# Format: Course Name | City
+
+Arizona National Golf Club | Tucson
+Canoa Ranch Golf Club | Green Valley
+Crooked Tree Golf Course | Tucson
+Del Lago Golf Club | Vail
+Dorado Golf Course | Tucson
+El Conquistador Golf & Tennis | Oro Valley
+El Rio Golf Course | Tucson
+Fred Enke Golf Course | Tucson
+Golf Club at Vistoso | Oro Valley
+Haven Golf Course | Green Valley
+Highlands at Dove Mountain | Marana
+La Paloma Country Club | Tucson
+Loews Ventana Canyon Resort | Tucson
+Omni Tucson National Resort | Tucson
+Quarry Pines Golf Club | Marana
+Randolph Golf Complex - Dell Urich | Tucson
+Randolph Golf Complex - North | Tucson
+Raven Golf Club at Sabino Springs | Tucson
+Reflections at Jaal Desert Springs | Tucson
+Silverbell Golf Course | Tucson
+San Ignacio Golf Club | Green Valley
+Sewailo Golf Club | Tucson
+Starr Pass Golf Club | Tucson
+The Views Golf Club at Oro Valley | Oro Valley
+Torres Blancas Golf Club | Green Valley
+Tubac Golf Resort | Tubac
+Forty Niner Country Club | Tucson
+Lodge at Ventana Canyon | Tucson
+Continental Golf Course | Green Valley
+Quail Creek Golf Club | Green Valley
+Canoa Hills Golf Course | Green Valley
+Santa Cruz Valley Golf Course | Rio Rico
+The Stone Canyon Club | Oro Valley
+Gallery Golf Club - North | Marana
+Gallery Golf Club - South | Marana
+Heritage Highlands Golf Club | Marana
+Golf Club at Dove Mountain | Marana

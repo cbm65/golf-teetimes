@@ -1,0 +1,88 @@
+# San Diego Metro — Public & Semi-Private Golf Courses
+# Includes San Diego County + Temecula/Murrieta area (~1 hour radius)
+
+# === City of San Diego Municipal ===
+Torrey Pines Golf Course - South | La Jolla
+Torrey Pines Golf Course - North | La Jolla
+Balboa Park Golf Course | San Diego
+Mission Bay Golf Course | San Diego
+
+# === City of San Diego — Par 3 / Executive ===
+Presidio Hills Golf Course | San Diego
+Colina Park Golf Course | San Diego
+The Loma Club | San Diego
+Tecolote Canyon Golf Course | San Diego
+
+# === San Diego — Public / Daily Fee ===
+Riverwalk Golf Club | San Diego
+Admiral Baker Golf Course | San Diego
+Mission Trails Golf Course | San Diego
+Oaks North Golf Course | San Diego
+Miramar Memorial Golf Course | San Diego
+Carmel Mountain Ranch Golf Course | San Diego
+StoneRidge Country Club | Poway
+
+# === Coronado ===
+Coronado Golf Course | Coronado
+
+# === North County Coastal ===
+The Crossings at Carlsbad | Carlsbad
+Aviara Golf Club | Carlsbad
+Omni La Costa Resort - North Course | Carlsbad
+Omni La Costa Resort - South Course | Carlsbad
+Rancho Carlsbad Golf Course | Carlsbad
+Encinitas Ranch Golf Course | Encinitas
+Lomas Santa Fe Executive Golf Course | Solana Beach
+Goat Hill Park Golf Club | Oceanside
+Emerald Isle Golf Course | Oceanside
+Arrowood Golf Course | Oceanside
+
+# === North County Inland ===
+Rancho Bernardo Inn Golf Course | San Diego
+Maderas Golf Club | Poway
+Twin Oaks Golf Course | San Marcos
+St. Mark Golf Club | San Marcos
+Shadowridge Golf Club | Vista
+Castle Creek Country Club | Escondido
+Dos Osos Golf Club | Escondido
+The Vineyard at Escondido | Escondido
+Reidy Creek Golf Course | Escondido
+Meadow Lake Golf Course | Escondido
+Boulder Oaks Golf Club | Escondido
+Welk Resort - Fountains Course | Escondido
+Welk Resort - Oaks Course | Escondido
+Mt. Woodson Golf Club | Ramona
+San Vicente Resort and Golf Course | Ramona
+
+# === East County ===
+Singing Hills Golf Resort - Willow Glen | El Cajon
+Singing Hills Golf Resort - Oak Glen | El Cajon
+Singing Hills Golf Resort - Pine Glen | El Cajon
+Sycuan Golf Resort | El Cajon
+Steele Canyon Golf Club | Jamul
+Carlton Oaks Golf Club | Santee
+Cottonwood Golf Club | El Cajon
+Barona Creek Golf Club | Lakeside
+
+# === South Bay ===
+Bonita Golf Club | Bonita
+Chula Vista Golf Course | Bonita
+National City Golf Course | National City
+
+# === Fallbrook / North County ===
+Pala Mesa Golf Resort | Fallbrook
+Fallbrook Golf Club | Fallbrook
+The Golf Club of California | Fallbrook
+
+# === Temecula / Murrieta (within 1 hour) ===
+Journey at Pechanga | Temecula
+Temecula Creek Inn Golf Resort | Temecula
+CrossCreek Golf Club | Temecula
+Temeku Hills Golf Club | Temecula
+Redhawk Golf Course | Temecula
+The Golf Club at Rancho California | Murrieta
+SCGA Golf Course | Murrieta
+
+# === Resort / Semi-Private ===
+Fairmont Grand Del Mar | San Diego
+Morgan Run Club & Resort | Rancho Santa Fe
