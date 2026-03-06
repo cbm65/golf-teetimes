@@ -1,0 +1,550 @@
+{
+  "confirmed": 9,
+  "elapsed": "1m16.853950709s",
+  "errors": 0,
+  "listedOnly": 3,
+  "misses": 20,
+  "platform": "teeitup",
+  "results": [
+    {
+      "input": "Robert Trent Jones Golf Course at Palmetto Dunes",
+      "city": "Hilton Head Island",
+      "alias": "robert-trent-jones-golf-course-at-palmetto-dunes",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Arthur Hills Golf Course at Palmetto Dunes",
+      "city": "Hilton Head Island",
+      "alias": "arthur-hills-golf-course-at-palmetto-dunes",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "George Fazio Golf Course at Palmetto Dunes",
+      "city": "Hilton Head Island",
+      "alias": "george-fazio-golf-course-at-palmetto-dunes",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Harbour Town Golf Links",
+      "city": "Hilton Head Island",
+      "alias": "harbour-town-golf-links",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Heron Point by Pete Dye",
+      "city": "Hilton Head Island",
+      "alias": "heron-point-by-pete-dye",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Atlantic Dunes by Davis Love III",
+      "city": "Hilton Head Island",
+      "alias": "atlantic-dunes-by-davis-love-iii",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Port Royal Golf Club - Barony",
+      "city": "Hilton Head Island",
+      "alias": "port-royal-golf-club-barony",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Port Royal Golf Club - Robbers Row",
+      "city": "Hilton Head Island",
+      "alias": "port-royal-golf-club-robbers-row",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Shipyard Golf Club - Clipper",
+      "city": "Hilton Head Island",
+      "alias": "shipyard-golf-club-clipper",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Shipyard Golf Club - Galleon",
+      "city": "Hilton Head Island",
+      "alias": "shipyard-golf-club-galleon",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Shipyard Golf Club - Brigantine",
+      "city": "Hilton Head Island",
+      "alias": "shipyard-golf-club-brigantine",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Oyster Reef Golf Club",
+      "city": "Hilton Head Island",
+      "alias": "oyster-reef-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 13554,
+        "courseId": "55f0cfe85808400300163313",
+        "name": "Oyster Reef Golf Club",
+        "address": "155 High Bluff Road, Hilton Head Island, SC 29926, US",
+        "locality": "Hilton Head Island",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.73424,
+          32.237011
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        15,
+        13,
+        21
+      ]
+    },
+    {
+      "input": "Palmetto Hall - Arthur Hills",
+      "city": "Hilton Head Island",
+      "alias": "palmetto-hall-arthur-hills",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Palmetto Hall - Robert Cupp",
+      "city": "Hilton Head Island",
+      "alias": "palmetto-hall-robert-cupp",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Bear Creek Golf Club",
+      "city": "Hilton Head Island",
+      "alias": "bear-creek-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 12306,
+        "courseId": "54f14ff80c8ad60378b07374",
+        "name": "Bear Creek Golf Club",
+        "address": "237 Whooping Crane Way, Hilton Head Island, SC 29926 US",
+        "locality": "Hilton Head Island",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.723147,
+          32.243048
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Country Club of Hilton Head",
+      "city": "Hilton Head Island",
+      "alias": "country-club-of-hilton-head",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 6830,
+        "courseId": "54f37b23a6f5040bb05647e1",
+        "name": "Country Club of Hilton Head",
+        "address": "Hilton Head Plantation, Country Club Court, Hilton Head Island, SC 29926, USA",
+        "locality": "Hilton Head Island",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.74064949999999,
+          32.2436656
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Golden Bear Golf Club at Indigo Run",
+      "city": "Hilton Head Island",
+      "alias": "golden-bear-golf-club-at-indigo-run",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 6803,
+        "courseId": "54f14df20c8ad60378b04649",
+        "name": "Golden Bear Golf Club at Indigo Run",
+        "address": "72 Golden Bear Way, Hilton Head Island, SC 29926 US",
+        "locality": "Hilton Head Island",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.732694,
+          32.208796
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        50,
+        35,
+        51
+      ]
+    },
+    {
+      "input": "Dolphin Head Golf Club",
+      "city": "Hilton Head Island",
+      "alias": "dolphin-head-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Hilton Head National Golf Club",
+      "city": "Bluffton",
+      "alias": "hilton-head-national-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 5671,
+        "courseId": "54f14d6b0c8ad60378b03c1f",
+        "name": "Hilton Head National Golf Club",
+        "address": "60 Hilton Head National Drive, Bluffton, SC 29910 US",
+        "locality": "Bluffton",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.829678,
+          32.236327
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Old South Golf Links",
+      "city": "Bluffton",
+      "alias": "old-south-golf-links",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 6378,
+        "courseId": "54f14dbe0c8ad60378b04270",
+        "name": "Old South Golf Links",
+        "address": "50 Buckingham Plantation Drive, Bluffton, SC 29910, US",
+        "locality": "Bluffton",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.814023,
+          32.232889
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        58,
+        0,
+        41
+      ]
+    },
+    {
+      "input": "Crescent Pointe Golf Club",
+      "city": "Bluffton",
+      "alias": "crescent-pointe-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 6379,
+        "courseId": "54f154eef18d8a4b15fe2fe6",
+        "name": "Crescent Pointe Golf Club",
+        "address": "1 Crescent Point Drive, Bluffton, SC 29910, US",
+        "locality": "Bluffton",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.8468024,
+          32.26710970000001
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        50,
+        46,
+        7
+      ]
+    },
+    {
+      "input": "Island West Golf Club",
+      "city": "Bluffton",
+      "alias": "island-west-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 6377,
+        "courseId": "54f14dbe0c8ad60378b0426d",
+        "name": "Island West Golf Club",
+        "address": "40 Island W Dr, Bluffton, SC 29910, US",
+        "locality": "Bluffton",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.918841,
+          32.285098
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        27,
+        25,
+        27
+      ]
+    },
+    {
+      "input": "Eagle's Pointe Golf Club",
+      "city": "Bluffton",
+      "alias": "eagles-pointe-golf-club",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 6380,
+        "courseId": "54f14dbe0c8ad60378b04274",
+        "name": "Eagle's Pointe Golf Club",
+        "address": "1 Eagle Pointe Dr, Bluffton, SC 29909, US",
+        "locality": "Bluffton",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.893968,
+          32.288103
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        50,
+        67,
+        56
+      ]
+    },
+    {
+      "input": "Rose Hill Golf Club",
+      "city": "Bluffton",
+      "alias": "rose-hill-golf-club",
+      "aliasSource": "exact",
+      "status": "listed_only",
+      "facility": {
+        "id": 5087,
+        "courseId": "54f14d2c0c8ad60378b03656",
+        "name": "Rose Hill Golf Club",
+        "address": "4 Clubhouse Dr, Bluffton, SC 29910, US",
+        "locality": "Bluffton",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.9033,
+          32.2133
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "input": "Argent Lakes Golf Club",
+      "city": "Hardeeville",
+      "alias": "argent-lakes-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Golf Club at Hilton Head Lakes",
+      "city": "Hardeeville",
+      "alias": "the-golf-club-at-hilton-head-lakes",
+      "aliasSource": "add-the",
+      "status": "confirmed",
+      "facility": {
+        "id": 6375,
+        "courseId": "54f14dbd0c8ad60378b04266",
+        "name": "The Golf Club at Hilton Head Lakes",
+        "address": "2130 Club Way, Hardeeville, SC 29927, USA",
+        "locality": "Hardeeville",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -81.01721839999999,
+          32.3252931
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        32,
+        24,
+        39
+      ]
+    },
+    {
+      "input": "The Landing at Pleasant Point",
+      "city": "Lady's Island",
+      "alias": "the-landing-at-pleasant-point",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "The Legends at Parris Island",
+      "city": "Parris Island",
+      "alias": "the-legends-at-parris-island",
+      "aliasSource": "exact",
+      "status": "confirmed",
+      "facility": {
+        "id": 9904,
+        "courseId": "54f14f270c8ad60378b05f52",
+        "name": "The Legends at Parris Island",
+        "address": "Building 299, Beaufort, SC 29905 US",
+        "locality": "Beaufort",
+        "region": "SC",
+        "country": "US",
+        "location": [
+          -80.678607,
+          32.306812
+        ],
+        "timeZone": "America/New_York"
+      },
+      "datesChecked": [
+        "2026-03-11",
+        "2026-03-07",
+        "2026-03-14"
+      ],
+      "teeTimes": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "input": "Olde Beaufort Golf Club",
+      "city": "Beaufort",
+      "alias": "olde-beaufort-golf-club",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Sanctuary Golf Club at Cat Island",
+      "city": "Beaufort",
+      "alias": "sanctuary-golf-club-at-cat-island",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Fripp Island Resort - Ocean Creek",
+      "city": "Fripp Island",
+      "alias": "fripp-island-resort-ocean-creek",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    },
+    {
+      "input": "Fripp Island Resort - Ocean Point",
+      "city": "Fripp Island",
+      "alias": "fripp-island-resort-ocean-point",
+      "aliasSource": "",
+      "status": "miss",
+      "exactStatus": 404
+    }
+  ],
+  "state": "SC",
+  "timestamp": "2026-03-06T11:06:31-07:00",
+  "totalInput": 32,
+  "validationDates": [
+    "2026-03-11",
+    "2026-03-07",
+    "2026-03-14"
+  ]
+}

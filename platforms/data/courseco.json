@@ -110,25 +110,25 @@
     "state": "CA"
   },
   {
-  "key": "riverside",
-  "metro": "austin",
-  "subdomain": "riverside",
-  "courseId": "RIVERSIDE",
-  "bookingUrl": "https://riverside.totaleintegrated.net",
-  "displayName": "Riverside Golf Course",
-  "city": "Austin",
-  "state": "TX"
-},
+    "key": "riverside",
+    "metro": "austin",
+    "subdomain": "riverside",
+    "courseId": "RIVERSIDE",
+    "bookingUrl": "https://riverside.totaleintegrated.net",
+    "displayName": "Riverside Golf Course",
+    "city": "Austin",
+    "state": "TX"
+  },
   {
-  "key": "meadowbrook-farms",
-  "metro": "houston",
-  "subdomain": "meadowbrookfarms",
-  "courseId": "MEADOWBROOKFARMS",
-  "bookingUrl": "https://meadowbrookfarms.totaleintegrated.com",
-  "displayName": "Meadowbrook Farms Golf Club",
-  "city": "Katy",
-  "state": "TX"
-},
+    "key": "meadowbrook-farms",
+    "metro": "houston",
+    "subdomain": "meadowbrookfarms",
+    "courseId": "MEADOWBROOKFARMS",
+    "bookingUrl": "https://meadowbrookfarms.totaleintegrated.com",
+    "displayName": "Meadowbrook Farms Golf Club",
+    "city": "Katy",
+    "state": "TX"
+  },
   {
     "key": "campus-commons",
     "metro": "sacramento",

@@ -1,0 +1,539 @@
+{
+  "confirmed": 0,
+  "elapsed": "1m32.860822792s",
+  "listedOnly": 0,
+  "misses": 21,
+  "platform": "chronogolf",
+  "results": [
+    {
+      "input": "Robert Trent Jones Golf Course at Palmetto Dunes",
+      "city": "Hilton Head Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Arthur Hills Golf Course at Palmetto Dunes",
+      "city": "Hilton Head Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "George Fazio Golf Course at Palmetto Dunes",
+      "city": "Hilton Head Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Harbour Town Golf Links",
+      "city": "Hilton Head Island",
+      "slug": "harbour-town-golf-links",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "d99eda5b-96f2-4f37-b0e0-30b3d1801e3f",
+        "id": 18247,
+        "name": "Harbour Town Golf Links",
+        "slug": "harbour-town-golf-links",
+        "city": "Hilton Head Island",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "11 Lighthouse Ln",
+        "phone": "+1 843-363-8385",
+        "website": "",
+        "postcode": "29928",
+        "defaultAffiliationTypeId": 87550,
+        "location": {
+          "lat": 0,
+          "lon": 0
+        },
+        "courses": []
+      }
+    },
+    {
+      "input": "Heron Point by Pete Dye",
+      "city": "Hilton Head Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Atlantic Dunes by Davis Love III",
+      "city": "Hilton Head Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Port Royal Golf Club - Barony",
+      "city": "Hilton Head Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Port Royal Golf Club - Robbers Row",
+      "city": "Hilton Head Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Shipyard Golf Club - Clipper",
+      "city": "Hilton Head Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Shipyard Golf Club - Galleon",
+      "city": "Hilton Head Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Shipyard Golf Club - Brigantine",
+      "city": "Hilton Head Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Oyster Reef Golf Club",
+      "city": "Hilton Head Island",
+      "slug": "oyster-reef-golf-course",
+      "slugSource": "swap-golf-course",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "9f40ed90-bd02-4ef6-be1a-852dc2af9362",
+        "id": 12929,
+        "name": "Oyster Reef Golf Course",
+        "slug": "oyster-reef-golf-course",
+        "city": "Hilton Head Island",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "155 High Bluff Road",
+        "phone": "843-681-1755",
+        "website": "http://www.oysterreefgolfclub.com",
+        "postcode": "29926",
+        "defaultAffiliationTypeId": 52538,
+        "location": {
+          "lat": 32.243745,
+          "lon": -80.714823
+        },
+        "courses": [
+          {
+            "id": 14816,
+            "name": "Oyster Reef",
+            "holes": 18,
+            "uuid": "6790ced1-f620-45f7-9d9c-415d55220e13"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Palmetto Hall - Arthur Hills",
+      "city": "Hilton Head Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Palmetto Hall - Robert Cupp",
+      "city": "Hilton Head Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Bear Creek Golf Club",
+      "city": "Hilton Head Island",
+      "slug": "bear-creek-golf-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "0f95956b-8c98-4f60-a3ad-de86dd2c6c5a",
+        "id": 12762,
+        "name": "Bear Creek Golf Club",
+        "slug": "bear-creek-golf-club-south-carolina",
+        "city": "Hilton Head Island",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "237 Whooping Crane Way",
+        "phone": "843-681-9510",
+        "website": "https://www.bearcreekhhi.com/",
+        "postcode": "29926",
+        "defaultAffiliationTypeId": 80831,
+        "location": {
+          "lat": 32.248866,
+          "lon": -80.729885
+        },
+        "courses": [
+          {
+            "id": 14597,
+            "name": "Bear Creek",
+            "holes": 18,
+            "uuid": "17a03282-59d5-46c1-874f-32eddc89b401"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Country Club of Hilton Head",
+      "city": "Hilton Head Island",
+      "slug": "country-club-of-hilton-head-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "27593bed-f7ec-49a9-828d-6206b89d09b6",
+        "id": 12810,
+        "name": "Country Club of Hilton Head",
+        "slug": "country-club-of-hilton-head",
+        "city": "Hilton Head Island",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "70 Skull Creek Drive",
+        "phone": "843-681-2582",
+        "website": "http://www.clubcorp.com/Clubs/Country-Club-of-Hilton-Head",
+        "postcode": "29926",
+        "defaultAffiliationTypeId": 52062,
+        "location": {
+          "lat": 32.24612,
+          "lon": -80.743417
+        },
+        "courses": [
+          {
+            "id": 14664,
+            "name": "Hilton Head",
+            "holes": 18,
+            "uuid": "19d7b6ec-81d1-47ea-a57b-6680433ae3e2"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Golden Bear Golf Club at Indigo Run",
+      "city": "Hilton Head Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Dolphin Head Golf Club",
+      "city": "Hilton Head Island",
+      "slug": "dolphin-head-golf-course",
+      "slugSource": "swap-golf-course",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "1c62a4d2-5172-46de-a2e4-04c1a965e9d6",
+        "id": 12828,
+        "name": "Dolphin Head Golf Course",
+        "slug": "dolphin-head-golf-course",
+        "city": "Hilton Head Island",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "56 High Bluff Road",
+        "phone": "(843) 681-5550",
+        "website": "http://www.dolphinheadgc.com",
+        "postcode": "29926",
+        "defaultAffiliationTypeId": 52134,
+        "location": {
+          "lat": 32.257129,
+          "lon": -80.716137
+        },
+        "courses": [
+          {
+            "id": 14684,
+            "name": "Dolphin Head",
+            "holes": 18,
+            "uuid": "382c7111-45bd-4217-aa67-734233b1e122"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Hilton Head National Golf Club",
+      "city": "Bluffton",
+      "slug": "hilton-head-national",
+      "slugSource": "core",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "6cd2b4ea-f8e9-4f57-b78b-73f3d276ec49",
+        "id": 12876,
+        "name": "Hilton Head National",
+        "slug": "hilton-head-national",
+        "city": "Bluffton",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "60 Hilton Head National Drive",
+        "phone": "(843) 842-5900",
+        "website": "http://www.golfhiltonheadnational.com",
+        "postcode": "29910",
+        "defaultAffiliationTypeId": 52326,
+        "location": {
+          "lat": 32.245133,
+          "lon": -80.828792
+        },
+        "courses": [
+          {
+            "id": 14746,
+            "name": "Weed 9",
+            "holes": 9,
+            "uuid": "4c23d4c2-e1b7-4f3c-ba78-3534773769f2"
+          },
+          {
+            "id": 14745,
+            "name": "Player/Weed",
+            "holes": 18,
+            "uuid": "5e94399d-ec6f-4a1c-9e68-fc541233cd99"
+          },
+          {
+            "id": 14744,
+            "name": "National/Weed",
+            "holes": 18,
+            "uuid": "01298338-f524-4909-9493-772f47024775"
+          },
+          {
+            "id": 14743,
+            "name": "National/Player",
+            "holes": 18,
+            "uuid": "a427aa29-1430-401d-a747-109604b9e0a2"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Old South Golf Links",
+      "city": "Bluffton",
+      "slug": "old-south-golf-links-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "8c937244-5239-4916-8f17-6f818b2ec4e0",
+        "id": 12926,
+        "name": "Old South Golf Links",
+        "slug": "old-south-golf-links",
+        "city": "Bluffton",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "50 Buckingham Plantation Drive",
+        "phone": "(843) 785-5353",
+        "website": "http://www.oldsouthgolf.com",
+        "postcode": "29910",
+        "defaultAffiliationTypeId": 52526,
+        "location": {
+          "lat": 32.2336,
+          "lon": -80.813823
+        },
+        "courses": [
+          {
+            "id": 14813,
+            "name": "Old South",
+            "holes": 18,
+            "uuid": "7e665243-915d-4866-a407-b05b7495fcf3"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Crescent Pointe Golf Club",
+      "city": "Bluffton",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Island West Golf Club",
+      "city": "Bluffton",
+      "slug": "island-west-golf-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "028c5d67-6f07-4e9b-9185-a28b36b6d57b",
+        "id": 12886,
+        "name": "Island West Golf Club",
+        "slug": "island-west-golf-club",
+        "city": "Bluffton",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "40 Island West Drive",
+        "phone": "(843) 815-6660",
+        "website": "http://www.islandwestgolf.net",
+        "postcode": "29910",
+        "defaultAffiliationTypeId": 52366,
+        "location": {
+          "lat": 32.284597,
+          "lon": -80.919278
+        },
+        "courses": [
+          {
+            "id": 14760,
+            "name": "Island West",
+            "holes": 18,
+            "uuid": "eca6c9bc-3fb5-4bae-bdb9-1f0faf428861"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Eagle's Pointe Golf Club",
+      "city": "Bluffton",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Rose Hill Golf Club",
+      "city": "Bluffton",
+      "slug": "rose-hill-golf-club-south-carolina",
+      "slugSource": "name+state",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "41c4ecaf-79b1-4d3c-941f-f0bd5fd85996",
+        "id": 12966,
+        "name": "Rose Hill Golf Club ",
+        "slug": "rose-hill-golf-club--2",
+        "city": "Bluffton",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "4 Clubhouse Drive",
+        "phone": "(843)757-9030",
+        "website": "https://rosehillgolfclub.com/",
+        "postcode": "29910",
+        "defaultAffiliationTypeId": 127524,
+        "location": {
+          "lat": 32.279517,
+          "lon": -80.883001
+        },
+        "courses": [
+          {
+            "id": 14863,
+            "name": "Rose Hill ",
+            "holes": 18,
+            "uuid": "2e01cd47-27e6-48ac-82bc-b6086db83d14"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Argent Lakes Golf Club",
+      "city": "Hardeeville",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Golf Club at Hilton Head Lakes",
+      "city": "Hardeeville",
+      "slug": "hilton-head-lakes",
+      "slugSource": "core",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "3f024f51-ec8e-4976-bc19-7205ab9429d0",
+        "id": 18256,
+        "name": "Hilton Head lakes",
+        "slug": "hilton-head-lakes",
+        "city": "Hardeeville",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "2130 Club Way",
+        "phone": "1 843-208-5353",
+        "website": "https://www.hiltonheadlakesgolf.com/",
+        "postcode": "29927",
+        "defaultAffiliationTypeId": 87870,
+        "location": {
+          "lat": 0,
+          "lon": 0
+        },
+        "courses": [
+          {
+            "id": 21367,
+            "name": "Hilton Head Lakes",
+            "holes": 18,
+            "uuid": "1f1ca23c-abe6-4f37-92a4-4792671b66e3"
+          }
+        ]
+      }
+    },
+    {
+      "input": "The Landing at Pleasant Point",
+      "city": "Lady's Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "The Legends at Parris Island",
+      "city": "Parris Island",
+      "slug": "the-legends-at-parris-island",
+      "slugSource": "name",
+      "status": "wrong_state",
+      "club": {
+        "uuid": "498f1179-86a1-4647-8e5e-bcad618d7e11",
+        "id": 19056,
+        "name": "The Legends Golf Course at Parris Island",
+        "slug": "the-legends-at-parris-island",
+        "city": "Parris Island",
+        "province": "South Carolina",
+        "country": "United States",
+        "address": "Belleau Wood Rd",
+        "phone": "(843) 228-2240",
+        "website": "https://southcarolina.usmc-mccs.org/recreation-fitness/legends-golf-course",
+        "postcode": "29905",
+        "defaultAffiliationTypeId": 117323,
+        "location": {
+          "lat": 32.30651,
+          "lon": -80.67858
+        },
+        "courses": [
+          {
+            "id": 23490,
+            "name": "The Legends",
+            "holes": 18,
+            "uuid": "7d6c4039-e0d1-4ada-8c73-4955d03bda1d"
+          }
+        ]
+      }
+    },
+    {
+      "input": "Olde Beaufort Golf Club",
+      "city": "Beaufort",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Sanctuary Golf Club at Cat Island",
+      "city": "Beaufort",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Fripp Island Resort - Ocean Creek",
+      "city": "Fripp Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    },
+    {
+      "input": "Fripp Island Resort - Ocean Point",
+      "city": "Fripp Island",
+      "slug": "",
+      "slugSource": "",
+      "status": "miss"
+    }
+  ],
+  "state": "SC",
+  "timestamp": "2026-03-06T11:06:40-07:00",
+  "totalInput": 32,
+  "validationDates": [
+    "2026-03-11",
+    "2026-03-07",
+    "2026-03-14"
+  ],
+  "wrongState": 11
+}

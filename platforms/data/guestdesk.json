@@ -32,4 +32,59 @@
       }
     ]
   }
+,
+  {
+  "key": "palmetto-dunes",
+  "metro": "hiltonhead",
+  "accountSlug": "palmettodunes",
+  "packageId": 0,
+  "bookingUrl": "https://www.palmettodunes.com/teetimes",
+  "courses": [
+    {
+      "courseId": 208313,
+      "displayName": "Palmetto Dunes - Arthur Hills",
+      "city": "Hilton Head Island",
+      "state": "SC"
+    },
+    {
+      "courseId": 208312,
+      "displayName": "Palmetto Dunes - George Fazio",
+      "city": "Hilton Head Island",
+      "state": "SC"
+    },
+    {
+      "courseId": 208314,
+      "displayName": "Palmetto Dunes - Robert Trent Jones",
+      "city": "Hilton Head Island",
+      "state": "SC"
+    }
+  ]
+},
+  {
+  "key": "sea-pines",
+  "metro": "hiltonhead",
+  "accountSlug": "SeaPinesResort",
+  "packageId": 0,
+  "bookingUrl": "https://www.seapines.com/golf-booking",
+  "courses": [
+    {
+      "courseId": 208308,
+      "displayName": "Sea Pines Resort - Atlantic Dunes",
+      "city": "Hilton Head Island",
+      "state": "SC"
+    },
+    {
+      "courseId": 208307,
+      "displayName": "Sea Pines Resort - Harbour Town Golf Links",
+      "city": "Hilton Head Island",
+      "state": "SC"
+    },
+    {
+      "courseId": 208309,
+      "displayName": "Sea Pines Resort - Heron Point",
+      "city": "Hilton Head Island",
+      "state": "SC"
+    }
+  ]
+}
 ]

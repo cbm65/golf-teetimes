@@ -1,0 +1,476 @@
+{
+  "confirmed": 0,
+  "elapsed": "1m51.928520667s",
+  "listedOnly": 0,
+  "missed": 32,
+  "platform": "quick18",
+  "results": [
+    {
+      "input": "Robert Trent Jones Golf Course at Palmetto Dunes",
+      "city": "Hilton Head Island",
+      "status": "miss",
+      "slugsTried": [
+        "roberttrentjonesgolfcourseatpalmettodunes",
+        "roberttrentjonesgolfcourseatpalmettodunesgolf",
+        "roberttrentjonesgolfcourseatpalmettodunesgolfclub",
+        "roberttrentjonesgolfcourseatpalmettodunesgolfcourse",
+        "roberttrentjonesgolfcourseatpalmettodunescc",
+        "robert-trent-jones-golf-course-at-palmetto-dunes"
+      ]
+    },
+    {
+      "input": "Arthur Hills Golf Course at Palmetto Dunes",
+      "city": "Hilton Head Island",
+      "status": "miss",
+      "slugsTried": [
+        "arthurhillsgolfcourseatpalmettodunes",
+        "arthurhillsgolfcourseatpalmettodunesgolf",
+        "arthurhillsgolfcourseatpalmettodunesgolfclub",
+        "arthurhillsgolfcourseatpalmettodunesgolfcourse",
+        "arthurhillsgolfcourseatpalmettodunescc",
+        "arthur-hills-golf-course-at-palmetto-dunes"
+      ]
+    },
+    {
+      "input": "George Fazio Golf Course at Palmetto Dunes",
+      "city": "Hilton Head Island",
+      "status": "miss",
+      "slugsTried": [
+        "georgefaziogolfcourseatpalmettodunes",
+        "georgefaziogolfcourseatpalmettodunesgolf",
+        "georgefaziogolfcourseatpalmettodunesgolfclub",
+        "georgefaziogolfcourseatpalmettodunesgolfcourse",
+        "georgefaziogolfcourseatpalmettodunescc",
+        "george-fazio-golf-course-at-palmetto-dunes"
+      ]
+    },
+    {
+      "input": "Harbour Town Golf Links",
+      "city": "Hilton Head Island",
+      "status": "miss",
+      "slugsTried": [
+        "harbourtown",
+        "harbourtowngolflinks",
+        "harbourtowngolf",
+        "harbourtowngolfclub",
+        "harbourtowngolfcourse",
+        "harbourtowncc",
+        "harbour-town-golf-links",
+        "harbour-town"
+      ]
+    },
+    {
+      "input": "Heron Point by Pete Dye",
+      "city": "Hilton Head Island",
+      "status": "miss",
+      "slugsTried": [
+        "heronpointbypetedye",
+        "heronpointbypetedyegolf",
+        "heronpointbypetedyegolfclub",
+        "heronpointbypetedyegolfcourse",
+        "heronpointbypetedyecc",
+        "heron-point-by-pete-dye"
+      ]
+    },
+    {
+      "input": "Atlantic Dunes by Davis Love III",
+      "city": "Hilton Head Island",
+      "status": "miss",
+      "slugsTried": [
+        "atlanticdunesbydavisloveiii",
+        "atlanticdunesbydavisloveiiigolf",
+        "atlanticdunesbydavisloveiiigolfclub",
+        "atlanticdunesbydavisloveiiigolfcourse",
+        "atlanticdunesbydavisloveiiicc",
+        "atlantic-dunes-by-davis-love-iii"
+      ]
+    },
+    {
+      "input": "Port Royal Golf Club - Barony",
+      "city": "Hilton Head Island",
+      "status": "miss",
+      "slugsTried": [
+        "portroyalgolfclubbarony",
+        "portroyalgolfclubbaronygolf",
+        "portroyalgolfclubbaronygolfclub",
+        "portroyalgolfclubbaronygolfcourse",
+        "portroyalgolfclubbaronycc",
+        "port-royal-golf-club---barony",
+        "portroyal",
+        "portroyalgolfclub",
+        "portroyalgolf"
+      ]
+    },
+    {
+      "input": "Port Royal Golf Club - Robbers Row",
+      "city": "Hilton Head Island",
+      "status": "miss",
+      "slugsTried": [
+        "portroyalgolfclubrobbersrow",
+        "portroyalgolfclubrobbersrowgolf",
+        "portroyalgolfclubrobbersrowgolfclub",
+        "portroyalgolfclubrobbersrowgolfcourse",
+        "portroyalgolfclubrobbersrowcc",
+        "port-royal-golf-club---robbers-row",
+        "portroyal",
+        "portroyalgolfclub",
+        "portroyalgolf"
+      ]
+    },
+    {
+      "input": "Shipyard Golf Club - Clipper",
+      "city": "Hilton Head Island",
+      "status": "miss",
+      "slugsTried": [
+        "shipyardgolfclubclipper",
+        "shipyardgolfclubclippergolf",
+        "shipyardgolfclubclippergolfclub",
+        "shipyardgolfclubclippergolfcourse",
+        "shipyardgolfclubclippercc",
+        "shipyard-golf-club---clipper",
+        "shipyard",
+        "shipyardgolfclub",
+        "shipyardgolf"
+      ]
+    },
+    {
+      "input": "Shipyard Golf Club - Galleon",
+      "city": "Hilton Head Island",
+      "status": "miss",
+      "slugsTried": [
+        "shipyardgolfclubgalleon",
+        "shipyardgolfclubgalleongolf",
+        "shipyardgolfclubgalleongolfclub",
+        "shipyardgolfclubgalleongolfcourse",
+        "shipyardgolfclubgalleoncc",
+        "shipyard-golf-club---galleon",
+        "shipyard",
+        "shipyardgolfclub",
+        "shipyardgolf"
+      ]
+    },
+    {
+      "input": "Shipyard Golf Club - Brigantine",
+      "city": "Hilton Head Island",
+      "status": "miss",
+      "slugsTried": [
+        "shipyardgolfclubbrigantine",
+        "shipyardgolfclubbrigantinegolf",
+        "shipyardgolfclubbrigantinegolfclub",
+        "shipyardgolfclubbrigantinegolfcourse",
+        "shipyardgolfclubbrigantinecc",
+        "shipyard-golf-club---brigantine",
+        "shipyard",
+        "shipyardgolfclub",
+        "shipyardgolf"
+      ]
+    },
+    {
+      "input": "Oyster Reef Golf Club",
+      "city": "Hilton Head Island",
+      "status": "miss",
+      "slugsTried": [
+        "oysterreef",
+        "oysterreefgolfclub",
+        "oysterreefgolf",
+        "oysterreefgolfcourse",
+        "oysterreefcc",
+        "oyster-reef-golf-club",
+        "oyster-reef"
+      ]
+    },
+    {
+      "input": "Palmetto Hall - Arthur Hills",
+      "city": "Hilton Head Island",
+      "status": "miss",
+      "slugsTried": [
+        "palmettohallarthurhills",
+        "palmettohallarthurhillsgolf",
+        "palmettohallarthurhillsgolfclub",
+        "palmettohallarthurhillsgolfcourse",
+        "palmettohallarthurhillscc",
+        "palmetto-hall---arthur-hills",
+        "palmettohall",
+        "palmettohallgolf",
+        "palmettohallgolfclub"
+      ]
+    },
+    {
+      "input": "Palmetto Hall - Robert Cupp",
+      "city": "Hilton Head Island",
+      "status": "miss",
+      "slugsTried": [
+        "palmettohallrobertcupp",
+        "palmettohallrobertcuppgolf",
+        "palmettohallrobertcuppgolfclub",
+        "palmettohallrobertcuppgolfcourse",
+        "palmettohallrobertcuppcc",
+        "palmetto-hall---robert-cupp",
+        "palmettohall",
+        "palmettohallgolf",
+        "palmettohallgolfclub"
+      ]
+    },
+    {
+      "input": "Bear Creek Golf Club",
+      "city": "Hilton Head Island",
+      "status": "miss",
+      "slugsTried": [
+        "bearcreek",
+        "bearcreekgolfclub",
+        "bearcreekgolf",
+        "bearcreekgolfcourse",
+        "bearcreekcc",
+        "bear-creek-golf-club",
+        "bear-creek"
+      ]
+    },
+    {
+      "input": "Country Club of Hilton Head",
+      "city": "Hilton Head Island",
+      "status": "miss",
+      "slugsTried": [
+        "countryclubofhiltonhead",
+        "countryclubofhiltonheadgolf",
+        "countryclubofhiltonheadgolfclub",
+        "countryclubofhiltonheadgolfcourse",
+        "countryclubofhiltonheadcc",
+        "country-club-of-hilton-head"
+      ]
+    },
+    {
+      "input": "Golden Bear Golf Club at Indigo Run",
+      "city": "Hilton Head Island",
+      "status": "miss",
+      "slugsTried": [
+        "goldenbeargolfclubatindigorun",
+        "goldenbeargolfclubatindigorungolf",
+        "goldenbeargolfclubatindigorungolfclub",
+        "goldenbeargolfclubatindigorungolfcourse",
+        "goldenbeargolfclubatindigoruncc",
+        "golden-bear-golf-club-at-indigo-run"
+      ]
+    },
+    {
+      "input": "Dolphin Head Golf Club",
+      "city": "Hilton Head Island",
+      "status": "miss",
+      "slugsTried": [
+        "dolphinhead",
+        "dolphinheadgolfclub",
+        "dolphinheadgolf",
+        "dolphinheadgolfcourse",
+        "dolphinheadcc",
+        "dolphin-head-golf-club",
+        "dolphin-head"
+      ]
+    },
+    {
+      "input": "Hilton Head National Golf Club",
+      "city": "Bluffton",
+      "status": "miss",
+      "slugsTried": [
+        "hiltonheadnational",
+        "hiltonheadnationalgolfclub",
+        "hiltonheadnationalgolf",
+        "hiltonheadnationalgolfcourse",
+        "hiltonheadnationalcc",
+        "hilton-head-national-golf-club",
+        "hilton-head-national"
+      ]
+    },
+    {
+      "input": "Old South Golf Links",
+      "city": "Bluffton",
+      "status": "miss",
+      "slugsTried": [
+        "oldsouth",
+        "oldsouthgolflinks",
+        "oldsouthgolf",
+        "oldsouthgolfclub",
+        "oldsouthgolfcourse",
+        "oldsouthcc",
+        "old-south-golf-links",
+        "old-south"
+      ]
+    },
+    {
+      "input": "Crescent Pointe Golf Club",
+      "city": "Bluffton",
+      "status": "miss",
+      "slugsTried": [
+        "crescentpointe",
+        "crescentpointegolfclub",
+        "crescentpointegolf",
+        "crescentpointegolfcourse",
+        "crescentpointecc",
+        "crescent-pointe-golf-club",
+        "crescent-pointe"
+      ]
+    },
+    {
+      "input": "Island West Golf Club",
+      "city": "Bluffton",
+      "status": "miss",
+      "slugsTried": [
+        "islandwest",
+        "islandwestgolfclub",
+        "islandwestgolf",
+        "islandwestgolfcourse",
+        "islandwestcc",
+        "island-west-golf-club",
+        "island-west"
+      ]
+    },
+    {
+      "input": "Eagle's Pointe Golf Club",
+      "city": "Bluffton",
+      "status": "miss",
+      "slugsTried": [
+        "eaglespointe",
+        "eaglespointegolfclub",
+        "eaglespointegolf",
+        "eaglespointegolfcourse",
+        "eaglespointecc",
+        "eagles-pointe-golf-club",
+        "eagle's-pointe"
+      ]
+    },
+    {
+      "input": "Rose Hill Golf Club",
+      "city": "Bluffton",
+      "status": "miss",
+      "slugsTried": [
+        "rosehill",
+        "rosehillgolfclub",
+        "rosehillgolf",
+        "rosehillgolfcourse",
+        "rosehillcc",
+        "rose-hill-golf-club",
+        "rose-hill"
+      ]
+    },
+    {
+      "input": "Argent Lakes Golf Club",
+      "city": "Hardeeville",
+      "status": "miss",
+      "slugsTried": [
+        "argentlakes",
+        "argentlakesgolfclub",
+        "argentlakesgolf",
+        "argentlakesgolfcourse",
+        "argentlakescc",
+        "argent-lakes-golf-club",
+        "argent-lakes"
+      ]
+    },
+    {
+      "input": "Golf Club at Hilton Head Lakes",
+      "city": "Hardeeville",
+      "status": "miss",
+      "slugsTried": [
+        "hiltonheadlakes",
+        "golfclubathiltonheadlakes",
+        "hiltonheadlakesgolf",
+        "hiltonheadlakesgolfclub",
+        "hiltonheadlakesgolfcourse",
+        "hiltonheadlakescc",
+        "golf-club-at-hilton-head-lakes",
+        "hilton-head-lakes"
+      ]
+    },
+    {
+      "input": "The Landing at Pleasant Point",
+      "city": "Lady's Island",
+      "status": "miss",
+      "slugsTried": [
+        "landingatpleasantpoint",
+        "thelandingatpleasantpoint",
+        "landingatpleasantpointgolf",
+        "landingatpleasantpointgolfclub",
+        "landingatpleasantpointgolfcourse",
+        "landingatpleasantpointcc",
+        "the-landing-at-pleasant-point",
+        "landing-at-pleasant-point"
+      ]
+    },
+    {
+      "input": "The Legends at Parris Island",
+      "city": "Parris Island",
+      "status": "miss",
+      "slugsTried": [
+        "legendsatparrisisland",
+        "thelegendsatparrisisland",
+        "legendsatparrisislandgolf",
+        "legendsatparrisislandgolfclub",
+        "legendsatparrisislandgolfcourse",
+        "legendsatparrisislandcc",
+        "the-legends-at-parris-island",
+        "legends-at-parris-island"
+      ]
+    },
+    {
+      "input": "Olde Beaufort Golf Club",
+      "city": "Beaufort",
+      "status": "miss",
+      "slugsTried": [
+        "oldebeaufort",
+        "oldebeaufortgolfclub",
+        "oldebeaufortgolf",
+        "oldebeaufortgolfcourse",
+        "oldebeaufortcc",
+        "olde-beaufort-golf-club",
+        "olde-beaufort"
+      ]
+    },
+    {
+      "input": "Sanctuary Golf Club at Cat Island",
+      "city": "Beaufort",
+      "status": "miss",
+      "slugsTried": [
+        "sanctuarygolfclubatcatisland",
+        "sanctuarygolfclubatcatislandgolf",
+        "sanctuarygolfclubatcatislandgolfclub",
+        "sanctuarygolfclubatcatislandgolfcourse",
+        "sanctuarygolfclubatcatislandcc",
+        "sanctuary-golf-club-at-cat-island"
+      ]
+    },
+    {
+      "input": "Fripp Island Resort - Ocean Creek",
+      "city": "Fripp Island",
+      "status": "miss",
+      "slugsTried": [
+        "frippislandresortoceancreek",
+        "frippislandresortoceancreekgolf",
+        "frippislandresortoceancreekgolfclub",
+        "frippislandresortoceancreekgolfcourse",
+        "frippislandresortoceancreekcc",
+        "fripp-island-resort---ocean-creek",
+        "frippislandresort",
+        "frippislandresortgolf",
+        "frippislandresortgolfclub"
+      ]
+    },
+    {
+      "input": "Fripp Island Resort - Ocean Point",
+      "city": "Fripp Island",
+      "status": "miss",
+      "slugsTried": [
+        "frippislandresortoceanpoint",
+        "frippislandresortoceanpointgolf",
+        "frippislandresortoceanpointgolfclub",
+        "frippislandresortoceanpointgolfcourse",
+        "frippislandresortoceanpointcc",
+        "fripp-island-resort---ocean-point",
+        "frippislandresort",
+        "frippislandresortgolf",
+        "frippislandresortgolfclub"
+      ]
+    }
+  ],
+  "state": "SC",
+  "timestamp": "2026-03-06T11:08:43-07:00",
+  "total": 32,
+  "wrongState": 0
+}

@@ -79,5 +79,14 @@
     "displayName": "Plumas Lake Golf Club",
     "city": "Olivehurst",
     "state": "CA"
-  }
+  },
+  {
+  "key": "dolphin-head",
+  "metro": "hiltonhead",
+  "courseId": "404856a4-65e4-44e9-90b0-ece55b06fa18",
+  "bookingUrl": "https://golfback.com/?utm_source=dolphin-head&utm_medium=website&utm_campaign=tee-times",
+  "displayName": "Dolphin Head Golf Club",
+  "city": "Hilton Head Island",
+  "state": "SC"
+}
 ]

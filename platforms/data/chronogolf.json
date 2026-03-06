@@ -780,5 +780,19 @@
   },
   "city": "Summerville",
   "state": "SC"
+},
+  {
+  "key": "rose-hill",
+  "metro": "hiltonhead",
+  "courseIds": "2e01cd47-27e6-48ac-82bc-b6086db83d14",
+  "clubId": "",
+  "numericCourseId": "",
+  "affiliationTypeId": "127524",
+  "bookingUrl": "https://www.chronogolf.com/club/rose-hill-golf-club--2",
+  "names": {
+    "Rose Hill ": "Rose Hill Golf Club"
+  },
+  "city": "Bluffton",
+  "state": "SC"
 }
 ]

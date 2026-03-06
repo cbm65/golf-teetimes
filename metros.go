@@ -139,6 +139,11 @@ var Metros = map[string]Metro{
 		Tagline: "Lowcountry Public Golf from Kiawah to Summerville",
 		Lat: 32.78, Lng: -79.93,
 	},
+	"hiltonhead": {
+		Name: "Hilton Head", Slug: "hiltonhead", State: "SC",
+		Tagline: "Lowcountry Golf from Hilton Head to Beaufort",
+		Lat: 32.22, Lng: -80.75,
+	},
 }
 
 func init() {

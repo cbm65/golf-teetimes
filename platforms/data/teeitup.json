@@ -4369,5 +4369,140 @@
   "displayName": "Pine Forest Country Club",
   "city": "Summerville",
   "state": "SC"
+},
+  {
+  "key": "oyster-reef",
+  "metro": "hiltonhead",
+  "alias": "oyster-reef-golf-club",
+  "facilityId": "13554",
+  "displayName": "Oyster Reef Golf Club",
+  "city": "Hilton Head Island",
+  "state": "SC"
+},
+  {
+  "key": "bear-creek",
+  "metro": "hiltonhead",
+  "alias": "bear-creek-golf-club",
+  "facilityId": "12306",
+  "displayName": "Bear Creek Golf Club",
+  "city": "Hilton Head Island",
+  "state": "SC"
+},
+  {
+  "key": "golden-bear-at-indigo-run",
+  "metro": "hiltonhead",
+  "alias": "golden-bear-golf-club-at-indigo-run",
+  "facilityId": "6803",
+  "displayName": "Golden Bear Golf Club at Indigo Run",
+  "city": "Hilton Head Island",
+  "state": "SC"
+},
+  {
+  "key": "old-south",
+  "metro": "hiltonhead",
+  "alias": "old-south-golf-links",
+  "facilityId": "6378",
+  "displayName": "Old South Golf Links",
+  "city": "Bluffton",
+  "state": "SC"
+},
+  {
+  "key": "crescent-pointe",
+  "metro": "hiltonhead",
+  "alias": "crescent-pointe-golf-club",
+  "facilityId": "6379",
+  "displayName": "Crescent Pointe Golf Club",
+  "city": "Bluffton",
+  "state": "SC"
+},
+  {
+  "key": "island-west",
+  "metro": "hiltonhead",
+  "alias": "island-west-golf-club",
+  "facilityId": "6377",
+  "displayName": "Island West Golf Club",
+  "city": "Bluffton",
+  "state": "SC"
+},
+  {
+  "key": "eagles-pointe",
+  "metro": "hiltonhead",
+  "alias": "eagles-pointe-golf-club",
+  "facilityId": "6380",
+  "displayName": "Eagle's Pointe Golf Club",
+  "city": "Bluffton",
+  "state": "SC"
+},
+  {
+  "key": "hilton-head-lakes",
+  "metro": "hiltonhead",
+  "alias": "the-golf-club-at-hilton-head-lakes",
+  "facilityId": "6375",
+  "displayName": "The Golf Club at Hilton Head Lakes",
+  "city": "Hardeeville",
+  "state": "SC"
+},
+  {
+  "key": "legends-at-parris-island",
+  "metro": "hiltonhead",
+  "alias": "the-legends-at-parris-island",
+  "facilityId": "9904",
+  "displayName": "The Legends at Parris Island",
+  "city": "Parris Island",
+  "state": "SC"
+},
+  {
+  "key": "port-royal-robbers-row",
+  "metro": "hiltonhead",
+  "alias": "heritage-golf-collection-2",
+  "facilityId": "13548",
+  "displayName": "Port Royal Golf Club - Robber's Row",
+  "city": "Hilton Head Island",
+  "state": "SC"
+},
+  {
+  "key": "port-royal-barony",
+  "metro": "hiltonhead",
+  "alias": "heritage-golf-collection-2",
+  "facilityId": "13550",
+  "displayName": "Port Royal Golf Club - Barony",
+  "city": "Hilton Head Island",
+  "state": "SC"
+},
+  {
+  "key": "palmetto-hall-arthur-hills",
+  "metro": "hiltonhead",
+  "alias": "heritage-golf-collection-2",
+  "facilityId": "13552",
+  "displayName": "Palmetto Hall - Arthur Hills",
+  "city": "Hilton Head Island",
+  "state": "SC"
+},
+  {
+  "key": "palmetto-hall-robert-cupp",
+  "metro": "hiltonhead",
+  "alias": "heritage-golf-collection-2",
+  "facilityId": "13551",
+  "displayName": "Palmetto Hall - Robert Cupp",
+  "city": "Hilton Head Island",
+  "state": "SC"
+},
+  {
+  "key": "shipyard",
+  "metro": "hiltonhead",
+  "alias": "heritage-golf-collection-2",
+  "facilityId": "13556",
+  "displayName": "Shipyard Golf Club",
+  "city": "Hilton Head Island",
+  "state": "SC"
+},
+  {
+  "key": "landing-at-pleasant-point",
+  "metro": "hiltonhead",
+  "alias": "tgc-at-pleasant-point",
+  "facilityId": "13036",
+  "displayName": "The Landing at Pleasant Point",
+  "city": "Beaufort",
+  "state": "SC"
 }
 ]

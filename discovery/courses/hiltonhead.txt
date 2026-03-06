@@ -1,0 +1,74 @@
+# Hilton Head Area Public Golf Courses
+# Format: Course Name | City
+# Includes public, semi-private, and resort courses within ~1 hour of Hilton Head Island
+# All courses in SC unless noted
+
+# === Hilton Head Island — Palmetto Dunes Resort (public resort) ===
+Robert Trent Jones Golf Course at Palmetto Dunes | Hilton Head Island
+Arthur Hills Golf Course at Palmetto Dunes | Hilton Head Island
+George Fazio Golf Course at Palmetto Dunes | Hilton Head Island
+
+# === Hilton Head Island — Sea Pines Resort (public resort) ===
+Harbour Town Golf Links | Hilton Head Island
+Heron Point by Pete Dye | Hilton Head Island
+Atlantic Dunes by Davis Love III | Hilton Head Island
+
+# === Hilton Head Island — Heritage Collection (public resort) ===
+Port Royal Golf Club - Barony | Hilton Head Island
+Port Royal Golf Club - Robbers Row | Hilton Head Island
+Shipyard Golf Club - Clipper | Hilton Head Island
+Shipyard Golf Club - Galleon | Hilton Head Island
+Shipyard Golf Club - Brigantine | Hilton Head Island
+Oyster Reef Golf Club | Hilton Head Island
+Palmetto Hall - Arthur Hills | Hilton Head Island
+Palmetto Hall - Robert Cupp | Hilton Head Island
+
+# === Hilton Head Island — Other Public/Semi-Private ===
+Bear Creek Golf Club | Hilton Head Island
+Country Club of Hilton Head | Hilton Head Island
+Golden Bear Golf Club at Indigo Run | Hilton Head Island
+Dolphin Head Golf Club | Hilton Head Island
+
+# === Bluffton / Off-Island ===
+Hilton Head National Golf Club | Bluffton
+Old South Golf Links | Bluffton
+Crescent Pointe Golf Club | Bluffton
+Island West Golf Club | Bluffton
+Eagle's Pointe Golf Club | Bluffton
+Rose Hill Golf Club | Bluffton
+
+# === Sun City Hilton Head (public access) ===
+Argent Lakes Golf Club | Hardeeville
+
+# === Hardeeville ===
+Golf Club at Hilton Head Lakes | Hardeeville
+
+# === Beaufort / Lady's Island ===
+The Landing at Pleasant Point | Lady's Island
+The Legends at Parris Island | Parris Island
+Olde Beaufort Golf Club | Beaufort
+Sanctuary Golf Club at Cat Island | Beaufort
+
+# === Fripp Island (resort guest access) ===
+Fripp Island Resort - Ocean Creek | Fripp Island
+Fripp Island Resort - Ocean Point | Fripp Island
+
+# === EXCLUDED ===
+# Okatie Creek Golf Club — Sun City residents only (private)
+# Hidden Cypress Golf Club — Sun City residents only (private)
+# Belfair Golf Club — Private
+# Berkeley Hall Club — Private
+# Colleton River Club — Private
+# Hampton Hall Golf Club — Private
+# Long Cove Club — Private
+# Moss Creek Golf Club — Private
+# Old Carolina Golf Club — Private
+# Oldfield Club — Private
+# Sea Pines Country Club — Private (separate from Sea Pines Resort)
+# Spanish Wells Golf Club — Private
+# Wexford Plantation — Private
+# Callawassie Island Club — Private
+# Dataw Island Club — Private
+# May River Golf Club at Palmetto Bluff — Resort guests only (very limited access)
+# Spring Island / Old Tabby Links — Private
+# Pinecrest Golf Club — Closed as of Dec 2025
