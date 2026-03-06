@@ -37,22 +37,10 @@ For metros spanning two states (e.g. Charlotte NC/SC), run each script for both 
 3. Name match actually correct? → SKIP if wrong course
 4. Clean display name, derive key, add to appropriate JSON file
 
-## Phase 3: Gap Fill (Automated + Manual)
+## Phase 3: Gap Fill (Manual)
 
-**Step 1: Run the website discovery tool** to automatically identify platforms for uncovered courses:
+For courses not found by automated discovery, manually capture HAR files:
 
-```bash
-go run cmd/discover-websites/main.go {metro} {STATE} -f discovery/courses/{metro}.txt
-```
-
-The tool fetches each uncovered course's website, scans the HTML for known platform domains (ForeUp, TeeItUp, Chronogolf, etc.), follows booking links one level deep, and extracts config fields where possible. Output buckets:
-
-- **Ready** — platform identified, all config extracted → append to JSON directly
-- **Partial** — platform identified, some fields missing → fill missing fields via HAR or API probe
-- **Needs URL** — couldn't find the course website → add URL as 3rd column in course list and re-run: `Course Name | City | https://booking-url.com`
-- **Unknown** — website found but no known platform detected → manual HAR capture (Step 2)
-
-**Step 2: Manual HAR capture** for courses the tool couldn't identify:
 1. Visit the course's booking page in a browser (incognito)
 2. Capture a HAR file of the tee time loading
 3. Give Claude the HAR — Claude identifies the platform and extracts config
@@ -393,7 +381,6 @@ The `-d` path **must** point to the repo root (`~/golf-teetimes/`), not `~/`.
 | CourseCo | `discover-courseco` | `totaleintegrated.net` in URLs |
 | Prophet | None (**DISABLED** — AWS WAF) | `prophetservices.com` in URLs |
 
-**Cross-platform tool**: `discover-websites` (Phase 3) scans course websites and auto-detects ALL platforms above from HTML. Run it after Phase 2 to fill gaps before resorting to manual HAR capture.
 
 ## HAR Capture Tips
 
