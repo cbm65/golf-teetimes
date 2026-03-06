@@ -22,7 +22,6 @@ Run each platform's discovery tool against the course list. Each tool probes its
 # Run in this order (TeeItUp first — establishes baseline):
 go run cmd/discover-teeitup/main.go {STATE} -f discovery/courses/{metro}.txt
 go run cmd/discover-chronogolf/main.go {STATE} -f discovery/courses/{metro}.txt
-go run cmd/discover-foreup/main.go --match {STATE} -f discovery/courses/{metro}.txt
 go run cmd/discover-quick18/main.go {STATE} -f discovery/courses/{metro}.txt
 go run cmd/discover-courseco/main.go {STATE} -f discovery/courses/{metro}.txt
 go run cmd/discover-cpsgolf/main.go {STATE} -f discovery/courses/{metro}.txt
@@ -379,7 +378,7 @@ The `-d` path **must** point to the repo root (`~/golf-teetimes/`), not `~/`.
 | Platform | Discovery Script | HAR Identification |
 |----------|-----------------|-------------------|
 | TeeItUp | `discover-teeitup` | `kenna.io` or `teeitup.golf`/`teeitup.com` in URLs |
-| ForeUP | `discover-foreup` | `foreupsoftware.com` in URLs |
+| ForeUP | None | `foreupsoftware.com` in URLs |
 | Chronogolf | `discover-chronogolf` | `chronogolf.com` in URLs |
 | Quick18 | `discover-quick18` | `quick18.com` in URLs |
 | CPS Golf | `discover-cpsgolf` | `cps.golf` in URLs (modern: `/onlineresweb/`, legacy V3: skip) |
